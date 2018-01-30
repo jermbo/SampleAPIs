@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FuturamaDB | Add Characters</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <h3><a href="index.html">Futurama DB</a></h3>
+        <nav>
+            <a href="characters.html">Characters</a>
+        </nav>
+    </div>
+    <div class="form-area">
+        <div class="form-group third">
+            <label>First Name</label>
+            <input class="form-control" type="text" placeholder="First Name" name="name.first" />
+        </div>
+        <div class="form-group third">
+            <label>Middle Name</label>
+            <input class="form-control" type="text" placeholder="Middle Name" name="name.middle" />
+        </div>
+        <div class="form-group third">
+            <label>Last Name</label>
+            <input class="form-control" type="text" placeholder="Last Name" name="name.last" />
+        </div>
+        <div class="form-group quarter">
+            <label>Age</label>
+            <input class="form-control" type="text" placeholder="Age" name="info.age" />
+        </div>
+        <div class="form-group quarter">
+            <label>Gender</label>
+            <input class="form-control" type="text" placeholder="Gender" name="info.gender" />
+        </div>
+        <div class="form-group quarter">
+            <label>Species</label>
+            <input class="form-control" type="text" placeholder="Species" name="info.species" />
+        </div>
+        <div class="form-group quarter">
+            <label>Occupation</label>
+            <input class="form-control" type="text" placeholder="Occupation" name="occupation" />
+        </div>
+        <div class="form-group">
+            <label>Sayings
+                <small>Separate your sayings by a semicolon and a space.</small>
+            </label>
+            <textarea class="form-control" name="sayings" cols="30" rows="10"></textarea>
+        </div>
+        <button class="btn btn-block btn-primary half" id="submit">Submit Form</button>
+        <button class="btn btn-block btn-warning half" id="display">Display Data</button>
+    </div>
+
+</body>
+
+</html>

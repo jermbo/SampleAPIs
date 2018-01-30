@@ -1,0 +1,1457 @@
+{
+    "info": {
+      "synopsis": "Philip J. Fry is a 25 year old delivery boy living in New York City who is cryogenically frozen on New Year's 1999 for 1000 years, where he wakes up in New New York City on December 31, 2999. There, he meets Turanga Leela, a tough but loving, beautiful one-eyed alien; and Bender, an alcohol-powered bending robot who is addicted to liquor, cigars, stealing, amongst other things. Eventually, they all meet up with Fry's Great, Great, Great, etc... Nephew, Hubert J. Farnsworth. Farnsworth is a very old man who is a genius but is very senile and forgetful. Fry, Leela, and Bender wind up working for Farnsworth's Planet Express Delivery Service. They then meet their co-workers; Amy Wong, who is a Martian intern who comes from a rich family, but is still a human who is very hip. Also, there is Hermes Conrad, who manages the delivery service and is pretty strict. Hermes seems Jamaican in voice and look. And finally, there's Dr. John Zoidberg, a lobster-like alien who is the crew's doctor. Unfortunately, he knows nothing about humans. Fry, Leela, Bender, and sometimes Amy and Dr. Zoidberg travel around the universe risking life and limb delivering packages and performing charitable tasks for tax deductions.",
+      "yearsAired": "1999–2013",
+      "creators": [
+        {
+          "name": "David X. Cohen",
+          "url-": "http://www.imdb.com/name/nm0169326"
+        },
+        {
+          "name": "Matt Groening",
+          "url": "http://www.imdb.com/name/nm0004981"
+        }
+      ]
+    },
+    "characters": [
+      {
+        "name":{
+          "first": "Philip",
+          "middle": "Jay",
+          "last": "Fry"
+        },
+        "gender": "Male",
+        "species": "Human",
+        "homePlanet": "Earth",
+        "occupation": "Intergalactic Delivery Boy",
+        "sayings": [
+          "Shut up and take my money!",
+          "I'm walking on sunshine, woah oh oooh",
+          "This is how we do it. Pick your nose and chew it",
+          "wow! I never would have thought of that."
+        ],
+        "id": 1,
+        "age": "25"
+      },
+      {
+        "name":{
+          "first": "Turanga",
+          "middle": "",
+          "last": "Leela"
+        },
+        "age": "32",
+        "gender": "Female",
+        "species": "Mutant",
+        "homePlanet": "Earth",
+        "occupation": "Captain and pilet",
+        "sayings": [
+          "You gotta do what you gotta do",
+          "I don't have good depth perception "
+        ],
+        "id": 2
+      },
+      {
+        "name":{
+          "first": "Bender",
+          "middle": "Bending",
+          "last": "Rodríguez"
+        },
+        "age": "25",
+        "gender": "Male",
+        "species": "Robot",
+        "homePlanet": "Earth",
+        "occupation": "Planet Express Worker",
+        "sayings": [
+          "Bite my shiny metal ass!",
+          "Bender is Great!"
+        ],
+        "id": 3
+      },
+      {
+        "name":{
+          "first": "Hubert",
+          "middle": "J",
+          "last": "Farnsworth"
+        },
+        "age": "210",
+        "gender": "Male",
+        "species": "Human",
+        "homePlanet": "Earth",
+        "occupation": "Scientist",
+        "sayings": [
+          "Good news everyone!",
+          "I don't want to live on this planet any more"
+        ],
+        "id": 4
+      },
+      {
+        "name":{
+          "first": "Amy",
+          "middle": "",
+          "last": "Wong"
+        },
+        "age": "30",
+        "gender": "Female",
+        "species": "Martian",
+        "homePlanet": "Mars",
+        "occupation": "Intern",
+        "sayings": [
+          "Dad! Why do you think I always wear these dumb boy sweatsuits?"
+        ],
+        "id": 5
+      },
+      {
+        "name":{
+          "first": "Hermes",
+          "middle": "",
+          "last": "Conrad"
+        },
+        "age": "52",
+        "gender": "Male",
+        "species": "Human",
+        "homePlanet": "Earth",
+        "occupation": "Bureaucrat and Accountant",
+        "sayings": [
+          "My Manwich!"
+        ],
+        "id": 6
+      },
+      {
+        "name":{
+          "first": "Carol",
+          "middle": "",
+          "last": "Mom"
+        },
+        "age": "150",
+        "gender": "Femal",
+        "species": "Human",
+        "homePlanet": "Earth",
+        "occupation": "Mega-tycoon owner of Mom's Friendly Robot Company",
+        "sayings": [
+          "Jam a bastard in it, you crap!"
+        ],
+        "id": 7
+      }
+    ],
+    "species": [
+      {
+        "id": 1,
+        "type": "Human"
+      },
+      {
+        "id": 2,
+        "type": "Ailen"
+      },
+      {
+        "id": 3,
+        "type": "Mutant"
+      },
+      {
+        "id": 4,
+        "type": "Robot"
+      },
+      {
+        "id": 5,
+        "type": "Head"
+      },
+      {
+        "id": 6,
+        "type": "Monster"
+      }
+    ],
+    "planets": [
+      {
+        "id": 1,
+        "name": "Earth",
+        "location": "Milky Way Gallaxy",
+        "demonym": "Earthican or Earthling",
+        "nativeSpecies": "Human",
+        "memberOf": "The Democratic Order of Planets (DOOP)"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1,
+        "name": "Billy West",
+        "born": "04/15/1952",
+        "died": "",
+        "bio": {
+          "text": "",
+          "url": "http://www.imdb.com/name/nm0921942"
+        },
+        "characters": [
+          {
+            "name": "Fry",
+            "characterID": 1
+          }
+        ]
+      }
+    ],
+    "episodes": [
+      {
+        "number": "1 - 1",
+        "title": "Space Pilot 3000",
+        "writers": "D.X. Cohen, M. Groening",
+        "originalAirDate": "March 28, 1999",
+        "desc": "A pizza delivery boy named Philip J. Fry accidentally stumbles into a cryogenic tube on Dеcember 31, 1999 and awakens on New Year's Eve in the year 2999, where he meets a mutant career counselor named Leela, an alcoholic robot named Bender, and his distant nephew Professor Farnsworth.",
+        "id": 1
+      },
+      {
+        "number": "2 - 2",
+        "title": "The Series Has Landed",
+        "writers": "Ken Keeler",
+        "originalAirDate": "April 4, 1999",
+        "desc": "After delivering a package to an amusement park on the moon, Fry shows Leela how to appreciate the celestial body while Bender and Amy must try to recover the keys to the Planet Express ship.",
+        "id": 2
+      },
+      {
+        "number": "3 - 3",
+        "title": "I, Roommate",
+        "writers": "Eric Horsted",
+        "originalAirDate": "April 6, 1999",
+        "desc": "Fry gets kicked out of the Planet Express building and tries to find a place to live. When Bender's antenna wreaks havoc on the TV reception, Bender is kicked out of their new apartment and Fry must decide whether or not a place to live is more important than his best friend.",
+        "id": 3
+      },
+      {
+        "number": "4 - 4",
+        "title": "Love's Labours Lost in Space",
+        "writers": "Brian Kelley",
+        "originalAirDate": "April 13, 1999",
+        "desc": "Leela meets Captain Zapp Brannigan on a mission to rescue animals from a hollow planet, depleted of all the dark matter that once filled it, on the verge of collapse, but Brannigan jails the crew for interfering. This episode sees the introduction of Nibbler.",
+        "id": 4
+      },
+      {
+        "number": "5 - 5",
+        "title": "Fear of a Bot Planet",
+        "writers": "H. Lombard, E. Gore",
+        "originalAirDate": "April 20, 1999",
+        "desc": "Bender delivers a package to a Chapek 9 inhabited solely by human-hating robots and becomes an idol to them.",
+        "id": 5
+      },
+      {
+        "number": "6 - 6",
+        "title": "A Fishful of Dollars",
+        "writers": "Patric M. Verrone",
+        "originalAirDate": "April 27, 1999",
+        "desc": "When Fry discovers that he's a billionaire thanks to a thousand years of compound interest on 93 cents, he uses the money to buy back things from his the 20th century. This includes spending millions on a can of anchovies, which are extinct in the year 3000. Mom, head of Mom's Friendly Robot Company, wants the anchovies for very different reasons.",
+        "id": 6
+      },
+      {
+        "number": "7 - 7",
+        "title": "My Three Suns",
+        "writers": "J. Stewart Burns",
+        "originalAirDate": "May 4, 1999",
+        "desc": "Fry becomes emperor of a Trisol of water-based beings after he accidentally drinks the former ruler, Bont.",
+        "id": 7
+      },
+      {
+        "number": "8 - 8",
+        "title": "A Big Piece of Garbage",
+        "writers": "Lewis Morton",
+        "originalAirDate": "May 11, 1999",
+        "desc": "A 21st-century garbage ball threatens to fall back to Earth and destroy New New York. Fry saves the day with his 20th-century garbage-making skills.",
+        "id": 8
+      },
+      {
+        "number": "9 - 9",
+        "title": "Hell Is Other Robots",
+        "writers": "Eric Kaplan",
+        "originalAirDate": "May 18, 1999",
+        "desc": "To break his addiction to electricity, Bender finds religion by becoming a member of the Temple of Robotology. But when he reverts to his old ways, he is sent to Robot Hell.",
+        "id": 9
+      },
+      {
+        "number": "10 - 1",
+        "title": "A Flight to Remember",
+        "writers": "E. Horsted",
+        "originalAirDate": "September 26, 1999",
+        "desc": "The Planet Express crew is sent on board the Titanic on a company vacation. Zapp Brannigan later steers the ship near a black hole. Bender falls in love with a countess and develops a strong commitment for her",
+        "id": 10
+      },
+      {
+        "number": "11 - 2",
+        "title": "Mars University",
+        "writers": "J. Stewart Burns",
+        "originalAirDate": "October 3, 1999",
+        "desc": "Fry goes to college so he can successfully drop out, but ends up becoming roommates with a monkey made intelligent by Professor Farnsworth. Fry gets so jealous of the monkey that he decides to play a cruel trick on him, which makes him doubt his sentience. Bender joins the Robot House and pulls a series of pranks on the college board.",
+        "id": 11
+      },
+      {
+        "number": "12 - 3",
+        "title": "When Aliens Attack",
+        "writers": "Ken Keeler",
+        "originalAirDate": "November 7, 1999",
+        "desc": "The Omicronians invade Earth, demanding to see the lost final episode of the 1999 TV show Single Female Lawyer which was cut off after Fry accidentally spilled beer on the TV broadcast console in 1999. The Planet Express crew must re-enact the episode to appease the invading aliens led by wannabe alien overlord Lrrr.",
+        "id": 12
+      },
+      {
+        "number": "13 - 4",
+        "title": "Fry & the Slurm Factory",
+        "writers": "Lewis Morton",
+        "originalAirDate": "November 14, 1999",
+        "desc": "When Fry wins a free tour of the Slurm soda factory, he and his friends split off from the tour group and make a horrifying discovery concerning the secret ingredient that gives Slurm its famous addictiveness.",
+        "id": 13
+      },
+      {
+        "number": "14 - 5",
+        "title": "I Second That Emotion",
+        "writers": "Patric Verrone",
+        "originalAirDate": "November 21, 1999",
+        "desc": "Professor Farnsworth installs an empathy chip in Bender after the inconsiderate robot flushes Nibbler down the toilet. With his newfound emotions, a concerned Bender ventures into the mutant-infested sewers to rescue Leela's beloved pet.",
+        "id": 14
+      },
+      {
+        "number": "15 - 6",
+        "title": "Brannigan, Begin Again",
+        "writers": "Lewis Morton",
+        "originalAirDate": "November 28, 1999",
+        "desc": "Upon destroying the new DOOP headquarters, Zapp Brannigan and Kif find themselves court-martialed and dishonorably discharged. They take up jobs at Planet Express, where Kif learns what respect feels like and Zapp incites a mutiny against Leela.",
+        "id": 15
+      },
+      {
+        "number": "16 - 7",
+        "title": "A Head in the Polls",
+        "writers": "J. Stewart Burns",
+        "originalAirDate": "December 12, 1999",
+        "desc": "When the price of titanium skyrockets, Bender pawns his titanium-rich body and lives the high life as just a head. But when the head in a jar of Richard M. Nixon uses Bender's body to run for election for President of Earth, Bender vows to get his rightful property back.",
+        "id": 16
+      },
+      {
+        "number": "17 - 8",
+        "title": "Xmas Story",
+        "writers": "David X. Cohen",
+        "originalAirDate": "December 19, 1999",
+        "desc": "To apologize for an inconsiderate remark, Fry searches for the perfect Xmas gift for Leela, all the while trying to avoid the murderous Santa Claus Robot, whose standards for niceness are astronomically high.",
+        "id": 17
+      },
+      {
+        "number": "18 - 9",
+        "title": "Why Must I Be a Crustacean in Love?",
+        "writers": "Eric Kaplan",
+        "originalAirDate": "February 6, 2000",
+        "desc": "When Zoidberg runs amok during the Decapodian mating season, Fry sets out to teach him how to woo a mate but things backfire when Zoidberg's desired mate starts cheating on him and falls for Fry instead, and Zoidberg challenges Fry to a battle to the death.",
+        "id": 18
+      },
+      {
+        "number": "19 - 10",
+        "title": "Put Your Head on My Shoulders",
+        "writers": "Ken Keeler",
+        "originalAirDate": "February 13, 2000",
+        "desc": "Fry's brief relationship with Amy is forcibly prolonged when a near-fatal car crash leaves Fry's head grafted to Amy's left shoulder. Meanwhile, Bender cashes in on Valentine's Day by starting a dating service.",
+        "id": 19
+      },
+      {
+        "number": "20 - 11",
+        "title": "The Lesser of Two Evils",
+        "writers": "Eric Horsted",
+        "originalAirDate": "February 20, 2000",
+        "desc": "Fry suspects Bender's new buddy, a bending unit named Flexo who looks almost exactly like Bender, of being pure evil. When a valuable atom of Jumbonium goes missing, Fry suspects Flexo, but can't tell which robot is which.",
+        "id": 20
+      },
+      {
+        "number": "21 - 12",
+        "title": "Raging Bender",
+        "writers": "Lewis Morton",
+        "originalAirDate": "February 27, 2000",
+        "desc": "Bender is the featured attraction in the Ultimate Robot Fighting League, but his glory is short-lived when he is instructed to intentionally lose his next match. Leela vows to lead Bender to victory, in an effort to show up Master Fnuog, her ex-martial arts teacher/rival.",
+        "id": 21
+      },
+      {
+        "number": "22 - 13",
+        "title": "A Bicyclops Built for Two",
+        "writers": "Eric Kaplan",
+        "originalAirDate": "March 19, 2000",
+        "desc": "Leela meets Alkazar, who claims to be the only other remaining cyclops in the universe. But when Alcazar invites Leela back to his home planet and treats her like a slave, Fry suspects that something is amiss. He tells Leela that Alkazar is actually a jerk, which forces Leela to decide between being happy and saving the Cyclops race",
+        "id": 22
+      },
+      {
+        "number": "23 - 14",
+        "title": "How Hermes Requisitioned His Groove Back",
+        "writers": "Bill Odenkirk",
+        "originalAirDate": "April 2, 2000",
+        "desc": "When Hermes takes a stress-relieving vacation, replacement bureaucrat Morgan Proctor becomes infatuated with Fry. Bender threatens to publicize their affair, but Morgan removes Bender's memory and hides it within the cavernous Central Bureaucracy.",
+        "id": 23
+      },
+      {
+        "number": "24 - 15",
+        "title": "A Clone of My Own",
+        "writers": "Patric M. Verrone",
+        "originalAirDate": "April 9, 2000",
+        "desc": "Professor Farnsworth unveils his clone, Cubert Farnsworth, whom he plans to leave everything to upon his retirement. But Cubert wants no part of Farnsworth's lifestyle, prompting the professor into a premature retirement on the Near Death Star.",
+        "id": 24
+      },
+      {
+        "number": "25 - 16",
+        "title": "The Deep South",
+        "writers": "J. Stewart Burns",
+        "originalAirDate": "April 16, 2000",
+        "desc": "A fishing trip over the ocean takes a turn for the worse when a colossal mouth bass pulls the Planet Express ship to the bottom of the sea. There, Fry falls in love with a mermaid named Umbriel, and the crew discovers the sunken city of Atlanta, Georgia.",
+        "id": 25
+      },
+      {
+        "number": "26 - 17",
+        "title": "Bender Gets Made",
+        "writers": "Eric Horsted",
+        "originalAirDate": "April 30, 2000",
+        "desc": "Bender takes a new job in the Robot Mafia, but his loyalty is tested when he goes along on the robotic gangster's efforts to rob the Planet Express ship.",
+        "id": 26
+      },
+      {
+        "number": "27 - 18",
+        "title": "The Problem with Popplers",
+        "writers": "P. M. Verrone, D. Henry",
+        "originalAirDate": "May 7, 2000",
+        "desc": "The crew discovers an irresistible source of food on a distant planet, and brings it back to Earth to be sold at the Fishy Joe's restaurant chain. But when it's discovered that the so-called Popplers are actually Omicronian babies. This causes the angry Omicronian race to invade earth in retaliation for their children being eaten the Omicronians demand recompense by having permission to eat Leela, who unfortunatley started the Poppler chain.",
+        "id": 27
+      },
+      {
+        "number": "28 - 19",
+        "title": "Mother's Day",
+        "writers": "Lewis Morton",
+        "originalAirDate": "May 14, 2000",
+        "desc": "Mom reprograms the world's robots to rebel against humanity. The only hope of salvation is Mom's old flame - Professor Farnsworth, who must rekindle his romance with Mom in order to save mankind.",
+        "id": 28
+      },
+      {
+        "number": "29 - 20",
+        "title": "Anthology of Interest I",
+        "writers": "E. Rogers, K. Keeler, D. Cohen",
+        "originalAirDate": "May 21, 2000",
+        "desc": "The Professor's What-If Machine simulates Bender, Leela and Fry's wishes. Bender discovers what it would be like if he were 500 feet tall, Leela discovers what it would be like if she were more impulsive, and Fry discovers what would happen if he never came to the future.",
+        "id": 29
+      },
+      {
+        "number": "30 - 1",
+        "title": "The Honking",
+        "writers": "Ken Keeler",
+        "originalAirDate": "November 5, 2000",
+        "desc": "At his late Uncle Vladimir's estate, Bender is run over by a vicious Were-car, inheriting the curse. The only way to stop Bender's fatal transformations is to seek out and destroy the original Were-car - the deadly Project Satan.",
+        "id": 30
+      },
+      {
+        "number": "31 - 2",
+        "title": "War is the H-Word",
+        "writers": "Eric Horsted",
+        "originalAirDate": "November 26, 2000",
+        "desc": "Upon enrolling in the Earth army to get a military discount at the convenience store, Fry and Bender are whisked into war against a planet of ball-like aliens. Leela secretly enters the ranks to keep an eye on her friends.",
+        "id": 31
+      },
+      {
+        "number": "32 - 3",
+        "title": "The Cryonic Woman",
+        "writers": "J. Stewart Burns",
+        "originalAirDate": "December 3, 2000",
+        "desc": "Fry, Leela, and Bender all lose their jobs at Planet Express, and they endeavor to return to their old jobs. Due to a mix-up of their career chips, Fry becomes a career counselor at Applied Cryogenics, where he meets up with a familiar defrostee - his girlfriend from the 20th century, Michelle.",
+        "id": 32
+      },
+      {
+        "number": "33 - 4",
+        "title": "Parasites Lost",
+        "writers": "Eric Kaplan",
+        "originalAirDate": "January 21, 2001",
+        "desc": "When Fry becomes infested with parasitic worms that make him stronger and smarter, he finally finds the perfect way to profess his feelings to Leela. Meanwhile, the rest of the crew go on a Fantastic Voyage-esque journey into Fry's body to eradicate the worms.",
+        "id": 33
+      },
+      {
+        "number": "34 - 5",
+        "title": "Amazon Women in the Mood",
+        "writers": "Lewis Morton",
+        "originalAirDate": "February 4, 2001",
+        "desc": "A double-date for Kif, Amy, Zapp, and Leela ends in disaster when their orbiting restaurant crashes on planet Amazonia. The hulking female inhabitants of the planet take their male captives to the omniscient Femputer, who orders Fry, Zapp, and Kif to death by 'snu-snu'.",
+        "id": 34
+      },
+      {
+        "number": "35 - 6",
+        "title": "Bendless Love",
+        "writers": "Eric Horsted",
+        "originalAirDate": "February 11, 2001",
+        "desc": "Bender's urge to bend prompts Professor Farnsworth to send him on a rehabilitation visit to a steel factory, where he falls in love with a shapely fem-bot named Angleyne. But Bender's old rival Flexo and the intrusion of the Robot Mafia threaten to throw a wrench into the proceedings.",
+        "id": 35
+      },
+      {
+        "number": "36 - 7",
+        "title": "The Day the Earth Stood Stupid",
+        "writers": "Jeff Westbrook",
+        "originalAirDate": "February 18, 2001",
+        "desc": "Earth is invaded by super-intelligent flying brains, who sap the Earth's populace of their intelligence. Leela is taken to Nibbler's home planet Eternium, where the Nibblonians explain that only one human is immune to the brains' powers – Fry.",
+        "id": 36
+      },
+      {
+        "number": "37 - 8",
+        "title": "That's Lobstertainment!",
+        "writers": "Patric M. Verrone",
+        "originalAirDate": "February 25, 2001",
+        "desc": "Dr. Zoidberg reunites with his uncle, silent hologram star Harold Zoid, and the two of them set out to make a movie together. They cast the temperamental Calculon in the lead role, who demands an Oscar for his performance, but the movie doesn't go over well with audiences.",
+        "id": 37
+      },
+      {
+        "number": "38 - 9",
+        "title": "The Birdbot of Ice-Catraz",
+        "writers": "Dan Vebber",
+        "originalAirDate": "March 4, 2001",
+        "desc": "A sober Bender crashes a dark matter tanker on Pluto, threatening the penguin reserve nearby. Leela helps out in the clean-up, but when the penguins begin mating out of control, drastic action must be taken to thin the herd.",
+        "id": 38
+      },
+      {
+        "number": "39 - 10",
+        "title": "The Luck of the Fryrish",
+        "writers": "Ron Weiner",
+        "originalAirDate": "March 11, 2001",
+        "desc": "After a string of bad luck, Fry ventures into the decaying ruins of Old New York to regain his lucky seven leaf clover from his childhood, only to find that his brother Yancy Fry had stolen not only the clover, but Fry's identity as well. Fry sets out to exhume his brother's body, but discovers a startling truth about Yancy instead.",
+        "id": 39
+      },
+      {
+        "number": "40 - 11",
+        "title": "The Cyber House Rules",
+        "writers": "Lewis Morton",
+        "originalAirDate": "April 1, 2001",
+        "desc": "Leela meets up with her former orphanarium playmate Adlai Atkins, now a phaser eye surgeon, who offers to grant Leela surgery that will give her two eyes. Meanwhile, Bender adopts twelve orphans in order to collect $1,200 in government stipends.",
+        "id": 40
+      },
+      {
+        "number": "41 - 12",
+        "title": "Insane in the Mainframe",
+        "writers": "Bill Odenkirk",
+        "originalAirDate": "April 8, 2001",
+        "desc": "Accused of robbing a bank, Fry and Bender plead insanity and are both sent to robot insane asylum. While Bender and his buddy Roberto plan an escape, Fry is brainwashed into thinking that he is a robot.",
+        "id": 41
+      },
+      {
+        "number": "42 - 13",
+        "title": "Bendin' in the Wind",
+        "writers": "Eric Horsted",
+        "originalAirDate": "April 22, 2001",
+        "desc": "When Bender is paralyzed in a tragic can opener accident, he discovers his musical washboard skills and goes on tour as a member of Beck's folk-rock band, acting as a voice for broken robots everywhere. Fry, Leela, Amy, and Zoidberg tag along in Fry's antique 1960s VW Van.",
+        "id": 42
+      },
+      {
+        "number": "43 - 14",
+        "title": "Time Keeps on Slippin'",
+        "writers": "Ken Keeler",
+        "originalAirDate": "May 6, 2001",
+        "desc": "While creating a team of mutants to play the Harlem Globetrotters, the Professor accidentally causes a disruption in time that threatens the existence of the universe. Meanwhile, Fry tries to win an unreceptive Leela's heart.",
+        "id": 43
+      },
+      {
+        "number": "44 - 15",
+        "title": "I Dated a Robot",
+        "writers": "Eric Kaplan",
+        "originalAirDate": "May 13, 2001",
+        "desc": "Fry discovers the ability to download any celebrity onto a blank robot, and chooses to download Lucy Liu, with whom he falls madly in love. Repulsed by this disgusting display of human/robot love, Leela, Bender, and Zoidberg set out to shut down Nappster.com and put an end to illegal celebrity downloads forever.",
+        "id": 44
+      },
+      {
+        "number": "45 - 1",
+        "title": "Roswell that Ends Well",
+        "writers": "J. Stewart Burns",
+        "originalAirDate": "December 9, 2001",
+        "desc": "The combined explosions of a supernova and Fry putting metal in the microwavе hurtle the Planet Express crew back in time to 1947. They land at Roswell, New Mexico, where a shattered Bender is mistaken for UFO debris, Zoidberg is kidnapped by the U.S government and taken in for an alien autopsy, and Fry accidentally kills his grandfather, Enos Fry, in a nuclear explosion.",
+        "id": 45
+      },
+      {
+        "number": "46 - 2",
+        "title": "A Tale of Two Santas",
+        "writers": "Bill Odenkirk",
+        "originalAirDate": "December 23, 2001",
+        "desc": "A Planet Express mission to Robot Santa Claus' colony on Neptune leaves the murderous robot trapped in the frozen sea, and Bender takes over as Santa, vowing to bring peace and goodwill to Xmas again. But when Bender is mistaken for the real Robot Santa Claus, he is arrested and sentenced to death.",
+        "id": 46
+      },
+      {
+        "number": "47 - 3",
+        "title": "Anthology of Interest II",
+        "writers": "L. Morton, D. X. Cohen, J. Gorbett, S. Kirby",
+        "originalAirDate": "January 6, 2002",
+        "desc": "When the Professor fine-tunes his What-If Machine, Bender discovers what it would be like if he were human, Fry discovers what it would be like if life were more like a video game, and Leela discovers what it would be like if she found her true home.",
+        "id": 47
+      },
+      {
+        "number": "48 - 4",
+        "title": "Love and Rocket",
+        "writers": "Dan Vebber",
+        "originalAirDate": "February 10, 2002",
+        "desc": "Bender falls deeply in love with the Planet Express ship autopilot's female voice setting. Meanwhile, Fry searches for the perfect candy heart to properly convey his feelings for Leela.",
+        "id": 48
+      },
+      {
+        "number": "49 - 5",
+        "title": "Leela's Homeworld",
+        "writers": "Kristin Gore",
+        "originalAirDate": "February 17, 2002",
+        "desc": "When Bender disposes nuclear waste in the sewers, the angry mutants drag him, Fry, and Leela down to the depths to be mutated. As they attempt to escape, Leela makes an incredible discovery about her true heritage, finally meeting her parents for the first time.",
+        "id": 49
+      },
+      {
+        "number": "50 - 6",
+        "title": "Where the Buggalo Roam",
+        "writers": "J. Stewart Burns",
+        "originalAirDate": "March 3, 2002",
+        "desc": "When Amy's parents' ranch is hit by a dust storm that blows away their herd of buggalo, Kif sets out to prove his masculinity by rounding up the herd, only to become entangled with the native Martians.",
+        "id": 50
+      },
+      {
+        "number": "51 - 7",
+        "title": "A Pharaoh to Remember",
+        "writers": "Ron Weiner",
+        "originalAirDate": "March 10, 2002",
+        "desc": "Bender fears that nobody will remember him after he dies, and sees his chance for immortality when the crew is enslaved on the planet O'Cyris IV. Posing as the planet's new pharaoh, Bender orders a humongous statue built in his honor, and quickly goes mad with power and tyranny.",
+        "id": 51
+      },
+      {
+        "number": "52 - 8",
+        "title": "Godfellas",
+        "writers": "Ken Keeler",
+        "originalAirDate": "March 17, 2002",
+        "desc": "Bender is accidentally shot out of the ship's torpedo tube and becomes lost in space. Floating through the ethereal darkness, Bender becomes inhabited with tiny alien life forms, but has trouble playing God to their unyielding prayers until he meets the real thing",
+        "id": 52
+      },
+      {
+        "number": "53 - 9",
+        "title": "Future Stock",
+        "writers": "Aaron Ehasz",
+        "originalAirDate": "March 31, 2002",
+        "desc": "With Planet Express in financial trouble, Fry nominates a flashy businessman named Steve 'That Guy' Castle from the 1980s to replace Professor Farnsworth as CEO of the company. That Guy goes on to sell Planet Express to Mom's Friendly Robot Corporation, putting everyone out of a job.",
+        "id": 53
+      },
+      {
+        "number": "54 - 10",
+        "title": "A Leela of Her Own",
+        "writers": "Patric M. Verrone",
+        "originalAirDate": "April 7, 2002",
+        "desc": "Leela endeavors to become the first female blernsball player, but her lack of depth perception hinders her skills. Nevertheless, she becomes the pitcher for the New New York Mets, purely for her novelty value. Fry helps a couple of aliens with their struggling pizza business.",
+        "id": 54
+      },
+      {
+        "number": "55 - 11",
+        "title": "The 30% Iron Chef",
+        "writers": "Jeff Westbrook",
+        "originalAirDate": "April 14, 2002",
+        "desc": "Bender receives culinary lessons from the great chef Helmut Spargle, and puts his skills to the test on national television when he competes against Elzar on 'Iron Cook'. Meanwhile, Dr. Zoidberg accidentally destroys Professor Farnsworth's ship-in-a-bottle and pins the blame on Fry, only to be struck with remorse afterward.",
+        "id": 55
+      },
+      {
+        "number": "56 - 12",
+        "title": "Where No Fan Has Gone Before",
+        "writers": "David A. Goodman",
+        "originalAirDate": "April 21, 2002",
+        "desc": "Fry leads the crew on a quest across the galaxy to regain the forbidden 79 episodes of Star Trek, where they encounter the original cast of the show - as well as their captor, an obsessive energy being named Melllvar.",
+        "id": 56
+      },
+      {
+        "number": "57 - 1",
+        "title": "Crimes of the Hot",
+        "writers": "Aaron Ehasz",
+        "originalAirDate": "November 10, 2002",
+        "desc": "The rapid increase in global warming is traced to a ventilation flaw that Professor Farnsworth failed to correct in his first robot prototype. As a result, all robots are ordered to be destroyed by Nixon's head, but Bender refuses to go and join the genocide without a fight.",
+        "id": 57
+      },
+      {
+        "number": "58 - 2",
+        "title": "Jurassic Bark",
+        "writers": "Eric Kaplan",
+        "originalAirDate": "November 17, 2002",
+        "desc": "Fry discovers his dog Seymour is being exhibited in a museum as a fossil, and takes it to Professor Farnsworth's lab to be revived. However, Bender is displeased with the lack of attention he has been receiving and becomes increasingly jealous of Seymour's fossil.",
+        "id": 58
+      },
+      {
+        "number": "59 - 3",
+        "title": "The Route of All Evil",
+        "writers": "Brian Sheesley",
+        "originalAirDate": "December 8, 2002",
+        "desc": "Farnsworth's clone Cubert teams up with Hermes' son Dwight to launch a newspaper delivery business. Farnsworth and Hermes scoff at the kids' efforts - until the delivery boys accumulate enough capital to buy out Planet Express. Meanwhile, Fry and Leela use Bender to brew their own homemade beer.",
+        "id": 59
+      },
+      {
+        "number": "63 - 7",
+        "title": "Teenage Mutant Leela's Hurdles",
+        "writers": "Bret Haaland",
+        "originalAirDate": "March 30, 2003",
+        "desc": "The crew's attempts to de-age Professor Farnsworth result in everyone returning to their more youthful stages. While Farnsworth seeks out a way to re-age the crew, the newly-teenaged Leela takes the opportunity to experience the parental childhood she never had.",
+        "id": 60
+      },
+      {
+        "number": "60 - 4",
+        "title": "A Taste of Freedom",
+        "writers": "Eric Horsted",
+        "originalAirDate": "December 22, 2002",
+        "desc": "When Zoidberg publicly devours an Earth flag for the reason of glorifying Earth, he ends up being accused of desecration. He is given a very unfair trial by the Earth Supreme Court and is sentenced to death. Before the sentence can be carried out, the Decapodians come to Zoidberg's aid by invading Earth, teaching the populace the true meaning of freedom but not in the way Zoidberg envisioned it.",
+        "id": 61
+      },
+      {
+        "number": "61 - 5",
+        "title": "Kif Gets Knocked Up a Notch",
+        "writers": "Bill Odenkirk",
+        "originalAirDate": "January 12, 2003",
+        "desc": "Amy's relationship with Kif along with a mishap with Leela on the Nimbus leads to pregnancy... Kif being the pregnant one . But Amy fears that she won't be able to handle the burdens of motherhood, much to Kif's dismay.",
+        "id": 62
+      },
+      {
+        "number": "62 - 6",
+        "title": "Less than Hero",
+        "writers": "Rob Weiner",
+        "originalAirDate": "March 2, 2003",
+        "desc": "Dr. Zoidberg's mysterious miracle cream gives Fry and Leela superpowers. Teaming up with Bender, they form the New Justice Team, under the respective alter egos of Captain Yesterday, Clobberella, and Super King. But Leela's new duties as a superheroine put a strain on her relationship with her parents.",
+        "id": 63
+      },
+      {
+        "number": "64 - 8",
+        "title": "The Why of Fry",
+        "writers": "David X. Cohen",
+        "originalAirDate": "April 6, 2003",
+        "desc": "Still unable to impress Leela, Fry sadly suspects that he has no importance in life - until Nibbler takes him on a mission to prevent the brains from destroying the universe. In the process, Fry learns what really happened when he was cryogenically frozen on December 31, 1999.",
+        "id": 64
+      },
+      {
+        "number": "65 - 9",
+        "title": "The Sting",
+        "writers": "Patric M. Verrone",
+        "originalAirDate": "June 1, 2003",
+        "desc": "The Planet Express crew goes on a mission to collect honey from a hive of space bees, which can kill instantly using their poisonous stings. The crew succeeds in getting the honey but the mission all goes wrong when Fry gets stung.",
+        "id": 65
+      },
+      {
+        "number": "69 - 13",
+        "title": "Bend Her",
+        "writers": "Michael Rowe",
+        "originalAirDate": "July 20, 2003",
+        "desc": "In order to compete in the Fembot's division of the 3004 Olympics and cheat in it, Bender is surgically rebuilt to become a woman. His trashy and stereotypical behavior catches the eye of Calculon, with whom he develops a strong and confusing celebrity relationship.",
+        "id": 66
+      },
+      {
+        "number": "66 - 10",
+        "title": "The Farnsworth Parabox",
+        "writers": "Bill Odenkirk",
+        "originalAirDate": "June 8, 2003",
+        "desc": "Professor Farnsworth forbids the crew to look inside a mysterious box. Leela can't resist taking a peek, discovering the box to be a gateway to a parallel universe.",
+        "id": 67
+      },
+      {
+        "number": "67 - 11",
+        "title": "Three Hundred Big Boys",
+        "writers": "Eric Kaplan",
+        "originalAirDate": "June 15, 2003",
+        "desc": "A $300 refund for all taxpayers results in a series of interconnected stories, following the Planet Express crew's endeavors to spend their money. Fry recklessley decides to spend his refund on 100 cups of coffee and Leela plans to swin with a whale known as Mushu. Bender steals a $10,000 Cuban cigar and Zoidberg has some trouble on deciding how to spend his refund. Kif spends his rebate on gifts for Amy but is devastated when one of them is lost",
+        "id": 68
+      },
+      {
+        "number": "68 - 12",
+        "title": "Spanish Fry",
+        "writers": "Rob Weiner",
+        "originalAirDate": "July 13, 2003",
+        "desc": "Fry is abducted by aliens, who harvest his nose as an aphrodisiac. The crew traces Fry's missing nose to Lrrr, leader of the Omicronians, who decides that Fry's 'lower horn' would be a much better aphrodisiac to jump start his stagnant and rocky marriage with Ndnd.",
+        "id": 69
+      },
+      {
+        "number": "70 - 14",
+        "title": "Obsoletely Fabulous",
+        "writers": "Dan Vebber",
+        "originalAirDate": "July 27, 2003",
+        "desc": "Bender is incompatible with Professor Farnsworth's new Robot 1-X, but rather than get an upgrade, Bender escapes to a desert island to start his life anew. There, he meets several other outdated robots and receives a downgrade, then leads his new comrades in a rebellion against technology.",
+        "id": 70
+      },
+      {
+        "number": "71 - 15",
+        "title": "Bender Should Not Be Allowed on Television",
+        "writers": "Lewis Morton",
+        "originalAirDate": "August 3, 2003",
+        "desc": "All My Circuits holds an audition to replace the part of Calculon's son, and Bender lands the part. Soon, Bender's uninhibited behavior proves to be a bad influence on children, and an outraged Bender leads a protest group to get himself banned from the airwaves.",
+        "id": 71
+      },
+      {
+        "number": "72 - 16",
+        "title": "The Devil's Hands Are Idle Playthings",
+        "writers": "Ken Keeler",
+        "originalAirDate": "August 10, 2003",
+        "desc": "Desperate to learn how to play the holophonor in order to impress Leela, Fry swaps hands with the Robot Devil. He goes on to become a skilled holophonor player, winning Leela's heart and penning an opera about her life story, but the Robot Devil still has a trick or two up his sleeve.",
+        "id": 72
+      },
+      {
+        "number": "73 - 76",
+        "title": "Bender's Big Score",
+        "writers": "Ken Keeler, David X. Cohen",
+        "originalAirDate": "March 23, 2008",
+        "desc": "Professor Farnsworth foolishly sells Planet Express to a trio of nudist scammers and they take control of Bender with a malicious virus. They find out that Fry has a tattoo of Bender on his butt, which contains a mysterious and forbidden power inside it. The scammers send Bender out to kill Fry and obtain the tattoo while they take the time to scam the rest of the universe. Leela starts a relationship with a man named Lars Filmore, who has a shocking secret lying within him. Hermes loses his head in an accident",
+        "id": 73
+      },
+      {
+        "number": "77 - 80",
+        "title": "The Beast with a Billion Backs",
+        "writers": "Eric Kaplan, David X. Cohen",
+        "originalAirDate": "October 19, 2008",
+        "desc": "A month has passed since Bender's actions causes a rip in the universe to open and create an anomaly. The Planet Express Crew works overtime to find out what is lurking behind the anomaly. Fry starts a relationship with a girl named Colleen only to find out that she is already in a polyamorous relationship with several other men. Amy finally marries Kif but their marriage is short lived when Zapp betrays Kif and causes a huge accident which ends up killing him. Fry finds out that the thing lurking behind the anomaly is actually a gigantic being known as Yivo. Yivo quickly takes control of Fry and starts terrorizing the universe. Then the entire population of organic beings abandons Earth and the Robots, including Bender",
+        "id": 74
+      },
+      {
+        "number": "85 - 88",
+        "title": "Into the Wild Green Yonder",
+        "writers": "Ken Keeler, David X. Cohen",
+        "originalAirDate": "August 30, 2009",
+        "desc": "The Planet Express Crew visits Mars and finds out that Amy's Dad, Leo Wong is building a mini golf course that threatens the Martian environment. This threat soon expands to the entire universe in which Leo plans to destroy a rare violet dwarf star to make way for a gigantic mini golf course. Leela and Amy protest this and team up with Frida Waterfall and several other girls including Labarbra to form the Ecofeministas, which is a team that focuses on eliminating Leo's genderism on his mini golf courses and stopping him from destroying the violet star. The Ecofeministas start protesting Leo's schemes but their protests all go wrong when they accidentally kill the Earthican Vice President, Agnew. The Ecofeministas soon go on the run from the law and Zapp Brannigan. The problem then goes from bad to worse when Frida is unexpectedly murdered and the Ecofeministas get arrested Meanwhile, Fry gets hit by a strange meteorite and somehow receives the ability to read peoples minds. He joins a cult of people who tell him that the universe is threatened by 'The Dark One'. Fry goes undercover to find out who The Dark One is and finds out that The Dark One is the one responsible for masterminding the scheme to destroy the Violet Star and is collaborating with Leo Wong. Bender has an affair with the Donbot's Wife and his life is threatened when the Donbot finds out that his wife is cheating on him. Farnsworth, Hermes, and Zoidberg try to save Planet Express from closing down permanentley due to a huge drop in profit.",
+        "id": 75
+      },
+      {
+        "number": "81 - 84",
+        "title": "Bender's Game",
+        "writers": "Eric Horsted, David X. Cohen",
+        "originalAirDate": "April 25, 2009",
+        "desc": "When the price of Dark Matter suddenly rises to a ridiculous amount, the Planet Express Crew starts rationing fuel and ends up finding Mom's primary source of income. Leela disobeys Farnsworths ration rule to teach a lesson to a couple of lazy guys who insulted the crews ship and Zoidberg tells on Leela. Leela has an electric collar put on her because of anger issues and she starts blaming all of her problems on Zoidberg, bullying him constantly. Bender becomes obsessed with the Dungeons And Dragons game and is sent to an insane asylum. Nibbler is kidnapped by Mom's sons and the crew goes out to rescue him, only to be sent into a mysterious fantasy world.",
+        "id": 76
+      },
+      {
+        "number": "89 - 1",
+        "title": "Rebirth",
+        "writers": "David X. Cohen",
+        "originalAirDate": "June 24, 2010",
+        "desc": "The wormhole transports the Planet Express ship and the Nimbus back to Earth, where both ships crash. Professor Farnsworth sets about regenerating his crew with a soup of adult stem cells.",
+        "id": 77
+      },
+      {
+        "number": "90 - 2",
+        "title": "In-A-Gadda-Da-Leela",
+        "writers": "Carolyn Premish",
+        "originalAirDate": "June 24, 2010",
+        "desc": "A rogue death sphere – the V-GINY – heads for Earth, and President Nixon enlists the Planet Express crew in a mission to stop the threat. Leela and Zapp Brannigan fly a stealth fighter to the death sphere in an attempt to incapacitate it, but wind up marooned in a paradisic garden.",
+        "id": 78
+      },
+      {
+        "number": "91 - 3",
+        "title": "Attack of the Killer App",
+        "writers": "Patric M. Verrone",
+        "originalAirDate": "July 1, 2010",
+        "desc": "Fry posts an embarrassing video of Leela on the internet, which instantly becomes popular and humiliates Leela.",
+        "id": 79
+      },
+      {
+        "number": "92 - 4",
+        "title": "Proposition Infinity",
+        "writers": "Michael Rowe",
+        "originalAirDate": "July 8, 2010",
+        "desc": "Bender attempts to make robosexual marriage legal, after pursuing a relationship with Amy when Kif breaks up with her due to her flexible flirting with tough guys",
+        "id": 80
+      },
+      {
+        "number": "93 - 5",
+        "title": "The Duh-Vinci Code",
+        "writers": "Maiya Williams",
+        "originalAirDate": "July 15, 2010",
+        "desc": "The Planet Express crew travels to Rome and discovers things that even Tom Hanks could not discover.",
+        "id": 81
+      },
+      {
+        "number": "94 - 6",
+        "title": "Lethal Inspection",
+        "writers": "Eric Horsted",
+        "originalAirDate": "July 22, 2010",
+        "desc": "Bender sets out to beat up his robot inspector after he realizes he has a fatal defect.",
+        "id": 82
+      },
+      {
+        "number": "95 - 7",
+        "title": "The Late Philip J. Fry",
+        "writers": "Lewis Morton",
+        "originalAirDate": "July 29, 2010",
+        "desc": "Farnsworth invents a time machine but it only travels to the future with no hope of going back.",
+        "id": 83
+      },
+      {
+        "number": "100 - 12",
+        "title": "The Mutants Are Revolting",
+        "writers": "Eric Horsted",
+        "originalAirDate": "Sept 2, 2010",
+        "desc": "The mutants attack the surface world after several decades of oppression and mistreatment.",
+        "id": 84
+      },
+      {
+        "number": "96 - 8",
+        "title": "That Darn Katz!",
+        "writers": "Josh Weinstein",
+        "originalAirDate": "Aug 5, 2010",
+        "desc": "Sentient cats invade Earth and only Amy and Nibbler can stop them.",
+        "id": 85
+      },
+      {
+        "number": "97 - 9",
+        "title": "A Clockwork Origin",
+        "writers": "Dan Vebber",
+        "originalAirDate": "Aug 12, 2010",
+        "desc": "A planet of robots questions evolution.",
+        "id": 86
+      },
+      {
+        "number": "98 - 10",
+        "title": "The Prisoner of Benda",
+        "writers": "Ken Keeler",
+        "originalAirDate": "Aug 19, 2010",
+        "desc": "A device causes mind swapping.",
+        "id": 87
+      },
+      {
+        "number": "99 - 11",
+        "title": "Lrrreconcilable Ndndifferences",
+        "writers": "Patric M. Verrone",
+        "originalAirDate": "Aug 26, 2010",
+        "desc": "A failed invasion causes Lrrr to doubt himself and enter a midlife crisis. His wife, Ndnd kicks him out of the house and he moves into the Planet Express Headquarters, where Fry and Leela come up with a plan to bring Lrr and Ndnd back together.",
+        "id": 88
+      },
+      {
+        "number": "101 - 13",
+        "title": "The Futurama Holiday Spectacular",
+        "writers": "Michael Rowe",
+        "originalAirDate": "November 21, 2010",
+        "desc": "holiday special",
+        "id": 89
+      },
+      {
+        "number": "102 - 1",
+        "title": " Neutopia",
+        "writers": "Aaron Ehasz",
+        "originalAirDate": "June 23, 2011",
+        "desc": "The Planet Express crew is in desperate need of money and start a genderist commercial airline. An alien who does not understand the concept of gender conducts experiments on the crew, changing all their genders by accident.",
+        "id": 90
+      },
+      {
+        "number": "103 - 2",
+        "title": "Benderama  J. Stewart Burns",
+        "writers": "Crystal Chesney-Thompson",
+        "originalAirDate": "June 23, 2011",
+        "desc": "Bender creates duplicates of himself, who in turn create duplicates of themselves, until they threaten to consume all of the matter on Earth.",
+        "id": 91
+      },
+      {
+        "number": "104 - 3",
+        "title": "Ghost in the Machines",
+        "writers": "Patric M. Verrone",
+        "originalAirDate": "June 30, 2011",
+        "desc": "Bender dies and his software takes on a ghostly existence after Fry throws bigoted statements at him and tells him that his life is not worth anything.",
+        "id": 92
+      },
+      {
+        "number": "109 - 8",
+        "title": "Möbius Dick  Dan Veeber",
+        "writers": "TBA",
+        "originalAirDate": "August 4, 2011",
+        "desc": "Leela hunts a mysterious four-dimensional whale and becomes obsessed with killing it.",
+        "id": 93
+      },
+      {
+        "number": "105 - 4",
+        "title": "Law and Oracle",
+        "writers": "Edmund Fong",
+        "originalAirDate": "July 7, 2011",
+        "desc": "Fed up with his go-nowhere job, Fry quits Planet Express joins the police force.",
+        "id": 94
+      },
+      {
+        "number": "106 - 5",
+        "title": " The Silence of the Clamps ",
+        "writers": "Eric Rogers",
+        "originalAirDate": "July 14, 2011",
+        "desc": "Bender goes into witness relocation after testifying against the robot mafia. One of the mafia's members gets a job at Planet Express to locate Bender and Zoidberg does not trust the member.",
+        "id": 95
+      },
+      {
+        "number": "107 - 6",
+        "title": "Yo Leela Leela",
+        "writers": "David X. Cohen",
+        "originalAirDate": "July 21, 2011",
+        "desc": "Leela creates a successful new series and becomes a Hollywood bigshot. Unfortunatley, Leela lets her newfound notoriety go to her head.",
+        "id": 96
+      },
+      {
+        "number": "108 - 7",
+        "title": " All the Presidents Heads",
+        "writers": "TBA",
+        "originalAirDate": "July 28, 2011",
+        "desc": "History is altered when the crew travel back in time and mess it all up.",
+        "id": 97
+      },
+      {
+        "number": "113 - 12",
+        "title": " Overclockwise",
+        "writers": "Ken Keeler",
+        "originalAirDate": "September 1, 2011",
+        "desc": "When Bender increases his processing power, he becomes godlike. Mom sues Cubert and Professor Farnsworth and quickly drains Planet Express of their money supply.",
+        "id": 98
+      },
+      {
+        "number": "110 - 9",
+        "title": "Fry Am the Egg Man",
+        "writers": "TBA",
+        "originalAirDate": "August 11, 2011",
+        "desc": "Fry nurtures an alien egg out of which hatches a monster.",
+        "id": 99
+      },
+      {
+        "number": "111 - 10",
+        "title": "The Tip of the Zoidberg",
+        "writers": "TBA",
+        "originalAirDate": "August 18, 2011",
+        "desc": "The Planet Express crew betrays Zoidberg and tries to get Farnsworth to fire him but in the process, they learn something shocking and dark about Farnsworth and Zoidberg's pasts.",
+        "id": 100
+      },
+      {
+        "number": "112 - 11",
+        "title": "Cold Warriors",
+        "writers": "Dan Veeber",
+        "originalAirDate": "August 25, 2011",
+        "desc": "Fry inadvertently reintroduces the common cold to the 31st century, which causes everyone to get it.",
+        "id": 101
+      },
+      {
+        "number": "114 - 13",
+        "title": "Reincarnation",
+        "writers": "TBA",
+        "originalAirDate": "September 8, 2011",
+        "desc": "An episode featuring 3 different segments, in the same vein as episodes such as Anthology of Interest I and The Futurama Holiday Spectacular. Each segment showcases a different style of animation. The first segment will be animated in a black-and-white Fleischer style, the second segment drawn in the style of anime, and the third will be in the style of a low-resolution video game. The episode will not be canon and will be the final episode of the sixth season of Futurama.",
+        "id": 102
+      },
+      {
+        "number": "115 - 1",
+        "title": "The Bots and the Bees",
+        "writers": "Eric Horsted",
+        "originalAirDate": "June 20, 2012",
+        "desc": "Planet Express gets a new soda machine named Bev and Bender impregnates her, causing her to give birth to a child named Ben. Bev abandons Ben, leaving Bender to take care of Ben and they create a great father-son relationship together, until Bev comes back and snatches Ben right out of Bender's hands.",
+        "id": 103
+      },
+      {
+        "number": "116 - 2",
+        "title": "A Farewell to Arms",
+        "writers": "Josh Weinstein",
+        "originalAirDate": "June 20, 2012",
+        "desc": "An ancient catastrophic disaster hits Earth and its effects are all predicted on an ancient Martian calendar. The Planet Express crew along with Zapp and Kif try to find a way to stop the catastrophe. Leela breaks her leg in an accident",
+        "id": 104
+      },
+      {
+        "number": "117 - 3",
+        "title": "Decision 3012",
+        "writers": "Patric M. Verrone",
+        "originalAirDate": "June 27, 2012",
+        "desc": "The 3012 election is underway and Nixon's head faces a tough opponent named Chris Travers. Leela becomes a campaign secretary for Travers but it soon becomes clear that his origins is not as it seems.",
+        "id": 105
+      },
+      {
+        "number": "118 - 4",
+        "title": "The Thief of Baghead",
+        "writers": "Dan Vebber",
+        "originalAirDate": "July 4, 2012",
+        "desc": "Bender wants to take a picture of an actor who never reveals his face in public so he joins the paparazzi and becomes obsessed with taking pictures of everyone, including Calculon. Unfortunatley the obsession spirals out of control when Bender shows the picture of the actor to Fry, Hermes, and Amy and gets their life forces sucked out.",
+        "id": 106
+      },
+      {
+        "number": "119 - 5",
+        "title": "Zapp Dingbat",
+        "writers": "Eric Rogers",
+        "originalAirDate": "July 11, 2012",
+        "desc": "Zapp Brannigan loses interest in Leela and he starts a romance with her mom, which upsets Leela greatly. This causes Leela to try to stop this inappropriate romance by swaying Zapp away from her mom. Meanwhile, Leela's dad, who is unaware of his wife new suitor, dreams of surfing the biggest sewer waves on Earth.",
+        "id": 107
+      },
+      {
+        "number": "120 - 6",
+        "title": "The Butterjunk Effect",
+        "writers": "Michael Rowe",
+        "originalAirDate": "July 18, 2012",
+        "desc": "Leela and Amy become addicted to the steroid like- performance enhancing drug known as 'Nectar' to increase their chances of winning at the epic sport of the Butterfly Derby. Meanwhile, Fry gets sprayed with a hormone by a male butterfly and it causes both Leela and Amy to go all over him.",
+        "id": 108
+      },
+      {
+        "number": "121 - 7",
+        "title": "The Six Million Dollar Mon",
+        "writers": "Ken Keeler",
+        "originalAirDate": "July 25, 2012",
+        "desc": "Hermes realizes he is less efficient than a machine and gets obsessed with having his body parts replaced by machinery causing him to lose his human emotions rapidly. Meanwhile Zoidberg makes a puppet out of the body parts that Hermes threw away and he goes cross country to fulfill his dream of becoming a ventriloquist.",
+        "id": 109
+      },
+      {
+        "number": "122 - 8",
+        "title": "Fun on a Bun",
+        "writers": "Dan Vebber",
+        "originalAirDate": "August 1, 2012",
+        "desc": "The Planet Express crew attends Oktoberfest, where Bender enters a sausage making contest. Fry falls victim to a sausage making accident, causing him and Leela to lose their memories of each other.",
+        "id": 110
+      },
+      {
+        "number": "125 - 11",
+        "title": "31st Century Fox",
+        "writers": "Patric M. Verrone",
+        "originalAirDate": "August 29, 2012",
+        "desc": "Bender has a manhunt launched on him after he saves a robot fox from being killed by hunters. Leela reluctantly tries to support Bender in pro animal right for robot animals",
+        "id": 111
+      },
+      {
+        "number": "127 - 13",
+        "title": "Naturama",
+        "writers": "Eric Rogers, Michael Saikin, Neil Mukhopadhyay",
+        "originalAirDate": "August 29, 2012",
+        "desc": "The Planet Express crew are reimangined as animals in a nature documentary.",
+        "id": 112
+      },
+      {
+        "number": "123 - 9",
+        "title": "Free Will Hunting",
+        "writers": "David X. Cohen",
+        "originalAirDate": "August 8, 2012",
+        "desc": "Bender realizes that as a robot, he has no free will so he embarks on a quest to find out his life's true meaning.",
+        "id": 113
+      },
+      {
+        "number": "124 - 10",
+        "title": "Near-Death Wish",
+        "writers": "Lance Kramer",
+        "originalAirDate": "August 15, 2012",
+        "desc": "Professor Farnsworth gets very upset after he finds out his parents are still alive on the Near Death Star and are coming out of virtual retirement there and decides to pay them a visit.",
+        "id": 114
+      },
+      {
+        "number": "126 - 12",
+        "title": "Viva Mars Vegas",
+        "writers": "Josh Weinstein",
+        "originalAirDate": "August 22, 2012",
+        "desc": "The Planet Express Crew heads to Mars Vegas and must upstage a heist in order to reclaim some property that was stolen by the Robot Mafia while Zoidberg has the time of his life after he gets lucky in gambling and wins a lot of money .",
+        "id": 115
+      },
+      {
+        "number": "128 - 1",
+        "title": "Forty Percent Leadbelly",
+        "writers": "Ken Keeler",
+        "originalAirDate": "July 3, 2013",
+        "desc": "Bender meets his idol, who is a folksinger who has been arrested and jailed over 30 times.  Unfortunatley, Bender becomes obsessed with imitating that singer's lifestyle and that leads to horrific consequences.",
+        "id": 116
+      },
+      {
+        "number": "129 - 2",
+        "title": "2-D Blacktop",
+        "writers": "Michael Rowe",
+        "originalAirDate": "June 19, 2013",
+        "desc": "One of Farnsworths inventions goes haywire after a spaceship race and it puts himself, Fry, Leela, and Bender into an alternate 2-D dimension.",
+        "id": 117
+      },
+      {
+        "number": "130 - 3",
+        "title": "T.: The Terrestrial",
+        "writers": "Josh Weinstein",
+        "originalAirDate": "June 26, 2013",
+        "desc": "Fry unexpectedly crash lands on Omicron Persei 8 and is befriended by none other than Lrr's son, Jrr, who tries to protect him from his father who wants to experiment on him for unknown reasons. ",
+        "id": 118
+      },
+      {
+        "number": "131 - 4",
+        "title": "Fry and Leela's Big Fling",
+        "writers": "Eric Rogers",
+        "originalAirDate": "June 19, 2013",
+        "desc": "Fry and Leela try to fix the cracks in their relationship when they run into Leela's ex boyfriend, Sean.  Bender, Amy, and Zoidberg deliver a bunch of tires to a company run by monkeys.",
+        "id": 119
+      },
+      {
+        "number": "134 - 7",
+        "title": "Calculon 2.0",
+        "writers": "Lewis Morton",
+        "originalAirDate": "July 24, 2013",
+        "desc": "After his death in 'The Thief of Baghead', Calculon is resurrected by downloading a back-up copy of himself into a new body.",
+        "id": 120
+      },
+      {
+        "number": "132 - 5",
+        "title": "The Inhuman Torch",
+        "writers": "Dan Vebber",
+        "originalAirDate": "July 10, 2013",
+        "desc": "Bender becomes a heroic firefighter and ends up running into a conspiracy, which involves people mining helium from the sun because of Farnsworth's technology.",
+        "id": 121
+      },
+      {
+        "number": "133 - 6",
+        "title": "Saturday Morning Fun Pit",
+        "writers": "Patric Verrone",
+        "originalAirDate": "July 17, 2013",
+        "desc": "An episode featuring three different segements, in the same vein as episodes such as 'Anthology of Interest I', it's sequel 'Anthology of Interest II', 'The Futurama Holiday Spectacular, 'Reincarnation' and 'Naturama.' It is a parodies retro cartoons: the three episodes are parodies of Scooby Doo (Bender Boo & the Mystery Crew), Strawberry Shortcake/The Smurfs (Purpleberry Pond) & G.I.Joe (G.I.Zap).  Like the other three segmented anthologies, this episode is considered non canon.",
+        "id": 122
+      },
+      {
+        "number": "135 - 8",
+        "title": "Assie Come Home",
+        "writers": "Maiya Williams",
+        "originalAirDate": "July 31, 2013",
+        "desc": "When going on gang planet Bender is out of print. Then Leela, Fry and Bender will look about his body parts",
+        "id": 123
+      },
+      {
+        "number": "136 - 9",
+        "title": "Leela and the Genestalk",
+        "writers": "Eric Horsted",
+        "originalAirDate": "August 7, 2013",
+        "desc": "The reason why Turanga Munda is more mutated than her original appearance is explained.",
+        "id": 124
+      },
+      {
+        "number": "137 - 10",
+        "title": "Game of Tones",
+        "writers": "Michael Rowe",
+        "originalAirDate": "August 14, 2013",
+        "desc": "Fry get's inside a dream dated in Dec 31st 1999 looking for a misterious sound that menaces the earth.",
+        "id": 125
+      },
+      {
+        "number": "138 - 11",
+        "title": "Murder on the Planet Express",
+        "writers": "Lewis Morton",
+        "originalAirDate": "August 21, 2013",
+        "desc": "A murder happens in the Planet Express Building and the crew tries to find the culprit.",
+        "id": 126
+      },
+      {
+        "number": "139 - 12",
+        "title": "Stench and Stenchibility",
+        "writers": "Eric Horsted",
+        "originalAirDate": "August 28, 2013",
+        "desc": "Zoidberg finally finds love in the form of a beautiful alien who has lost her ability to smell.  However, this love is threatened when Zoidberg must perform a nose transplant on his love and his unique odor could make her leave him.",
+        "id": 127
+      },
+      {
+        "number": "140 - 13",
+        "title": "Meanwhile",
+        "writers": "Ken Keeler",
+        "originalAirDate": "September 4, 2013",
+        "desc": "Hubert Farnsworth invents a button that can take a person 10 seconds back in time, inadvertently causing major consequences. This episode is the continuation of 'stench and stenchability' will be written as the series finale of Futurama & will feature the long-awaited wedding of Fry & Leela.\n\nFrom Meanwhile.. The Last Episode Ever Made....\n",
+        "id": 128
+      }
+    ],
+    "questions": [{
+        "id": 1,
+        "question": "What is Fry\"s first name?",
+        "possibleAnswers": [
+          "Fred",
+          "Philip",
+          "Will",
+          "John"
+        ],
+        "correctAnswer": "Philip"
+      },
+      {
+        "question": "In 'Benders Big Score' what ailen species scam the earth?",
+        "id": 2,
+        "possibleAnswers": [
+          "Nibbloniens",
+          "Omicrons",
+          "Robots",
+          "Nudest aliens",
+          "Tentacals"
+        ],
+        "correctAnswer": "Nudest aliens"
+      },
+      {
+        "id": 3,
+        "question": "What is benders middle and last name?",
+        "possibleAnswers": [
+          "E Smithie",
+          "Flam Flexo",
+          "Lobster Squid",
+          "Bending Rodriguez",
+          "Steven martin"
+        ],
+        "correctAnswer": "Bending Rodriguez"
+      },
+      {
+        "id": 4,
+        "question": "What is Ziodberg?",
+        "possibleAnswers": [
+          "Lobster",
+          "Alien",
+          "Muntant",
+          "Robot"
+        ],
+        "correctAnswer": "Lobster"
+      },
+      {
+        "id": 5,
+        "question": "What was Fry\"s job in 1999?",
+        "possibleAnswers": [
+          "Manager",
+          "Bounty Hunter",
+          "Delivery Boy",
+          "Factory Worker",
+          "Cook"
+        ],
+        "correctAnswer": "Delivery Boy"
+      },
+      {
+        "id": 6,
+        "question": "How did Fry meet Bender in the first episode?",
+        "possibleAnswers": [
+          "Bar",
+          "Suicide Booth",
+          "Street",
+          "Shop",
+          "Looking for jobs"
+        ],
+        "correctAnswer": "Suicide Booth"
+      },
+      {
+        "question": "In 'The Cyber House Rules' how many orphans does Bender adopt?",
+        "possibleAnswers": [
+          "8",
+          "10",
+          "12",
+          "14"
+        ],
+        "correctAnswer": 12,
+        "id": 7
+      },
+      {
+        "question": "In 'The Why of Fry' what vehicle does Nibbler give to Fry to travel to the Infosphere?",
+        "possibleAnswers": [
+          "Scooty-Puff Jr",
+          "Zooty-Puff Jr",
+          "Scoochy-Puff Jr",
+          "Booty-Puff Jr"
+        ],
+        "correctAnswer": "Scooty-Puff Jr",
+        "id": 8
+      },
+      {
+        "question": "Hermes' wife, LaBarbara, was once married to who?",
+        "possibleAnswers": [
+          "Trinidad Slim",
+          "Barbados Slim",
+          "Antigua Slim",
+          "Grenada Slim"
+        ],
+        "correctAnswer": "Barbados Slim",
+        "id": 9
+      },
+      {
+        "question": "Where do the crew travel to in order to find the original were-car in 'The Honking'?",
+        "possibleAnswers": [
+          "The old abandoned Chevrolet factory",
+          "The old abandoned Dodge factory",
+          "The old abandoned Ford factory",
+          "The old abandoned Chrysler factory"
+        ],
+        "correctAnswer": "The old abandoned Chrysler factory",
+        "id": 10
+      },
+      {
+        "question": "What was the name of Fry's mermaid girlfriend in 'The Deep South'?",
+        "possibleAnswers": [
+          "Ariel",
+          "Umbriel",
+          "Azriel",
+          "Meriel"
+        ],
+        "correctAnswer": "Umbriel",
+        "id": 11
+      },
+      {
+        "question": "What was the PIN for Fry's ATM card, as revealed in 'A Fishful of Dollars'?",
+        "possibleAnswers": [
+          "1077",
+          "1150",
+          "1089",
+          "1126",
+          "1244",
+          "1999"
+        ],
+        "correctAnswer": 1077,
+        "id": 12
+      },
+      {
+        "question": "In 'Hell is Other Robots' Bender turns to which religion to help overcome his addiction?",
+        "possibleAnswers": [
+          "League of Sciencology",
+          "Temple of Robotology",
+          "Church of Roboism",
+          "Order of Mechanology"
+        ],
+        "correctAnswer": "Temple of Robotology",
+        "id": 13
+      },
+      {
+        "question": "Which of the following is not a member of the Ultimate Robot Fighting League?",
+        "possibleAnswers": [
+          "The Clearcutter",
+          "Millionaire Bot",
+          "Sergeant Feces Processor",
+          "The Chain Smoker",
+          "The Gender Bender"
+        ],
+        "correctAnswer": "Millionaire Bot",
+        "id": 14
+      },
+      {
+        "question": "In 'The Cryonic Woman' what was the name of the leader of the feral adolescents that challenges Fry at Deathrolling?",
+        "possibleAnswers": [
+          "Butch",
+          "Zed",
+          "Spike",
+          "Snake"
+        ],
+        "correctAnswer": "Zed",
+        "id": 15
+      },
+      {
+        "question": "What rank does Kif hold in the DOOP?",
+        "possibleAnswers": [
+          "Sergeant",
+          "Captain",
+          "Lieutenant",
+          "Major"
+        ],
+        "correctAnswer": "Lieutenant",
+        "id": 16
+      },
+      {
+        "question": "Who are the two recurring cops, often seen around New New York?",
+        "possibleAnswers": [
+          "Jonesy and ISP",
+          "Smitty and URL",
+          "Brady and Dotcom",
+          "Harry and Capslock"
+        ],
+        "correctAnswer": "Brady and Dotcom",
+        "id": 17
+      },
+      {
+        "question": "In 'Insane in the Mainframe', who is Fry's room mate at the Asylum for Criminally Insane Robots before Roberto is moved in?",
+        "possibleAnswers": [
+          "Joey Mousepad",
+          "Tinny Tim",
+          "Hedonismbot",
+          "Malfunctioning Eddie"
+        ],
+        "correctAnswer": "Malfunctioning Eddie",
+        "id": 18
+      },
+      {
+        "question": "Which product successfully uses a dream advert to market itself to Fry?",
+        "possibleAnswers": [
+          "Slurm",
+          "Bachelor Chowm",
+          "Lightspeed Briefs",
+          "Mom's Robot Oil"
+        ],
+        "correctAnswer": "Lightspeed Briefs",
+        "id": 19
+      },
+      {
+        "question": "What was Fry's job in 1999?",
+        "possibleAnswers": [
+          "Pizza Delivery Boy",
+          "Newspaper Delivery Boy",
+          "Milkman",
+          "Shoe Shine Boy",
+          "Postman"
+        ],
+        "correctAnswer": "Pizza Delivery Boy",
+        "id": 20
+      },
+      {
+        "question": "What company does Dr. Farnsworth run ?",
+        "possibleAnswers": [
+          "Space Express",
+          "FexEd",
+          "Earth Express",
+          "Planet Express",
+          "Federal Express"
+        ],
+        "correctAnswer": "Planet Express",
+        "id": 21
+      }
+    ]
+  }

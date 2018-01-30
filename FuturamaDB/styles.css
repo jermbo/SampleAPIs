@@ -1,0 +1,70 @@
+body {
+    width: 75vw;
+    max-width: 750px;
+    height: 100vh;
+    display: grid;
+    grid-auto-rows: 80px;
+    margin: auto;
+    background: linear-gradient(to top left, #2596ec, #51ab49);
+    color: #e5e5e5;
+}
+
+.btn {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    grid-row: 2;
+}
+
+h3 {
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: all 0.25s ease;
+}
+
+h3 a {
+    color: #e5e5e5;
+}
+
+h3 a:hover {
+    color: #e5e5e5;
+}
+
+h3 small {
+    display: block;
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+    transition: all 0.25s ease;
+}
+
+h3:hover {
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+h3:hover small {
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.form-area {
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-flow: dense;
+    grid-gap: 0.5rem 1rem;
+}
+
+.form-area>* {
+    grid-column: 1 / -1;
+}
+
+.half {
+    grid-column: span 6;
+}
+
+.third {
+    grid-column: span 4;
+}
+
+.quarter {
+    grid-column: span 3;
+}

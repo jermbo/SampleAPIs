@@ -1,0 +1,21 @@
+{
+  "name": "sampleapis",
+  "version": "1.0.0",
+  "description": "As I started working on the Futurama Database, I noticed that I could create a bunch of these database with little extra effort. So this is that effort.",
+  "author": "Jermbo",
+  "license": "MIT",
+  "homepage": "https://github.com/jermbo/SampleAPIs#readme",
+  "main": "index.js",
+  "scripts": {
+    "futurama": "./node_modules/.bin/browser-sync start --server --directory --port 7777 --serveStatic './FuturamaDB' --files './FuturamaDB' | ./node_modules/.bin/json-server --watch futuramadb.json --port 4000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jermbo/SampleAPIs.git"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "browser-sync": "^2.23.6",
+    "json-server": "^0.12.1"
+  }
+}
