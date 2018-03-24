@@ -1,5 +1,5 @@
 // var table = document.querySelectorAll('.wikitable');
-// var tableRows = [...table[2].querySelectorAll('tr')];
+// var tableRows = [...table[1].querySelectorAll('tr')];
 // var data = tableRows.map(row => row.innerText);
 // copy(data);
 

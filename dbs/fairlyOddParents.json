@@ -1,0 +1,2382 @@
+{
+    "info": {},
+    "characters": [],
+    "episodes": [{
+        "No. overall": "1a",
+        "No. in season": "1a",
+        "Title": "The Big Problem!",
+        "Directed by": "Butch Hartman and Jaime Diaz",
+        "Written by": "Steve Marmel",
+        "Storyboard by": "Butch Hartman and Bernie Petterson",
+        "Original air date": "March 30, 2001"
+    }, {
+        "No. overall": "1b",
+        "No. in season": "1b",
+        "Title": "Power Mad!",
+        "Directed by": "Butch Hartman",
+        "Written by": "Written by: Steve Marmel Story by: Mike Bell and Steve Marmel (story)",
+        "Storyboard by": "Butch Hartman",
+        "Original air date": "March 30, 2001"
+    }, {
+        "No. overall": "2a",
+        "No. in season": "2a",
+        "Title": "Spaced Out",
+        "Directed by": "Butch Hartman",
+        "Written by": "Mike Bell, Butch Hartman & Steve Marmel",
+        "Storyboard by": "Butch Hartman and Barry Bunce",
+        "Original air date": "April 6, 2001"
+    }, {
+        "No. overall": "2b",
+        "No. in season": "2b",
+        "Title": "TransParents!",
+        "Directed by": "Butch Hartman and Larry Leichliter",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "Butch Hartman and Joe Daniello",
+        "Original air date": "April 6, 2001"
+    }, {
+        "No. overall": "3a",
+        "No. in season": "3a",
+        "Title": "A Wish Too Far!",
+        "Directed by": "Butch Hartman",
+        "Written by": "Steve Marmel",
+        "Storyboard by": "Butch Hartman and Erik Wiese",
+        "Original air date": "April 13, 2001"
+    }, {
+        "No. overall": "3b",
+        "No. in season": "3b",
+        "Title": "Tiny Timmy!",
+        "Directed by": "Butch Hartman and Larry Leichliter",
+        "Written by": "Steve Marmel Story by: Butch Hartman, Mike Bell, and Steve Marmel (story)",
+        "Storyboard by": "Paul McEvoy",
+        "Original air date": "April 13, 2001"
+    }, {
+        "No. overall": "4a",
+        "No. in season": "4a",
+        "Title": "Father Time!",
+        "Directed by": "Butch Hartman and Jaime Diaz",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "John Fountain and Butch Hartman",
+        "Original air date": "April 20, 2001"
+    }, {
+        "No. overall": "4b",
+        "No. in season": "4b",
+        "Title": "Apartnership!",
+        "Directed by": "Butch Hartman",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "John Fountain and Butch Hartman",
+        "Original air date": "April 20, 2001"
+    }, {
+        "No. overall": "5a",
+        "No. in season": "5a",
+        "Title": "Chin Up!",
+        "Directed by": "Butch Hartman",
+        "Written by": "Steve Marmel",
+        "Storyboard by": "Paul McEvoy and Butch Hartman",
+        "Original air date": "April 27, 2001"
+    }, {
+        "No. overall": "5b",
+        "No. in season": "5b",
+        "Title": "Dog's Day Afternoon",
+        "Directed by": "Butch Hartman and Larry Leichliter",
+        "Written by": "Steve Marmel",
+        "Storyboard by": "Paul McEvoy and Butch Hartman",
+        "Original air date": "April 27, 2001"
+    }, {
+        "No. overall": "6a",
+        "No. in season": "6a",
+        "Title": "Dream Goat!",
+        "Directed by": "Butch Hartman and Larry Leichliter",
+        "Written by": "Butch Hartman Story by: Butch Hartman, Mike Bell, and Steve Marmel (story)",
+        "Storyboard by": "John Fountain",
+        "Original air date": "May 4, 2001"
+    }, {
+        "No. overall": "6b",
+        "No. in season": "6b",
+        "Title": "The Same Game",
+        "Directed by": "Butch Hartman",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "Paul McEvoy and Butch Hartman",
+        "Original air date": "May 4, 2001"
+    }, {
+        "No. overall": "7",
+        "No. in season": "7",
+        "Title": "Christmas Everyday!",
+        "Directed by": "Butch Hartman",
+        "Written by": "Butch Hartman and Steve Marmel Story by: Butch Hartman, Tracy Berna, and Steve Marmel (story)",
+        "Storyboard by": "Butch Hartman and Bob Boyle",
+        "Original air date": "December 12, 2001"
+    }, {
+        "No. overall": "8a",
+        "No. in season": "1a",
+        "Title": "Boys in the Band",
+        "Directed by": "Butch Hartman",
+        "Written by": "Butch Hartman & Steve Marmel",
+        "Storyboard by": "Butch Hartman and Paul McEvoy",
+        "Original air date": "March 1, 2002"
+    }, {
+        "No. overall": "8b",
+        "No. in season": "1b",
+        "Title": "Hex Games",
+        "Directed by": "Butch Hartman",
+        "Written by": "Tim O'Rourke",
+        "Storyboard by": "Bob Boyle",
+        "Original air date": "March 1, 2002"
+    }, {
+        "No. overall": "9a",
+        "No. in season": "2a",
+        "Title": "Boy Toy",
+        "Directed by": "Butch Hartman",
+        "Written by": "Butch Hartman & Steve Marmel",
+        "Storyboard by": "Butch Hartman and Jim Schumann",
+        "Original air date": "March 8, 2002"
+    }, {
+        "No. overall": "9b",
+        "No. in season": "2b",
+        "Title": "Inspection Detection",
+        "Directed by": "Butch Hartman",
+        "Written by": "Spencer Green Story by: Butch Hartman & Steve Marmel (story)",
+        "Storyboard by": "Butch Hartman",
+        "Original air date": "March 8, 2002"
+    }, {
+        "No. overall": "10a",
+        "No. in season": "3a",
+        "Title": "Action Packed",
+        "Directed by": "John Fountain and Butch Hartman",
+        "Written by": "Tracy Berna and Steve Marmel",
+        "Storyboard by": "John Fountain",
+        "Original air date": "March 22, 2002"
+    }, {
+        "No. overall": "10b",
+        "No. in season": "3b",
+        "Title": "Smarty Pants",
+        "Directed by": "John Fountain and Butch Hartman",
+        "Written by": "Tracy Berna",
+        "Storyboard by": "John Fountain",
+        "Original air date": "March 22, 2002"
+    }, {
+        "No. overall": "11a",
+        "No. in season": "4a",
+        "Title": "Timvisible",
+        "Directed by": "Butch Hartman",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "Butch Hartman and Paul McEvoy",
+        "Original air date": "April 26, 2002"
+    }, {
+        "No. overall": "11b",
+        "No. in season": "4b",
+        "Title": "That Old Black Magic",
+        "Directed by": "Sarah Frost and Butch Hartman",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "Jim Schumann, Butch Hartman, and Sarah Frost",
+        "Original air date": "April 26, 2002"
+    }, {
+        "No. overall": "12a",
+        "No. in season": "5a",
+        "Title": "Super Bike",
+        "Directed by": "Butch Hartman",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Butch Hartman",
+        "Original air date": "May 10, 2002"
+    }, {
+        "No. overall": "12b",
+        "No. in season": "5b",
+        "Title": "A Mile in My Shoes",
+        "Directed by": "Gary Conrad and Butch Hartman",
+        "Written by": "Tim O'Rourke, Butch Hartman, and Steve Marmel",
+        "Storyboard by": "Chris Robertson",
+        "Original air date": "May 10, 2002"
+    }, {
+        "No. overall": "13a",
+        "No. in season": "6a",
+        "Title": "Foul Balled",
+        "Directed by": "John Fountain and Butch Hartman",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "Chris Robertson and John Fountain",
+        "Original air date": "June 7, 2002"
+    }, {
+        "No. overall": "13b",
+        "No. in season": "6b",
+        "Title": "The Boy Who Would Be Queen",
+        "Directed by": "Sarah Frost and Butch Hartman",
+        "Written by": "Steve Marmel and Butch Hartman",
+        "Storyboard by": "Butch Hartman and Sarah Frost",
+        "Original air date": "June 7, 2002"
+    }, {
+        "No. overall": "14a",
+        "No. in season": "7a",
+        "Title": "Totally Spaced Out",
+        "Directed by": "John Fountain and Butch Hartman",
+        "Written by": "Steve Marmel and Jack Thomas",
+        "Storyboard by": "John Fountain and Paul McEvoy",
+        "Original air date": "July 12, 2002"
+    }, {
+        "No. overall": "14b",
+        "No. in season": "7b",
+        "Title": "The Switch Glitch",
+        "Directed by": "Gary Conrad and Butch Hartman",
+        "Written by": "Story by: Jenny Nissenson (story) Butch Hartman, Steve Marmel, and Jenny Nissenson",
+        "Storyboard by": "Jim Schumann, Gary Conrad, and Butch Hartman",
+        "Original air date": "July 12, 2002"
+    }, {
+        "No. overall": "15a",
+        "No. in season": "8a",
+        "Title": "Mighty Mom & Dyno Dad",
+        "Directed by": "John Fountain and Butch Hartman",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "John Fountain and Chris Robertson",
+        "Original air date": "September 6, 2002"
+    }, {
+        "No. overall": "15b",
+        "No. in season": "8b",
+        "Title": "Knighty Knight",
+        "Directed by": "Sarah Frost and Butch Hartman",
+        "Written by": "Butch Hartman, Steve Marmel, and Jack Thomas",
+        "Storyboard by": "Butch Hartman, Sarah Frost, and Heather Martinez",
+        "Original air date": "September 6, 2002"
+    }, {
+        "No. overall": "16a",
+        "No. in season": "9a",
+        "Title": "Fairy Fairy Quite Contrary",
+        "Directed by": "John Fountain and Butch Hartman",
+        "Written by": "Jack Thomas, Butch Hartman, and Steve Marmel",
+        "Storyboard by": "John Fountain and Jim Schumann",
+        "Original air date": "September 13, 2002"
+    }, {
+        "No. overall": "16b",
+        "No. in season": "9b",
+        "Title": "Nectar of the Odds",
+        "Directed by": "Sarah Frost and Butch Hartman",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Sarah Frost and Butch Hartman",
+        "Original air date": "September 13, 2002"
+    }, {
+        "No. overall": "17a",
+        "No. in season": "10a",
+        "Title": "Hail to the Chief",
+        "Directed by": "Gary Conrad and Butch Hartman",
+        "Written by": "Steven Banks, Jack Thomas, and Steve Marmel",
+        "Storyboard by": "Gary Conrad and Butch Hartman",
+        "Original air date": "September 27, 2002"
+    }, {
+        "No. overall": "17b",
+        "No. in season": "10b",
+        "Title": "Twistory",
+        "Directed by": "Gary Conrad and Butch Hartman",
+        "Written by": "Butch Hartman, Steve Marmel, and Jack Thomas",
+        "Storyboard by": "Paul McEvoy and Butch Hartman",
+        "Original air date": "September 27, 2002"
+    }, {
+        "No. overall": "18a",
+        "No. in season": "11a",
+        "Title": "Fool's Day Out",
+        "Directed by": "Gary Conrad and Butch Hartman",
+        "Written by": "Jack Thomas, Butch Hartman & Steve Marmel",
+        "Storyboard by": "Chris Robertson and Gary Conrad",
+        "Original air date": "October 11, 2002"
+    }, {
+        "No. overall": "18b",
+        "No. in season": "11b",
+        "Title": "Deja Vu",
+        "Directed by": "Butch Hartman",
+        "Written by": "Jack Thomas, Butch Hartman & Steve Marmel",
+        "Storyboard by": "Butch Hartman",
+        "Original air date": "October 11, 2002"
+    }, {
+        "No. overall": "19",
+        "No. in season": "12",
+        "Title": "Scary Godparents",
+        "Directed by": "John Fountain, Gary Conrad, and Butch Hartman",
+        "Written by": "Butch Hartman, Steve Marmel, and Jack Thomas",
+        "Storyboard by": "Heather Martinez, Chris Robertson, Shawn Murray, Butch Hartman, and John Fountain",
+        "Original air date": "October 29, 2002"
+    }, {
+        "No. overall": "20a",
+        "No. in season": "13a",
+        "Title": "Ruled Out",
+        "Directed by": "Gary Conrad",
+        "Written by": "Karin Gutman",
+        "Storyboard by": "Butch Hartman and Jim Schumann",
+        "Original air date": "November 8, 2002"
+    }, {
+        "No. overall": "20b",
+        "No. in season": "13b",
+        "Title": "That's Life!",
+        "Directed by": "Sarah Frost and Butch Hartman",
+        "Written by": "Spencer Green, Butch Hartman, and Steve Marmel",
+        "Storyboard by": "Butch Hartman and Jim Schumann",
+        "Original air date": "November 8, 2002"
+    }, {
+        "No. overall": "21a",
+        "No. in season": "14a",
+        "Title": "Shiny Teeth",
+        "Directed by": "Butch Hartman",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "Heather Martinez and Butch Hartman",
+        "Original air date": "November 30, 2002"
+    }, {
+        "No. overall": "21b",
+        "No. in season": "14b",
+        "Title": "Odd, Odd West",
+        "Directed by": "John Fountain and Butch Hartman",
+        "Written by": "Steve Marmel and Jack Thomas",
+        "Storyboard by": "Jim Schumann and John Fountain",
+        "Original air date": "November 30, 2002"
+    }, {
+        "No. overall": "22a",
+        "No. in season": "15a",
+        "Title": "Cosmo Con",
+        "Directed by": "Wincat Alcala and Butch Hartman",
+        "Written by": "Scott Fellows and Jack Thomas",
+        "Storyboard by": "Wincat Alcala",
+        "Original air date": "January 10, 2003"
+    }, {
+        "No. overall": "22b",
+        "No. in season": "15b",
+        "Title": "Wanda's Day Off!",
+        "Directed by": "Sarah Frost and Butch Hartman",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Heather Martinez and Shawn Murray",
+        "Original air date": "January 10, 2003"
+    }, {
+        "No. overall": "23",
+        "No. in season": "1",
+        "Title": "Information Stupor Highway",
+        "Directed by": "Sarah Frost, John Fountain, and Butch Hartman",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "Butch Hartman, Jim Schumann, Chris Robertson, and John Fountain",
+        "Original air date": "January 20, 2003"
+    }, {
+        "No. overall": "24a",
+        "No. in season": "2a",
+        "Title": "Odd Jobs",
+        "Directed by": "Gary Conrad",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Dave Thomas and Chris Robertson",
+        "Original air date": "January 27, 2003"
+    }, {
+        "No. overall": "24b",
+        "No. in season": "2b",
+        "Title": "Movie Magic",
+        "Directed by": "Wincat Alcala and Butch Hartman",
+        "Written by": "Scott Fellows and Jack Thomas",
+        "Storyboard by": "Ian Graham",
+        "Original air date": "January 27, 2003"
+    }, {
+        "No. overall": "25",
+        "No. in season": "3",
+        "Title": "Love Struck!",
+        "Directed by": "Sarah Frost, Gary Conrad, and Butch Hartman",
+        "Written by": "Scott Fellows, Steve Marmel, and Butch Hartman",
+        "Storyboard by": "Dave Thomas, Chris Robertson, Heather Martinez, Shawn Murray and Butch Hartman",
+        "Original air date": "February 14, 2003"
+    }, {
+        "No. overall": "26a",
+        "No. in season": "4a",
+        "Title": "Most Wanted Wish",
+        "Directed by": "Gary Conrad",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "May 2, 2003"
+    }, {
+        "No. overall": "26b",
+        "No. in season": "4b",
+        "Title": "This is Your Wish",
+        "Directed by": "Sarah Frost",
+        "Written by": "Butch Hartman, Steve Marmel, Scott Fellows, and Jack Thomas",
+        "Storyboard by": "Heather Martinez and Shawn Murray",
+        "Original air date": "May 2, 2003"
+    }, {
+        "No. overall": "27a",
+        "No. in season": "5a",
+        "Title": "The Crimson Chin Meets Mighty Mom & Dyno Dad!",
+        "Directed by": "Ken Bruce and Butch Hartman",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "Heather Martinez and Shawn Murray",
+        "Original air date": "May 9, 2003"
+    }, {
+        "No. overall": "27b",
+        "No. in season": "5b",
+        "Title": "Engine Blocked",
+        "Directed by": "Wincat Alcala and Butch Hartman",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Ian Graham and Butch Hartman",
+        "Original air date": "May 9, 2003"
+    }, {
+        "No. overall": "28a",
+        "No. in season": "6a",
+        "Title": "Sleepover and Over",
+        "Directed by": "Ken Bruce and Butch Hartman",
+        "Written by": "Scott Fellows, Steve Marmel, and Jack Thomas",
+        "Storyboard by": "Heather Martinez and Shawn Murray",
+        "Original air date": "May 17, 2003"
+    }, {
+        "No. overall": "28b",
+        "No. in season": "6b",
+        "Title": "Mother Nature",
+        "Directed by": "Gary Conrad",
+        "Written by": "Scott Fellows and Jack Thomas",
+        "Storyboard by": "Dave Thomas and Chris Robertson",
+        "Original air date": "May 17, 2003"
+    }, {
+        "No. overall": "29a",
+        "No. in season": "7a",
+        "Title": "Beddy Bye",
+        "Directed by": "Wincat Alcala and Butch Hartman",
+        "Written by": "Story by: Mike Lewis (story) Steve Marmel, Jack Thomas, and Scott Fellows",
+        "Storyboard by": "Erik Wiese",
+        "Original air date": "May 23, 2003"
+    }, {
+        "No. overall": "29b",
+        "No. in season": "7b",
+        "Title": "The Grass is Greener",
+        "Directed by": "Ken Bruce and Butch Hartman",
+        "Written by": "Steve Marmel, Jack Thomas, and Spencer Green",
+        "Storyboard by": "Ian Graham and Butch Hartman",
+        "Original air date": "May 23, 2003"
+    }, {
+        "No. overall": "30",
+        "No. in season": "8",
+        "Title": "The Secret Origin of Denzel Crocker!",
+        "Directed by": "Gary Conrad, Sarah Frost, and Wincat Alcala",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "Dave Thomas, Ian Graham, Heather Martinez, and Shawn Murray",
+        "Original air date": "June 27, 2003"
+    }, {
+        "No. overall": "31",
+        "No. in season": "9",
+        "Title": "Abra-Catastrophe!",
+        "Directed by": "Butch Hartman",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "John Fountain, Ian Graham, Heather Martinez, Shawn Murray, Chris Robertson, Dave Thomas, and Butch Hartman",
+        "Original air date": "July 12, 2003"
+    }, {
+        "No. overall": "32a",
+        "No. in season": "10a",
+        "Title": "MicroPhony",
+        "Directed by": "Gary Conrad",
+        "Written by": "Butch Hartman, Steve Marmel and Jack Thomas",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "August 1, 2003"
+    }, {
+        "No. overall": "32b",
+        "No. in season": "10b",
+        "Title": "So Totally Spaced Out",
+        "Directed by": "Sarah Frost and Butch Hartman",
+        "Written by": "Steve Marmel and Jack Thomas",
+        "Storyboard by": "Chris Robertson",
+        "Original air date": "August 1, 2003"
+    }, {
+        "No. overall": "33a",
+        "No. in season": "11a",
+        "Title": "Pipe Down!",
+        "Directed by": "Sarah Frost",
+        "Written by": "Butch Hartman, Steve Marmel, Jack Thomas, and Scott Fellows",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "September 26, 2003"
+    }, {
+        "No. overall": "33b",
+        "No. in season": "11b",
+        "Title": "The Big Scoop!",
+        "Directed by": "Wincat Alcala and Gary Conrad",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "Ian Graham and Lane Lueras",
+        "Original air date": "September 26, 2003"
+    }, {
+        "No. overall": "34a",
+        "No. in season": "12a",
+        "Title": "Crime Wave",
+        "Directed by": "Wincat Alcala and Butch Hartman",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "Heather Martinez and Shawn Murray",
+        "Original air date": "October 10, 2003"
+    }, {
+        "No. overall": "34b",
+        "No. in season": "12b",
+        "Title": "Odd Ball",
+        "Directed by": "Sarah Frost",
+        "Written by": "Jack Thomas, Scott Fellows, and Jim Hecht",
+        "Storyboard by": "Ian Graham",
+        "Original air date": "October 10, 2003"
+    }, {
+        "No. overall": "35a",
+        "No. in season": "13a",
+        "Title": "Where's Wanda?",
+        "Directed by": "Gary Conrad",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Heather Martinez and Shawn Murray",
+        "Original air date": "October 18, 2003"
+    }, {
+        "No. overall": "35b",
+        "No. in season": "13b",
+        "Title": "Imaginary Gary",
+        "Directed by": "Gary Conrad",
+        "Written by": "Steve Marmel and Butch Hartman",
+        "Storyboard by": "Heather Martinez and Shawn Murray",
+        "Original air date": "October 18, 2003"
+    }, {
+        "No. overall": "36a",
+        "No. in season": "14a",
+        "Title": "Miss Dimmsdale",
+        "Directed by": "Sarah Frost",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Dave Thomas and Ian Graham",
+        "Original air date": "November 7, 2003"
+    }, {
+        "No. overall": "36b",
+        "No. in season": "14b",
+        "Title": "Mind Over Magic",
+        "Directed by": "Gary Conrad",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Heather Martinez and Shawn Murray",
+        "Original air date": "November 7, 2003"
+    }, {
+        "No. overall": "37a",
+        "No. in season": "15a",
+        "Title": "Kung Timmy",
+        "Directed by": "Wincat Alcala and Gary Conrad",
+        "Written by": "Jack Thomas and Scott Fellows",
+        "Storyboard by": "Heather Martinez and Shawn Murray",
+        "Original air date": "November 11, 2003"
+    }, {
+        "No. overall": "37b",
+        "No. in season": "15b",
+        "Title": "Which Witch is Which?",
+        "Directed by": "Sarah Frost and Ken Bruce",
+        "Written by": "Butch Hartman and Jack Thomas",
+        "Storyboard by": "Butch Hartman",
+        "Original air date": "November 11, 2003"
+    }, {
+        "No. overall": "38a",
+        "No. in season": "16a",
+        "Title": "Hard Copy",
+        "Directed by": "Sarah Frost",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Heather Martinez and Shawn Murray",
+        "Original air date": "November 14, 2003"
+    }, {
+        "No. overall": "38b",
+        "No. in season": "16b",
+        "Title": "Parent Hoods",
+        "Directed by": "Gary Conrad and Ken Bruce",
+        "Written by": "Butch Hartman, Steve Marmel, and Jack Thomas",
+        "Storyboard by": "Maureen Mascarina and Dave Thomas",
+        "Original air date": "November 14, 2003"
+    }, {
+        "No. overall": "39a",
+        "No. in season": "17a",
+        "Title": "Chip Off the Old Chip",
+        "Directed by": "Wincat Alcala and Butch Hartman",
+        "Written by": "Butch Hartman, Steve Marmel, and Jack Thomas",
+        "Storyboard by": "Dave Thomas and Butch Hartman",
+        "Original air date": "November 21, 2003"
+    }, {
+        "No. overall": "39b",
+        "No. in season": "17b",
+        "Title": "Snow Bound",
+        "Directed by": "Sarah Frost",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Ian Graham and Ray Angrum",
+        "Original air date": "November 21, 2003"
+    }, {
+        "No. overall": "40",
+        "No. in season": "1",
+        "Title": "The Big Superhero Wish!",
+        "Directed by": "Gary Conrad and Sarah Frost",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "Heather Martinez, Shawn Murray, Aaron Rozenfeld, and Tom King",
+        "Original air date": "February 16, 2004"
+    }, {
+        "No. overall": "41a",
+        "No. in season": "2a",
+        "Title": "Vicky Loses Her Icky",
+        "Directed by": "Sarah Frost",
+        "Written by": "Andrew Nicholls and Darrell Vickers",
+        "Storyboard by": "Shawn Murray and Heather Martinez",
+        "Original air date": "February 20, 2004"
+    }, {
+        "No. overall": "41b",
+        "No. in season": "2b",
+        "Title": "Pixies Inc.",
+        "Directed by": "Gary Conrad",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Maureen Mascarina, Aaron Rozenfeld, and Wincat Alcala",
+        "Original air date": "February 20, 2004"
+    }, {
+        "No. overall": "42a",
+        "No. in season": "3a",
+        "Title": "Baby Face",
+        "Directed by": "Ken Bruce",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Maureen Mascarina, Chris Garbutt, and Dave Needham",
+        "Original air date": "March 19, 2004"
+    }, {
+        "No. overall": "42b",
+        "No. in season": "3b",
+        "Title": "Mr. Right!",
+        "Directed by": "Gary Conrad",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Ian Graham and Aaron Rozenfeld",
+        "Original air date": "March 19, 2004"
+    }, {
+        "No. overall": "43",
+        "No. in season": "4",
+        "Title": "The Jimmy Timmy Power Hour",
+        "Directed by": "Keith Alcorn and Butch Hartman",
+        "Written by": "Gene Grillo, Butch Hartman, and Steve Marmel Rico Hall (story)",
+        "Storyboard by": "Paul Claerhout, Jason Dorf, Rod Douglas, Dan Nosella, Ian Graham, Maureen Mascarina, Heather Martinez & Shawn Murray",
+        "Original air date": "May 7, 2004"
+    }, {
+        "No. overall": "44a",
+        "No. in season": "5a",
+        "Title": "Power Pals",
+        "Directed by": "Sarah Frost",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Mike Manley",
+        "Original air date": "May 18, 2004"
+    }, {
+        "No. overall": "44b",
+        "No. in season": "5b",
+        "Title": "Emotion Commotion!",
+        "Directed by": "Ken Bruce",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Ian Graham and Maureen Mascarina",
+        "Original air date": "May 18, 2004"
+    }, {
+        "No. overall": "45a",
+        "No. in season": "6a",
+        "Title": "Lights...Camera...Adam!",
+        "Directed by": "Sarah Frost and Gary Conrad",
+        "Written by": "Jack Thomas, Scott Fellows, Steve Marmel, and Butch Hartman",
+        "Storyboard by": "Mike Manley",
+        "Original air date": "June 1, 2004"
+    }, {
+        "No. overall": "45b",
+        "No. in season": "6b",
+        "Title": "A Bad Case of Diary-Uh!",
+        "Directed by": "Sarah Frost and Gary Conrad",
+        "Written by": "Karin Gutman",
+        "Storyboard by": "Heather Martinez and Shawn Murray",
+        "Original air date": "June 1, 2004"
+    }, {
+        "No. overall": "46a",
+        "No. in season": "7a",
+        "Title": "The Odd Couple",
+        "Directed by": "Gary Conrad",
+        "Written by": "Cynthia True",
+        "Storyboard by": "Heather Martinez and Shawn Murray",
+        "Original air date": "June 14, 2004"
+    }, {
+        "No. overall": "46b",
+        "No. in season": "7b",
+        "Title": "Class Clown",
+        "Directed by": "Ken Bruce",
+        "Written by": "Andrew Nicholls and Darrell Vickers",
+        "Storyboard by": "Ian Graham and Tom King",
+        "Original air date": "June 14, 2004"
+    }, {
+        "No. overall": "47a",
+        "No. in season": "8a",
+        "Title": "Who's Your Daddy?",
+        "Directed by": "Gary Conrad",
+        "Written by": "Andrew Nicholls and Darrell Vickers Bob Boyle and Lewis Foulke (story)",
+        "Storyboard by": "Maureen Mascarina and Aaron Rozenfeld",
+        "Original air date": "June 18, 2004"
+    }, {
+        "No. overall": "47b",
+        "No. in season": "8b",
+        "Title": "Homewrecker",
+        "Directed by": "Ken Bruce",
+        "Written by": "Cynthia True",
+        "Storyboard by": "Tom King and Shawn Murray",
+        "Original air date": "June 18, 2004"
+    }, {
+        "No. overall": "48",
+        "No. in season": "9",
+        "Title": "Crash Nebula",
+        "Directed by": "Butch Hartman",
+        "Written by": "Butch Hartman and Steve Marmel",
+        "Storyboard by": "Erik Wiese",
+        "Original air date": "July 2, 2004"
+    }, {
+        "No. overall": "49",
+        "No. in season": "10",
+        "Title": "Channel Chasers",
+        "Directed by": "Butch Hartman",
+        "Written by": "Steve Marmel and Butch Hartman",
+        "Storyboard by": "Dave Thomas, Ray Angrum, Chris Graham, Butch Hartman, Tom King, Mike Manley, Heather Martinez, Maureen Mascarina, Shawn Murray, Aaron Rozenfeld & Erik Wiese",
+        "Original air date": "July 23, 2004"
+    }, {
+        "No. overall": "50",
+        "No. in season": "11",
+        "Title": "Shelf Life",
+        "Directed by": "Wincat Alcala and Butch Hartman",
+        "Written by": "Butch Hartman, Steve Marmel, and Jack Thomas",
+        "Storyboard by": "Wincat Alcala, Ian Graham, and Butch Hartman",
+        "Original air date": "September 10, 2004"
+    }, {
+        "No. overall": "51a",
+        "No. in season": "12a",
+        "Title": "A New Squid in Town!",
+        "Directed by": "Ken Bruce",
+        "Written by": "Steve Marmel and Butch Hartman",
+        "Storyboard by": "Tom King and Butch Hartman",
+        "Original air date": "November 27, 2004"
+    }, {
+        "No. overall": "51b",
+        "No. in season": "12b",
+        "Title": "Wish Fixers",
+        "Directed by": "Sarah Frost",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Maureen Mascarina and Aaron Rozenfeld",
+        "Original air date": "November 27, 2004"
+    }, {
+        "No. overall": "52a",
+        "No. in season": "13a",
+        "Title": "Fairy Friends & Neighbors!",
+        "Directed by": "Sarah Frost",
+        "Written by": "Dave Thomas (story) Scott Fellows and Jack Thomas",
+        "Storyboard by": "Heather Martinez, Shawn Murray, and Dave Thomas",
+        "Original air date": "November 27, 2004"
+    }, {
+        "No. overall": "52b",
+        "No. in season": "13b",
+        "Title": "Just the Two of Us!",
+        "Directed by": "Ken Bruce",
+        "Written by": "Jack Thomas, Scott Fellows, and Jim Hecht",
+        "Storyboard by": "Maureen Mascarina and Aaron Rozenfeld",
+        "Original air date": "November 27, 2004"
+    }, {
+        "No. overall": "53a",
+        "No. in season": "14a",
+        "Title": "Catman Meets the Crimson Chin",
+        "Directed by": "Ken Bruce",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Shawn Murray and Tom King",
+        "Original air date": "January 17, 2005"
+    }, {
+        "No. overall": "53b",
+        "No. in season": "14b",
+        "Title": "Genie Meanie Minie Mo",
+        "Directed by": "Gary Conrad",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Maureen Mascarina and Aaron Rozenfeld",
+        "Original air date": "January 17, 2005"
+    }, {
+        "No. overall": "54a",
+        "No. in season": "1a",
+        "Title": "Nega-Timmy",
+        "Directed by": "Gary Conrad",
+        "Written by": "Story by: Dave Thomas (story) Scott Fellows & Jack Thomas",
+        "Storyboard by": "Dave Thomas and Butch Hartman",
+        "Original air date": "February 14, 2005"
+    }, {
+        "No. overall": "54b",
+        "No. in season": "1b",
+        "Title": "Love at First Height",
+        "Directed by": "Ken Bruce",
+        "Written by": "Joel Zimmer",
+        "Storyboard by": "Maureen Mascarina",
+        "Original air date": "February 14, 2005"
+    }, {
+        "No. overall": "55a",
+        "No. in season": "2a",
+        "Title": "Truth or Cosmoquences",
+        "Directed by": "Gary Conrad",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Heather Martinez and Shawn Murray",
+        "Original air date": "February 15, 2005"
+    }, {
+        "No. overall": "55b",
+        "No. in season": "2b",
+        "Title": "Beach Bummed!",
+        "Directed by": "Sarah Frost",
+        "Written by": "Scott Fellows and Jack Thomas",
+        "Storyboard by": "Dave Thomas, Tom King, and Heather Martinez",
+        "Original air date": "February 15, 2005"
+    }, {
+        "No. overall": "56a",
+        "No. in season": "3a",
+        "Title": "You Doo!",
+        "Directed by": "Gary Conrad",
+        "Written by": "Scott Fellows and Jack Thomas",
+        "Storyboard by": "Heather Martinez",
+        "Original air date": "February 16, 2005"
+    }, {
+        "No. overall": "56b",
+        "No. in season": "3b",
+        "Title": "Just Desserts!",
+        "Directed by": "Sarah Frost",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Tom King",
+        "Original air date": "February 16, 2005"
+    }, {
+        "No. overall": "57a",
+        "No. in season": "4a",
+        "Title": "Back to the Norm",
+        "Directed by": "Gary Conrad",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "February 17, 2005"
+    }, {
+        "No. overall": "57b",
+        "No. in season": "4b",
+        "Title": "Teeth for Two",
+        "Directed by": "Ken Bruce",
+        "Written by": "Cynthia True",
+        "Storyboard by": "Maureen Mascarina",
+        "Original air date": "February 17, 2005"
+    }, {
+        "No. overall": "58a",
+        "No. in season": "5a",
+        "Title": "The Masked Magician",
+        "Directed by": "Butch Hartman",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "February 18, 2005"
+    }, {
+        "No. overall": "58b",
+        "No. in season": "5b",
+        "Title": "The Big Bash",
+        "Directed by": "Ken Bruce and Juli Hashiguchi",
+        "Written by": "Cynthia True",
+        "Storyboard by": "Maureen Mascarina and Shawn Murray",
+        "Original air date": "February 18, 2005"
+    }, {
+        "No. overall": "59a",
+        "No. in season": "6a",
+        "Title": "Blondas Have More Fun!",
+        "Directed by": "Gary Conrad",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Mike Manley",
+        "Original air date": "April 2, 2005"
+    }, {
+        "No. overall": "59b",
+        "No. in season": "6b",
+        "Title": "Five Days of F.L.A.R.G.",
+        "Directed by": "Ken Bruce",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Maureen Mascarina",
+        "Original air date": "April 2, 2005"
+    }, {
+        "No. overall": "60a",
+        "No. in season": "7a",
+        "Title": "Go Young, West Man!",
+        "Directed by": "Sarah Frost",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Aaron Rozenfeld and Butch Hartman",
+        "Original air date": "May 9, 2005"
+    }, {
+        "No. overall": "60b",
+        "No. in season": "7b",
+        "Title": "Birthday Wish!",
+        "Directed by": "Ken Bruce",
+        "Written by": "Cynthia True",
+        "Storyboard by": "Brandon Kruse and Shawn Murray",
+        "Original air date": "May 9, 2005"
+    }, {
+        "No. overall": "61a",
+        "No. in season": "8a",
+        "Title": "Timmy's 2-D House of Horror",
+        "Directed by": "Gary Conrad",
+        "Written by": "Cynthia True",
+        "Storyboard by": "Heather Martinez",
+        "Original air date": "May 10, 2005"
+    }, {
+        "No. overall": "61b",
+        "No. in season": "8b",
+        "Title": "It's a Wishful Life",
+        "Directed by": "Sarah Frost",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Tom King",
+        "Original air date": "May 10, 2005"
+    }, {
+        "No. overall": "62a",
+        "No. in season": "9a",
+        "Title": "Escape from Unwish Island",
+        "Directed by": "Ken Bruce",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Shawn Murray",
+        "Original air date": "May 11, 2005"
+    }, {
+        "No. overall": "62b",
+        "No. in season": "9b",
+        "Title": "The Gland Plan",
+        "Directed by": "Sarah Frost",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Aaron Rozenfeld",
+        "Original air date": "May 11, 2005"
+    }, {
+        "No. overall": "63a",
+        "No. in season": "10a",
+        "Title": "Hassle in the Castle",
+        "Directed by": "Gary Conrad",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Heather Martinez",
+        "Original air date": "May 12, 2005"
+    }, {
+        "No. overall": "63b",
+        "No. in season": "10b",
+        "Title": "Remy Rides Again",
+        "Directed by": "Sarah Frost",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Tom King",
+        "Original air date": "May 12, 2005"
+    }, {
+        "No. overall": "64a",
+        "No. in season": "11a",
+        "Title": "Talkin' Trash",
+        "Directed by": "Sarah Frost",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Tom King and Maureen Mascarina",
+        "Original air date": "May 13, 2005"
+    }, {
+        "No. overall": "64b",
+        "No. in season": "11b",
+        "Title": "Timmy TV",
+        "Directed by": "Ken Bruce",
+        "Written by": "Cynthia True",
+        "Storyboard by": "Shawn Murray",
+        "Original air date": "May 13, 2005"
+    }, {
+        "No. overall": "65",
+        "No. in season": "12",
+        "Title": "School's Out!: The Musical",
+        "Directed by": "Butch Hartman",
+        "Written by": "Steve Marmel and Butch Hartman",
+        "Storyboard by": "Dave Thomas, Tom King, Heather Martinez, Maureen Mascarina, Shawn Murray, and Aaron Rozenfeld",
+        "Original air date": "June 10, 2005"
+    }, {
+        "No. overall": "66a",
+        "No. in season": "13a",
+        "Title": "Mooooving Day",
+        "Directed by": "Gary Conrad",
+        "Written by": "Gene Grillo Story by: Jack Thomas (story)",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "October 3, 2005"
+    }, {
+        "No. overall": "66b",
+        "No. in season": "13b",
+        "Title": "Big Wanda",
+        "Directed by": "Ken Bruce",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Butch Hartman",
+        "Original air date": "October 3, 2005"
+    }, {
+        "No. overall": "67a",
+        "No. in season": "14a",
+        "Title": "Oh, Brother!",
+        "Directed by": "Gary Conrad",
+        "Written by": "Kevin Sullivan Story by: Kevin Sullivan and Deirdre Brenner (story)",
+        "Storyboard by": "Steve Daye",
+        "Original air date": "October 4, 2005"
+    }, {
+        "No. overall": "67b",
+        "No. in season": "14b",
+        "Title": "What's the Difference?",
+        "Directed by": "Ken Bruce",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Maureen Mascarina",
+        "Original air date": "October 4, 2005"
+    }, {
+        "No. overall": "68a",
+        "No. in season": "15a",
+        "Title": "Smart Attack!",
+        "Directed by": "Ken Bruce",
+        "Written by": "Greg Fideler",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "October 5, 2005"
+    }, {
+        "No. overall": "68b",
+        "No. in season": "15b",
+        "Title": "Operation F.U.N.",
+        "Directed by": "Gary Conrad",
+        "Written by": "Cynthia True",
+        "Storyboard by": "Dave Cunningham",
+        "Original air date": "October 5, 2005"
+    }, {
+        "No. overall": "69a",
+        "No. in season": "16a",
+        "Title": "Something's Fishy!",
+        "Directed by": "Gary Conrad",
+        "Written by": "Steve Marmel and Jack Thomas",
+        "Storyboard by": "Brandon Kruse",
+        "Original air date": "October 6, 2005"
+    }, {
+        "No. overall": "69b",
+        "No. in season": "16b",
+        "Title": "Presto Change-O",
+        "Directed by": "Ken Bruce",
+        "Written by": "Kevin Sullivan Story by: Deirdre Brenner and Kevin Sullivan (story)",
+        "Storyboard by": "Maureen Mascarina",
+        "Original air date": "October 6, 2005"
+    }, {
+        "No. overall": "70a",
+        "No. in season": "17a",
+        "Title": "The Good Old Days!",
+        "Directed by": "Gary Conrad",
+        "Written by": "Dave Thomas Story by: Dave Thomas and Steve Marmel (story)",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "October 7, 2005"
+    }, {
+        "No. overall": "70b",
+        "No. in season": "17b",
+        "Title": "Future Lost",
+        "Directed by": "Ken Bruce",
+        "Written by": "Jack Thomas",
+        "Storyboard by": "Dave Cunningham and Butch Hartman",
+        "Original air date": "October 7, 2005"
+    }, {
+        "No. overall": "71",
+        "No. in season": "18",
+        "Title": "The Jimmy Timmy Power Hour 2: When Nerds Collide!",
+        "Directed by": "Keith Alcorn, Mike Gasaway, and Butch Hartman",
+        "Written by": "Gene Grillo and Steve Marmel Gene Grillo, Steve Marmel, Jed Spingarn, and Jack Thomas (story)",
+        "Storyboard by": "Jason Dorf, Rod Douglas, Dan Nosella, Maureen Mascarina, Steve Daye & Butch Hartman",
+        "Original air date": "January 16, 2006"
+    }, {
+        "No. overall": "72",
+        "No. in season": "19",
+        "Title": "Fairy Idol",
+        "Directed by": "Ken Bruce and Gary Conrad",
+        "Written by": "Butch Hartman and Steve Marmel Story by: Steve Marmel, Dave Thomas, and Kevin Sullivan (story)",
+        "Storyboard by": "Steve Daye, Maureen Mascarina, Dave Thomas, and Butch Hartman",
+        "Original air date": "May 19, 2006"
+    }, {
+        "No. overall": "73",
+        "No. in season": "20",
+        "Title": "The Jimmy Timmy Power Hour 3: The Jerkinators!",
+        "Directed by": "Keith Alcorn, Mike Gasaway, and Butch Hartman",
+        "Written by": "Steve Marmel and Jed Spingarn",
+        "Storyboard by": "Jason Dorf, Rod Douglas, Dan Nosella, Dave Cunningham, Steve Daye, Maureen Mascarina, Dave Thomas & Butch Hartman",
+        "Original air date": "July 21, 2006"
+    }, {
+        "No. overall": "74a",
+        "No. in season": "21a",
+        "Title": "Timmy the Barbarian!",
+        "Directed by": "Ken Bruce",
+        "Written by": "Story by: Dave Thomas (story) Jack Thomas and Steve Marmel",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "November 25, 2006"
+    }, {
+        "No. overall": "74b",
+        "No. in season": "21b",
+        "Title": "No Substitute for Crazy!",
+        "Directed by": "Gary Conrad",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Dave Cunningham and Butch Hartman",
+        "Original air date": "November 25, 2006"
+    }, {
+        "No. overall": "75",
+        "No. in season": "1",
+        "Title": "Fairly OddBaby",
+        "Directed by": "Ken Bruce, Michelle Bryan, and Gary Conrad",
+        "Written by": "Scott Fellows, Butch Hartman & Kevin Sullivan",
+        "Storyboard by": "Wincat Alcala, Aaron Hammersley, Butch Hartman & Marty Warner",
+        "Original air date": "February 18, 2008"
+    }, {
+        "No. overall": "76a",
+        "No. in season": "2a",
+        "Title": "Mission: Responsible",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Butch Hartman",
+        "Original air date": "March 10, 2008"
+    }, {
+        "No. overall": "76b",
+        "No. in season": "2b",
+        "Title": "Hairicane",
+        "Directed by": "Ken Bruce",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Brandon Kruse",
+        "Original air date": "March 11, 2008"
+    }, {
+        "No. overall": "77a",
+        "No. in season": "3a",
+        "Title": "Open Wide and Say Aaagh!",
+        "Directed by": "Gary Conrad",
+        "Written by": "Butch Hartman",
+        "Storyboard by": "Wincat Alcala",
+        "Original air date": "March 12, 2008"
+    }, {
+        "No. overall": "77b",
+        "No. in season": "3b",
+        "Title": "Odd Pirates",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Butch Hartman & Marty Warner",
+        "Original air date": "March 13, 2008"
+    }, {
+        "No. overall": "78a",
+        "No. in season": "4a",
+        "Title": "The Odd Squad",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Brandon Kruse",
+        "Original air date": "May 12, 2008"
+    }, {
+        "No. overall": "78b",
+        "No. in season": "4b",
+        "Title": "For Emergencies Only",
+        "Directed by": "Ken Bruce",
+        "Written by": "Butch Hartman",
+        "Storyboard by": "Wincat Alcala",
+        "Original air date": "May 13, 2008"
+    }, {
+        "No. overall": "79a",
+        "No. in season": "5a",
+        "Title": "Cheese & Crockers",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Butch Hartman",
+        "Original air date": "May 14, 2008"
+    }, {
+        "No. overall": "79b",
+        "No. in season": "5b",
+        "Title": "Land Before Timmy",
+        "Directed by": "Gary Conrad",
+        "Written by": "Written by: Kevin Sullivan Story by: Tom Krajewski (story)",
+        "Storyboard by": "Ray Angrum and Butch Hartman",
+        "Original air date": "May 15, 2008"
+    }, {
+        "No. overall": "80a",
+        "No. in season": "6a",
+        "Title": "King Chang",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Wincat Alcala",
+        "Original air date": "May 16, 2008"
+    }, {
+        "No. overall": "80b",
+        "No. in season": "6b",
+        "Title": "The End of the Universe-ity",
+        "Directed by": "Ken Bruce",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Butch Hartman and Ray Angrum",
+        "Original air date": "August 11, 2008"
+    }, {
+        "No. overall": "81",
+        "No. in season": "7",
+        "Title": "The Fairly Oddlymipics",
+        "Directed by": "Ken Bruce and Gary Conrad",
+        "Written by": "Scott Fellows, Butch Hartman, and Kevin Sullivan",
+        "Storyboard by": "Aaron Hammersley and Butch Hartman",
+        "Original air date": "August 1, 2008"
+    }, {
+        "No. overall": "82a",
+        "No. in season": "8a",
+        "Title": "Sooper Poof",
+        "Directed by": "Gary Conrad",
+        "Written by": "Laurie Israel and Rachel Ruderman",
+        "Storyboard by": "Aaron Hammersley",
+        "Original air date": "August 12, 2008"
+    }, {
+        "No. overall": "82b",
+        "No. in season": "8b",
+        "Title": "Wishing Well",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Butch Hartman",
+        "Original air date": "August 13, 2008"
+    }, {
+        "No. overall": "83a",
+        "No. in season": "9a",
+        "Title": "Wishy Washy",
+        "Directed by": "Ken Bruce",
+        "Written by": "Butch Hartman",
+        "Storyboard by": "Brandon Kruse",
+        "Original air date": "August 14, 2008"
+    }, {
+        "No. overall": "83b",
+        "No. in season": "9b",
+        "Title": "Poof's Playdate",
+        "Directed by": "Gary Conrad",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Butch Hartman",
+        "Original air date": "August 15, 2008"
+    }, {
+        "No. overall": "84a",
+        "No. in season": "10a",
+        "Title": "Vicky Gets Fired",
+        "Directed by": "Ken Bruce",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Aaron Hammersley",
+        "Original air date": "November 30, 2008"
+    }, {
+        "No. overall": "84b",
+        "No. in season": "10b",
+        "Title": "Chindred Spirits",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Amy Keating Rogers",
+        "Storyboard by": "Butch Hartman and Ray Angrum",
+        "Original air date": "November 30, 2008"
+    }, {
+        "No. overall": "85a",
+        "No. in season": "11a",
+        "Title": "9 Lives!",
+        "Directed by": "Ken Bruce",
+        "Written by": "Chris Prouty",
+        "Storyboard by": "Wincat Alcala",
+        "Original air date": "November 30, 2008"
+    }, {
+        "No. overall": "85b",
+        "No. in season": "11b",
+        "Title": "Dread 'n' Breakfast",
+        "Directed by": "Gary Conrad",
+        "Written by": "Scott Fellows",
+        "Storyboard by": "Butch Hartman",
+        "Original air date": "November 30, 2008"
+    }, {
+        "No. overall": "86",
+        "No. in season": "12",
+        "Title": "Merry Wishmas",
+        "Directed by": "Ken Bruce",
+        "Written by": "Butch Hartman, Scott Fellows, and Kevin Sullivan",
+        "Storyboard by": "Aaron Hammersley, Butch Hartman, and Brandon Kruse",
+        "Original air date": "December 12, 2008"
+    }, {
+        "No. overall": "87",
+        "No. in season": "1",
+        "Title": "Wishology! Part 1: The Big Beginning",
+        "Directed by": "Butch Hartman",
+        "Written by": "Scott Fellows, Butch Hartman, and Kevin Sullivan",
+        "Storyboard by": "Wincat Alcala, Aaron Hammersley, Butch Hartman, and Brandon Kruse",
+        "Original air date": "May 1, 2009",
+        "Viewers (millions)": "4.012[3][4]"
+    }, {
+        "No. overall": "88",
+        "No. in season": "2",
+        "Title": "Wishology! Part 2: The Exciting Middle Part",
+        "Directed by": "Butch Hartman",
+        "Written by": "Scott Fellows, Butch Hartman, and Kevin Sullivan",
+        "Storyboard by": "Wincat Alcala, Aaron Hammersley, Butch Hartman, and Brandon Kruse",
+        "Original air date": "May 2, 2009",
+        "Viewers (millions)": "3.6[3][4]"
+    }, {
+        "No. overall": "89",
+        "No. in season": "3",
+        "Title": "Wishology! Part 3: The Final Ending",
+        "Directed by": "Butch Hartman",
+        "Written by": "Scott Fellows, Butch Hartman, and Kevin Sullivan",
+        "Storyboard by": "Aaron Hammersley, Butch Hartman, and Brandon Kruse",
+        "Original air date": "May 3, 2009",
+        "Viewers (millions)": "4.071[3][4]"
+    }, {
+        "No. overall": "90a",
+        "No. in season": "4a",
+        "Title": "Bad Heir Day",
+        "Directed by": "Ken Bruce",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Aaron Hammersley",
+        "Original air date": "July 6, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "90b",
+        "No. in season": "4b",
+        "Title": "Freaks & Greeks",
+        "Directed by": "Gary Conrad",
+        "Written by": "Tom Krajewski",
+        "Storyboard by": "Fred Gonzales",
+        "Original air date": "September 30, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "91a",
+        "No. in season": "5a",
+        "Title": "Micecapades",
+        "Directed by": "Gary Conrad",
+        "Written by": "Ray DeLaurentis",
+        "Storyboard by": "Butch Hartman and Vic Harrisson",
+        "Original air date": "July 8, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "91b",
+        "No. in season": "5b",
+        "Title": "Formula for Disaster",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Will Schifrin",
+        "Storyboard by": "Butch Hartman and Dan Haskett",
+        "Original air date": "July 7, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "92a",
+        "No. in season": "6a",
+        "Title": "Birthday Bashed!",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Butch Hartman",
+        "Storyboard by": "Brandon Kruse",
+        "Original air date": "July 9, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "92b",
+        "No. in season": "6b",
+        "Title": "Momnipresent",
+        "Directed by": "Gary Conrad",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Ray Angrum (as Rayfield Angrum) and Butch Hartman",
+        "Original air date": "August 12, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "93",
+        "No. in season": "7",
+        "Title": "Anti-Poof",
+        "Directed by": "Michelle Bryan and Gary Conrad",
+        "Written by": "Ray DeLaurentis, Butch Hartman, Kevin Sullivan, and Ed Valentine",
+        "Storyboard by": "Brandon Kruse and Aaron Hammersley",
+        "Original air date": "July 10, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "94a",
+        "No. in season": "8a",
+        "Title": "Add-a-Dad",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Heather Martinez",
+        "Original air date": "August 13, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "94b",
+        "No. in season": "8b",
+        "Title": "Squirrely Puffs",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Kevin Sullivan Ray DeLaurentis and Butch Hartman (story)",
+        "Storyboard by": "Fred Gonzales",
+        "Original air date": "August 11, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "95a",
+        "No. in season": "9a",
+        "Title": "Fly Boy",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Ed Valentine",
+        "Storyboard by": "Brandon Kruse",
+        "Original air date": "August 14, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "95b",
+        "No. in season": "9b",
+        "Title": "Temporary Fairy",
+        "Directed by": "Ken Bruce",
+        "Written by": "Amy Keating Rogers",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "September 29, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "96a",
+        "No. in season": "10a",
+        "Title": "Crocker Shocker",
+        "Directed by": "Gary Conrad",
+        "Written by": "Kevin Sullivan, and Amy Keating Rogers (story)",
+        "Storyboard by": "Aaron Hammersley",
+        "Original air date": "September 28, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "96b",
+        "No. in season": "10b",
+        "Title": "Super Zero",
+        "Directed by": "Ken Bruce",
+        "Written by": "Ray DeLaurentis and Will Schifrin",
+        "Storyboard by": "Fred Gonzales",
+        "Original air date": "October 1, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "97a",
+        "No. in season": "11a",
+        "Title": "Dadbra-Cadabra",
+        "Directed by": "Gary Conrad",
+        "Written by": "Gary Conrad",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "October 2, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "97b",
+        "No. in season": "11b",
+        "Title": "Timmy Turnip",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Will Schifrin Ray DeLaurentis and Will Schifrin (story)",
+        "Storyboard by": "Butch Hartman and Cindy Morrow",
+        "Original air date": "August 10, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "98a",
+        "No. in season": "12a",
+        "Title": "One Man Banned",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Ed Valentine",
+        "Storyboard by": "Aaron Hammersley",
+        "Original air date": "August 16, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "98b",
+        "No. in season": "12b",
+        "Title": "Frenemy Mine",
+        "Directed by": "Ken Bruce",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Brandon Kruse",
+        "Original air date": "August 16, 2009",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "99a",
+        "No. in season": "13a",
+        "Title": "Double-Oh Schnozmo!",
+        "Directed by": "Gary Conrad",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Brandon Kruse",
+        "Original air date": "September 11, 2010",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "99b",
+        "No. in season": "13b",
+        "Title": "Planet Poof",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Ed Valentine",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "April 5, 2010",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "100a",
+        "No. in season": "14a",
+        "Title": "The Boss of Me",
+        "Directed by": "Ken Bruce",
+        "Written by": "Charlotte Fullerton",
+        "Storyboard by": "Aaron Hammersley",
+        "Original air date": "September 11, 2010",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "100b",
+        "No. in season": "14b",
+        "Title": "He Poofs He Scores!",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Ray DeLaurentis and Will Schifrin",
+        "Storyboard by": "Fred Gonzales",
+        "Original air date": "April 6, 2010",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "101a",
+        "No. in season": "15a",
+        "Title": "Playdate of Doom",
+        "Directed by": "Gary Conrad",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Heather Martinez",
+        "Original air date": "April 7, 2010",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "101b",
+        "No. in season": "15b",
+        "Title": "Teacher's Pet",
+        "Directed by": "Ken Bruce",
+        "Written by": "Ray DeLaurentis and Will Schifrin",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "April 8, 2010",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "102a",
+        "No. in season": "16a",
+        "Title": "Take and Fake",
+        "Directed by": "Ken Bruce",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Heather Martinez",
+        "Original air date": "February 6, 2010",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "102b",
+        "No. in season": "16b",
+        "Title": "Cosmo Rules",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Joanna Lewis",
+        "Storyboard by": "Brandon Kruse",
+        "Original air date": "July 11, 2011",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "103a",
+        "No. in season": "17a",
+        "Title": "Chicken Poofs",
+        "Directed by": "Gary Conrad",
+        "Written by": "Ray DeLaurentis and Will Schifrin",
+        "Storyboard by": "Fred Gonzales",
+        "Original air date": "April 9, 2010",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "103b",
+        "No. in season": "17b",
+        "Title": "Stupid Cupid",
+        "Directed by": "Ken Bruce",
+        "Written by": "Will Schifrin",
+        "Storyboard by": "Heather Martinez",
+        "Original air date": "February 6, 2010",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "104a",
+        "No. in season": "18a",
+        "Title": "Manic Mom-Day",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Brandon Kruse",
+        "Original air date": "September 18, 2010",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "104b",
+        "No. in season": "18b",
+        "Title": "Crocker of Gold",
+        "Directed by": "Gary Conrad",
+        "Written by": "Will Schifrin",
+        "Storyboard by": "Butch Hartman",
+        "Original air date": "September 18, 2010",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "105",
+        "No. in season": "1",
+        "Title": "Love Triangle",
+        "Directed by": "Ken Bruce and Gary Conrad",
+        "Written by": "Dave Thomas, Kevin Sullivan, Will Schifrin, Butch Hartman, and Ray DeLaurentis",
+        "Storyboard by": "Dave Thomas and Fred Gonzales",
+        "Original air date": "February 12, 2011"
+    }, {
+        "No. overall": "106a",
+        "No. in season": "2a",
+        "Title": "Operation: Dinkleberg",
+        "Directed by": "Ken Bruce",
+        "Written by": "Ray DeLaurentis and Will Schifrin",
+        "Storyboard by": "Brandon Kruse",
+        "Original air date": "February 26, 2011"
+    }, {
+        "No. overall": "106b",
+        "No. in season": "2b",
+        "Title": "Spellementary School",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "February 26, 2011"
+    }, {
+        "No. overall": "107",
+        "No. in season": "3",
+        "Title": "Invasion of the Dads",
+        "Directed by": "Ken Bruce and Michelle Bryan",
+        "Written by": "Ray DeLaurentis, Will Schifrin, and Kevin Sullivan",
+        "Storyboard by": "Aaron Hammersley and Butch Hartman",
+        "Original air date": "June 18, 2011"
+    }, {
+        "No. overall": "108a",
+        "No. in season": "4a",
+        "Title": "Farm Pit",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Ed Valentine",
+        "Storyboard by": "Fred Gonzales",
+        "Original air date": "August 5, 2012"
+    }, {
+        "No. overall": "108b",
+        "No. in season": "4b",
+        "Title": "Crock Talk",
+        "Directed by": "Gary Conrad",
+        "Written by": "Ray DeLaurentis and Will Schifrin",
+        "Storyboard by": "Heather Martinez and Butch Hartman",
+        "Original air date": "July 11, 2011"
+    }, {
+        "No. overall": "109a",
+        "No. in season": "5a",
+        "Title": "Food Fight",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Ed Valentine",
+        "Storyboard by": "Aaron Hammersley",
+        "Original air date": "July 12, 2011"
+    }, {
+        "No. overall": "109b",
+        "No. in season": "5b",
+        "Title": "Please Don't Feed the Turners",
+        "Directed by": "Gary Conrad",
+        "Written by": "Ray DeLaurentis and Will Schifrin",
+        "Storyboard by": "Fred Gonzales",
+        "Original air date": "July 12, 2011"
+    }, {
+        "No. overall": "110a",
+        "No. in season": "6a",
+        "Title": "Lights Out",
+        "Directed by": "Ken Bruce",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "July 13, 2011"
+    }, {
+        "No. overall": "110b",
+        "No. in season": "6b",
+        "Title": "Dad Overboard",
+        "Directed by": "Gary Conrad",
+        "Written by": "Ray DeLaurentis and Will Schifrin",
+        "Storyboard by": "Aaron Hammersley",
+        "Original air date": "July 13, 2011"
+    }, {
+        "No. overall": "111a",
+        "No. in season": "7a",
+        "Title": "Old Man and the C-",
+        "Directed by": "Gary Conrad",
+        "Written by": "Kevin Sullivan",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "July 14, 2011"
+    }, {
+        "No. overall": "111b",
+        "No. in season": "7b",
+        "Title": "Balance of Flour",
+        "Directed by": "Ken Bruce",
+        "Written by": "Ray DeLaurentis and Will Schifrin",
+        "Storyboard by": "Brandon Kruse",
+        "Original air date": "July 14, 2011"
+    }, {
+        "No. overall": "112a",
+        "No. in season": "8a",
+        "Title": "Beach Blanket Bozos",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Ed Valentine",
+        "Storyboard by": "Heather Martinez",
+        "Original air date": "August 15, 2011"
+    }, {
+        "No. overall": "112b",
+        "No. in season": "8b",
+        "Title": "Poltergeeks",
+        "Directed by": "Ken Bruce",
+        "Written by": "Ed Valentine",
+        "Storyboard by": "Fred Gonzales and Greg Rankin",
+        "Original air date": "August 15, 2011"
+    }, {
+        "No. overall": "113",
+        "No. in season": "9",
+        "Title": "When L.O.S.E.R.S. Attack",
+        "Directed by": "John McIntyre and Ken Bruce",
+        "Written by": "Ray DeLaurentis, Will Schifrin, and Kevin Sullivan",
+        "Storyboard by": "Ed Baker and Butch Hartman",
+        "Original air date": "October 15, 2011"
+    }, {
+        "No. overall": "114",
+        "No. in season": "10",
+        "Title": "Timmy's Secret Wish!",
+        "Directed by": "Michelle Bryan, Ken Bruce, and John McIntyre",
+        "Written by": "Will Schifrin and Kevin Sullivan",
+        "Storyboard by": "Dave Thomas",
+        "Original air date": "November 23, 2011"
+    }, {
+        "No. overall": "115",
+        "No. in season": "11",
+        "Title": "Meet the OddParents",
+        "Directed by": "Michelle Bryan and John McIntyre",
+        "Written by": "Ray DeLaurentis, Will Schifrin, and Kevin Sullivan",
+        "Storyboard by": "Aaron Hammersley, Butch Hartman, and Dave Thomas",
+        "Original air date": "December 29, 2011"
+    }, {
+        "No. overall": "116",
+        "No. in season": "1",
+        "Title": "Fairly OddPet",
+        "Directed by": "Gary Conrad and Tuck Tucker",
+        "Written by": "Ray DeLaurentis, Will Schifrin, and Kevin Sullivan",
+        "Storyboard by": "Miguel Puga and Josh Zinman",
+        "Original air date": "March 23, 2013",
+        "Viewers (millions)": "3.90[5]"
+    }, {
+        "No. overall": "117a",
+        "No. in season": "2a",
+        "Title": "Dinklescouts",
+        "Directed by": "Gary Conrad",
+        "Written by": "Kevin Arrieta and Sindy Spackman",
+        "Storyboard by": "Marcelo DeSouza",
+        "Original air date": "April 14, 2013",
+        "Viewers (millions)": "2.06[6]"
+    }, {
+        "No. overall": "117b",
+        "No. in season": "2b",
+        "Title": "I Dream of Cosmo",
+        "Directed by": "Randy Myers and Michelle Bryan",
+        "Written by": "Kevin Arrieta and Sindy Spackman",
+        "Storyboard by": "Mike Nassar and Butch Hartman",
+        "Original air date": "April 14, 2013",
+        "Viewers (millions)": "2.06[6]"
+    }, {
+        "No. overall": "118a",
+        "No. in season": "3a",
+        "Title": "Turner & Pooch",
+        "Directed by": "Tuck Tucker",
+        "Written by": "Ray DeLaurentis, Will Schifrin, and Kevin Sullivan",
+        "Storyboard by": "Butch Hartman and Jim Mortensen",
+        "Original air date": "May 4, 2013",
+        "Viewers (millions)": "3.10[7]"
+    }, {
+        "No. overall": "118b",
+        "No. in season": "3b",
+        "Title": "Dumbbell Curve",
+        "Directed by": "Randy Myers and Michelle Bryan",
+        "Written by": "Kevin Arrieta, Ray DeLaurentis, Will Schifrin, Sindy Spackman, and Kevin Sullivan",
+        "Storyboard by": "Josh Zinman and Butch Hartman",
+        "Original air date": "May 11, 2013",
+        "Viewers (millions)": "3.05[8]"
+    }, {
+        "No. overall": "119a",
+        "No. in season": "4a",
+        "Title": "The Terrible Twosome",
+        "Directed by": "Gary Conrad",
+        "Written by": "Ray DeLaurentis, Will Schifrin, and Kevin Sullivan",
+        "Storyboard by": "Miguel Puga",
+        "Original air date": "June 1, 2013",
+        "Viewers (millions)": "3.19[9]"
+    }, {
+        "No. overall": "119b",
+        "No. in season": "4b",
+        "Title": "App Trap",
+        "Directed by": "Tuck Tucker and Butch Hartman",
+        "Written by": "Alec Schwimmer (story) Kevin Arrieta and Sindy Spackman",
+        "Storyboard by": "Mike Nassar and Butch Hartman",
+        "Original air date": "June 8, 2013",
+        "Viewers (millions)": "2.73[10]"
+    }, {
+        "No. overall": "120a",
+        "No. in season": "5a",
+        "Title": "Force of Nature",
+        "Directed by": "Michelle Bryan and Randy Myers",
+        "Written by": "Kevin Arrieta and Sindy Spackman",
+        "Storyboard by": "Marcelo DeSouza",
+        "Original air date": "June 15, 2013",
+        "Viewers (millions)": "3.03[11]"
+    }, {
+        "No. overall": "120b",
+        "No. in season": "5b",
+        "Title": "Viral Vidiots",
+        "Directed by": "Gary Conrad",
+        "Written by": "Ellen Byron and Lissa Kapstrom",
+        "Storyboard by": "Jim Mortensen and Butch Hartman",
+        "Original air date": "June 22, 2013",
+        "Viewers (millions)": "3.22[12]"
+    }, {
+        "No. overall": "121",
+        "No. in season": "6",
+        "Title": "Scary GodCouple",
+        "Directed by": "Michelle Bryan, Butch Hartman, Randy Myers, and Tuck Tucker",
+        "Written by": "Ray DeLaurentis, Will Schifrin, and Kevin Sullivan",
+        "Storyboard by": "Miguel Puga, Josh Zinman, and Butch Hartman",
+        "Original air date": "October 19, 2013",
+        "Viewers (millions)": "3.00[13]"
+    }, {
+        "No. overall": "122a",
+        "No. in season": "7a",
+        "Title": "Finding Emo",
+        "Directed by": "Michelle Bryan and Randy Myers",
+        "Written by": "Ray DeLaurentis, Will Schifrin, and Kevin Sullivan",
+        "Storyboard by": "Jim Mortensen and Butch Hartman",
+        "Original air date": "July 9, 2014",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "122b",
+        "No. in season": "7b",
+        "Title": "Dust Busters",
+        "Directed by": "Michelle Byran, Kevin Petrilak, and Tuck Tucker",
+        "Written by": "Jonathan Butler, Ray DeLaurentis, Will Schifrin, and Kevin Sullivan",
+        "Storyboard by": "Marcelo DeSouza",
+        "Original air date": "July 9, 2014",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "123a",
+        "No. in season": "8a",
+        "Title": "The Bored Identity",
+        "Directed by": "Michelle Bryan, Kevin Petrilak, and Tuck Tucker",
+        "Written by": "Ray DeLaurentis, Will Schifrin, and Kevin Sullivan",
+        "Storyboard by": "Miguel Puga",
+        "Original air date": "July 23, 2014",
+        "Viewers (millions)": "1.80[14]"
+    }, {
+        "No. overall": "123b",
+        "No. in season": "8b",
+        "Title": "Country Clubbed",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Kevin Arrieta, Alec Schwimmer, and Sindy Spackman",
+        "Storyboard by": "Mike Nassar and Butch Hartman",
+        "Original air date": "July 23, 2014",
+        "Viewers (millions)": "1.80[14]"
+    }, {
+        "No. overall": "124a",
+        "No. in season": "9a",
+        "Title": "Dog Gone",
+        "Directed by": "Gary Conrad",
+        "Written by": "Kevin Arrieta, Ray DeLaurentis, Will Schifrin, Sindy Spackman, and Kevin Sullivan",
+        "Storyboard by": "Marcelo DeSouza",
+        "Original air date": "July 28, 2014",
+        "Viewers (millions)": "1.80[15]"
+    }, {
+        "No. overall": "124b",
+        "No. in season": "9b",
+        "Title": "Turner Back Time",
+        "Directed by": "Michelle Bryan, Kevin Petrilak, and Tuck Tucker",
+        "Written by": "Ellen Byron and Lissa Kapstrom",
+        "Storyboard by": "Jim Mortensen and Butch Hartman",
+        "Original air date": "July 28, 2014",
+        "Viewers (millions)": "1.80[15]"
+    }, {
+        "No. overall": "125a",
+        "No. in season": "10a",
+        "Title": "Cosmonopoly",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Ray DeLaurentis, Will Schifrin, Kevin Sullivan, and Becky Wangberg",
+        "Storyboard by": "Mike Milo and Butch Hartman",
+        "Original air date": "July 7, 2014",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "125b",
+        "No. in season": "10b",
+        "Title": "Hero Hound",
+        "Directed by": "Gary Conrad",
+        "Written by": "Kevin Arrieta",
+        "Storyboard by": "Miguel Puga",
+        "Original air date": "July 7, 2014",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "126a",
+        "No. in season": "11a",
+        "Title": "A Boy and His Dog-Boy",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Sindy Spackman",
+        "Storyboard by": "Marcelo DeSouza",
+        "Original air date": "July 8, 2014",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "126b",
+        "No. in season": "11b",
+        "Title": "Crock Blocked",
+        "Directed by": "Michelle Bryan, Kevin Petrilak, and Tuck Tucker",
+        "Written by": "Sindy Spackman",
+        "Storyboard by": "Mike Nassar and Butch Hartman",
+        "Original air date": "July 8, 2014",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "127",
+        "No. in season": "12",
+        "Title": "School of Crock",
+        "Directed by": "Ken Bruce and Michelle Bryan",
+        "Written by": "Ray DeLaurentis, Will Schifrin, Alec Schwimmer, and Kevin Sullivan",
+        "Storyboard by": "Wolf-Rüdiger Bloss and Fred Gonzales",
+        "Original air date": "May 26, 2014",
+        "Viewers (millions)": "2.45[16]"
+    }, {
+        "No. overall": "128",
+        "No. in season": "13",
+        "Title": "The Past and the Furious",
+        "Directed by": "Michelle Bryan and Gary Conrad",
+        "Written by": "Ray DeLaurentis, Will Schifrin, Alec Schwimmer, and Kevin Sullivan",
+        "Storyboard by": "Wolf-Rüdiger Bloss, Marcelo DeSouza, and Brandon Kruse",
+        "Original air date": "July 11, 2014",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "129a",
+        "No. in season": "14a",
+        "Title": "Let Sleeper Dogs Lie",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Sindy Spackman",
+        "Storyboard by": "Miguel Puga",
+        "Original air date": "July 14, 2014",
+        "Viewers (millions)": "1.86[17]"
+    }, {
+        "No. overall": "129b",
+        "No. in season": "14b",
+        "Title": "Cat-Astrophe",
+        "Directed by": "Gary Conrad",
+        "Written by": "Alec Schwimmer",
+        "Storyboard by": "Mike Nassar and Butch Hartman",
+        "Original air date": "July 14, 2014",
+        "Viewers (millions)": "1.86[17]"
+    }, {
+        "No. overall": "130a",
+        "No. in season": "15a",
+        "Title": "Jerk of All Trades",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Sindy Spackman",
+        "Storyboard by": "Mike Nassar and Butch Hartman",
+        "Original air date": "July 15, 2014",
+        "Viewers (millions)": "1.85[18]"
+    }, {
+        "No. overall": "130b",
+        "No. in season": "15b",
+        "Title": "Snack Attack",
+        "Directed by": "Gary Conrad",
+        "Written by": "Alec Schwimmer (story) Ray DeLaurentis, Will Schifrin, and Kevin Sullivan",
+        "Storyboard by": "Marcelo DeSouza",
+        "Original air date": "July 15, 2014",
+        "Viewers (millions)": "1.85[18]"
+    }, {
+        "No. overall": "131a",
+        "No. in season": "16a",
+        "Title": "Turning Into Turner",
+        "Directed by": "Kevin Petrilak",
+        "Written by": "Joanna Lewis, Alec Schwimmer, and Kristine Songco",
+        "Storyboard by": "Jim Mortensen and Butch Hartman",
+        "Original air date": "July 16, 2014",
+        "Viewers (millions)": "1.91[19]"
+    }, {
+        "No. overall": "131b",
+        "No. in season": "16b",
+        "Title": "The Wand That Got Away",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Sindy Spackman",
+        "Storyboard by": "Mike Milo and Butch Hartman",
+        "Original air date": "July 16, 2014",
+        "Viewers (millions)": "1.91[19]"
+    }, {
+        "No. overall": "132",
+        "No. in season": "17",
+        "Title": "Dimmsdale Tales",
+        "Directed by": "Ken Bruce and Gary Conrad",
+        "Written by": "Joanna Lewis, Alec Schwimmer, Kristine Songco, and Sindy Spackman",
+        "Storyboard by": "Brandon Kruse and Miguel Puga",
+        "Original air date": "July 18, 2014",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "133a",
+        "No. in season": "18a",
+        "Title": "Love at First Bark",
+        "Directed by": "Gary Conrad",
+        "Written by": "Ray DeLaurentis, Will Schifrin, and Kevin Sullivan",
+        "Storyboard by": "Mike Milo and Butch Hartman",
+        "Original air date": "July 21, 2014",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "133b",
+        "No. in season": "18b",
+        "Title": "Desperate Without Housewives",
+        "Directed by": "Kevin Petrilak",
+        "Written by": "Lissa Kapstrom",
+        "Storyboard by": "Miguel Puga",
+        "Original air date": "July 21, 2014",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "134a",
+        "No. in season": "19a",
+        "Title": "Stage Fright",
+        "Directed by": "Gary Conrad",
+        "Written by": "Joanna Lewis, Kristine Songco, and Becky Wangberg",
+        "Storyboard by": "Miguel Puga",
+        "Original air date": "July 22, 2014",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "134b",
+        "No. in season": "19b",
+        "Title": "Gone Flushin'",
+        "Directed by": "Kevin Petrilak",
+        "Written by": "Lissa Kapstrom",
+        "Storyboard by": "Mike Nassar and Butch Hartman",
+        "Original air date": "July 22, 2014",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "135a",
+        "No. in season": "20a",
+        "Title": "Two and a Half Babies",
+        "Directed by": "Gary Conrad",
+        "Written by": "Sindy Spackman",
+        "Storyboard by": "Mike Milo and Butch Hartman",
+        "Original air date": "July 25, 2014[N 1]",
+        "Viewers (millions)": "1.57[20]"
+    }, {
+        "No. overall": "135b",
+        "No. in season": "20b",
+        "Title": "Anchor's Away",
+        "Directed by": "Gary Conrad",
+        "Written by": "Kevin Arrieta and Sindy Spackman",
+        "Storyboard by": "Mike Nassar and Butch Hartman",
+        "Original air date": "July 25, 2014[N 1]",
+        "Viewers (millions)": "1.57[20]"
+    }, {
+        "No. overall": "136a",
+        "No. in season": "21a",
+        "Title": "Weirdos on a Train",
+        "Directed by": "Gary Conrad",
+        "Written by": "Ray DeLaurentis, Kevin Sullivan, and Will Schifrin",
+        "Storyboard by": "Jim Mortensen and Butch Hartman",
+        "Original air date": "July 29, 2014",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "136b",
+        "No. in season": "21b",
+        "Title": "Tons of Timmys",
+        "Directed by": "Michelle Bryan, Kevin Petrilak, and Tuck Tucker",
+        "Written by": "Lissa Kapstrom",
+        "Storyboard by": "Mike Milo and Butch Hartman",
+        "Original air date": "July 29, 2014",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "137a",
+        "No. in season": "22a",
+        "Title": "Lame Ducks",
+        "Directed by": "Michelle Bryan",
+        "Written by": "Sindy Spackman",
+        "Storyboard by": "Jim Mortensen and Butch Hartman",
+        "Original air date": "July 30, 2014",
+        "Viewers (millions)": "2.21[21]"
+    }, {
+        "No. overall": "137b",
+        "No. in season": "22b",
+        "Title": "A Perfect Nightmare",
+        "Directed by": "Kevin Petrilak",
+        "Written by": "Ray DeLaurentis, Will Schifrin, and Kevin Sullivan",
+        "Storyboard by": "Marcelo DeSouza",
+        "Original air date": "July 30, 2014",
+        "Viewers (millions)": "2.12[21]"
+    }, {
+        "No. overall": "138",
+        "No. in season": "23",
+        "Title": "Fairly Odd Fairy Tales",
+        "Directed by": "Ken Bruce and Gary Conrad",
+        "Written by": "Whitney Fox, Joanna Lewis, Alec Schwimmer, and Kristine Songco",
+        "Storyboard by": "Marcelo DeSouza and Brandon Kruse",
+        "Original air date": "August 1, 2014",
+        "Viewers (millions)": "2.14[22]"
+    }, {
+        "No. overall": "139",
+        "No. in season": "24",
+        "Title": "Man's Worst Friend",
+        "Directed by": "Michelle Bryan and Gary Conrad",
+        "Written by": "Ray DeLaurentis, Will Schifrin, Alec Schwimmer, and Kevin Sullivan",
+        "Storyboard by": "Wolf-Rüdiger Bloss and Fred Gonzales",
+        "Original air date": "February 8, 2015[N 2]",
+        "Viewers (millions)": "1.48[23]"
+    }, {
+        "No. overall": "140",
+        "No. in season": "25",
+        "Title": "Fairly Old Parent",
+        "Directed by": "Michelle Bryan and Gary Conrad",
+        "Written by": "Ray DeLaurentis, Will Schifrin, Alec Schwimmer, Kevin Sullivan, and Becky Wangberg",
+        "Storyboard by": "Marcelo DeSouza, Jim Mortensen, and Butch Hartman",
+        "Original air date": "March 28, 2015[N 3]",
+        "Viewers (millions)": "1.95[24]"
+    }, {
+        "No. overall": "141",
+        "No. in season": "26",
+        "Title": "The Fairy Beginning",
+        "Directed by": "Ken Bruce and Michelle Bryan",
+        "Written by": "Ray DeLaurentis, Will Schifrin, Alec Schwimmer, and Kevin Sullivan",
+        "Storyboard by": "Fred Gonzales, Brandon Kruse, and Miguel Puga",
+        "Original air date": "March 28, 2015[N 4]",
+        "Viewers (millions)": "2.03[24]"
+    }, {
+        "No. overall": "142",
+        "No. in season": "1",
+        "Title": "The Big Fairy Share Scare!",
+        "Directed by": "Ken Bruce and John McIntyre",
+        "Written by": "Ellen Byron, Ray DeLaurentis, and Lissa Kapstrom",
+        "Storyboard by": "Fred Gonzales and Butch Hartman",
+        "Original air date": "January 15, 2016",
+        "Viewers (millions)": "1.20[25]"
+    }, {
+        "No. overall": "143a",
+        "No. in season": "2a",
+        "Title": "Whittle Me This!",
+        "Directed by": "John McIntyre",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis, and Lissa Kapstrom",
+        "Storyboard by": "Sarah Johnson",
+        "Original air date": "January 22, 2016",
+        "Viewers (millions)": "1.23[26]"
+    }, {
+        "No. overall": "143b",
+        "No. in season": "2b",
+        "Title": "Mayor May Not",
+        "Directed by": "Ken Bruce",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis, and Lissa Kapstrom",
+        "Storyboard by": "Butch Hartman and Paul Lee",
+        "Original air date": "January 29, 2016",
+        "Viewers (millions)": "1.13[27]"
+    }, {
+        "No. overall": "144a",
+        "No. in season": "3a",
+        "Title": "Girly Squirrely",
+        "Directed by": "Sherie Pollack",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis, and Lissa Kapstrom",
+        "Storyboard by": "John West",
+        "Original air date": "February 5, 2016",
+        "Viewers (millions)": "1.30[28]"
+    }, {
+        "No. overall": "144b",
+        "No. in season": "3b",
+        "Title": "Birthday Battle",
+        "Directed by": "Sherie Pollack",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis, and Lissa Kapstrom",
+        "Storyboard by": "Gavin Freitas",
+        "Original air date": "February 19, 2016",
+        "Viewers (millions)": "1.22[29]"
+    }, {
+        "No. overall": "145a",
+        "No. in season": "4a",
+        "Title": "The Fair Bears",
+        "Directed by": "John McIntyre",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis, and Lissa Kapstrom",
+        "Storyboard by": "Benji Williams",
+        "Original air date": "February 26, 2016",
+        "Viewers (millions)": "1.27[30]"
+    }, {
+        "No. overall": "145b",
+        "No. in season": "4b",
+        "Title": "Return of the L.O.S.E.R.S.",
+        "Directed by": "Ken Bruce",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis, and Lissa Kapstrom",
+        "Storyboard by": "Gavin Freitas",
+        "Original air date": "June 14, 2017[N 5]",
+        "Viewers (millions)": "0.17[31]"
+    }, {
+        "No. overall": "146a",
+        "No. in season": "5a",
+        "Title": "A Sash and a Rash",
+        "Directed by": "Sherie Pollack",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis, and Lissa Kapstrom",
+        "Storyboard by": "Sarah Johnson",
+        "Original air date": "September 12, 2016[N 6]",
+        "Viewers (millions)": "1.46[32]"
+    }, {
+        "No. overall": "146b",
+        "No. in season": "5b",
+        "Title": "Fish Out of Water",
+        "Directed by": "John McIntyre",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis, and Lissa Kapstrom",
+        "Storyboard by": "Butch Hartman and Paul Lee",
+        "Original air date": "September 12, 2016[N 6]",
+        "Viewers (millions)": "1.46[32]"
+    }, {
+        "No. overall": "147a",
+        "No. in season": "6a",
+        "Title": "Animal Crockers",
+        "Directed by": "Ken Bruce",
+        "Written by": "Ellen Byron, Ray DeLaurentis, Bob Colleary, and Lissa Kapstrom",
+        "Storyboard by": "Sarah Johnson",
+        "Original air date": "September 14, 2016[N 7]",
+        "Viewers (millions)": "1.36[33]"
+    }, {
+        "No. overall": "147b",
+        "No. in season": "6b",
+        "Title": "One Flu Over the Crocker's Nest",
+        "Directed by": "Ken Bruce",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis, and Lissa Kapstrom",
+        "Storyboard by": "John West",
+        "Original air date": "September 14, 2016[N 7]",
+        "Viewers (millions)": "1.36[33]"
+    }, {
+        "No. overall": "148",
+        "No. in season": "7",
+        "Title": "Booby Trapped",
+        "Directed by": "John McIntyre and Sherie Pollack",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis, and Lissa Kapstrom",
+        "Storyboard by": "Gavin Freitas, Sarah Johnson, and Benji Williams",
+        "Original air date": "September 16, 2016[N 8]",
+        "Viewers (millions)": "1.60[34]"
+    }, {
+        "No. overall": "149a",
+        "No. in season": "8a",
+        "Title": "Blue Angel",
+        "Directed by": "John McIntyre",
+        "Written by": "Bob Colleary and Ray DeLaurentis",
+        "Storyboard by": "John West",
+        "Original air date": "September 13, 2016[N 9]",
+        "Viewers (millions)": "1.39[35]"
+    }, {
+        "No. overall": "149b",
+        "No. in season": "8b",
+        "Title": "Marked Man",
+        "Directed by": "Sherie Pollack",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis, Lissa Kapstrom, and Becky Wangberg",
+        "Storyboard by": "Butch Hartman and Paul Lee",
+        "Original air date": "September 13, 2016[N 9]",
+        "Viewers (millions)": "1.39[36]"
+    }, {
+        "No. overall": "150a",
+        "No. in season": "9a",
+        "Title": "Clark Laser",
+        "Directed by": "Ken Bruce",
+        "Written by": "Ray DeLaurentis",
+        "Storyboard by": "Benji Williams",
+        "Original air date": "September 15, 2016[N 10]",
+        "Viewers (millions)": "1.55[37]"
+    }, {
+        "No. overall": "150b",
+        "No. in season": "9b",
+        "Title": "Married to the Mom",
+        "Directed by": "Sherie Pollack",
+        "Written by": "Ellen Byron and Lissa Kapstrom",
+        "Storyboard by": "Gavin Freitas",
+        "Original air date": "September 15, 2016[N 10]",
+        "Viewers (millions)": "1.55[38]"
+    }, {
+        "No. overall": "151a",
+        "No. in season": "10a",
+        "Title": "Which Is Wish",
+        "Directed by": "John McIntyre",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis, and Lissa Kapstrom",
+        "Storyboard by": "Sarah Johnson",
+        "Original air date": "June 21, 2017[N 11]",
+        "Viewers (millions)": "0.22[39]"
+    }, {
+        "No. overall": "151b",
+        "No. in season": "10b",
+        "Title": "Nuts and Dangerous",
+        "Directed by": "Ken Bruce",
+        "Written by": "Bob Colleary, Ray DeLaurentis, and Lissa Kapstrom",
+        "Storyboard by": "Butch Hartman and Paul Lee",
+        "Original air date": "February 22, 2017[N 11]",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "152a",
+        "No. in season": "11a",
+        "Title": "Fairy Con",
+        "Directed by": "John McIntyre",
+        "Written by": "Ellen Byron, Bob Colleary, and Ray DeLaurentis",
+        "Storyboard by": "Benji Williams",
+        "Original air date": "June 28, 2017[N 12]",
+        "Viewers (millions)": "0.23[40]"
+    }, {
+        "No. overall": "152b",
+        "No. in season": "11b",
+        "Title": "The Hungry Games",
+        "Directed by": "Sherie Pollack",
+        "Written by": "Becky Wangberg",
+        "Storyboard by": "John West",
+        "Original air date": "July 12, 2017[N 13]",
+        "Viewers (millions)": "0.26[41]"
+    }, {
+        "No. overall": "153a",
+        "No. in season": "12a",
+        "Title": "Spring Break-Up",
+        "Directed by": "Ken Bruce",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis and Lissa Kapstrom",
+        "Storyboard by": "Gavin Freitas",
+        "Original air date": "February 1, 2017[N 14]",
+        "Viewers (millions)": "0.21[42]"
+    }, {
+        "No. overall": "153b",
+        "No. in season": "12b",
+        "Title": "Dimmsdale Daze",
+        "Directed by": "Sherie Pollack",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis and Lissa Kapstrom",
+        "Storyboard by": "Sarah Johnson",
+        "Original air date": "June 21, 2017[N 15]",
+        "Viewers (millions)": "0.22[43]"
+    }, {
+        "No. overall": "154a",
+        "No. in season": "13a",
+        "Title": "Cat 'n Mouse",
+        "Directed by": "Ken Bruce",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis, and Lissa Kapstrom",
+        "Storyboard by": "Sarah Johnson and Paul Lee",
+        "Original air date": "February 22, 2017[N 16]",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "154b",
+        "No. in season": "13b",
+        "Title": "Chip Off the Old Crock!",
+        "Directed by": "Sherie Pollack",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis and Lissa Kapstrom",
+        "Storyboard by": "John West",
+        "Original air date": "June 28, 2017[N 17]",
+        "Viewers (millions)": "0.23[44]"
+    }, {
+        "No. overall": "155a",
+        "No. in season": "14a",
+        "Title": "Space Ca-Dad",
+        "Directed by": "George Elliott and Keith Oliver",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis and Lissa Kapstrom",
+        "Storyboard by": "Steve Daye",
+        "Original air date": "July 19, 2017[N 18]",
+        "Viewers (millions)": "0.28[45]"
+    }, {
+        "No. overall": "155b",
+        "No. in season": "14b",
+        "Title": "Summer Bummer",
+        "Directed by": "George Elliott and Keith Oliver",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis and Lissa Kapstrom",
+        "Storyboard by": "Ted Collyer",
+        "Original air date": "July 12, 2017[N 19]",
+        "Viewers (millions)": "0.26[46]"
+    }, {
+        "No. overall": "156a",
+        "No. in season": "15a",
+        "Title": "Hare Raiser",
+        "Directed by": "George Elliott and Keith Oliver",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis and Lissa Kapstrom",
+        "Storyboard by": "Blayne Burnside and Brian Coughlan",
+        "Original air date": "July 26, 2017[N 20]",
+        "Viewers (millions)": "0.38[47]"
+    }, {
+        "No. overall": "156b",
+        "No. in season": "15b",
+        "Title": "The Kale Patch Caper",
+        "Directed by": "George Elliott and Keith Oliver",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis, Lissa Kapstrom, and Becky Wangberg",
+        "Storyboard by": "Steve Daye",
+        "Original air date": "July 26, 2017[N 21]",
+        "Viewers (millions)": "0.38[48]"
+    }, {
+        "No. overall": "157a",
+        "No. in season": "16a",
+        "Title": "Dadlantis",
+        "Directed by": "George Elliott and Keith Oliver",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis and Lissa Kapstrom",
+        "Storyboard by": "Blayne Burnside, Brian Wong, and Gerry Duchemin",
+        "Original air date": "February 8, 2017[N 22]",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "157b",
+        "No. in season": "16b",
+        "Title": "Chloe Rules!",
+        "Directed by": "George Elliott and Keith Oliver",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis and Lissa Kapstrom",
+        "Storyboard by": "Steve Remen",
+        "Original air date": "February 15, 2017[N 23]",
+        "Viewers (millions)": "0.14[49]"
+    }, {
+        "No. overall": "158a",
+        "No. in season": "17a",
+        "Title": "Crockin' the House",
+        "Directed by": "George Elliott and Keith Oliver",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis and Lissa Kapstrom",
+        "Storyboard by": "Ted Collyer",
+        "Original air date": "January 25, 2017[N 24]",
+        "Viewers (millions)": "0.17[50]"
+    }, {
+        "No. overall": "158b",
+        "No. in season": "17b",
+        "Title": "Tardy Sauce",
+        "Directed by": "George Elliott and Keith Oliver",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis and Lissa Kapstrom",
+        "Storyboard by": "Brian Coughlan",
+        "Original air date": "February 15, 2017[N 25]",
+        "Viewers (millions)": "0.14[49]"
+    }, {
+        "No. overall": "159a",
+        "No. in season": "18a",
+        "Title": "Knitwits",
+        "Directed by": "George Elliott and Keith Oliver",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis and Lissa Kapstrom",
+        "Storyboard by": "Gerry Duchemin",
+        "Original air date": "February 8, 2017",
+        "Viewers (millions)": "N/A"
+    }, {
+        "No. overall": "159b",
+        "No. in season": "18b",
+        "Title": "Dimmsdale's Got Talent?",
+        "Directed by": "George Elliott and Keith Oliver",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis, Lissa Kapstrom, and Becky Wangberg",
+        "Storyboard by": "Steve Daye and Seema Virdi",
+        "Original air date": "June 14, 2017",
+        "Viewers (millions)": "0.17[51]"
+    }, {
+        "No. overall": "160",
+        "No. in season": "19",
+        "Title": "Certifiable Super Sitter",
+        "Directed by": "George Elliott and Keith Oliver",
+        "Written by": "Ellen Byron, Bob Colleary, Ray DeLaurentis and Lissa Kapstrom Kiley Vorndran (story)",
+        "Storyboard by": "Simon Paquette and Ted Collyer",
+        "Original air date": "January 18, 2017",
+        "Viewers (millions)": "0.23[52]"
+    }, {
+        "No. overall": "161a",
+        "No. in season": "20a",
+        "Title": "Goldie-Crocks and the Three Fair Bears",
+        "Directed by": "George Elliott and Keith Oliver",
+        "Written by": "Ray DeLaurentis and Will Schifrin",
+        "Storyboard by": "Katie Shanahan",
+        "Original air date": "July 19, 2017[N 26]",
+        "Viewers (millions)": "0.28[53]"
+    }, {
+        "No. overall": "161b",
+        "No. in season": "20b",
+        "Title": "Fancy Schmancy",
+        "Directed by": "George Elliott and Keith Oliver",
+        "Written by": "Becky Wangberg",
+        "Storyboard by": "Brian Coughlan",
+        "Original air date": "February 1, 2017",
+        "Viewers (millions)": "0.21[42]"
+    }],
+    "questions": []
+}
