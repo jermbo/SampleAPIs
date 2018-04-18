@@ -13,8 +13,8 @@ let finalObj = {},
       for: {
         random: 'test',
         fun: {
-          final : {
-            thing : 'WHAT UP',
+          final: {
+            thing: 'WHAT UP',
             thing2: 'asdsd'
           }
         }
@@ -52,7 +52,17 @@ function getValues() {
       lastObj[lastKey] = input.value;
     }
   });
-  console.log(finalObj);
+  console.log(JSON.stringify(finalObj));
+  fetch('http://localhost:4000/characters', {
+    method: 'POST',
+    body: JSON.stringify(finalObj),
+    headers: new Headers({
+      'Content-Type': 'application/json'
+    })
+  })
+    .then(response => response.json())
+    .catch(error => console.error('Error:', error))
+    .then(response => console.log('Success:', response));
 }
 
 // displayValues();
@@ -61,7 +71,7 @@ function getValues() {
 function displayValues() {
   inputs.forEach(input => {
     if (input.type == 'textarea') {
-      input.value = fakeData[input.name].map((val, i) => (i < fakeData[input.name].length - 1) ? `${val}; ` : val ).join('');
+      input.value = fakeData[input.name].map((val, i) => (i < fakeData[input.name].length - 1) ? `${val}; ` : val).join('');
     } else {
       const keys = input.name.split('.');
       input.value = keys.reduce((prev, curr) => prev ? prev[curr] : null, fakeData);
