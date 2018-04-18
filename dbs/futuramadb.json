@@ -20,6 +20,10 @@
         "middle": "Jay",
         "last": "Fry"
       },
+      "images": {
+        "head-shot": "",
+        "main": ""
+      },
       "gender": "Male",
       "species": "Human",
       "homePlanet": "Earth",
@@ -99,6 +103,10 @@
         "middle": "",
         "last": "Leela"
       },
+      "images": {
+        "head-shot": "",
+        "main": ""
+      },
       "age": "32",
       "gender": "Female",
       "species": "Mutant",
@@ -133,6 +141,10 @@
         "first": "Bender",
         "middle": "Bending",
         "last": "Rodríguez"
+      },
+      "images": {
+        "head-shot": "",
+        "main": ""
       },
       "age": "25",
       "gender": "Male",
@@ -283,6 +295,10 @@
         "middle": "J",
         "last": "Farnsworth"
       },
+      "images": {
+        "head-shot": "",
+        "main": ""
+      },
       "age": "210",
       "gender": "Male",
       "species": "Human",
@@ -332,6 +348,10 @@
         "middle": "",
         "last": "Wong"
       },
+      "images": {
+        "head-shot": "",
+        "main": ""
+      },
       "age": "30",
       "gender": "Female",
       "species": "Martian",
@@ -353,6 +373,10 @@
         "first": "Hermes",
         "middle": "",
         "last": "Conrad"
+      },
+      "images": {
+        "head-shot": "",
+        "main": ""
       },
       "age": "52",
       "gender": "Male",
@@ -377,6 +401,10 @@
         "middle": "",
         "last": "Mom"
       },
+      "images": {
+        "head-shot": "",
+        "main": ""
+      },
       "age": "150",
       "gender": "Femal",
       "species": "Human",
@@ -392,6 +420,10 @@
         "first": "John",
         "middle": "A",
         "last": "Zoidberg"
+      },
+      "images": {
+        "head-shot": "",
+        "main": ""
       },
       "info": {
         "age": "40",
@@ -416,6 +448,10 @@
         "first": "Zapp",
         "middle": "",
         "last": "Brannigan"
+      },
+      "images": {
+        "head-shot": "",
+        "main": ""
       },
       "info": {
         "age": "40",
@@ -447,6 +483,10 @@
         "middle": "",
         "last": "Lrrr"
       },
+      "images": {
+        "head-shot": "",
+        "main": ""
+      },
       "info": {
         "age": "Unknown",
         "gender": "Male",
@@ -463,6 +503,91 @@
         "I AM LRRR, RULER OF THE PLANET OMICRON PERSEI 8! May I crash on your couch?"
       ],
       "id": 10
+    },
+    {
+      "name": {
+        "first": "Scruffy",
+        "middle": "",
+        "last": "Scruffington"
+      },
+      "info": {
+        "age": "53",
+        "gender": "Male",
+        "species": "Human"
+      },
+      "occupation": "Janitor",
+      "sayings": [
+        "I'm Scruffy. The janitor."
+      ],
+      "id": 11
+    },
+    {
+      "name": {
+        "first": "Cubert",
+        "middle": "J",
+        "last": "Farnsworth"
+      },
+      "info": {
+        "age": "13",
+        "gender": "Male",
+        "species": "Human"
+      },
+      "occupation": "Co-owner of Awesome Express",
+      "sayings": [
+        "What? You've never seen a genius's wiener before?"
+      ],
+      "id": 12
+    },
+    {
+      "name": {
+        "first": "Kif",
+        "middle": "",
+        "last": "Kroker"
+      },
+      "info": {
+        "age": "32",
+        "gender": "Male",
+        "species": "Amphibiosans"
+      },
+      "occupation": "DOOP (Executive Officer) ",
+      "sayings": [
+        "I love it out here, Amy. I feel so manly. I have a blister, I-I spit! A-And of course, I tell no one my feelings, until I write them in my dairy."
+      ],
+      "id": 13
+    },
+    {
+      "name": {
+        "first": "Dwight",
+        "middle": "",
+        "last": "Conrad"
+      },
+      "info": {
+        "age": "12",
+        "gender": "Male",
+        "species": "Human"
+      },
+      "occupation": "Co-owner of Awesome Express",
+      "sayings": [
+        "I'm gonna take this and buy five shares of Amazon.com"
+      ],
+      "id": 14
+    },
+    {
+      "name": {
+        "first": "LaBarbara",
+        "middle": "",
+        "last": "Conrad"
+      },
+      "info": {
+        "age": "35",
+        "gender": "Female",
+        "species": "Human"
+      },
+      "occupation": "",
+      "sayings": [
+        "All in favor of the Jamoka-Thunderclap? That would be me."
+      ],
+      "id": 15
     }
   ],
   "species": [
@@ -1775,7 +1900,7 @@
       "id": 20
     },
     {
-      "question": "What company does Dr. Farnsworth run ?",
+      "question": "What company does Dr. Farnsworth run?",
       "possibleAnswers": [
         "Space Express",
         "FexEd",
@@ -1785,6 +1910,85 @@
       ],
       "correctAnswer": "Planet Express",
       "id": 21
+    },
+    {
+      "question": "Futurama was amlost called what?",
+      "possibleAnswers": [
+        "Doomsville or Aloha Mars",
+        "Lrrrenconcilable Ndndifferences",
+        "Futurella",
+        "World of Tomorrow"
+      ],
+      "correctAnswer": "Doomsville or Aloha Mars",
+      "id": 22
+    },
+    {
+      "question": "What are the pest animals in New New York?",
+      "possibleAnswers": [
+        "Rats",
+        "Mutated Gators",
+        "Owls",
+        "Pigeons",
+        "Omicrons"
+      ],
+      "correctAnswer": "Owls",
+      "id": 23
+    },
+    {
+      "question": "In Love's Labours In Space which club did Leela visit to find a partner?",
+      "possibleAnswers": [
+        "Club Extravaganza",
+        "Bubble Bar",
+        "Hip Joint",
+        "O'Gorgnaxs"
+      ],
+      "correctAnswer": "Hip Joint",
+      "id": 23
+    },
+    {
+      "question": "In Fear of Bot Planet what fake religious robot holiday did Bender make up?",
+      "possibleAnswers": [
+        "Bot-Mitvah",
+        "Robanza",
+        "Robonukah",
+        "Robotisam"
+      ],
+      "correctAnswer": "Robonukah",
+      "id": 24
+    },
+    {
+      "question": "In Fry and the Slurm Factory what did Fry and Bender use to look in the Slurm cans?",
+      "possibleAnswers": [
+        "X-Ray",
+        "Z-Ray",
+        "Lookamatic 5000",
+        "F-Ray"
+      ],
+      "correctAnswer": "Lookamatic 5000",
+      "id": 25
+    },
+    {
+      "question": "What was the name of Fry's dog?",
+      "possibleAnswers": [
+        "Buster",
+        "I.C. Wiener",
+        "Robo-Dog",
+        "Seymour Asses"
+      ],
+      "correctAnswer": "Seymour Asses",
+      "id": 26
+    },
+    {
+      "question": "What is Planet Express's Slogan?",
+      "possibleAnswers": [
+        "Our crew is replaceable. Your package isn't",
+        "Good news everyone",
+        "We are the fastest service, no matter how long it takes.",
+        "We will get it there, eventually.",
+        "If it ain't broke, we'll break it."
+      ],
+      "correctAnswer": "Our crew is replaceable. Your package isn't",
+      "id": 27
     }
   ]
 }
