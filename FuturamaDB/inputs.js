@@ -62,7 +62,17 @@ function getValues() {
   })
     .then(response => response.json())
     .catch(error => console.error('Error:', error))
-    .then(response => console.log('Success:', response));
+    .then(response => {
+      console.log('Success:', response);
+      finalObj = {};
+      resetUI();
+    });
+}
+
+function resetUI() {
+  inputs.forEach(input => {
+    input.value = '';
+  });
 }
 
 // displayValues();
