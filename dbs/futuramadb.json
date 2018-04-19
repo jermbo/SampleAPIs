@@ -628,20 +628,154 @@
   ],
   "cast": [
     {
-      "id": 1,
       "name": "Billy West",
-      "born": "04/15/1952",
+      "born": "04/16/1954",
       "died": "",
       "bio": {
         "text": "",
-        "url": "http://www.imdb.com/name/nm0921942"
+        "url": "https://www.imdb.com/name/nm0921942/"
       },
-      "characters": [
-        {
-          "name": "Fry",
-          "characterID": 1
-        }
-      ]
+      "id": 1
+    },
+    {
+      "name": "Katey Sagal",
+      "born": "01/19/1954",
+      "died": "",
+      "bio": {
+        "text": "",
+        "url": "https://www.imdb.com/name/nm0005408/"
+      },
+      "id": 2
+    },
+    {
+      "name": "John DiMaggio",
+      "born": "09/04/1968",
+      "died": "",
+      "bio": {
+        "text": "",
+        "url": "https://www.imdb.com/name/nm0224007/"
+      },
+      "id": 3
+    },
+    {
+      "name": "Tress MacNeille",
+      "born": "06/20/1951",
+      "died": "",
+      "bio": {
+        "text": "",
+        "url": "https://www.imdb.com/name/nm0534134/"
+      },
+      "id": 4
+    },
+    {
+      "name": "Phil LaMarr",
+      "born": "01/24/1967",
+      "died": "",
+      "bio": {
+        "text": "",
+        "url": "https://www.imdb.com/name/nm0482851/"
+      },
+      "id": 5
+    },
+    {
+      "name": "Lauren Tom",
+      "born": "08/04/1961",
+      "died": "",
+      "bio": {
+        "text": "",
+        "url": "https://www.imdb.com/name/nm0866300/"
+      },
+      "id": 6
+    },
+    {
+      "name": "Maurice LaMarche",
+      "born": "03/30/1958",
+      "died": "",
+      "bio": {
+        "text": "",
+        "url": "https://www.imdb.com/name/nm0005606/"
+      },
+      "id": 7
+    },
+    {
+      "name": "David Herman",
+      "born": "02/20/1967",
+      "died": "",
+      "bio": {
+        "text": "",
+        "url": "https://www.imdb.com/name/nm0379114/"
+      },
+      "id": 8
+    },
+    {
+      "name": "Kath Soucie",
+      "born": "11/18/1953",
+      "died": "",
+      "bio": {
+        "text": "",
+        "url": "https://www.imdb.com/name/nm0815718/"
+      },
+      "id": 9
+    },
+    {
+      "name": "Frank Welker",
+      "born": "03/12/1946",
+      "died": "",
+      "bio": {
+        "text": "",
+        "url": "https://www.imdb.com/name/nm0919798"
+      },
+      "id": 10
+    },
+    {
+      "name": "Dawnn Lewis",
+      "born": "08/13/1961",
+      "died": "",
+      "bio": {
+        "text": "",
+        "url": "https://www.imdb.com/name/nm0507097"
+      },
+      "id": 11
+    },
+    {
+      "name": "Tom Kenny",
+      "born": "07/13/1962",
+      "died": "",
+      "bio": {
+        "text": "",
+        "url": "https://www.imdb.com/name/nm0444786"
+      },
+      "id": 12
+    },
+    {
+      "name": "Dan Castellaneta",
+      "born": "10/29/1957",
+      "died": "",
+      "bio": {
+        "text": "",
+        "url": "https://www.imdb.com/name/nm0144657"
+      },
+      "id": 13
+    },
+    {
+      "name": "George Takei",
+      "born": "04/20/1937",
+      "died": "",
+      "bio": {
+        "text": "",
+        "url": "https://www.imdb.com/name/nm0001786"
+      },
+      "id": 14
+    },
+    {
+      "name": "Phil Hendrie",
+      "born": "09/01/1952",
+      "died": "",
+      "bio": {
+        "text": "",
+        "url": "https://www.imdb.com/name/nm1042825"
+      },
+      "id": 15
     }
   ],
   "episodes": [
