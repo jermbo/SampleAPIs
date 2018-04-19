@@ -7,7 +7,7 @@ let finalObj = {},
     name: {
       first: 'jermbo',
       middle: 't',
-      last: 'last'
+      last: 'last',
     },
     just: {
       for: {
@@ -15,23 +15,23 @@ let finalObj = {},
         fun: {
           final: {
             thing: 'WHAT UP',
-            thing2: 'asdsd'
-          }
-        }
-      }
+            thing2: 'asdsd',
+          },
+        },
+      },
     },
     info: {
       age: 22,
       gender: 'm',
-      species: 'human'
+      species: 'human',
     },
     occupation: 'developer',
     sayings: [
       'this is a story all about how',
       'my life got flipped, turned upside down',
       'and id like to take a minute just sitting right there',
-      'ill tell you how i became the prince of bel air'
-    ]
+      'ill tell you how i became the prince of bel air',
+    ],
   };
 
 submitBtn.addEventListener('click', getValues);
@@ -47,23 +47,23 @@ function getValues() {
       const keys = input.name.split('.');
       const lastKey = keys.pop();
       const lastObj = keys.reduce((obj, key) => {
-        return obj[key] = obj[key] || {}
+        return obj[key] = obj[key] || {};
       }, finalObj);
       lastObj[lastKey] = input.value;
     }
   });
-  console.log(JSON.stringify(finalObj));
+  console.info(JSON.stringify(finalObj));
   fetch('http://localhost:4000/characters', {
     method: 'POST',
     body: JSON.stringify(finalObj),
     headers: new Headers({
-      'Content-Type': 'application/json'
-    })
+      'Content-Type': 'application/json',
+    }),
   })
     .then(response => response.json())
     .catch(error => console.error('Error:', error))
     .then(response => {
-      console.log('Success:', response);
+      console.info('Success:', response);
       finalObj = {};
       resetUI();
     });
