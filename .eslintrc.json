@@ -1,0 +1,46 @@
+{
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "script",
+        "ecmaFeatures": {}
+    },
+    "env": {
+        "browser": true,
+        "jquery": true,
+        "es6": true
+    },
+    "globals": {
+        "jQuery": true,
+        "$": true,
+        "TweenLite": true,
+        "TweenMax": true,
+        "TimelineLite": true,
+        "TimelineMax": true
+    },
+    "rules": {
+        "semi": [
+            "error",
+            "always"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "comma-dangle": [
+            "warn",
+            "always"
+        ],
+        "no-console": [
+            "warn",
+            {
+                "allow": [
+                    "warn",
+                    "clear",
+                    "error",
+                    "info"
+                ]
+            }
+        ]
+    }
+}
