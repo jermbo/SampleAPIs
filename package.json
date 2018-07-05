@@ -7,6 +7,9 @@
   "homepage": "https://github.com/jermbo/SampleAPIs#readme",
   "main": "index.js",
   "scripts": {
+    "db:avatar": "./node_modules/.bin/json-server --watch ./dbs/avatardb.json --port 4000",
+    "server:avatar": "./node_modules/.bin/browser-sync start --server --directory --port 7777 --serveStatic './AvatarDB' --files './AvatarDB'",
+    "futurama": "npm run server:futurama & npm run db:futurama",
     "db:futurama": "./node_modules/.bin/json-server --watch ./dbs/futuramadb.json --port 4000",
     "web:futurama": "./node_modules/.bin/browser-sync start --port 7777 --server --startPath FuturamaDB/index.html -w",
     "db:avatar": "./node_modules/.bin/json-server --watch ./dbs/avatardb.json --port 4000",
