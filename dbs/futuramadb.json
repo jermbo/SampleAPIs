@@ -5,7 +5,7 @@
     "creators": [
       {
         "name": "David X. Cohen",
-        "url-": "http://www.imdb.com/name/nm0169326"
+        "url": "http://www.imdb.com/name/nm0169326"
       },
       {
         "name": "Matt Groening",
@@ -111,7 +111,7 @@
       "gender": "Female",
       "species": "Mutant",
       "homePlanet": "Earth",
-      "occupation": "Captain and pilet",
+      "occupation": "Captain and pilot",
       "sayings": [
         "Bender, this is Fry's decision... and he made it wrong. So it's time for us to interfere in his life.",
         "With my Oxo Goodgrips cheese knife, I stab at thee!",
@@ -140,7 +140,7 @@
       "name": {
         "first": "Bender",
         "middle": "Bending",
-        "last": "Rodríguez"
+        "last": "Rodriguez"
       },
       "images": {
         "head-shot": "",
@@ -1807,7 +1807,7 @@
   "questions": [
     {
       "id": 1,
-      "question": "What is Fry\"s first name?",
+      "question": "What is Fry's first name?",
       "possibleAnswers": [
         "Fred",
         "Philip",

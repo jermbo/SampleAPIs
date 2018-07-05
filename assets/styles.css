@@ -2,7 +2,7 @@
 :root {
   --primary-color: rgba(40, 150, 240, 0.9);
   --secondary-color: rgba(80, 170, 70, 0.9);
-  --background-image: url(images/wild-sea.png);
+  --background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/54887/wild-sea.png);
   --background-deg: -45deg;
 }
 
