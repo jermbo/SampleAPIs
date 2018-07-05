@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>FuturamaDB | Add Questions</title>
+    <title>AvatarDB | Add Questions</title>
     <link rel="stylesheet" href="../assets/styles.css">
 </head>
 
@@ -70,22 +70,22 @@
             // });
         });
 
-        function submitData(data){
+        function submitData(data) {
             $.ajax({
                 method: 'POST',
                 url: "http://localhost:4000/questions",
                 data: JSON.stringify(data),
                 type: 'application/json',
-                beforeSend: function(){
+                beforeSend: function () {
                     console.log('sending data');
                 }
             })
-            .done(function(data){
-                console.log(data);
-            })
-            .fail(function(err){
-                console.log(err)
-            });
+                .done(function (data) {
+                    console.log(data);
+                })
+                .fail(function (err) {
+                    console.log(err)
+                });
         }
     </script>
 
