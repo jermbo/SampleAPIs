@@ -4,6 +4,10 @@
   --secondary-color: rgba(80, 170, 70, 0.9);
   --background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/54887/wild-sea.png);
   --background-deg: -45deg;
+  --text-color-light: #e5e5e5;
+  --box-shadow: rgba(0, 0, 0, 0.5);
+  --light-bg: rgba(0, 153, 255, 0.555);
+  --padding: 1.25rem;
 }
 
 *,
@@ -23,7 +27,7 @@ body {
 .container {
   width: 75vw;
   margin: 0 auto;
-  color: #e5e5e5;
+  color: var(--text-color-light);
 }
 
 .form-area {
@@ -58,48 +62,75 @@ textarea {
 }
 
 .btn {
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 3px var(--box-shadow);
   border: 0;
   padding: 10px;
   width: 100%;
-  color: white;
+  color: var(--text-color-light);
 }
 
 .btn-primary {
-  background: #51ab49;
+  background: var(--secondary-color);
 }
 
 .btn-secondary {
-  background: #2596ec;
+  background: var(--primary-color);
 }
 
 .title {
   font-weight: 700;
   font-size: 1.5rem;
-  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 3px 3px var(--box-shadow);
   text-align: center;
   transition: all 0.25s ease;
 }
 
+.title a {
+  color: var(--text-color-light);
+  text-decoration: none;
+}
+
 .title small {
   display: block;
-  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 1px var(--box-shadow);
   transition: all 0.25s ease;
   font-size: .5em;
   font-weight: 400;
 }
 
 .title:hover {
-  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 5px 5px var(--box-shadow);
 }
 
 .title:hover small {
-  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 5px 5px var(--box-shadow);
 }
 
-lables {
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 var(--padding);
+
+}
+
+.main-nav a {
+  color: var(--text-color-light);
+  text-decoration: none;
   display: inline-block;
-  float: left;
+  padding: calc(var(--padding) / 2) var(--padding);
+  background: var(--light-bg);
+  transition: all .2s ease;
+}
+
+.main-nav a:hover {
+  background: var(--primary-color);
+}
+
+
+label {
+  display: inline-block;
+  margin-bottom: calc(var(--padding) / 2);
 }
 
 select {
@@ -122,5 +153,3 @@ input[type="checkbox"] {
 h5 {
   margin: 5px 0;
 }
-
-/*# sourceMappingURL=styles.css.map */
