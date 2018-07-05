@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FuturamaDB | Add Characters</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div class="header">
-        <h3><a href="index.html">Futurama DB</a></h3>
+        <h3>
+            <a href="index.html">Futurama DB</a>
+        </h3>
         <nav>
             <a href="info.html">Info</a>
             <a href="characters.html">Characters</a>
@@ -60,13 +61,56 @@
         <button class="btn btn-block btn-primary half" id="submit">Submit Form</button>
         <button class="btn btn-block btn-warning half" id="display">Display Data</button>
     </div>
-    <script src="inputs.js"></script>
-<!-- <script src="../libs/form-inputs.js"></script>
-<script>
-    const inputs = new CaptureInputs({
-        inputs: '[type=text], textarea'
-    }); -->
-</script>
+    <!-- <script src="inputs.js"></script> -->
+    <script src="../libs/DynamicObjectForm.js"></script>
+    <script>
+        const fakeData = {
+            name: {
+                first: 'jermbo',
+                middle: 't',
+                last: 'last'
+            },
+            just: {
+                for: {
+                    random: 'test',
+                    fun: {
+                        final: {
+                            thing: 'WHAT UP',
+                            thing2: 'asdsd'
+                        }
+                    }
+                }
+            },
+            info: {
+                age: 22,
+                gender: 'm',
+                species: 'human'
+            },
+            occupation: 'developer',
+            sayings: [
+                'this is a story all about how',
+                'my life got flipped, turned upside down',
+                'and id like to take a minute just sitting right there',
+                'ill tell you how i became the prince of bel air'
+            ]
+        };
+        const form = new DeepObjects({
+            inputs: '[type="text"], textarea'
+        });
+
+        const submitBtn = document.querySelector("#submit");
+        const displayBtn = document.querySelector("#display");
+        submitBtn.addEventListener("click", e => {
+            e.preventDefault();
+            form.getValues();
+        });
+        displayBtn.addEventListener("click", e => {
+            e.preventDefault();
+            form.displayValues(fakeData);
+        });
+    </script>
+
+    </script>
 
 </body>
 

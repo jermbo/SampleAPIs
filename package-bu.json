@@ -7,17 +7,19 @@
   "homepage": "https://github.com/jermbo/SampleAPIs#readme",
   "main": "index.js",
   "scripts": {
+    "futurama": "npm run server:futurama & npm run db:futurama",
     "db:futurama": "./node_modules/.bin/json-server --watch ./dbs/futuramadb.json --port 4000",
-    "web:futurama": "./node_modules/.bin/browser-sync start --port 7777 --server --startPath FuturamaDB/index.html -w",
+    "server:futurama": "./node_modules/.bin/browser-sync start --server --directory --port 7777 --serveStatic './FuturamaDB' --files './FuturamaDB'",
     "db:avatar": "./node_modules/.bin/json-server --watch ./dbs/avatardb.json --port 4000",
-    "web:avatar": "./node_modules/.bin/browser-sync start --port 7777 --server --startPath AvatarDB/index.html -w"
+    // "server:avatar": "./node_modules/.bin/browser-sync start --server --cwd 'AvatarDB' --port 7777"
+    "server:avatar": "./node_modules/.bin/browser-sync start --server --cwd 'AvatarDB' --port 7777"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jermbo/SampleAPIs.git"
   },
-  "devDependencies": {
-    "browser-sync": "^2.24.5",
-    "json-server": "^0.14.0"
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "json-server": "^0.12.1"
   }
 }

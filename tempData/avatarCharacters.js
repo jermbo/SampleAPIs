@@ -1,8 +1,31 @@
-var char = document.querySelector('.infobox');
-char = [...char.children[0].children];
-var data = char.map(c => c.innerText);
-copy(data);
+// var char = document.querySelector('.infobox');
+// char = [...char.children[0].children];
+// var data = char.map(c => c.innerText);
+// copy(data);
 
+//http://avatar.wikia.com/wiki/Aang
+
+const characterData = {
+    bio: {
+        name: 'Aang',
+        alternativeNames: ['Kuzon', 'Twinkel Toes', 'Sweetie'],
+        nationality: 'Southern Air Tempel',
+        ethnicity: 'Air Nomad',
+        born: '12 BG',
+        died: '152 AG',
+    },
+    physicialDescription : {
+        gender: 'Male',
+        eyeColor: 'Gray',
+        hairColor: 'Dark Brown',
+        skinColor: 'Light',
+        images: ['https://vignette.wikia.nocookie.net/avatar/images/a/ae/Aang_at_Jasmine_Dragon.png/revision/latest?cb=20130612174003']
+    },
+    personalInformation: {
+        weapons: ['Glider Staff', 'The Elements'],
+        fightingStyles: ['Airbending', 'Waterbending', 'Earthbending', 'Firebending', 'Energybending']
+    }
+}
 
 var aang = {
     "Name": "Aang",
@@ -356,4 +379,4 @@ var toff = {
     "Age": "12",
     "Hair color": "Black White (as an old woman)",
     "Eye color": "Light gray (blind)"
-];
+};
