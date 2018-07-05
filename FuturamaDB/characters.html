@@ -10,108 +10,95 @@
 </head>
 
 <body>
-    <header class="header">
-        <h3>
-            <a href="index.html">Futurama DB</a>
-        </h3>
-        <nav>
-            <a href="info.html">Info</a>
-            <a href="characters.html">Characters</a>
-            <a href="episodes.html">Episodes</a>
-            <a href="cast.html">Cast</a>
-            <a href="questions.html">Questions</a>
-        </nav>
-    </header>
-    <main class="form-area">
-        <div class="form-group third">
-            <label>First Name</label>
-            <input class="form-control" type="text" placeholder="First Name" name="name.first" />
-        </div>
-        <div class="form-group third">
-            <label>Middle Name</label>
-            <input class="form-control" type="text" placeholder="Middle Name" name="name.middle" />
-        </div>
-        <div class="form-group third">
-            <label>Last Name</label>
-            <input class="form-control" type="text" placeholder="Last Name" name="name.last" />
-        </div>
-        <div class="form-group quarter">
-            <label>Age</label>
-            <input class="form-control" type="text" placeholder="Age" name="info.age" />
-        </div>
-        <div class="form-group quarter">
-            <label>Gender</label>
-            <input class="form-control" type="text" placeholder="Gender" name="info.gender" />
-        </div>
-        <div class="form-group quarter">
-            <label>Species</label>
-            <input class="form-control" type="text" placeholder="Species" name="info.species" />
-        </div>
-        <div class="form-group quarter">
-            <label>Occupation</label>
-            <input class="form-control" type="text" placeholder="Occupation" name="occupation" />
-        </div>
-        <div class="form-group">
-            <label>Sayings
-                <small>Separate your sayings by a semicolon and a space.</small>
-            </label>
-            <textarea class="form-control" name="sayings" cols="30" rows="10"></textarea>
-        </div>
-        <button class="btn btn-block btn-primary half" id="submit">Submit Form</button>
-        <button class="btn btn-block btn-warning half" id="display">Display Data</button>
-    </main>
-    <!-- <script src="inputs.js"></script> -->
-    <script src="../libs/DynamicObjectForm.js"></script>
+    <div class="container">
+        <header class="header">
+            <h3 class="title">
+                <a href="index.html">Futurama DB</a>
+                <small>Characters Form</small>
+            </h3>
+            <nav class="main-nav">
+                <a href="info.html">Info</a>
+                <a href="characters.html">Characters</a>
+                <a href="episodes.html">Episodes</a>
+                <a href="cast.html">Cast</a>
+                <a href="questions.html">Questions</a>
+            </nav>
+        </header>
+        <main class="form-area">
+            <div class="form-group third">
+                <label>First Name</label>
+                <input class="form-control" type="text" placeholder="First Name" name="name.first" />
+            </div>
+            <div class="form-group third">
+                <label>Middle Name</label>
+                <input class="form-control" type="text" placeholder="Middle Name" name="name.middle" />
+            </div>
+            <div class="form-group third">
+                <label>Last Name</label>
+                <input class="form-control" type="text" placeholder="Last Name" name="name.last" />
+            </div>
+            <div class="form-group quarter">
+                <label>Age</label>
+                <input class="form-control" type="text" placeholder="Age" name="info.age" />
+            </div>
+            <div class="form-group quarter">
+                <label>Gender</label>
+                <input class="form-control" type="text" placeholder="Gender" name="info.gender" />
+            </div>
+            <div class="form-group quarter">
+                <label>Species</label>
+                <input class="form-control" type="text" placeholder="Species" name="info.species" />
+            </div>
+            <div class="form-group quarter">
+                <label>Occupation</label>
+                <input class="form-control" type="text" placeholder="Occupation" name="occupation" />
+            </div>
+            <div class="form-group">
+                <label>Sayings
+                    <small>Separate your sayings by a semicolon and a space.</small>
+                </label>
+                <textarea class="form-control" name="sayings" cols="30" rows="10"></textarea>
+            </div>
+            <button class="btn btn-primary" id="submit">Submit Form</button>
+        </main>
+    </div>
+
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/54887/FormSerializer.js"></script>
     <script>
-        const fakeData = {
-            name: {
-                first: 'jermbo',
-                middle: 't',
-                last: 'last'
-            },
-            just: {
-                for: {
-                    random: 'test',
-                    fun: {
-                        final: {
-                            thing: 'WHAT UP',
-                            thing2: 'asdsd'
-                        }
-                    }
-                }
-            },
-            info: {
-                age: 22,
-                gender: 'm',
-                species: 'human'
-            },
-            occupation: 'developer',
-            sayings: [
-                'this is a story all about how',
-                'my life got flipped, turned upside down',
-                'and id like to take a minute just sitting right there',
-                'ill tell you how i became the prince of bel air'
-            ]
-        };
-        const form = new DeepObjects({
-            inputs: '[type="text"], textarea'
-        });
+        const form = new FormSerializer('[type="text"], textarea, select, [type="radio"], [type="checkbox"]');
 
         const submitBtn = document.querySelector("#submit");
         const displayBtn = document.querySelector("#display");
+        const resetBtn = document.querySelector("#reset");
+
         submitBtn.addEventListener("click", e => {
             e.preventDefault();
-            form.getValues();
+            const data = form.formToJSON();
+            console.log('before data', data);
+            fetch('http://localhost:4000/people', {
+                method: 'POST',
+                body: JSON.stringify(data),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+                .then(resp => resp.json())
+                .then(json => console.log(json))
+                .catch(err => console.log(err));
         });
+
         displayBtn.addEventListener("click", e => {
             e.preventDefault();
-            form.displayValues(fakeData);
+            fetch('http://localhost:4000/people/1')
+                .then(resp => resp.json())
+                .then(json => form.jsonToForm(json));
+        });
+
+        resetBtn.addEventListener('click', e => {
+            e.preventDefault();
+            form.resetForm();
         });
     </script>
-
-    <script src="inputs.js"></script>
-    </script>
-
 </body>
 
 </html>
