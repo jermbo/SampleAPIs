@@ -17,8 +17,13 @@
 }
 
 body {
-  font-family: 'PT-Sans', sans-serif;
-  background: linear-gradient(var(--background-deg), var(--primary-color), var(--secondary-color)), var(--background-image);
+  font-family: "PT-Sans", sans-serif;
+  background: linear-gradient(
+      var(--background-deg),
+      var(--primary-color),
+      var(--secondary-color)
+    ),
+    var(--background-image);
   background-blend-mode: color-burn;
   min-height: calc(100vh - 100px);
   margin: 50px 0;
@@ -94,7 +99,7 @@ textarea {
   display: block;
   text-shadow: 0 2px 1px var(--box-shadow);
   transition: all 0.25s ease;
-  font-size: .5em;
+  font-size: 0.5em;
   font-weight: 400;
 }
 
@@ -106,12 +111,21 @@ textarea {
   text-shadow: 0 5px 5px var(--box-shadow);
 }
 
+.sub-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-shadow: 0 3px 3px var(--box-shadow);
+  transition: all 0.25s ease;
+}
+
+.sub-title:hover {
+  text-shadow: 0 5px 5px var(--box-shadow);
+}
 
 .main-nav {
   display: flex;
   justify-content: space-between;
   margin: 0 0 var(--padding);
-
 }
 
 .main-nav a {
@@ -120,13 +134,12 @@ textarea {
   display: inline-block;
   padding: calc(var(--padding) / 2) var(--padding);
   background: var(--light-bg);
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 
 .main-nav a:hover {
   background: var(--primary-color);
 }
-
 
 label {
   display: inline-block;
@@ -152,4 +165,16 @@ input[type="checkbox"] {
 
 h5 {
   margin: 5px 0;
+}
+
+.endpoint {
+  display: block;
+  text-decoration: none;
+  color: var(--text-color-light);
+  text-shadow: 0 3px 3px var(--box-shadow);
+  transition: all 0.2s ease;
+}
+
+.endpoint:hover {
+  text-shadow: 0 1px 1px var(--box-shadow);
 }

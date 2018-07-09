@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FuturamaDB | Add Characters</title>
-    <link rel="stylesheet" href="../assets/styles.css">
+    <link rel="stylesheet" href="../assets/styles/styles.css">
 </head>
 
 <body>
@@ -14,7 +14,7 @@
         <header class="header">
             <h3 class="title">
                 <a href="index.html">Futurama DB</a>
-                <small>General Info Form</small>
+                <small>Questions Form</small>
             </h3>
             <nav class="main-nav">
                 <a href="info.html">Info</a>
@@ -26,15 +26,18 @@
         </header>
         <main class="form-area">
             <div class="form-group">
-                <label>Synopsis</label>
-                <textarea class="form-control" name="synopsis" cols="30" rows="10"></textarea>
+                <label>Question</label>
+                <input type="text" name="question" />
             </div>
             <div class="form-group">
-                <label>Years Aired</label>
-                <input class="form-control" type="text" placeholder="Years Aired" name="years-aired" />
+                <label>Possible Answers</label>
+                <textarea name="possibleAnswers" rows="10"></textarea>
             </div>
-            <button class="btn btn-block btn-primary half" id="submit">Submit Form</button>
-            <button class="btn btn-block btn-warning half" id="display">Display Data</button>
+            <div class="form-group">
+                <label>Question</label>
+                <input type="text" name="correctAnswer" />
+            </div>
+            <button class="btn btn-primary" id="submit">Submit Form</button>
         </main>
     </div>
     <!-- /container -->

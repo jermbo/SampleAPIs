@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FuturamaDB</title>
+    <link rel="stylesheet" href="../assets/styles/styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1 class="title">Futurama DB</h1>
+            <p>PUT DESCRIPTION HERE</p>
+        </header>
+        <main>
+            <h3 class="sub-title">End points</h3>
+            <div class="endpoints">
+            </div>
+            <!-- /endpoints -->
+        </main>
+    </div>
+    <!-- /container -->
+    <script src="../assets/scripts/displayEndPoints.js" type="text/javascript"></script>
+    <script>
+        DisplayEndPoints({
+            elem: ".endpoints",
+            db: "futurama"
+        })
+    </script>
+</body>
+
+</html>
