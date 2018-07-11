@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:200,400,600,800");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #edb100;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  padding: 2.5rem;
+}
+
+.container {
+  background-image: url("https://picsum.photos/1500?random");
+  background-size: cover;
+  background-color: rgba(11, 5, 0, 1);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container:after {
+  content: "";
+  background: rgba(11, 5, 0, 0.75);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.inner {
+  padding: 1.25rem;
+  position: relative;
+  z-index: 1;
+  color: #e3e9ed;
+  text-shadow: 1px 1px 1px rgba(11, 5, 0, 0.7);
+  text-align: center;
+  width: 50%;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin: 0.625rem 0;
+}
+
+p {
+  margin: 0 0 0.625rem;
+  line-height: 1.5em;
+}
+
+nav {
+  display: flex;
+  margin: 1.25rem 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  color: #0b0500;
+  text-decoration: none;
+  background: #edb100;
+  padding: 0.625rem 1.25rem;
+  display: inline-block;
+  margin-bottom: 0.625rem;
+  transition: all 0.2s ease;
+}
+
+nav a:not(:last-child) {
+  margin-right: 0.625rem;
+}
+
+nav a:hover {
+  color: #e3e9ed;
+  background: #6e5200;
+}
