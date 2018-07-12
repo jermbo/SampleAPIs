@@ -5,11 +5,21 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary: #0068a0;
+  /* --primary: #edb100; */
+  --blacka: rgba(11, 5, 0, 1);
+  --black: #0b0500;
+  --offWhite: #e3e9ed;
+  --padding: 1.25rem;
+}
+
 html,
 body {
   width: 100%;
   height: 100%;
-  background: #edb100;
+  background: var(--primary);
+  /* background: var(--primary); */
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 16px;
   margin: 0;
@@ -24,7 +34,7 @@ body {
 .container {
   background-image: url("https://picsum.photos/1500?random");
   background-size: cover;
-  background-color: rgba(11, 5, 0, 1);
+  background-color: var(--blacka);
   width: 100%;
   height: 100%;
   position: relative;
@@ -43,12 +53,23 @@ body {
   left: 0;
 }
 
+.container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -1.25rem;
+  top: -1.25rem;
+  z-index: 1;
+  border: 4px solid var(--offWhite);
+}
+
 .inner {
-  padding: 1.25rem;
+  padding: var(--padding);
   position: relative;
   z-index: 1;
-  color: #e3e9ed;
-  text-shadow: 1px 1px 1px rgba(11, 5, 0, 0.7);
+  color: var(--offWhite);
+  text-shadow: 1px 1px 1px var(--blacka);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -57,47 +78,60 @@ body {
 }
 
 .header {
-  margin-bottom: 1.25rem;
+  margin-bottom: var(--padding);
   width: 75%;
-}
-
-.content {
 }
 
 h1 {
   font-weight: 400;
-  font-size: 2.5rem;
-  margin: 0.625rem 0;
+  font-size: calc(var(--padding) * 2);
+  margin: calc(var(--padding) / 2) 0;
 }
 
 p {
-  margin: 0 0 0.625rem;
+  margin: 0 0 calc(var(--padding) / 2);
   line-height: 1.5em;
 }
 
 nav {
   display: flex;
-  margin: 1.25rem 0;
+  margin: var(--padding) 0;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
 nav a {
-  color: #0b0500;
+  border: 4px solid var(--offWhite);
+  color: var(--offWhite);
+  font-weight: 600;
+  letter-spacing: 2px;
   text-decoration: none;
-  background: #edb100;
-  padding: 0.625rem 1.25rem;
-  display: inline-block;
-  margin-bottom: 0.625rem;
-  transition: all 0.2s ease;
+  position: relative;
+  margin: var(--padding);
+  padding: var(--padding);
+  font-size: 1.15rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -1rem;
+  top: -1rem;
+  z-index: -1;
+  background-color: var(--primary);
+  transition: all 0.2s ease-out;
+}
+
+nav a:hover::before {
+  top: 0;
+  left: 0;
 }
 
 nav a:not(:last-child) {
-  margin-right: 0.625rem;
-}
-
-nav a:hover {
-  color: #e3e9ed;
-  background: #6e5200;
+  margin-right: calc(var(--padding));
 }
