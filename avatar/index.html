@@ -5,28 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Test JSON</title>
-    <link rel="stylesheet" href="assets/styles/home-styles.css">
+    <title>FuturamaDB</title>
+    <link rel="stylesheet" href="../assets/styles/home-styles.css">
 </head>
 
 <body>
     <main class="container">
         <div class="inner">
             <header class="header">
-                <h1>Sample APIs</h1>
+                <h1>AvatarDB</h1>
                 <p>A fun and safe place to practice with RESTful APIs</p>
                 <p>You can use any HTTP verbs (GET, POST, PUT, PATCH and DELETE) and access your resources from anywhere using
                     CORS and JSONP.</p>
             </header>
             <article class="content">
                 <p>Here is a list of existing APIs to get you started.</p>
-                <nav>
-                    <a href="/futurama">Futurama</a>
-                    <a href="/avatar">Avatar</a>
+                <nav class="endpoints">
                 </nav>
             </article>
         </div>
     </main>
+    <!-- /container -->
+    <script src="../assets/scripts/displayEndPoints.js" type="text/javascript"></script>
+    <script>
+        DisplayEndPoints({
+            elem: ".endpoints",
+            db: "avatar"
+        })
+    </script>
 </body>
 
 </html>
