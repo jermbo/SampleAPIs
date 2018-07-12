@@ -10,22 +10,33 @@
 </head>
 
 <body>
-    <main class="container">
-        <div class="inner">
-            <header class="header">
-                <h1>Sample APIs</h1>
+
+    <main>
+        <article class="site">
+            <div class="site__inner">
+                <h1 class="site__title">Sample APIs</h1>
                 <p>A fun and safe place to practice with RESTful APIs</p>
                 <p>You can use any HTTP verbs (GET, POST, PUT, PATCH and DELETE) and access your resources from anywhere using
                     CORS and JSONP.</p>
-            </header>
-            <article class="content">
                 <p>Here is a list of existing APIs to get you started.</p>
-                <nav>
-                    <a href="/futurama">Futurama</a>
-                    <a href="/avatar">Avatar</a>
-                </nav>
+            </div>
+        </article>
+        <section class="apis">
+            <article class="api">
+                <div class="api__inner">
+                    <h2 class="api__title">Futurama</h2>
+                    <p class="api__desc">An API with characters, episode listings, species, planets, and trivia questions.</p>
+                    <a class="api__link" href="/futurama">API Link</a>
+                </div>
             </article>
-        </div>
+            <article class="api">
+                <div class="api__inner">
+                    <h2 class="api__title">Avatar</h2>
+                    <p class="api__desc">An API with characters, episode listings, and trivia questions.</p>
+                    <a class="api__link" href="/avatar">API Link</a>
+                </div>
+            </article>
+        </section>
     </main>
 </body>
 
