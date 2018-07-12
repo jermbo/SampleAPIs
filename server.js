@@ -4,15 +4,14 @@ const path = require("path");
 const server = jsonServer.create();
 const middleware = jsonServer.defaults();
 const port = process.env.PORT || 5000;
+const pages = ["futurama", "avatar"];
 
 server.use(middleware);
-server.use(
-  "/scripts",
-  express.static(path.join(__dirname, "./public/scripts/"))
-);
 
-server.use("/futurama", express.static(path.join(__dirname, "futurama")));
-server.use("/futurama", jsonServer.router("./futurama/futurama.json"));
+pages.forEach(page => {
+  server.use(`/${page}`, express.static(path.join(__dirname, `${page}`)));
+  server.use(`/${page}`, jsonServer.router(`./${page}/${page}.json`));
+});
 
 server.listen(port, () => {
   console.log(`JSON Server is now running on port: ${port}`);
