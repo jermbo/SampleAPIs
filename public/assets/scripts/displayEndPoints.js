@@ -11,7 +11,9 @@ const DisplayEndPoints = function(opts) {
     endpointDisplay.innerHTML = keys
       .map(
         key =>
-          `<a href="${baseURL}/futurama/${key}" class="endpoint" target="_blank">${key}</a>`
+          `<a href="${baseURL}/${
+            opts.db
+          }/${key}" class="endpoint" target="_blank">${key}</a>`
       )
       .join("");
   }

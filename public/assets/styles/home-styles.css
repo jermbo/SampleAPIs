@@ -36,6 +36,20 @@ main {
   font-weight: 400;
 }
 
+.backBtn {
+  background: #00d6e9;
+  display: inline-block;
+  padding: 0.125rem 0.625rem;
+  color: #161616;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.backBtn:hover {
+  color: #eadeda;
+  background: #00909d;
+}
+
 .apis {
   flex: 1 0 50%;
   max-height: 100%;
@@ -144,49 +158,55 @@ main {
 }
 .endpoint:nth-child(6n + 1) {
   background: #00d6e9;
+  color: black;
 }
 .endpoint:nth-child(6n + 1):hover {
-  color: black;
+  color: #50f1ff;
   border-color: black;
   background: #00909d;
 }
 .endpoint:nth-child(6n + 2) {
   background: #15e3d9;
+  color: black;
 }
 .endpoint:nth-child(6n + 2):hover {
-  color: black;
+  color: #6df1eb;
   border-color: black;
   background: #0f9d96;
 }
 .endpoint:nth-child(6n + 3) {
   background: #56edbf;
+  color: #073d2d;
 }
 .endpoint:nth-child(6n + 3):hover {
-  color: #073d2d;
+  color: #b2f7e2;
   border-color: #073d2d;
   background: #18dfa2;
 }
 .endpoint:nth-child(6n + 4) {
   background: #8cf5a2;
+  color: #0a7821;
 }
 .endpoint:nth-child(6n + 4):hover {
-  color: #0a7821;
+  color: #eafdee;
   border-color: #0a7821;
   background: #46ef69;
 }
 .endpoint:nth-child(6n + 5) {
   background: #c2f985;
+  color: #427906;
 }
 .endpoint:nth-child(6n + 5):hover {
-  color: #427906;
+  color: #f3fee6;
   border-color: #427906;
   background: #9ef53c;
 }
 .endpoint:nth-child(6n + 6) {
   background: #f9f871;
+  color: #676604;
 }
 .endpoint:nth-child(6n + 6):hover {
-  color: #676604;
+  color: #fdfdd3;
   border-color: #676604;
   background: #f6f428;
 }
