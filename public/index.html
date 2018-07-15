@@ -10,34 +10,60 @@
 </head>
 
 <body>
-
-    <main>
+    <main id="app">
         <article class="site">
             <div class="site__inner">
-                <h1 class="site__title">Sample APIs</h1>
-                <p>A fun and safe place to practice with RESTful APIs</p>
-                <p>You can use any HTTP verbs (GET, POST, PUT, PATCH and DELETE) and access your resources from anywhere using
-                    CORS and JSONP.</p>
-                <p>Here is a list of existing APIs to get you started.</p>
+                <h1 class="site__title">{{title}}</h1>
+                <p>{{desc}}</p>
+                <p>{{thing}}</p>
             </div>
         </article>
         <section class="apis">
-            <article class="api">
-                <div class="api__inner">
-                    <h2 class="api__title">Futurama</h2>
-                    <p class="api__desc">An API with characters, episode listings, species, planets, and trivia questions.</p>
-                    <a class="api__link" href="/futurama">API Link</a>
-                </div>
-            </article>
-            <article class="api">
-                <div class="api__inner">
-                    <h2 class="api__title">Avatar</h2>
-                    <p class="api__desc">An API with characters, episode listings, and trivia questions.</p>
-                    <a class="api__link" href="/avatar">API Link</a>
-                </div>
-            </article>
+            <Apis v-for="api in apis" :api="api"></Apis>
         </section>
     </main>
+    <template id="api">
+        <article class="api">
+            <div class="api__inner">
+                <h2 class="api__title">{{api.title}}</h2>
+                <p class="api__desc">{{api.desc}}</p>
+                <a class="api__link" :href="api.link">API Link</a>
+            </div>
+        </article>
+    </template>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        const api = Vue.component('Apis', {
+            template: '#api',
+            props: ['api'],
+        });
+        const app = new Vue({
+            el: '#app',
+            data: function () {
+                return {
+                    title: 'Sample APIs',
+                    desc: 'Here is a list of existing APIs to get you started.',
+                    thing: 'You can use any HTTP verbs (GET, POST, PUT, PATCH and DELETE) and access your resources from anywhere using CORS and JSONP.',
+                    apis: [
+                        {
+                            id: 1,
+                            title: 'Futurama',
+                            desc: 'An API with characters, episode listing, species, planets, and trivia questions.',
+                            link: '/futurama',
+                        }, {
+                            id: 1,
+                            title: 'Avatar',
+                            desc: 'An API with characters, episode listings, and trivia questions.',
+                            link: '/avatar',
+                        },
+                    ]
+                }
+            },
+            components: {
+                apis: api
+            }
+        });
+    </script>
 </body>
 
 </html>
