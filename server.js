@@ -8,9 +8,11 @@ const pages = ["futurama", "avatar", "baseball"];
 const fs = require('fs');  
 const app = express();
 
-app.get("/reset",(req,res) => {
+server.get("/reset", (req,res) => {
     pages.forEach(page => {
-        fs.copyFile(`/${page}/${page}.json.backup`, `/${page}/${page}.json`);
+        fs.copyFile(`./${page}/${page}.json.backup`, `./${page}/${page}.json`, (err) => {
+  	  if (err) { console.error(err); } 
+	});
     });
     res.end("ok");
 });
