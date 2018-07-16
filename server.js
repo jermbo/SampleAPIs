@@ -6,7 +6,6 @@ const middleware = jsonServer.defaults();
 const port = process.env.PORT || 5000;
 const pages = ["futurama", "avatar", "baseball"];
 const fs = require('fs');  
-const app = express();
 
 server.get("/reset", (req,res) => {
     pages.forEach(page => {
