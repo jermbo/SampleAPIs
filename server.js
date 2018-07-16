@@ -5,6 +5,15 @@ const server = jsonServer.create();
 const middleware = jsonServer.defaults();
 const port = process.env.PORT || 5000;
 const pages = ["futurama", "avatar", "baseball"];
+const fs = require('fs');  
+const app = express();
+
+app.get("/reset",(req,res) => {
+    pages.forEach(page => {
+        fs.copyFile(`/${page}/${page}.json.backup`, `/${page}/${page}.json`);
+    });
+    res.end("ok");
+});
 
 server.use(middleware);
 
