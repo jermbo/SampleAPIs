@@ -8275,6 +8275,4207 @@
         "Year": 1906,
         "Throws": "L"
       }
+    ],
+    "stolenBases": [
+      {
+        "Rank": "1.",
+        "Player": "Hugh Nicol",
+        "Age": 29,
+        "StolenBases": 138,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": "2.",
+        "Player": "Rickey Henderson+",
+        "Age": 23,
+        "StolenBases": 130,
+        "Year": 1982,
+        "Bats": "R"
+      },
+      {
+        "Rank": "3.",
+        "Player": "Arlie Latham",
+        "Age": 27,
+        "StolenBases": 129,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": "4.",
+        "Player": "Lou Brock+",
+        "Age": 35,
+        "StolenBases": 118,
+        "Year": 1974,
+        "Bats": "L"
+      },
+      {
+        "Rank": "5.",
+        "Player": "Charlie Comiskey+",
+        "Age": 27,
+        "StolenBases": 117,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": "6.",
+        "Player": "Billy Hamilton+",
+        "Age": 23,
+        "StolenBases": 111,
+        "Year": 1889,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Hamilton+",
+        "Age": 25,
+        "StolenBases": 111,
+        "Year": 1891,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "John Ward+",
+        "Age": 27,
+        "StolenBases": 111,
+        "Year": 1887,
+        "Bats": "L"
+      },
+      {
+        "Rank": "9.",
+        "Player": "Vince Coleman",
+        "Age": 23,
+        "StolenBases": 110,
+        "Year": 1985,
+        "Bats": "B"
+      },
+      {
+        "Rank": "10.",
+        "Player": "Vince Coleman",
+        "Age": 25,
+        "StolenBases": 109,
+        "Year": 1987,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Arlie Latham",
+        "Age": 28,
+        "StolenBases": 109,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": "12.",
+        "Player": "Rickey Henderson+",
+        "Age": 24,
+        "StolenBases": 108,
+        "Year": 1983,
+        "Bats": "R"
+      },
+      {
+        "Rank": "13.",
+        "Player": "Vince Coleman",
+        "Age": 24,
+        "StolenBases": 107,
+        "Year": 1986,
+        "Bats": "B"
+      },
+      {
+        "Rank": "14.",
+        "Player": "Tom Brown",
+        "Age": 30,
+        "StolenBases": 106,
+        "Year": 1891,
+        "Bats": "L"
+      },
+      {
+        "Rank": "15.",
+        "Player": "Maury Wills",
+        "Age": 29,
+        "StolenBases": 104,
+        "Year": 1962,
+        "Bats": "B"
+      },
+      {
+        "Rank": "16.",
+        "Player": "Pete Browning",
+        "Age": 26,
+        "StolenBases": 103,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Hugh Nicol",
+        "Age": 30,
+        "StolenBases": 103,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": "18.",
+        "Player": "Jim Fogarty",
+        "Age": 23,
+        "StolenBases": 102,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Hamilton+",
+        "Age": 24,
+        "StolenBases": 102,
+        "Year": 1890,
+        "Bats": "L"
+      },
+      {
+        "Rank": "20.",
+        "Player": "Billy Hamilton+",
+        "Age": 28,
+        "StolenBases": 100,
+        "Year": 1894,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Rickey Henderson+",
+        "Age": 21,
+        "StolenBases": 100,
+        "Year": 1980,
+        "Bats": "R"
+      },
+      {
+        "Rank": "22.",
+        "Player": "Jim Fogarty",
+        "Age": 25,
+        "StolenBases": 99,
+        "Year": 1889,
+        "Bats": "R"
+      },
+      {
+        "Rank": "23.",
+        "Player": "Billy Hamilton+",
+        "Age": 29,
+        "StolenBases": 97,
+        "Year": 1895,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ron LeFlore",
+        "Age": 32,
+        "StolenBases": 97,
+        "Year": 1980,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Harry Stovey",
+        "Age": 33,
+        "StolenBases": 97,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": "26.",
+        "Player": "Ty Cobb+",
+        "Age": 28,
+        "StolenBases": 96,
+        "Year": 1915,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Omar Moreno",
+        "Age": 27,
+        "StolenBases": 96,
+        "Year": 1980,
+        "Bats": "L"
+      },
+      {
+        "Rank": "28.",
+        "Player": "Bid McPhee+",
+        "Age": 27,
+        "StolenBases": 95,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Curt Welch",
+        "Age": 26,
+        "StolenBases": 95,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": "30.",
+        "Player": "Mike Griffin",
+        "Age": 22,
+        "StolenBases": 94,
+        "Year": 1887,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Maury Wills",
+        "Age": 32,
+        "StolenBases": 94,
+        "Year": 1965,
+        "Bats": "B"
+      },
+      {
+        "Rank": "32.",
+        "Player": "Rickey Henderson+",
+        "Age": 29,
+        "StolenBases": 93,
+        "Year": 1988,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tommy McCarthy+",
+        "Age": 24,
+        "StolenBases": 93,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": "34.",
+        "Player": "Darby O'Brien",
+        "Age": 25,
+        "StolenBases": 91,
+        "Year": 1889,
+        "Bats": "R"
+      },
+      {
+        "Rank": "35.",
+        "Player": "Tim Raines+",
+        "Age": 23,
+        "StolenBases": 90,
+        "Year": 1983,
+        "Bats": "B"
+      },
+      {
+        "Rank": "36.",
+        "Player": "Herman Long",
+        "Age": 23,
+        "StolenBases": 89,
+        "Year": 1889,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Curt Welch",
+        "Age": 25,
+        "StolenBases": 89,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": "38.",
+        "Player": "Clyde Milan",
+        "Age": 25,
+        "StolenBases": 88,
+        "Year": 1912,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tom Poorman",
+        "Age": 29,
+        "StolenBases": 88,
+        "Year": 1887,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Blondie Purcell",
+        "Age": 33,
+        "StolenBases": 88,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "John Ward+",
+        "Age": 32,
+        "StolenBases": 88,
+        "Year": 1892,
+        "Bats": "L"
+      },
+      {
+        "Rank": "42.",
+        "Player": "Rickey Henderson+",
+        "Age": 27,
+        "StolenBases": 87,
+        "Year": 1986,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Joe Kelley+",
+        "Age": 24,
+        "StolenBases": 87,
+        "Year": 1896,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Arlie Latham",
+        "Age": 31,
+        "StolenBases": 87,
+        "Year": 1891,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Harry Stovey",
+        "Age": 31,
+        "StolenBases": 87,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": "46.",
+        "Player": "Cub Stricker",
+        "Age": 28,
+        "StolenBases": 86,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": "47.",
+        "Player": "Hub Collins",
+        "Age": 26,
+        "StolenBases": 85,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Hugh Duffy+",
+        "Age": 24,
+        "StolenBases": 85,
+        "Year": 1891,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tommy Tucker",
+        "Age": 23,
+        "StolenBases": 85,
+        "Year": 1887,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bill Lange",
+        "Age": 25,
+        "StolenBases": 84,
+        "Year": 1896,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Chippy McGarr",
+        "Age": 24,
+        "StolenBases": 84,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Sunday",
+        "Age": 27,
+        "StolenBases": 84,
+        "Year": 1890,
+        "Bats": "L"
+      },
+      {
+        "Rank": "54.",
+        "Player": "Ty Cobb+",
+        "Age": 24,
+        "StolenBases": 83,
+        "Year": 1911,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Hamilton+",
+        "Age": 30,
+        "StolenBases": 83,
+        "Year": 1896,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tommy McCarthy+",
+        "Age": 26,
+        "StolenBases": 83,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Willie Wilson",
+        "Age": 23,
+        "StolenBases": 83,
+        "Year": 1979,
+        "Bats": "B"
+      },
+      {
+        "Rank": "58.",
+        "Player": "Dummy Hoy",
+        "Age": 26,
+        "StolenBases": 82,
+        "Year": 1888,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "John Reilly",
+        "Age": 29,
+        "StolenBases": 82,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": "60.",
+        "Player": "Bob Bescher",
+        "Age": 27,
+        "StolenBases": 81,
+        "Year": 1911,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Vince Coleman",
+        "Age": 26,
+        "StolenBases": 81,
+        "Year": 1988,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Eddie Collins+",
+        "Age": 23,
+        "StolenBases": 81,
+        "Year": 1910,
+        "Bats": "L"
+      },
+      {
+        "Rank": "63.",
+        "Player": "Tom Brown",
+        "Age": 29,
+        "StolenBases": 80,
+        "Year": 1890,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Eric Davis",
+        "Age": 24,
+        "StolenBases": 80,
+        "Year": 1986,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Rickey Henderson+",
+        "Age": 26,
+        "StolenBases": 80,
+        "Year": 1985,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Hugh Nicol",
+        "Age": 31,
+        "StolenBases": 80,
+        "Year": 1889,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Emmett Seery",
+        "Age": 27,
+        "StolenBases": 80,
+        "Year": 1888,
+        "Bats": "L"
+      },
+      {
+        "Rank": "68.",
+        "Player": "Dave Collins",
+        "Age": 27,
+        "StolenBases": 79,
+        "Year": 1980,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Willie Wilson",
+        "Age": 24,
+        "StolenBases": 79,
+        "Year": 1980,
+        "Bats": "B"
+      },
+      {
+        "Rank": "70.",
+        "Player": "Tom Brown",
+        "Age": 31,
+        "StolenBases": 78,
+        "Year": 1892,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Hugh Duffy+",
+        "Age": 23,
+        "StolenBases": 78,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Marquis Grissom",
+        "Age": 25,
+        "StolenBases": 78,
+        "Year": 1992,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ron LeFlore",
+        "Age": 31,
+        "StolenBases": 78,
+        "Year": 1979,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "John McGraw+",
+        "Age": 21,
+        "StolenBases": 78,
+        "Year": 1894,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tim Raines+",
+        "Age": 22,
+        "StolenBases": 78,
+        "Year": 1982,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jose Reyes",
+        "Age": 24,
+        "StolenBases": 78,
+        "Year": 2007,
+        "Bats": "B"
+      },
+      {
+        "Rank": "77.",
+        "Player": "Vince Coleman",
+        "Age": 28,
+        "StolenBases": 77,
+        "Year": 1990,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Rickey Henderson+",
+        "Age": 30,
+        "StolenBases": 77,
+        "Year": 1989,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Rudy Law",
+        "Age": 26,
+        "StolenBases": 77,
+        "Year": 1983,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Davey Lopes",
+        "Age": 30,
+        "StolenBases": 77,
+        "Year": 1975,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Omar Moreno",
+        "Age": 26,
+        "StolenBases": 77,
+        "Year": 1979,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ted Scheffler",
+        "Age": 26,
+        "StolenBases": 77,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jimmy Sheckard",
+        "Age": 20,
+        "StolenBases": 77,
+        "Year": 1899,
+        "Bats": "L"
+      },
+      {
+        "Rank": "84.",
+        "Player": "Ty Cobb+",
+        "Age": 22,
+        "StolenBases": 76,
+        "Year": 1909,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Marquis Grissom",
+        "Age": 24,
+        "StolenBases": 76,
+        "Year": 1991,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ed McKean",
+        "Age": 23,
+        "StolenBases": 76,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Dusty Miller",
+        "Age": 27,
+        "StolenBases": 76,
+        "Year": 1896,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Walt Wilmot",
+        "Age": 26,
+        "StolenBases": 76,
+        "Year": 1890,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Walt Wilmot",
+        "Age": 30,
+        "StolenBases": 76,
+        "Year": 1894,
+        "Bats": "B"
+      },
+      {
+        "Rank": "90.",
+        "Player": "Benny Kauff",
+        "Age": 24,
+        "StolenBases": 75,
+        "Year": 1914,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Kenny Lofton",
+        "Age": 29,
+        "StolenBases": 75,
+        "Year": 1996,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Clyde Milan",
+        "Age": 26,
+        "StolenBases": 75,
+        "Year": 1913,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bill North",
+        "Age": 28,
+        "StolenBases": 75,
+        "Year": 1976,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tim Raines+",
+        "Age": 24,
+        "StolenBases": 75,
+        "Year": 1984,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Yank Robinson",
+        "Age": 27,
+        "StolenBases": 75,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "George Van Haltren",
+        "Age": 25,
+        "StolenBases": 75,
+        "Year": 1891,
+        "Bats": "L"
+      },
+      {
+        "Rank": "97.",
+        "Player": "Lou Brock+",
+        "Age": 27,
+        "StolenBases": 74,
+        "Year": 1966,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Frank Fennelly",
+        "Age": 27,
+        "StolenBases": 74,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Brian Hunter",
+        "Age": 26,
+        "StolenBases": 74,
+        "Year": 1997,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Fritz Maisel",
+        "Age": 24,
+        "StolenBases": 74,
+        "Year": 1914,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Harry Stovey",
+        "Age": 30,
+        "StolenBases": 74,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": "102.",
+        "Player": "Jack Doyle",
+        "Age": 26,
+        "StolenBases": 73,
+        "Year": 1896,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tommy Harper",
+        "Age": 28,
+        "StolenBases": 73,
+        "Year": 1969,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bill Lange",
+        "Age": 26,
+        "StolenBases": 73,
+        "Year": 1897,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Denny Lyons",
+        "Age": 21,
+        "StolenBases": 73,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "John McGraw+",
+        "Age": 26,
+        "StolenBases": 73,
+        "Year": 1899,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Paul Radford",
+        "Age": 25,
+        "StolenBases": 73,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bill Van Dyke",
+        "Age": 26,
+        "StolenBases": 73,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": "109.",
+        "Player": "Charlie Comiskey+",
+        "Age": 28,
+        "StolenBases": 72,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Otis Nixon",
+        "Age": 32,
+        "StolenBases": 72,
+        "Year": 1991,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Juan Samuel",
+        "Age": 23,
+        "StolenBases": 72,
+        "Year": 1984,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Curt Welch",
+        "Age": 28,
+        "StolenBases": 72,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tony Womack",
+        "Age": 29,
+        "StolenBases": 72,
+        "Year": 1999,
+        "Bats": "L"
+      },
+      {
+        "Rank": "114.",
+        "Player": "Hub Collins",
+        "Age": 23,
+        "StolenBases": 71,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Hub Collins",
+        "Age": 24,
+        "StolenBases": 71,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bill Greenwood",
+        "Age": 30,
+        "StolenBases": 71,
+        "Year": 1887,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Omar Moreno",
+        "Age": 25,
+        "StolenBases": 71,
+        "Year": 1978,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tim Raines+",
+        "Age": 21,
+        "StolenBases": 71,
+        "Year": 1981,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Sunday",
+        "Age": 25,
+        "StolenBases": 71,
+        "Year": 1888,
+        "Bats": "L"
+      },
+      {
+        "Rank": "120.",
+        "Player": "Bob Bescher",
+        "Age": 26,
+        "StolenBases": 70,
+        "Year": 1910,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Lou Brock+",
+        "Age": 34,
+        "StolenBases": 70,
+        "Year": 1973,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jacoby Ellsbury",
+        "Age": 25,
+        "StolenBases": 70,
+        "Year": 2009,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Hughie Jennings+",
+        "Age": 27,
+        "StolenBases": 70,
+        "Year": 1896,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Kenny Lofton",
+        "Age": 26,
+        "StolenBases": 70,
+        "Year": 1993,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bill McClellan",
+        "Age": 31,
+        "StolenBases": 70,
+        "Year": 1887,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Scott Podsednik",
+        "Age": 28,
+        "StolenBases": 70,
+        "Year": 2004,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tim Raines+",
+        "Age": 25,
+        "StolenBases": 70,
+        "Year": 1985,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tim Raines+",
+        "Age": 26,
+        "StolenBases": 70,
+        "Year": 1986,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Mickey Rivers",
+        "Age": 26,
+        "StolenBases": 70,
+        "Year": 1975,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Frank Taveras",
+        "Age": 27,
+        "StolenBases": 70,
+        "Year": 1977,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Alan Wiggins",
+        "Age": 26,
+        "StolenBases": 70,
+        "Year": 1984,
+        "Bats": "B"
+      },
+      {
+        "Rank": "132.",
+        "Player": "Ned Hanlon+",
+        "Age": 29,
+        "StolenBases": 69,
+        "Year": 1887,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Arlie Latham",
+        "Age": 29,
+        "StolenBases": 69,
+        "Year": 1889,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jake Stenzel",
+        "Age": 30,
+        "StolenBases": 69,
+        "Year": 1897,
+        "Bats": "R"
+      },
+      {
+        "Rank": "135.",
+        "Player": "Ty Cobb+",
+        "Age": 29,
+        "StolenBases": 68,
+        "Year": 1916,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "King Kelly+",
+        "Age": 31,
+        "StolenBases": 68,
+        "Year": 1889,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ron LeFlore",
+        "Age": 30,
+        "StolenBases": 68,
+        "Year": 1978,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Juan Pierre",
+        "Age": 32,
+        "StolenBases": 68,
+        "Year": 2010,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Lonnie Smith",
+        "Age": 26,
+        "StolenBases": 68,
+        "Year": 1982,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Harry Stovey",
+        "Age": 29,
+        "StolenBases": 68,
+        "Year": 1886,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Willy Taveras",
+        "Age": 26,
+        "StolenBases": 68,
+        "Year": 2008,
+        "Bats": "R"
+      },
+      {
+        "Rank": "142.",
+        "Player": "Bob Bescher",
+        "Age": 28,
+        "StolenBases": 67,
+        "Year": 1912,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Frank Chance+",
+        "Age": 26,
+        "StolenBases": 67,
+        "Year": 1903,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Willie Keeler+",
+        "Age": 24,
+        "StolenBases": 67,
+        "Year": 1896,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bill Lange",
+        "Age": 24,
+        "StolenBases": 67,
+        "Year": 1895,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Joe Morgan+",
+        "Age": 29,
+        "StolenBases": 67,
+        "Year": 1973,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Joe Morgan+",
+        "Age": 31,
+        "StolenBases": 67,
+        "Year": 1975,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jimmy Sheckard",
+        "Age": 24,
+        "StolenBases": 67,
+        "Year": 1903,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Dan Stearns",
+        "Age": 27,
+        "StolenBases": 67,
+        "Year": 1889,
+        "Bats": "L"
+      },
+      {
+        "Rank": "150.",
+        "Player": "Tom Brown",
+        "Age": 32,
+        "StolenBases": 66,
+        "Year": 1893,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tom Brown",
+        "Age": 33,
+        "StolenBases": 66,
+        "Year": 1894,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Roger Cedeno",
+        "Age": 24,
+        "StolenBases": 66,
+        "Year": 1999,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tom Goodwin",
+        "Age": 27,
+        "StolenBases": 66,
+        "Year": 1996,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Hamilton+",
+        "Age": 31,
+        "StolenBases": 66,
+        "Year": 1897,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Rickey Henderson+",
+        "Age": 25,
+        "StolenBases": 66,
+        "Year": 1984,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Rickey Henderson+",
+        "Age": 39,
+        "StolenBases": 66,
+        "Year": 1998,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bill Lange",
+        "Age": 23,
+        "StolenBases": 66,
+        "Year": 1894,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Arlie Latham",
+        "Age": 32,
+        "StolenBases": 66,
+        "Year": 1892,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Kenny Lofton",
+        "Age": 25,
+        "StolenBases": 66,
+        "Year": 1992,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jim McTamany",
+        "Age": 23,
+        "StolenBases": 66,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Curt Welch",
+        "Age": 27,
+        "StolenBases": 66,
+        "Year": 1889,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Alan Wiggins",
+        "Age": 25,
+        "StolenBases": 66,
+        "Year": 1983,
+        "Bats": "B"
+      },
+      {
+        "Rank": "163.",
+        "Player": "Ty Cobb+",
+        "Age": 23,
+        "StolenBases": 65,
+        "Year": 1910,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Vince Coleman",
+        "Age": 27,
+        "StolenBases": 65,
+        "Year": 1989,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Hub Collins",
+        "Age": 25,
+        "StolenBases": 65,
+        "Year": 1889,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Charlie Comiskey+",
+        "Age": 29,
+        "StolenBases": 65,
+        "Year": 1889,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "George Davis+",
+        "Age": 26,
+        "StolenBases": 65,
+        "Year": 1897,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Mike Griffin",
+        "Age": 26,
+        "StolenBases": 65,
+        "Year": 1891,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ned Hanlon+",
+        "Age": 32,
+        "StolenBases": 65,
+        "Year": 1890,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Rickey Henderson+",
+        "Age": 31,
+        "StolenBases": 65,
+        "Year": 1990,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Juan Pierre",
+        "Age": 25,
+        "StolenBases": 65,
+        "Year": 2003,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Gerald Young",
+        "Age": 23,
+        "StolenBases": 65,
+        "Year": 1988,
+        "Bats": "B"
+      },
+      {
+        "Rank": "173.",
+        "Player": "Lou Brock+",
+        "Age": 32,
+        "StolenBases": 64,
+        "Year": 1971,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jay Faatz",
+        "Age": 28,
+        "StolenBases": 64,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Dee Gordon",
+        "Age": 26,
+        "StolenBases": 64,
+        "Year": 2014,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Willie Keeler+",
+        "Age": 25,
+        "StolenBases": 64,
+        "Year": 1897,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Fred Pfeffer",
+        "Age": 28,
+        "StolenBases": 64,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Juan Pierre",
+        "Age": 29,
+        "StolenBases": 64,
+        "Year": 2007,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jose Reyes",
+        "Age": 23,
+        "StolenBases": 64,
+        "Year": 2006,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Eric Yelding",
+        "Age": 25,
+        "StolenBases": 64,
+        "Year": 1990,
+        "Bats": "R"
+      },
+      {
+        "Rank": "181.",
+        "Player": "Lou Brock+",
+        "Age": 26,
+        "StolenBases": 63,
+        "Year": 1965,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Lou Brock+",
+        "Age": 33,
+        "StolenBases": 63,
+        "Year": 1972,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tom Brown",
+        "Age": 28,
+        "StolenBases": 63,
+        "Year": 1889,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Max Carey+",
+        "Age": 26,
+        "StolenBases": 63,
+        "Year": 1916,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Eddie Collins+",
+        "Age": 22,
+        "StolenBases": 63,
+        "Year": 1909,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Eddie Collins+",
+        "Age": 25,
+        "StolenBases": 63,
+        "Year": 1912,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Davey Lopes",
+        "Age": 31,
+        "StolenBases": 63,
+        "Year": 1976,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bid McPhee+",
+        "Age": 29,
+        "StolenBases": 63,
+        "Year": 1889,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Sam Rice+",
+        "Age": 30,
+        "StolenBases": 63,
+        "Year": 1920,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Rodney Scott",
+        "Age": 26,
+        "StolenBases": 63,
+        "Year": 1980,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Harry Stovey",
+        "Age": 32,
+        "StolenBases": 63,
+        "Year": 1889,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tommy Tucker",
+        "Age": 25,
+        "StolenBases": 63,
+        "Year": 1889,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "John Ward+",
+        "Age": 30,
+        "StolenBases": 63,
+        "Year": 1890,
+        "Bats": "L"
+      },
+      {
+        "Rank": "194.",
+        "Player": "Lou Brock+",
+        "Age": 29,
+        "StolenBases": 62,
+        "Year": 1968,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "George Burns",
+        "Age": 24,
+        "StolenBases": 62,
+        "Year": 1914,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bert Campaneris",
+        "Age": 26,
+        "StolenBases": 62,
+        "Year": 1968,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bert Campaneris",
+        "Age": 27,
+        "StolenBases": 62,
+        "Year": 1969,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Luis Castillo",
+        "Age": 24,
+        "StolenBases": 62,
+        "Year": 2000,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ed Daily",
+        "Age": 27,
+        "StolenBases": 62,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jack Doyle",
+        "Age": 27,
+        "StolenBases": 62,
+        "Year": 1897,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Chone Figgins",
+        "Age": 27,
+        "StolenBases": 62,
+        "Year": 2005,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jack Glasscock",
+        "Age": 29,
+        "StolenBases": 62,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Chuck Knoblauch",
+        "Age": 28,
+        "StolenBases": 62,
+        "Year": 1997,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Arlie Latham",
+        "Age": 34,
+        "StolenBases": 62,
+        "Year": 1894,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Danny Moeller",
+        "Age": 28,
+        "StolenBases": 62,
+        "Year": 1913,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tim Shinnick",
+        "Age": 22,
+        "StolenBases": 62,
+        "Year": 1890,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jonathan Villar",
+        "Age": 25,
+        "StolenBases": 62,
+        "Year": 2016,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "John Ward+",
+        "Age": 29,
+        "StolenBases": 62,
+        "Year": 1889,
+        "Bats": "L"
+      },
+      {
+        "Rank": "209.",
+        "Player": "Michael Bourn",
+        "Age": 26,
+        "StolenBases": 61,
+        "Year": 2009,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Michael Bourn",
+        "Age": 28,
+        "StolenBases": 61,
+        "Year": 2011,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Max Carey+",
+        "Age": 23,
+        "StolenBases": 61,
+        "Year": 1913,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "George Case",
+        "Age": 27,
+        "StolenBases": 61,
+        "Year": 1943,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Cesar Cedeno",
+        "Age": 26,
+        "StolenBases": 61,
+        "Year": 1977,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ben Chapman",
+        "Age": 22,
+        "StolenBases": 61,
+        "Year": 1931,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ty Cobb+",
+        "Age": 25,
+        "StolenBases": 61,
+        "Year": 1912,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Josh Devore",
+        "Age": 23,
+        "StolenBases": 61,
+        "Year": 1911,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Miguel Dilone",
+        "Age": 25,
+        "StolenBases": 61,
+        "Year": 1980,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "John McGraw+",
+        "Age": 22,
+        "StolenBases": 61,
+        "Year": 1895,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Gene Richards",
+        "Age": 26,
+        "StolenBases": 61,
+        "Year": 1980,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jake Stenzel",
+        "Age": 27,
+        "StolenBases": 61,
+        "Year": 1894,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "George Tebeau",
+        "Age": 27,
+        "StolenBases": 61,
+        "Year": 1889,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Honus Wagner+",
+        "Age": 33,
+        "StolenBases": 61,
+        "Year": 1907,
+        "Bats": "R"
+      },
+      {
+        "Rank": "223.",
+        "Player": "Dave Collins",
+        "Age": 31,
+        "StolenBases": 60,
+        "Year": 1984,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Carl Crawford",
+        "Age": 27,
+        "StolenBases": 60,
+        "Year": 2009,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bill Dahlen",
+        "Age": 22,
+        "StolenBases": 60,
+        "Year": 1892,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ed Daily",
+        "Age": 26,
+        "StolenBases": 60,
+        "Year": 1889,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Shorty Fuller",
+        "Age": 22,
+        "StolenBases": 60,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Dee Gordon",
+        "Age": 29,
+        "StolenBases": 60,
+        "Year": 2017,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Dummy Hoy",
+        "Age": 30,
+        "StolenBases": 60,
+        "Year": 1892,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Hughie Jennings+",
+        "Age": 28,
+        "StolenBases": 60,
+        "Year": 1897,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Arlie Latham",
+        "Age": 26,
+        "StolenBases": 60,
+        "Year": 1886,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Kenny Lofton",
+        "Age": 27,
+        "StolenBases": 60,
+        "Year": 1994,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Herman Long",
+        "Age": 25,
+        "StolenBases": 60,
+        "Year": 1891,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Omar Moreno",
+        "Age": 29,
+        "StolenBases": 60,
+        "Year": 1982,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Joe Morgan+",
+        "Age": 32,
+        "StolenBases": 60,
+        "Year": 1976,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jose Reyes",
+        "Age": 22,
+        "StolenBases": 60,
+        "Year": 2005,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Harold Reynolds",
+        "Age": 26,
+        "StolenBases": 60,
+        "Year": 1987,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jimmy Ryan",
+        "Age": 25,
+        "StolenBases": 60,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Cub Stricker",
+        "Age": 29,
+        "StolenBases": 60,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tony Womack",
+        "Age": 27,
+        "StolenBases": 60,
+        "Year": 1997,
+        "Bats": "L"
+      },
+      {
+        "Rank": "241.",
+        "Player": "Hick Carpenter",
+        "Age": 32,
+        "StolenBases": 59,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Fred Clarke+",
+        "Age": 24,
+        "StolenBases": 59,
+        "Year": 1897,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Carl Crawford",
+        "Age": 22,
+        "StolenBases": 59,
+        "Year": 2004,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Julio Cruz",
+        "Age": 23,
+        "StolenBases": 59,
+        "Year": 1978,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Art Devlin",
+        "Age": 25,
+        "StolenBases": 59,
+        "Year": 1905,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tommy Dowd",
+        "Age": 24,
+        "StolenBases": 59,
+        "Year": 1893,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Hamilton",
+        "Age": 26,
+        "StolenBases": 59,
+        "Year": 2017,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Dummy Hoy",
+        "Age": 29,
+        "StolenBases": 59,
+        "Year": 1891,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Davey Lopes",
+        "Age": 29,
+        "StolenBases": 59,
+        "Year": 1974,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Maloney",
+        "Age": 27,
+        "StolenBases": 59,
+        "Year": 1905,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Otis Nixon",
+        "Age": 38,
+        "StolenBases": 59,
+        "Year": 1997,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "George Pinkney",
+        "Age": 28,
+        "StolenBases": 59,
+        "Year": 1887,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Scott Podsednik",
+        "Age": 29,
+        "StolenBases": 59,
+        "Year": 2005,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Curt Welch",
+        "Age": 24,
+        "StolenBases": 59,
+        "Year": 1886,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Perry Werden",
+        "Age": 28,
+        "StolenBases": 59,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Willie Wilson",
+        "Age": 27,
+        "StolenBases": 59,
+        "Year": 1983,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Willie Wilson",
+        "Age": 31,
+        "StolenBases": 59,
+        "Year": 1987,
+        "Bats": "B"
+      },
+      {
+        "Rank": "258.",
+        "Player": "Oyster Burns",
+        "Age": 22,
+        "StolenBases": 58,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Max Carey+",
+        "Age": 28,
+        "StolenBases": 58,
+        "Year": 1918,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Chuck Carr",
+        "Age": 25,
+        "StolenBases": 58,
+        "Year": 1993,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Cesar Cedeno",
+        "Age": 25,
+        "StolenBases": 58,
+        "Year": 1976,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Eddie Collins+",
+        "Age": 27,
+        "StolenBases": 58,
+        "Year": 1914,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Carl Crawford",
+        "Age": 24,
+        "StolenBases": 58,
+        "Year": 2006,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ed Delahanty+",
+        "Age": 30,
+        "StolenBases": 58,
+        "Year": 1898,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jim Fogarty",
+        "Age": 24,
+        "StolenBases": 58,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Dee Gordon",
+        "Age": 27,
+        "StolenBases": 58,
+        "Year": 2015,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Hamilton",
+        "Age": 25,
+        "StolenBases": 58,
+        "Year": 2016,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Rickey Henderson+",
+        "Age": 32,
+        "StolenBases": 58,
+        "Year": 1991,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ron LeFlore",
+        "Age": 28,
+        "StolenBases": 58,
+        "Year": 1976,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jim Manning",
+        "Age": 27,
+        "StolenBases": 58,
+        "Year": 1889,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Clyde Milan",
+        "Age": 24,
+        "StolenBases": 58,
+        "Year": 1911,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Joe Morgan+",
+        "Age": 28,
+        "StolenBases": 58,
+        "Year": 1972,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Joe Morgan+",
+        "Age": 30,
+        "StolenBases": 58,
+        "Year": 1974,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bill North",
+        "Age": 31,
+        "StolenBases": 58,
+        "Year": 1979,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Juan Pierre",
+        "Age": 28,
+        "StolenBases": 58,
+        "Year": 2006,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Frank Taveras",
+        "Age": 26,
+        "StolenBases": 58,
+        "Year": 1976,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Mookie Wilson",
+        "Age": 26,
+        "StolenBases": 58,
+        "Year": 1982,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tony Womack",
+        "Age": 28,
+        "StolenBases": 58,
+        "Year": 1998,
+        "Bats": "L"
+      },
+      {
+        "Rank": "279.",
+        "Player": "Ed Andrews",
+        "Age": 28,
+        "StolenBases": 57,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Luis Aparicio+",
+        "Age": 30,
+        "StolenBases": 57,
+        "Year": 1964,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Cesar Cedeno",
+        "Age": 23,
+        "StolenBases": 57,
+        "Year": 1974,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Frank Chance+",
+        "Age": 29,
+        "StolenBases": 57,
+        "Year": 1906,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jack Crooks",
+        "Age": 24,
+        "StolenBases": 57,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Julio Cruz",
+        "Age": 28,
+        "StolenBases": 57,
+        "Year": 1983,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jack Glasscock",
+        "Age": 31,
+        "StolenBases": 57,
+        "Year": 1889,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Hamilton+",
+        "Age": 26,
+        "StolenBases": 57,
+        "Year": 1892,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Hamilton",
+        "Age": 24,
+        "StolenBases": 57,
+        "Year": 2015,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Arlie Latham",
+        "Age": 33,
+        "StolenBases": 57,
+        "Year": 1893,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Herman Long",
+        "Age": 26,
+        "StolenBases": 57,
+        "Year": 1892,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tommy McCarthy+",
+        "Age": 25,
+        "StolenBases": 57,
+        "Year": 1889,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Red Murray",
+        "Age": 26,
+        "StolenBases": 57,
+        "Year": 1910,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Hap Myers",
+        "Age": 26,
+        "StolenBases": 57,
+        "Year": 1913,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Darby O'Brien",
+        "Age": 28,
+        "StolenBases": 57,
+        "Year": 1892,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Fred Pfeffer",
+        "Age": 27,
+        "StolenBases": 57,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Juan Pierre",
+        "Age": 27,
+        "StolenBases": 57,
+        "Year": 2005,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Frank Scheibeck",
+        "Age": 25,
+        "StolenBases": 57,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ozzie Smith+",
+        "Age": 25,
+        "StolenBases": 57,
+        "Year": 1980,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ozzie Smith+",
+        "Age": 33,
+        "StolenBases": 57,
+        "Year": 1988,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jake Stenzel",
+        "Age": 29,
+        "StolenBases": 57,
+        "Year": 1896,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Harry Stovey",
+        "Age": 34,
+        "StolenBases": 57,
+        "Year": 1891,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bobby Tolan",
+        "Age": 24,
+        "StolenBases": 57,
+        "Year": 1970,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Honus Wagner+",
+        "Age": 31,
+        "StolenBases": 57,
+        "Year": 1905,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "John Ward+",
+        "Age": 31,
+        "StolenBases": 57,
+        "Year": 1891,
+        "Bats": "L"
+      },
+      {
+        "Rank": "304.",
+        "Player": "Jose Altuve",
+        "Age": 24,
+        "StolenBases": 56,
+        "Year": 2014,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ed Andrews",
+        "Age": 27,
+        "StolenBases": 56,
+        "Year": 1886,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Luis Aparicio+",
+        "Age": 25,
+        "StolenBases": 56,
+        "Year": 1959,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Lou Brock+",
+        "Age": 36,
+        "StolenBases": 56,
+        "Year": 1975,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Lou Brock+",
+        "Age": 37,
+        "StolenBases": 56,
+        "Year": 1976,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jim Burns ",
+        "Age": "56",
+        "StolenBases": "1889",
+        "Year": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Cesar Cedeno",
+        "Age": 22,
+        "StolenBases": 56,
+        "Year": 1973,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Cupid Childs",
+        "Age": 22,
+        "StolenBases": 56,
+        "Year": 1890,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Delino DeShields",
+        "Age": 22,
+        "StolenBases": 56,
+        "Year": 1991,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Patsy Donovan",
+        "Age": 27,
+        "StolenBases": 56,
+        "Year": 1892,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tony Gwynn+",
+        "Age": 27,
+        "StolenBases": 56,
+        "Year": 1987,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Hamilton",
+        "Age": 23,
+        "StolenBases": 56,
+        "Year": 2014,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Rickey Henderson+",
+        "Age": 22,
+        "StolenBases": 56,
+        "Year": 1981,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "King Kelly+",
+        "Age": 30,
+        "StolenBases": 56,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Willie McGee",
+        "Age": 26,
+        "StolenBases": 56,
+        "Year": 1985,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Wally Moses",
+        "Age": 32,
+        "StolenBases": 56,
+        "Year": 1943,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Gary Pettis",
+        "Age": 27,
+        "StolenBases": 56,
+        "Year": 1985,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jose Reyes",
+        "Age": 25,
+        "StolenBases": 56,
+        "Year": 2008,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Gene Richards",
+        "Age": 23,
+        "StolenBases": 56,
+        "Year": 1977,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Yank Robinson",
+        "Age": 28,
+        "StolenBases": 56,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Deion Sanders",
+        "Age": 29,
+        "StolenBases": 56,
+        "Year": 1997,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Steve Sax",
+        "Age": 23,
+        "StolenBases": 56,
+        "Year": 1983,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Shindle",
+        "Age": 28,
+        "StolenBases": 56,
+        "Year": 1889,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ichiro Suzuki",
+        "Age": 27,
+        "StolenBases": 56,
+        "Year": 2001,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Mike Tiernan",
+        "Age": 23,
+        "StolenBases": 56,
+        "Year": 1890,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Quilvio Veras",
+        "Age": 24,
+        "StolenBases": 56,
+        "Year": 1995,
+        "Bats": "B"
+      },
+      {
+        "Rank": "330.",
+        "Player": "Roberto Alomar+",
+        "Age": 25,
+        "StolenBases": 55,
+        "Year": 1993,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bert Campaneris",
+        "Age": 25,
+        "StolenBases": 55,
+        "Year": 1967,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Cesar Cedeno",
+        "Age": 21,
+        "StolenBases": 55,
+        "Year": 1972,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Roger Cedeno",
+        "Age": 26,
+        "StolenBases": 55,
+        "Year": 2001,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ty Cobb+",
+        "Age": 30,
+        "StolenBases": 55,
+        "Year": 1917,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Eddie Collins+",
+        "Age": 26,
+        "StolenBases": 55,
+        "Year": 1913,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Carl Crawford",
+        "Age": 21,
+        "StolenBases": 55,
+        "Year": 2003,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Delino DeShields",
+        "Age": 28,
+        "StolenBases": 55,
+        "Year": 1997,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tom Goodwin",
+        "Age": 31,
+        "StolenBases": 55,
+        "Year": 2000,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Emmet Heidrick",
+        "Age": 22,
+        "StolenBases": 55,
+        "Year": 1899,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Benny Kauff",
+        "Age": 25,
+        "StolenBases": 55,
+        "Year": 1915,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jimmy Knowles",
+        "Age": 33,
+        "StolenBases": 55,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Sherry Magee",
+        "Age": 21,
+        "StolenBases": 55,
+        "Year": 1906,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bid McPhee+",
+        "Age": 30,
+        "StolenBases": 55,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jim McTamany",
+        "Age": 24,
+        "StolenBases": 55,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Darby O'Brien",
+        "Age": 24,
+        "StolenBases": 55,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Luis Polonia",
+        "Age": 29,
+        "StolenBases": 55,
+        "Year": 1993,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Paul Radford",
+        "Age": 29,
+        "StolenBases": 55,
+        "Year": 1891,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Snuffy Stirnweiss",
+        "Age": 25,
+        "StolenBases": 55,
+        "Year": 1944,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "George Tebeau",
+        "Age": 28,
+        "StolenBases": 55,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "George Van Haltren",
+        "Age": 26,
+        "StolenBases": 55,
+        "Year": 1892,
+        "Bats": "L"
+      },
+      {
+        "Rank": "351.",
+        "Player": "Bob Bescher",
+        "Age": 25,
+        "StolenBases": 54,
+        "Year": 1909,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Eddie Burke",
+        "Age": 26,
+        "StolenBases": 54,
+        "Year": 1893,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bert Campaneris",
+        "Age": 34,
+        "StolenBases": 54,
+        "Year": 1976,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Art Devlin",
+        "Age": 26,
+        "StolenBases": 54,
+        "Year": 1906,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Damaso Garcia",
+        "Age": 25,
+        "StolenBases": 54,
+        "Year": 1982,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jack Glasscock",
+        "Age": 32,
+        "StolenBases": 54,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Hamilton+",
+        "Age": 32,
+        "StolenBases": 54,
+        "Year": 1898,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ned Hanlon+",
+        "Age": 33,
+        "StolenBases": 54,
+        "Year": 1891,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tommy Harper",
+        "Age": 32,
+        "StolenBases": 54,
+        "Year": 1973,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Joe Kelley+",
+        "Age": 23,
+        "StolenBases": 54,
+        "Year": 1895,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Pat Listach",
+        "Age": 24,
+        "StolenBases": 54,
+        "Year": 1992,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Kenny Lofton",
+        "Age": 28,
+        "StolenBases": 54,
+        "Year": 1995,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Kenny Lofton",
+        "Age": 31,
+        "StolenBases": 54,
+        "Year": 1998,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bid McPhee+",
+        "Age": 28,
+        "StolenBases": 54,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Otis Nixon",
+        "Age": 37,
+        "StolenBases": 54,
+        "Year": 1996,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bill North",
+        "Age": 26,
+        "StolenBases": 54,
+        "Year": 1974,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ryne Sandberg+",
+        "Age": 25,
+        "StolenBases": 54,
+        "Year": 1985,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Cub Stricker",
+        "Age": 32,
+        "StolenBases": 54,
+        "Year": 1891,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Mookie Wilson",
+        "Age": 27,
+        "StolenBases": 54,
+        "Year": 1983,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Eric Young",
+        "Age": 33,
+        "StolenBases": 54,
+        "Year": 2000,
+        "Bats": "R"
+      },
+      {
+        "Rank": "371.",
+        "Player": "Roberto Alomar+",
+        "Age": 23,
+        "StolenBases": 53,
+        "Year": 1991,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Brady Anderson",
+        "Age": 28,
+        "StolenBases": 53,
+        "Year": 1992,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Luis Aparicio+",
+        "Age": 27,
+        "StolenBases": 53,
+        "Year": 1961,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Lou Brock+",
+        "Age": 30,
+        "StolenBases": 53,
+        "Year": 1969,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Eddie Burke",
+        "Age": 29,
+        "StolenBases": 53,
+        "Year": 1896,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Donie Bush",
+        "Age": 21,
+        "StolenBases": 53,
+        "Year": 1909,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ty Cobb+",
+        "Age": 20,
+        "StolenBases": 53,
+        "Year": 1907,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Eddie Collins+",
+        "Age": 30,
+        "StolenBases": 53,
+        "Year": 1917,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Buck Ewing+",
+        "Age": 28,
+        "StolenBases": 53,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Marquis Grissom",
+        "Age": 26,
+        "StolenBases": 53,
+        "Year": 1993,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ned Hanlon+",
+        "Age": 31,
+        "StolenBases": 53,
+        "Year": 1889,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Hatcher",
+        "Age": 26,
+        "StolenBases": 53,
+        "Year": 1987,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Rickey Henderson+",
+        "Age": 34,
+        "StolenBases": 53,
+        "Year": 1993,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Hughie Jennings+",
+        "Age": 26,
+        "StolenBases": 53,
+        "Year": 1895,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "King Kelly+",
+        "Age": 28,
+        "StolenBases": 53,
+        "Year": 1886,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tommy McCarthy+",
+        "Age": 28,
+        "StolenBases": 53,
+        "Year": 1892,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Omar Moreno",
+        "Age": 24,
+        "StolenBases": 53,
+        "Year": 1977,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bill North",
+        "Age": 25,
+        "StolenBases": 53,
+        "Year": 1973,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Freddie Patek",
+        "Age": 32,
+        "StolenBases": 53,
+        "Year": 1977,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Juan Samuel",
+        "Age": 24,
+        "StolenBases": 53,
+        "Year": 1985,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jake Stenzel",
+        "Age": 28,
+        "StolenBases": 53,
+        "Year": 1895,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ed Swartwood",
+        "Age": 31,
+        "StolenBases": 53,
+        "Year": 1890,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Mike Tiernan",
+        "Age": 24,
+        "StolenBases": 53,
+        "Year": 1891,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Honus Wagner+",
+        "Age": 30,
+        "StolenBases": 53,
+        "Year": 1904,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Honus Wagner+",
+        "Age": 32,
+        "StolenBases": 53,
+        "Year": 1906,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Honus Wagner+",
+        "Age": 34,
+        "StolenBases": 53,
+        "Year": 1908,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Maury Wills",
+        "Age": 31,
+        "StolenBases": 53,
+        "Year": 1964,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Eric Young",
+        "Age": 29,
+        "StolenBases": 53,
+        "Year": 1996,
+        "Bats": "R"
+      },
+      {
+        "Rank": "399.",
+        "Player": "Don Baylor",
+        "Age": 27,
+        "StolenBases": 52,
+        "Year": 1976,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Barry Bonds",
+        "Age": 25,
+        "StolenBases": 52,
+        "Year": 1990,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Michael Bourn",
+        "Age": 27,
+        "StolenBases": 52,
+        "Year": 2010,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Lou Brock+",
+        "Age": 28,
+        "StolenBases": 52,
+        "Year": 1967,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Brett Butler",
+        "Age": 27,
+        "StolenBases": 52,
+        "Year": 1984,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bert Campaneris",
+        "Age": 24,
+        "StolenBases": 52,
+        "Year": 1966,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bert Campaneris",
+        "Age": 30,
+        "StolenBases": 52,
+        "Year": 1972,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Max Carey+",
+        "Age": 30,
+        "StolenBases": 52,
+        "Year": 1920,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ray Chapman",
+        "Age": 26,
+        "StolenBases": 52,
+        "Year": 1917,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Hugh Duffy+",
+        "Age": 22,
+        "StolenBases": 52,
+        "Year": 1889,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jacoby Ellsbury",
+        "Age": 29,
+        "StolenBases": 52,
+        "Year": 2013,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Chone Figgins",
+        "Age": 28,
+        "StolenBases": 52,
+        "Year": 2006,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Frank Isbell",
+        "Age": 25,
+        "StolenBases": 52,
+        "Year": 1901,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Dick Johnston",
+        "Age": 24,
+        "StolenBases": 52,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Arlie Latham",
+        "Age": 30,
+        "StolenBases": 52,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ed McKean",
+        "Age": 24,
+        "StolenBases": 52,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Sam Mertes",
+        "Age": 32,
+        "StolenBases": 52,
+        "Year": 1905,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jerry Mumphrey",
+        "Age": 27,
+        "StolenBases": 52,
+        "Year": 1980,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Amos Otis",
+        "Age": 24,
+        "StolenBases": 52,
+        "Year": 1971,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Gary Redus",
+        "Age": 30,
+        "StolenBases": 52,
+        "Year": 1987,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Alex Sanchez",
+        "Age": 26,
+        "StolenBases": 52,
+        "Year": 2003,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Shindle",
+        "Age": 27,
+        "StolenBases": 52,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Lonnie Smith",
+        "Age": 29,
+        "StolenBases": 52,
+        "Year": 1985,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tris Speaker+",
+        "Age": 24,
+        "StolenBases": 52,
+        "Year": 1912,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Mike Tiernan",
+        "Age": 21,
+        "StolenBases": 52,
+        "Year": 1888,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bobby Wheelock",
+        "Age": 26,
+        "StolenBases": 52,
+        "Year": 1891,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bump Wills",
+        "Age": 25,
+        "StolenBases": 52,
+        "Year": 1978,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Maury Wills",
+        "Age": 35,
+        "StolenBases": 52,
+        "Year": 1968,
+        "Bats": "B"
+      },
+      {
+        "Rank": "427.",
+        "Player": "Luis Aparicio+",
+        "Age": 26,
+        "StolenBases": 51,
+        "Year": 1960,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Lou Brock+",
+        "Age": 31,
+        "StolenBases": 51,
+        "Year": 1970,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Don Buford",
+        "Age": 29,
+        "StolenBases": 51,
+        "Year": 1966,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Brett Butler",
+        "Age": 33,
+        "StolenBases": 51,
+        "Year": 1990,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bert Campaneris",
+        "Age": 23,
+        "StolenBases": 51,
+        "Year": 1965,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Max Carey+",
+        "Age": 32,
+        "StolenBases": 51,
+        "Year": 1922,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Max Carey+",
+        "Age": 33,
+        "StolenBases": 51,
+        "Year": 1923,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "George Case",
+        "Age": 23,
+        "StolenBases": 51,
+        "Year": 1939,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ty Cobb+",
+        "Age": 26,
+        "StolenBases": 51,
+        "Year": 1913,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bill Dahlen",
+        "Age": 26,
+        "StolenBases": 51,
+        "Year": 1896,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tom Daly",
+        "Age": 28,
+        "StolenBases": 51,
+        "Year": 1894,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Hugh Duffy+",
+        "Age": 25,
+        "StolenBases": 51,
+        "Year": 1892,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "King Kelly+",
+        "Age": 32,
+        "StolenBases": 51,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Barry Larkin+",
+        "Age": 31,
+        "StolenBases": 51,
+        "Year": 1995,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Fritz Maisel",
+        "Age": 25,
+        "StolenBases": 51,
+        "Year": 1915,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jimmy McAleer",
+        "Age": 26,
+        "StolenBases": 51,
+        "Year": 1891,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Dave Nelson",
+        "Age": 28,
+        "StolenBases": 51,
+        "Year": 1972,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Dode Paskert",
+        "Age": 28,
+        "StolenBases": 51,
+        "Year": 1910,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Freddie Patek",
+        "Age": 31,
+        "StolenBases": 51,
+        "Year": 1976,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "George Pinkney",
+        "Age": 29,
+        "StolenBases": 51,
+        "Year": 1888,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Luis Polonia",
+        "Age": 28,
+        "StolenBases": 51,
+        "Year": 1992,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tim Raines+",
+        "Age": 31,
+        "StolenBases": 51,
+        "Year": 1991,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Hanley Ramirez",
+        "Age": 22,
+        "StolenBases": 51,
+        "Year": 2006,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Hanley Ramirez",
+        "Age": 23,
+        "StolenBases": 51,
+        "Year": 2007,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Yank Robinson",
+        "Age": 26,
+        "StolenBases": 51,
+        "Year": 1886,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Braggo Roth",
+        "Age": 24,
+        "StolenBases": 51,
+        "Year": 1917,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Billy Shindle",
+        "Age": 29,
+        "StolenBases": 51,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "George Sisler+",
+        "Age": 29,
+        "StolenBases": 51,
+        "Year": 1922,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Fred Snodgrass",
+        "Age": 23,
+        "StolenBases": 51,
+        "Year": 1911,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Shannon Stewart",
+        "Age": 24,
+        "StolenBases": 51,
+        "Year": 1998,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Eric Young",
+        "Age": 32,
+        "StolenBases": 51,
+        "Year": 1999,
+        "Bats": "R"
+      },
+      {
+        "Rank": "458.",
+        "Player": "Craig Biggio+",
+        "Age": 32,
+        "StolenBases": 50,
+        "Year": 1998,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Eric Byrnes",
+        "Age": 31,
+        "StolenBases": 50,
+        "Year": 2007,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "John Cangelosi",
+        "Age": 23,
+        "StolenBases": 50,
+        "Year": 1986,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ed Cartwright",
+        "Age": 35,
+        "StolenBases": 50,
+        "Year": 1895,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Luis Castillo",
+        "Age": 23,
+        "StolenBases": 50,
+        "Year": 1999,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Cesar Cedeno",
+        "Age": 24,
+        "StolenBases": 50,
+        "Year": 1975,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Vince Coleman",
+        "Age": 32,
+        "StolenBases": 50,
+        "Year": 1994,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Carl Crawford",
+        "Age": 25,
+        "StolenBases": 50,
+        "Year": 2007,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jack Crooks",
+        "Age": 25,
+        "StolenBases": 50,
+        "Year": 1891,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Eric Davis",
+        "Age": 25,
+        "StolenBases": 50,
+        "Year": 1987,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Rajai Davis",
+        "Age": 29,
+        "StolenBases": 50,
+        "Year": 2010,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Miguel Dilone",
+        "Age": 23,
+        "StolenBases": 50,
+        "Year": 1978,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jacoby Ellsbury",
+        "Age": 24,
+        "StolenBases": 50,
+        "Year": 2008,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tom Goodwin",
+        "Age": 26,
+        "StolenBases": 50,
+        "Year": 1995,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tom Goodwin",
+        "Age": 28,
+        "StolenBases": 50,
+        "Year": 1997,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ned Hanlon+",
+        "Age": 28,
+        "StolenBases": 50,
+        "Year": 1886,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bug Holliday",
+        "Age": 23,
+        "StolenBases": 50,
+        "Year": 1890,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ducky Holmes",
+        "Age": 30,
+        "StolenBases": 50,
+        "Year": 1899,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Dummy Hoy",
+        "Age": 33,
+        "StolenBases": 50,
+        "Year": 1895,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Dummy Hoy",
+        "Age": 34,
+        "StolenBases": 50,
+        "Year": 1896,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Lance Johnson",
+        "Age": 32,
+        "StolenBases": 50,
+        "Year": 1996,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Larry Lintz",
+        "Age": 24,
+        "StolenBases": 50,
+        "Year": 1974,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Otis Nixon",
+        "Age": 31,
+        "StolenBases": 50,
+        "Year": 1990,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Otis Nixon",
+        "Age": 36,
+        "StolenBases": 50,
+        "Year": 1995,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Gary Pettis",
+        "Age": 28,
+        "StolenBases": 50,
+        "Year": 1986,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tim Raines+",
+        "Age": 27,
+        "StolenBases": 50,
+        "Year": 1987,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "John Reilly",
+        "Age": 28,
+        "StolenBases": 50,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Brian Roberts",
+        "Age": 29,
+        "StolenBases": 50,
+        "Year": 2007,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jimmy Ryan",
+        "Age": 24,
+        "StolenBases": 50,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Lonnie Smith",
+        "Age": 28,
+        "StolenBases": 50,
+        "Year": 1984,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "George Van Haltren",
+        "Age": 31,
+        "StolenBases": 50,
+        "Year": 1897,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Curt Welch",
+        "Age": 29,
+        "StolenBases": 50,
+        "Year": 1891,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Maury Wills",
+        "Age": 27,
+        "StolenBases": 50,
+        "Year": 1960,
+        "Bats": "B"
+      },
+      {
+        "Rank": "491.",
+        "Player": "Roberto Alomar+",
+        "Age": 24,
+        "StolenBases": 49,
+        "Year": 1992,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Steve Brodie",
+        "Age": 24,
+        "StolenBases": 49,
+        "Year": 1893,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Donie Bush",
+        "Age": 22,
+        "StolenBases": 49,
+        "Year": 1910,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Rod Carew+",
+        "Age": 30,
+        "StolenBases": 49,
+        "Year": 1976,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Max Carey+",
+        "Age": 34,
+        "StolenBases": 49,
+        "Year": 1924,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Bob Caruthers",
+        "Age": 23,
+        "StolenBases": 49,
+        "Year": 1887,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "George Case",
+        "Age": 28,
+        "StolenBases": 49,
+        "Year": 1944,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Fred Clarke+",
+        "Age": 26,
+        "StolenBases": 49,
+        "Year": 1899,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Coco Crisp",
+        "Age": 31,
+        "StolenBases": 49,
+        "Year": 2011,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Julio Cruz",
+        "Age": 24,
+        "StolenBases": 49,
+        "Year": 1979,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jumbo Davis",
+        "Age": 25,
+        "StolenBases": 49,
+        "Year": 1887,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Gene DeMontreville",
+        "Age": 25,
+        "StolenBases": 49,
+        "Year": 1898,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tommy Dowd",
+        "Age": 23,
+        "StolenBases": 49,
+        "Year": 1892,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Johnny Evers+",
+        "Age": 24,
+        "StolenBases": 49,
+        "Year": 1906,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Frankie Frisch+",
+        "Age": 23,
+        "StolenBases": 49,
+        "Year": 1921,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Brett Gardner",
+        "Age": 27,
+        "StolenBases": 49,
+        "Year": 2011,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Mike Griffin",
+        "Age": 27,
+        "StolenBases": 49,
+        "Year": 1892,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Sonny Jackson",
+        "Age": 21,
+        "StolenBases": 49,
+        "Year": 1966,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "John Kerins",
+        "Age": 28,
+        "StolenBases": 49,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Herman Long",
+        "Age": 24,
+        "StolenBases": 49,
+        "Year": 1890,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Sherry Magee",
+        "Age": 25,
+        "StolenBases": 49,
+        "Year": 1910,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Jack McGeachey",
+        "Age": 24,
+        "StolenBases": 49,
+        "Year": 1888,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Fred Merkle",
+        "Age": 22,
+        "StolenBases": 49,
+        "Year": 1911,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Joe Morgan+",
+        "Age": 25,
+        "StolenBases": 49,
+        "Year": 1969,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Joe Morgan+",
+        "Age": 33,
+        "StolenBases": 49,
+        "Year": 1977,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Darby O'Brien",
+        "Age": 23,
+        "StolenBases": 49,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Freddie Patek",
+        "Age": 26,
+        "StolenBases": 49,
+        "Year": 1971,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Tim Raines+",
+        "Age": 30,
+        "StolenBases": 49,
+        "Year": 1990,
+        "Bats": "B"
+      },
+      {
+        "Rank": " ",
+        "Player": "Ben Revere",
+        "Age": 26,
+        "StolenBases": 49,
+        "Year": 2014,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Dave Roberts",
+        "Age": 34,
+        "StolenBases": 49,
+        "Year": 2006,
+        "Bats": "L"
+      },
+      {
+        "Rank": " ",
+        "Player": "Steve Sax",
+        "Age": 22,
+        "StolenBases": 49,
+        "Year": 1982,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Kip Selbach",
+        "Age": 24,
+        "StolenBases": 49,
+        "Year": 1896,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Mike Trout",
+        "Age": 20,
+        "StolenBases": 49,
+        "Year": 2012,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Honus Wagner+",
+        "Age": 27,
+        "StolenBases": 49,
+        "Year": 1901,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Joe Werrick",
+        "Age": 25,
+        "StolenBases": 49,
+        "Year": 1887,
+        "Bats": "R"
+      },
+      {
+        "Rank": " ",
+        "Player": "Rollie Zeider",
+        "Age": 26,
+        "StolenBases": 49,
+        "Year": 1910,
+        "Bats": "R"
+      }
     ]
   }
 }
