@@ -12476,6 +12476,4184 @@
         "Year": 1910,
         "Bats": "R"
       }
+    ],
+    "homeRuns": [
+      {
+        "Rank": "1.",
+        "Name": "Barry Bond",
+        "Age": 36,
+        "THING": 73,
+        "Year": 2001,
+        "Throws": "L"
+      },
+      {
+        "Rank": "2.",
+        "Name": "Mark McGwir",
+        "Age": 34,
+        "THING": 70,
+        "Year": 1998,
+        "Throws": "R"
+      },
+      {
+        "Rank": "3.",
+        "Name": "Sammy Sos",
+        "Age": 29,
+        "THING": 66,
+        "Year": 1998,
+        "Throws": "R"
+      },
+      {
+        "Rank": "4.",
+        "Name": "Mark McGwir",
+        "Age": 35,
+        "THING": 65,
+        "Year": 1999,
+        "Throws": "R"
+      },
+      {
+        "Rank": "5.",
+        "Name": "Sammy Sos",
+        "Age": 32,
+        "THING": 64,
+        "Year": 2001,
+        "Throws": "R"
+      },
+      {
+        "Rank": "6.",
+        "Name": "Sammy Sos",
+        "Age": 30,
+        "THING": 63,
+        "Year": 1999,
+        "Throws": "R"
+      },
+      {
+        "Rank": "7.",
+        "Name": "Roger Mari",
+        "Age": 26,
+        "THING": 61,
+        "Year": 1961,
+        "Throws": "L"
+      },
+      {
+        "Rank": "8.",
+        "Name": "Babe Ruth",
+        "Age": 32,
+        "THING": 60,
+        "Year": 1927,
+        "Throws": "L"
+      },
+      {
+        "Rank": "9.",
+        "Name": "Babe Ruth",
+        "Age": 26,
+        "THING": 59,
+        "Year": 1921,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Giancarlo Stanto",
+        "Age": 27,
+        "THING": 59,
+        "Year": 2017,
+        "Throws": "R"
+      },
+      {
+        "Rank": "11.",
+        "Name": "Jimmie Foxx",
+        "Age": 24,
+        "THING": 58,
+        "Year": 1932,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hank Greenberg",
+        "Age": 27,
+        "THING": 58,
+        "Year": 1938,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ryan Howar",
+        "Age": 26,
+        "THING": 58,
+        "Year": 2006,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mark McGwir",
+        "Age": 33,
+        "THING": 58,
+        "Year": 1997,
+        "Throws": "R"
+      },
+      {
+        "Rank": "15.",
+        "Name": "Luis Gonzale",
+        "Age": 33,
+        "THING": 57,
+        "Year": 2001,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Alex Rodrigue",
+        "Age": 26,
+        "THING": 57,
+        "Year": 2002,
+        "Throws": "R"
+      },
+      {
+        "Rank": "17.",
+        "Name": "Ken Griffey",
+        "Age": 27,
+        "THING": 56,
+        "Year": 1997,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ken Griffey",
+        "Age": 28,
+        "THING": 56,
+        "Year": 1998,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hack Wilson",
+        "Age": 30,
+        "THING": 56,
+        "Year": 1930,
+        "Throws": "R"
+      },
+      {
+        "Rank": "20.",
+        "Name": "Jose Bautist",
+        "Age": 29,
+        "THING": 54,
+        "Year": 2010,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ralph Kiner",
+        "Age": 26,
+        "THING": 54,
+        "Year": 1949,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mickey Mantle",
+        "Age": 29,
+        "THING": 54,
+        "Year": 1961,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "David Orti",
+        "Age": 30,
+        "THING": 54,
+        "Year": 2006,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Alex Rodrigue",
+        "Age": 31,
+        "THING": 54,
+        "Year": 2007,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Babe Ruth",
+        "Age": 25,
+        "THING": 54,
+        "Year": 1920,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Babe Ruth",
+        "Age": 33,
+        "THING": 54,
+        "Year": 1928,
+        "Throws": "L"
+      },
+      {
+        "Rank": "27.",
+        "Name": "Chris Davi",
+        "Age": 27,
+        "THING": 53,
+        "Year": 2013,
+        "Throws": "L"
+      },
+      {
+        "Rank": "28.",
+        "Name": "George Foste",
+        "Age": 28,
+        "THING": 52,
+        "Year": 1977,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Aaron Judg",
+        "Age": 25,
+        "THING": 52,
+        "Year": 2017,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mickey Mantle",
+        "Age": 24,
+        "THING": 52,
+        "Year": 1956,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie Mays",
+        "Age": 34,
+        "THING": 52,
+        "Year": 1965,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mark McGwir",
+        "Age": 32,
+        "THING": 52,
+        "Year": 1996,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Alex Rodrigue",
+        "Age": 25,
+        "THING": 52,
+        "Year": 2001,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Thome",
+        "Age": 31,
+        "THING": 52,
+        "Year": 2002,
+        "Throws": "L"
+      },
+      {
+        "Rank": "35.",
+        "Name": "Cecil Fielde",
+        "Age": 26,
+        "THING": 51,
+        "Year": 1990,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Andruw Jone",
+        "Age": 28,
+        "THING": 51,
+        "Year": 2005,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ralph Kiner",
+        "Age": 24,
+        "THING": 51,
+        "Year": 1947,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie Mays",
+        "Age": 24,
+        "THING": 51,
+        "Year": 1955,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Johnny Mize",
+        "Age": 34,
+        "THING": 51,
+        "Year": 1947,
+        "Throws": "L"
+      },
+      {
+        "Rank": "40.",
+        "Name": "Brady Anderso",
+        "Age": 32,
+        "THING": 50,
+        "Year": 1996,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Albert Bell",
+        "Age": 28,
+        "THING": 50,
+        "Year": 1995,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Prince Fielde",
+        "Age": 23,
+        "THING": 50,
+        "Year": 2007,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jimmie Foxx",
+        "Age": 30,
+        "THING": 50,
+        "Year": 1938,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Sammy Sos",
+        "Age": 31,
+        "THING": 50,
+        "Year": 2000,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Greg Vaugh",
+        "Age": 32,
+        "THING": 50,
+        "Year": 1998,
+        "Throws": "R"
+      },
+      {
+        "Rank": "46.",
+        "Name": "Albert Bell",
+        "Age": 31,
+        "THING": 49,
+        "Year": 1998,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Barry Bond",
+        "Age": 35,
+        "THING": 49,
+        "Year": 2000,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Andre Dawson",
+        "Age": 32,
+        "THING": 49,
+        "Year": 1987,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Lou Gehrig",
+        "Age": 31,
+        "THING": 49,
+        "Year": 1934,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Lou Gehrig",
+        "Age": 33,
+        "THING": 49,
+        "Year": 1936,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Shawn Gree",
+        "Age": 28,
+        "THING": 49,
+        "Year": 2001,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ken Griffey",
+        "Age": 26,
+        "THING": 49,
+        "Year": 1996,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Todd Helto",
+        "Age": 27,
+        "THING": 49,
+        "Year": 2001,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Harmon Killebrew",
+        "Age": 28,
+        "THING": 49,
+        "Year": 1964,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Harmon Killebrew",
+        "Age": 33,
+        "THING": 49,
+        "Year": 1969,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ted Kluszewsk",
+        "Age": 29,
+        "THING": 49,
+        "Year": 1954,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie Mays",
+        "Age": 31,
+        "THING": 49,
+        "Year": 1962,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mark McGwir",
+        "Age": 23,
+        "THING": 49,
+        "Year": 1987,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Albert Pujol",
+        "Age": 26,
+        "THING": 49,
+        "Year": 2006,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Frank Robinson",
+        "Age": 30,
+        "THING": 49,
+        "Year": 1966,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Babe Ruth",
+        "Age": 35,
+        "THING": 49,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Sammy Sos",
+        "Age": 33,
+        "THING": 49,
+        "Year": 2002,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Thome",
+        "Age": 30,
+        "THING": 49,
+        "Year": 2001,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Larry Walke",
+        "Age": 30,
+        "THING": 49,
+        "Year": 1997,
+        "Throws": "L"
+      },
+      {
+        "Rank": "65.",
+        "Name": "Albert Bell",
+        "Age": 29,
+        "THING": 48,
+        "Year": 1996,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Adrian Beltr",
+        "Age": 25,
+        "THING": 48,
+        "Year": 2004,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jimmie Foxx",
+        "Age": 25,
+        "THING": 48,
+        "Year": 1933,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ken Griffey",
+        "Age": 29,
+        "THING": 48,
+        "Year": 1999,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Frank Howar",
+        "Age": 32,
+        "THING": 48,
+        "Year": 1969,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ryan Howar",
+        "Age": 28,
+        "THING": 48,
+        "Year": 2008,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Harmon Killebrew",
+        "Age": 26,
+        "THING": 48,
+        "Year": 1962,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dave Kingma",
+        "Age": 30,
+        "THING": 48,
+        "Year": 1979,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Alex Rodrigue",
+        "Age": 29,
+        "THING": 48,
+        "Year": 2005,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Schmidt",
+        "Age": 30,
+        "THING": 48,
+        "Year": 1980,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie Stargell",
+        "Age": 31,
+        "THING": 48,
+        "Year": 1971,
+        "Throws": "L"
+      },
+      {
+        "Rank": "76.",
+        "Name": "Hank Aaron",
+        "Age": 37,
+        "THING": 47,
+        "Year": 1971,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jeff Bagwell",
+        "Age": 32,
+        "THING": 47,
+        "Year": 2000,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ernie Banks",
+        "Age": 27,
+        "THING": 47,
+        "Year": 1958,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "George Bel",
+        "Age": 27,
+        "THING": 47,
+        "Year": 1987,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Chris Davi",
+        "Age": 29,
+        "THING": 47,
+        "Year": 2015,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Andres Galarrag",
+        "Age": 35,
+        "THING": 47,
+        "Year": 1996,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Lou Gehrig",
+        "Age": 24,
+        "THING": 47,
+        "Year": 1927,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Troy Glau",
+        "Age": 23,
+        "THING": 47,
+        "Year": 2000,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Juan Gonzale",
+        "Age": 26,
+        "THING": 47,
+        "Year": 1996,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ryan Howar",
+        "Age": 27,
+        "THING": 47,
+        "Year": 2007,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Reggie Jackson",
+        "Age": 23,
+        "THING": 47,
+        "Year": 1969,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ralph Kiner",
+        "Age": 27,
+        "THING": 47,
+        "Year": 1950,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ted Kluszewsk",
+        "Age": 30,
+        "THING": 47,
+        "Year": 1955,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Eddie Mathews",
+        "Age": 21,
+        "THING": 47,
+        "Year": 1953,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie Mays",
+        "Age": 33,
+        "THING": 47,
+        "Year": 1964,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Kevin Mitchel",
+        "Age": 27,
+        "THING": 47,
+        "Year": 1989,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "David Orti",
+        "Age": 29,
+        "THING": 47,
+        "Year": 2005,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rafael Palmeir",
+        "Age": 34,
+        "THING": 47,
+        "Year": 1999,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rafael Palmeir",
+        "Age": 36,
+        "THING": 47,
+        "Year": 2001,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Albert Pujol",
+        "Age": 29,
+        "THING": 47,
+        "Year": 2009,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Alex Rodrigue",
+        "Age": 27,
+        "THING": 47,
+        "Year": 2003,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Babe Ruth",
+        "Age": 31,
+        "THING": 47,
+        "Year": 1926,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Thome",
+        "Age": 32,
+        "THING": 47,
+        "Year": 2003,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mark Trumb",
+        "Age": 30,
+        "THING": 47,
+        "Year": 2016,
+        "Throws": "R"
+      },
+      {
+        "Rank": "100.",
+        "Name": "Barry Bond",
+        "Age": 28,
+        "THING": 46,
+        "Year": 1993,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Barry Bond",
+        "Age": 37,
+        "THING": 46,
+        "Year": 2002,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jose Cansec",
+        "Age": 33,
+        "THING": 46,
+        "Year": 1998,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Vinny Castill",
+        "Age": 30,
+        "THING": 46,
+        "Year": 1998,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Orlando Cepeda",
+        "Age": 23,
+        "THING": 46,
+        "Year": 1961,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Joe DiMaggio",
+        "Age": 22,
+        "THING": 46,
+        "Year": 1937,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Adam Dun",
+        "Age": 24,
+        "THING": 46,
+        "Year": 2004,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Prince Fielde",
+        "Age": 25,
+        "THING": 46,
+        "Year": 2009,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Lou Gehrig",
+        "Age": 28,
+        "THING": 46,
+        "Year": 1931,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Gentil",
+        "Age": 27,
+        "THING": 46,
+        "Year": 1961,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Juan Gonzale",
+        "Age": 23,
+        "THING": 46,
+        "Year": 1993,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Harmon Killebrew",
+        "Age": 25,
+        "THING": 46,
+        "Year": 1961,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Derrek Le",
+        "Age": 29,
+        "THING": 46,
+        "Year": 2005,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Eddie Mathews",
+        "Age": 27,
+        "THING": 46,
+        "Year": 1959,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carlos Pen",
+        "Age": 29,
+        "THING": 46,
+        "Year": 2007,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Albert Pujol",
+        "Age": 24,
+        "THING": 46,
+        "Year": 2004,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Rice",
+        "Age": 25,
+        "THING": 46,
+        "Year": 1978,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Babe Ruth",
+        "Age": 29,
+        "THING": 46,
+        "Year": 1924,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Babe Ruth",
+        "Age": 34,
+        "THING": 46,
+        "Year": 1929,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Babe Ruth",
+        "Age": 36,
+        "THING": 46,
+        "Year": 1931,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Alfonso Sorian",
+        "Age": 30,
+        "THING": 46,
+        "Year": 2006,
+        "Throws": "R"
+      },
+      {
+        "Rank": "121.",
+        "Name": "Hank Aaron",
+        "Age": 28,
+        "THING": 45,
+        "Year": 1962,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ernie Banks",
+        "Age": 28,
+        "THING": 45,
+        "Year": 1959,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Johnny Bench",
+        "Age": 22,
+        "THING": 45,
+        "Year": 1970,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Lance Berkma",
+        "Age": 30,
+        "THING": 45,
+        "Year": 2006,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Barry Bond",
+        "Age": 38,
+        "THING": 45,
+        "Year": 2003,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Barry Bond",
+        "Age": 39,
+        "THING": 45,
+        "Year": 2004,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rocky Colavit",
+        "Age": 27,
+        "THING": 45,
+        "Year": 1961,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Juan Gonzale",
+        "Age": 28,
+        "THING": 45,
+        "Year": 1998,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ken Griffey",
+        "Age": 23,
+        "THING": 45,
+        "Year": 1993,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ryan Howar",
+        "Age": 29,
+        "THING": 45,
+        "Year": 2009,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Chipper Jones",
+        "Age": 27,
+        "THING": 45,
+        "Year": 1999,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Harmon Killebrew",
+        "Age": 27,
+        "THING": 45,
+        "Year": 1963,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "J.D. Martine",
+        "Age": 29,
+        "THING": 45,
+        "Year": 2017,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie McCovey",
+        "Age": 31,
+        "THING": 45,
+        "Year": 1969,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Manny Ramire",
+        "Age": 26,
+        "THING": 45,
+        "Year": 1998,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Manny Ramire",
+        "Age": 33,
+        "THING": 45,
+        "Year": 2005,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Schmidt",
+        "Age": 29,
+        "THING": 45,
+        "Year": 1979,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Richie Sexso",
+        "Age": 26,
+        "THING": 45,
+        "Year": 2001,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Richie Sexso",
+        "Age": 28,
+        "THING": 45,
+        "Year": 2003,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Gorman Thoma",
+        "Age": 28,
+        "THING": 45,
+        "Year": 1979,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Greg Vaugh",
+        "Age": 33,
+        "THING": 45,
+        "Year": 1999,
+        "Throws": "R"
+      },
+      {
+        "Rank": "142.",
+        "Name": "Hank Aaron",
+        "Age": 23,
+        "THING": 44,
+        "Year": 1957,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hank Aaron",
+        "Age": 29,
+        "THING": 44,
+        "Year": 1963,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hank Aaron",
+        "Age": 32,
+        "THING": 44,
+        "Year": 1966,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hank Aaron",
+        "Age": 35,
+        "THING": 44,
+        "Year": 1969,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ernie Banks",
+        "Age": 24,
+        "THING": 44,
+        "Year": 1955,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jay Buhne",
+        "Age": 31,
+        "THING": 44,
+        "Year": 1996,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Miguel Cabrer",
+        "Age": 29,
+        "THING": 44,
+        "Year": 2012,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Miguel Cabrer",
+        "Age": 30,
+        "THING": 44,
+        "Year": 2013,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jose Cansec",
+        "Age": 26,
+        "THING": 44,
+        "Year": 1991,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Nelson Cru",
+        "Age": 34,
+        "THING": 44,
+        "Year": 2015,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carlos Delgad",
+        "Age": 27,
+        "THING": 44,
+        "Year": 1999,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jermaine Dy",
+        "Age": 32,
+        "THING": 44,
+        "Year": 2006,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Cecil Fielde",
+        "Age": 27,
+        "THING": 44,
+        "Year": 1991,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jimmie Foxx",
+        "Age": 26,
+        "THING": 44,
+        "Year": 1934,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Andres Galarrag",
+        "Age": 37,
+        "THING": 44,
+        "Year": 1998,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hank Greenberg",
+        "Age": 35,
+        "THING": 44,
+        "Year": 1946,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Vladimir Guerrero",
+        "Age": 25,
+        "THING": 44,
+        "Year": 2000,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Richard Hidalg",
+        "Age": 25,
+        "THING": 44,
+        "Year": 2000,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Frank Howar",
+        "Age": 31,
+        "THING": 44,
+        "Year": 1968,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Frank Howar",
+        "Age": 33,
+        "THING": 44,
+        "Year": 1970,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Harmon Killebrew",
+        "Age": 31,
+        "THING": 44,
+        "Year": 1967,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Tino Martine",
+        "Age": 29,
+        "THING": 44,
+        "Year": 1997,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie McCovey",
+        "Age": 25,
+        "THING": 44,
+        "Year": 1963,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dale Murph",
+        "Age": 31,
+        "THING": 44,
+        "Year": 1987,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Manny Ramire",
+        "Age": 27,
+        "THING": 44,
+        "Year": 1999,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mark Reynold",
+        "Age": 25,
+        "THING": 44,
+        "Year": 2009,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie Stargell",
+        "Age": 33,
+        "THING": 44,
+        "Year": 1973,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mo Vaugh",
+        "Age": 28,
+        "THING": 44,
+        "Year": 1996,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carl Yastrzemski",
+        "Age": 27,
+        "THING": 44,
+        "Year": 1967,
+        "Throws": "L"
+      },
+      {
+        "Rank": "171.",
+        "Name": "Tony Arma",
+        "Age": 30,
+        "THING": 43,
+        "Year": 1984,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jeff Bagwell",
+        "Age": 29,
+        "THING": 43,
+        "Year": 1997,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ernie Banks",
+        "Age": 26,
+        "THING": 43,
+        "Year": 1957,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jose Bautist",
+        "Age": 30,
+        "THING": 43,
+        "Year": 2011,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Nelson Cru",
+        "Age": 35,
+        "THING": 43,
+        "Year": 2016,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Khris Davi",
+        "Age": 29,
+        "THING": 43,
+        "Year": 2017,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jason Giamb",
+        "Age": 29,
+        "THING": 43,
+        "Year": 2000,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Juan Gonzale",
+        "Age": 22,
+        "THING": 43,
+        "Year": 1992,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Curtis Granderso",
+        "Age": 31,
+        "THING": 43,
+        "Year": 2012,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Josh Hamilto",
+        "Age": 31,
+        "THING": 43,
+        "Year": 2012,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Davey Johnso",
+        "Age": 30,
+        "THING": 43,
+        "Year": 1973,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Chuck Klein",
+        "Age": 24,
+        "THING": 43,
+        "Year": 1929,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Javy Lope",
+        "Age": 32,
+        "THING": 43,
+        "Year": 2003,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Johnny Mize",
+        "Age": 27,
+        "THING": 43,
+        "Year": 1940,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rafael Palmeir",
+        "Age": 33,
+        "THING": 43,
+        "Year": 1998,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rafael Palmeir",
+        "Age": 37,
+        "THING": 43,
+        "Year": 2002,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Albert Pujol",
+        "Age": 23,
+        "THING": 43,
+        "Year": 2003,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Manny Ramire",
+        "Age": 32,
+        "THING": 43,
+        "Year": 2004,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Al Rose",
+        "Age": 29,
+        "THING": 43,
+        "Year": 1953,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Gary Sheffiel",
+        "Age": 31,
+        "THING": 43,
+        "Year": 2000,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Duke Snider",
+        "Age": 29,
+        "THING": 43,
+        "Year": 1956,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mark Teixeir",
+        "Age": 25,
+        "THING": 43,
+        "Year": 2005,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Frank Thomas",
+        "Age": 32,
+        "THING": 43,
+        "Year": 2000,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Matt William",
+        "Age": 28,
+        "THING": 43,
+        "Year": 1994,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ted Williams",
+        "Age": 30,
+        "THING": 43,
+        "Year": 1949,
+        "Throws": "L"
+      },
+      {
+        "Rank": "196.",
+        "Name": "Nolan Arenad",
+        "Age": 24,
+        "THING": 42,
+        "Year": 2015,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jeff Bagwell",
+        "Age": 31,
+        "THING": 42,
+        "Year": 1999,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Lance Berkma",
+        "Age": 26,
+        "THING": 42,
+        "Year": 2002,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Barry Bond",
+        "Age": 31,
+        "THING": 42,
+        "Year": 1996,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jose Cansec",
+        "Age": 23,
+        "THING": 42,
+        "Year": 1988,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rocky Colavit",
+        "Age": 25,
+        "THING": 42,
+        "Year": 1959,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Khris Davi",
+        "Age": 28,
+        "THING": 42,
+        "Year": 2016,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carlos Delgad",
+        "Age": 31,
+        "THING": 42,
+        "Year": 2003,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Brian Dozie",
+        "Age": 29,
+        "THING": 42,
+        "Year": 2016,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Edmond",
+        "Age": 30,
+        "THING": 42,
+        "Year": 2000,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Edmond",
+        "Age": 34,
+        "THING": 42,
+        "Year": 2004,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Edwin Encarnacio",
+        "Age": 29,
+        "THING": 42,
+        "Year": 2012,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Edwin Encarnacio",
+        "Age": 33,
+        "THING": 42,
+        "Year": 2016,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Juan Gonzale",
+        "Age": 27,
+        "THING": 42,
+        "Year": 1997,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Shawn Gree",
+        "Age": 26,
+        "THING": 42,
+        "Year": 1999,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Shawn Gree",
+        "Age": 29,
+        "THING": 42,
+        "Year": 2002,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Vladimir Guerrero",
+        "Age": 24,
+        "THING": 42,
+        "Year": 1999,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Travis Hafne",
+        "Age": 29,
+        "THING": 42,
+        "Year": 2006,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Bryce Harpe",
+        "Age": 22,
+        "THING": 42,
+        "Year": 2015,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Todd Helto",
+        "Age": 26,
+        "THING": 42,
+        "Year": 2000,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Gil Hodge",
+        "Age": 30,
+        "THING": 42,
+        "Year": 1954,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rogers Hornsby",
+        "Age": 26,
+        "THING": 42,
+        "Year": 1922,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Harmon Killebrew",
+        "Age": 23,
+        "THING": 42,
+        "Year": 1959,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ralph Kiner",
+        "Age": 28,
+        "THING": 42,
+        "Year": 1951,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mickey Mantle",
+        "Age": 26,
+        "THING": 42,
+        "Year": 1958,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mark McGwir",
+        "Age": 28,
+        "THING": 42,
+        "Year": 1992,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mel Ott",
+        "Age": 20,
+        "THING": 42,
+        "Year": 1929,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Albert Pujol",
+        "Age": 30,
+        "THING": 42,
+        "Year": 2010,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Alex Rodrigue",
+        "Age": 22,
+        "THING": 42,
+        "Year": 1998,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Alex Rodrigue",
+        "Age": 23,
+        "THING": 42,
+        "Year": 1999,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Gary Sheffiel",
+        "Age": 27,
+        "THING": 42,
+        "Year": 1996,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Roy Siever",
+        "Age": 30,
+        "THING": 42,
+        "Year": 1957,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Duke Snider",
+        "Age": 26,
+        "THING": 42,
+        "Year": 1953,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Duke Snider",
+        "Age": 28,
+        "THING": 42,
+        "Year": 1955,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dick Stuar",
+        "Age": 30,
+        "THING": 42,
+        "Year": 1963,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Frank Thomas",
+        "Age": 35,
+        "THING": 42,
+        "Year": 2003,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Thome",
+        "Age": 33,
+        "THING": 42,
+        "Year": 2004,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Thome",
+        "Age": 35,
+        "THING": 42,
+        "Year": 2006,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hal Trosk",
+        "Age": 23,
+        "THING": 42,
+        "Year": 1936,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Billy Williams",
+        "Age": 32,
+        "THING": 42,
+        "Year": 1970,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Gus Zernia",
+        "Age": 30,
+        "THING": 42,
+        "Year": 1953,
+        "Throws": "R"
+      },
+      {
+        "Rank": "237.",
+        "Name": "Nolan Arenad",
+        "Age": 25,
+        "THING": 41,
+        "Year": 2016,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ernie Banks",
+        "Age": 29,
+        "THING": 41,
+        "Year": 1960,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Tony Batist",
+        "Age": 26,
+        "THING": 41,
+        "Year": 2000,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carlos Beltra",
+        "Age": 29,
+        "THING": 41,
+        "Year": 2006,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ryan Brau",
+        "Age": 28,
+        "THING": 41,
+        "Year": 2012,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jeff Burrough",
+        "Age": 26,
+        "THING": 41,
+        "Year": 1977,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Roy Campanella",
+        "Age": 31,
+        "THING": 41,
+        "Year": 1953,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Chris Carte",
+        "Age": 29,
+        "THING": 41,
+        "Year": 2016,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Norm Cas",
+        "Age": 26,
+        "THING": 41,
+        "Year": 1961,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rocky Colavit",
+        "Age": 24,
+        "THING": 41,
+        "Year": 1958,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carlos Delgad",
+        "Age": 28,
+        "THING": 41,
+        "Year": 2000,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Josh Donaldso",
+        "Age": 29,
+        "THING": 41,
+        "Year": 2015,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Adam Dun",
+        "Age": 32,
+        "THING": 41,
+        "Year": 2012,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Darrell Evan",
+        "Age": 26,
+        "THING": 41,
+        "Year": 1973,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jimmie Foxx",
+        "Age": 28,
+        "THING": 41,
+        "Year": 1936,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Andres Galarrag",
+        "Age": 36,
+        "THING": 41,
+        "Year": 1997,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Joey Gall",
+        "Age": 23,
+        "THING": 41,
+        "Year": 2017,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Lou Gehrig",
+        "Age": 27,
+        "THING": 41,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jason Giamb",
+        "Age": 31,
+        "THING": 41,
+        "Year": 2002,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jason Giamb",
+        "Age": 32,
+        "THING": 41,
+        "Year": 2003,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Troy Glau",
+        "Age": 24,
+        "THING": 41,
+        "Year": 2001,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Curtis Granderso",
+        "Age": 30,
+        "THING": 41,
+        "Year": 2011,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hank Greenberg",
+        "Age": 29,
+        "THING": 41,
+        "Year": 1940,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Todd Hundle",
+        "Age": 27,
+        "THING": 41,
+        "Year": 1996,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Reggie Jackson",
+        "Age": 34,
+        "THING": 41,
+        "Year": 1980,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Andruw Jone",
+        "Age": 29,
+        "THING": 41,
+        "Year": 2006,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "David Justic",
+        "Age": 34,
+        "THING": 41,
+        "Year": 2000,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Harmon Killebrew",
+        "Age": 34,
+        "THING": 41,
+        "Year": 1970,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Paul Konerk",
+        "Age": 28,
+        "THING": 41,
+        "Year": 2004,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Eddie Mathews",
+        "Age": 23,
+        "THING": 41,
+        "Year": 1955,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie Mays",
+        "Age": 23,
+        "THING": 41,
+        "Year": 1954,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Phil Nevi",
+        "Age": 30,
+        "THING": 41,
+        "Year": 2001,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ben Oglivi",
+        "Age": 31,
+        "THING": 41,
+        "Year": 1980,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "David Orti",
+        "Age": 28,
+        "THING": 41,
+        "Year": 2004,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Albert Pujol",
+        "Age": 25,
+        "THING": 41,
+        "Year": 2005,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Manny Ramire",
+        "Age": 29,
+        "THING": 41,
+        "Year": 2001,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Alex Rodrigue",
+        "Age": 24,
+        "THING": 41,
+        "Year": 2000,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Babe Ruth",
+        "Age": 28,
+        "THING": 41,
+        "Year": 1923,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Babe Ruth",
+        "Age": 37,
+        "THING": 41,
+        "Year": 1932,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hank Saue",
+        "Age": 37,
+        "THING": 41,
+        "Year": 1954,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Frank Thomas",
+        "Age": 25,
+        "THING": 41,
+        "Year": 1993,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Trou",
+        "Age": 23,
+        "THING": 41,
+        "Year": 2015,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Greg Vaugh",
+        "Age": 30,
+        "THING": 41,
+        "Year": 1996,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Cy William",
+        "Age": 35,
+        "THING": 41,
+        "Year": 1923,
+        "Throws": "L"
+      },
+      {
+        "Rank": "281.",
+        "Name": "Hank Aaron",
+        "Age": 26,
+        "THING": 40,
+        "Year": 1960,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hank Aaron",
+        "Age": 39,
+        "THING": 40,
+        "Year": 1973,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dick Alle",
+        "Age": 24,
+        "THING": 40,
+        "Year": 1966,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jesse Barfiel",
+        "Age": 26,
+        "THING": 40,
+        "Year": 1986,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jose Bautist",
+        "Age": 34,
+        "THING": 40,
+        "Year": 2015,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Johnny Bench",
+        "Age": 24,
+        "THING": 40,
+        "Year": 1972,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dante Bichett",
+        "Age": 31,
+        "THING": 40,
+        "Year": 1995,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Barry Bond",
+        "Age": 32,
+        "THING": 40,
+        "Year": 1997,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jay Buhne",
+        "Age": 30,
+        "THING": 40,
+        "Year": 1995,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jay Buhne",
+        "Age": 32,
+        "THING": 40,
+        "Year": 1997,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ellis Burk",
+        "Age": 31,
+        "THING": 40,
+        "Year": 1996,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ken Caminit",
+        "Age": 33,
+        "THING": 40,
+        "Year": 1996,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Vinny Castill",
+        "Age": 28,
+        "THING": 40,
+        "Year": 1996,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Vinny Castill",
+        "Age": 29,
+        "THING": 40,
+        "Year": 1997,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Nelson Cru",
+        "Age": 33,
+        "THING": 40,
+        "Year": 2014,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Adam Dun",
+        "Age": 25,
+        "THING": 40,
+        "Year": 2005,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Adam Dun",
+        "Age": 26,
+        "THING": 40,
+        "Year": 2006,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Adam Dun",
+        "Age": 27,
+        "THING": 40,
+        "Year": 2007,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Adam Dun",
+        "Age": 28,
+        "THING": 40,
+        "Year": 2008,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Darrell Evan",
+        "Age": 38,
+        "THING": 40,
+        "Year": 1985,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "George Foste",
+        "Age": 29,
+        "THING": 40,
+        "Year": 1978,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Todd Frazie",
+        "Age": 30,
+        "THING": 40,
+        "Year": 2016,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Adrian Gonzale",
+        "Age": 27,
+        "THING": 40,
+        "Year": 2009,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carlos Gonzale",
+        "Age": 29,
+        "THING": 40,
+        "Year": 2015,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hank Greenberg",
+        "Age": 26,
+        "THING": 40,
+        "Year": 1937,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ken Griffey",
+        "Age": 24,
+        "THING": 40,
+        "Year": 1994,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ken Griffey",
+        "Age": 30,
+        "THING": 40,
+        "Year": 2000,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Gil Hodge",
+        "Age": 27,
+        "THING": 40,
+        "Year": 1951,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "David Justic",
+        "Age": 27,
+        "THING": 40,
+        "Year": 1993,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ralph Kiner",
+        "Age": 25,
+        "THING": 40,
+        "Year": 1948,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Chuck Klein",
+        "Age": 25,
+        "THING": 40,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ted Kluszewsk",
+        "Age": 28,
+        "THING": 40,
+        "Year": 1953,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Paul Konerk",
+        "Age": 29,
+        "THING": 40,
+        "Year": 2005,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mickey Mantle",
+        "Age": 28,
+        "THING": 40,
+        "Year": 1960,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Eddie Mathews",
+        "Age": 22,
+        "THING": 40,
+        "Year": 1954,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie Mays",
+        "Age": 30,
+        "THING": 40,
+        "Year": 1961,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Johnny Mize",
+        "Age": 35,
+        "THING": 40,
+        "Year": 1948,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Tony Perez",
+        "Age": 28,
+        "THING": 40,
+        "Year": 1970,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rico Petrocell",
+        "Age": 26,
+        "THING": 40,
+        "Year": 1969,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Piazza",
+        "Age": 28,
+        "THING": 40,
+        "Year": 1997,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Piazza",
+        "Age": 30,
+        "THING": 40,
+        "Year": 1999,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Wally Pos",
+        "Age": 25,
+        "THING": 40,
+        "Year": 1955,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Albert Pujol",
+        "Age": 35,
+        "THING": 40,
+        "Year": 2015,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ryne Sandberg",
+        "Age": 30,
+        "THING": 40,
+        "Year": 1990,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Schmidt",
+        "Age": 33,
+        "THING": 40,
+        "Year": 1983,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Duke Snider",
+        "Age": 27,
+        "THING": 40,
+        "Year": 1954,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Duke Snider",
+        "Age": 30,
+        "THING": 40,
+        "Year": 1957,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Sammy Sos",
+        "Age": 27,
+        "THING": 40,
+        "Year": 1996,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Sammy Sos",
+        "Age": 34,
+        "THING": 40,
+        "Year": 2003,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Frank Thomas",
+        "Age": 27,
+        "THING": 40,
+        "Year": 1995,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Frank Thomas",
+        "Age": 28,
+        "THING": 40,
+        "Year": 1996,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Thome",
+        "Age": 26,
+        "THING": 40,
+        "Year": 1997,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mo Vaugh",
+        "Age": 30,
+        "THING": 40,
+        "Year": 1998,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carl Yastrzemski",
+        "Age": 29,
+        "THING": 40,
+        "Year": 1969,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carl Yastrzemski",
+        "Age": 30,
+        "THING": 40,
+        "Year": 1970,
+        "Throws": "L"
+      },
+      {
+        "Rank": "336.",
+        "Name": "Hank Aaron",
+        "Age": 25,
+        "THING": 39,
+        "Year": 1959,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hank Aaron",
+        "Age": 33,
+        "THING": 39,
+        "Year": 1967,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Moises Alo",
+        "Age": 37,
+        "THING": 39,
+        "Year": 2004,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jeff Bagwell",
+        "Age": 26,
+        "THING": 39,
+        "Year": 1994,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jeff Bagwell",
+        "Age": 33,
+        "THING": 39,
+        "Year": 2001,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jeff Bagwell",
+        "Age": 35,
+        "THING": 39,
+        "Year": 2003,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Cody Bellinge",
+        "Age": 21,
+        "THING": 39,
+        "Year": 2017,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Bobby Bond",
+        "Age": 27,
+        "THING": 39,
+        "Year": 1973,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Kris Bryan",
+        "Age": 24,
+        "THING": 39,
+        "Year": 2016,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Robinson Can",
+        "Age": 33,
+        "THING": 39,
+        "Year": 2016,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Norm Cas",
+        "Age": 27,
+        "THING": 39,
+        "Year": 1962,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Nelson Cru",
+        "Age": 36,
+        "THING": 39,
+        "Year": 2017,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carlos Delgad",
+        "Age": 29,
+        "THING": 39,
+        "Year": 2001,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Joe DiMaggio",
+        "Age": 33,
+        "THING": 39,
+        "Year": 1948,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Edmond",
+        "Age": 33,
+        "THING": 39,
+        "Year": 2003,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Edwin Encarnacio",
+        "Age": 32,
+        "THING": 39,
+        "Year": 2015,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Cecil Fielde",
+        "Age": 32,
+        "THING": 39,
+        "Year": 1996,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Brian Gile",
+        "Age": 28,
+        "THING": 39,
+        "Year": 1999,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Juan Gonzale",
+        "Age": 29,
+        "THING": 39,
+        "Year": 1999,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Vladimir Guerrero",
+        "Age": 27,
+        "THING": 39,
+        "Year": 2002,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Vladimir Guerrero",
+        "Age": 29,
+        "THING": 39,
+        "Year": 2004,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rogers Hornsby",
+        "Age": 29,
+        "THING": 39,
+        "Year": 1925,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rogers Hornsby",
+        "Age": 33,
+        "THING": 39,
+        "Year": 1929,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Reggie Jackson",
+        "Age": 36,
+        "THING": 39,
+        "Year": 1982,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Matt Kem",
+        "Age": 26,
+        "THING": 39,
+        "Year": 2011,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Harmon Killebrew",
+        "Age": 30,
+        "THING": 39,
+        "Year": 1966,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Paul Konerk",
+        "Age": 34,
+        "THING": 39,
+        "Year": 2010,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Greg Luzinsk",
+        "Age": 26,
+        "THING": 39,
+        "Year": 1977,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Fred Lyn",
+        "Age": 27,
+        "THING": 39,
+        "Year": 1979,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Roger Mari",
+        "Age": 25,
+        "THING": 39,
+        "Year": 1960,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Eddie Mathews",
+        "Age": 28,
+        "THING": 39,
+        "Year": 1960,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Lee Ma",
+        "Age": 28,
+        "THING": 39,
+        "Year": 1971,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie McCovey",
+        "Age": 27,
+        "THING": 39,
+        "Year": 1965,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie McCovey",
+        "Age": 32,
+        "THING": 39,
+        "Year": 1970,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mark McGwir",
+        "Age": 26,
+        "THING": 39,
+        "Year": 1990,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mark McGwir",
+        "Age": 31,
+        "THING": 39,
+        "Year": 1995,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Stan Musial",
+        "Age": 27,
+        "THING": 39,
+        "Year": 1948,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rafael Palmeir",
+        "Age": 30,
+        "THING": 39,
+        "Year": 1995,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rafael Palmeir",
+        "Age": 31,
+        "THING": 39,
+        "Year": 1996,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rafael Palmeir",
+        "Age": 35,
+        "THING": 39,
+        "Year": 2000,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carlos Pen",
+        "Age": 31,
+        "THING": 39,
+        "Year": 2009,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Boog Powel",
+        "Age": 22,
+        "THING": 39,
+        "Year": 1964,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Rice",
+        "Age": 24,
+        "THING": 39,
+        "Year": 1977,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Rice",
+        "Age": 26,
+        "THING": 39,
+        "Year": 1979,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Rice",
+        "Age": 30,
+        "THING": 39,
+        "Year": 1983,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Frank Robinson",
+        "Age": 26,
+        "THING": 39,
+        "Year": 1962,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Richie Sexso",
+        "Age": 30,
+        "THING": 39,
+        "Year": 2005,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Gary Sheffiel",
+        "Age": 34,
+        "THING": 39,
+        "Year": 2003,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Roy Siever",
+        "Age": 31,
+        "THING": 39,
+        "Year": 1958,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Alfonso Sorian",
+        "Age": 26,
+        "THING": 39,
+        "Year": 2002,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Vern Stephen",
+        "Age": 28,
+        "THING": 39,
+        "Year": 1949,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Darryl Strawberr",
+        "Age": 25,
+        "THING": 39,
+        "Year": 1987,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Darryl Strawberr",
+        "Age": 26,
+        "THING": 39,
+        "Year": 1988,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mark Teixeir",
+        "Age": 29,
+        "THING": 39,
+        "Year": 2009,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mark Teixeir",
+        "Age": 31,
+        "THING": 39,
+        "Year": 2011,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Frank Thomas",
+        "Age": 38,
+        "THING": 39,
+        "Year": 2006,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Gorman Thoma",
+        "Age": 31,
+        "THING": 39,
+        "Year": 1982,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mo Vaugh",
+        "Age": 27,
+        "THING": 39,
+        "Year": 1995,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ken William",
+        "Age": 32,
+        "THING": 39,
+        "Year": 1922,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hack Wilson",
+        "Age": 29,
+        "THING": 39,
+        "Year": 1929,
+        "Throws": "R"
+      },
+      {
+        "Rank": "396.",
+        "Name": "Hank Aaron",
+        "Age": 36,
+        "THING": 38,
+        "Year": 1970,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Joe Adcoc",
+        "Age": 28,
+        "THING": 38,
+        "Year": 1956,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Moises Alo",
+        "Age": 31,
+        "THING": 38,
+        "Year": 1998,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Albert Bell",
+        "Age": 26,
+        "THING": 38,
+        "Year": 1993,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jay Bel",
+        "Age": 33,
+        "THING": 38,
+        "Year": 1999,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carlos Beltra",
+        "Age": 27,
+        "THING": 38,
+        "Year": 2004,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Wally Berge",
+        "Age": 24,
+        "THING": 38,
+        "Year": 1930,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jeromy Burnit",
+        "Age": 29,
+        "THING": 38,
+        "Year": 1998,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Miguel Cabrer",
+        "Age": 27,
+        "THING": 38,
+        "Year": 2010,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Miguel Cabrer",
+        "Age": 33,
+        "THING": 38,
+        "Year": 2016,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Bob Cer",
+        "Age": 33,
+        "THING": 38,
+        "Year": 1958,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Nate Colber",
+        "Age": 24,
+        "THING": 38,
+        "Year": 1970,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Nate Colber",
+        "Age": 26,
+        "THING": 38,
+        "Year": 1972,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Chris Davi",
+        "Age": 30,
+        "THING": 38,
+        "Year": 2016,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carlos Delgad",
+        "Age": 26,
+        "THING": 38,
+        "Year": 1998,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carlos Delgad",
+        "Age": 34,
+        "THING": 38,
+        "Year": 2006,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carlos Delgad",
+        "Age": 36,
+        "THING": 38,
+        "Year": 2008,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Adam Dun",
+        "Age": 29,
+        "THING": 38,
+        "Year": 2009,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Adam Dun",
+        "Age": 30,
+        "THING": 38,
+        "Year": 2010,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Edwin Encarnacio",
+        "Age": 34,
+        "THING": 38,
+        "Year": 2017,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Prince Fielde",
+        "Age": 27,
+        "THING": 38,
+        "Year": 2011,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jason Giamb",
+        "Age": 30,
+        "THING": 38,
+        "Year": 2001,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Brian Gile",
+        "Age": 31,
+        "THING": 38,
+        "Year": 2002,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Troy Glau",
+        "Age": 29,
+        "THING": 38,
+        "Year": 2006,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Vladimir Guerrero",
+        "Age": 23,
+        "THING": 38,
+        "Year": 1998,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Howard Johnso",
+        "Age": 30,
+        "THING": 38,
+        "Year": 1991,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Chipper Jones",
+        "Age": 29,
+        "THING": 38,
+        "Year": 2001,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Chuck Klein",
+        "Age": 27,
+        "THING": 38,
+        "Year": 1932,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Lemo",
+        "Age": 32,
+        "THING": 38,
+        "Year": 1960,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "J.D. Martine",
+        "Age": 27,
+        "THING": 38,
+        "Year": 2015,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Lee Ma",
+        "Age": 26,
+        "THING": 38,
+        "Year": 1969,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie Mays",
+        "Age": 32,
+        "THING": 38,
+        "Year": 1963,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Logan Morriso",
+        "Age": 29,
+        "THING": 38,
+        "Year": 2017,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Moustaka",
+        "Age": 28,
+        "THING": 38,
+        "Year": 2017,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Magglio Ordone",
+        "Age": 28,
+        "THING": 38,
+        "Year": 2002,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "David Orti",
+        "Age": 40,
+        "THING": 38,
+        "Year": 2016,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mel Ott",
+        "Age": 23,
+        "THING": 38,
+        "Year": 1932,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dean Palme",
+        "Age": 27,
+        "THING": 38,
+        "Year": 1996,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dean Palme",
+        "Age": 30,
+        "THING": 38,
+        "Year": 1999,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rafael Palmeir",
+        "Age": 32,
+        "THING": 38,
+        "Year": 1997,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rafael Palmeir",
+        "Age": 38,
+        "THING": 38,
+        "Year": 2003,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Piazza",
+        "Age": 31,
+        "THING": 38,
+        "Year": 2000,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Aramis Ramire",
+        "Age": 28,
+        "THING": 38,
+        "Year": 2006,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Manny Ramire",
+        "Age": 28,
+        "THING": 38,
+        "Year": 2000,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Frank Robinson",
+        "Age": 20,
+        "THING": 38,
+        "Year": 1956,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Schmidt",
+        "Age": 25,
+        "THING": 38,
+        "Year": 1975,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Schmidt",
+        "Age": 26,
+        "THING": 38,
+        "Year": 1976,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Schmidt",
+        "Age": 27,
+        "THING": 38,
+        "Year": 1977,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Justin Smoa",
+        "Age": 30,
+        "THING": 38,
+        "Year": 2017,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Alfonso Sorian",
+        "Age": 27,
+        "THING": 38,
+        "Year": 2003,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Matt Stair",
+        "Age": 31,
+        "THING": 38,
+        "Year": 1999,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mark Teixeir",
+        "Age": 24,
+        "THING": 38,
+        "Year": 2004,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Frank Thomas",
+        "Age": 26,
+        "THING": 38,
+        "Year": 1994,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Gorman Thoma",
+        "Age": 29,
+        "THING": 38,
+        "Year": 1980,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Thome",
+        "Age": 25,
+        "THING": 38,
+        "Year": 1996,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Larry Walke",
+        "Age": 34,
+        "THING": 38,
+        "Year": 2001,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Matt William",
+        "Age": 27,
+        "THING": 38,
+        "Year": 1993,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ted Williams",
+        "Age": 27,
+        "THING": 38,
+        "Year": 1946,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ted Williams",
+        "Age": 38,
+        "THING": 38,
+        "Year": 1957,
+        "Throws": "L"
+      },
+      {
+        "Rank": "455.",
+        "Name": "Dick Alle",
+        "Age": 30,
+        "THING": 37,
+        "Year": 1972,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Nolan Arenad",
+        "Age": 26,
+        "THING": 37,
+        "Year": 2017,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rich Aurili",
+        "Age": 29,
+        "THING": 37,
+        "Year": 2001,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ernie Banks",
+        "Age": 31,
+        "THING": 37,
+        "Year": 1962,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Albert Bell",
+        "Age": 32,
+        "THING": 37,
+        "Year": 1999,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Charlie Blackmo",
+        "Age": 30,
+        "THING": 37,
+        "Year": 2017,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Barry Bond",
+        "Age": 29,
+        "THING": 37,
+        "Year": 1994,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Barry Bond",
+        "Age": 33,
+        "THING": 37,
+        "Year": 1998,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Bobby Bond",
+        "Age": 31,
+        "THING": 37,
+        "Year": 1977,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Bret Boon",
+        "Age": 32,
+        "THING": 37,
+        "Year": 2001,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ryan Brau",
+        "Age": 24,
+        "THING": 37,
+        "Year": 2008,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jeromy Burnit",
+        "Age": 35,
+        "THING": 37,
+        "Year": 2004,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Pat Burrel",
+        "Age": 25,
+        "THING": 37,
+        "Year": 2002,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Miguel Cabrer",
+        "Age": 25,
+        "THING": 37,
+        "Year": 2008,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jose Cansec",
+        "Age": 25,
+        "THING": 37,
+        "Year": 1990,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Chris Carte",
+        "Age": 27,
+        "THING": 37,
+        "Year": 2014,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rocky Colavit",
+        "Age": 28,
+        "THING": 37,
+        "Year": 1962,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Eric Davi",
+        "Age": 25,
+        "THING": 37,
+        "Year": 1987,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Josh Donaldso",
+        "Age": 30,
+        "THING": 37,
+        "Year": 2016,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carlton Fisk",
+        "Age": 37,
+        "THING": 37,
+        "Year": 1985,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jimmie Foxx",
+        "Age": 22,
+        "THING": 37,
+        "Year": 1930,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Lou Gehrig",
+        "Age": 34,
+        "THING": 37,
+        "Year": 1937,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jason Giamb",
+        "Age": 35,
+        "THING": 37,
+        "Year": 2006,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Brian Gile",
+        "Age": 30,
+        "THING": 37,
+        "Year": 2001,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Troy Glau",
+        "Age": 28,
+        "THING": 37,
+        "Year": 2005,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Goose Goslin",
+        "Age": 29,
+        "THING": 37,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Gabby Hartnett",
+        "Age": 29,
+        "THING": 37,
+        "Year": 1930,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jeff Ken",
+        "Age": 34,
+        "THING": 37,
+        "Year": 2002,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ralph Kiner",
+        "Age": 29,
+        "THING": 37,
+        "Year": 1952,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dave Kingma",
+        "Age": 27,
+        "THING": 37,
+        "Year": 1976,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dave Kingma",
+        "Age": 33,
+        "THING": 37,
+        "Year": 1982,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carlos Le",
+        "Age": 30,
+        "THING": 37,
+        "Year": 2006,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ryan Ludwic",
+        "Age": 29,
+        "THING": 37,
+        "Year": 2008,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Manny Machad",
+        "Age": 23,
+        "THING": 37,
+        "Year": 2016,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mickey Mantle",
+        "Age": 23,
+        "THING": 37,
+        "Year": 1955,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Edgar Martine",
+        "Age": 37,
+        "THING": 37,
+        "Year": 2000,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Eddie Mathews",
+        "Age": 24,
+        "THING": 37,
+        "Year": 1956,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie Mays",
+        "Age": 35,
+        "THING": 37,
+        "Year": 1966,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Fred McGrif",
+        "Age": 29,
+        "THING": 37,
+        "Year": 1993,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dale Murph",
+        "Age": 29,
+        "THING": 37,
+        "Year": 1985,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Graig Nettle",
+        "Age": 32,
+        "THING": 37,
+        "Year": 1977,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "David Orti",
+        "Age": 39,
+        "THING": 37,
+        "Year": 2015,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Marcell Ozun",
+        "Age": 26,
+        "THING": 37,
+        "Year": 2017,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rafael Palmeir",
+        "Age": 28,
+        "THING": 37,
+        "Year": 1993,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Tony Perez",
+        "Age": 27,
+        "THING": 37,
+        "Year": 1969,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Boog Powel",
+        "Age": 27,
+        "THING": 37,
+        "Year": 1969,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Albert Pujol",
+        "Age": 21,
+        "THING": 37,
+        "Year": 2001,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Albert Pujol",
+        "Age": 28,
+        "THING": 37,
+        "Year": 2008,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Albert Pujol",
+        "Age": 31,
+        "THING": 37,
+        "Year": 2011,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Manny Ramire",
+        "Age": 31,
+        "THING": 37,
+        "Year": 2003,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Manny Ramire",
+        "Age": 36,
+        "THING": 37,
+        "Year": 2008,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mark Reynold",
+        "Age": 27,
+        "THING": 37,
+        "Year": 2011,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Frank Robinson",
+        "Age": 25,
+        "THING": 37,
+        "Year": 1961,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Al Rose",
+        "Age": 26,
+        "THING": 37,
+        "Year": 1950,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hank Saue",
+        "Age": 35,
+        "THING": 37,
+        "Year": 1952,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Schmidt",
+        "Age": 36,
+        "THING": 37,
+        "Year": 1986,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Giancarlo Stanto",
+        "Age": 22,
+        "THING": 37,
+        "Year": 2012,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Giancarlo Stanto",
+        "Age": 24,
+        "THING": 37,
+        "Year": 2014,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Darryl Strawberr",
+        "Age": 28,
+        "THING": 37,
+        "Year": 1990,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Thome",
+        "Age": 29,
+        "THING": 37,
+        "Year": 2000,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Joey Vott",
+        "Age": 26,
+        "THING": 37,
+        "Year": 2010,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Leon Wagne",
+        "Age": 28,
+        "THING": 37,
+        "Year": 1962,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Larry Walke",
+        "Age": 32,
+        "THING": 37,
+        "Year": 1999,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Tillie Walke",
+        "Age": 34,
+        "THING": 37,
+        "Year": 1922,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Billy Williams",
+        "Age": 34,
+        "THING": 37,
+        "Year": 1972,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ted Williams",
+        "Age": 22,
+        "THING": 37,
+        "Year": 1941,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dave Winfield",
+        "Age": 30,
+        "THING": 37,
+        "Year": 1982,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim Wyn",
+        "Age": 25,
+        "THING": 37,
+        "Year": 1967,
+        "Throws": "R"
+      }
     ]
   }
 }
