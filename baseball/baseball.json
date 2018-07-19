@@ -12482,7 +12482,7 @@
         "Rank": "1.",
         "Name": "Barry Bond",
         "Age": 36,
-        "THING": 73,
+        "HomeRuns": 73,
         "Year": 2001,
         "Throws": "L"
       },
@@ -12490,7 +12490,7 @@
         "Rank": "2.",
         "Name": "Mark McGwir",
         "Age": 34,
-        "THING": 70,
+        "HomeRuns": 70,
         "Year": 1998,
         "Throws": "R"
       },
@@ -12498,7 +12498,7 @@
         "Rank": "3.",
         "Name": "Sammy Sos",
         "Age": 29,
-        "THING": 66,
+        "HomeRuns": 66,
         "Year": 1998,
         "Throws": "R"
       },
@@ -12506,7 +12506,7 @@
         "Rank": "4.",
         "Name": "Mark McGwir",
         "Age": 35,
-        "THING": 65,
+        "HomeRuns": 65,
         "Year": 1999,
         "Throws": "R"
       },
@@ -12514,7 +12514,7 @@
         "Rank": "5.",
         "Name": "Sammy Sos",
         "Age": 32,
-        "THING": 64,
+        "HomeRuns": 64,
         "Year": 2001,
         "Throws": "R"
       },
@@ -12522,7 +12522,7 @@
         "Rank": "6.",
         "Name": "Sammy Sos",
         "Age": 30,
-        "THING": 63,
+        "HomeRuns": 63,
         "Year": 1999,
         "Throws": "R"
       },
@@ -12530,7 +12530,7 @@
         "Rank": "7.",
         "Name": "Roger Mari",
         "Age": 26,
-        "THING": 61,
+        "HomeRuns": 61,
         "Year": 1961,
         "Throws": "L"
       },
@@ -12538,7 +12538,7 @@
         "Rank": "8.",
         "Name": "Babe Ruth",
         "Age": 32,
-        "THING": 60,
+        "HomeRuns": 60,
         "Year": 1927,
         "Throws": "L"
       },
@@ -12546,7 +12546,7 @@
         "Rank": "9.",
         "Name": "Babe Ruth",
         "Age": 26,
-        "THING": 59,
+        "HomeRuns": 59,
         "Year": 1921,
         "Throws": "L"
       },
@@ -12554,7 +12554,7 @@
         "Rank": " ",
         "Name": "Giancarlo Stanto",
         "Age": 27,
-        "THING": 59,
+        "HomeRuns": 59,
         "Year": 2017,
         "Throws": "R"
       },
@@ -12562,7 +12562,7 @@
         "Rank": "11.",
         "Name": "Jimmie Foxx",
         "Age": 24,
-        "THING": 58,
+        "HomeRuns": 58,
         "Year": 1932,
         "Throws": "R"
       },
@@ -12570,7 +12570,7 @@
         "Rank": " ",
         "Name": "Hank Greenberg",
         "Age": 27,
-        "THING": 58,
+        "HomeRuns": 58,
         "Year": 1938,
         "Throws": "R"
       },
@@ -12578,7 +12578,7 @@
         "Rank": " ",
         "Name": "Ryan Howar",
         "Age": 26,
-        "THING": 58,
+        "HomeRuns": 58,
         "Year": 2006,
         "Throws": "L"
       },
@@ -12586,7 +12586,7 @@
         "Rank": " ",
         "Name": "Mark McGwir",
         "Age": 33,
-        "THING": 58,
+        "HomeRuns": 58,
         "Year": 1997,
         "Throws": "R"
       },
@@ -12594,7 +12594,7 @@
         "Rank": "15.",
         "Name": "Luis Gonzale",
         "Age": 33,
-        "THING": 57,
+        "HomeRuns": 57,
         "Year": 2001,
         "Throws": "L"
       },
@@ -12602,7 +12602,7 @@
         "Rank": " ",
         "Name": "Alex Rodrigue",
         "Age": 26,
-        "THING": 57,
+        "HomeRuns": 57,
         "Year": 2002,
         "Throws": "R"
       },
@@ -12610,7 +12610,7 @@
         "Rank": "17.",
         "Name": "Ken Griffey",
         "Age": 27,
-        "THING": 56,
+        "HomeRuns": 56,
         "Year": 1997,
         "Throws": "L"
       },
@@ -12618,7 +12618,7 @@
         "Rank": " ",
         "Name": "Ken Griffey",
         "Age": 28,
-        "THING": 56,
+        "HomeRuns": 56,
         "Year": 1998,
         "Throws": "L"
       },
@@ -12626,7 +12626,7 @@
         "Rank": " ",
         "Name": "Hack Wilson",
         "Age": 30,
-        "THING": 56,
+        "HomeRuns": 56,
         "Year": 1930,
         "Throws": "R"
       },
@@ -12634,7 +12634,7 @@
         "Rank": "20.",
         "Name": "Jose Bautist",
         "Age": 29,
-        "THING": 54,
+        "HomeRuns": 54,
         "Year": 2010,
         "Throws": "R"
       },
@@ -12642,7 +12642,7 @@
         "Rank": " ",
         "Name": "Ralph Kiner",
         "Age": 26,
-        "THING": 54,
+        "HomeRuns": 54,
         "Year": 1949,
         "Throws": "R"
       },
@@ -12650,7 +12650,7 @@
         "Rank": " ",
         "Name": "Mickey Mantle",
         "Age": 29,
-        "THING": 54,
+        "HomeRuns": 54,
         "Year": 1961,
         "Throws": "B"
       },
@@ -12658,7 +12658,7 @@
         "Rank": " ",
         "Name": "David Orti",
         "Age": 30,
-        "THING": 54,
+        "HomeRuns": 54,
         "Year": 2006,
         "Throws": "L"
       },
@@ -12666,7 +12666,7 @@
         "Rank": " ",
         "Name": "Alex Rodrigue",
         "Age": 31,
-        "THING": 54,
+        "HomeRuns": 54,
         "Year": 2007,
         "Throws": "R"
       },
@@ -12674,7 +12674,7 @@
         "Rank": " ",
         "Name": "Babe Ruth",
         "Age": 25,
-        "THING": 54,
+        "HomeRuns": 54,
         "Year": 1920,
         "Throws": "L"
       },
@@ -12682,7 +12682,7 @@
         "Rank": " ",
         "Name": "Babe Ruth",
         "Age": 33,
-        "THING": 54,
+        "HomeRuns": 54,
         "Year": 1928,
         "Throws": "L"
       },
@@ -12690,7 +12690,7 @@
         "Rank": "27.",
         "Name": "Chris Davi",
         "Age": 27,
-        "THING": 53,
+        "HomeRuns": 53,
         "Year": 2013,
         "Throws": "L"
       },
@@ -12698,7 +12698,7 @@
         "Rank": "28.",
         "Name": "George Foste",
         "Age": 28,
-        "THING": 52,
+        "HomeRuns": 52,
         "Year": 1977,
         "Throws": "R"
       },
@@ -12706,7 +12706,7 @@
         "Rank": " ",
         "Name": "Aaron Judg",
         "Age": 25,
-        "THING": 52,
+        "HomeRuns": 52,
         "Year": 2017,
         "Throws": "R"
       },
@@ -12714,7 +12714,7 @@
         "Rank": " ",
         "Name": "Mickey Mantle",
         "Age": 24,
-        "THING": 52,
+        "HomeRuns": 52,
         "Year": 1956,
         "Throws": "B"
       },
@@ -12722,7 +12722,7 @@
         "Rank": " ",
         "Name": "Willie Mays",
         "Age": 34,
-        "THING": 52,
+        "HomeRuns": 52,
         "Year": 1965,
         "Throws": "R"
       },
@@ -12730,7 +12730,7 @@
         "Rank": " ",
         "Name": "Mark McGwir",
         "Age": 32,
-        "THING": 52,
+        "HomeRuns": 52,
         "Year": 1996,
         "Throws": "R"
       },
@@ -12738,7 +12738,7 @@
         "Rank": " ",
         "Name": "Alex Rodrigue",
         "Age": 25,
-        "THING": 52,
+        "HomeRuns": 52,
         "Year": 2001,
         "Throws": "R"
       },
@@ -12746,7 +12746,7 @@
         "Rank": " ",
         "Name": "Jim Thome",
         "Age": 31,
-        "THING": 52,
+        "HomeRuns": 52,
         "Year": 2002,
         "Throws": "L"
       },
@@ -12754,7 +12754,7 @@
         "Rank": "35.",
         "Name": "Cecil Fielde",
         "Age": 26,
-        "THING": 51,
+        "HomeRuns": 51,
         "Year": 1990,
         "Throws": "R"
       },
@@ -12762,7 +12762,7 @@
         "Rank": " ",
         "Name": "Andruw Jone",
         "Age": 28,
-        "THING": 51,
+        "HomeRuns": 51,
         "Year": 2005,
         "Throws": "R"
       },
@@ -12770,7 +12770,7 @@
         "Rank": " ",
         "Name": "Ralph Kiner",
         "Age": 24,
-        "THING": 51,
+        "HomeRuns": 51,
         "Year": 1947,
         "Throws": "R"
       },
@@ -12778,7 +12778,7 @@
         "Rank": " ",
         "Name": "Willie Mays",
         "Age": 24,
-        "THING": 51,
+        "HomeRuns": 51,
         "Year": 1955,
         "Throws": "R"
       },
@@ -12786,7 +12786,7 @@
         "Rank": " ",
         "Name": "Johnny Mize",
         "Age": 34,
-        "THING": 51,
+        "HomeRuns": 51,
         "Year": 1947,
         "Throws": "L"
       },
@@ -12794,7 +12794,7 @@
         "Rank": "40.",
         "Name": "Brady Anderso",
         "Age": 32,
-        "THING": 50,
+        "HomeRuns": 50,
         "Year": 1996,
         "Throws": "L"
       },
@@ -12802,7 +12802,7 @@
         "Rank": " ",
         "Name": "Albert Bell",
         "Age": 28,
-        "THING": 50,
+        "HomeRuns": 50,
         "Year": 1995,
         "Throws": "R"
       },
@@ -12810,7 +12810,7 @@
         "Rank": " ",
         "Name": "Prince Fielde",
         "Age": 23,
-        "THING": 50,
+        "HomeRuns": 50,
         "Year": 2007,
         "Throws": "L"
       },
@@ -12818,7 +12818,7 @@
         "Rank": " ",
         "Name": "Jimmie Foxx",
         "Age": 30,
-        "THING": 50,
+        "HomeRuns": 50,
         "Year": 1938,
         "Throws": "R"
       },
@@ -12826,7 +12826,7 @@
         "Rank": " ",
         "Name": "Sammy Sos",
         "Age": 31,
-        "THING": 50,
+        "HomeRuns": 50,
         "Year": 2000,
         "Throws": "R"
       },
@@ -12834,7 +12834,7 @@
         "Rank": " ",
         "Name": "Greg Vaugh",
         "Age": 32,
-        "THING": 50,
+        "HomeRuns": 50,
         "Year": 1998,
         "Throws": "R"
       },
@@ -12842,7 +12842,7 @@
         "Rank": "46.",
         "Name": "Albert Bell",
         "Age": 31,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 1998,
         "Throws": "R"
       },
@@ -12850,7 +12850,7 @@
         "Rank": " ",
         "Name": "Barry Bond",
         "Age": 35,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 2000,
         "Throws": "L"
       },
@@ -12858,7 +12858,7 @@
         "Rank": " ",
         "Name": "Andre Dawson",
         "Age": 32,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 1987,
         "Throws": "R"
       },
@@ -12866,7 +12866,7 @@
         "Rank": " ",
         "Name": "Lou Gehrig",
         "Age": 31,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 1934,
         "Throws": "L"
       },
@@ -12874,7 +12874,7 @@
         "Rank": " ",
         "Name": "Lou Gehrig",
         "Age": 33,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 1936,
         "Throws": "L"
       },
@@ -12882,7 +12882,7 @@
         "Rank": " ",
         "Name": "Shawn Gree",
         "Age": 28,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 2001,
         "Throws": "L"
       },
@@ -12890,7 +12890,7 @@
         "Rank": " ",
         "Name": "Ken Griffey",
         "Age": 26,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 1996,
         "Throws": "L"
       },
@@ -12898,7 +12898,7 @@
         "Rank": " ",
         "Name": "Todd Helto",
         "Age": 27,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 2001,
         "Throws": "L"
       },
@@ -12906,7 +12906,7 @@
         "Rank": " ",
         "Name": "Harmon Killebrew",
         "Age": 28,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 1964,
         "Throws": "R"
       },
@@ -12914,7 +12914,7 @@
         "Rank": " ",
         "Name": "Harmon Killebrew",
         "Age": 33,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 1969,
         "Throws": "R"
       },
@@ -12922,7 +12922,7 @@
         "Rank": " ",
         "Name": "Ted Kluszewsk",
         "Age": 29,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 1954,
         "Throws": "L"
       },
@@ -12930,7 +12930,7 @@
         "Rank": " ",
         "Name": "Willie Mays",
         "Age": 31,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 1962,
         "Throws": "R"
       },
@@ -12938,7 +12938,7 @@
         "Rank": " ",
         "Name": "Mark McGwir",
         "Age": 23,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 1987,
         "Throws": "R"
       },
@@ -12946,7 +12946,7 @@
         "Rank": " ",
         "Name": "Albert Pujol",
         "Age": 26,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 2006,
         "Throws": "R"
       },
@@ -12954,7 +12954,7 @@
         "Rank": " ",
         "Name": "Frank Robinson",
         "Age": 30,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 1966,
         "Throws": "R"
       },
@@ -12962,7 +12962,7 @@
         "Rank": " ",
         "Name": "Babe Ruth",
         "Age": 35,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 1930,
         "Throws": "L"
       },
@@ -12970,7 +12970,7 @@
         "Rank": " ",
         "Name": "Sammy Sos",
         "Age": 33,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 2002,
         "Throws": "R"
       },
@@ -12978,7 +12978,7 @@
         "Rank": " ",
         "Name": "Jim Thome",
         "Age": 30,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 2001,
         "Throws": "L"
       },
@@ -12986,7 +12986,7 @@
         "Rank": " ",
         "Name": "Larry Walke",
         "Age": 30,
-        "THING": 49,
+        "HomeRuns": 49,
         "Year": 1997,
         "Throws": "L"
       },
@@ -12994,7 +12994,7 @@
         "Rank": "65.",
         "Name": "Albert Bell",
         "Age": 29,
-        "THING": 48,
+        "HomeRuns": 48,
         "Year": 1996,
         "Throws": "R"
       },
@@ -13002,7 +13002,7 @@
         "Rank": " ",
         "Name": "Adrian Beltr",
         "Age": 25,
-        "THING": 48,
+        "HomeRuns": 48,
         "Year": 2004,
         "Throws": "R"
       },
@@ -13010,7 +13010,7 @@
         "Rank": " ",
         "Name": "Jimmie Foxx",
         "Age": 25,
-        "THING": 48,
+        "HomeRuns": 48,
         "Year": 1933,
         "Throws": "R"
       },
@@ -13018,7 +13018,7 @@
         "Rank": " ",
         "Name": "Ken Griffey",
         "Age": 29,
-        "THING": 48,
+        "HomeRuns": 48,
         "Year": 1999,
         "Throws": "L"
       },
@@ -13026,7 +13026,7 @@
         "Rank": " ",
         "Name": "Frank Howar",
         "Age": 32,
-        "THING": 48,
+        "HomeRuns": 48,
         "Year": 1969,
         "Throws": "R"
       },
@@ -13034,7 +13034,7 @@
         "Rank": " ",
         "Name": "Ryan Howar",
         "Age": 28,
-        "THING": 48,
+        "HomeRuns": 48,
         "Year": 2008,
         "Throws": "L"
       },
@@ -13042,7 +13042,7 @@
         "Rank": " ",
         "Name": "Harmon Killebrew",
         "Age": 26,
-        "THING": 48,
+        "HomeRuns": 48,
         "Year": 1962,
         "Throws": "R"
       },
@@ -13050,7 +13050,7 @@
         "Rank": " ",
         "Name": "Dave Kingma",
         "Age": 30,
-        "THING": 48,
+        "HomeRuns": 48,
         "Year": 1979,
         "Throws": "R"
       },
@@ -13058,7 +13058,7 @@
         "Rank": " ",
         "Name": "Alex Rodrigue",
         "Age": 29,
-        "THING": 48,
+        "HomeRuns": 48,
         "Year": 2005,
         "Throws": "R"
       },
@@ -13066,7 +13066,7 @@
         "Rank": " ",
         "Name": "Mike Schmidt",
         "Age": 30,
-        "THING": 48,
+        "HomeRuns": 48,
         "Year": 1980,
         "Throws": "R"
       },
@@ -13074,7 +13074,7 @@
         "Rank": " ",
         "Name": "Willie Stargell",
         "Age": 31,
-        "THING": 48,
+        "HomeRuns": 48,
         "Year": 1971,
         "Throws": "L"
       },
@@ -13082,7 +13082,7 @@
         "Rank": "76.",
         "Name": "Hank Aaron",
         "Age": 37,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 1971,
         "Throws": "R"
       },
@@ -13090,7 +13090,7 @@
         "Rank": " ",
         "Name": "Jeff Bagwell",
         "Age": 32,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 2000,
         "Throws": "R"
       },
@@ -13098,7 +13098,7 @@
         "Rank": " ",
         "Name": "Ernie Banks",
         "Age": 27,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 1958,
         "Throws": "R"
       },
@@ -13106,7 +13106,7 @@
         "Rank": " ",
         "Name": "George Bel",
         "Age": 27,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 1987,
         "Throws": "R"
       },
@@ -13114,7 +13114,7 @@
         "Rank": " ",
         "Name": "Chris Davi",
         "Age": 29,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 2015,
         "Throws": "L"
       },
@@ -13122,7 +13122,7 @@
         "Rank": " ",
         "Name": "Andres Galarrag",
         "Age": 35,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 1996,
         "Throws": "R"
       },
@@ -13130,7 +13130,7 @@
         "Rank": " ",
         "Name": "Lou Gehrig",
         "Age": 24,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 1927,
         "Throws": "L"
       },
@@ -13138,7 +13138,7 @@
         "Rank": " ",
         "Name": "Troy Glau",
         "Age": 23,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 2000,
         "Throws": "R"
       },
@@ -13146,7 +13146,7 @@
         "Rank": " ",
         "Name": "Juan Gonzale",
         "Age": 26,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 1996,
         "Throws": "R"
       },
@@ -13154,7 +13154,7 @@
         "Rank": " ",
         "Name": "Ryan Howar",
         "Age": 27,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 2007,
         "Throws": "L"
       },
@@ -13162,7 +13162,7 @@
         "Rank": " ",
         "Name": "Reggie Jackson",
         "Age": 23,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 1969,
         "Throws": "L"
       },
@@ -13170,7 +13170,7 @@
         "Rank": " ",
         "Name": "Ralph Kiner",
         "Age": 27,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 1950,
         "Throws": "R"
       },
@@ -13178,7 +13178,7 @@
         "Rank": " ",
         "Name": "Ted Kluszewsk",
         "Age": 30,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 1955,
         "Throws": "L"
       },
@@ -13186,7 +13186,7 @@
         "Rank": " ",
         "Name": "Eddie Mathews",
         "Age": 21,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 1953,
         "Throws": "L"
       },
@@ -13194,7 +13194,7 @@
         "Rank": " ",
         "Name": "Willie Mays",
         "Age": 33,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 1964,
         "Throws": "R"
       },
@@ -13202,7 +13202,7 @@
         "Rank": " ",
         "Name": "Kevin Mitchel",
         "Age": 27,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 1989,
         "Throws": "R"
       },
@@ -13210,7 +13210,7 @@
         "Rank": " ",
         "Name": "David Orti",
         "Age": 29,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 2005,
         "Throws": "L"
       },
@@ -13218,7 +13218,7 @@
         "Rank": " ",
         "Name": "Rafael Palmeir",
         "Age": 34,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 1999,
         "Throws": "L"
       },
@@ -13226,7 +13226,7 @@
         "Rank": " ",
         "Name": "Rafael Palmeir",
         "Age": 36,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 2001,
         "Throws": "L"
       },
@@ -13234,7 +13234,7 @@
         "Rank": " ",
         "Name": "Albert Pujol",
         "Age": 29,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 2009,
         "Throws": "R"
       },
@@ -13242,7 +13242,7 @@
         "Rank": " ",
         "Name": "Alex Rodrigue",
         "Age": 27,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 2003,
         "Throws": "R"
       },
@@ -13250,7 +13250,7 @@
         "Rank": " ",
         "Name": "Babe Ruth",
         "Age": 31,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 1926,
         "Throws": "L"
       },
@@ -13258,7 +13258,7 @@
         "Rank": " ",
         "Name": "Jim Thome",
         "Age": 32,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 2003,
         "Throws": "L"
       },
@@ -13266,7 +13266,7 @@
         "Rank": " ",
         "Name": "Mark Trumb",
         "Age": 30,
-        "THING": 47,
+        "HomeRuns": 47,
         "Year": 2016,
         "Throws": "R"
       },
@@ -13274,7 +13274,7 @@
         "Rank": "100.",
         "Name": "Barry Bond",
         "Age": 28,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 1993,
         "Throws": "L"
       },
@@ -13282,7 +13282,7 @@
         "Rank": " ",
         "Name": "Barry Bond",
         "Age": 37,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 2002,
         "Throws": "L"
       },
@@ -13290,7 +13290,7 @@
         "Rank": " ",
         "Name": "Jose Cansec",
         "Age": 33,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 1998,
         "Throws": "R"
       },
@@ -13298,7 +13298,7 @@
         "Rank": " ",
         "Name": "Vinny Castill",
         "Age": 30,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 1998,
         "Throws": "R"
       },
@@ -13306,7 +13306,7 @@
         "Rank": " ",
         "Name": "Orlando Cepeda",
         "Age": 23,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 1961,
         "Throws": "R"
       },
@@ -13314,7 +13314,7 @@
         "Rank": " ",
         "Name": "Joe DiMaggio",
         "Age": 22,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 1937,
         "Throws": "R"
       },
@@ -13322,7 +13322,7 @@
         "Rank": " ",
         "Name": "Adam Dun",
         "Age": 24,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 2004,
         "Throws": "L"
       },
@@ -13330,7 +13330,7 @@
         "Rank": " ",
         "Name": "Prince Fielde",
         "Age": 25,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 2009,
         "Throws": "L"
       },
@@ -13338,7 +13338,7 @@
         "Rank": " ",
         "Name": "Lou Gehrig",
         "Age": 28,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 1931,
         "Throws": "L"
       },
@@ -13346,7 +13346,7 @@
         "Rank": " ",
         "Name": "Jim Gentil",
         "Age": 27,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 1961,
         "Throws": "L"
       },
@@ -13354,7 +13354,7 @@
         "Rank": " ",
         "Name": "Juan Gonzale",
         "Age": 23,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 1993,
         "Throws": "R"
       },
@@ -13362,7 +13362,7 @@
         "Rank": " ",
         "Name": "Harmon Killebrew",
         "Age": 25,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 1961,
         "Throws": "R"
       },
@@ -13370,7 +13370,7 @@
         "Rank": " ",
         "Name": "Derrek Le",
         "Age": 29,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 2005,
         "Throws": "R"
       },
@@ -13378,7 +13378,7 @@
         "Rank": " ",
         "Name": "Eddie Mathews",
         "Age": 27,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 1959,
         "Throws": "L"
       },
@@ -13386,7 +13386,7 @@
         "Rank": " ",
         "Name": "Carlos Pen",
         "Age": 29,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 2007,
         "Throws": "L"
       },
@@ -13394,7 +13394,7 @@
         "Rank": " ",
         "Name": "Albert Pujol",
         "Age": 24,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 2004,
         "Throws": "R"
       },
@@ -13402,7 +13402,7 @@
         "Rank": " ",
         "Name": "Jim Rice",
         "Age": 25,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 1978,
         "Throws": "R"
       },
@@ -13410,7 +13410,7 @@
         "Rank": " ",
         "Name": "Babe Ruth",
         "Age": 29,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 1924,
         "Throws": "L"
       },
@@ -13418,7 +13418,7 @@
         "Rank": " ",
         "Name": "Babe Ruth",
         "Age": 34,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 1929,
         "Throws": "L"
       },
@@ -13426,7 +13426,7 @@
         "Rank": " ",
         "Name": "Babe Ruth",
         "Age": 36,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 1931,
         "Throws": "L"
       },
@@ -13434,7 +13434,7 @@
         "Rank": " ",
         "Name": "Alfonso Sorian",
         "Age": 30,
-        "THING": 46,
+        "HomeRuns": 46,
         "Year": 2006,
         "Throws": "R"
       },
@@ -13442,7 +13442,7 @@
         "Rank": "121.",
         "Name": "Hank Aaron",
         "Age": 28,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 1962,
         "Throws": "R"
       },
@@ -13450,7 +13450,7 @@
         "Rank": " ",
         "Name": "Ernie Banks",
         "Age": 28,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 1959,
         "Throws": "R"
       },
@@ -13458,7 +13458,7 @@
         "Rank": " ",
         "Name": "Johnny Bench",
         "Age": 22,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 1970,
         "Throws": "R"
       },
@@ -13466,7 +13466,7 @@
         "Rank": " ",
         "Name": "Lance Berkma",
         "Age": 30,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 2006,
         "Throws": "B"
       },
@@ -13474,7 +13474,7 @@
         "Rank": " ",
         "Name": "Barry Bond",
         "Age": 38,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 2003,
         "Throws": "L"
       },
@@ -13482,7 +13482,7 @@
         "Rank": " ",
         "Name": "Barry Bond",
         "Age": 39,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 2004,
         "Throws": "L"
       },
@@ -13490,7 +13490,7 @@
         "Rank": " ",
         "Name": "Rocky Colavit",
         "Age": 27,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 1961,
         "Throws": "R"
       },
@@ -13498,7 +13498,7 @@
         "Rank": " ",
         "Name": "Juan Gonzale",
         "Age": 28,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 1998,
         "Throws": "R"
       },
@@ -13506,7 +13506,7 @@
         "Rank": " ",
         "Name": "Ken Griffey",
         "Age": 23,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 1993,
         "Throws": "L"
       },
@@ -13514,7 +13514,7 @@
         "Rank": " ",
         "Name": "Ryan Howar",
         "Age": 29,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 2009,
         "Throws": "L"
       },
@@ -13522,7 +13522,7 @@
         "Rank": " ",
         "Name": "Chipper Jones",
         "Age": 27,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 1999,
         "Throws": "B"
       },
@@ -13530,7 +13530,7 @@
         "Rank": " ",
         "Name": "Harmon Killebrew",
         "Age": 27,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 1963,
         "Throws": "R"
       },
@@ -13538,7 +13538,7 @@
         "Rank": " ",
         "Name": "J.D. Martine",
         "Age": 29,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 2017,
         "Throws": "R"
       },
@@ -13546,7 +13546,7 @@
         "Rank": " ",
         "Name": "Willie McCovey",
         "Age": 31,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 1969,
         "Throws": "L"
       },
@@ -13554,7 +13554,7 @@
         "Rank": " ",
         "Name": "Manny Ramire",
         "Age": 26,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 1998,
         "Throws": "R"
       },
@@ -13562,7 +13562,7 @@
         "Rank": " ",
         "Name": "Manny Ramire",
         "Age": 33,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 2005,
         "Throws": "R"
       },
@@ -13570,7 +13570,7 @@
         "Rank": " ",
         "Name": "Mike Schmidt",
         "Age": 29,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 1979,
         "Throws": "R"
       },
@@ -13578,7 +13578,7 @@
         "Rank": " ",
         "Name": "Richie Sexso",
         "Age": 26,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 2001,
         "Throws": "R"
       },
@@ -13586,7 +13586,7 @@
         "Rank": " ",
         "Name": "Richie Sexso",
         "Age": 28,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 2003,
         "Throws": "R"
       },
@@ -13594,7 +13594,7 @@
         "Rank": " ",
         "Name": "Gorman Thoma",
         "Age": 28,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 1979,
         "Throws": "R"
       },
@@ -13602,7 +13602,7 @@
         "Rank": " ",
         "Name": "Greg Vaugh",
         "Age": 33,
-        "THING": 45,
+        "HomeRuns": 45,
         "Year": 1999,
         "Throws": "R"
       },
@@ -13610,7 +13610,7 @@
         "Rank": "142.",
         "Name": "Hank Aaron",
         "Age": 23,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1957,
         "Throws": "R"
       },
@@ -13618,7 +13618,7 @@
         "Rank": " ",
         "Name": "Hank Aaron",
         "Age": 29,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1963,
         "Throws": "R"
       },
@@ -13626,7 +13626,7 @@
         "Rank": " ",
         "Name": "Hank Aaron",
         "Age": 32,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1966,
         "Throws": "R"
       },
@@ -13634,7 +13634,7 @@
         "Rank": " ",
         "Name": "Hank Aaron",
         "Age": 35,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1969,
         "Throws": "R"
       },
@@ -13642,7 +13642,7 @@
         "Rank": " ",
         "Name": "Ernie Banks",
         "Age": 24,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1955,
         "Throws": "R"
       },
@@ -13650,7 +13650,7 @@
         "Rank": " ",
         "Name": "Jay Buhne",
         "Age": 31,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1996,
         "Throws": "R"
       },
@@ -13658,7 +13658,7 @@
         "Rank": " ",
         "Name": "Miguel Cabrer",
         "Age": 29,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 2012,
         "Throws": "R"
       },
@@ -13666,7 +13666,7 @@
         "Rank": " ",
         "Name": "Miguel Cabrer",
         "Age": 30,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 2013,
         "Throws": "R"
       },
@@ -13674,7 +13674,7 @@
         "Rank": " ",
         "Name": "Jose Cansec",
         "Age": 26,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1991,
         "Throws": "R"
       },
@@ -13682,7 +13682,7 @@
         "Rank": " ",
         "Name": "Nelson Cru",
         "Age": 34,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 2015,
         "Throws": "R"
       },
@@ -13690,7 +13690,7 @@
         "Rank": " ",
         "Name": "Carlos Delgad",
         "Age": 27,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1999,
         "Throws": "L"
       },
@@ -13698,7 +13698,7 @@
         "Rank": " ",
         "Name": "Jermaine Dy",
         "Age": 32,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 2006,
         "Throws": "R"
       },
@@ -13706,7 +13706,7 @@
         "Rank": " ",
         "Name": "Cecil Fielde",
         "Age": 27,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1991,
         "Throws": "R"
       },
@@ -13714,7 +13714,7 @@
         "Rank": " ",
         "Name": "Jimmie Foxx",
         "Age": 26,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1934,
         "Throws": "R"
       },
@@ -13722,7 +13722,7 @@
         "Rank": " ",
         "Name": "Andres Galarrag",
         "Age": 37,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1998,
         "Throws": "R"
       },
@@ -13730,7 +13730,7 @@
         "Rank": " ",
         "Name": "Hank Greenberg",
         "Age": 35,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1946,
         "Throws": "R"
       },
@@ -13738,7 +13738,7 @@
         "Rank": " ",
         "Name": "Vladimir Guerrero",
         "Age": 25,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 2000,
         "Throws": "R"
       },
@@ -13746,7 +13746,7 @@
         "Rank": " ",
         "Name": "Richard Hidalg",
         "Age": 25,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 2000,
         "Throws": "R"
       },
@@ -13754,7 +13754,7 @@
         "Rank": " ",
         "Name": "Frank Howar",
         "Age": 31,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1968,
         "Throws": "R"
       },
@@ -13762,7 +13762,7 @@
         "Rank": " ",
         "Name": "Frank Howar",
         "Age": 33,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1970,
         "Throws": "R"
       },
@@ -13770,7 +13770,7 @@
         "Rank": " ",
         "Name": "Harmon Killebrew",
         "Age": 31,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1967,
         "Throws": "R"
       },
@@ -13778,7 +13778,7 @@
         "Rank": " ",
         "Name": "Tino Martine",
         "Age": 29,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1997,
         "Throws": "L"
       },
@@ -13786,7 +13786,7 @@
         "Rank": " ",
         "Name": "Willie McCovey",
         "Age": 25,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1963,
         "Throws": "L"
       },
@@ -13794,7 +13794,7 @@
         "Rank": " ",
         "Name": "Dale Murph",
         "Age": 31,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1987,
         "Throws": "R"
       },
@@ -13802,7 +13802,7 @@
         "Rank": " ",
         "Name": "Manny Ramire",
         "Age": 27,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1999,
         "Throws": "R"
       },
@@ -13810,7 +13810,7 @@
         "Rank": " ",
         "Name": "Mark Reynold",
         "Age": 25,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 2009,
         "Throws": "R"
       },
@@ -13818,7 +13818,7 @@
         "Rank": " ",
         "Name": "Willie Stargell",
         "Age": 33,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1973,
         "Throws": "L"
       },
@@ -13826,7 +13826,7 @@
         "Rank": " ",
         "Name": "Mo Vaugh",
         "Age": 28,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1996,
         "Throws": "L"
       },
@@ -13834,7 +13834,7 @@
         "Rank": " ",
         "Name": "Carl Yastrzemski",
         "Age": 27,
-        "THING": 44,
+        "HomeRuns": 44,
         "Year": 1967,
         "Throws": "L"
       },
@@ -13842,7 +13842,7 @@
         "Rank": "171.",
         "Name": "Tony Arma",
         "Age": 30,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 1984,
         "Throws": "R"
       },
@@ -13850,7 +13850,7 @@
         "Rank": " ",
         "Name": "Jeff Bagwell",
         "Age": 29,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 1997,
         "Throws": "R"
       },
@@ -13858,7 +13858,7 @@
         "Rank": " ",
         "Name": "Ernie Banks",
         "Age": 26,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 1957,
         "Throws": "R"
       },
@@ -13866,7 +13866,7 @@
         "Rank": " ",
         "Name": "Jose Bautist",
         "Age": 30,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 2011,
         "Throws": "R"
       },
@@ -13874,7 +13874,7 @@
         "Rank": " ",
         "Name": "Nelson Cru",
         "Age": 35,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 2016,
         "Throws": "R"
       },
@@ -13882,7 +13882,7 @@
         "Rank": " ",
         "Name": "Khris Davi",
         "Age": 29,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 2017,
         "Throws": "R"
       },
@@ -13890,7 +13890,7 @@
         "Rank": " ",
         "Name": "Jason Giamb",
         "Age": 29,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 2000,
         "Throws": "L"
       },
@@ -13898,7 +13898,7 @@
         "Rank": " ",
         "Name": "Juan Gonzale",
         "Age": 22,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 1992,
         "Throws": "R"
       },
@@ -13906,7 +13906,7 @@
         "Rank": " ",
         "Name": "Curtis Granderso",
         "Age": 31,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 2012,
         "Throws": "L"
       },
@@ -13914,7 +13914,7 @@
         "Rank": " ",
         "Name": "Josh Hamilto",
         "Age": 31,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 2012,
         "Throws": "L"
       },
@@ -13922,7 +13922,7 @@
         "Rank": " ",
         "Name": "Davey Johnso",
         "Age": 30,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 1973,
         "Throws": "R"
       },
@@ -13930,7 +13930,7 @@
         "Rank": " ",
         "Name": "Chuck Klein",
         "Age": 24,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 1929,
         "Throws": "L"
       },
@@ -13938,7 +13938,7 @@
         "Rank": " ",
         "Name": "Javy Lope",
         "Age": 32,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 2003,
         "Throws": "R"
       },
@@ -13946,7 +13946,7 @@
         "Rank": " ",
         "Name": "Johnny Mize",
         "Age": 27,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 1940,
         "Throws": "L"
       },
@@ -13954,7 +13954,7 @@
         "Rank": " ",
         "Name": "Rafael Palmeir",
         "Age": 33,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 1998,
         "Throws": "L"
       },
@@ -13962,7 +13962,7 @@
         "Rank": " ",
         "Name": "Rafael Palmeir",
         "Age": 37,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 2002,
         "Throws": "L"
       },
@@ -13970,7 +13970,7 @@
         "Rank": " ",
         "Name": "Albert Pujol",
         "Age": 23,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 2003,
         "Throws": "R"
       },
@@ -13978,7 +13978,7 @@
         "Rank": " ",
         "Name": "Manny Ramire",
         "Age": 32,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 2004,
         "Throws": "R"
       },
@@ -13986,7 +13986,7 @@
         "Rank": " ",
         "Name": "Al Rose",
         "Age": 29,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 1953,
         "Throws": "R"
       },
@@ -13994,7 +13994,7 @@
         "Rank": " ",
         "Name": "Gary Sheffiel",
         "Age": 31,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 2000,
         "Throws": "R"
       },
@@ -14002,7 +14002,7 @@
         "Rank": " ",
         "Name": "Duke Snider",
         "Age": 29,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 1956,
         "Throws": "L"
       },
@@ -14010,7 +14010,7 @@
         "Rank": " ",
         "Name": "Mark Teixeir",
         "Age": 25,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 2005,
         "Throws": "B"
       },
@@ -14018,7 +14018,7 @@
         "Rank": " ",
         "Name": "Frank Thomas",
         "Age": 32,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 2000,
         "Throws": "R"
       },
@@ -14026,7 +14026,7 @@
         "Rank": " ",
         "Name": "Matt William",
         "Age": 28,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 1994,
         "Throws": "R"
       },
@@ -14034,7 +14034,7 @@
         "Rank": " ",
         "Name": "Ted Williams",
         "Age": 30,
-        "THING": 43,
+        "HomeRuns": 43,
         "Year": 1949,
         "Throws": "L"
       },
@@ -14042,7 +14042,7 @@
         "Rank": "196.",
         "Name": "Nolan Arenad",
         "Age": 24,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2015,
         "Throws": "R"
       },
@@ -14050,7 +14050,7 @@
         "Rank": " ",
         "Name": "Jeff Bagwell",
         "Age": 31,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1999,
         "Throws": "R"
       },
@@ -14058,7 +14058,7 @@
         "Rank": " ",
         "Name": "Lance Berkma",
         "Age": 26,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2002,
         "Throws": "B"
       },
@@ -14066,7 +14066,7 @@
         "Rank": " ",
         "Name": "Barry Bond",
         "Age": 31,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1996,
         "Throws": "L"
       },
@@ -14074,7 +14074,7 @@
         "Rank": " ",
         "Name": "Jose Cansec",
         "Age": 23,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1988,
         "Throws": "R"
       },
@@ -14082,7 +14082,7 @@
         "Rank": " ",
         "Name": "Rocky Colavit",
         "Age": 25,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1959,
         "Throws": "R"
       },
@@ -14090,7 +14090,7 @@
         "Rank": " ",
         "Name": "Khris Davi",
         "Age": 28,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2016,
         "Throws": "R"
       },
@@ -14098,7 +14098,7 @@
         "Rank": " ",
         "Name": "Carlos Delgad",
         "Age": 31,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2003,
         "Throws": "L"
       },
@@ -14106,7 +14106,7 @@
         "Rank": " ",
         "Name": "Brian Dozie",
         "Age": 29,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2016,
         "Throws": "R"
       },
@@ -14114,7 +14114,7 @@
         "Rank": " ",
         "Name": "Jim Edmond",
         "Age": 30,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2000,
         "Throws": "L"
       },
@@ -14122,7 +14122,7 @@
         "Rank": " ",
         "Name": "Jim Edmond",
         "Age": 34,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2004,
         "Throws": "L"
       },
@@ -14130,7 +14130,7 @@
         "Rank": " ",
         "Name": "Edwin Encarnacio",
         "Age": 29,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2012,
         "Throws": "R"
       },
@@ -14138,7 +14138,7 @@
         "Rank": " ",
         "Name": "Edwin Encarnacio",
         "Age": 33,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2016,
         "Throws": "R"
       },
@@ -14146,7 +14146,7 @@
         "Rank": " ",
         "Name": "Juan Gonzale",
         "Age": 27,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1997,
         "Throws": "R"
       },
@@ -14154,7 +14154,7 @@
         "Rank": " ",
         "Name": "Shawn Gree",
         "Age": 26,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1999,
         "Throws": "L"
       },
@@ -14162,7 +14162,7 @@
         "Rank": " ",
         "Name": "Shawn Gree",
         "Age": 29,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2002,
         "Throws": "L"
       },
@@ -14170,7 +14170,7 @@
         "Rank": " ",
         "Name": "Vladimir Guerrero",
         "Age": 24,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1999,
         "Throws": "R"
       },
@@ -14178,7 +14178,7 @@
         "Rank": " ",
         "Name": "Travis Hafne",
         "Age": 29,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2006,
         "Throws": "L"
       },
@@ -14186,7 +14186,7 @@
         "Rank": " ",
         "Name": "Bryce Harpe",
         "Age": 22,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2015,
         "Throws": "L"
       },
@@ -14194,7 +14194,7 @@
         "Rank": " ",
         "Name": "Todd Helto",
         "Age": 26,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2000,
         "Throws": "L"
       },
@@ -14202,7 +14202,7 @@
         "Rank": " ",
         "Name": "Gil Hodge",
         "Age": 30,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1954,
         "Throws": "R"
       },
@@ -14210,7 +14210,7 @@
         "Rank": " ",
         "Name": "Rogers Hornsby",
         "Age": 26,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1922,
         "Throws": "R"
       },
@@ -14218,7 +14218,7 @@
         "Rank": " ",
         "Name": "Harmon Killebrew",
         "Age": 23,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1959,
         "Throws": "R"
       },
@@ -14226,7 +14226,7 @@
         "Rank": " ",
         "Name": "Ralph Kiner",
         "Age": 28,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1951,
         "Throws": "R"
       },
@@ -14234,7 +14234,7 @@
         "Rank": " ",
         "Name": "Mickey Mantle",
         "Age": 26,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1958,
         "Throws": "B"
       },
@@ -14242,7 +14242,7 @@
         "Rank": " ",
         "Name": "Mark McGwir",
         "Age": 28,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1992,
         "Throws": "R"
       },
@@ -14250,7 +14250,7 @@
         "Rank": " ",
         "Name": "Mel Ott",
         "Age": 20,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1929,
         "Throws": "L"
       },
@@ -14258,7 +14258,7 @@
         "Rank": " ",
         "Name": "Albert Pujol",
         "Age": 30,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2010,
         "Throws": "R"
       },
@@ -14266,7 +14266,7 @@
         "Rank": " ",
         "Name": "Alex Rodrigue",
         "Age": 22,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1998,
         "Throws": "R"
       },
@@ -14274,7 +14274,7 @@
         "Rank": " ",
         "Name": "Alex Rodrigue",
         "Age": 23,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1999,
         "Throws": "R"
       },
@@ -14282,7 +14282,7 @@
         "Rank": " ",
         "Name": "Gary Sheffiel",
         "Age": 27,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1996,
         "Throws": "R"
       },
@@ -14290,7 +14290,7 @@
         "Rank": " ",
         "Name": "Roy Siever",
         "Age": 30,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1957,
         "Throws": "R"
       },
@@ -14298,7 +14298,7 @@
         "Rank": " ",
         "Name": "Duke Snider",
         "Age": 26,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1953,
         "Throws": "L"
       },
@@ -14306,7 +14306,7 @@
         "Rank": " ",
         "Name": "Duke Snider",
         "Age": 28,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1955,
         "Throws": "L"
       },
@@ -14314,7 +14314,7 @@
         "Rank": " ",
         "Name": "Dick Stuar",
         "Age": 30,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1963,
         "Throws": "R"
       },
@@ -14322,7 +14322,7 @@
         "Rank": " ",
         "Name": "Frank Thomas",
         "Age": 35,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2003,
         "Throws": "R"
       },
@@ -14330,7 +14330,7 @@
         "Rank": " ",
         "Name": "Jim Thome",
         "Age": 33,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2004,
         "Throws": "L"
       },
@@ -14338,7 +14338,7 @@
         "Rank": " ",
         "Name": "Jim Thome",
         "Age": 35,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 2006,
         "Throws": "L"
       },
@@ -14346,7 +14346,7 @@
         "Rank": " ",
         "Name": "Hal Trosk",
         "Age": 23,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1936,
         "Throws": "L"
       },
@@ -14354,7 +14354,7 @@
         "Rank": " ",
         "Name": "Billy Williams",
         "Age": 32,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1970,
         "Throws": "L"
       },
@@ -14362,7 +14362,7 @@
         "Rank": " ",
         "Name": "Gus Zernia",
         "Age": 30,
-        "THING": 42,
+        "HomeRuns": 42,
         "Year": 1953,
         "Throws": "R"
       },
@@ -14370,7 +14370,7 @@
         "Rank": "237.",
         "Name": "Nolan Arenad",
         "Age": 25,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2016,
         "Throws": "R"
       },
@@ -14378,7 +14378,7 @@
         "Rank": " ",
         "Name": "Ernie Banks",
         "Age": 29,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1960,
         "Throws": "R"
       },
@@ -14386,7 +14386,7 @@
         "Rank": " ",
         "Name": "Tony Batist",
         "Age": 26,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2000,
         "Throws": "R"
       },
@@ -14394,7 +14394,7 @@
         "Rank": " ",
         "Name": "Carlos Beltra",
         "Age": 29,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2006,
         "Throws": "B"
       },
@@ -14402,7 +14402,7 @@
         "Rank": " ",
         "Name": "Ryan Brau",
         "Age": 28,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2012,
         "Throws": "R"
       },
@@ -14410,7 +14410,7 @@
         "Rank": " ",
         "Name": "Jeff Burrough",
         "Age": 26,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1977,
         "Throws": "R"
       },
@@ -14418,7 +14418,7 @@
         "Rank": " ",
         "Name": "Roy Campanella",
         "Age": 31,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1953,
         "Throws": "R"
       },
@@ -14426,7 +14426,7 @@
         "Rank": " ",
         "Name": "Chris Carte",
         "Age": 29,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2016,
         "Throws": "R"
       },
@@ -14434,7 +14434,7 @@
         "Rank": " ",
         "Name": "Norm Cas",
         "Age": 26,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1961,
         "Throws": "L"
       },
@@ -14442,7 +14442,7 @@
         "Rank": " ",
         "Name": "Rocky Colavit",
         "Age": 24,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1958,
         "Throws": "R"
       },
@@ -14450,7 +14450,7 @@
         "Rank": " ",
         "Name": "Carlos Delgad",
         "Age": 28,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2000,
         "Throws": "L"
       },
@@ -14458,7 +14458,7 @@
         "Rank": " ",
         "Name": "Josh Donaldso",
         "Age": 29,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2015,
         "Throws": "R"
       },
@@ -14466,7 +14466,7 @@
         "Rank": " ",
         "Name": "Adam Dun",
         "Age": 32,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2012,
         "Throws": "L"
       },
@@ -14474,7 +14474,7 @@
         "Rank": " ",
         "Name": "Darrell Evan",
         "Age": 26,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1973,
         "Throws": "L"
       },
@@ -14482,7 +14482,7 @@
         "Rank": " ",
         "Name": "Jimmie Foxx",
         "Age": 28,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1936,
         "Throws": "R"
       },
@@ -14490,7 +14490,7 @@
         "Rank": " ",
         "Name": "Andres Galarrag",
         "Age": 36,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1997,
         "Throws": "R"
       },
@@ -14498,7 +14498,7 @@
         "Rank": " ",
         "Name": "Joey Gall",
         "Age": 23,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2017,
         "Throws": "L"
       },
@@ -14506,7 +14506,7 @@
         "Rank": " ",
         "Name": "Lou Gehrig",
         "Age": 27,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1930,
         "Throws": "L"
       },
@@ -14514,7 +14514,7 @@
         "Rank": " ",
         "Name": "Jason Giamb",
         "Age": 31,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2002,
         "Throws": "L"
       },
@@ -14522,7 +14522,7 @@
         "Rank": " ",
         "Name": "Jason Giamb",
         "Age": 32,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2003,
         "Throws": "L"
       },
@@ -14530,7 +14530,7 @@
         "Rank": " ",
         "Name": "Troy Glau",
         "Age": 24,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2001,
         "Throws": "R"
       },
@@ -14538,7 +14538,7 @@
         "Rank": " ",
         "Name": "Curtis Granderso",
         "Age": 30,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2011,
         "Throws": "L"
       },
@@ -14546,7 +14546,7 @@
         "Rank": " ",
         "Name": "Hank Greenberg",
         "Age": 29,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1940,
         "Throws": "R"
       },
@@ -14554,7 +14554,7 @@
         "Rank": " ",
         "Name": "Todd Hundle",
         "Age": 27,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1996,
         "Throws": "B"
       },
@@ -14562,7 +14562,7 @@
         "Rank": " ",
         "Name": "Reggie Jackson",
         "Age": 34,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1980,
         "Throws": "L"
       },
@@ -14570,7 +14570,7 @@
         "Rank": " ",
         "Name": "Andruw Jone",
         "Age": 29,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2006,
         "Throws": "R"
       },
@@ -14578,7 +14578,7 @@
         "Rank": " ",
         "Name": "David Justic",
         "Age": 34,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2000,
         "Throws": "L"
       },
@@ -14586,7 +14586,7 @@
         "Rank": " ",
         "Name": "Harmon Killebrew",
         "Age": 34,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1970,
         "Throws": "R"
       },
@@ -14594,7 +14594,7 @@
         "Rank": " ",
         "Name": "Paul Konerk",
         "Age": 28,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2004,
         "Throws": "R"
       },
@@ -14602,7 +14602,7 @@
         "Rank": " ",
         "Name": "Eddie Mathews",
         "Age": 23,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1955,
         "Throws": "L"
       },
@@ -14610,7 +14610,7 @@
         "Rank": " ",
         "Name": "Willie Mays",
         "Age": 23,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1954,
         "Throws": "R"
       },
@@ -14618,7 +14618,7 @@
         "Rank": " ",
         "Name": "Phil Nevi",
         "Age": 30,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2001,
         "Throws": "R"
       },
@@ -14626,7 +14626,7 @@
         "Rank": " ",
         "Name": "Ben Oglivi",
         "Age": 31,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1980,
         "Throws": "L"
       },
@@ -14634,7 +14634,7 @@
         "Rank": " ",
         "Name": "David Orti",
         "Age": 28,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2004,
         "Throws": "L"
       },
@@ -14642,7 +14642,7 @@
         "Rank": " ",
         "Name": "Albert Pujol",
         "Age": 25,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2005,
         "Throws": "R"
       },
@@ -14650,7 +14650,7 @@
         "Rank": " ",
         "Name": "Manny Ramire",
         "Age": 29,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2001,
         "Throws": "R"
       },
@@ -14658,7 +14658,7 @@
         "Rank": " ",
         "Name": "Alex Rodrigue",
         "Age": 24,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2000,
         "Throws": "R"
       },
@@ -14666,7 +14666,7 @@
         "Rank": " ",
         "Name": "Babe Ruth",
         "Age": 28,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1923,
         "Throws": "L"
       },
@@ -14674,7 +14674,7 @@
         "Rank": " ",
         "Name": "Babe Ruth",
         "Age": 37,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1932,
         "Throws": "L"
       },
@@ -14682,7 +14682,7 @@
         "Rank": " ",
         "Name": "Hank Saue",
         "Age": 37,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1954,
         "Throws": "R"
       },
@@ -14690,7 +14690,7 @@
         "Rank": " ",
         "Name": "Frank Thomas",
         "Age": 25,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1993,
         "Throws": "R"
       },
@@ -14698,7 +14698,7 @@
         "Rank": " ",
         "Name": "Mike Trou",
         "Age": 23,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 2015,
         "Throws": "R"
       },
@@ -14706,7 +14706,7 @@
         "Rank": " ",
         "Name": "Greg Vaugh",
         "Age": 30,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1996,
         "Throws": "R"
       },
@@ -14714,7 +14714,7 @@
         "Rank": " ",
         "Name": "Cy William",
         "Age": 35,
-        "THING": 41,
+        "HomeRuns": 41,
         "Year": 1923,
         "Throws": "L"
       },
@@ -14722,7 +14722,7 @@
         "Rank": "281.",
         "Name": "Hank Aaron",
         "Age": 26,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1960,
         "Throws": "R"
       },
@@ -14730,7 +14730,7 @@
         "Rank": " ",
         "Name": "Hank Aaron",
         "Age": 39,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1973,
         "Throws": "R"
       },
@@ -14738,7 +14738,7 @@
         "Rank": " ",
         "Name": "Dick Alle",
         "Age": 24,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1966,
         "Throws": "R"
       },
@@ -14746,7 +14746,7 @@
         "Rank": " ",
         "Name": "Jesse Barfiel",
         "Age": 26,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1986,
         "Throws": "R"
       },
@@ -14754,7 +14754,7 @@
         "Rank": " ",
         "Name": "Jose Bautist",
         "Age": 34,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 2015,
         "Throws": "R"
       },
@@ -14762,7 +14762,7 @@
         "Rank": " ",
         "Name": "Johnny Bench",
         "Age": 24,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1972,
         "Throws": "R"
       },
@@ -14770,7 +14770,7 @@
         "Rank": " ",
         "Name": "Dante Bichett",
         "Age": 31,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1995,
         "Throws": "R"
       },
@@ -14778,7 +14778,7 @@
         "Rank": " ",
         "Name": "Barry Bond",
         "Age": 32,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1997,
         "Throws": "L"
       },
@@ -14786,7 +14786,7 @@
         "Rank": " ",
         "Name": "Jay Buhne",
         "Age": 30,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1995,
         "Throws": "R"
       },
@@ -14794,7 +14794,7 @@
         "Rank": " ",
         "Name": "Jay Buhne",
         "Age": 32,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1997,
         "Throws": "R"
       },
@@ -14802,7 +14802,7 @@
         "Rank": " ",
         "Name": "Ellis Burk",
         "Age": 31,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1996,
         "Throws": "R"
       },
@@ -14810,7 +14810,7 @@
         "Rank": " ",
         "Name": "Ken Caminit",
         "Age": 33,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1996,
         "Throws": "B"
       },
@@ -14818,7 +14818,7 @@
         "Rank": " ",
         "Name": "Vinny Castill",
         "Age": 28,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1996,
         "Throws": "R"
       },
@@ -14826,7 +14826,7 @@
         "Rank": " ",
         "Name": "Vinny Castill",
         "Age": 29,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1997,
         "Throws": "R"
       },
@@ -14834,7 +14834,7 @@
         "Rank": " ",
         "Name": "Nelson Cru",
         "Age": 33,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 2014,
         "Throws": "R"
       },
@@ -14842,7 +14842,7 @@
         "Rank": " ",
         "Name": "Adam Dun",
         "Age": 25,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 2005,
         "Throws": "L"
       },
@@ -14850,7 +14850,7 @@
         "Rank": " ",
         "Name": "Adam Dun",
         "Age": 26,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 2006,
         "Throws": "L"
       },
@@ -14858,7 +14858,7 @@
         "Rank": " ",
         "Name": "Adam Dun",
         "Age": 27,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 2007,
         "Throws": "L"
       },
@@ -14866,7 +14866,7 @@
         "Rank": " ",
         "Name": "Adam Dun",
         "Age": 28,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 2008,
         "Throws": "L"
       },
@@ -14874,7 +14874,7 @@
         "Rank": " ",
         "Name": "Darrell Evan",
         "Age": 38,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1985,
         "Throws": "L"
       },
@@ -14882,7 +14882,7 @@
         "Rank": " ",
         "Name": "George Foste",
         "Age": 29,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1978,
         "Throws": "R"
       },
@@ -14890,7 +14890,7 @@
         "Rank": " ",
         "Name": "Todd Frazie",
         "Age": 30,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 2016,
         "Throws": "R"
       },
@@ -14898,7 +14898,7 @@
         "Rank": " ",
         "Name": "Adrian Gonzale",
         "Age": 27,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 2009,
         "Throws": "L"
       },
@@ -14906,7 +14906,7 @@
         "Rank": " ",
         "Name": "Carlos Gonzale",
         "Age": 29,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 2015,
         "Throws": "L"
       },
@@ -14914,7 +14914,7 @@
         "Rank": " ",
         "Name": "Hank Greenberg",
         "Age": 26,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1937,
         "Throws": "R"
       },
@@ -14922,7 +14922,7 @@
         "Rank": " ",
         "Name": "Ken Griffey",
         "Age": 24,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1994,
         "Throws": "L"
       },
@@ -14930,7 +14930,7 @@
         "Rank": " ",
         "Name": "Ken Griffey",
         "Age": 30,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 2000,
         "Throws": "L"
       },
@@ -14938,7 +14938,7 @@
         "Rank": " ",
         "Name": "Gil Hodge",
         "Age": 27,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1951,
         "Throws": "R"
       },
@@ -14946,7 +14946,7 @@
         "Rank": " ",
         "Name": "David Justic",
         "Age": 27,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1993,
         "Throws": "L"
       },
@@ -14954,7 +14954,7 @@
         "Rank": " ",
         "Name": "Ralph Kiner",
         "Age": 25,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1948,
         "Throws": "R"
       },
@@ -14962,7 +14962,7 @@
         "Rank": " ",
         "Name": "Chuck Klein",
         "Age": 25,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1930,
         "Throws": "L"
       },
@@ -14970,7 +14970,7 @@
         "Rank": " ",
         "Name": "Ted Kluszewsk",
         "Age": 28,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1953,
         "Throws": "L"
       },
@@ -14978,7 +14978,7 @@
         "Rank": " ",
         "Name": "Paul Konerk",
         "Age": 29,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 2005,
         "Throws": "R"
       },
@@ -14986,7 +14986,7 @@
         "Rank": " ",
         "Name": "Mickey Mantle",
         "Age": 28,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1960,
         "Throws": "B"
       },
@@ -14994,7 +14994,7 @@
         "Rank": " ",
         "Name": "Eddie Mathews",
         "Age": 22,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1954,
         "Throws": "L"
       },
@@ -15002,7 +15002,7 @@
         "Rank": " ",
         "Name": "Willie Mays",
         "Age": 30,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1961,
         "Throws": "R"
       },
@@ -15010,7 +15010,7 @@
         "Rank": " ",
         "Name": "Johnny Mize",
         "Age": 35,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1948,
         "Throws": "L"
       },
@@ -15018,7 +15018,7 @@
         "Rank": " ",
         "Name": "Tony Perez",
         "Age": 28,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1970,
         "Throws": "R"
       },
@@ -15026,7 +15026,7 @@
         "Rank": " ",
         "Name": "Rico Petrocell",
         "Age": 26,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1969,
         "Throws": "R"
       },
@@ -15034,7 +15034,7 @@
         "Rank": " ",
         "Name": "Mike Piazza",
         "Age": 28,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1997,
         "Throws": "R"
       },
@@ -15042,7 +15042,7 @@
         "Rank": " ",
         "Name": "Mike Piazza",
         "Age": 30,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1999,
         "Throws": "R"
       },
@@ -15050,7 +15050,7 @@
         "Rank": " ",
         "Name": "Wally Pos",
         "Age": 25,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1955,
         "Throws": "R"
       },
@@ -15058,7 +15058,7 @@
         "Rank": " ",
         "Name": "Albert Pujol",
         "Age": 35,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 2015,
         "Throws": "R"
       },
@@ -15066,7 +15066,7 @@
         "Rank": " ",
         "Name": "Ryne Sandberg",
         "Age": 30,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1990,
         "Throws": "R"
       },
@@ -15074,7 +15074,7 @@
         "Rank": " ",
         "Name": "Mike Schmidt",
         "Age": 33,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1983,
         "Throws": "R"
       },
@@ -15082,7 +15082,7 @@
         "Rank": " ",
         "Name": "Duke Snider",
         "Age": 27,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1954,
         "Throws": "L"
       },
@@ -15090,7 +15090,7 @@
         "Rank": " ",
         "Name": "Duke Snider",
         "Age": 30,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1957,
         "Throws": "L"
       },
@@ -15098,7 +15098,7 @@
         "Rank": " ",
         "Name": "Sammy Sos",
         "Age": 27,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1996,
         "Throws": "R"
       },
@@ -15106,7 +15106,7 @@
         "Rank": " ",
         "Name": "Sammy Sos",
         "Age": 34,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 2003,
         "Throws": "R"
       },
@@ -15114,7 +15114,7 @@
         "Rank": " ",
         "Name": "Frank Thomas",
         "Age": 27,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1995,
         "Throws": "R"
       },
@@ -15122,7 +15122,7 @@
         "Rank": " ",
         "Name": "Frank Thomas",
         "Age": 28,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1996,
         "Throws": "R"
       },
@@ -15130,7 +15130,7 @@
         "Rank": " ",
         "Name": "Jim Thome",
         "Age": 26,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1997,
         "Throws": "L"
       },
@@ -15138,7 +15138,7 @@
         "Rank": " ",
         "Name": "Mo Vaugh",
         "Age": 30,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1998,
         "Throws": "L"
       },
@@ -15146,7 +15146,7 @@
         "Rank": " ",
         "Name": "Carl Yastrzemski",
         "Age": 29,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1969,
         "Throws": "L"
       },
@@ -15154,7 +15154,7 @@
         "Rank": " ",
         "Name": "Carl Yastrzemski",
         "Age": 30,
-        "THING": 40,
+        "HomeRuns": 40,
         "Year": 1970,
         "Throws": "L"
       },
@@ -15162,7 +15162,7 @@
         "Rank": "336.",
         "Name": "Hank Aaron",
         "Age": 25,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1959,
         "Throws": "R"
       },
@@ -15170,7 +15170,7 @@
         "Rank": " ",
         "Name": "Hank Aaron",
         "Age": 33,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1967,
         "Throws": "R"
       },
@@ -15178,7 +15178,7 @@
         "Rank": " ",
         "Name": "Moises Alo",
         "Age": 37,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2004,
         "Throws": "R"
       },
@@ -15186,7 +15186,7 @@
         "Rank": " ",
         "Name": "Jeff Bagwell",
         "Age": 26,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1994,
         "Throws": "R"
       },
@@ -15194,7 +15194,7 @@
         "Rank": " ",
         "Name": "Jeff Bagwell",
         "Age": 33,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2001,
         "Throws": "R"
       },
@@ -15202,7 +15202,7 @@
         "Rank": " ",
         "Name": "Jeff Bagwell",
         "Age": 35,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2003,
         "Throws": "R"
       },
@@ -15210,7 +15210,7 @@
         "Rank": " ",
         "Name": "Cody Bellinge",
         "Age": 21,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2017,
         "Throws": "L"
       },
@@ -15218,7 +15218,7 @@
         "Rank": " ",
         "Name": "Bobby Bond",
         "Age": 27,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1973,
         "Throws": "R"
       },
@@ -15226,7 +15226,7 @@
         "Rank": " ",
         "Name": "Kris Bryan",
         "Age": 24,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2016,
         "Throws": "R"
       },
@@ -15234,7 +15234,7 @@
         "Rank": " ",
         "Name": "Robinson Can",
         "Age": 33,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2016,
         "Throws": "L"
       },
@@ -15242,7 +15242,7 @@
         "Rank": " ",
         "Name": "Norm Cas",
         "Age": 27,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1962,
         "Throws": "L"
       },
@@ -15250,7 +15250,7 @@
         "Rank": " ",
         "Name": "Nelson Cru",
         "Age": 36,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2017,
         "Throws": "R"
       },
@@ -15258,7 +15258,7 @@
         "Rank": " ",
         "Name": "Carlos Delgad",
         "Age": 29,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2001,
         "Throws": "L"
       },
@@ -15266,7 +15266,7 @@
         "Rank": " ",
         "Name": "Joe DiMaggio",
         "Age": 33,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1948,
         "Throws": "R"
       },
@@ -15274,7 +15274,7 @@
         "Rank": " ",
         "Name": "Jim Edmond",
         "Age": 33,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2003,
         "Throws": "L"
       },
@@ -15282,7 +15282,7 @@
         "Rank": " ",
         "Name": "Edwin Encarnacio",
         "Age": 32,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2015,
         "Throws": "R"
       },
@@ -15290,7 +15290,7 @@
         "Rank": " ",
         "Name": "Cecil Fielde",
         "Age": 32,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1996,
         "Throws": "R"
       },
@@ -15298,7 +15298,7 @@
         "Rank": " ",
         "Name": "Brian Gile",
         "Age": 28,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1999,
         "Throws": "L"
       },
@@ -15306,7 +15306,7 @@
         "Rank": " ",
         "Name": "Juan Gonzale",
         "Age": 29,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1999,
         "Throws": "R"
       },
@@ -15314,7 +15314,7 @@
         "Rank": " ",
         "Name": "Vladimir Guerrero",
         "Age": 27,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2002,
         "Throws": "R"
       },
@@ -15322,7 +15322,7 @@
         "Rank": " ",
         "Name": "Vladimir Guerrero",
         "Age": 29,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2004,
         "Throws": "R"
       },
@@ -15330,7 +15330,7 @@
         "Rank": " ",
         "Name": "Rogers Hornsby",
         "Age": 29,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1925,
         "Throws": "R"
       },
@@ -15338,7 +15338,7 @@
         "Rank": " ",
         "Name": "Rogers Hornsby",
         "Age": 33,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1929,
         "Throws": "R"
       },
@@ -15346,7 +15346,7 @@
         "Rank": " ",
         "Name": "Reggie Jackson",
         "Age": 36,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1982,
         "Throws": "L"
       },
@@ -15354,7 +15354,7 @@
         "Rank": " ",
         "Name": "Matt Kem",
         "Age": 26,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2011,
         "Throws": "R"
       },
@@ -15362,7 +15362,7 @@
         "Rank": " ",
         "Name": "Harmon Killebrew",
         "Age": 30,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1966,
         "Throws": "R"
       },
@@ -15370,7 +15370,7 @@
         "Rank": " ",
         "Name": "Paul Konerk",
         "Age": 34,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2010,
         "Throws": "R"
       },
@@ -15378,7 +15378,7 @@
         "Rank": " ",
         "Name": "Greg Luzinsk",
         "Age": 26,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1977,
         "Throws": "R"
       },
@@ -15386,7 +15386,7 @@
         "Rank": " ",
         "Name": "Fred Lyn",
         "Age": 27,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1979,
         "Throws": "L"
       },
@@ -15394,7 +15394,7 @@
         "Rank": " ",
         "Name": "Roger Mari",
         "Age": 25,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1960,
         "Throws": "L"
       },
@@ -15402,7 +15402,7 @@
         "Rank": " ",
         "Name": "Eddie Mathews",
         "Age": 28,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1960,
         "Throws": "L"
       },
@@ -15410,7 +15410,7 @@
         "Rank": " ",
         "Name": "Lee Ma",
         "Age": 28,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1971,
         "Throws": "R"
       },
@@ -15418,7 +15418,7 @@
         "Rank": " ",
         "Name": "Willie McCovey",
         "Age": 27,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1965,
         "Throws": "L"
       },
@@ -15426,7 +15426,7 @@
         "Rank": " ",
         "Name": "Willie McCovey",
         "Age": 32,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1970,
         "Throws": "L"
       },
@@ -15434,7 +15434,7 @@
         "Rank": " ",
         "Name": "Mark McGwir",
         "Age": 26,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1990,
         "Throws": "R"
       },
@@ -15442,7 +15442,7 @@
         "Rank": " ",
         "Name": "Mark McGwir",
         "Age": 31,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1995,
         "Throws": "R"
       },
@@ -15450,7 +15450,7 @@
         "Rank": " ",
         "Name": "Stan Musial",
         "Age": 27,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1948,
         "Throws": "L"
       },
@@ -15458,7 +15458,7 @@
         "Rank": " ",
         "Name": "Rafael Palmeir",
         "Age": 30,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1995,
         "Throws": "L"
       },
@@ -15466,7 +15466,7 @@
         "Rank": " ",
         "Name": "Rafael Palmeir",
         "Age": 31,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1996,
         "Throws": "L"
       },
@@ -15474,7 +15474,7 @@
         "Rank": " ",
         "Name": "Rafael Palmeir",
         "Age": 35,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2000,
         "Throws": "L"
       },
@@ -15482,7 +15482,7 @@
         "Rank": " ",
         "Name": "Carlos Pen",
         "Age": 31,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2009,
         "Throws": "L"
       },
@@ -15490,7 +15490,7 @@
         "Rank": " ",
         "Name": "Boog Powel",
         "Age": 22,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1964,
         "Throws": "L"
       },
@@ -15498,7 +15498,7 @@
         "Rank": " ",
         "Name": "Jim Rice",
         "Age": 24,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1977,
         "Throws": "R"
       },
@@ -15506,7 +15506,7 @@
         "Rank": " ",
         "Name": "Jim Rice",
         "Age": 26,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1979,
         "Throws": "R"
       },
@@ -15514,7 +15514,7 @@
         "Rank": " ",
         "Name": "Jim Rice",
         "Age": 30,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1983,
         "Throws": "R"
       },
@@ -15522,7 +15522,7 @@
         "Rank": " ",
         "Name": "Frank Robinson",
         "Age": 26,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1962,
         "Throws": "R"
       },
@@ -15530,7 +15530,7 @@
         "Rank": " ",
         "Name": "Richie Sexso",
         "Age": 30,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2005,
         "Throws": "R"
       },
@@ -15538,7 +15538,7 @@
         "Rank": " ",
         "Name": "Gary Sheffiel",
         "Age": 34,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2003,
         "Throws": "R"
       },
@@ -15546,7 +15546,7 @@
         "Rank": " ",
         "Name": "Roy Siever",
         "Age": 31,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1958,
         "Throws": "R"
       },
@@ -15554,7 +15554,7 @@
         "Rank": " ",
         "Name": "Alfonso Sorian",
         "Age": 26,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2002,
         "Throws": "R"
       },
@@ -15562,7 +15562,7 @@
         "Rank": " ",
         "Name": "Vern Stephen",
         "Age": 28,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1949,
         "Throws": "R"
       },
@@ -15570,7 +15570,7 @@
         "Rank": " ",
         "Name": "Darryl Strawberr",
         "Age": 25,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1987,
         "Throws": "L"
       },
@@ -15578,7 +15578,7 @@
         "Rank": " ",
         "Name": "Darryl Strawberr",
         "Age": 26,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1988,
         "Throws": "L"
       },
@@ -15586,7 +15586,7 @@
         "Rank": " ",
         "Name": "Mark Teixeir",
         "Age": 29,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2009,
         "Throws": "B"
       },
@@ -15594,7 +15594,7 @@
         "Rank": " ",
         "Name": "Mark Teixeir",
         "Age": 31,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2011,
         "Throws": "B"
       },
@@ -15602,7 +15602,7 @@
         "Rank": " ",
         "Name": "Frank Thomas",
         "Age": 38,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 2006,
         "Throws": "R"
       },
@@ -15610,7 +15610,7 @@
         "Rank": " ",
         "Name": "Gorman Thoma",
         "Age": 31,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1982,
         "Throws": "R"
       },
@@ -15618,7 +15618,7 @@
         "Rank": " ",
         "Name": "Mo Vaugh",
         "Age": 27,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1995,
         "Throws": "L"
       },
@@ -15626,7 +15626,7 @@
         "Rank": " ",
         "Name": "Ken William",
         "Age": 32,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1922,
         "Throws": "L"
       },
@@ -15634,7 +15634,7 @@
         "Rank": " ",
         "Name": "Hack Wilson",
         "Age": 29,
-        "THING": 39,
+        "HomeRuns": 39,
         "Year": 1929,
         "Throws": "R"
       },
@@ -15642,7 +15642,7 @@
         "Rank": "396.",
         "Name": "Hank Aaron",
         "Age": 36,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1970,
         "Throws": "R"
       },
@@ -15650,7 +15650,7 @@
         "Rank": " ",
         "Name": "Joe Adcoc",
         "Age": 28,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1956,
         "Throws": "R"
       },
@@ -15658,7 +15658,7 @@
         "Rank": " ",
         "Name": "Moises Alo",
         "Age": 31,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1998,
         "Throws": "R"
       },
@@ -15666,7 +15666,7 @@
         "Rank": " ",
         "Name": "Albert Bell",
         "Age": 26,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1993,
         "Throws": "R"
       },
@@ -15674,7 +15674,7 @@
         "Rank": " ",
         "Name": "Jay Bel",
         "Age": 33,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1999,
         "Throws": "R"
       },
@@ -15682,7 +15682,7 @@
         "Rank": " ",
         "Name": "Carlos Beltra",
         "Age": 27,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2004,
         "Throws": "B"
       },
@@ -15690,7 +15690,7 @@
         "Rank": " ",
         "Name": "Wally Berge",
         "Age": 24,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1930,
         "Throws": "R"
       },
@@ -15698,7 +15698,7 @@
         "Rank": " ",
         "Name": "Jeromy Burnit",
         "Age": 29,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1998,
         "Throws": "L"
       },
@@ -15706,7 +15706,7 @@
         "Rank": " ",
         "Name": "Miguel Cabrer",
         "Age": 27,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2010,
         "Throws": "R"
       },
@@ -15714,7 +15714,7 @@
         "Rank": " ",
         "Name": "Miguel Cabrer",
         "Age": 33,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2016,
         "Throws": "R"
       },
@@ -15722,7 +15722,7 @@
         "Rank": " ",
         "Name": "Bob Cer",
         "Age": 33,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1958,
         "Throws": "R"
       },
@@ -15730,7 +15730,7 @@
         "Rank": " ",
         "Name": "Nate Colber",
         "Age": 24,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1970,
         "Throws": "R"
       },
@@ -15738,7 +15738,7 @@
         "Rank": " ",
         "Name": "Nate Colber",
         "Age": 26,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1972,
         "Throws": "R"
       },
@@ -15746,7 +15746,7 @@
         "Rank": " ",
         "Name": "Chris Davi",
         "Age": 30,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2016,
         "Throws": "L"
       },
@@ -15754,7 +15754,7 @@
         "Rank": " ",
         "Name": "Carlos Delgad",
         "Age": 26,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1998,
         "Throws": "L"
       },
@@ -15762,7 +15762,7 @@
         "Rank": " ",
         "Name": "Carlos Delgad",
         "Age": 34,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2006,
         "Throws": "L"
       },
@@ -15770,7 +15770,7 @@
         "Rank": " ",
         "Name": "Carlos Delgad",
         "Age": 36,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2008,
         "Throws": "L"
       },
@@ -15778,7 +15778,7 @@
         "Rank": " ",
         "Name": "Adam Dun",
         "Age": 29,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2009,
         "Throws": "L"
       },
@@ -15786,7 +15786,7 @@
         "Rank": " ",
         "Name": "Adam Dun",
         "Age": 30,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2010,
         "Throws": "L"
       },
@@ -15794,7 +15794,7 @@
         "Rank": " ",
         "Name": "Edwin Encarnacio",
         "Age": 34,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2017,
         "Throws": "R"
       },
@@ -15802,7 +15802,7 @@
         "Rank": " ",
         "Name": "Prince Fielde",
         "Age": 27,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2011,
         "Throws": "L"
       },
@@ -15810,7 +15810,7 @@
         "Rank": " ",
         "Name": "Jason Giamb",
         "Age": 30,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2001,
         "Throws": "L"
       },
@@ -15818,7 +15818,7 @@
         "Rank": " ",
         "Name": "Brian Gile",
         "Age": 31,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2002,
         "Throws": "L"
       },
@@ -15826,7 +15826,7 @@
         "Rank": " ",
         "Name": "Troy Glau",
         "Age": 29,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2006,
         "Throws": "R"
       },
@@ -15834,7 +15834,7 @@
         "Rank": " ",
         "Name": "Vladimir Guerrero",
         "Age": 23,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1998,
         "Throws": "R"
       },
@@ -15842,7 +15842,7 @@
         "Rank": " ",
         "Name": "Howard Johnso",
         "Age": 30,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1991,
         "Throws": "B"
       },
@@ -15850,7 +15850,7 @@
         "Rank": " ",
         "Name": "Chipper Jones",
         "Age": 29,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2001,
         "Throws": "B"
       },
@@ -15858,7 +15858,7 @@
         "Rank": " ",
         "Name": "Chuck Klein",
         "Age": 27,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1932,
         "Throws": "L"
       },
@@ -15866,7 +15866,7 @@
         "Rank": " ",
         "Name": "Jim Lemo",
         "Age": 32,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1960,
         "Throws": "R"
       },
@@ -15874,7 +15874,7 @@
         "Rank": " ",
         "Name": "J.D. Martine",
         "Age": 27,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2015,
         "Throws": "R"
       },
@@ -15882,7 +15882,7 @@
         "Rank": " ",
         "Name": "Lee Ma",
         "Age": 26,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1969,
         "Throws": "R"
       },
@@ -15890,7 +15890,7 @@
         "Rank": " ",
         "Name": "Willie Mays",
         "Age": 32,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1963,
         "Throws": "R"
       },
@@ -15898,7 +15898,7 @@
         "Rank": " ",
         "Name": "Logan Morriso",
         "Age": 29,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2017,
         "Throws": "L"
       },
@@ -15906,7 +15906,7 @@
         "Rank": " ",
         "Name": "Mike Moustaka",
         "Age": 28,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2017,
         "Throws": "L"
       },
@@ -15914,7 +15914,7 @@
         "Rank": " ",
         "Name": "Magglio Ordone",
         "Age": 28,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2002,
         "Throws": "R"
       },
@@ -15922,7 +15922,7 @@
         "Rank": " ",
         "Name": "David Orti",
         "Age": 40,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2016,
         "Throws": "L"
       },
@@ -15930,7 +15930,7 @@
         "Rank": " ",
         "Name": "Mel Ott",
         "Age": 23,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1932,
         "Throws": "L"
       },
@@ -15938,7 +15938,7 @@
         "Rank": " ",
         "Name": "Dean Palme",
         "Age": 27,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1996,
         "Throws": "R"
       },
@@ -15946,7 +15946,7 @@
         "Rank": " ",
         "Name": "Dean Palme",
         "Age": 30,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1999,
         "Throws": "R"
       },
@@ -15954,7 +15954,7 @@
         "Rank": " ",
         "Name": "Rafael Palmeir",
         "Age": 32,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1997,
         "Throws": "L"
       },
@@ -15962,7 +15962,7 @@
         "Rank": " ",
         "Name": "Rafael Palmeir",
         "Age": 38,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2003,
         "Throws": "L"
       },
@@ -15970,7 +15970,7 @@
         "Rank": " ",
         "Name": "Mike Piazza",
         "Age": 31,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2000,
         "Throws": "R"
       },
@@ -15978,7 +15978,7 @@
         "Rank": " ",
         "Name": "Aramis Ramire",
         "Age": 28,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2006,
         "Throws": "R"
       },
@@ -15986,7 +15986,7 @@
         "Rank": " ",
         "Name": "Manny Ramire",
         "Age": 28,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2000,
         "Throws": "R"
       },
@@ -15994,7 +15994,7 @@
         "Rank": " ",
         "Name": "Frank Robinson",
         "Age": 20,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1956,
         "Throws": "R"
       },
@@ -16002,7 +16002,7 @@
         "Rank": " ",
         "Name": "Mike Schmidt",
         "Age": 25,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1975,
         "Throws": "R"
       },
@@ -16010,7 +16010,7 @@
         "Rank": " ",
         "Name": "Mike Schmidt",
         "Age": 26,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1976,
         "Throws": "R"
       },
@@ -16018,7 +16018,7 @@
         "Rank": " ",
         "Name": "Mike Schmidt",
         "Age": 27,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1977,
         "Throws": "R"
       },
@@ -16026,7 +16026,7 @@
         "Rank": " ",
         "Name": "Justin Smoa",
         "Age": 30,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2017,
         "Throws": "B"
       },
@@ -16034,7 +16034,7 @@
         "Rank": " ",
         "Name": "Alfonso Sorian",
         "Age": 27,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2003,
         "Throws": "R"
       },
@@ -16042,7 +16042,7 @@
         "Rank": " ",
         "Name": "Matt Stair",
         "Age": 31,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1999,
         "Throws": "L"
       },
@@ -16050,7 +16050,7 @@
         "Rank": " ",
         "Name": "Mark Teixeir",
         "Age": 24,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2004,
         "Throws": "B"
       },
@@ -16058,7 +16058,7 @@
         "Rank": " ",
         "Name": "Frank Thomas",
         "Age": 26,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1994,
         "Throws": "R"
       },
@@ -16066,7 +16066,7 @@
         "Rank": " ",
         "Name": "Gorman Thoma",
         "Age": 29,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1980,
         "Throws": "R"
       },
@@ -16074,7 +16074,7 @@
         "Rank": " ",
         "Name": "Jim Thome",
         "Age": 25,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1996,
         "Throws": "L"
       },
@@ -16082,7 +16082,7 @@
         "Rank": " ",
         "Name": "Larry Walke",
         "Age": 34,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 2001,
         "Throws": "L"
       },
@@ -16090,7 +16090,7 @@
         "Rank": " ",
         "Name": "Matt William",
         "Age": 27,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1993,
         "Throws": "R"
       },
@@ -16098,7 +16098,7 @@
         "Rank": " ",
         "Name": "Ted Williams",
         "Age": 27,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1946,
         "Throws": "L"
       },
@@ -16106,7 +16106,7 @@
         "Rank": " ",
         "Name": "Ted Williams",
         "Age": 38,
-        "THING": 38,
+        "HomeRuns": 38,
         "Year": 1957,
         "Throws": "L"
       },
@@ -16114,7 +16114,7 @@
         "Rank": "455.",
         "Name": "Dick Alle",
         "Age": 30,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1972,
         "Throws": "R"
       },
@@ -16122,7 +16122,7 @@
         "Rank": " ",
         "Name": "Nolan Arenad",
         "Age": 26,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2017,
         "Throws": "R"
       },
@@ -16130,7 +16130,7 @@
         "Rank": " ",
         "Name": "Rich Aurili",
         "Age": 29,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2001,
         "Throws": "R"
       },
@@ -16138,7 +16138,7 @@
         "Rank": " ",
         "Name": "Ernie Banks",
         "Age": 31,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1962,
         "Throws": "R"
       },
@@ -16146,7 +16146,7 @@
         "Rank": " ",
         "Name": "Albert Bell",
         "Age": 32,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1999,
         "Throws": "R"
       },
@@ -16154,7 +16154,7 @@
         "Rank": " ",
         "Name": "Charlie Blackmo",
         "Age": 30,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2017,
         "Throws": "L"
       },
@@ -16162,7 +16162,7 @@
         "Rank": " ",
         "Name": "Barry Bond",
         "Age": 29,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1994,
         "Throws": "L"
       },
@@ -16170,7 +16170,7 @@
         "Rank": " ",
         "Name": "Barry Bond",
         "Age": 33,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1998,
         "Throws": "L"
       },
@@ -16178,7 +16178,7 @@
         "Rank": " ",
         "Name": "Bobby Bond",
         "Age": 31,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1977,
         "Throws": "R"
       },
@@ -16186,7 +16186,7 @@
         "Rank": " ",
         "Name": "Bret Boon",
         "Age": 32,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2001,
         "Throws": "R"
       },
@@ -16194,7 +16194,7 @@
         "Rank": " ",
         "Name": "Ryan Brau",
         "Age": 24,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2008,
         "Throws": "R"
       },
@@ -16202,7 +16202,7 @@
         "Rank": " ",
         "Name": "Jeromy Burnit",
         "Age": 35,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2004,
         "Throws": "L"
       },
@@ -16210,7 +16210,7 @@
         "Rank": " ",
         "Name": "Pat Burrel",
         "Age": 25,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2002,
         "Throws": "R"
       },
@@ -16218,7 +16218,7 @@
         "Rank": " ",
         "Name": "Miguel Cabrer",
         "Age": 25,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2008,
         "Throws": "R"
       },
@@ -16226,7 +16226,7 @@
         "Rank": " ",
         "Name": "Jose Cansec",
         "Age": 25,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1990,
         "Throws": "R"
       },
@@ -16234,7 +16234,7 @@
         "Rank": " ",
         "Name": "Chris Carte",
         "Age": 27,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2014,
         "Throws": "R"
       },
@@ -16242,7 +16242,7 @@
         "Rank": " ",
         "Name": "Rocky Colavit",
         "Age": 28,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1962,
         "Throws": "R"
       },
@@ -16250,7 +16250,7 @@
         "Rank": " ",
         "Name": "Eric Davi",
         "Age": 25,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1987,
         "Throws": "R"
       },
@@ -16258,7 +16258,7 @@
         "Rank": " ",
         "Name": "Josh Donaldso",
         "Age": 30,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2016,
         "Throws": "R"
       },
@@ -16266,7 +16266,7 @@
         "Rank": " ",
         "Name": "Carlton Fisk",
         "Age": 37,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1985,
         "Throws": "R"
       },
@@ -16274,7 +16274,7 @@
         "Rank": " ",
         "Name": "Jimmie Foxx",
         "Age": 22,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1930,
         "Throws": "R"
       },
@@ -16282,7 +16282,7 @@
         "Rank": " ",
         "Name": "Lou Gehrig",
         "Age": 34,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1937,
         "Throws": "L"
       },
@@ -16290,7 +16290,7 @@
         "Rank": " ",
         "Name": "Jason Giamb",
         "Age": 35,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2006,
         "Throws": "L"
       },
@@ -16298,7 +16298,7 @@
         "Rank": " ",
         "Name": "Brian Gile",
         "Age": 30,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2001,
         "Throws": "L"
       },
@@ -16306,7 +16306,7 @@
         "Rank": " ",
         "Name": "Troy Glau",
         "Age": 28,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2005,
         "Throws": "R"
       },
@@ -16314,7 +16314,7 @@
         "Rank": " ",
         "Name": "Goose Goslin",
         "Age": 29,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1930,
         "Throws": "L"
       },
@@ -16322,7 +16322,7 @@
         "Rank": " ",
         "Name": "Gabby Hartnett",
         "Age": 29,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1930,
         "Throws": "R"
       },
@@ -16330,7 +16330,7 @@
         "Rank": " ",
         "Name": "Jeff Ken",
         "Age": 34,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2002,
         "Throws": "R"
       },
@@ -16338,7 +16338,7 @@
         "Rank": " ",
         "Name": "Ralph Kiner",
         "Age": 29,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1952,
         "Throws": "R"
       },
@@ -16346,7 +16346,7 @@
         "Rank": " ",
         "Name": "Dave Kingma",
         "Age": 27,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1976,
         "Throws": "R"
       },
@@ -16354,7 +16354,7 @@
         "Rank": " ",
         "Name": "Dave Kingma",
         "Age": 33,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1982,
         "Throws": "R"
       },
@@ -16362,7 +16362,7 @@
         "Rank": " ",
         "Name": "Carlos Le",
         "Age": 30,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2006,
         "Throws": "R"
       },
@@ -16370,7 +16370,7 @@
         "Rank": " ",
         "Name": "Ryan Ludwic",
         "Age": 29,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2008,
         "Throws": "R"
       },
@@ -16378,7 +16378,7 @@
         "Rank": " ",
         "Name": "Manny Machad",
         "Age": 23,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2016,
         "Throws": "R"
       },
@@ -16386,7 +16386,7 @@
         "Rank": " ",
         "Name": "Mickey Mantle",
         "Age": 23,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1955,
         "Throws": "B"
       },
@@ -16394,7 +16394,7 @@
         "Rank": " ",
         "Name": "Edgar Martine",
         "Age": 37,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2000,
         "Throws": "R"
       },
@@ -16402,7 +16402,7 @@
         "Rank": " ",
         "Name": "Eddie Mathews",
         "Age": 24,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1956,
         "Throws": "L"
       },
@@ -16410,7 +16410,7 @@
         "Rank": " ",
         "Name": "Willie Mays",
         "Age": 35,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1966,
         "Throws": "R"
       },
@@ -16418,7 +16418,7 @@
         "Rank": " ",
         "Name": "Fred McGrif",
         "Age": 29,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1993,
         "Throws": "L"
       },
@@ -16426,7 +16426,7 @@
         "Rank": " ",
         "Name": "Dale Murph",
         "Age": 29,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1985,
         "Throws": "R"
       },
@@ -16434,7 +16434,7 @@
         "Rank": " ",
         "Name": "Graig Nettle",
         "Age": 32,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1977,
         "Throws": "L"
       },
@@ -16442,7 +16442,7 @@
         "Rank": " ",
         "Name": "David Orti",
         "Age": 39,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2015,
         "Throws": "L"
       },
@@ -16450,7 +16450,7 @@
         "Rank": " ",
         "Name": "Marcell Ozun",
         "Age": 26,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2017,
         "Throws": "R"
       },
@@ -16458,7 +16458,7 @@
         "Rank": " ",
         "Name": "Rafael Palmeir",
         "Age": 28,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1993,
         "Throws": "L"
       },
@@ -16466,7 +16466,7 @@
         "Rank": " ",
         "Name": "Tony Perez",
         "Age": 27,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1969,
         "Throws": "R"
       },
@@ -16474,7 +16474,7 @@
         "Rank": " ",
         "Name": "Boog Powel",
         "Age": 27,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1969,
         "Throws": "L"
       },
@@ -16482,7 +16482,7 @@
         "Rank": " ",
         "Name": "Albert Pujol",
         "Age": 21,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2001,
         "Throws": "R"
       },
@@ -16490,7 +16490,7 @@
         "Rank": " ",
         "Name": "Albert Pujol",
         "Age": 28,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2008,
         "Throws": "R"
       },
@@ -16498,7 +16498,7 @@
         "Rank": " ",
         "Name": "Albert Pujol",
         "Age": 31,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2011,
         "Throws": "R"
       },
@@ -16506,7 +16506,7 @@
         "Rank": " ",
         "Name": "Manny Ramire",
         "Age": 31,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2003,
         "Throws": "R"
       },
@@ -16514,7 +16514,7 @@
         "Rank": " ",
         "Name": "Manny Ramire",
         "Age": 36,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2008,
         "Throws": "R"
       },
@@ -16522,7 +16522,7 @@
         "Rank": " ",
         "Name": "Mark Reynold",
         "Age": 27,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2011,
         "Throws": "R"
       },
@@ -16530,7 +16530,7 @@
         "Rank": " ",
         "Name": "Frank Robinson",
         "Age": 25,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1961,
         "Throws": "R"
       },
@@ -16538,7 +16538,7 @@
         "Rank": " ",
         "Name": "Al Rose",
         "Age": 26,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1950,
         "Throws": "R"
       },
@@ -16546,7 +16546,7 @@
         "Rank": " ",
         "Name": "Hank Saue",
         "Age": 35,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1952,
         "Throws": "R"
       },
@@ -16554,7 +16554,7 @@
         "Rank": " ",
         "Name": "Mike Schmidt",
         "Age": 36,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1986,
         "Throws": "R"
       },
@@ -16562,7 +16562,7 @@
         "Rank": " ",
         "Name": "Giancarlo Stanto",
         "Age": 22,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2012,
         "Throws": "R"
       },
@@ -16570,7 +16570,7 @@
         "Rank": " ",
         "Name": "Giancarlo Stanto",
         "Age": 24,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2014,
         "Throws": "R"
       },
@@ -16578,7 +16578,7 @@
         "Rank": " ",
         "Name": "Darryl Strawberr",
         "Age": 28,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1990,
         "Throws": "L"
       },
@@ -16586,7 +16586,7 @@
         "Rank": " ",
         "Name": "Jim Thome",
         "Age": 29,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2000,
         "Throws": "L"
       },
@@ -16594,7 +16594,7 @@
         "Rank": " ",
         "Name": "Joey Vott",
         "Age": 26,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 2010,
         "Throws": "L"
       },
@@ -16602,7 +16602,7 @@
         "Rank": " ",
         "Name": "Leon Wagne",
         "Age": 28,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1962,
         "Throws": "L"
       },
@@ -16610,7 +16610,7 @@
         "Rank": " ",
         "Name": "Larry Walke",
         "Age": 32,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1999,
         "Throws": "L"
       },
@@ -16618,7 +16618,7 @@
         "Rank": " ",
         "Name": "Tillie Walke",
         "Age": 34,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1922,
         "Throws": "R"
       },
@@ -16626,7 +16626,7 @@
         "Rank": " ",
         "Name": "Billy Williams",
         "Age": 34,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1972,
         "Throws": "L"
       },
@@ -16634,7 +16634,7 @@
         "Rank": " ",
         "Name": "Ted Williams",
         "Age": 22,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1941,
         "Throws": "L"
       },
@@ -16642,7 +16642,7 @@
         "Rank": " ",
         "Name": "Dave Winfield",
         "Age": 30,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1982,
         "Throws": "R"
       },
@@ -16650,9 +16650,4019 @@
         "Rank": " ",
         "Name": "Jim Wyn",
         "Age": 25,
-        "THING": 37,
+        "HomeRuns": 37,
         "Year": 1967,
         "Throws": "R"
+      }
+    ],
+    "battingAvgs" : [
+      {
+        "Rank": "1.",
+        "Name": "Hugh Duffy+",
+        "Age": 27,
+        "BattingAvg": 0.4397,
+        "Year": 1894,
+        "Throws": "R"
+      },
+      {
+        "Rank": "2.",
+        "Name": "Tip O'Neill",
+        "Age": 29,
+        "BattingAvg": 0.4352,
+        "Year": 1887,
+        "Throws": "R"
+      },
+      {
+        "Rank": "3.",
+        "Name": "Ross Barnes",
+        "Age": 26,
+        "BattingAvg": 0.4286,
+        "Year": 1876,
+        "Throws": "R"
+      },
+      {
+        "Rank": "4.",
+        "Name": "Nap Lajoie+",
+        "Age": 26,
+        "BattingAvg": 0.4265,
+        "Year": 1901,
+        "Throws": "R"
+      },
+      {
+        "Rank": "5.",
+        "Name": "Willie Keeler+",
+        "Age": 25,
+        "BattingAvg": 0.4238,
+        "Year": 1897,
+        "Throws": "L"
+      },
+      {
+        "Rank": "6.",
+        "Name": "Rogers Hornsby+",
+        "Age": 28,
+        "BattingAvg": 0.4235,
+        "Year": 1924,
+        "Throws": "R"
+      },
+      {
+        "Rank": "7.",
+        "Name": "George Sisler+",
+        "Age": 29,
+        "BattingAvg": 0.4198,
+        "Year": 1922,
+        "Throws": "L"
+      },
+      {
+        "Rank": "8.",
+        "Name": "Ty Cobb+",
+        "Age": 24,
+        "BattingAvg": 0.4196,
+        "Year": 1911,
+        "Throws": "L"
+      },
+      {
+        "Rank": "9.",
+        "Name": "Tuck Turner",
+        "Age": 27,
+        "BattingAvg": 0.4179,
+        "Year": 1894,
+        "Throws": "B"
+      },
+      {
+        "Rank": "10.",
+        "Name": "Sam Thompson+",
+        "Age": 34,
+        "BattingAvg": 0.4146,
+        "Year": 1894,
+        "Throws": "L"
+      },
+      {
+        "Rank": "11.",
+        "Name": "Fred Dunlap",
+        "Age": 25,
+        "BattingAvg": 0.412,
+        "Year": 1884,
+        "Throws": "R"
+      },
+      {
+        "Rank": "12.",
+        "Name": "Jesse Burkett+",
+        "Age": 27,
+        "BattingAvg": 0.4096,
+        "Year": 1896,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ed Delahanty+",
+        "Age": 31,
+        "BattingAvg": 0.4096,
+        "Year": 1899,
+        "Throws": "R"
+      },
+      {
+        "Rank": "14.",
+        "Name": "Ty Cobb+",
+        "Age": 25,
+        "BattingAvg": 0.4087,
+        "Year": 1912,
+        "Throws": "L"
+      },
+      {
+        "Rank": "15.",
+        "Name": "Shoeless Joe Jackson",
+        "Age": 23,
+        "BattingAvg": 0.4081,
+        "Year": 1911,
+        "Throws": "L"
+      },
+      {
+        "Rank": "16.",
+        "Name": "George Sisler+",
+        "Age": 27,
+        "BattingAvg": 0.4073,
+        "Year": 1920,
+        "Throws": "L"
+      },
+      {
+        "Rank": "17.",
+        "Name": "Ted Williams+",
+        "Age": 22,
+        "BattingAvg": 0.4057,
+        "Year": 1941,
+        "Throws": "L"
+      },
+      {
+        "Rank": "18.",
+        "Name": "Jesse Burkett+",
+        "Age": 26,
+        "BattingAvg": 0.4054,
+        "Year": 1895,
+        "Throws": "L"
+      },
+      {
+        "Rank": "19.",
+        "Name": "Ed Delahanty+",
+        "Age": 26,
+        "BattingAvg": 0.4049,
+        "Year": 1894,
+        "Throws": "R"
+      },
+      {
+        "Rank": "20.",
+        "Name": "Ed Delahanty+",
+        "Age": 27,
+        "BattingAvg": 0.4042,
+        "Year": 1895,
+        "Throws": "R"
+      },
+      {
+        "Rank": "21.",
+        "Name": "Billy Hamilton+",
+        "Age": 28,
+        "BattingAvg": 0.4032,
+        "Year": 1894,
+        "Throws": "L"
+      },
+      {
+        "Rank": "22.",
+        "Name": "Rogers Hornsby+",
+        "Age": 29,
+        "BattingAvg": 0.4028,
+        "Year": 1925,
+        "Throws": "R"
+      },
+      {
+        "Rank": "23.",
+        "Name": "Harry Heilmann+",
+        "Age": 28,
+        "BattingAvg": 0.4027,
+        "Year": 1923,
+        "Throws": "R"
+      },
+      {
+        "Rank": "24.",
+        "Name": "Pete Browning",
+        "Age": 26,
+        "BattingAvg": 0.4022,
+        "Year": 1887,
+        "Throws": "R"
+      },
+      {
+        "Rank": "25.",
+        "Name": "Rogers Hornsby+",
+        "Age": 26,
+        "BattingAvg": 0.4013,
+        "Year": 1922,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Bill Terry+",
+        "Age": 31,
+        "BattingAvg": 0.4013,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": "27.",
+        "Name": "Hughie Jennings+",
+        "Age": 27,
+        "BattingAvg": 0.4012,
+        "Year": 1896,
+        "Throws": "R"
+      },
+      {
+        "Rank": "28.",
+        "Name": "Ty Cobb+",
+        "Age": 35,
+        "BattingAvg": 0.4011,
+        "Year": 1922,
+        "Throws": "L"
+      },
+      {
+        "Rank": "29.",
+        "Name": "Cap Anson+",
+        "Age": 29,
+        "BattingAvg": 0.3994,
+        "Year": 1881,
+        "Throws": "R"
+      },
+      {
+        "Rank": "30.",
+        "Name": "Lefty O'Doul",
+        "Age": 32,
+        "BattingAvg": 0.3981,
+        "Year": 1929,
+        "Throws": "L"
+      },
+      {
+        "Rank": "31.",
+        "Name": "Harry Heilmann+",
+        "Age": 32,
+        "BattingAvg": 0.398,
+        "Year": 1927,
+        "Throws": "R"
+      },
+      {
+        "Rank": "32.",
+        "Name": "Rogers Hornsby+",
+        "Age": 25,
+        "BattingAvg": 0.397,
+        "Year": 1921,
+        "Throws": "R"
+      },
+      {
+        "Rank": "33.",
+        "Name": "Ed Delahanty+",
+        "Age": 28,
+        "BattingAvg": 0.3968,
+        "Year": 1896,
+        "Throws": "R"
+      },
+      {
+        "Rank": "34.",
+        "Name": "Jesse Burkett+",
+        "Age": 30,
+        "BattingAvg": 0.3961,
+        "Year": 1899,
+        "Throws": "L"
+      },
+      {
+        "Rank": "35.",
+        "Name": "Shoeless Joe Jackson",
+        "Age": 24,
+        "BattingAvg": 0.3951,
+        "Year": 1912,
+        "Throws": "L"
+      },
+      {
+        "Rank": "36.",
+        "Name": "Jack Clements",
+        "Age": 30,
+        "BattingAvg": 0.3944,
+        "Year": 1895,
+        "Throws": "L"
+      },
+      {
+        "Rank": "37.",
+        "Name": "Tony Gwynn+",
+        "Age": 34,
+        "BattingAvg": 0.3938,
+        "Year": 1994,
+        "Throws": "L"
+      },
+      {
+        "Rank": "38.",
+        "Name": "Harry Heilmann+",
+        "Age": 26,
+        "BattingAvg": 0.3937,
+        "Year": 1921,
+        "Throws": "R"
+      },
+      {
+        "Rank": "39.",
+        "Name": "Harry Heilmann+",
+        "Age": 30,
+        "BattingAvg": 0.3927,
+        "Year": 1925,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Babe Ruth+",
+        "Age": 28,
+        "BattingAvg": 0.3927,
+        "Year": 1923,
+        "Throws": "L"
+      },
+      {
+        "Rank": "41.",
+        "Name": "Babe Herman",
+        "Age": 27,
+        "BattingAvg": 0.3925,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Joe Kelley+",
+        "Age": 22,
+        "BattingAvg": 0.3925,
+        "Year": 1894,
+        "Throws": "R"
+      },
+      {
+        "Rank": "43.",
+        "Name": "Sam Thompson+",
+        "Age": 35,
+        "BattingAvg": 0.3922,
+        "Year": 1895,
+        "Throws": "L"
+      },
+      {
+        "Rank": "44.",
+        "Name": "Al Simmons+",
+        "Age": 25,
+        "BattingAvg": 0.3916,
+        "Year": 1927,
+        "Throws": "R"
+      },
+      {
+        "Rank": "45.",
+        "Name": "John McGraw+",
+        "Age": 26,
+        "BattingAvg": 0.391,
+        "Year": 1899,
+        "Throws": "L"
+      },
+      {
+        "Rank": "46.",
+        "Name": "Ty Cobb+",
+        "Age": 26,
+        "BattingAvg": 0.3902,
+        "Year": 1913,
+        "Throws": "L"
+      },
+      {
+        "Rank": "47.",
+        "Name": "Al Simmons+",
+        "Age": 29,
+        "BattingAvg": 0.3899,
+        "Year": 1931,
+        "Throws": "R"
+      },
+      {
+        "Rank": "48.",
+        "Name": "George Brett+",
+        "Age": 27,
+        "BattingAvg": 0.3898,
+        "Year": 1980,
+        "Throws": "L"
+      },
+      {
+        "Rank": "49.",
+        "Name": "Fred Clarke+",
+        "Age": 24,
+        "BattingAvg": 0.3897,
+        "Year": 1897,
+        "Throws": "L"
+      },
+      {
+        "Rank": "50.",
+        "Name": "Tris Speaker+",
+        "Age": 37,
+        "BattingAvg": 0.3893,
+        "Year": 1925,
+        "Throws": "L"
+      },
+      {
+        "Rank": "51.",
+        "Name": "Bill Lange",
+        "Age": 24,
+        "BattingAvg": 0.3891,
+        "Year": 1895,
+        "Throws": "R"
+      },
+      {
+        "Rank": "52.",
+        "Name": "Billy Hamilton+",
+        "Age": 29,
+        "BattingAvg": 0.3888,
+        "Year": 1895,
+        "Throws": "L"
+      },
+      {
+        "Rank": "53.",
+        "Name": "Ty Cobb+",
+        "Age": 34,
+        "BattingAvg": 0.3886,
+        "Year": 1921,
+        "Throws": "L"
+      },
+      {
+        "Rank": "54.",
+        "Name": "Ted Williams+",
+        "Age": 38,
+        "BattingAvg": 0.3881,
+        "Year": 1957,
+        "Throws": "L"
+      },
+      {
+        "Rank": "55.",
+        "Name": "Rod Carew+",
+        "Age": 31,
+        "BattingAvg": 0.388,
+        "Year": 1977,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "King Kelly+",
+        "Age": 28,
+        "BattingAvg": 0.388,
+        "Year": 1886,
+        "Throws": "R"
+      },
+      {
+        "Rank": "57.",
+        "Name": "Cap Anson+",
+        "Age": 42,
+        "BattingAvg": 0.3878,
+        "Year": 1894,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Luke Appling+",
+        "Age": 29,
+        "BattingAvg": 0.3878,
+        "Year": 1936,
+        "Throws": "R"
+      },
+      {
+        "Rank": "59.",
+        "Name": "Tris Speaker+",
+        "Age": 32,
+        "BattingAvg": 0.3877,
+        "Year": 1920,
+        "Throws": "L"
+      },
+      {
+        "Rank": "60.",
+        "Name": "Lave Cross",
+        "Age": 28,
+        "BattingAvg": 0.3875,
+        "Year": 1894,
+        "Throws": "R"
+      },
+      {
+        "Rank": "61.",
+        "Name": "Deacon White+",
+        "Age": 29,
+        "BattingAvg": 0.3872,
+        "Year": 1877,
+        "Throws": "L"
+      },
+      {
+        "Rank": "62.",
+        "Name": "Al Simmons+",
+        "Age": 23,
+        "BattingAvg": 0.3869,
+        "Year": 1925,
+        "Throws": "R"
+      },
+      {
+        "Rank": "63.",
+        "Name": "Rogers Hornsby+",
+        "Age": 32,
+        "BattingAvg": 0.3868,
+        "Year": 1928,
+        "Throws": "R"
+      },
+      {
+        "Rank": "64.",
+        "Name": "Tris Speaker+",
+        "Age": 28,
+        "BattingAvg": 0.3864,
+        "Year": 1916,
+        "Throws": "L"
+      },
+      {
+        "Rank": "65.",
+        "Name": "Willie Keeler+",
+        "Age": 24,
+        "BattingAvg": 0.386,
+        "Year": 1896,
+        "Throws": "L"
+      },
+      {
+        "Rank": "66.",
+        "Name": "Chuck Klein+",
+        "Age": 25,
+        "BattingAvg": 0.3858,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": "67.",
+        "Name": "Hughie Jennings+",
+        "Age": 26,
+        "BattingAvg": 0.3856,
+        "Year": 1895,
+        "Throws": "R"
+      },
+      {
+        "Rank": "68.",
+        "Name": "Willie Keeler+",
+        "Age": 26,
+        "BattingAvg": 0.385,
+        "Year": 1898,
+        "Throws": "L"
+      },
+      {
+        "Rank": "69.",
+        "Name": "Arky Vaughan+",
+        "Age": 23,
+        "BattingAvg": 0.3848,
+        "Year": 1935,
+        "Throws": "L"
+      },
+      {
+        "Rank": "70.",
+        "Name": "Rogers Hornsby+",
+        "Age": 27,
+        "BattingAvg": 0.3844,
+        "Year": 1923,
+        "Throws": "R"
+      },
+      {
+        "Rank": "71.",
+        "Name": "Ty Cobb+",
+        "Age": 32,
+        "BattingAvg": 0.3843,
+        "Year": 1919,
+        "Throws": "L"
+      },
+      {
+        "Rank": "72.",
+        "Name": "Nap Lajoie+",
+        "Age": 35,
+        "BattingAvg": 0.3841,
+        "Year": 1910,
+        "Throws": "R"
+      },
+      {
+        "Rank": "73.",
+        "Name": "Ty Cobb+",
+        "Age": 23,
+        "BattingAvg": 0.3834,
+        "Year": 1910,
+        "Throws": "L"
+      },
+      {
+        "Rank": "74.",
+        "Name": "Jesse Burkett+",
+        "Age": 28,
+        "BattingAvg": 0.383,
+        "Year": 1897,
+        "Throws": "L"
+      },
+      {
+        "Rank": "75.",
+        "Name": "Tris Speaker+",
+        "Age": 24,
+        "BattingAvg": 0.3828,
+        "Year": 1912,
+        "Throws": "L"
+      },
+      {
+        "Rank": "76.",
+        "Name": "Ty Cobb+",
+        "Age": 30,
+        "BattingAvg": 0.3827,
+        "Year": 1917,
+        "Throws": "L"
+      },
+      {
+        "Rank": "77.",
+        "Name": "Lefty O'Doul",
+        "Age": 33,
+        "BattingAvg": 0.3826,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": "78.",
+        "Name": "Shoeless Joe Jackson",
+        "Age": 32,
+        "BattingAvg": 0.3825,
+        "Year": 1920,
+        "Throws": "L"
+      },
+      {
+        "Rank": "79.",
+        "Name": "Ty Cobb+",
+        "Age": 31,
+        "BattingAvg": 0.3824,
+        "Year": 1918,
+        "Throws": "L"
+      },
+      {
+        "Rank": "80.",
+        "Name": "Babe Herman",
+        "Age": 26,
+        "BattingAvg": 0.3814,
+        "Year": 1929,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Honus Wagner+",
+        "Age": 26,
+        "BattingAvg": 0.3814,
+        "Year": 1900,
+        "Throws": "R"
+      },
+      {
+        "Rank": "82.",
+        "Name": "Joe DiMaggio+",
+        "Age": 24,
+        "BattingAvg": 0.381,
+        "Year": 1939,
+        "Throws": "R"
+      },
+      {
+        "Rank": "83.",
+        "Name": "Al Simmons+",
+        "Age": 28,
+        "BattingAvg": 0.3809,
+        "Year": 1930,
+        "Throws": "R"
+      },
+      {
+        "Rank": "84.",
+        "Name": "Rogers Hornsby+",
+        "Age": 33,
+        "BattingAvg": 0.3804,
+        "Year": 1929,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Paul Waner+",
+        "Age": 24,
+        "BattingAvg": 0.3804,
+        "Year": 1927,
+        "Throws": "L"
+      },
+      {
+        "Rank": "86.",
+        "Name": "Billy Hamilton+",
+        "Age": 27,
+        "BattingAvg": 0.3803,
+        "Year": 1893,
+        "Throws": "L"
+      },
+      {
+        "Rank": "87.",
+        "Name": "Tris Speaker+",
+        "Age": 35,
+        "BattingAvg": 0.3798,
+        "Year": 1923,
+        "Throws": "L"
+      },
+      {
+        "Rank": "88.",
+        "Name": "Goose Goslin+",
+        "Age": 27,
+        "BattingAvg": 0.3794,
+        "Year": 1928,
+        "Throws": "L"
+      },
+      {
+        "Rank": "89.",
+        "Name": "Freddie Lindstrom+",
+        "Age": 24,
+        "BattingAvg": 0.3793,
+        "Year": 1930,
+        "Throws": "R"
+      },
+      {
+        "Rank": "90.",
+        "Name": "Larry Walker",
+        "Age": 32,
+        "BattingAvg": 0.379,
+        "Year": 1999,
+        "Throws": "L"
+      },
+      {
+        "Rank": "91.",
+        "Name": "Willie Keeler+",
+        "Age": 27,
+        "BattingAvg": 0.3789,
+        "Year": 1899,
+        "Throws": "L"
+      },
+      {
+        "Rank": "92.",
+        "Name": "Lou Gehrig+",
+        "Age": 27,
+        "BattingAvg": 0.3787,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": "93.",
+        "Name": "Pete Browning",
+        "Age": 21,
+        "BattingAvg": 0.3785,
+        "Year": 1882,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "John Cassidy",
+        "Age": 22,
+        "BattingAvg": 0.3785,
+        "Year": 1877,
+        "Throws": "R"
+      },
+      {
+        "Rank": "95.",
+        "Name": "Ty Cobb+",
+        "Age": 38,
+        "BattingAvg": 0.3783,
+        "Year": 1925,
+        "Throws": "L"
+      },
+      {
+        "Rank": "96.",
+        "Name": "Babe Ruth+",
+        "Age": 29,
+        "BattingAvg": 0.3781,
+        "Year": 1924,
+        "Throws": "L"
+      },
+      {
+        "Rank": "97.",
+        "Name": "Sam Crawford+",
+        "Age": 31,
+        "BattingAvg": 0.378,
+        "Year": 1911,
+        "Throws": "L"
+      },
+      {
+        "Rank": "98.",
+        "Name": "Earl Averill+",
+        "Age": 34,
+        "BattingAvg": 0.3779,
+        "Year": 1936,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Tris Speaker+",
+        "Age": 34,
+        "BattingAvg": 0.3779,
+        "Year": 1922,
+        "Throws": "L"
+      },
+      {
+        "Rank": "100.",
+        "Name": "Nap Lajoie+",
+        "Age": 27,
+        "BattingAvg": 0.3778,
+        "Year": 1902,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Babe Ruth+",
+        "Age": 26,
+        "BattingAvg": 0.3778,
+        "Year": 1921,
+        "Throws": "L"
+      },
+      {
+        "Rank": "102.",
+        "Name": "Heinie Manush+",
+        "Age": 26,
+        "BattingAvg": 0.3777,
+        "Year": 1928,
+        "Throws": "L"
+      },
+      {
+        "Rank": "103.",
+        "Name": "Heinie Manush+",
+        "Age": 24,
+        "BattingAvg": 0.3775,
+        "Year": 1926,
+        "Throws": "L"
+      },
+      {
+        "Rank": "104.",
+        "Name": "Ed Delahanty+",
+        "Age": 29,
+        "BattingAvg": 0.3774,
+        "Year": 1897,
+        "Throws": "R"
+      },
+      {
+        "Rank": "105.",
+        "Name": "Ty Cobb+",
+        "Age": 22,
+        "BattingAvg": 0.377,
+        "Year": 1909,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie Keeler+",
+        "Age": 23,
+        "BattingAvg": 0.377,
+        "Year": 1895,
+        "Throws": "L"
+      },
+      {
+        "Rank": "107.",
+        "Name": "Cy Seymour",
+        "Age": 32,
+        "BattingAvg": 0.3769,
+        "Year": 1905,
+        "Throws": "L"
+      },
+      {
+        "Rank": "108.",
+        "Name": "Stan Musial+",
+        "Age": 27,
+        "BattingAvg": 0.3764,
+        "Year": 1948,
+        "Throws": "L"
+      },
+      {
+        "Rank": "109.",
+        "Name": "Ed Delahanty+",
+        "Age": 34,
+        "BattingAvg": 0.3763,
+        "Year": 1902,
+        "Throws": "R"
+      },
+      {
+        "Rank": "110.",
+        "Name": "Bug Holliday",
+        "Age": 27,
+        "BattingAvg": 0.3762,
+        "Year": 1894,
+        "Throws": "R"
+      },
+      {
+        "Rank": "111.",
+        "Name": "Nap Lajoie+",
+        "Age": 29,
+        "BattingAvg": 0.3761,
+        "Year": 1904,
+        "Throws": "R"
+      },
+      {
+        "Rank": "112.",
+        "Name": "Jesse Burkett+",
+        "Age": 32,
+        "BattingAvg": 0.376,
+        "Year": 1901,
+        "Throws": "L"
+      },
+      {
+        "Rank": "113.",
+        "Name": "Babe Ruth+",
+        "Age": 25,
+        "BattingAvg": 0.3755,
+        "Year": 1920,
+        "Throws": "L"
+      },
+      {
+        "Rank": "114.",
+        "Name": "Zack Wheat+",
+        "Age": 36,
+        "BattingAvg": 0.3746,
+        "Year": 1924,
+        "Throws": "L"
+      },
+      {
+        "Rank": "115.",
+        "Name": "Joe Medwick+",
+        "Age": 25,
+        "BattingAvg": 0.3744,
+        "Year": 1937,
+        "Throws": "R"
+      },
+      {
+        "Rank": "116.",
+        "Name": "Dan Brouthers+",
+        "Age": 25,
+        "BattingAvg": 0.3741,
+        "Year": 1883,
+        "Throws": "L"
+      },
+      {
+        "Rank": "117.",
+        "Name": "Lou Gehrig+",
+        "Age": 25,
+        "BattingAvg": 0.3737,
+        "Year": 1928,
+        "Throws": "L"
+      },
+      {
+        "Rank": "118.",
+        "Name": "George Watkins",
+        "Age": 30,
+        "BattingAvg": 0.3734,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": "119.",
+        "Name": "Lou Gehrig+",
+        "Age": 24,
+        "BattingAvg": 0.3733,
+        "Year": 1927,
+        "Throws": "L"
+      },
+      {
+        "Rank": "120.",
+        "Name": "Dan Brouthers+",
+        "Age": 31,
+        "BattingAvg": 0.3732,
+        "Year": 1889,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Pete Browning",
+        "Age": 29,
+        "BattingAvg": 0.3732,
+        "Year": 1890,
+        "Throws": "R"
+      },
+      {
+        "Rank": "122.",
+        "Name": "Shoeless Joe Jackson",
+        "Age": 25,
+        "BattingAvg": 0.3731,
+        "Year": 1913,
+        "Throws": "L"
+      },
+      {
+        "Rank": "123.",
+        "Name": "Babe Ruth+",
+        "Age": 36,
+        "BattingAvg": 0.3727,
+        "Year": 1931,
+        "Throws": "L"
+      },
+      {
+        "Rank": "124.",
+        "Name": "Paul Waner+",
+        "Age": 33,
+        "BattingAvg": 0.3726,
+        "Year": 1936,
+        "Throws": "L"
+      },
+      {
+        "Rank": "125.",
+        "Name": "Sam Thompson+",
+        "Age": 27,
+        "BattingAvg": 0.3725,
+        "Year": 1887,
+        "Throws": "L"
+      },
+      {
+        "Rank": "126.",
+        "Name": "Nomar Garciaparra",
+        "Age": 26,
+        "BattingAvg": 0.3724,
+        "Year": 2000,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Todd Helton",
+        "Age": 26,
+        "BattingAvg": 0.3724,
+        "Year": 2000,
+        "Throws": "L"
+      },
+      {
+        "Rank": "128.",
+        "Name": "Bill Terry+",
+        "Age": 30,
+        "BattingAvg": 0.3723,
+        "Year": 1929,
+        "Throws": "L"
+      },
+      {
+        "Rank": "129.",
+        "Name": "Ichiro Suzuki",
+        "Age": 30,
+        "BattingAvg": 0.3722,
+        "Year": 2004,
+        "Throws": "L"
+      },
+      {
+        "Rank": "130.",
+        "Name": "Eddie Collins+",
+        "Age": 33,
+        "BattingAvg": 0.3721,
+        "Year": 1920,
+        "Throws": "L"
+      },
+      {
+        "Rank": "131.",
+        "Name": "Tommy Tucker",
+        "Age": 25,
+        "BattingAvg": 0.3719,
+        "Year": 1889,
+        "Throws": "B"
+      },
+      {
+        "Rank": "132.",
+        "Name": "Babe Ruth+",
+        "Age": 31,
+        "BattingAvg": 0.3717,
+        "Year": 1926,
+        "Throws": "L"
+      },
+      {
+        "Rank": "133.",
+        "Name": "Tony Gwynn+",
+        "Age": 37,
+        "BattingAvg": 0.3716,
+        "Year": 1997,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Heinie Zimmerman",
+        "Age": 25,
+        "BattingAvg": 0.3716,
+        "Year": 1912,
+        "Throws": "R"
+      },
+      {
+        "Rank": "135.",
+        "Name": "Roger Connor+",
+        "Age": 27,
+        "BattingAvg": 0.3714,
+        "Year": 1885,
+        "Throws": "B"
+      },
+      {
+        "Rank": "136.",
+        "Name": "Willie Keeler+",
+        "Age": 22,
+        "BattingAvg": 0.3712,
+        "Year": 1894,
+        "Throws": "L"
+      },
+      {
+        "Rank": "137.",
+        "Name": "George Sisler+",
+        "Age": 28,
+        "BattingAvg": 0.3711,
+        "Year": 1921,
+        "Throws": "L"
+      },
+      {
+        "Rank": "138.",
+        "Name": "Cap Anson+",
+        "Age": 34,
+        "BattingAvg": 0.371,
+        "Year": 1886,
+        "Throws": "R"
+      },
+      {
+        "Rank": "139.",
+        "Name": "Jim Bottomley+",
+        "Age": 23,
+        "BattingAvg": 0.3709,
+        "Year": 1923,
+        "Throws": "L"
+      },
+      {
+        "Rank": "140.",
+        "Name": "Ty Cobb+",
+        "Age": 29,
+        "BattingAvg": 0.3708,
+        "Year": 1916,
+        "Throws": "L"
+      },
+      {
+        "Rank": "141.",
+        "Name": "Dave Orr",
+        "Age": 30,
+        "BattingAvg": 0.3707,
+        "Year": 1890,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jake Stenzel",
+        "Age": 28,
+        "BattingAvg": 0.3707,
+        "Year": 1895,
+        "Throws": "R"
+      },
+      {
+        "Rank": "143.",
+        "Name": "Charlie Gehringer+",
+        "Age": 34,
+        "BattingAvg": 0.3706,
+        "Year": 1937,
+        "Throws": "L"
+      },
+      {
+        "Rank": "144.",
+        "Name": "Al Wingo",
+        "Age": 27,
+        "BattingAvg": 0.3705,
+        "Year": 1925,
+        "Throws": "L"
+      },
+      {
+        "Rank": "145.",
+        "Name": "Paul Waner+",
+        "Age": 25,
+        "BattingAvg": 0.3704,
+        "Year": 1928,
+        "Throws": "L"
+      },
+      {
+        "Rank": "146.",
+        "Name": "Andres Galarraga",
+        "Age": 32,
+        "BattingAvg": 0.3702,
+        "Year": 1993,
+        "Throws": "R"
+      },
+      {
+        "Rank": "147.",
+        "Name": "Dan Brouthers+",
+        "Age": 28,
+        "BattingAvg": 0.3701,
+        "Year": 1886,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Tony Gwynn+",
+        "Age": 27,
+        "BattingAvg": 0.3701,
+        "Year": 1987,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Rogers Hornsby+",
+        "Age": 24,
+        "BattingAvg": 0.3701,
+        "Year": 1920,
+        "Throws": "R"
+      },
+      {
+        "Rank": "150.",
+        "Name": "Sam Thompson+",
+        "Age": 33,
+        "BattingAvg": 0.37,
+        "Year": 1893,
+        "Throws": "L"
+      },
+      {
+        "Rank": "151.",
+        "Name": "Barry Bonds",
+        "Age": 37,
+        "BattingAvg": 0.3697,
+        "Year": 2002,
+        "Throws": "L"
+      },
+      {
+        "Rank": "152.",
+        "Name": "Benny Kauff",
+        "Age": 24,
+        "BattingAvg": 0.3695,
+        "Year": 1914,
+        "Throws": "L"
+      },
+      {
+        "Rank": "153.",
+        "Name": "Ty Cobb+",
+        "Age": 28,
+        "BattingAvg": 0.3694,
+        "Year": 1915,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ted Williams+",
+        "Age": 29,
+        "BattingAvg": 0.3694,
+        "Year": 1948,
+        "Throws": "L"
+      },
+      {
+        "Rank": "155.",
+        "Name": "Lew Fonseca",
+        "Age": 30,
+        "BattingAvg": 0.3693,
+        "Year": 1929,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Billy Hamilton+",
+        "Age": 32,
+        "BattingAvg": 0.3693,
+        "Year": 1898,
+        "Throws": "L"
+      },
+      {
+        "Rank": "157.",
+        "Name": "John McGraw+",
+        "Age": 22,
+        "BattingAvg": 0.3686,
+        "Year": 1895,
+        "Throws": "L"
+      },
+      {
+        "Rank": "158.",
+        "Name": "Mike Tiernan",
+        "Age": 29,
+        "BattingAvg": 0.3685,
+        "Year": 1896,
+        "Throws": "L"
+      },
+      {
+        "Rank": "159.",
+        "Name": "Cal McVey",
+        "Age": 27,
+        "BattingAvg": 0.3684,
+        "Year": 1877,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Paul Waner+",
+        "Age": 27,
+        "BattingAvg": 0.3684,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": "161.",
+        "Name": "Nap Lajoie+",
+        "Age": 37,
+        "BattingAvg": 0.3683,
+        "Year": 1912,
+        "Throws": "R"
+      },
+      {
+        "Rank": "162.",
+        "Name": "Tony Gwynn+",
+        "Age": 35,
+        "BattingAvg": 0.3682,
+        "Year": 1995,
+        "Throws": "L"
+      },
+      {
+        "Rank": "163.",
+        "Name": "Ty Cobb+",
+        "Age": 27,
+        "BattingAvg": 0.3681,
+        "Year": 1914,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ed Delahanty+",
+        "Age": 25,
+        "BattingAvg": 0.3681,
+        "Year": 1893,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Lefty O'Doul",
+        "Age": 35,
+        "BattingAvg": 0.3681,
+        "Year": 1932,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dave Orr",
+        "Age": 27,
+        "BattingAvg": 0.3681,
+        "Year": 1887,
+        "Throws": "R"
+      },
+      {
+        "Rank": "167.",
+        "Name": "Chuck Klein+",
+        "Age": 28,
+        "BattingAvg": 0.368,
+        "Year": 1933,
+        "Throws": "L"
+      },
+      {
+        "Rank": "168.",
+        "Name": "Jack Doyle",
+        "Age": 24,
+        "BattingAvg": 0.3677,
+        "Year": 1894,
+        "Throws": "R"
+      },
+      {
+        "Rank": "169.",
+        "Name": "Jeff Bagwell+",
+        "Age": 26,
+        "BattingAvg": 0.3675,
+        "Year": 1994,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Wade Boggs+",
+        "Age": 27,
+        "BattingAvg": 0.3675,
+        "Year": 1985,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dan Brouthers+",
+        "Age": 24,
+        "BattingAvg": 0.3675,
+        "Year": 1882,
+        "Throws": "L"
+      },
+      {
+        "Rank": "172.",
+        "Name": "Dale Alexander",
+        "Age": 29,
+        "BattingAvg": 0.3673,
+        "Year": 1932,
+        "Throws": "R"
+      },
+      {
+        "Rank": "173.",
+        "Name": "Elmer Flick+",
+        "Age": 24,
+        "BattingAvg": 0.367,
+        "Year": 1900,
+        "Throws": "L"
+      },
+      {
+        "Rank": "174.",
+        "Name": "Bob Fothergill",
+        "Age": 28,
+        "BattingAvg": 0.3669,
+        "Year": 1926,
+        "Throws": "R"
+      },
+      {
+        "Rank": "175.",
+        "Name": "Babe Phelps",
+        "Age": 28,
+        "BattingAvg": 0.3668,
+        "Year": 1936,
+        "Throws": "L"
+      },
+      {
+        "Rank": "176.",
+        "Name": "Jim Bottomley+",
+        "Age": 25,
+        "BattingAvg": 0.3667,
+        "Year": 1925,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Denny Lyons",
+        "Age": 21,
+        "BattingAvg": 0.3667,
+        "Year": 1887,
+        "Throws": "R"
+      },
+      {
+        "Rank": "178.",
+        "Name": "Riggs Stephenson",
+        "Age": 32,
+        "BattingAvg": 0.3666,
+        "Year": 1930,
+        "Throws": "R"
+      },
+      {
+        "Rank": "179.",
+        "Name": "Steve Brodie",
+        "Age": 25,
+        "BattingAvg": 0.3665,
+        "Year": 1894,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Harry Heilmann+",
+        "Age": 31,
+        "BattingAvg": 0.3665,
+        "Year": 1926,
+        "Throws": "R"
+      },
+      {
+        "Rank": "181.",
+        "Name": "Wade Boggs+",
+        "Age": 30,
+        "BattingAvg": 0.3664,
+        "Year": 1988,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Billy Hamilton+",
+        "Age": 30,
+        "BattingAvg": 0.3664,
+        "Year": 1896,
+        "Throws": "L"
+      },
+      {
+        "Rank": "183.",
+        "Name": "Pie Traynor+",
+        "Age": 31,
+        "BattingAvg": 0.3662,
+        "Year": 1930,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Larry Walker",
+        "Age": 30,
+        "BattingAvg": 0.3662,
+        "Year": 1997,
+        "Throws": "L"
+      },
+      {
+        "Rank": "185.",
+        "Name": "Rico Carty",
+        "Age": 30,
+        "BattingAvg": 0.3661,
+        "Year": 1970,
+        "Throws": "R"
+      },
+      {
+        "Rank": "186.",
+        "Name": "George Hall",
+        "Age": 27,
+        "BattingAvg": 0.3657,
+        "Year": 1876,
+        "Throws": "L"
+      },
+      {
+        "Rank": "187.",
+        "Name": "Stan Musial+",
+        "Age": 25,
+        "BattingAvg": 0.3654,
+        "Year": 1946,
+        "Throws": "L"
+      },
+      {
+        "Rank": "188.",
+        "Name": "Joe Mauer",
+        "Age": 26,
+        "BattingAvg": 0.3652,
+        "Year": 2009,
+        "Throws": "L"
+      },
+      {
+        "Rank": "189.",
+        "Name": "Eddie Collins+",
+        "Age": 24,
+        "BattingAvg": 0.3651,
+        "Year": 1911,
+        "Throws": "L"
+      },
+      {
+        "Rank": "190.",
+        "Name": "Mickey Mantle+",
+        "Age": 25,
+        "BattingAvg": 0.365,
+        "Year": 1957,
+        "Throws": "B"
+      },
+      {
+        "Rank": "191.",
+        "Name": "Joe Kelley+",
+        "Age": 23,
+        "BattingAvg": 0.3649,
+        "Year": 1895,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Al Simmons+",
+        "Age": 27,
+        "BattingAvg": 0.3649,
+        "Year": 1929,
+        "Throws": "R"
+      },
+      {
+        "Rank": "193.",
+        "Name": "Chipper Jones+",
+        "Age": 36,
+        "BattingAvg": 0.3645,
+        "Year": 2008,
+        "Throws": "B"
+      },
+      {
+        "Rank": "194.",
+        "Name": "Johnny Mize+",
+        "Age": 24,
+        "BattingAvg": 0.3643,
+        "Year": 1937,
+        "Throws": "L"
+      },
+      {
+        "Rank": "195.",
+        "Name": "Joe Kelley+",
+        "Age": 24,
+        "BattingAvg": 0.3642,
+        "Year": 1896,
+        "Throws": "R"
+      },
+      {
+        "Rank": "196.",
+        "Name": "Jimmie Foxx+",
+        "Age": 24,
+        "BattingAvg": 0.3641,
+        "Year": 1932,
+        "Throws": "R"
+      },
+      {
+        "Rank": "197.",
+        "Name": "Rod Carew+",
+        "Age": 28,
+        "BattingAvg": 0.3639,
+        "Year": 1974,
+        "Throws": "L"
+      },
+      {
+        "Rank": "198.",
+        "Name": "Tris Speaker+",
+        "Age": 25,
+        "BattingAvg": 0.3635,
+        "Year": 1913,
+        "Throws": "L"
+      },
+      {
+        "Rank": "199.",
+        "Name": "Larry Walker",
+        "Age": 31,
+        "BattingAvg": 0.3634,
+        "Year": 1998,
+        "Throws": "L"
+      },
+      {
+        "Rank": "200.",
+        "Name": "Jesse Burkett+",
+        "Age": 31,
+        "BattingAvg": 0.3631,
+        "Year": 1900,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Honus Wagner+",
+        "Age": 31,
+        "BattingAvg": 0.3631,
+        "Year": 1905,
+        "Throws": "R"
+      },
+      {
+        "Rank": "202.",
+        "Name": "Wade Boggs+",
+        "Age": 29,
+        "BattingAvg": 0.363,
+        "Year": 1987,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "John Olerud",
+        "Age": 24,
+        "BattingAvg": 0.363,
+        "Year": 1993,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Magglio Ordonez",
+        "Age": 33,
+        "BattingAvg": 0.363,
+        "Year": 2007,
+        "Throws": "R"
+      },
+      {
+        "Rank": "205.",
+        "Name": "Joe Torre+",
+        "Age": 30,
+        "BattingAvg": 0.3628,
+        "Year": 1971,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Chicken Wolf",
+        "Age": 28,
+        "BattingAvg": 0.3628,
+        "Year": 1890,
+        "Throws": "R"
+      },
+      {
+        "Rank": "207.",
+        "Name": "Lou Gehrig+",
+        "Age": 31,
+        "BattingAvg": 0.3627,
+        "Year": 1934,
+        "Throws": "L"
+      },
+      {
+        "Rank": "208.",
+        "Name": "Harry Walker",
+        "Age": 28,
+        "BattingAvg": 0.3626,
+        "Year": 1947,
+        "Throws": "L"
+      },
+      {
+        "Rank": "209.",
+        "Name": "Hugh Duffy+",
+        "Age": 26,
+        "BattingAvg": 0.3625,
+        "Year": 1893,
+        "Throws": "R"
+      },
+      {
+        "Rank": "210.",
+        "Name": "Joe Kelley+",
+        "Age": 25,
+        "BattingAvg": 0.3624,
+        "Year": 1897,
+        "Throws": "R"
+      },
+      {
+        "Rank": "211.",
+        "Name": "Willie Keeler+",
+        "Age": 28,
+        "BattingAvg": 0.3623,
+        "Year": 1900,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim O'Rourke+",
+        "Age": 26,
+        "BattingAvg": 0.3623,
+        "Year": 1877,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Paul Waner+",
+        "Age": 31,
+        "BattingAvg": 0.3623,
+        "Year": 1934,
+        "Throws": "L"
+      },
+      {
+        "Rank": "214.",
+        "Name": "Cap Anson+",
+        "Age": 30,
+        "BattingAvg": 0.3621,
+        "Year": 1882,
+        "Throws": "R"
+      },
+      {
+        "Rank": "215.",
+        "Name": "Barry Bonds",
+        "Age": 39,
+        "BattingAvg": 0.3619,
+        "Year": 2004,
+        "Throws": "L"
+      },
+      {
+        "Rank": "216.",
+        "Name": "Pete Browning",
+        "Age": 24,
+        "BattingAvg": 0.3617,
+        "Year": 1885,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Bill Dickey+",
+        "Age": 29,
+        "BattingAvg": 0.3617,
+        "Year": 1936,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Tris Speaker+",
+        "Age": 33,
+        "BattingAvg": 0.3617,
+        "Year": 1921,
+        "Throws": "L"
+      },
+      {
+        "Rank": "219.",
+        "Name": "Mike Smith",
+        "Age": 28,
+        "BattingAvg": 0.3616,
+        "Year": 1896,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Riggs Stephenson",
+        "Age": 31,
+        "BattingAvg": 0.3616,
+        "Year": 1929,
+        "Throws": "R"
+      },
+      {
+        "Rank": "221.",
+        "Name": "Nap Lajoie+",
+        "Age": 22,
+        "BattingAvg": 0.3615,
+        "Year": 1897,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Piazza+",
+        "Age": 28,
+        "BattingAvg": 0.3615,
+        "Year": 1997,
+        "Throws": "R"
+      },
+      {
+        "Rank": "223.",
+        "Name": "Charlie Hickman",
+        "Age": 26,
+        "BattingAvg": 0.3614,
+        "Year": 1902,
+        "Throws": "R"
+      },
+      {
+        "Rank": "224.",
+        "Name": "Jake Stenzel",
+        "Age": 29,
+        "BattingAvg": 0.3612,
+        "Year": 1896,
+        "Throws": "R"
+      },
+      {
+        "Rank": "225.",
+        "Name": "Rogers Hornsby+",
+        "Age": 31,
+        "BattingAvg": 0.3609,
+        "Year": 1927,
+        "Throws": "R"
+      },
+      {
+        "Rank": "226.",
+        "Name": "Wade Boggs+",
+        "Age": 25,
+        "BattingAvg": 0.3608,
+        "Year": 1983,
+        "Throws": "L"
+      },
+      {
+        "Rank": "227.",
+        "Name": "Norm Cash",
+        "Age": 26,
+        "BattingAvg": 0.3607,
+        "Year": 1961,
+        "Throws": "L"
+      },
+      {
+        "Rank": "228.",
+        "Name": "Eddie Collins+",
+        "Age": 36,
+        "BattingAvg": 0.3604,
+        "Year": 1923,
+        "Throws": "L"
+      },
+      {
+        "Rank": "229.",
+        "Name": "George Gore",
+        "Age": 26,
+        "BattingAvg": 0.3602,
+        "Year": 1880,
+        "Throws": "L"
+      },
+      {
+        "Rank": "230.",
+        "Name": "Jim O'Rourke+",
+        "Age": 39,
+        "BattingAvg": 0.3598,
+        "Year": 1890,
+        "Throws": "R"
+      },
+      {
+        "Rank": "231.",
+        "Name": "Jimmie Foxx+",
+        "Age": 31,
+        "BattingAvg": 0.3597,
+        "Year": 1939,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Orator Shafer",
+        "Age": 32,
+        "BattingAvg": 0.3597,
+        "Year": 1884,
+        "Throws": "L"
+      },
+      {
+        "Rank": "233.",
+        "Name": "Kiki Cuyler+",
+        "Age": 30,
+        "BattingAvg": 0.3595,
+        "Year": 1929,
+        "Throws": "R"
+      },
+      {
+        "Rank": "234.",
+        "Name": "Josh Hamilton",
+        "Age": 29,
+        "BattingAvg": 0.3591,
+        "Year": 2010,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Babe Ruth+",
+        "Age": 35,
+        "BattingAvg": 0.3591,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": "236.",
+        "Name": "Bill Dahlen",
+        "Age": 24,
+        "BattingAvg": 0.359,
+        "Year": 1894,
+        "Throws": "R"
+      },
+      {
+        "Rank": "237.",
+        "Name": "Rod Carew+",
+        "Age": 29,
+        "BattingAvg": 0.3589,
+        "Year": 1975,
+        "Throws": "L"
+      },
+      {
+        "Rank": "238.",
+        "Name": "Mookie Betts",
+        "Age": 25,
+        "BattingAvg": 0.3588,
+        "Year": 2018,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Carl Reynolds",
+        "Age": 27,
+        "BattingAvg": 0.3588,
+        "Year": 1930,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Harry Rice",
+        "Age": 23,
+        "BattingAvg": 0.3588,
+        "Year": 1925,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Zack Wheat+",
+        "Age": 37,
+        "BattingAvg": 0.3588,
+        "Year": 1925,
+        "Throws": "L"
+      },
+      {
+        "Rank": "242.",
+        "Name": "Dan Brouthers+",
+        "Age": 27,
+        "BattingAvg": 0.3587,
+        "Year": 1885,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Paul O'Neill",
+        "Age": 31,
+        "BattingAvg": 0.3587,
+        "Year": 1994,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Albert Pujols",
+        "Age": 23,
+        "BattingAvg": 0.3587,
+        "Year": 2003,
+        "Throws": "R"
+      },
+      {
+        "Rank": "245.",
+        "Name": "Bob Fothergill",
+        "Age": 29,
+        "BattingAvg": 0.3586,
+        "Year": 1927,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Charlie Jamieson",
+        "Age": 31,
+        "BattingAvg": 0.3586,
+        "Year": 1924,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Cecil Travis",
+        "Age": 27,
+        "BattingAvg": 0.3586,
+        "Year": 1941,
+        "Throws": "L"
+      },
+      {
+        "Rank": "248.",
+        "Name": "Todd Helton",
+        "Age": 29,
+        "BattingAvg": 0.3585,
+        "Year": 2003,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Chief Meyers",
+        "Age": 31,
+        "BattingAvg": 0.3585,
+        "Year": 1912,
+        "Throws": "R"
+      },
+      {
+        "Rank": "250.",
+        "Name": "George Burns",
+        "Age": 33,
+        "BattingAvg": 0.3582,
+        "Year": 1926,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Bill Everitt",
+        "Age": 26,
+        "BattingAvg": 0.3582,
+        "Year": 1895,
+        "Throws": "L"
+      },
+      {
+        "Rank": "252.",
+        "Name": "Paul Hines",
+        "Age": 23,
+        "BattingAvg": 0.358,
+        "Year": 1878,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "George Stone",
+        "Age": 29,
+        "BattingAvg": 0.358,
+        "Year": 1906,
+        "Throws": "L"
+      },
+      {
+        "Rank": "254.",
+        "Name": "Tony Gwynn+",
+        "Age": 33,
+        "BattingAvg": 0.3579,
+        "Year": 1993,
+        "Throws": "L"
+      },
+      {
+        "Rank": "255.",
+        "Name": "Alex Rodriguez",
+        "Age": 20,
+        "BattingAvg": 0.3577,
+        "Year": 1996,
+        "Throws": "R"
+      },
+      {
+        "Rank": "256.",
+        "Name": "Jesse Burkett+",
+        "Age": 25,
+        "BattingAvg": 0.3576,
+        "Year": 1894,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Freddie Lindstrom+",
+        "Age": 22,
+        "BattingAvg": 0.3576,
+        "Year": 1928,
+        "Throws": "R"
+      },
+      {
+        "Rank": "258.",
+        "Name": "Ed McKean",
+        "Age": 30,
+        "BattingAvg": 0.3574,
+        "Year": 1894,
+        "Throws": "R"
+      },
+      {
+        "Rank": "259.",
+        "Name": "Roberto Clemente+",
+        "Age": 32,
+        "BattingAvg": 0.3573,
+        "Year": 1967,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mickey Cochrane+",
+        "Age": 27,
+        "BattingAvg": 0.3573,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": "261.",
+        "Name": "Bob Caruthers",
+        "Age": 23,
+        "BattingAvg": 0.3571,
+        "Year": 1887,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ty Cobb+",
+        "Age": 40,
+        "BattingAvg": 0.3571,
+        "Year": 1927,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Nomar Garciaparra",
+        "Age": 25,
+        "BattingAvg": 0.3571,
+        "Year": 1999,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Griffin",
+        "Age": 29,
+        "BattingAvg": 0.3571,
+        "Year": 1894,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Smith",
+        "Age": 26,
+        "BattingAvg": 0.3571,
+        "Year": 1894,
+        "Throws": "L"
+      },
+      {
+        "Rank": "266.",
+        "Name": "Roger Connor+",
+        "Age": 25,
+        "BattingAvg": 0.357,
+        "Year": 1883,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dave Foutz",
+        "Age": 30,
+        "BattingAvg": 0.357,
+        "Year": 1887,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Paul Hines",
+        "Age": 24,
+        "BattingAvg": 0.357,
+        "Year": 1879,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dixie Walker",
+        "Age": 33,
+        "BattingAvg": 0.357,
+        "Year": 1944,
+        "Throws": "L"
+      },
+      {
+        "Rank": "270.",
+        "Name": "Wade Boggs+",
+        "Age": 28,
+        "BattingAvg": 0.3569,
+        "Year": 1986,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Albert Pujols",
+        "Age": 28,
+        "BattingAvg": 0.3569,
+        "Year": 2008,
+        "Throws": "R"
+      },
+      {
+        "Rank": "272.",
+        "Name": "Albert Belle",
+        "Age": 27,
+        "BattingAvg": 0.3568,
+        "Year": 1994,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jimmy Ryan",
+        "Age": 31,
+        "BattingAvg": 0.3568,
+        "Year": 1894,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ed Swartwood",
+        "Age": 24,
+        "BattingAvg": 0.3568,
+        "Year": 1883,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ken Williams",
+        "Age": 33,
+        "BattingAvg": 0.3568,
+        "Year": 1923,
+        "Throws": "L"
+      },
+      {
+        "Rank": "276.",
+        "Name": "Ginger Beaumont",
+        "Age": 25,
+        "BattingAvg": 0.3567,
+        "Year": 1902,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Joe DiMaggio+",
+        "Age": 26,
+        "BattingAvg": 0.3567,
+        "Year": 1941,
+        "Throws": "R"
+      },
+      {
+        "Rank": "278.",
+        "Name": "Kiki Cuyler+",
+        "Age": 26,
+        "BattingAvg": 0.3566,
+        "Year": 1925,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Stan Musial+",
+        "Age": 22,
+        "BattingAvg": 0.3566,
+        "Year": 1943,
+        "Throws": "L"
+      },
+      {
+        "Rank": "280.",
+        "Name": "Earle Combs+",
+        "Age": 28,
+        "BattingAvg": 0.3565,
+        "Year": 1927,
+        "Throws": "L"
+      },
+      {
+        "Rank": "281.",
+        "Name": "Mike Donlin",
+        "Age": 27,
+        "BattingAvg": 0.3564,
+        "Year": 1905,
+        "Throws": "L"
+      },
+      {
+        "Rank": "282.",
+        "Name": "Ted Williams+",
+        "Age": 23,
+        "BattingAvg": 0.3563,
+        "Year": 1942,
+        "Throws": "L"
+      },
+      {
+        "Rank": "283.",
+        "Name": "Edgar Martinez",
+        "Age": 32,
+        "BattingAvg": 0.3562,
+        "Year": 1995,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Kirby Puckett+",
+        "Age": 28,
+        "BattingAvg": 0.3562,
+        "Year": 1988,
+        "Throws": "R"
+      },
+      {
+        "Rank": "285.",
+        "Name": "Charlie Gehringer+",
+        "Age": 31,
+        "BattingAvg": 0.3561,
+        "Year": 1934,
+        "Throws": "L"
+      },
+      {
+        "Rank": "286.",
+        "Name": "Cap Anson+",
+        "Age": 24,
+        "BattingAvg": 0.356,
+        "Year": 1876,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jimmie Foxx+",
+        "Age": 25,
+        "BattingAvg": 0.356,
+        "Year": 1933,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Harry Heilmann+",
+        "Age": 27,
+        "BattingAvg": 0.356,
+        "Year": 1922,
+        "Throws": "R"
+      },
+      {
+        "Rank": "289.",
+        "Name": "Bill Lamar",
+        "Age": 28,
+        "BattingAvg": 0.3556,
+        "Year": 1925,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Babe Ruth+",
+        "Age": 32,
+        "BattingAvg": 0.3556,
+        "Year": 1927,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Pie Traynor+",
+        "Age": 30,
+        "BattingAvg": 0.3556,
+        "Year": 1929,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hack Wilson+",
+        "Age": 30,
+        "BattingAvg": 0.3556,
+        "Year": 1930,
+        "Throws": "R"
+      },
+      {
+        "Rank": "293.",
+        "Name": "Chuck Klein+",
+        "Age": 24,
+        "BattingAvg": 0.3555,
+        "Year": 1929,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Nap Lajoie+",
+        "Age": 31,
+        "BattingAvg": 0.3555,
+        "Year": 1906,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Honus Wagner+",
+        "Age": 29,
+        "BattingAvg": 0.3555,
+        "Year": 1903,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ross Youngs+",
+        "Age": 27,
+        "BattingAvg": 0.3555,
+        "Year": 1924,
+        "Throws": "L"
+      },
+      {
+        "Rank": "297.",
+        "Name": "Lou Boudreau+",
+        "Age": 30,
+        "BattingAvg": 0.3554,
+        "Year": 1948,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Phil Cavarretta",
+        "Age": 28,
+        "BattingAvg": 0.3554,
+        "Year": 1945,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Cupid Childs",
+        "Age": 28,
+        "BattingAvg": 0.3554,
+        "Year": 1896,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hughie Jennings+",
+        "Age": 28,
+        "BattingAvg": 0.3554,
+        "Year": 1897,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Heinie Manush+",
+        "Age": 27,
+        "BattingAvg": 0.3554,
+        "Year": 1929,
+        "Throws": "L"
+      },
+      {
+        "Rank": "302.",
+        "Name": "George Davis+",
+        "Age": 22,
+        "BattingAvg": 0.3552,
+        "Year": 1893,
+        "Throws": "B"
+      },
+      {
+        "Rank": "303.",
+        "Name": "Kiki Cuyler+",
+        "Age": 31,
+        "BattingAvg": 0.3551,
+        "Year": 1930,
+        "Throws": "R"
+      },
+      {
+        "Rank": "304.",
+        "Name": "Darin Erstad",
+        "Age": 26,
+        "BattingAvg": 0.355,
+        "Year": 2000,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Bobby Veach",
+        "Age": 31,
+        "BattingAvg": 0.355,
+        "Year": 1919,
+        "Throws": "L"
+      },
+      {
+        "Rank": "306.",
+        "Name": "Bill Joyce",
+        "Age": 26,
+        "BattingAvg": 0.3549,
+        "Year": 1894,
+        "Throws": "L"
+      },
+      {
+        "Rank": "307.",
+        "Name": "Oyster Burns",
+        "Age": 29,
+        "BattingAvg": 0.3548,
+        "Year": 1894,
+        "Throws": "R"
+      },
+      {
+        "Rank": "308.",
+        "Name": "Debs Garms",
+        "Age": 33,
+        "BattingAvg": 0.3547,
+        "Year": 1940,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Baby Doll Jacobson",
+        "Age": 29,
+        "BattingAvg": 0.3547,
+        "Year": 1920,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Stan Musial+",
+        "Age": 30,
+        "BattingAvg": 0.3547,
+        "Year": 1951,
+        "Throws": "L"
+      },
+      {
+        "Rank": "311.",
+        "Name": "Moises Alou",
+        "Age": 33,
+        "BattingAvg": 0.3546,
+        "Year": 2000,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Roger Connor+",
+        "Age": 28,
+        "BattingAvg": 0.3546,
+        "Year": 1886,
+        "Throws": "B"
+      },
+      {
+        "Rank": "313.",
+        "Name": "Hank Aaron+",
+        "Age": 25,
+        "BattingAvg": 0.3545,
+        "Year": 1959,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Lloyd Waner+",
+        "Age": 21,
+        "BattingAvg": 0.3545,
+        "Year": 1927,
+        "Throws": "L"
+      },
+      {
+        "Rank": "315.",
+        "Name": "Fielder Jones",
+        "Age": 24,
+        "BattingAvg": 0.3544,
+        "Year": 1896,
+        "Throws": "L"
+      },
+      {
+        "Rank": "316.",
+        "Name": "Jack Doyle",
+        "Age": 27,
+        "BattingAvg": 0.3543,
+        "Year": 1897,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Johnny Hodapp",
+        "Age": 24,
+        "BattingAvg": 0.3543,
+        "Year": 1930,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jimmy Williams",
+        "Age": 22,
+        "BattingAvg": 0.3543,
+        "Year": 1899,
+        "Throws": "R"
+      },
+      {
+        "Rank": "319.",
+        "Name": "Abner Dalrymple",
+        "Age": 20,
+        "BattingAvg": 0.3542,
+        "Year": 1878,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ed Delahanty+",
+        "Age": 33,
+        "BattingAvg": 0.3542,
+        "Year": 1901,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Harvey Hendrick",
+        "Age": 31,
+        "BattingAvg": 0.3542,
+        "Year": 1929,
+        "Throws": "L"
+      },
+      {
+        "Rank": "322.",
+        "Name": "Kiki Cuyler+",
+        "Age": 25,
+        "BattingAvg": 0.3541,
+        "Year": 1924,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Charlie Gehringer+",
+        "Age": 33,
+        "BattingAvg": 0.3541,
+        "Year": 1936,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Lou Gehrig+",
+        "Age": 33,
+        "BattingAvg": 0.3541,
+        "Year": 1936,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Tony Lazzeri+",
+        "Age": 25,
+        "BattingAvg": 0.3541,
+        "Year": 1929,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Bill Madlock",
+        "Age": 24,
+        "BattingAvg": 0.3541,
+        "Year": 1975,
+        "Throws": "R"
+      },
+      {
+        "Rank": "327.",
+        "Name": "Jimmie Foxx+",
+        "Age": 21,
+        "BattingAvg": 0.354,
+        "Year": 1929,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "King Kelly+",
+        "Age": 26,
+        "BattingAvg": 0.354,
+        "Year": 1884,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Denny Lyons",
+        "Age": 24,
+        "BattingAvg": 0.354,
+        "Year": 1890,
+        "Throws": "R"
+      },
+      {
+        "Rank": "330.",
+        "Name": "Goose Goslin+",
+        "Age": 25,
+        "BattingAvg": 0.3539,
+        "Year": 1926,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Gabby Hartnett+",
+        "Age": 36,
+        "BattingAvg": 0.3539,
+        "Year": 1937,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Chick Stahl",
+        "Age": 24,
+        "BattingAvg": 0.3539,
+        "Year": 1897,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Honus Wagner+",
+        "Age": 34,
+        "BattingAvg": 0.3539,
+        "Year": 1908,
+        "Throws": "R"
+      },
+      {
+        "Rank": "334.",
+        "Name": "Bob Fothergill",
+        "Age": 31,
+        "BattingAvg": 0.3538,
+        "Year": 1929,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Billy Goodman",
+        "Age": 24,
+        "BattingAvg": 0.3538,
+        "Year": 1950,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jimmy Sheckard",
+        "Age": 22,
+        "BattingAvg": 0.3538,
+        "Year": 1901,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Bill Terry+",
+        "Age": 35,
+        "BattingAvg": 0.3538,
+        "Year": 1934,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Paul Waner+",
+        "Age": 34,
+        "BattingAvg": 0.3538,
+        "Year": 1937,
+        "Throws": "L"
+      },
+      {
+        "Rank": "339.",
+        "Name": "John Olerud",
+        "Age": 29,
+        "BattingAvg": 0.3537,
+        "Year": 1998,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dave Orr",
+        "Age": 24,
+        "BattingAvg": 0.3537,
+        "Year": 1884,
+        "Throws": "R"
+      },
+      {
+        "Rank": "341.",
+        "Name": "Ray Grimes",
+        "Age": 28,
+        "BattingAvg": 0.3536,
+        "Year": 1922,
+        "Throws": "R"
+      },
+      {
+        "Rank": "342.",
+        "Name": "Lloyd Waner+",
+        "Age": 23,
+        "BattingAvg": 0.3535,
+        "Year": 1929,
+        "Throws": "L"
+      },
+      {
+        "Rank": "343.",
+        "Name": "Frank Thomas+",
+        "Age": 26,
+        "BattingAvg": 0.3534,
+        "Year": 1994,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Honus Wagner+",
+        "Age": 27,
+        "BattingAvg": 0.3534,
+        "Year": 1901,
+        "Throws": "R"
+      },
+      {
+        "Rank": "345.",
+        "Name": "Joe Medwick+",
+        "Age": 23,
+        "BattingAvg": 0.3533,
+        "Year": 1935,
+        "Throws": "R"
+      },
+      {
+        "Rank": "346.",
+        "Name": "George Davis+",
+        "Age": 26,
+        "BattingAvg": 0.3532,
+        "Year": 1897,
+        "Throws": "B"
+      },
+      {
+        "Rank": "347.",
+        "Name": "Ralph Garr",
+        "Age": 28,
+        "BattingAvg": 0.3531,
+        "Year": 1974,
+        "Throws": "L"
+      },
+      {
+        "Rank": "348.",
+        "Name": "Harvey Kuenn",
+        "Age": 28,
+        "BattingAvg": 0.3529,
+        "Year": 1959,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie McGee",
+        "Age": 26,
+        "BattingAvg": 0.3529,
+        "Year": 1985,
+        "Throws": "B"
+      },
+      {
+        "Rank": "350.",
+        "Name": "Cupid Childs",
+        "Age": 26,
+        "BattingAvg": 0.3528,
+        "Year": 1894,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Bubbles Hargrave",
+        "Age": 33,
+        "BattingAvg": 0.3528,
+        "Year": 1926,
+        "Throws": "R"
+      },
+      {
+        "Rank": "352.",
+        "Name": "Hugh Duffy+",
+        "Age": 28,
+        "BattingAvg": 0.3527,
+        "Year": 1895,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mickey Mantle+",
+        "Age": 24,
+        "BattingAvg": 0.3527,
+        "Year": 1956,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Paul Molitor+",
+        "Age": 30,
+        "BattingAvg": 0.3527,
+        "Year": 1987,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Wilbert Robinson+",
+        "Age": 30,
+        "BattingAvg": 0.3527,
+        "Year": 1894,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Gee Walker",
+        "Age": 28,
+        "BattingAvg": 0.3527,
+        "Year": 1936,
+        "Throws": "R"
+      },
+      {
+        "Rank": "357.",
+        "Name": "Joe Sewell+",
+        "Age": 24,
+        "BattingAvg": 0.3526,
+        "Year": 1923,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jake Stenzel",
+        "Age": 30,
+        "BattingAvg": 0.3526,
+        "Year": 1897,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mickey Vernon",
+        "Age": 28,
+        "BattingAvg": 0.3526,
+        "Year": 1946,
+        "Throws": "L"
+      },
+      {
+        "Rank": "360.",
+        "Name": "George Burns",
+        "Age": 25,
+        "BattingAvg": 0.3525,
+        "Year": 1918,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "George Sisler+",
+        "Age": 24,
+        "BattingAvg": 0.3525,
+        "Year": 1917,
+        "Throws": "L"
+      },
+      {
+        "Rank": "362.",
+        "Name": "Ginger Beaumont",
+        "Age": 22,
+        "BattingAvg": 0.3524,
+        "Year": 1899,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Joe DiMaggio+",
+        "Age": 25,
+        "BattingAvg": 0.3524,
+        "Year": 1940,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jake Stenzel",
+        "Age": 27,
+        "BattingAvg": 0.3524,
+        "Year": 1894,
+        "Throws": "R"
+      },
+      {
+        "Rank": "365.",
+        "Name": "Bill Dahlen",
+        "Age": 26,
+        "BattingAvg": 0.3523,
+        "Year": 1896,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Baby Doll Jacobson",
+        "Age": 30,
+        "BattingAvg": 0.3523,
+        "Year": 1921,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "George Sisler+",
+        "Age": 26,
+        "BattingAvg": 0.3523,
+        "Year": 1919,
+        "Throws": "L"
+      },
+      {
+        "Rank": "368.",
+        "Name": "Jack Glasscock",
+        "Age": 31,
+        "BattingAvg": 0.3522,
+        "Year": 1889,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Tommy Holmes",
+        "Age": 28,
+        "BattingAvg": 0.3522,
+        "Year": 1945,
+        "Throws": "L"
+      },
+      {
+        "Rank": "370.",
+        "Name": "Cecil Cooper",
+        "Age": 30,
+        "BattingAvg": 0.3521,
+        "Year": 1980,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ichiro Suzuki",
+        "Age": 35,
+        "BattingAvg": 0.3521,
+        "Year": 2009,
+        "Throws": "L"
+      },
+      {
+        "Rank": "372.",
+        "Name": "George Davis+",
+        "Age": 23,
+        "BattingAvg": 0.3519,
+        "Year": 1894,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hack Miller",
+        "Age": 28,
+        "BattingAvg": 0.3519,
+        "Year": 1922,
+        "Throws": "R"
+      },
+      {
+        "Rank": "374.",
+        "Name": "Tris Speaker+",
+        "Age": 29,
+        "BattingAvg": 0.3518,
+        "Year": 1917,
+        "Throws": "L"
+      },
+      {
+        "Rank": "375.",
+        "Name": "Bibb Falk",
+        "Age": 25,
+        "BattingAvg": 0.3517,
+        "Year": 1924,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Edd Roush+",
+        "Age": 28,
+        "BattingAvg": 0.3517,
+        "Year": 1921,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jack Tobin",
+        "Age": 29,
+        "BattingAvg": 0.3517,
+        "Year": 1921,
+        "Throws": "L"
+      },
+      {
+        "Rank": "378.",
+        "Name": "Don Mattingly",
+        "Age": 25,
+        "BattingAvg": 0.3516,
+        "Year": 1986,
+        "Throws": "L"
+      },
+      {
+        "Rank": "379.",
+        "Name": "Jack Fournier",
+        "Age": 33,
+        "BattingAvg": 0.3515,
+        "Year": 1923,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Lou Gehrig+",
+        "Age": 34,
+        "BattingAvg": 0.3515,
+        "Year": 1937,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Tony Gwynn+",
+        "Age": 24,
+        "BattingAvg": 0.3515,
+        "Year": 1984,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Tom McCreery",
+        "Age": 21,
+        "BattingAvg": 0.3515,
+        "Year": 1896,
+        "Throws": "B"
+      },
+      {
+        "Rank": "383.",
+        "Name": "Roberto Clemente+",
+        "Age": 26,
+        "BattingAvg": 0.3514,
+        "Year": 1961,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Bob Ferguson",
+        "Age": 33,
+        "BattingAvg": 0.3514,
+        "Year": 1878,
+        "Throws": "B"
+      },
+      {
+        "Rank": "385.",
+        "Name": "Fred Clarke+",
+        "Age": 30,
+        "BattingAvg": 0.3513,
+        "Year": 1903,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "John Peters",
+        "Age": 26,
+        "BattingAvg": 0.3513,
+        "Year": 1876,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Hardy Richardson",
+        "Age": 31,
+        "BattingAvg": 0.3513,
+        "Year": 1886,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Al Simmons+",
+        "Age": 26,
+        "BattingAvg": 0.3513,
+        "Year": 1928,
+        "Throws": "R"
+      },
+      {
+        "Rank": "389.",
+        "Name": "Ross Youngs+",
+        "Age": 23,
+        "BattingAvg": 0.3511,
+        "Year": 1920,
+        "Throws": "L"
+      },
+      {
+        "Rank": "390.",
+        "Name": "Edd Roush+",
+        "Age": 30,
+        "BattingAvg": 0.351,
+        "Year": 1923,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ichiro Suzuki",
+        "Age": 33,
+        "BattingAvg": 0.351,
+        "Year": 2007,
+        "Throws": "L"
+      },
+      {
+        "Rank": "392.",
+        "Name": "Joe Start",
+        "Age": 35,
+        "BattingAvg": 0.3509,
+        "Year": 1878,
+        "Throws": "L"
+      },
+      {
+        "Rank": "393.",
+        "Name": "Mike Donlin",
+        "Age": 25,
+        "BattingAvg": 0.3508,
+        "Year": 1903,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Shoeless Joe Jackson",
+        "Age": 31,
+        "BattingAvg": 0.3508,
+        "Year": 1919,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Manny Ramirez",
+        "Age": 28,
+        "BattingAvg": 0.3508,
+        "Year": 2000,
+        "Throws": "R"
+      },
+      {
+        "Rank": "396.",
+        "Name": "Chick Stahl",
+        "Age": 26,
+        "BattingAvg": 0.3507,
+        "Year": 1899,
+        "Throws": "L"
+      },
+      {
+        "Rank": "397.",
+        "Name": "Joe Medwick+",
+        "Age": 24,
+        "BattingAvg": 0.3506,
+        "Year": 1936,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ed Morgan",
+        "Age": 27,
+        "BattingAvg": 0.3506,
+        "Year": 1931,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Stan Musial+",
+        "Age": 36,
+        "BattingAvg": 0.3506,
+        "Year": 1957,
+        "Throws": "L"
+      },
+      {
+        "Rank": "400.",
+        "Name": "Jack Fournier",
+        "Age": 35,
+        "BattingAvg": 0.3505,
+        "Year": 1925,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "George Van Haltren",
+        "Age": 30,
+        "BattingAvg": 0.3505,
+        "Year": 1896,
+        "Throws": "L"
+      },
+      {
+        "Rank": "402.",
+        "Name": "Ty Cobb+",
+        "Age": 20,
+        "BattingAvg": 0.3504,
+        "Year": 1907,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jake Daubert",
+        "Age": 29,
+        "BattingAvg": 0.3504,
+        "Year": 1913,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Frank Demaree",
+        "Age": 26,
+        "BattingAvg": 0.3504,
+        "Year": 1936,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Tommy McCarthy+",
+        "Age": 26,
+        "BattingAvg": 0.3504,
+        "Year": 1890,
+        "Throws": "R"
+      },
+      {
+        "Rank": "406.",
+        "Name": "Carson Bigbee",
+        "Age": 27,
+        "BattingAvg": 0.3502,
+        "Year": 1922,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Heinie Manush+",
+        "Age": 28,
+        "BattingAvg": 0.3502,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Austin McHenry",
+        "Age": 25,
+        "BattingAvg": 0.3502,
+        "Year": 1921,
+        "Throws": "R"
+      },
+      {
+        "Rank": "409.",
+        "Name": "Larry Walker",
+        "Age": 34,
+        "BattingAvg": 0.3501,
+        "Year": 2001,
+        "Throws": "L"
+      },
+      {
+        "Rank": "410.",
+        "Name": "Rod Carew+",
+        "Age": 27,
+        "BattingAvg": 0.35,
+        "Year": 1973,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dick Porter",
+        "Age": 28,
+        "BattingAvg": 0.35,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": "412.",
+        "Name": "Bill Terry+",
+        "Age": 33,
+        "BattingAvg": 0.3499,
+        "Year": 1932,
+        "Throws": "L"
+      },
+      {
+        "Rank": "413.",
+        "Name": "Roger Bresnahan+",
+        "Age": 24,
+        "BattingAvg": 0.3498,
+        "Year": 1903,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Dan Brouthers+",
+        "Age": 33,
+        "BattingAvg": 0.3498,
+        "Year": 1891,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Sam Rice+",
+        "Age": 35,
+        "BattingAvg": 0.3498,
+        "Year": 1925,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Taffy Wright",
+        "Age": 26,
+        "BattingAvg": 0.3498,
+        "Year": 1938,
+        "Throws": "L"
+      },
+      {
+        "Rank": "417.",
+        "Name": "Ichiro Suzuki",
+        "Age": 27,
+        "BattingAvg": 0.3497,
+        "Year": 2001,
+        "Throws": "L"
+      },
+      {
+        "Rank": "418.",
+        "Name": "Richie Ashburn+",
+        "Age": 31,
+        "BattingAvg": 0.3496,
+        "Year": 1958,
+        "Throws": "L"
+      },
+      {
+        "Rank": "419.",
+        "Name": "Cuckoo Christensen",
+        "Age": 26,
+        "BattingAvg": 0.3495,
+        "Year": 1926,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Spud Davis",
+        "Age": 28,
+        "BattingAvg": 0.3495,
+        "Year": 1933,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "George Harper",
+        "Age": 33,
+        "BattingAvg": 0.3495,
+        "Year": 1925,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Honus Wagner+",
+        "Age": 33,
+        "BattingAvg": 0.3495,
+        "Year": 1907,
+        "Throws": "R"
+      },
+      {
+        "Rank": "423.",
+        "Name": "Derek Jeter",
+        "Age": 25,
+        "BattingAvg": 0.3493,
+        "Year": 1999,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Johnny Mize+",
+        "Age": 26,
+        "BattingAvg": 0.3493,
+        "Year": 1939,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ed Morgan",
+        "Age": 26,
+        "BattingAvg": 0.3493,
+        "Year": 1930,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mel Ott+",
+        "Age": 21,
+        "BattingAvg": 0.3493,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": "427.",
+        "Name": "Roger Connor+",
+        "Age": 32,
+        "BattingAvg": 0.3492,
+        "Year": 1890,
+        "Throws": "B"
+      },
+      {
+        "Rank": "428.",
+        "Name": "Sam Rice+",
+        "Age": 40,
+        "BattingAvg": 0.3491,
+        "Year": 1930,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Frank Thomas+",
+        "Age": 28,
+        "BattingAvg": 0.3491,
+        "Year": 1996,
+        "Throws": "R"
+      },
+      {
+        "Rank": "430.",
+        "Name": "Lou Gehrig+",
+        "Age": 29,
+        "BattingAvg": 0.349,
+        "Year": 1932,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Buddy Myer",
+        "Age": 31,
+        "BattingAvg": 0.349,
+        "Year": 1935,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Honus Wagner+",
+        "Age": 30,
+        "BattingAvg": 0.349,
+        "Year": 1904,
+        "Throws": "R"
+      },
+      {
+        "Rank": "433.",
+        "Name": "Eddie Collins+",
+        "Age": 37,
+        "BattingAvg": 0.3489,
+        "Year": 1924,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Chick Hafey+",
+        "Age": 28,
+        "BattingAvg": 0.3489,
+        "Year": 1931,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Heinie Manush+",
+        "Age": 32,
+        "BattingAvg": 0.3489,
+        "Year": 1934,
+        "Throws": "L"
+      },
+      {
+        "Rank": "436.",
+        "Name": "Tommy McCarthy+",
+        "Age": 30,
+        "BattingAvg": 0.3488,
+        "Year": 1894,
+        "Throws": "R"
+      },
+      {
+        "Rank": "437.",
+        "Name": "Jimmie Foxx+",
+        "Age": 30,
+        "BattingAvg": 0.3487,
+        "Year": 1938,
+        "Throws": "R"
+      },
+      {
+        "Rank": "438.",
+        "Name": "Mickey Cochrane+",
+        "Age": 28,
+        "BattingAvg": 0.3486,
+        "Year": 1931,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Kenny Lofton",
+        "Age": 27,
+        "BattingAvg": 0.3486,
+        "Year": 1994,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Manny Ramirez",
+        "Age": 30,
+        "BattingAvg": 0.3486,
+        "Year": 2002,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Bill Terry+",
+        "Age": 32,
+        "BattingAvg": 0.3486,
+        "Year": 1931,
+        "Throws": "L"
+      },
+      {
+        "Rank": "442.",
+        "Name": "Steve Brodie",
+        "Age": 26,
+        "BattingAvg": 0.3485,
+        "Year": 1895,
+        "Throws": "L"
+      },
+      {
+        "Rank": "443.",
+        "Name": "Joe Vosmik",
+        "Age": 25,
+        "BattingAvg": 0.3484,
+        "Year": 1935,
+        "Throws": "R"
+      },
+      {
+        "Rank": "444.",
+        "Name": "Jesse Burkett+",
+        "Age": 24,
+        "BattingAvg": 0.3483,
+        "Year": 1893,
+        "Throws": "L"
+      },
+      {
+        "Rank": "445.",
+        "Name": "Jim Bottomley+",
+        "Age": 31,
+        "BattingAvg": 0.3482,
+        "Year": 1931,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Steve Evans",
+        "Age": 29,
+        "BattingAvg": 0.3482,
+        "Year": 1914,
+        "Throws": "L"
+      },
+      {
+        "Rank": "447.",
+        "Name": "Luke Appling+",
+        "Age": 33,
+        "BattingAvg": 0.3481,
+        "Year": 1940,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Eddie Collins+",
+        "Age": 25,
+        "BattingAvg": 0.3481,
+        "Year": 1912,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Birdie Cree",
+        "Age": 28,
+        "BattingAvg": 0.3481,
+        "Year": 1911,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim O'Rourke+",
+        "Age": 28,
+        "BattingAvg": 0.3481,
+        "Year": 1879,
+        "Throws": "R"
+      },
+      {
+        "Rank": "451.",
+        "Name": "Frankie Frisch+",
+        "Age": 25,
+        "BattingAvg": 0.3479,
+        "Year": 1923,
+        "Throws": "B"
+      },
+      {
+        "Rank": "452.",
+        "Name": "King Kelly+",
+        "Age": 21,
+        "BattingAvg": 0.3478,
+        "Year": 1879,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "DJ LeMahieu",
+        "Age": 27,
+        "BattingAvg": 0.3478,
+        "Year": 2016,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Edd Roush+",
+        "Age": 31,
+        "BattingAvg": 0.3478,
+        "Year": 1924,
+        "Throws": "L"
+      },
+      {
+        "Rank": "455.",
+        "Name": "Miguel Cabrera",
+        "Age": 30,
+        "BattingAvg": 0.3477,
+        "Year": 2013,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Chuck Klein+",
+        "Age": 27,
+        "BattingAvg": 0.3477,
+        "Year": 1932,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Pete Rose",
+        "Age": 28,
+        "BattingAvg": 0.3477,
+        "Year": 1969,
+        "Throws": "B"
+      },
+      {
+        "Rank": "458.",
+        "Name": "Cap Anson+",
+        "Age": 35,
+        "BattingAvg": 0.3475,
+        "Year": 1887,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Elston Howard",
+        "Age": 32,
+        "BattingAvg": 0.3475,
+        "Year": 1961,
+        "Throws": "R"
+      },
+      {
+        "Rank": "460.",
+        "Name": "Joe Mauer",
+        "Age": 23,
+        "BattingAvg": 0.3474,
+        "Year": 2006,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Cal McVey",
+        "Age": 26,
+        "BattingAvg": 0.3474,
+        "Year": 1876,
+        "Throws": "R"
+      },
+      {
+        "Rank": "462.",
+        "Name": "Rube Bressler",
+        "Age": 29,
+        "BattingAvg": 0.3473,
+        "Year": 1924,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Fred Clarke+",
+        "Age": 22,
+        "BattingAvg": 0.3473,
+        "Year": 1895,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Todd Helton",
+        "Age": 30,
+        "BattingAvg": 0.3473,
+        "Year": 2004,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ken Williams",
+        "Age": 31,
+        "BattingAvg": 0.3473,
+        "Year": 1921,
+        "Throws": "L"
+      },
+      {
+        "Rank": "466.",
+        "Name": "Frank Thomas+",
+        "Age": 29,
+        "BattingAvg": 0.3472,
+        "Year": 1997,
+        "Throws": "R"
+      },
+      {
+        "Rank": "467.",
+        "Name": "Jimmy Bannon",
+        "Age": 24,
+        "BattingAvg": 0.3469,
+        "Year": 1895,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jim O'Rourke+",
+        "Age": 33,
+        "BattingAvg": 0.3469,
+        "Year": 1884,
+        "Throws": "R"
+      },
+      {
+        "Rank": "469.",
+        "Name": "Eddie Collins+",
+        "Age": 22,
+        "BattingAvg": 0.3468,
+        "Year": 1909,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Stan Musial+",
+        "Age": 23,
+        "BattingAvg": 0.3468,
+        "Year": 1944,
+        "Throws": "L"
+      },
+      {
+        "Rank": "471.",
+        "Name": "Dan Brouthers+",
+        "Age": 36,
+        "BattingAvg": 0.3467,
+        "Year": 1894,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Willie Mays+",
+        "Age": 27,
+        "BattingAvg": 0.3467,
+        "Year": 1958,
+        "Throws": "R"
+      },
+      {
+        "Rank": "473.",
+        "Name": "Home Run Baker+",
+        "Age": 26,
+        "BattingAvg": 0.3466,
+        "Year": 1912,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Fred Tenney",
+        "Age": 27,
+        "BattingAvg": 0.3466,
+        "Year": 1899,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Tiernan",
+        "Age": 28,
+        "BattingAvg": 0.3466,
+        "Year": 1895,
+        "Throws": "L"
+      },
+      {
+        "Rank": "476.",
+        "Name": "Daniel Murphy",
+        "Age": 31,
+        "BattingAvg": 0.3465,
+        "Year": 2016,
+        "Throws": "L"
+      },
+      {
+        "Rank": "477.",
+        "Name": "Frankie Frisch+",
+        "Age": 32,
+        "BattingAvg": 0.3463,
+        "Year": 1930,
+        "Throws": "B"
+      },
+      {
+        "Rank": " ",
+        "Name": "Tommy McCarthy+",
+        "Age": 29,
+        "BattingAvg": 0.3463,
+        "Year": 1893,
+        "Throws": "R"
+      },
+      {
+        "Rank": "479.",
+        "Name": "Joe DiMaggio+",
+        "Age": 22,
+        "BattingAvg": 0.3462,
+        "Year": 1937,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Ezra Sutton",
+        "Age": 34,
+        "BattingAvg": 0.3462,
+        "Year": 1884,
+        "Throws": "R"
+      },
+      {
+        "Rank": "481.",
+        "Name": "Eddie Collins+",
+        "Age": 38,
+        "BattingAvg": 0.3459,
+        "Year": 1925,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jimmy Collins+",
+        "Age": 27,
+        "BattingAvg": 0.3459,
+        "Year": 1897,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Walton Cruise",
+        "Age": 31,
+        "BattingAvg": 0.3459,
+        "Year": 1921,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Tommy Davis",
+        "Age": 23,
+        "BattingAvg": 0.3459,
+        "Year": 1962,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Stan Musial+",
+        "Age": 29,
+        "BattingAvg": 0.3459,
+        "Year": 1950,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Earl Smith",
+        "Age": 29,
+        "BattingAvg": 0.3459,
+        "Year": 1926,
+        "Throws": "L"
+      },
+      {
+        "Rank": "487.",
+        "Name": "Jose Altuve",
+        "Age": 27,
+        "BattingAvg": 0.3458,
+        "Year": 2017,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Joe Cronin+",
+        "Age": 23,
+        "BattingAvg": 0.3458,
+        "Year": 1930,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Jimmie Foxx+",
+        "Age": 27,
+        "BattingAvg": 0.3458,
+        "Year": 1935,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Bobby Lowe",
+        "Age": 28,
+        "BattingAvg": 0.3458,
+        "Year": 1894,
+        "Throws": "R"
+      },
+      {
+        "Rank": "491.",
+        "Name": "Spud Johnson",
+        "Age": 33,
+        "BattingAvg": 0.3457,
+        "Year": 1890,
+        "Throws": "L"
+      },
+      {
+        "Rank": "492.",
+        "Name": "Johnny Bassler",
+        "Age": 29,
+        "BattingAvg": 0.3456,
+        "Year": 1924,
+        "Throws": "L"
+      },
+      {
+        "Rank": " ",
+        "Name": "Harry Heilmann+",
+        "Age": 29,
+        "BattingAvg": 0.3456,
+        "Year": 1924,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Piazza+",
+        "Age": 26,
+        "BattingAvg": 0.3456,
+        "Year": 1995,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Mike Smith",
+        "Age": 25,
+        "BattingAvg": 0.3456,
+        "Year": 1893,
+        "Throws": "L"
+      },
+      {
+        "Rank": "496.",
+        "Name": "Sammy Hale",
+        "Age": 28,
+        "BattingAvg": 0.3453,
+        "Year": 1925,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Wally Moses",
+        "Age": 25,
+        "BattingAvg": 0.3453,
+        "Year": 1936,
+        "Throws": "L"
+      },
+      {
+        "Rank": "498.",
+        "Name": "Roberto Clemente+",
+        "Age": 34,
+        "BattingAvg": 0.3452,
+        "Year": 1969,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "Cy Williams",
+        "Age": 38,
+        "BattingAvg": 0.3452,
+        "Year": 1926,
+        "Throws": "L"
+      },
+      {
+        "Rank": "500.",
+        "Name": "Willie Mays+",
+        "Age": 23,
+        "BattingAvg": 0.3451,
+        "Year": 1954,
+        "Throws": "R"
+      },
+      {
+        "Rank": " ",
+        "Name": "George Sisler+",
+        "Age": 32,
+        "BattingAvg": 0.3451,
+        "Year": 1925,
+        "Throws": "L"
       }
     ]
   }
