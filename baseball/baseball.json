@@ -1,6 +1,6 @@
 {
-  "single-season": {
-    "hits": [
+  "hits": {
+    "singleSeason": [
       {
         "Rank": "1",
         "Player": "Ichiro Suzuki",
@@ -4273,8 +4273,10 @@
         "Year": 1923,
         "Bats": "L"
       }
-    ],
-    "era": [
+    ]
+  },
+  "era": {
+    "singleSeason": [
       {
         "Rank": "1.",
         "Player": "Tim Keefe+",
@@ -8275,8 +8277,10 @@
         "Year": 1906,
         "Throws": "L"
       }
-    ],
-    "stolenBases": [
+    ]
+  },
+  "stolenBases": {
+    "singleSeason": [
       {
         "Rank": "1.",
         "Player": "Hugh Nicol",
@@ -12476,8 +12480,10 @@
         "Year": 1910,
         "Bats": "R"
       }
-    ],
-    "homeRuns": [
+    ]
+  },
+  "homeRuns": {
+    "singleSeason": [
       {
         "Rank": "1.",
         "Name": "Barry Bond",
@@ -16654,8 +16660,10 @@
         "Year": 1967,
         "Throws": "R"
       }
-    ],
-    "battingAvgs" : [
+    ]
+  },
+  "battingAvgs": {
+    "singleSeason": [
       {
         "Rank": "1.",
         "Name": "Hugh Duffy+",
