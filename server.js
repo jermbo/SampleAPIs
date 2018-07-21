@@ -4,7 +4,7 @@ const path = require("path");
 const server = jsonServer.create();
 const middleware = jsonServer.defaults();
 const port = process.env.PORT || 5000;
-const pages = ["futurama", "avatar", "baseball"];
+const pages = ["futurama", "avatar", "baseball", "recipes"];
 
 server.use(middleware);
 
