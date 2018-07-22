@@ -4,9 +4,23 @@ Thank you for taking the time to contribute! When contributing to this repositor
 
 Please note we have a [Code of Conduct](https://github.com/jermbo/SampleAPIs/blob/master/CODE-OF-CONDUCT.md), please follow it in all your interactions with the project.
 
-## Pull Request Process
+## Pull Request Process for new Databases
 
-1.  Ensure any install or build dependencies are removed before the end of the layer when doing a build.
-2.  Update the [README.md](https://github.com/jermbo/SampleAPIs/blob/master/README.md) with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
-3.  Increase the version numbers in any examples files and the [README.md](https://github.com/jermbo/SampleAPIs/blob/master/README.md) to the new version that this Pull Request would represent. The versioning scheme we use is [SemVer](https://semver.org).
-4.  You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
+1.  Create new folder with name describing data.
+2.  Ensure index file has a list of end points dynamically added.
+    1.  Utilize the `displayEndPoints.js` file to accomplish this.
+3.  Create json file with same name as folder. eg. `futurama.json`
+4.  Create a `.backup` file of your json data. eg. `futurama.json.data`
+5.  Ensure all build code is documented and formatted according to standards.
+6.  Create pull request with detailed changes and link to issue.
+7.  Direct pull request to the dev branch of the repo.
+    1.  Correct any merge conflicts before submission.
+
+### Display End Points File
+
+Each index file should contain a brief description of the data present and a list of endpoints in the json file. The look and feel can be designed how ever you desire. The endpoints should not be hard coded, as they have the tendency to change. Instead, utilize the `displayEndPoints.js` file.
+
+The function `displayEndPoints()` takes an object with two keys.
+
+1.  `elem`. Which takes a CSS string or a DOM object in which the endpoints will be displayed.
+2.  `db`. DB is the name of the json file that is powering the database. \*Note: the folder name and the json file name should be the same.
