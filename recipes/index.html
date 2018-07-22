@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RecipesDB</title>
+    <link rel="stylesheet" href="../assets/styles/home-styles.css">
+</head>
+
+<body>
+    <main>
+        <article class="site">
+            <div class="site__inner">
+                <a href="/" class="backBtn">Home</a>
+                <h1 class="site__title">RecipesDB</h1>
+                <p>A fun and safe place to practice with RESTful APIs</p>
+                <p>You can use any HTTP verbs (GET, POST, PUT, PATCH and DELETE) and access your resources from anywhere using
+                    CORS and JSONP.</p>
+                <article class="content">
+                    <p>Here is a list of existing APIs to get you started.</p>
+                    <nav class="endpoints">
+                    </nav>
+                </article>
+            </div>
+        </article>
+    </main>
+    <!-- /container -->
+    <script src="../assets/scripts/displayEndPoints.js" type="text/javascript"></script>
+    <script>
+        DisplayEndPoints({
+            elem: ".endpoints",
+            db: "recipes"
+        });
+    </script>
+</body>
+
+</html>
