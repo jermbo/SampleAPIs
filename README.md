@@ -9,3 +9,7 @@ We have a growing number of APIs to choose from. Head over to [SampleAPIs.com](h
 All APIs will follow the same url structure, the differences being the base category and the specific endpoint. For example, let's look at the path for Futurama. To get to the basic information about the database you will navigate to `https://sampleapis.com/futurama`. There you will notice a list of all the endpoints and you are interested in the inventory list. Your url would look like `https://sampleapis.com/futurama/inventory`.
 
 Once you get to an endpoint, you can do all the normal actions on a RESTful endpoint. Check out the documentation over at [JSON-Server](https://github.com/typicode/json-server) as this is the tool that is powering the site.
+
+## Starting server locally
+
+Navigate to the folder containing the cloned files. Install dependencies `npm i`. Once all the dependencies are loaded, run `npm start`. Open your browser to `localhost:5000`. Use the site the same way you would from the website.
