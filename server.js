@@ -14,5 +14,5 @@ pages.forEach(page => {
 });
 
 server.listen(port, () => {
-  console.log(`JSON Server is now running on port: ${port}`);
+  console.log(`JSON Server is now running : http://localhost:${port}`);
 });
