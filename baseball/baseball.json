@@ -20672,6 +20672,7001 @@
         "Year": 1925,
         "Throws": "L"
       }
+    ],
+    "career": [
+      {
+        "Rank": "1.",
+        "Player": "Ty Cobb+",
+        "Years-Age": "(24)",
+        "Batting Average": ".3664",
+        "Bats": "L"
+      },
+      {
+        "Rank": "2.",
+        "Player": "Rogers Hornsby+",
+        "Years-Age": "(23)",
+        "Batting Average": ".3585",
+        "Bats": "R"
+      },
+      {
+        "Rank": "3.",
+        "Player": "Shoeless Joe Jackson",
+        "Years-Age": "(13)",
+        "Batting Average": ".3558",
+        "Bats": "L"
+      },
+      {
+        "Rank": "4.",
+        "Player": "Lefty O'Doul",
+        "Years-Age": "(11)",
+        "Batting Average": ".3493",
+        "Bats": "L"
+      },
+      {
+        "Rank": "5.",
+        "Player": "Ed Delahanty+",
+        "Years-Age": "(16)",
+        "Batting Average": ".3458",
+        "Bats": "R"
+      },
+      {
+        "Rank": "6.",
+        "Player": "Tris Speaker+",
+        "Years-Age": "(22)",
+        "Batting Average": ".3447",
+        "Bats": "L"
+      },
+      {
+        "Rank": "7.",
+        "Player": "Billy Hamilton+",
+        "Years-Age": "(14)",
+        "Batting Average": ".3444",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ted Williams+",
+        "Years-Age": "(19)",
+        "Batting Average": ".3444",
+        "Bats": "L"
+      },
+      {
+        "Rank": "9.",
+        "Player": "Dan Brouthers+",
+        "Years-Age": "(19)",
+        "Batting Average": ".3424",
+        "Bats": "L"
+      },
+      {
+        "Rank": "10.",
+        "Player": "Babe Ruth+",
+        "Years-Age": "(22)",
+        "Batting Average": ".3421",
+        "Bats": "L"
+      },
+      {
+        "Rank": "11.",
+        "Player": "Dave Orr",
+        "Years-Age": "(8)",
+        "Batting Average": ".3420",
+        "Bats": "R"
+      },
+      {
+        "Rank": "12.",
+        "Player": "Harry Heilmann+",
+        "Years-Age": "(17)",
+        "Batting Average": ".3416",
+        "Bats": "R"
+      },
+      {
+        "Rank": "13.",
+        "Player": "Pete Browning",
+        "Years-Age": "(13)",
+        "Batting Average": ".3415",
+        "Bats": "R"
+      },
+      {
+        "Rank": "14.",
+        "Player": "Willie Keeler+",
+        "Years-Age": "(19)",
+        "Batting Average": ".3413",
+        "Bats": "L"
+      },
+      {
+        "Rank": "15.",
+        "Player": "Bill Terry+",
+        "Years-Age": "(14)",
+        "Batting Average": ".3412",
+        "Bats": "L"
+      },
+      {
+        "Rank": "16.",
+        "Player": "Lou Gehrig+",
+        "Years-Age": "(17)",
+        "Batting Average": ".3401",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "George Sisler+",
+        "Years-Age": "(15)",
+        "Batting Average": ".3401",
+        "Bats": "L"
+      },
+      {
+        "Rank": "18.",
+        "Player": "Jesse Burkett+",
+        "Years-Age": "(16)",
+        "Batting Average": ".3382",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Tony Gwynn+",
+        "Years-Age": "(20)",
+        "Batting Average": ".3382",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Nap Lajoie+",
+        "Years-Age": "(21)",
+        "Batting Average": ".3382",
+        "Bats": "R"
+      },
+      {
+        "Rank": "21.",
+        "Player": "Jake Stenzel",
+        "Years-Age": "(9)",
+        "Batting Average": ".3378",
+        "Bats": "R"
+      },
+      {
+        "Rank": "22.",
+        "Player": "Riggs Stephenson",
+        "Years-Age": "(14)",
+        "Batting Average": ".3361",
+        "Bats": "R"
+      },
+      {
+        "Rank": "23.",
+        "Player": "Al Simmons+",
+        "Years-Age": "(20)",
+        "Batting Average": ".3342",
+        "Bats": "R"
+      },
+      {
+        "Rank": "24.",
+        "Player": "Cap Anson+",
+        "Years-Age": "(27)",
+        "Batting Average": ".3341",
+        "Bats": "R"
+      },
+      {
+        "Rank": "25.",
+        "Player": "John McGraw+",
+        "Years-Age": "(17)",
+        "Batting Average": ".3336",
+        "Bats": "L"
+      },
+      {
+        "Rank": "26.",
+        "Player": "Eddie Collins+",
+        "Years-Age": "(25)",
+        "Batting Average": ".3332",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Paul Waner+",
+        "Years-Age": "(20)",
+        "Batting Average": ".3332",
+        "Bats": "L"
+      },
+      {
+        "Rank": "28.",
+        "Player": "Mike Donlin",
+        "Years-Age": "(12)",
+        "Batting Average": ".3326",
+        "Bats": "L"
+      },
+      {
+        "Rank": "29.",
+        "Player": "Sam Thompson+",
+        "Years-Age": "(15)",
+        "Batting Average": ".3314",
+        "Bats": "L"
+      },
+      {
+        "Rank": "30.",
+        "Player": "Stan Musial+",
+        "Years-Age": "(22)",
+        "Batting Average": ".3308",
+        "Bats": "L"
+      },
+      {
+        "Rank": "31.",
+        "Player": "Bill Lange",
+        "Years-Age": "(7)",
+        "Batting Average": ".3298",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Heinie Manush+",
+        "Years-Age": "(17)",
+        "Batting Average": ".3298",
+        "Bats": "L"
+      },
+      {
+        "Rank": "33.",
+        "Player": "Wade Boggs+",
+        "Years-Age": "(18)",
+        "Batting Average": ".3279",
+        "Bats": "L"
+      },
+      {
+        "Rank": "34.",
+        "Player": "Rod Carew+",
+        "Years-Age": "(19)",
+        "Batting Average": ".3278",
+        "Bats": "L"
+      },
+      {
+        "Rank": "35.",
+        "Player": "Honus Wagner+",
+        "Years-Age": "(21)",
+        "Batting Average": ".3276",
+        "Bats": "R"
+      },
+      {
+        "Rank": "36.",
+        "Player": "Tip O'Neill",
+        "Years-Age": "(10)",
+        "Batting Average": ".3260",
+        "Bats": "R"
+      },
+      {
+        "Rank": "37.",
+        "Player": "Hugh Duffy+",
+        "Years-Age": "(17)",
+        "Batting Average": ".3255",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bob Fothergill",
+        "Years-Age": "(12)",
+        "Batting Average": ".3255",
+        "Bats": "R"
+      },
+      {
+        "Rank": "39.",
+        "Player": "Jimmie Foxx+",
+        "Years-Age": "(20)",
+        "Batting Average": ".3253",
+        "Bats": "R"
+      },
+      {
+        "Rank": "40.",
+        "Player": "Earle Combs+",
+        "Years-Age": "(12)",
+        "Batting Average": ".3247",
+        "Bats": "L"
+      },
+      {
+        "Rank": "41.",
+        "Player": "Joe DiMaggio+",
+        "Years-Age": "(13)",
+        "Batting Average": ".3246",
+        "Bats": "R"
+      },
+      {
+        "Rank": "42.",
+        "Player": "Babe Herman",
+        "Years-Age": "(13)",
+        "Batting Average": ".3245",
+        "Bats": "L"
+      },
+      {
+        "Rank": "43.",
+        "Player": "Joe Medwick+",
+        "Years-Age": "(17)",
+        "Batting Average": ".3236",
+        "Bats": "R"
+      },
+      {
+        "Rank": "44.",
+        "Player": "Edd Roush+",
+        "Years-Age": "(18)",
+        "Batting Average": ".3227",
+        "Bats": "L"
+      },
+      {
+        "Rank": "45.",
+        "Player": "Sam Rice+",
+        "Years-Age": "(20)",
+        "Batting Average": ".3223",
+        "Bats": "L"
+      },
+      {
+        "Rank": "46.",
+        "Player": "Ross Youngs+",
+        "Years-Age": "(10)",
+        "Batting Average": ".3222",
+        "Bats": "L"
+      },
+      {
+        "Rank": "47.",
+        "Player": "Kiki Cuyler+",
+        "Years-Age": "(18)",
+        "Batting Average": ".3210",
+        "Bats": "R"
+      },
+      {
+        "Rank": "48.",
+        "Player": "Charlie Gehringer+",
+        "Years-Age": "(19)",
+        "Batting Average": ".3204",
+        "Bats": "L"
+      },
+      {
+        "Rank": "49.",
+        "Player": "Chuck Klein+",
+        "Years-Age": "(17)",
+        "Batting Average": ".3201",
+        "Bats": "L"
+      },
+      {
+        "Rank": "50.",
+        "Player": "Mickey Cochrane+",
+        "Years-Age": "(13)",
+        "Batting Average": ".3196",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Pie Traynor+",
+        "Years-Age": "(17)",
+        "Batting Average": ".3196",
+        "Bats": "R"
+      },
+      {
+        "Rank": "52.",
+        "Player": "Ken Williams",
+        "Years-Age": "(14)",
+        "Batting Average": ".3192",
+        "Bats": "L"
+      },
+      {
+        "Rank": "53.",
+        "Player": "Kirby Puckett+",
+        "Years-Age": "(12)",
+        "Batting Average": ".3181",
+        "Bats": "R"
+      },
+      {
+        "Rank": "54.",
+        "Player": "Earl Averill+",
+        "Years-Age": "(13)",
+        "Batting Average": ".3178",
+        "Bats": "L"
+      },
+      {
+        "Rank": "55.",
+        "Player": "Vladimir Guerrero+",
+        "Years-Age": "(16)",
+        "Batting Average": ".3176",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Arky Vaughan+",
+        "Years-Age": "(14)",
+        "Batting Average": ".3176",
+        "Bats": "L"
+      },
+      {
+        "Rank": "57.",
+        "Player": "Jose Altuve",
+        "Years-Age": "(8, 28)",
+        "Batting Average": ".3175",
+        "Bats": "R"
+      },
+      {
+        "Rank": "58.",
+        "Player": "Bill Everitt",
+        "Years-Age": "(7)",
+        "Batting Average": ".3174",
+        "Bats": "L"
+      },
+      {
+        "Rank": "59.",
+        "Player": "Roberto Clemente+",
+        "Years-Age": "(18)",
+        "Batting Average": ".3173",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Harris",
+        "Years-Age": "(10)",
+        "Batting Average": ".3173",
+        "Bats": "R"
+      },
+      {
+        "Rank": "61.",
+        "Player": "Chick Hafey+",
+        "Years-Age": "(13)",
+        "Batting Average": ".3170",
+        "Bats": "R"
+      },
+      {
+        "Rank": "62.",
+        "Player": "Joe Kelley+",
+        "Years-Age": "(17)",
+        "Batting Average": ".3169",
+        "Bats": "R"
+      },
+      {
+        "Rank": "63.",
+        "Player": "Zack Wheat+",
+        "Years-Age": "(19)",
+        "Batting Average": ".3167",
+        "Bats": "L"
+      },
+      {
+        "Rank": "64.",
+        "Player": "Miguel Cabrera",
+        "Years-Age": "(16, 35)",
+        "Batting Average": ".3165",
+        "Bats": "R"
+      },
+      {
+        "Rank": "65.",
+        "Player": "Roger Connor+",
+        "Years-Age": "(18)",
+        "Batting Average": ".3164",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Todd Helton",
+        "Years-Age": "(17)",
+        "Batting Average": ".3164",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Lloyd Waner+",
+        "Years-Age": "(18)",
+        "Batting Average": ".3164",
+        "Bats": "L"
+      },
+      {
+        "Rank": "68.",
+        "Player": "George Van Haltren",
+        "Years-Age": "(17)",
+        "Batting Average": ".3163",
+        "Bats": "L"
+      },
+      {
+        "Rank": "69.",
+        "Player": "Frankie Frisch+",
+        "Years-Age": "(19)",
+        "Batting Average": ".3161",
+        "Bats": "B"
+      },
+      {
+        "Rank": "70.",
+        "Player": "Goose Goslin+",
+        "Years-Age": "(18)",
+        "Batting Average": ".3160",
+        "Bats": "L"
+      },
+      {
+        "Rank": "71.",
+        "Player": "Lew Fonseca",
+        "Years-Age": "(12)",
+        "Batting Average": ".3158",
+        "Bats": "R"
+      },
+      {
+        "Rank": "72.",
+        "Player": "Bibb Falk",
+        "Years-Age": "(12)",
+        "Batting Average": ".3145",
+        "Bats": "L"
+      },
+      {
+        "Rank": "73.",
+        "Player": "Cecil Travis",
+        "Years-Age": "(12)",
+        "Batting Average": ".3142",
+        "Bats": "L"
+      },
+      {
+        "Rank": "74.",
+        "Player": "Hank Greenberg+",
+        "Years-Age": "(13)",
+        "Batting Average": ".3135",
+        "Bats": "R"
+      },
+      {
+        "Rank": "75.",
+        "Player": "Jack Fournier",
+        "Years-Age": "(15)",
+        "Batting Average": ".3132",
+        "Bats": "L"
+      },
+      {
+        "Rank": "76.",
+        "Player": "Elmer Flick+",
+        "Years-Age": "(13)",
+        "Batting Average": ".3130",
+        "Bats": "L"
+      },
+      {
+        "Rank": "77.",
+        "Player": "Ed Morgan",
+        "Years-Age": "(7)",
+        "Batting Average": ".3128",
+        "Bats": "R"
+      },
+      {
+        "Rank": "78.",
+        "Player": "Nomar Garciaparra",
+        "Years-Age": "(14)",
+        "Batting Average": ".3127",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Larry Walker",
+        "Years-Age": "(17)",
+        "Batting Average": ".3127",
+        "Bats": "L"
+      },
+      {
+        "Rank": "80.",
+        "Player": "Bill Dickey+",
+        "Years-Age": "(17)",
+        "Batting Average": ".3125",
+        "Bats": "L"
+      },
+      {
+        "Rank": "81.",
+        "Player": "Dale Mitchell",
+        "Years-Age": "(11)",
+        "Batting Average": ".3122",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Manny Ramirez",
+        "Years-Age": "(19)",
+        "Batting Average": ".3122",
+        "Bats": "R"
+      },
+      {
+        "Rank": "83.",
+        "Player": "Johnny Mize+",
+        "Years-Age": "(15)",
+        "Batting Average": ".3121",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Sewell+",
+        "Years-Age": "(14)",
+        "Batting Average": ".3121",
+        "Bats": "L"
+      },
+      {
+        "Rank": "85.",
+        "Player": "Fred Clarke+",
+        "Years-Age": "(21)",
+        "Batting Average": ".3120",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Deacon White+",
+        "Years-Age": "(20)",
+        "Batting Average": ".3120",
+        "Bats": "L"
+      },
+      {
+        "Rank": "87.",
+        "Player": "Bug Holliday",
+        "Years-Age": "(10)",
+        "Batting Average": ".3119",
+        "Bats": "R"
+      },
+      {
+        "Rank": "88.",
+        "Player": "Barney McCosky",
+        "Years-Age": "(11)",
+        "Batting Average": ".3118",
+        "Bats": "L"
+      },
+      {
+        "Rank": "89.",
+        "Player": "Hughie Jennings+",
+        "Years-Age": "(18)",
+        "Batting Average": ".3117",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Joey Votto",
+        "Years-Age": "(12, 34)",
+        "Batting Average": ".3117",
+        "Bats": "L"
+      },
+      {
+        "Rank": "91.",
+        "Player": "Edgar Martinez",
+        "Years-Age": "(18)",
+        "Batting Average": ".3115",
+        "Bats": "R"
+      },
+      {
+        "Rank": "92.",
+        "Player": "Johnny Hodapp",
+        "Years-Age": "(9)",
+        "Batting Average": ".3114",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Freddie Lindstrom+",
+        "Years-Age": "(13)",
+        "Batting Average": ".3114",
+        "Bats": "R"
+      },
+      {
+        "Rank": "94.",
+        "Player": "Bing Miller",
+        "Years-Age": "(16)",
+        "Batting Average": ".3113",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jackie Robinson+",
+        "Years-Age": "(10)",
+        "Batting Average": ".3113",
+        "Bats": "R"
+      },
+      {
+        "Rank": "96.",
+        "Player": "Baby Doll Jacobson",
+        "Years-Age": "(11)",
+        "Batting Average": ".3112",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Taffy Wright",
+        "Years-Age": "(9)",
+        "Batting Average": ".3112",
+        "Bats": "L"
+      },
+      {
+        "Rank": "98.",
+        "Player": "Ichiro Suzuki",
+        "Years-Age": "(18, 44)",
+        "Batting Average": ".3111",
+        "Bats": "L"
+      },
+      {
+        "Rank": "99.",
+        "Player": "Rip Radcliff",
+        "Years-Age": "(10)",
+        "Batting Average": ".3110",
+        "Bats": "L"
+      },
+      {
+        "Rank": "100.",
+        "Player": "Ginger Beaumont",
+        "Years-Age": "(12)",
+        "Batting Average": ".3108",
+        "Bats": "L"
+      },
+      {
+        "Rank": "101.",
+        "Player": "Mike Tiernan",
+        "Years-Age": "(13)",
+        "Batting Average": ".3107",
+        "Bats": "L"
+      },
+      {
+        "Rank": "102.",
+        "Player": "Benny Kauff",
+        "Years-Age": "(8)",
+        "Batting Average": ".3106",
+        "Bats": "L"
+      },
+      {
+        "Rank": "103.",
+        "Player": "Luke Appling+",
+        "Years-Age": "(20)",
+        "Batting Average": ".3104",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Irish Meusel",
+        "Years-Age": "(11)",
+        "Batting Average": ".3104",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim O'Rourke+",
+        "Years-Age": "(23)",
+        "Batting Average": ".3104",
+        "Bats": "R"
+      },
+      {
+        "Rank": "106.",
+        "Player": "Denny Lyons",
+        "Years-Age": "(13)",
+        "Batting Average": ".3102",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mike Smith",
+        "Years-Age": "(14)",
+        "Batting Average": ".3102",
+        "Bats": "L"
+      },
+      {
+        "Rank": "108.",
+        "Player": "Bobby Veach",
+        "Years-Age": "(14)",
+        "Batting Average": ".3099",
+        "Bats": "L"
+      },
+      {
+        "Rank": "109.",
+        "Player": "Jim Bottomley+",
+        "Years-Age": "(16)",
+        "Batting Average": ".3096",
+        "Bats": "L"
+      },
+      {
+        "Rank": "110.",
+        "Player": "Derek Jeter",
+        "Years-Age": "(20)",
+        "Batting Average": ".3095",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "John Stone",
+        "Years-Age": "(11)",
+        "Batting Average": ".3095",
+        "Bats": "L"
+      },
+      {
+        "Rank": "112.",
+        "Player": "Sam Crawford+",
+        "Years-Age": "(19)",
+        "Batting Average": ".3094",
+        "Bats": "L"
+      },
+      {
+        "Rank": "113.",
+        "Player": "Bob Meusel",
+        "Years-Age": "(11)",
+        "Batting Average": ".3092",
+        "Bats": "R"
+      },
+      {
+        "Rank": "114.",
+        "Player": "Magglio Ordonez",
+        "Years-Age": "(15)",
+        "Batting Average": ".3090",
+        "Bats": "R"
+      },
+      {
+        "Rank": "115.",
+        "Player": "Jack Tobin",
+        "Years-Age": "(13)",
+        "Batting Average": ".3087",
+        "Bats": "L"
+      },
+      {
+        "Rank": "116.",
+        "Player": "Spud Davis",
+        "Years-Age": "(16)",
+        "Batting Average": ".3083",
+        "Bats": "R"
+      },
+      {
+        "Rank": "117.",
+        "Player": "Harvey Hendrick",
+        "Years-Age": "(11)",
+        "Batting Average": ".3079",
+        "Bats": "L"
+      },
+      {
+        "Rank": "118.",
+        "Player": "Mike Piazza+",
+        "Years-Age": "(16)",
+        "Batting Average": ".3078",
+        "Bats": "R"
+      },
+      {
+        "Rank": "119.",
+        "Player": "Richie Ashburn+",
+        "Years-Age": "(15)",
+        "Batting Average": ".3077",
+        "Bats": "L"
+      },
+      {
+        "Rank": "120.",
+        "Player": "Jake Beckley+",
+        "Years-Age": "(20)",
+        "Batting Average": ".3076",
+        "Bats": "L"
+      },
+      {
+        "Rank": "121.",
+        "Player": "Johnny Frederick",
+        "Years-Age": "(6)",
+        "Batting Average": ".3075",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "King Kelly+",
+        "Years-Age": "(16)",
+        "Batting Average": ".3075",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Stuffy McInnis",
+        "Years-Age": "(19)",
+        "Batting Average": ".3075",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jimmy Ryan",
+        "Years-Age": "(18)",
+        "Batting Average": ".3075",
+        "Bats": "R"
+      },
+      {
+        "Rank": "125.",
+        "Player": "Don Mattingly",
+        "Years-Age": "(14)",
+        "Batting Average": ".3074",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Vosmik",
+        "Years-Age": "(13)",
+        "Batting Average": ".3074",
+        "Bats": "R"
+      },
+      {
+        "Rank": "127.",
+        "Player": "Freddy Leach",
+        "Years-Age": "(10)",
+        "Batting Average": ".3073",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Johnny Moore",
+        "Years-Age": "(10)",
+        "Batting Average": ".3073",
+        "Bats": "L"
+      },
+      {
+        "Rank": "129.",
+        "Player": "Home Run Baker+",
+        "Years-Age": "(13)",
+        "Batting Average": ".3072",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Mauer",
+        "Years-Age": "(15, 35)",
+        "Batting Average": ".3072",
+        "Bats": "L"
+      },
+      {
+        "Rank": "131.",
+        "Player": "Matty Alou",
+        "Years-Age": "(15)",
+        "Batting Average": ".3070",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "George Burns",
+        "Years-Age": "(16)",
+        "Batting Average": ".3070",
+        "Bats": "R"
+      },
+      {
+        "Rank": "133.",
+        "Player": "Pat Duncan",
+        "Years-Age": "(7)",
+        "Batting Average": ".3069",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Hack Wilson+",
+        "Years-Age": "(12)",
+        "Batting Average": ".3069",
+        "Bats": "R"
+      },
+      {
+        "Rank": "135.",
+        "Player": "Zeke Bonura",
+        "Years-Age": "(7)",
+        "Batting Average": ".3068",
+        "Bats": "R"
+      },
+      {
+        "Rank": "136.",
+        "Player": "Johnny Pesky",
+        "Years-Age": "(10)",
+        "Batting Average": ".3066",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Buster Posey",
+        "Years-Age": "(10, 31)",
+        "Batting Average": ".3066",
+        "Bats": "R"
+      },
+      {
+        "Rank": "138.",
+        "Player": "George Kell+",
+        "Years-Age": "(15)",
+        "Batting Average": ".3065",
+        "Bats": "R"
+      },
+      {
+        "Rank": "139.",
+        "Player": "Paul Molitor+",
+        "Years-Age": "(21)",
+        "Batting Average": ".3063",
+        "Bats": "R"
+      },
+      {
+        "Rank": "140.",
+        "Player": "Dixie Walker",
+        "Years-Age": "(18)",
+        "Batting Average": ".3062",
+        "Bats": "L"
+      },
+      {
+        "Rank": "141.",
+        "Player": "Cupid Childs",
+        "Years-Age": "(13)",
+        "Batting Average": ".3061",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ernie Lombardi+",
+        "Years-Age": "(17)",
+        "Batting Average": ".3061",
+        "Bats": "R"
+      },
+      {
+        "Rank": "143.",
+        "Player": "Mike Trout",
+        "Years-Age": "(8, 26)",
+        "Batting Average": ".3059",
+        "Bats": "R"
+      },
+      {
+        "Rank": "144.",
+        "Player": "Bob Dillinger",
+        "Years-Age": "(6)",
+        "Batting Average": ".3058",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ralph Garr",
+        "Years-Age": "(13)",
+        "Batting Average": ".3058",
+        "Bats": "L"
+      },
+      {
+        "Rank": "146.",
+        "Player": "Hank Aaron+",
+        "Years-Age": "(23)",
+        "Batting Average": ".3050",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Chick Stahl",
+        "Years-Age": "(10)",
+        "Batting Average": ".3050",
+        "Bats": "L"
+      },
+      {
+        "Rank": "148.",
+        "Player": "George Brett+",
+        "Years-Age": "(21)",
+        "Batting Average": ".3048",
+        "Bats": "L"
+      },
+      {
+        "Rank": "149.",
+        "Player": "Rusty Greer",
+        "Years-Age": "(9)",
+        "Batting Average": ".3045",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Charlie Hollocher",
+        "Years-Age": "(7)",
+        "Batting Average": ".3045",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Bill Madlock",
+        "Years-Age": "(15)",
+        "Batting Average": ".3045",
+        "Bats": "R"
+      },
+      {
+        "Rank": "152.",
+        "Player": "Billy Herman+",
+        "Years-Age": "(15)",
+        "Batting Average": ".3043",
+        "Bats": "R"
+      },
+      {
+        "Rank": "153.",
+        "Player": "Robinson Cano",
+        "Years-Age": "(14, 35)",
+        "Batting Average": ".3042",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Hal Morris",
+        "Years-Age": "(13)",
+        "Batting Average": ".3042",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Tony Oliva",
+        "Years-Age": "(15)",
+        "Batting Average": ".3042",
+        "Bats": "L"
+      },
+      {
+        "Rank": "156.",
+        "Player": "Mel Ott+",
+        "Years-Age": "(22)",
+        "Batting Average": ".3041",
+        "Bats": "L"
+      },
+      {
+        "Rank": "157.",
+        "Player": "Manny Mota",
+        "Years-Age": "(20)",
+        "Batting Average": ".3040",
+        "Bats": "R"
+      },
+      {
+        "Rank": "158.",
+        "Player": "Curt Walker",
+        "Years-Age": "(12)",
+        "Batting Average": ".3036",
+        "Bats": "L"
+      },
+      {
+        "Rank": "159.",
+        "Player": "Will Clark",
+        "Years-Age": "(15)",
+        "Batting Average": ".3034",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Charlie Jamieson",
+        "Years-Age": "(18)",
+        "Batting Average": ".3034",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Chipper Jones+",
+        "Years-Age": "(19)",
+        "Batting Average": ".3034",
+        "Bats": "B"
+      },
+      {
+        "Rank": "162.",
+        "Player": "Moises Alou",
+        "Years-Age": "(17)",
+        "Batting Average": ".3033",
+        "Bats": "R"
+      },
+      {
+        "Rank": "163.",
+        "Player": "Gene DeMontreville",
+        "Years-Age": "(11)",
+        "Batting Average": ".3032",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mark Grace",
+        "Years-Age": "(16)",
+        "Batting Average": ".3032",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Cy Seymour",
+        "Years-Age": "(16)",
+        "Batting Average": ".3032",
+        "Bats": "L"
+      },
+      {
+        "Rank": "166.",
+        "Player": "Jake Daubert",
+        "Years-Age": "(15)",
+        "Batting Average": ".3031",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "George Harper",
+        "Years-Age": "(11)",
+        "Batting Average": ".3031",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Al Oliver",
+        "Years-Age": "(18)",
+        "Batting Average": ".3031",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Albert Pujols",
+        "Years-Age": "(18, 38)",
+        "Batting Average": ".3031",
+        "Bats": "R"
+      },
+      {
+        "Rank": "170.",
+        "Player": "Charlie Blackmon",
+        "Years-Age": "(8, 31)",
+        "Batting Average": ".3030",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Steve Brodie",
+        "Years-Age": "(12)",
+        "Batting Average": ".3030",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Buck Ewing+",
+        "Years-Age": "(18)",
+        "Batting Average": ".3030",
+        "Bats": "R"
+      },
+      {
+        "Rank": "173.",
+        "Player": "Henry Larkin",
+        "Years-Age": "(10)",
+        "Batting Average": ".3029",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Pete Rose",
+        "Years-Age": "(24)",
+        "Batting Average": ".3029",
+        "Bats": "B"
+      },
+      {
+        "Rank": "175.",
+        "Player": "Mike Greenwell",
+        "Years-Age": "(12)",
+        "Batting Average": ".3028",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Buddy Myer",
+        "Years-Age": "(17)",
+        "Batting Average": ".3028",
+        "Bats": "L"
+      },
+      {
+        "Rank": "177.",
+        "Player": "Harvey Kuenn",
+        "Years-Age": "(15)",
+        "Batting Average": ".3026",
+        "Bats": "R"
+      },
+      {
+        "Rank": "178.",
+        "Player": "Eddie Brown",
+        "Years-Age": "(7)",
+        "Batting Average": ".3025",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Hal Trosky",
+        "Years-Age": "(11)",
+        "Batting Average": ".3025",
+        "Bats": "L"
+      },
+      {
+        "Rank": "180.",
+        "Player": "Ben Chapman",
+        "Years-Age": "(15)",
+        "Batting Average": ".3023",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "George Grantham",
+        "Years-Age": "(13)",
+        "Batting Average": ".3023",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ed McKean",
+        "Years-Age": "(13)",
+        "Batting Average": ".3023",
+        "Bats": "R"
+      },
+      {
+        "Rank": "183.",
+        "Player": "Sean Casey",
+        "Years-Age": "(12)",
+        "Batting Average": ".3022",
+        "Bats": "L"
+      },
+      {
+        "Rank": "184.",
+        "Player": "Paul Hines",
+        "Years-Age": "(20)",
+        "Batting Average": ".3020",
+        "Bats": "R"
+      },
+      {
+        "Rank": "185.",
+        "Player": "Sammy Hale",
+        "Years-Age": "(10)",
+        "Batting Average": ".3019",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Tommy Holmes",
+        "Years-Age": "(11)",
+        "Batting Average": ".3019",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Carl Reynolds",
+        "Years-Age": "(13)",
+        "Batting Average": ".3019",
+        "Bats": "R"
+      },
+      {
+        "Rank": "188.",
+        "Player": "Willie Mays+",
+        "Years-Age": "(22)",
+        "Batting Average": ".3017",
+        "Bats": "R"
+      },
+      {
+        "Rank": "189.",
+        "Player": "Homer Summa",
+        "Years-Age": "(10)",
+        "Batting Average": ".3016",
+        "Bats": "L"
+      },
+      {
+        "Rank": "190.",
+        "Player": "Rube Bressler",
+        "Years-Age": "(19)",
+        "Batting Average": ".3015",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Cronin+",
+        "Years-Age": "(20)",
+        "Batting Average": ".3015",
+        "Bats": "R"
+      },
+      {
+        "Rank": "192.",
+        "Player": "Stan Hack",
+        "Years-Age": "(16)",
+        "Batting Average": ".3013",
+        "Bats": "L"
+      },
+      {
+        "Rank": "193.",
+        "Player": "Frank Thomas+",
+        "Years-Age": "(19)",
+        "Batting Average": ".3010",
+        "Bats": "R"
+      },
+      {
+        "Rank": "194.",
+        "Player": "George Gore",
+        "Years-Age": "(14)",
+        "Batting Average": ".3009",
+        "Bats": "L"
+      },
+      {
+        "Rank": "195.",
+        "Player": "George Stone",
+        "Years-Age": "(7)",
+        "Batting Average": ".3008",
+        "Bats": "L"
+      },
+      {
+        "Rank": "196.",
+        "Player": "Patsy Donovan",
+        "Years-Age": "(17)",
+        "Batting Average": ".3006",
+        "Bats": "L"
+      },
+      {
+        "Rank": "197.",
+        "Player": "Johnny Mostil",
+        "Years-Age": "(10)",
+        "Batting Average": ".3005",
+        "Bats": "R"
+      },
+      {
+        "Rank": "198.",
+        "Player": "Roberto Alomar+",
+        "Years-Age": "(17)",
+        "Batting Average": ".3002",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Wally Berger",
+        "Years-Age": "(11)",
+        "Batting Average": ".3002",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "John Kruk",
+        "Years-Age": "(10)",
+        "Batting Average": ".3002",
+        "Bats": "L"
+      },
+      {
+        "Rank": "201.",
+        "Player": "Pedro Guerrero",
+        "Years-Age": "(15)",
+        "Batting Average": ".3001",
+        "Bats": "R"
+      },
+      {
+        "Rank": "202.",
+        "Player": "Emmet Heidrick",
+        "Years-Age": "(8)",
+        "Batting Average": ".3000",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Dustin Pedroia",
+        "Years-Age": "(13, 34)",
+        "Batting Average": ".3000",
+        "Bats": "R"
+      },
+      {
+        "Rank": "204.",
+        "Player": "Ethan Allen",
+        "Years-Age": "(13)",
+        "Batting Average": ".2999",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Enos Slaughter+",
+        "Years-Age": "(19)",
+        "Batting Average": ".2999",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Michael Young",
+        "Years-Age": "(14)",
+        "Batting Average": ".2999",
+        "Bats": "R"
+      },
+      {
+        "Rank": "207.",
+        "Player": "Oyster Burns",
+        "Years-Age": "(11)",
+        "Batting Average": ".2997",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Earl Sheely",
+        "Years-Age": "(9)",
+        "Batting Average": ".2997",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ed Swartwood",
+        "Years-Age": "(9)",
+        "Batting Average": ".2997",
+        "Bats": "L"
+      },
+      {
+        "Rank": "210.",
+        "Player": "Billy Goodman",
+        "Years-Age": "(16)",
+        "Batting Average": ".2996",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "DJ LeMahieu",
+        "Years-Age": "(8, 29)",
+        "Batting Average": ".2996",
+        "Bats": "R"
+      },
+      {
+        "Rank": "212.",
+        "Player": "Frank Demaree",
+        "Years-Age": "(12)",
+        "Batting Average": ".2995",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Carl Furillo",
+        "Years-Age": "(15)",
+        "Batting Average": ".2995",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Hardy Richardson",
+        "Years-Age": "(14)",
+        "Batting Average": ".2995",
+        "Bats": "R"
+      },
+      {
+        "Rank": "215.",
+        "Player": "Ryan Braun",
+        "Years-Age": "(12, 34)",
+        "Batting Average": ".2992",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Matt Holliday",
+        "Years-Age": "(14)",
+        "Batting Average": ".2992",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bake McBride",
+        "Years-Age": "(11)",
+        "Batting Average": ".2992",
+        "Bats": "L"
+      },
+      {
+        "Rank": "218.",
+        "Player": "Rico Carty",
+        "Years-Age": "(15)",
+        "Batting Average": ".2991",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jack Doyle",
+        "Years-Age": "(17)",
+        "Batting Average": ".2991",
+        "Bats": "R"
+      },
+      {
+        "Rank": "220.",
+        "Player": "Kenny Lofton",
+        "Years-Age": "(17)",
+        "Batting Average": ".2990",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank McCormick",
+        "Years-Age": "(13)",
+        "Batting Average": ".2990",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Sam West",
+        "Years-Age": "(16)",
+        "Batting Average": ".2990",
+        "Bats": "L"
+      },
+      {
+        "Rank": "223.",
+        "Player": "Harry Rice",
+        "Years-Age": "(10)",
+        "Batting Average": ".2989",
+        "Bats": "L"
+      },
+      {
+        "Rank": "224.",
+        "Player": "Joe Start",
+        "Years-Age": "(16)",
+        "Batting Average": ".2988",
+        "Bats": "L"
+      },
+      {
+        "Rank": "225.",
+        "Player": "Dante Bichette",
+        "Years-Age": "(14)",
+        "Batting Average": ".2987",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Buck Jordan",
+        "Years-Age": "(10)",
+        "Batting Average": ".2987",
+        "Bats": "L"
+      },
+      {
+        "Rank": "227.",
+        "Player": "Shane Mack",
+        "Years-Age": "(9)",
+        "Batting Average": ".2986",
+        "Bats": "R"
+      },
+      {
+        "Rank": "228.",
+        "Player": "Minnie Minoso",
+        "Years-Age": "(17)",
+        "Batting Average": ".2984",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Daniel Murphy",
+        "Years-Age": "(10, 33)",
+        "Batting Average": ".2984",
+        "Bats": "L"
+      },
+      {
+        "Rank": "230.",
+        "Player": "Cecil Cooper",
+        "Years-Age": "(17)",
+        "Batting Average": ".2983",
+        "Bats": "L"
+      },
+      {
+        "Rank": "231.",
+        "Player": "Barry Bonds",
+        "Years-Age": "(22)",
+        "Batting Average": ".2981",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Mickey Mantle+",
+        "Years-Age": "(18)",
+        "Batting Average": ".2981",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Rice+",
+        "Years-Age": "(16)",
+        "Batting Average": ".2981",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jose Vidro",
+        "Years-Age": "(12)",
+        "Batting Average": ".2981",
+        "Bats": "B"
+      },
+      {
+        "Rank": "235.",
+        "Player": "Julio Franco",
+        "Years-Age": "(23)",
+        "Batting Average": ".2980",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Don Hurst",
+        "Years-Age": "(7)",
+        "Batting Average": ".2980",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Charley Jones",
+        "Years-Age": "(12)",
+        "Batting Average": ".2980",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Pepper Martin",
+        "Years-Age": "(13)",
+        "Batting Average": ".2980",
+        "Bats": "R"
+      },
+      {
+        "Rank": "239.",
+        "Player": "Dom DiMaggio",
+        "Years-Age": "(11)",
+        "Batting Average": ".2979",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ted Kluszewski",
+        "Years-Age": "(15)",
+        "Batting Average": ".2979",
+        "Bats": "L"
+      },
+      {
+        "Rank": "241.",
+        "Player": "Joe Judge",
+        "Years-Age": "(20)",
+        "Batting Average": ".2978",
+        "Bats": "L"
+      },
+      {
+        "Rank": "242.",
+        "Player": "Pete Fox",
+        "Years-Age": "(13)",
+        "Batting Average": ".2977",
+        "Bats": "R"
+      },
+      {
+        "Rank": "243.",
+        "Player": "Jo-Jo Moore",
+        "Years-Age": "(12)",
+        "Batting Average": ".2976",
+        "Bats": "L"
+      },
+      {
+        "Rank": "244.",
+        "Player": "Freddy Sanchez",
+        "Years-Age": "(10)",
+        "Batting Average": ".2975",
+        "Bats": "R"
+      },
+      {
+        "Rank": "245.",
+        "Player": "Joe Torre+",
+        "Years-Age": "(18)",
+        "Batting Average": ".2974",
+        "Bats": "R"
+      },
+      {
+        "Rank": "246.",
+        "Player": "Gabby Hartnett+",
+        "Years-Age": "(20)",
+        "Batting Average": ".2973",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Al Kaline+",
+        "Years-Age": "(22)",
+        "Batting Average": ".2973",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Billy Southworth+",
+        "Years-Age": "(13)",
+        "Batting Average": ".2973",
+        "Bats": "L"
+      },
+      {
+        "Rank": "249.",
+        "Player": "Buddy Lewis",
+        "Years-Age": "(11)",
+        "Batting Average": ".2971",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Russ Wrightstone",
+        "Years-Age": "(9)",
+        "Batting Average": ".2971",
+        "Bats": "L"
+      },
+      {
+        "Rank": "251.",
+        "Player": "Placido Polanco",
+        "Years-Age": "(16)",
+        "Batting Average": ".2969",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bernie Williams",
+        "Years-Age": "(16)",
+        "Batting Average": ".2969",
+        "Bats": "B"
+      },
+      {
+        "Rank": "253.",
+        "Player": "Jeff Bagwell+",
+        "Years-Age": "(15)",
+        "Batting Average": ".2968",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mike Sweeney",
+        "Years-Age": "(16)",
+        "Batting Average": ".2968",
+        "Bats": "R"
+      },
+      {
+        "Rank": "255.",
+        "Player": "High Pockets Kelly+",
+        "Years-Age": "(16)",
+        "Batting Average": ".2967",
+        "Bats": "R"
+      },
+      {
+        "Rank": "256.",
+        "Player": "Orlando Cepeda+",
+        "Years-Age": "(17)",
+        "Batting Average": ".2966",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Paul Goldschmidt",
+        "Years-Age": "(8, 30)",
+        "Batting Average": ".2966",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Shannon Stewart",
+        "Years-Age": "(14)",
+        "Batting Average": ".2966",
+        "Bats": "R"
+      },
+      {
+        "Rank": "259.",
+        "Player": "Beau Bell",
+        "Years-Age": "(7)",
+        "Batting Average": ".2965",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ivan Rodriguez+",
+        "Years-Age": "(21)",
+        "Batting Average": ".2965",
+        "Bats": "R"
+      },
+      {
+        "Rank": "261.",
+        "Player": "Ken Griffey",
+        "Years-Age": "(19)",
+        "Batting Average": ".2964",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Bob Johnson",
+        "Years-Age": "(13)",
+        "Batting Average": ".2964",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Roy Johnson",
+        "Years-Age": "(10)",
+        "Batting Average": ".2964",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "David Wright",
+        "Years-Age": "(13, 35)",
+        "Batting Average": ".2964",
+        "Bats": "R"
+      },
+      {
+        "Rank": "265.",
+        "Player": "Frank Chance+",
+        "Years-Age": "(17)",
+        "Batting Average": ".2963",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mike Griffin",
+        "Years-Age": "(12)",
+        "Batting Average": ".2963",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Manny Sanguillen",
+        "Years-Age": "(13)",
+        "Batting Average": ".2963",
+        "Bats": "R"
+      },
+      {
+        "Rank": "268.",
+        "Player": "Ripper Collins",
+        "Years-Age": "(9)",
+        "Batting Average": ".2962",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Johnny Hopp",
+        "Years-Age": "(14)",
+        "Batting Average": ".2962",
+        "Bats": "L"
+      },
+      {
+        "Rank": "270.",
+        "Player": "Jeff Cirillo",
+        "Years-Age": "(14)",
+        "Batting Average": ".2961",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Keith Hernandez",
+        "Years-Age": "(17)",
+        "Batting Average": ".2961",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Don Mueller",
+        "Years-Age": "(12)",
+        "Batting Average": ".2961",
+        "Bats": "L"
+      },
+      {
+        "Rank": "273.",
+        "Player": "Doc Cramer",
+        "Years-Age": "(20)",
+        "Batting Average": ".2960",
+        "Bats": "L"
+      },
+      {
+        "Rank": "274.",
+        "Player": "Brian Harper",
+        "Years-Age": "(16)",
+        "Batting Average": ".2955",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Duke Snider+",
+        "Years-Age": "(18)",
+        "Batting Average": ".2955",
+        "Bats": "L"
+      },
+      {
+        "Rank": "276.",
+        "Player": "Juan Gonzalez",
+        "Years-Age": "(17)",
+        "Batting Average": ".2953",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Charlie Hickman",
+        "Years-Age": "(12)",
+        "Batting Average": ".2953",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Shanty Hogan",
+        "Years-Age": "(13)",
+        "Batting Average": ".2953",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Pete Reiser",
+        "Years-Age": "(10)",
+        "Batting Average": ".2953",
+        "Bats": "L"
+      },
+      {
+        "Rank": "280.",
+        "Player": "Bob Watson",
+        "Years-Age": "(19)",
+        "Batting Average": ".2952",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Heinie Zimmerman",
+        "Years-Age": "(13)",
+        "Batting Average": ".2952",
+        "Bats": "R"
+      },
+      {
+        "Rank": "282.",
+        "Player": "Lou Boudreau+",
+        "Years-Age": "(15)",
+        "Batting Average": ".2951",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Victor Martinez",
+        "Years-Age": "(16, 39)",
+        "Batting Average": ".2951",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Pinky Whitney",
+        "Years-Age": "(12)",
+        "Batting Average": ".2951",
+        "Bats": "R"
+      },
+      {
+        "Rank": "285.",
+        "Player": "Kevin Seitzer",
+        "Years-Age": "(12)",
+        "Batting Average": ".2950",
+        "Bats": "R"
+      },
+      {
+        "Rank": "286.",
+        "Player": "Albert Belle",
+        "Years-Age": "(12)",
+        "Batting Average": ".2949",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bob Nieman",
+        "Years-Age": "(12)",
+        "Batting Average": ".2949",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "John Olerud",
+        "Years-Age": "(17)",
+        "Batting Average": ".2949",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Mickey Rivers",
+        "Years-Age": "(15)",
+        "Batting Average": ".2949",
+        "Bats": "L"
+      },
+      {
+        "Rank": "290.",
+        "Player": "Clyde Barnhart",
+        "Years-Age": "(9)",
+        "Batting Average": ".2948",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Smoky Burgess",
+        "Years-Age": "(18)",
+        "Batting Average": ".2948",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Barry Larkin+",
+        "Years-Age": "(19)",
+        "Batting Average": ".2948",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Alex Rodriguez",
+        "Years-Age": "(22)",
+        "Batting Average": ".2948",
+        "Bats": "R"
+      },
+      {
+        "Rank": "294.",
+        "Player": "Mark Loretta",
+        "Years-Age": "(15)",
+        "Batting Average": ".2947",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Willie McGee",
+        "Years-Age": "(18)",
+        "Batting Average": ".2947",
+        "Bats": "B"
+      },
+      {
+        "Rank": "296.",
+        "Player": "George Davis+",
+        "Years-Age": "(20)",
+        "Batting Average": ".2946",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Juan Pierre",
+        "Years-Age": "(14)",
+        "Batting Average": ".2946",
+        "Bats": "L"
+      },
+      {
+        "Rank": "298.",
+        "Player": "Jimmy Johnston",
+        "Years-Age": "(13)",
+        "Batting Average": ".2945",
+        "Bats": "R"
+      },
+      {
+        "Rank": "299.",
+        "Player": "Socks Seybold",
+        "Years-Age": "(9)",
+        "Batting Average": ".2944",
+        "Bats": "R"
+      },
+      {
+        "Rank": "300.",
+        "Player": "Jimmy Collins+",
+        "Years-Age": "(14)",
+        "Batting Average": ".2942",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Duff Cooley",
+        "Years-Age": "(13)",
+        "Batting Average": ".2942",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Steve Garvey",
+        "Years-Age": "(19)",
+        "Batting Average": ".2942",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bip Roberts",
+        "Years-Age": "(12)",
+        "Batting Average": ".2942",
+        "Bats": "B"
+      },
+      {
+        "Rank": "304.",
+        "Player": "Frank Robinson+",
+        "Years-Age": "(21)",
+        "Batting Average": ".2941",
+        "Bats": "R"
+      },
+      {
+        "Rank": "305.",
+        "Player": "Jose Abreu",
+        "Years-Age": "(5, 31)",
+        "Batting Average": ".2940",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Stripp",
+        "Years-Age": "(11)",
+        "Batting Average": ".2940",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Gee Walker",
+        "Years-Age": "(15)",
+        "Batting Average": ".2940",
+        "Bats": "R"
+      },
+      {
+        "Rank": "308.",
+        "Player": "Mike Grady",
+        "Years-Age": "(11)",
+        "Batting Average": ".2939",
+        "Bats": "R"
+      },
+      {
+        "Rank": "309.",
+        "Player": "Ezra Sutton",
+        "Years-Age": "(18)",
+        "Batting Average": ".2937",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Fred Tenney",
+        "Years-Age": "(17)",
+        "Batting Average": ".2937",
+        "Bats": "L"
+      },
+      {
+        "Rank": "311.",
+        "Player": "Tommy Davis",
+        "Years-Age": "(18)",
+        "Batting Average": ".2936",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Tim Raines+",
+        "Years-Age": "(23)",
+        "Batting Average": ".2936",
+        "Bats": "B"
+      },
+      {
+        "Rank": "313.",
+        "Player": "Lance Berkman",
+        "Years-Age": "(15)",
+        "Batting Average": ".2935",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Buck Freeman",
+        "Years-Age": "(11)",
+        "Batting Average": ".2935",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Glenn Wright",
+        "Years-Age": "(11)",
+        "Batting Average": ".2935",
+        "Bats": "R"
+      },
+      {
+        "Rank": "316.",
+        "Player": "Michael Brantley",
+        "Years-Age": "(10, 31)",
+        "Batting Average": ".2934",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Happy Felsch",
+        "Years-Age": "(6)",
+        "Batting Average": ".2934",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bill Joyce",
+        "Years-Age": "(8)",
+        "Batting Average": ".2934",
+        "Bats": "L"
+      },
+      {
+        "Rank": "319.",
+        "Player": "Mike Easler",
+        "Years-Age": "(14)",
+        "Batting Average": ".2932",
+        "Bats": "L"
+      },
+      {
+        "Rank": "320.",
+        "Player": "Danny Green",
+        "Years-Age": "(8)",
+        "Batting Average": ".2931",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jeff Heath",
+        "Years-Age": "(14)",
+        "Batting Average": ".2931",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Kip Selbach",
+        "Years-Age": "(13)",
+        "Batting Average": ".2931",
+        "Bats": "R"
+      },
+      {
+        "Rank": "323.",
+        "Player": "Dee Gordon",
+        "Years-Age": "(8, 30)",
+        "Batting Average": ".2929",
+        "Bats": "L"
+      },
+      {
+        "Rank": "324.",
+        "Player": "Luis Polonia",
+        "Years-Age": "(12)",
+        "Batting Average": ".2928",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Mo Vaughn",
+        "Years-Age": "(12)",
+        "Batting Average": ".2928",
+        "Bats": "L"
+      },
+      {
+        "Rank": "326.",
+        "Player": "Garret Anderson",
+        "Years-Age": "(17)",
+        "Batting Average": ".2927",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Phil Cavarretta",
+        "Years-Age": "(22)",
+        "Batting Average": ".2927",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Curt Flood",
+        "Years-Age": "(15)",
+        "Batting Average": ".2927",
+        "Bats": "R"
+      },
+      {
+        "Rank": "329.",
+        "Player": "Nolan Arenado",
+        "Years-Age": "(6, 27)",
+        "Batting Average": ".2926",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Lou Brock+",
+        "Years-Age": "(19)",
+        "Batting Average": ".2926",
+        "Bats": "L"
+      },
+      {
+        "Rank": "331.",
+        "Player": "Debs Garms",
+        "Years-Age": "(12)",
+        "Batting Average": ".2925",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Pinky Higgins",
+        "Years-Age": "(14)",
+        "Batting Average": ".2925",
+        "Bats": "R"
+      },
+      {
+        "Rank": "333.",
+        "Player": "Birdie Cree",
+        "Years-Age": "(8)",
+        "Batting Average": ".2924",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Del Pratt",
+        "Years-Age": "(13)",
+        "Batting Average": ".2924",
+        "Bats": "R"
+      },
+      {
+        "Rank": "335.",
+        "Player": "Freddie Freeman",
+        "Years-Age": "(9, 28)",
+        "Batting Average": ".2923",
+        "Bats": "L"
+      },
+      {
+        "Rank": "336.",
+        "Player": "Tony Lazzeri+",
+        "Years-Age": "(14)",
+        "Batting Average": ".2922",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Cy Williams",
+        "Years-Age": "(19)",
+        "Batting Average": ".2922",
+        "Bats": "L"
+      },
+      {
+        "Rank": "338.",
+        "Player": "Heinie Groh",
+        "Years-Age": "(16)",
+        "Batting Average": ".2921",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mule Haas",
+        "Years-Age": "(12)",
+        "Batting Average": ".2921",
+        "Bats": "L"
+      },
+      {
+        "Rank": "340.",
+        "Player": "Dick Allen",
+        "Years-Age": "(15)",
+        "Batting Average": ".2919",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Heinie Reitz",
+        "Years-Age": "(7)",
+        "Batting Average": ".2919",
+        "Bats": "L"
+      },
+      {
+        "Rank": "342.",
+        "Player": "Lave Cross",
+        "Years-Age": "(21)",
+        "Batting Average": ".2918",
+        "Bats": "R"
+      },
+      {
+        "Rank": "343.",
+        "Player": "Buddy Hassett",
+        "Years-Age": "(7)",
+        "Batting Average": ".2917",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Gary Sheffield",
+        "Years-Age": "(22)",
+        "Batting Average": ".2917",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Dmitri Young",
+        "Years-Age": "(13)",
+        "Batting Average": ".2917",
+        "Bats": "B"
+      },
+      {
+        "Rank": "346.",
+        "Player": "Fred Dunlap",
+        "Years-Age": "(12)",
+        "Batting Average": ".2916",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Tommy McCarthy+",
+        "Years-Age": "(13)",
+        "Batting Average": ".2916",
+        "Bats": "R"
+      },
+      {
+        "Rank": "348.",
+        "Player": "Joe Cunningham",
+        "Years-Age": "(12)",
+        "Batting Average": ".2915",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Sherry Magee",
+        "Years-Age": "(16)",
+        "Batting Average": ".2915",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Chief Meyers",
+        "Years-Age": "(9)",
+        "Batting Average": ".2915",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Thurman Munson",
+        "Years-Age": "(11)",
+        "Batting Average": ".2915",
+        "Bats": "R"
+      },
+      {
+        "Rank": "352.",
+        "Player": "Fred Schulte",
+        "Years-Age": "(11)",
+        "Batting Average": ".2914",
+        "Bats": "R"
+      },
+      {
+        "Rank": "353.",
+        "Player": "Bobby Abreu",
+        "Years-Age": "(18)",
+        "Batting Average": ".2913",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ellis Burks",
+        "Years-Age": "(18)",
+        "Batting Average": ".2913",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "David Segui",
+        "Years-Age": "(15)",
+        "Batting Average": ".2913",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Christian Yelich",
+        "Years-Age": "(6, 26)",
+        "Batting Average": ".2913",
+        "Bats": "L"
+      },
+      {
+        "Rank": "357.",
+        "Player": "Darryl Hamilton",
+        "Years-Age": "(13)",
+        "Batting Average": ".2912",
+        "Bats": "L"
+      },
+      {
+        "Rank": "358.",
+        "Player": "Frank Catalanotto",
+        "Years-Age": "(14)",
+        "Batting Average": ".2911",
+        "Bats": "L"
+      },
+      {
+        "Rank": "359.",
+        "Player": "Carlos Baerga",
+        "Years-Age": "(14)",
+        "Batting Average": ".2910",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Jimmy Barrett",
+        "Years-Age": "(10)",
+        "Batting Average": ".2910",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Hal Chase",
+        "Years-Age": "(15)",
+        "Batting Average": ".2910",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Taylor Douthit",
+        "Years-Age": "(11)",
+        "Batting Average": ".2910",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bill Mueller",
+        "Years-Age": "(11)",
+        "Batting Average": ".2910",
+        "Bats": "B"
+      },
+      {
+        "Rank": "364.",
+        "Player": "Lance Johnson",
+        "Years-Age": "(14)",
+        "Batting Average": ".2909",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Howie Kendrick",
+        "Years-Age": "(13, 34)",
+        "Batting Average": ".2909",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Pete Runnels",
+        "Years-Age": "(14)",
+        "Batting Average": ".2909",
+        "Bats": "L"
+      },
+      {
+        "Rank": "367.",
+        "Player": "Brian Giles",
+        "Years-Age": "(15)",
+        "Batting Average": ".2906",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Wally Moses",
+        "Years-Age": "(17)",
+        "Batting Average": ".2906",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Lou Piniella",
+        "Years-Age": "(18)",
+        "Batting Average": ".2906",
+        "Bats": "R"
+      },
+      {
+        "Rank": "370.",
+        "Player": "John Anderson",
+        "Years-Age": "(14)",
+        "Batting Average": ".2905",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank Baumholtz",
+        "Years-Age": "(10)",
+        "Batting Average": ".2905",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Travis Jackson+",
+        "Years-Age": "(15)",
+        "Batting Average": ".2905",
+        "Bats": "R"
+      },
+      {
+        "Rank": "373.",
+        "Player": "Jim Eisenreich",
+        "Years-Age": "(15)",
+        "Batting Average": ".2904",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ira Flagstead",
+        "Years-Age": "(13)",
+        "Batting Average": ".2904",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Charlie Grimm",
+        "Years-Age": "(20)",
+        "Batting Average": ".2904",
+        "Bats": "L"
+      },
+      {
+        "Rank": "376.",
+        "Player": "Brett Butler",
+        "Years-Age": "(17)",
+        "Batting Average": ".2903",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "George Selkirk",
+        "Years-Age": "(9)",
+        "Batting Average": ".2903",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Tommy Tucker",
+        "Years-Age": "(13)",
+        "Batting Average": ".2903",
+        "Bats": "B"
+      },
+      {
+        "Rank": "379.",
+        "Player": "Bruce Campbell",
+        "Years-Age": "(13)",
+        "Batting Average": ".2902",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Luis Castillo",
+        "Years-Age": "(15)",
+        "Batting Average": ".2902",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Carl Crawford",
+        "Years-Age": "(15)",
+        "Batting Average": ".2902",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jack Glasscock",
+        "Years-Age": "(17)",
+        "Batting Average": ".2902",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Roy Thomas",
+        "Years-Age": "(13)",
+        "Batting Average": ".2902",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Chicken Wolf",
+        "Years-Age": "(11)",
+        "Batting Average": ".2902",
+        "Bats": "R"
+      },
+      {
+        "Rank": "385.",
+        "Player": "Josh Hamilton",
+        "Years-Age": "(9)",
+        "Batting Average": ".2901",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Mike Hargrove",
+        "Years-Age": "(12)",
+        "Batting Average": ".2901",
+        "Bats": "L"
+      },
+      {
+        "Rank": "387.",
+        "Player": "Larry Doyle",
+        "Years-Age": "(14)",
+        "Batting Average": ".2899",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Billy Williams+",
+        "Years-Age": "(18)",
+        "Batting Average": ".2899",
+        "Bats": "L"
+      },
+      {
+        "Rank": "389.",
+        "Player": "Lorenzo Cain",
+        "Years-Age": "(9, 32)",
+        "Batting Average": ".2898",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ferris Fain",
+        "Years-Age": "(9)",
+        "Batting Average": ".2898",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Roberto Kelly",
+        "Years-Age": "(14)",
+        "Batting Average": ".2898",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Dave Parker",
+        "Years-Age": "(19)",
+        "Batting Average": ".2898",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Martin Prado",
+        "Years-Age": "(13, 34)",
+        "Batting Average": ".2898",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Troy Tulowitzki",
+        "Years-Age": "(12, 33)",
+        "Batting Average": ".2898",
+        "Bats": "R"
+      },
+      {
+        "Rank": "395.",
+        "Player": "Billy Butler",
+        "Years-Age": "(10)",
+        "Batting Average": ".2897",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Carney Lansford",
+        "Years-Age": "(15)",
+        "Batting Average": ".2897",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Hal McRae",
+        "Years-Age": "(19)",
+        "Batting Average": ".2897",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Hanley Ramirez",
+        "Years-Age": "(14, 34)",
+        "Batting Average": ".2897",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Gene Richards",
+        "Years-Age": "(8)",
+        "Batting Average": ".2897",
+        "Bats": "L"
+      },
+      {
+        "Rank": "400.",
+        "Player": "Les Bell",
+        "Years-Age": "(9)",
+        "Batting Average": ".2896",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jeff Kent",
+        "Years-Age": "(17)",
+        "Batting Average": ".2896",
+        "Bats": "R"
+      },
+      {
+        "Rank": "402.",
+        "Player": "Danny Murphy",
+        "Years-Age": "(16)",
+        "Batting Average": ".2895",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Johnny Ray",
+        "Years-Age": "(10)",
+        "Batting Average": ".2895",
+        "Bats": "B"
+      },
+      {
+        "Rank": "404.",
+        "Player": "Al Dark",
+        "Years-Age": "(14)",
+        "Batting Average": ".2894",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Odell Hale",
+        "Years-Age": "(10)",
+        "Batting Average": ".2894",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Moose Solters",
+        "Years-Age": "(9)",
+        "Batting Average": ".2894",
+        "Bats": "R"
+      },
+      {
+        "Rank": "407.",
+        "Player": "Harold Baines",
+        "Years-Age": "(22)",
+        "Batting Average": ".2893",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Greg Colbrunn",
+        "Years-Age": "(13)",
+        "Batting Average": ".2893",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mark Grudzielanek",
+        "Years-Age": "(15)",
+        "Batting Average": ".2893",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Nick Markakis",
+        "Years-Age": "(13, 34)",
+        "Batting Average": ".2893",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Tom McCreery",
+        "Years-Age": "(9)",
+        "Batting Average": ".2893",
+        "Bats": "B"
+      },
+      {
+        "Rank": "412.",
+        "Player": "J.D. Martinez",
+        "Years-Age": "(8, 30)",
+        "Batting Average": ".2892",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Marty McManus",
+        "Years-Age": "(15)",
+        "Batting Average": ".2892",
+        "Bats": "R"
+      },
+      {
+        "Rank": "414.",
+        "Player": "Wally Joyner",
+        "Years-Age": "(16)",
+        "Batting Average": ".2890",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Milt Stock",
+        "Years-Age": "(14)",
+        "Batting Average": ".2890",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Todd Walker",
+        "Years-Age": "(12)",
+        "Batting Average": ".2890",
+        "Bats": "L"
+      },
+      {
+        "Rank": "417.",
+        "Player": "Bill Buckner",
+        "Years-Age": "(22)",
+        "Batting Average": ".2889",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Chuck Knoblauch",
+        "Years-Age": "(12)",
+        "Batting Average": ".2889",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Wally Moon",
+        "Years-Age": "(12)",
+        "Batting Average": ".2889",
+        "Bats": "L"
+      },
+      {
+        "Rank": "420.",
+        "Player": "Jerry Mumphrey",
+        "Years-Age": "(15)",
+        "Batting Average": ".2888",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Red Rolfe",
+        "Years-Age": "(10)",
+        "Batting Average": ".2888",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Red Schoendienst+",
+        "Years-Age": "(19)",
+        "Batting Average": ".2888",
+        "Bats": "B"
+      },
+      {
+        "Rank": "423.",
+        "Player": "Larry Gardner",
+        "Years-Age": "(17)",
+        "Batting Average": ".2887",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Hank Severeid",
+        "Years-Age": "(15)",
+        "Batting Average": ".2887",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Billy Sullivan",
+        "Years-Age": "(12)",
+        "Batting Average": ".2887",
+        "Bats": "L"
+      },
+      {
+        "Rank": "426.",
+        "Player": "Bob Elliott",
+        "Years-Age": "(15)",
+        "Batting Average": ".2886",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Gregg Jefferies",
+        "Years-Age": "(14)",
+        "Batting Average": ".2886",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Andrew McCutchen",
+        "Years-Age": "(10, 31)",
+        "Batting Average": ".2886",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "John Reilly",
+        "Years-Age": "(10)",
+        "Batting Average": ".2886",
+        "Bats": "R"
+      },
+      {
+        "Rank": "430.",
+        "Player": "Nellie Fox+",
+        "Years-Age": "(19)",
+        "Batting Average": ".2885",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Harry Stovey",
+        "Years-Age": "(14)",
+        "Batting Average": ".2885",
+        "Bats": "R"
+      },
+      {
+        "Rank": "432.",
+        "Player": "Dion James",
+        "Years-Age": "(11)",
+        "Batting Average": ".2884",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Rafael Palmeiro",
+        "Years-Age": "(20)",
+        "Batting Average": ".2884",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "George Watkins",
+        "Years-Age": "(7)",
+        "Batting Average": ".2884",
+        "Bats": "L"
+      },
+      {
+        "Rank": "435.",
+        "Player": "Andres Galarraga",
+        "Years-Age": "(19)",
+        "Batting Average": ".2882",
+        "Bats": "R"
+      },
+      {
+        "Rank": "436.",
+        "Player": "Abner Dalrymple",
+        "Years-Age": "(12)",
+        "Batting Average": ".2881",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Hank Leiber",
+        "Years-Age": "(10)",
+        "Batting Average": ".2881",
+        "Bats": "R"
+      },
+      {
+        "Rank": "438.",
+        "Player": "Bobby Doerr+",
+        "Years-Age": "(14)",
+        "Batting Average": ".2879",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Alex Johnson",
+        "Years-Age": "(13)",
+        "Batting Average": ".2879",
+        "Bats": "R"
+      },
+      {
+        "Rank": "440.",
+        "Player": "Dummy Hoy",
+        "Years-Age": "(14)",
+        "Batting Average": ".2878",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jason Kendall",
+        "Years-Age": "(15)",
+        "Batting Average": ".2878",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ron LeFlore",
+        "Years-Age": "(9)",
+        "Batting Average": ".2878",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Dave Magadan",
+        "Years-Age": "(16)",
+        "Batting Average": ".2878",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Lonnie Smith",
+        "Years-Age": "(17)",
+        "Batting Average": ".2878",
+        "Bats": "R"
+      },
+      {
+        "Rank": "445.",
+        "Player": "Tony Fernandez",
+        "Years-Age": "(17)",
+        "Batting Average": ".2877",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Carlos Gonzalez",
+        "Years-Age": "(11, 32)",
+        "Batting Average": ".2877",
+        "Bats": "L"
+      },
+      {
+        "Rank": "447.",
+        "Player": "Paul O'Neill",
+        "Years-Age": "(17)",
+        "Batting Average": ".2876",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jean Segura",
+        "Years-Age": "(7, 28)",
+        "Batting Average": ".2876",
+        "Bats": "R"
+      },
+      {
+        "Rank": "449.",
+        "Player": "Carson Bigbee",
+        "Years-Age": "(11)",
+        "Batting Average": ".2875",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ken Boyer",
+        "Years-Age": "(15)",
+        "Batting Average": ".2875",
+        "Bats": "R"
+      },
+      {
+        "Rank": "451.",
+        "Player": "Augie Galan",
+        "Years-Age": "(16)",
+        "Batting Average": ".2874",
+        "Bats": "B"
+      },
+      {
+        "Rank": "452.",
+        "Player": "Lu Blue",
+        "Years-Age": "(13)",
+        "Batting Average": ".2873",
+        "Bats": "B"
+      },
+      {
+        "Rank": "453.",
+        "Player": "Adrian Gonzalez",
+        "Years-Age": "(15, 36)",
+        "Batting Average": ".2872",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Starling Marte",
+        "Years-Age": "(7, 29)",
+        "Batting Average": ".2872",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Reggie Smith",
+        "Years-Age": "(17)",
+        "Batting Average": ".2872",
+        "Bats": "B"
+      },
+      {
+        "Rank": "456.",
+        "Player": "Javy Lopez",
+        "Years-Age": "(15)",
+        "Batting Average": ".2871",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Eddie Murray+",
+        "Years-Age": "(21)",
+        "Batting Average": ".2871",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Jack Smith",
+        "Years-Age": "(15)",
+        "Batting Average": ".2871",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Richie Zisk",
+        "Years-Age": "(13)",
+        "Batting Average": ".2871",
+        "Bats": "R"
+      },
+      {
+        "Rank": "460.",
+        "Player": "Gavvy Cravath",
+        "Years-Age": "(11)",
+        "Batting Average": ".2870",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Lou Finney",
+        "Years-Age": "(15)",
+        "Batting Average": ".2870",
+        "Bats": "L"
+      },
+      {
+        "Rank": "462.",
+        "Player": "Jack McCarthy",
+        "Years-Age": "(12)",
+        "Batting Average": ".2869",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Dave Robertson",
+        "Years-Age": "(9)",
+        "Batting Average": ".2869",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Justin Turner",
+        "Years-Age": "(10, 33)",
+        "Batting Average": ".2869",
+        "Bats": "R"
+      },
+      {
+        "Rank": "465.",
+        "Player": "George Burns",
+        "Years-Age": "(15)",
+        "Batting Average": ".2868",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Walter Holke",
+        "Years-Age": "(11)",
+        "Batting Average": ".2868",
+        "Bats": "B"
+      },
+      {
+        "Rank": "467.",
+        "Player": "Steve Evans",
+        "Years-Age": "(8)",
+        "Batting Average": ".2867",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jon Jay",
+        "Years-Age": "(9, 33)",
+        "Batting Average": ".2867",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Matt Kemp",
+        "Years-Age": "(13, 33)",
+        "Batting Average": ".2867",
+        "Bats": "R"
+      },
+      {
+        "Rank": "470.",
+        "Player": "Adrian Beltre",
+        "Years-Age": "(21, 39)",
+        "Batting Average": ".2866",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jack Clements",
+        "Years-Age": "(17)",
+        "Batting Average": ".2866",
+        "Bats": "L"
+      },
+      {
+        "Rank": "472.",
+        "Player": "Greg Gross",
+        "Years-Age": "(17)",
+        "Batting Average": ".2865",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Whitey Kurowski",
+        "Years-Age": "(9)",
+        "Batting Average": ".2865",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Whitey Witt",
+        "Years-Age": "(10)",
+        "Batting Average": ".2865",
+        "Bats": "L"
+      },
+      {
+        "Rank": "475.",
+        "Player": "Lee Lacy",
+        "Years-Age": "(16)",
+        "Batting Average": ".2864",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jack Rowe",
+        "Years-Age": "(12)",
+        "Batting Average": ".2864",
+        "Bats": "L"
+      },
+      {
+        "Rank": "477.",
+        "Player": "Felipe Alou",
+        "Years-Age": "(17)",
+        "Batting Average": ".2863",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Phil Bradley",
+        "Years-Age": "(8)",
+        "Batting Average": ".2863",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Charlie Keller",
+        "Years-Age": "(13)",
+        "Batting Average": ".2863",
+        "Bats": "L"
+      },
+      {
+        "Rank": "480.",
+        "Player": "Johnny Cooney",
+        "Years-Age": "(20)",
+        "Batting Average": ".2862",
+        "Bats": "R"
+      },
+      {
+        "Rank": "481.",
+        "Player": "Jocko Milligan",
+        "Years-Age": "(10)",
+        "Batting Average": ".2861",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "David Ortiz",
+        "Years-Age": "(20)",
+        "Batting Average": ".2861",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Vern Stephens",
+        "Years-Age": "(15)",
+        "Batting Average": ".2861",
+        "Bats": "R"
+      },
+      {
+        "Rank": "484.",
+        "Player": "Tony Gonzalez",
+        "Years-Age": "(12)",
+        "Batting Average": ".2859",
+        "Bats": "L"
+      },
+      {
+        "Rank": "485.",
+        "Player": "Sparky Adams",
+        "Years-Age": "(13)",
+        "Batting Average": ".2858",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Red Kress",
+        "Years-Age": "(14)",
+        "Batting Average": ".2858",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Vada Pinson",
+        "Years-Age": "(18)",
+        "Batting Average": ".2858",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Edgar Renteria",
+        "Years-Age": "(16)",
+        "Batting Average": ".2858",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mickey Vernon",
+        "Years-Age": "(20)",
+        "Batting Average": ".2858",
+        "Bats": "L"
+      },
+      {
+        "Rank": "490.",
+        "Player": "Woody English",
+        "Years-Age": "(12)",
+        "Batting Average": ".2857",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Dick Groat",
+        "Years-Age": "(14)",
+        "Batting Average": ".2857",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Paul Lo Duca",
+        "Years-Age": "(11)",
+        "Batting Average": ".2857",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bill White",
+        "Years-Age": "(13)",
+        "Batting Average": ".2857",
+        "Bats": "L"
+      },
+      {
+        "Rank": "494.",
+        "Player": "Dee Fondy",
+        "Years-Age": "(8)",
+        "Batting Average": ".2856",
+        "Bats": "L"
+      },
+      {
+        "Rank": "495.",
+        "Player": "Cesar Cedeno",
+        "Years-Age": "(17)",
+        "Batting Average": ".2855",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Roy Weatherly",
+        "Years-Age": "(10)",
+        "Batting Average": ".2855",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Willie Wilson",
+        "Years-Age": "(19)",
+        "Batting Average": ".2855",
+        "Bats": "B"
+      },
+      {
+        "Rank": "498.",
+        "Player": "Clyde Milan",
+        "Years-Age": "(16)",
+        "Batting Average": ".2854",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Andy Pafko",
+        "Years-Age": "(17)",
+        "Batting Average": ".2854",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Al Rosen",
+        "Years-Age": "(10)",
+        "Batting Average": ".2854",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Miguel Tejada",
+        "Years-Age": "(16)",
+        "Batting Average": ".2854",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Alan Trammell+",
+        "Years-Age": "(20)",
+        "Batting Average": ".2854",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Eddie Waitkus",
+        "Years-Age": "(11)",
+        "Batting Average": ".2854",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Robin Yount+",
+        "Years-Age": "(20)",
+        "Batting Average": ".2854",
+        "Bats": "R"
+      },
+      {
+        "Rank": "505.",
+        "Player": "Melky Cabrera",
+        "Years-Age": "(14, 33)",
+        "Batting Average": ".2853",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Adam Comorosky",
+        "Years-Age": "(10)",
+        "Batting Average": ".2853",
+        "Bats": "R"
+      },
+      {
+        "Rank": "507.",
+        "Player": "Garrett Atkins",
+        "Years-Age": "(8)",
+        "Batting Average": ".2852",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Walker Cooper",
+        "Years-Age": "(18)",
+        "Batting Average": ".2852",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Carl Yastrzemski+",
+        "Years-Age": "(23)",
+        "Batting Average": ".2852",
+        "Bats": "L"
+      },
+      {
+        "Rank": "510.",
+        "Player": "Harry Danning",
+        "Years-Age": "(10)",
+        "Batting Average": ".2851",
+        "Bats": "R"
+      },
+      {
+        "Rank": "511.",
+        "Player": "Norichika Aoki",
+        "Years-Age": "(6)",
+        "Batting Average": ".2850",
+        "Bats": "L"
+      },
+      {
+        "Rank": "512.",
+        "Player": "Jeff Conine",
+        "Years-Age": "(17)",
+        "Batting Average": ".2849",
+        "Bats": "R"
+      },
+      {
+        "Rank": "513.",
+        "Player": "Andre Ethier",
+        "Years-Age": "(12)",
+        "Batting Average": ".2848",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Carlos Guillen",
+        "Years-Age": "(14)",
+        "Batting Average": ".2848",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Ted Simmons",
+        "Years-Age": "(21)",
+        "Batting Average": ".2848",
+        "Bats": "B"
+      },
+      {
+        "Rank": "516.",
+        "Player": "Lenny Dykstra",
+        "Years-Age": "(12)",
+        "Batting Average": ".2847",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Carlos Lee",
+        "Years-Age": "(14)",
+        "Batting Average": ".2847",
+        "Bats": "R"
+      },
+      {
+        "Rank": "518.",
+        "Player": "Yogi Berra+",
+        "Years-Age": "(19)",
+        "Batting Average": ".2846",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Max Carey+",
+        "Years-Age": "(20)",
+        "Batting Average": ".2846",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Fielder Jones",
+        "Years-Age": "(15)",
+        "Batting Average": ".2846",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Garry Maddox",
+        "Years-Age": "(15)",
+        "Batting Average": ".2846",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ryne Sandberg+",
+        "Years-Age": "(16)",
+        "Batting Average": ".2846",
+        "Bats": "R"
+      },
+      {
+        "Rank": "523.",
+        "Player": "Edgardo Alfonzo",
+        "Years-Age": "(12)",
+        "Batting Average": ".2845",
+        "Bats": "R"
+      },
+      {
+        "Rank": "524.",
+        "Player": "Johnny Damon",
+        "Years-Age": "(18)",
+        "Batting Average": ".2844",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Del Ennis",
+        "Years-Age": "(14)",
+        "Batting Average": ".2844",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Johnny Temple",
+        "Years-Age": "(13)",
+        "Batting Average": ".2844",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Randy Winn",
+        "Years-Age": "(13)",
+        "Batting Average": ".2844",
+        "Bats": "B"
+      },
+      {
+        "Rank": "528.",
+        "Player": "Hub Collins",
+        "Years-Age": "(7)",
+        "Batting Average": ".2843",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jose Cruz",
+        "Years-Age": "(19)",
+        "Batting Average": ".2843",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Fred McGriff",
+        "Years-Age": "(19)",
+        "Batting Average": ".2843",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Randa",
+        "Years-Age": "(12)",
+        "Batting Average": ".2843",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ben Revere",
+        "Years-Age": "(8, 30)",
+        "Batting Average": ".2843",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Casey Stengel+",
+        "Years-Age": "(14)",
+        "Batting Average": ".2843",
+        "Bats": "L"
+      },
+      {
+        "Rank": "534.",
+        "Player": "Jim Edmonds",
+        "Years-Age": "(17)",
+        "Batting Average": ".2842",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jimmie Wilson",
+        "Years-Age": "(18)",
+        "Batting Average": ".2842",
+        "Bats": "R"
+      },
+      {
+        "Rank": "536.",
+        "Player": "Andy High",
+        "Years-Age": "(13)",
+        "Batting Average": ".2841",
+        "Bats": "L"
+      },
+      {
+        "Rank": "537.",
+        "Player": "Shea Hillenbrand",
+        "Years-Age": "(7)",
+        "Batting Average": ".2840",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jose Reyes",
+        "Years-Age": "(16, 35)",
+        "Batting Average": ".2840",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Braggo Roth",
+        "Years-Age": "(8)",
+        "Batting Average": ".2840",
+        "Bats": "R"
+      },
+      {
+        "Rank": "540.",
+        "Player": "Patsy Dougherty",
+        "Years-Age": "(10)",
+        "Batting Average": ".2839",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jacoby Ellsbury",
+        "Years-Age": "(11, 34)",
+        "Batting Average": ".2839",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Dave Nilsson",
+        "Years-Age": "(8)",
+        "Batting Average": ".2839",
+        "Bats": "L"
+      },
+      {
+        "Rank": "543.",
+        "Player": "Dick Bartell",
+        "Years-Age": "(18)",
+        "Batting Average": ".2838",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Yadier Molina",
+        "Years-Age": "(15, 35)",
+        "Batting Average": ".2838",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Vic Power",
+        "Years-Age": "(12)",
+        "Batting Average": ".2838",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Wally Schang",
+        "Years-Age": "(19)",
+        "Batting Average": ".2838",
+        "Bats": "B"
+      },
+      {
+        "Rank": "547.",
+        "Player": "Ken Griffey+",
+        "Years-Age": "(22)",
+        "Batting Average": ".2837",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Duffy Lewis",
+        "Years-Age": "(11)",
+        "Batting Average": ".2837",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "James Loney",
+        "Years-Age": "(11)",
+        "Batting Average": ".2837",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Kevin Mitchell",
+        "Years-Age": "(13)",
+        "Batting Average": ".2837",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Amos Strunk",
+        "Years-Age": "(17)",
+        "Batting Average": ".2837",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Gene Woodling",
+        "Years-Age": "(17)",
+        "Batting Average": ".2837",
+        "Bats": "L"
+      },
+      {
+        "Rank": "553.",
+        "Player": "Dan McGann",
+        "Years-Age": "(12)",
+        "Batting Average": ".2836",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Rondell White",
+        "Years-Age": "(15)",
+        "Batting Average": ".2836",
+        "Bats": "R"
+      },
+      {
+        "Rank": "555.",
+        "Player": "Fred Carroll",
+        "Years-Age": "(8)",
+        "Batting Average": ".2835",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Sid Gordon",
+        "Years-Age": "(13)",
+        "Batting Average": ".2835",
+        "Bats": "R"
+      },
+      {
+        "Rank": "557.",
+        "Player": "Jim Delahanty",
+        "Years-Age": "(13)",
+        "Batting Average": ".2833",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Larry Doby+",
+        "Years-Age": "(13)",
+        "Batting Average": ".2833",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Don Slaught",
+        "Years-Age": "(16)",
+        "Batting Average": ".2833",
+        "Bats": "R"
+      },
+      {
+        "Rank": "560.",
+        "Player": "Manny Machado",
+        "Years-Age": "(7, 25)",
+        "Batting Average": ".2832",
+        "Bats": "R"
+      },
+      {
+        "Rank": "561.",
+        "Player": "Damaso Garcia",
+        "Years-Age": "(11)",
+        "Batting Average": ".2831",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Aramis Ramirez",
+        "Years-Age": "(18)",
+        "Batting Average": ".2831",
+        "Bats": "R"
+      },
+      {
+        "Rank": "563.",
+        "Player": "Luis Gonzalez",
+        "Years-Age": "(19)",
+        "Batting Average": ".2830",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Fred Lynn",
+        "Years-Age": "(17)",
+        "Batting Average": ".2830",
+        "Bats": "L"
+      },
+      {
+        "Rank": "565.",
+        "Player": "Dave Cash",
+        "Years-Age": "(12)",
+        "Batting Average": ".2829",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Floyd Robinson",
+        "Years-Age": "(9)",
+        "Batting Average": ".2829",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Delmon Young",
+        "Years-Age": "(10, 32)",
+        "Batting Average": ".2829",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Eric Young",
+        "Years-Age": "(15)",
+        "Batting Average": ".2829",
+        "Bats": "R"
+      },
+      {
+        "Rank": "569.",
+        "Player": "Glenn Beckert",
+        "Years-Age": "(11)",
+        "Batting Average": ".2828",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Shawn Green",
+        "Years-Age": "(15)",
+        "Batting Average": ".2828",
+        "Bats": "L"
+      },
+      {
+        "Rank": "571.",
+        "Player": "Dave Winfield+",
+        "Years-Age": "(22)",
+        "Batting Average": ".2827",
+        "Bats": "R"
+      },
+      {
+        "Rank": "572.",
+        "Player": "Starlin Castro",
+        "Years-Age": "(9, 28)",
+        "Batting Average": ".2826",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Prince Fielder",
+        "Years-Age": "(12)",
+        "Batting Average": ".2826",
+        "Bats": "L"
+      },
+      {
+        "Rank": "574.",
+        "Player": "Xander Bogaerts",
+        "Years-Age": "(6, 25)",
+        "Batting Average": ".2825",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Kent Hrbek",
+        "Years-Age": "(14)",
+        "Batting Average": ".2825",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Mike Kreevich",
+        "Years-Age": "(12)",
+        "Batting Average": ".2825",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "John Titus",
+        "Years-Age": "(11)",
+        "Batting Average": ".2825",
+        "Bats": "L"
+      },
+      {
+        "Rank": "578.",
+        "Player": "Bruce Bochte",
+        "Years-Age": "(12)",
+        "Batting Average": ".2824",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Yunel Escobar",
+        "Years-Age": "(11)",
+        "Batting Average": ".2824",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jeff Keppinger",
+        "Years-Age": "(9)",
+        "Batting Average": ".2824",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Les Mann",
+        "Years-Age": "(16)",
+        "Batting Average": ".2824",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Elmer Valo",
+        "Years-Age": "(20)",
+        "Batting Average": ".2824",
+        "Bats": "L"
+      },
+      {
+        "Rank": "583.",
+        "Player": "Tony Boeckel",
+        "Years-Age": "(6)",
+        "Batting Average": ".2823",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Guy Hecker",
+        "Years-Age": "(9)",
+        "Batting Average": ".2823",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bill Skowron",
+        "Years-Age": "(14)",
+        "Batting Average": ".2823",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Denard Span",
+        "Years-Age": "(11, 34)",
+        "Batting Average": ".2823",
+        "Bats": "L"
+      },
+      {
+        "Rank": "587.",
+        "Player": "Ken Singleton",
+        "Years-Age": "(15)",
+        "Batting Average": ".2822",
+        "Bats": "B"
+      },
+      {
+        "Rank": "588.",
+        "Player": "George Case",
+        "Years-Age": "(11)",
+        "Batting Average": ".2821",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Hideki Matsui",
+        "Years-Age": "(10)",
+        "Batting Average": ".2821",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Tim Salmon",
+        "Years-Age": "(14)",
+        "Batting Average": ".2821",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Fernando Vina",
+        "Years-Age": "(12)",
+        "Batting Average": ".2821",
+        "Bats": "L"
+      },
+      {
+        "Rank": "592.",
+        "Player": "Tom Paciorek",
+        "Years-Age": "(18)",
+        "Batting Average": ".2820",
+        "Bats": "R"
+      },
+      {
+        "Rank": "593.",
+        "Player": "Darby O'Brien",
+        "Years-Age": "(6)",
+        "Batting Average": ".2819",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Perry Werden",
+        "Years-Age": "(7)",
+        "Batting Average": ".2819",
+        "Bats": "R"
+      },
+      {
+        "Rank": "595.",
+        "Player": "Tommy Henrich",
+        "Years-Age": "(11)",
+        "Batting Average": ".2818",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Brian Jordan",
+        "Years-Age": "(15)",
+        "Batting Average": ".2818",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Dick Siebert",
+        "Years-Age": "(11)",
+        "Batting Average": ".2818",
+        "Bats": "L"
+      },
+      {
+        "Rank": "598.",
+        "Player": "Darin Erstad",
+        "Years-Age": "(14)",
+        "Batting Average": ".2817",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "B.J. Surhoff",
+        "Years-Age": "(19)",
+        "Batting Average": ".2817",
+        "Bats": "L"
+      },
+      {
+        "Rank": "600.",
+        "Player": "Stan Spence",
+        "Years-Age": "(9)",
+        "Batting Average": ".2816",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Willie Stargell+",
+        "Years-Age": "(21)",
+        "Batting Average": ".2816",
+        "Bats": "L"
+      },
+      {
+        "Rank": "602.",
+        "Player": "Orator Shafer",
+        "Years-Age": "(13)",
+        "Batting Average": ".2815",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Pat Tabler",
+        "Years-Age": "(12)",
+        "Batting Average": ".2815",
+        "Bats": "R"
+      },
+      {
+        "Rank": "604.",
+        "Player": "Gus Bell",
+        "Years-Age": "(15)",
+        "Batting Average": ".2814",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Craig Biggio+",
+        "Years-Age": "(20)",
+        "Batting Average": ".2814",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Al Bumbry",
+        "Years-Age": "(14)",
+        "Batting Average": ".2814",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Derrek Lee",
+        "Years-Age": "(15)",
+        "Batting Average": ".2814",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Gary Matthews",
+        "Years-Age": "(16)",
+        "Batting Average": ".2814",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Pablo Sandoval",
+        "Years-Age": "(11, 31)",
+        "Batting Average": ".2814",
+        "Bats": "B"
+      },
+      {
+        "Rank": "610.",
+        "Player": "Ducky Holmes",
+        "Years-Age": "(10)",
+        "Batting Average": ".2813",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank LaPorte",
+        "Years-Age": "(11)",
+        "Batting Average": ".2813",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Justin Morneau",
+        "Years-Age": "(14)",
+        "Batting Average": ".2813",
+        "Bats": "L"
+      },
+      {
+        "Rank": "613.",
+        "Player": "Maury Wills",
+        "Years-Age": "(14)",
+        "Batting Average": ".2812",
+        "Bats": "B"
+      },
+      {
+        "Rank": "614.",
+        "Player": "Warren Cromartie",
+        "Years-Age": "(10)",
+        "Batting Average": ".2811",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ival Goodman",
+        "Years-Age": "(10)",
+        "Batting Average": ".2811",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ed Konetchy",
+        "Years-Age": "(15)",
+        "Batting Average": ".2811",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Danny Litwhiler",
+        "Years-Age": "(11)",
+        "Batting Average": ".2811",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Hi Myers",
+        "Years-Age": "(14)",
+        "Batting Average": ".2811",
+        "Bats": "R"
+      },
+      {
+        "Rank": "619.",
+        "Player": "Kevin Youkilis",
+        "Years-Age": "(10)",
+        "Batting Average": ".2809",
+        "Bats": "R"
+      },
+      {
+        "Rank": "620.",
+        "Player": "Willie Kamm",
+        "Years-Age": "(13)",
+        "Batting Average": ".2808",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Scott Rolen",
+        "Years-Age": "(17)",
+        "Batting Average": ".2808",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Steve Sax",
+        "Years-Age": "(14)",
+        "Batting Average": ".2808",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Tillie Walker",
+        "Years-Age": "(13)",
+        "Batting Average": ".2808",
+        "Bats": "R"
+      },
+      {
+        "Rank": "624.",
+        "Player": "Rick Ferrell+",
+        "Years-Age": "(18)",
+        "Batting Average": ".2807",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Harry Hooper+",
+        "Years-Age": "(17)",
+        "Batting Average": ".2807",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Wally Judnich",
+        "Years-Age": "(7)",
+        "Batting Average": ".2807",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Hunter Pence",
+        "Years-Age": "(12, 35)",
+        "Batting Average": ".2807",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Wally Pipp",
+        "Years-Age": "(15)",
+        "Batting Average": ".2807",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ryan Theriot",
+        "Years-Age": "(8)",
+        "Batting Average": ".2807",
+        "Bats": "R"
+      },
+      {
+        "Rank": "630.",
+        "Player": "Bernie Friberg",
+        "Years-Age": "(14)",
+        "Batting Average": ".2806",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Cleon Jones",
+        "Years-Age": "(13)",
+        "Batting Average": ".2806",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Scott Podsednik",
+        "Years-Age": "(11)",
+        "Batting Average": ".2806",
+        "Bats": "L"
+      },
+      {
+        "Rank": "633.",
+        "Player": "Bobby Avila",
+        "Years-Age": "(11)",
+        "Batting Average": ".2805",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "David Eckstein",
+        "Years-Age": "(10)",
+        "Batting Average": ".2805",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Rafael Furcal",
+        "Years-Age": "(14)",
+        "Batting Average": ".2805",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Aaron Miles",
+        "Years-Age": "(9)",
+        "Batting Average": ".2805",
+        "Bats": "B"
+      },
+      {
+        "Rank": "637.",
+        "Player": "Alvin Davis",
+        "Years-Age": "(9)",
+        "Batting Average": ".2804",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jimmy Dykes",
+        "Years-Age": "(22)",
+        "Batting Average": ".2804",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Terry Moore",
+        "Years-Age": "(11)",
+        "Batting Average": ".2804",
+        "Bats": "R"
+      },
+      {
+        "Rank": "640.",
+        "Player": "Eric Hosmer",
+        "Years-Age": "(8, 28)",
+        "Batting Average": ".2803",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Terry Puhl",
+        "Years-Age": "(15)",
+        "Batting Average": ".2803",
+        "Bats": "L"
+      },
+      {
+        "Rank": "642.",
+        "Player": "Joe Dugan",
+        "Years-Age": "(14)",
+        "Batting Average": ".2802",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "A.J. Pierzynski",
+        "Years-Age": "(19)",
+        "Batting Average": ".2802",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Anthony Rendon",
+        "Years-Age": "(6, 28)",
+        "Batting Average": ".2802",
+        "Bats": "R"
+      },
+      {
+        "Rank": "645.",
+        "Player": "Mickey Hatcher",
+        "Years-Age": "(12)",
+        "Batting Average": ".2801",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Steve Henderson",
+        "Years-Age": "(12)",
+        "Batting Average": ".2801",
+        "Bats": "R"
+      },
+      {
+        "Rank": "647.",
+        "Player": "Candy LaChance",
+        "Years-Age": "(12)",
+        "Batting Average": ".2800",
+        "Bats": "B"
+      },
+      {
+        "Rank": "648.",
+        "Player": "Jesus Alou",
+        "Years-Age": "(15)",
+        "Batting Average": ".2799",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Doc Gessler",
+        "Years-Age": "(8)",
+        "Batting Average": ".2799",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Angel Pagan",
+        "Years-Age": "(11)",
+        "Batting Average": ".2799",
+        "Bats": "B"
+      },
+      {
+        "Rank": "651.",
+        "Player": "Carlos Delgado",
+        "Years-Age": "(17)",
+        "Batting Average": ".2798",
+        "Bats": "L"
+      },
+      {
+        "Rank": "652.",
+        "Player": "Eddie Burke",
+        "Years-Age": "(8)",
+        "Batting Average": ".2796",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Tony Cuccinello",
+        "Years-Age": "(15)",
+        "Batting Average": ".2796",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Tommy Griffith",
+        "Years-Age": "(13)",
+        "Batting Average": ".2796",
+        "Bats": "L"
+      },
+      {
+        "Rank": "655.",
+        "Player": "Buddy Bell",
+        "Years-Age": "(18)",
+        "Batting Average": ".2795",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jack Burns",
+        "Years-Age": "(7)",
+        "Batting Average": ".2795",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Hank Majeski",
+        "Years-Age": "(13)",
+        "Batting Average": ".2795",
+        "Bats": "R"
+      },
+      {
+        "Rank": "658.",
+        "Player": "Roger Bresnahan+",
+        "Years-Age": "(17)",
+        "Batting Average": ".2794",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Wes Covington",
+        "Years-Age": "(11)",
+        "Batting Average": ".2794",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Andre Dawson+",
+        "Years-Age": "(21)",
+        "Batting Average": ".2794",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Johnny Groth",
+        "Years-Age": "(15)",
+        "Batting Average": ".2794",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jackie Jensen",
+        "Years-Age": "(11)",
+        "Batting Average": ".2794",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Rebel Oakes",
+        "Years-Age": "(7)",
+        "Batting Average": ".2794",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Tony Perez+",
+        "Years-Age": "(23)",
+        "Batting Average": ".2794",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Rusty Staub",
+        "Years-Age": "(23)",
+        "Batting Average": ".2794",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Gus Suhr",
+        "Years-Age": "(11)",
+        "Batting Average": ".2794",
+        "Bats": "L"
+      },
+      {
+        "Rank": "667.",
+        "Player": "Vic Davalillo",
+        "Years-Age": "(16)",
+        "Batting Average": ".2793",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Reed Johnson",
+        "Years-Age": "(13)",
+        "Batting Average": ".2793",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "David Justice",
+        "Years-Age": "(14)",
+        "Batting Average": ".2793",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Patsy Tebeau",
+        "Years-Age": "(13)",
+        "Batting Average": ".2793",
+        "Bats": "R"
+      },
+      {
+        "Rank": "671.",
+        "Player": "Willie Davis",
+        "Years-Age": "(18)",
+        "Batting Average": ".2792",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Felix Millan",
+        "Years-Age": "(12)",
+        "Batting Average": ".2792",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Keith Moreland",
+        "Years-Age": "(12)",
+        "Batting Average": ".2792",
+        "Bats": "R"
+      },
+      {
+        "Rank": "674.",
+        "Player": "Whitey Lockman",
+        "Years-Age": "(15)",
+        "Batting Average": ".2791",
+        "Bats": "L"
+      },
+      {
+        "Rank": "675.",
+        "Player": "Dave Bancroft+",
+        "Years-Age": "(16)",
+        "Batting Average": ".2790",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Carlos Beltran",
+        "Years-Age": "(20)",
+        "Batting Average": ".2790",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Jimmy Brown",
+        "Years-Age": "(8)",
+        "Batting Average": ".2790",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Brad Fullmer",
+        "Years-Age": "(8)",
+        "Batting Average": ".2790",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "John Valentin",
+        "Years-Age": "(11)",
+        "Batting Average": ".2790",
+        "Bats": "R"
+      },
+      {
+        "Rank": "680.",
+        "Player": "Ryan Zimmerman",
+        "Years-Age": "(14, 33)",
+        "Batting Average": ".2789",
+        "Bats": "R"
+      },
+      {
+        "Rank": "681.",
+        "Player": "Ralph Kiner+",
+        "Years-Age": "(10)",
+        "Batting Average": ".2788",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Paul Konerko",
+        "Years-Age": "(18)",
+        "Batting Average": ".2788",
+        "Bats": "R"
+      },
+      {
+        "Rank": "683.",
+        "Player": "Bobby Bonilla",
+        "Years-Age": "(16)",
+        "Batting Average": ".2787",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Rickey Henderson+",
+        "Years-Age": "(25)",
+        "Batting Average": ".2787",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ryan Klesko",
+        "Years-Age": "(16)",
+        "Batting Average": ".2787",
+        "Bats": "L"
+      },
+      {
+        "Rank": "686.",
+        "Player": "Chris Chambliss",
+        "Years-Age": "(17)",
+        "Batting Average": ".2786",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Shin-Soo Choo",
+        "Years-Age": "(14, 35)",
+        "Batting Average": ".2786",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Mark Koenig",
+        "Years-Age": "(12)",
+        "Batting Average": ".2786",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Gerardo Parra",
+        "Years-Age": "(10, 31)",
+        "Batting Average": ".2786",
+        "Bats": "L"
+      },
+      {
+        "Rank": "690.",
+        "Player": "Mike Lowell",
+        "Years-Age": "(13)",
+        "Batting Average": ".2785",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jonathan Lucroy",
+        "Years-Age": "(9, 32)",
+        "Batting Average": ".2785",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Sam Mertes",
+        "Years-Age": "(10)",
+        "Batting Average": ".2785",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jay Payton",
+        "Years-Age": "(12)",
+        "Batting Average": ".2785",
+        "Bats": "R"
+      },
+      {
+        "Rank": "694.",
+        "Player": "Dick Hoblitzell",
+        "Years-Age": "(11)",
+        "Batting Average": ".2784",
+        "Bats": "L"
+      },
+      {
+        "Rank": "695.",
+        "Player": "Dusty Baker",
+        "Years-Age": "(19)",
+        "Batting Average": ".2783",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Aubrey Huff",
+        "Years-Age": "(13)",
+        "Batting Average": ".2783",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Skip Schumaker",
+        "Years-Age": "(11)",
+        "Batting Average": ".2783",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ellis Valentine",
+        "Years-Age": "(10)",
+        "Batting Average": ".2783",
+        "Bats": "R"
+      },
+      {
+        "Rank": "699.",
+        "Player": "Ray Chapman",
+        "Years-Age": "(9)",
+        "Batting Average": ".2782",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Max Flack",
+        "Years-Age": "(12)",
+        "Batting Average": ".2782",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Deacon McGuire",
+        "Years-Age": "(26)",
+        "Batting Average": ".2782",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Red Smith",
+        "Years-Age": "(9)",
+        "Batting Average": ".2782",
+        "Bats": "R"
+      },
+      {
+        "Rank": "703.",
+        "Player": "Cliff Floyd",
+        "Years-Age": "(17)",
+        "Batting Average": ".2781",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Ray Hart",
+        "Years-Age": "(12)",
+        "Batting Average": ".2781",
+        "Bats": "R"
+      },
+      {
+        "Rank": "705.",
+        "Player": "George Bell",
+        "Years-Age": "(12)",
+        "Batting Average": ".2780",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Steve Kemp",
+        "Years-Age": "(11)",
+        "Batting Average": ".2780",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Harry Lord",
+        "Years-Age": "(9)",
+        "Batting Average": ".2780",
+        "Bats": "L"
+      },
+      {
+        "Rank": "708.",
+        "Player": "Mike Mitchell",
+        "Years-Age": "(8)",
+        "Batting Average": ".2779",
+        "Bats": "R"
+      },
+      {
+        "Rank": "709.",
+        "Player": "Johnny Bates",
+        "Years-Age": "(9)",
+        "Batting Average": ".2778",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "J.D. Drew",
+        "Years-Age": "(14)",
+        "Batting Average": ".2778",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ken Oberkfell",
+        "Years-Age": "(16)",
+        "Batting Average": ".2778",
+        "Bats": "L"
+      },
+      {
+        "Rank": "712.",
+        "Player": "Marty Barrett",
+        "Years-Age": "(10)",
+        "Batting Average": ".2777",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Tom Daly",
+        "Years-Age": "(17)",
+        "Batting Average": ".2777",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "George Hendrick",
+        "Years-Age": "(18)",
+        "Batting Average": ".2777",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jorge Orta",
+        "Years-Age": "(16)",
+        "Batting Average": ".2777",
+        "Bats": "L"
+      },
+      {
+        "Rank": "716.",
+        "Player": "Hoot Evers",
+        "Years-Age": "(12)",
+        "Batting Average": ".2776",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Johnny Grubb",
+        "Years-Age": "(16)",
+        "Batting Average": ".2776",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Adam Jones",
+        "Years-Age": "(13, 32)",
+        "Batting Average": ".2776",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Cesar Tovar",
+        "Years-Age": "(12)",
+        "Batting Average": ".2776",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Claudell Washington",
+        "Years-Age": "(17)",
+        "Batting Average": ".2776",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Farmer Weaver",
+        "Years-Age": "(7)",
+        "Batting Average": ".2776",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Harry Wolverton",
+        "Years-Age": "(9)",
+        "Batting Average": ".2776",
+        "Bats": "B"
+      },
+      {
+        "Rank": "723.",
+        "Player": "Doug Glanville",
+        "Years-Age": "(9)",
+        "Batting Average": ".2775",
+        "Bats": "R"
+      },
+      {
+        "Rank": "724.",
+        "Player": "Nick Etten",
+        "Years-Age": "(9)",
+        "Batting Average": ".2774",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Bob Skinner",
+        "Years-Age": "(12)",
+        "Batting Average": ".2774",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Vic Wertz",
+        "Years-Age": "(17)",
+        "Batting Average": ".2774",
+        "Bats": "L"
+      },
+      {
+        "Rank": "727.",
+        "Player": "Joe Adcock",
+        "Years-Age": "(17)",
+        "Batting Average": ".2773",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Matt Carpenter",
+        "Years-Age": "(8, 32)",
+        "Batting Average": ".2773",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Michael Cuddyer",
+        "Years-Age": "(15)",
+        "Batting Average": ".2773",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ray Durham",
+        "Years-Age": "(14)",
+        "Batting Average": ".2773",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Bryce Harper",
+        "Years-Age": "(7, 25)",
+        "Batting Average": ".2773",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Herman Long",
+        "Years-Age": "(16)",
+        "Batting Average": ".2773",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Marco Scutaro",
+        "Years-Age": "(13)",
+        "Batting Average": ".2773",
+        "Bats": "R"
+      },
+      {
+        "Rank": "734.",
+        "Player": "Joey Cora",
+        "Years-Age": "(11)",
+        "Batting Average": ".2772",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Bob Horner",
+        "Years-Age": "(10)",
+        "Batting Average": ".2772",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jerry Lynch",
+        "Years-Age": "(13)",
+        "Batting Average": ".2772",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Melvin Mora",
+        "Years-Age": "(13)",
+        "Batting Average": ".2772",
+        "Bats": "R"
+      },
+      {
+        "Rank": "738.",
+        "Player": "Marcus Giles",
+        "Years-Age": "(7)",
+        "Batting Average": ".2771",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Kuhel",
+        "Years-Age": "(18)",
+        "Batting Average": ".2771",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Fred Luderus",
+        "Years-Age": "(12)",
+        "Batting Average": ".2771",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Orlando Merced",
+        "Years-Age": "(13)",
+        "Batting Average": ".2771",
+        "Bats": "B"
+      },
+      {
+        "Rank": "742.",
+        "Player": "Chick Gandil",
+        "Years-Age": "(9)",
+        "Batting Average": ".2770",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Alex Rios",
+        "Years-Age": "(12)",
+        "Batting Average": ".2770",
+        "Bats": "R"
+      },
+      {
+        "Rank": "744.",
+        "Player": "Dolph Camilli",
+        "Years-Age": "(12)",
+        "Batting Average": ".2769",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jacque Jones",
+        "Years-Age": "(10)",
+        "Batting Average": ".2769",
+        "Bats": "L"
+      },
+      {
+        "Rank": "746.",
+        "Player": "Hank Bauer",
+        "Years-Age": "(14)",
+        "Batting Average": ".2768",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Art Fletcher",
+        "Years-Age": "(13)",
+        "Batting Average": ".2768",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Torii Hunter",
+        "Years-Age": "(19)",
+        "Batting Average": ".2768",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Amos Otis",
+        "Years-Age": "(17)",
+        "Batting Average": ".2768",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ron Santo+",
+        "Years-Age": "(15)",
+        "Batting Average": ".2768",
+        "Bats": "R"
+      },
+      {
+        "Rank": "751.",
+        "Player": "Enos Cabell",
+        "Years-Age": "(15)",
+        "Batting Average": ".2767",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Harry Davis",
+        "Years-Age": "(22)",
+        "Batting Average": ".2767",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Duke Farrell",
+        "Years-Age": "(18)",
+        "Batting Average": ".2767",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Bobby Murcer",
+        "Years-Age": "(17)",
+        "Batting Average": ".2767",
+        "Bats": "L"
+      },
+      {
+        "Rank": "755.",
+        "Player": "Leon Durham",
+        "Years-Age": "(10)",
+        "Batting Average": ".2766",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jason Giambi",
+        "Years-Age": "(20)",
+        "Batting Average": ".2766",
+        "Bats": "L"
+      },
+      {
+        "Rank": "757.",
+        "Player": "Roy Cullenbine",
+        "Years-Age": "(10)",
+        "Batting Average": ".2764",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Patrick Gillespie",
+        "Years-Age": "(8)",
+        "Batting Average": ".2764",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Mel Hall",
+        "Years-Age": "(13)",
+        "Batting Average": ".2764",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Thome+",
+        "Years-Age": "(22)",
+        "Batting Average": ".2764",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Lou Whitaker",
+        "Years-Age": "(19)",
+        "Batting Average": ".2764",
+        "Bats": "L"
+      },
+      {
+        "Rank": "762.",
+        "Player": "Ken Keltner",
+        "Years-Age": "(13)",
+        "Batting Average": ".2763",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Al Martin",
+        "Years-Age": "(11)",
+        "Batting Average": ".2763",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "George McQuinn",
+        "Years-Age": "(12)",
+        "Batting Average": ".2763",
+        "Bats": "L"
+      },
+      {
+        "Rank": "765.",
+        "Player": "Vinny Castilla",
+        "Years-Age": "(16)",
+        "Batting Average": ".2762",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Dave Foutz",
+        "Years-Age": "(13)",
+        "Batting Average": ".2762",
+        "Bats": "R"
+      },
+      {
+        "Rank": "767.",
+        "Player": "Elvis Andrus",
+        "Years-Age": "(10, 29)",
+        "Batting Average": ".2761",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Roy Campanella+",
+        "Years-Age": "(10)",
+        "Batting Average": ".2761",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Danny Cater",
+        "Years-Age": "(12)",
+        "Batting Average": ".2761",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Chone Figgins",
+        "Years-Age": "(12)",
+        "Batting Average": ".2761",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Gil McDougald",
+        "Years-Age": "(10)",
+        "Batting Average": ".2761",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Brian Roberts",
+        "Years-Age": "(14)",
+        "Batting Average": ".2761",
+        "Bats": "B"
+      },
+      {
+        "Rank": "773.",
+        "Player": "Beals Becker",
+        "Years-Age": "(8)",
+        "Batting Average": ".2760",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Mark Kotsay",
+        "Years-Age": "(17)",
+        "Batting Average": ".2760",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Gary Ward",
+        "Years-Age": "(12)",
+        "Batting Average": ".2760",
+        "Bats": "R"
+      },
+      {
+        "Rank": "776.",
+        "Player": "Bill Knickerbocker",
+        "Years-Age": "(10)",
+        "Batting Average": ".2759",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Greg Luzinski",
+        "Years-Age": "(15)",
+        "Batting Average": ".2759",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Dave Martinez",
+        "Years-Age": "(16)",
+        "Batting Average": ".2759",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Randy Velarde",
+        "Years-Age": "(16)",
+        "Batting Average": ".2759",
+        "Bats": "R"
+      },
+      {
+        "Rank": "780.",
+        "Player": "Jack Rothrock",
+        "Years-Age": "(11)",
+        "Batting Average": ".2758",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Walt Wilmot",
+        "Years-Age": "(10)",
+        "Batting Average": ".2758",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Al Zarilla",
+        "Years-Age": "(10)",
+        "Batting Average": ".2758",
+        "Bats": "L"
+      },
+      {
+        "Rank": "783.",
+        "Player": "Derek Bell",
+        "Years-Age": "(11)",
+        "Batting Average": ".2757",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Richie Hebner",
+        "Years-Age": "(18)",
+        "Batting Average": ".2757",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Elmer Smith",
+        "Years-Age": "(10)",
+        "Batting Average": ".2757",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Chase Utley",
+        "Years-Age": "(16, 39)",
+        "Batting Average": ".2757",
+        "Bats": "L"
+      },
+      {
+        "Rank": "787.",
+        "Player": "Nelson Cruz",
+        "Years-Age": "(14, 37)",
+        "Batting Average": ".2756",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Topsy Hartsel",
+        "Years-Age": "(14)",
+        "Batting Average": ".2756",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Lee Magee",
+        "Years-Age": "(9)",
+        "Batting Average": ".2756",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Willie Randolph",
+        "Years-Age": "(18)",
+        "Batting Average": ".2756",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Cal Ripken+",
+        "Years-Age": "(21)",
+        "Batting Average": ".2756",
+        "Bats": "R"
+      },
+      {
+        "Rank": "792.",
+        "Player": "Rich Aurilia",
+        "Years-Age": "(15)",
+        "Batting Average": ".2755",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ping Bodie",
+        "Years-Age": "(9)",
+        "Batting Average": ".2755",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ron Northey",
+        "Years-Age": "(12)",
+        "Batting Average": ".2755",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Marcell Ozuna",
+        "Years-Age": "(6, 27)",
+        "Batting Average": ".2755",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Brandon Phillips",
+        "Years-Age": "(16, 37)",
+        "Batting Average": ".2755",
+        "Bats": "R"
+      },
+      {
+        "Rank": "797.",
+        "Player": "Corey Koskie",
+        "Years-Age": "(9)",
+        "Batting Average": ".2754",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Billy Nash",
+        "Years-Age": "(15)",
+        "Batting Average": ".2754",
+        "Bats": "R"
+      },
+      {
+        "Rank": "799.",
+        "Player": "Wally Backman",
+        "Years-Age": "(14)",
+        "Batting Average": ".2752",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Jerry Remy",
+        "Years-Age": "(10)",
+        "Batting Average": ".2752",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Shane Victorino",
+        "Years-Age": "(12)",
+        "Batting Average": ".2752",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "John Ward+",
+        "Years-Age": "(17)",
+        "Batting Average": ".2752",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Rudy York",
+        "Years-Age": "(13)",
+        "Batting Average": ".2752",
+        "Bats": "R"
+      },
+      {
+        "Rank": "804.",
+        "Player": "Josh Donaldson",
+        "Years-Age": "(8, 32)",
+        "Batting Average": ".2751",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Geoff Jenkins",
+        "Years-Age": "(11)",
+        "Batting Average": ".2751",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Muddy Ruel",
+        "Years-Age": "(19)",
+        "Batting Average": ".2751",
+        "Bats": "R"
+      },
+      {
+        "Rank": "807.",
+        "Player": "Marlon Byrd",
+        "Years-Age": "(15)",
+        "Batting Average": ".2750",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Cliff Heathcote",
+        "Years-Age": "(15)",
+        "Batting Average": ".2750",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Marv Owen",
+        "Years-Age": "(9)",
+        "Batting Average": ".2750",
+        "Bats": "R"
+      },
+      {
+        "Rank": "810.",
+        "Player": "Jimmy Williams",
+        "Years-Age": "(11)",
+        "Batting Average": ".2749",
+        "Bats": "R"
+      },
+      {
+        "Rank": "811.",
+        "Player": "Irv Noren",
+        "Years-Age": "(11)",
+        "Batting Average": ".2748",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Fred Snodgrass",
+        "Years-Age": "(9)",
+        "Batting Average": ".2748",
+        "Bats": "R"
+      },
+      {
+        "Rank": "813.",
+        "Player": "Jose Cardenal",
+        "Years-Age": "(18)",
+        "Batting Average": ".2747",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "David DeJesus",
+        "Years-Age": "(13)",
+        "Batting Average": ".2747",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Brad Hawpe",
+        "Years-Age": "(9)",
+        "Batting Average": ".2747",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ed McFarland",
+        "Years-Age": "(14)",
+        "Batting Average": ".2747",
+        "Bats": "R"
+      },
+      {
+        "Rank": "817.",
+        "Player": "Ray Boone",
+        "Years-Age": "(13)",
+        "Batting Average": ".2746",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bernard Gilkey",
+        "Years-Age": "(12)",
+        "Batting Average": ".2746",
+        "Bats": "R"
+      },
+      {
+        "Rank": "819.",
+        "Player": "Willie Montanez",
+        "Years-Age": "(14)",
+        "Batting Average": ".2745",
+        "Bats": "L"
+      },
+      {
+        "Rank": "820.",
+        "Player": "Chili Davis",
+        "Years-Age": "(19)",
+        "Batting Average": ".2744",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Hans Lobert",
+        "Years-Age": "(14)",
+        "Batting Average": ".2744",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Eric McNair",
+        "Years-Age": "(14)",
+        "Batting Average": ".2744",
+        "Bats": "R"
+      },
+      {
+        "Rank": "823.",
+        "Player": "Marty Cordova",
+        "Years-Age": "(9)",
+        "Batting Average": ".2743",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mike Dorgan",
+        "Years-Age": "(10)",
+        "Batting Average": ".2743",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Elston Howard",
+        "Years-Age": "(14)",
+        "Batting Average": ".2743",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Trot Nixon",
+        "Years-Age": "(12)",
+        "Batting Average": ".2743",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Troy O'Leary",
+        "Years-Age": "(11)",
+        "Batting Average": ".2743",
+        "Bats": "L"
+      },
+      {
+        "Rank": "828.",
+        "Player": "Ernie Banks+",
+        "Years-Age": "(19)",
+        "Batting Average": ".2742",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jermaine Dye",
+        "Years-Age": "(14)",
+        "Batting Average": ".2742",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mookie Wilson",
+        "Years-Age": "(12)",
+        "Batting Average": ".2742",
+        "Bats": "B"
+      },
+      {
+        "Rank": "831.",
+        "Player": "George Foster",
+        "Years-Age": "(18)",
+        "Batting Average": ".2741",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Rennie Stennett",
+        "Years-Age": "(11)",
+        "Batting Average": ".2741",
+        "Bats": "R"
+      },
+      {
+        "Rank": "833.",
+        "Player": "David Freese",
+        "Years-Age": "(10, 35)",
+        "Batting Average": ".2740",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Travis Fryman",
+        "Years-Age": "(13)",
+        "Batting Average": ".2740",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Gantner",
+        "Years-Age": "(17)",
+        "Batting Average": ".2740",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Willard Marshall",
+        "Years-Age": "(11)",
+        "Batting Average": ".2740",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Lee Maye",
+        "Years-Age": "(13)",
+        "Batting Average": ".2740",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "David Murphy",
+        "Years-Age": "(10)",
+        "Batting Average": ".2740",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jimmy Sheckard",
+        "Years-Age": "(17)",
+        "Batting Average": ".2740",
+        "Bats": "L"
+      },
+      {
+        "Rank": "840.",
+        "Player": "Juan Beniquez",
+        "Years-Age": "(17)",
+        "Batting Average": ".2739",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Donn Clendenon",
+        "Years-Age": "(12)",
+        "Batting Average": ".2739",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ron Coomer",
+        "Years-Age": "(9)",
+        "Batting Average": ".2739",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bucky Harris+",
+        "Years-Age": "(12)",
+        "Batting Average": ".2739",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Austin Jackson",
+        "Years-Age": "(9, 31)",
+        "Batting Average": ".2739",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Kevin Millar",
+        "Years-Age": "(12)",
+        "Batting Average": ".2739",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Farmer Vaughn",
+        "Years-Age": "(13)",
+        "Batting Average": ".2739",
+        "Bats": "R"
+      },
+      {
+        "Rank": "847.",
+        "Player": "Mike Lieberthal",
+        "Years-Age": "(14)",
+        "Batting Average": ".2738",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank Malzone",
+        "Years-Age": "(12)",
+        "Batting Average": ".2738",
+        "Bats": "R"
+      },
+      {
+        "Rank": "849.",
+        "Player": "Yoenis Cespedes",
+        "Years-Age": "(7, 32)",
+        "Batting Average": ".2737",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bengie Molina",
+        "Years-Age": "(13)",
+        "Batting Average": ".2737",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Juan Rivera",
+        "Years-Age": "(12)",
+        "Batting Average": ".2737",
+        "Bats": "R"
+      },
+      {
+        "Rank": "852.",
+        "Player": "Klondike Douglass",
+        "Years-Age": "(9)",
+        "Batting Average": ".2736",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Milt Thompson",
+        "Years-Age": "(13)",
+        "Batting Average": ".2736",
+        "Bats": "L"
+      },
+      {
+        "Rank": "854.",
+        "Player": "George Browne",
+        "Years-Age": "(12)",
+        "Batting Average": ".2735",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Larry Herndon",
+        "Years-Age": "(14)",
+        "Batting Average": ".2735",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Carlos May",
+        "Years-Age": "(10)",
+        "Batting Average": ".2735",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Wilbert Robinson+",
+        "Years-Age": "(17)",
+        "Batting Average": ".2735",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Andy Van Slyke",
+        "Years-Age": "(13)",
+        "Batting Average": ".2735",
+        "Bats": "L"
+      },
+      {
+        "Rank": "859.",
+        "Player": "Jimmy Callahan",
+        "Years-Age": "(13)",
+        "Batting Average": ".2734",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank Howard",
+        "Years-Age": "(16)",
+        "Batting Average": ".2734",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Orlando Hudson",
+        "Years-Age": "(11)",
+        "Batting Average": ".2734",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Tom York",
+        "Years-Age": "(15)",
+        "Batting Average": ".2734",
+        "Bats": "L"
+      },
+      {
+        "Rank": "863.",
+        "Player": "Wil Cordero",
+        "Years-Age": "(14)",
+        "Batting Average": ".2733",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Gil Hodges",
+        "Years-Age": "(18)",
+        "Batting Average": ".2733",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Fred Merkle",
+        "Years-Age": "(16)",
+        "Batting Average": ".2733",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Raul Mondesi",
+        "Years-Age": "(13)",
+        "Batting Average": ".2733",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Claude Ritchey",
+        "Years-Age": "(13)",
+        "Batting Average": ".2733",
+        "Bats": "B"
+      },
+      {
+        "Rank": "868.",
+        "Player": "Larry Biittner",
+        "Years-Age": "(14)",
+        "Batting Average": ".2732",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Solly Hemus",
+        "Years-Age": "(11)",
+        "Batting Average": ".2732",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Bobby Lowe",
+        "Years-Age": "(18)",
+        "Batting Average": ".2732",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Orsulak",
+        "Years-Age": "(14)",
+        "Batting Average": ".2732",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Sammy Sosa",
+        "Years-Age": "(18)",
+        "Batting Average": ".2732",
+        "Bats": "R"
+      },
+      {
+        "Rank": "873.",
+        "Player": "Willie Horton",
+        "Years-Age": "(18)",
+        "Batting Average": ".2731",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bob O'Farrell",
+        "Years-Age": "(21)",
+        "Batting Average": ".2731",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ben Oglivie",
+        "Years-Age": "(16)",
+        "Batting Average": ".2731",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jorge Posada",
+        "Years-Age": "(17)",
+        "Batting Average": ".2731",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "George Wood",
+        "Years-Age": "(13)",
+        "Batting Average": ".2731",
+        "Bats": "L"
+      },
+      {
+        "Rank": "878.",
+        "Player": "Todd Hollandsworth",
+        "Years-Age": "(12)",
+        "Batting Average": ".2730",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ron Hunt",
+        "Years-Age": "(12)",
+        "Batting Average": ".2730",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Chet Lemon",
+        "Years-Age": "(16)",
+        "Batting Average": ".2730",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jose Offerman",
+        "Years-Age": "(15)",
+        "Batting Average": ".2730",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Phil Rizzuto+",
+        "Years-Age": "(13)",
+        "Batting Average": ".2730",
+        "Bats": "R"
+      },
+      {
+        "Rank": "883.",
+        "Player": "Ronnie Belliard",
+        "Years-Age": "(13)",
+        "Batting Average": ".2729",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jimmy Wasdell",
+        "Years-Age": "(11)",
+        "Batting Average": ".2729",
+        "Bats": "L"
+      },
+      {
+        "Rank": "885.",
+        "Player": "Sandy Alomar",
+        "Years-Age": "(20)",
+        "Batting Average": ".2728",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Travis Hafner",
+        "Years-Age": "(12)",
+        "Batting Average": ".2728",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Scott Hatteberg",
+        "Years-Age": "(14)",
+        "Batting Average": ".2728",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ed Taubensee",
+        "Years-Age": "(11)",
+        "Batting Average": ".2728",
+        "Bats": "L"
+      },
+      {
+        "Rank": "889.",
+        "Player": "Aaron Rowand",
+        "Years-Age": "(11)",
+        "Batting Average": ".2727",
+        "Bats": "R"
+      },
+      {
+        "Rank": "890.",
+        "Player": "Bill Bruton",
+        "Years-Age": "(12)",
+        "Batting Average": ".2726",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Rick Burleson",
+        "Years-Age": "(13)",
+        "Batting Average": ".2726",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Johnny Lindell",
+        "Years-Age": "(12)",
+        "Batting Average": ".2726",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Peanuts Lowrey",
+        "Years-Age": "(13)",
+        "Batting Average": ".2726",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Danny Tartabull",
+        "Years-Age": "(14)",
+        "Batting Average": ".2726",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Tony Womack",
+        "Years-Age": "(13)",
+        "Batting Average": ".2726",
+        "Bats": "L"
+      },
+      {
+        "Rank": "896.",
+        "Player": "Roger Cedeno",
+        "Years-Age": "(11)",
+        "Batting Average": ".2725",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Larry Hisle",
+        "Years-Age": "(14)",
+        "Batting Average": ".2725",
+        "Bats": "R"
+      },
+      {
+        "Rank": "898.",
+        "Player": "Jamey Carroll",
+        "Years-Age": "(12)",
+        "Batting Average": ".2724",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bill Dahlen",
+        "Years-Age": "(21)",
+        "Batting Average": ".2724",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Tito Francona",
+        "Years-Age": "(15)",
+        "Batting Average": ".2724",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Adam Lind",
+        "Years-Age": "(12, 34)",
+        "Batting Average": ".2724",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Emil Verban",
+        "Years-Age": "(7)",
+        "Batting Average": ".2724",
+        "Bats": "R"
+      },
+      {
+        "Rank": "903.",
+        "Player": "Raul Ibanez",
+        "Years-Age": "(19)",
+        "Batting Average": ".2723",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Rance Mulliniks",
+        "Years-Age": "(16)",
+        "Batting Average": ".2723",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Piersall",
+        "Years-Age": "(17)",
+        "Batting Average": ".2723",
+        "Bats": "R"
+      },
+      {
+        "Rank": "906.",
+        "Player": "Al Smith",
+        "Years-Age": "(12)",
+        "Batting Average": ".2722",
+        "Bats": "R"
+      },
+      {
+        "Rank": "907.",
+        "Player": "Dave Collins",
+        "Years-Age": "(16)",
+        "Batting Average": ".2721",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Bill Hallman",
+        "Years-Age": "(14)",
+        "Batting Average": ".2721",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bobby Higginson",
+        "Years-Age": "(11)",
+        "Batting Average": ".2721",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Wally Westlake",
+        "Years-Age": "(10)",
+        "Batting Average": ".2721",
+        "Bats": "R"
+      },
+      {
+        "Rank": "911.",
+        "Player": "Ivan Calderon",
+        "Years-Age": "(10)",
+        "Batting Average": ".2720",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Marquis Grissom",
+        "Years-Age": "(17)",
+        "Batting Average": ".2720",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Buck Weaver",
+        "Years-Age": "(9)",
+        "Batting Average": ".2720",
+        "Bats": "B"
+      },
+      {
+        "Rank": "914.",
+        "Player": "Ossie Bluege",
+        "Years-Age": "(18)",
+        "Batting Average": ".2719",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ken Caminiti",
+        "Years-Age": "(15)",
+        "Batting Average": ".2719",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Harlond Clift",
+        "Years-Age": "(12)",
+        "Batting Average": ".2719",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Dwight Evans",
+        "Years-Age": "(20)",
+        "Batting Average": ".2719",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Adam Kennedy",
+        "Years-Age": "(14)",
+        "Batting Average": ".2719",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Bid McPhee+",
+        "Years-Age": "(18)",
+        "Batting Average": ".2719",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bill Sweeney",
+        "Years-Age": "(8)",
+        "Batting Average": ".2719",
+        "Bats": "R"
+      },
+      {
+        "Rank": "921.",
+        "Player": "Orlando Cabrera",
+        "Years-Age": "(15)",
+        "Batting Average": ".2718",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jeffrey Hammonds",
+        "Years-Age": "(13)",
+        "Batting Average": ".2718",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Johnny Kling",
+        "Years-Age": "(13)",
+        "Batting Average": ".2718",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Omar Vizquel",
+        "Years-Age": "(24)",
+        "Batting Average": ".2718",
+        "Bats": "B"
+      },
+      {
+        "Rank": "925.",
+        "Player": "Sam Wise",
+        "Years-Age": "(12)",
+        "Batting Average": ".2717",
+        "Bats": "L"
+      },
+      {
+        "Rank": "926.",
+        "Player": "Ray Lankford",
+        "Years-Age": "(14)",
+        "Batting Average": ".2716",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Norm Siebern",
+        "Years-Age": "(12)",
+        "Batting Average": ".2716",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Leon Wagner",
+        "Years-Age": "(12)",
+        "Batting Average": ".2716",
+        "Bats": "L"
+      },
+      {
+        "Rank": "929.",
+        "Player": "Barry Bonnell",
+        "Years-Age": "(10)",
+        "Batting Average": ".2715",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jerry Browne",
+        "Years-Age": "(10)",
+        "Batting Average": ".2715",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Ray Knight",
+        "Years-Age": "(13)",
+        "Batting Average": ".2715",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Tim McCarver",
+        "Years-Age": "(21)",
+        "Batting Average": ".2715",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ollie Pickering",
+        "Years-Age": "(8)",
+        "Batting Average": ".2715",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Rey Sanchez",
+        "Years-Age": "(15)",
+        "Batting Average": ".2715",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Garry Templeton",
+        "Years-Age": "(16)",
+        "Batting Average": ".2715",
+        "Bats": "B"
+      },
+      {
+        "Rank": "936.",
+        "Player": "Norm Cash",
+        "Years-Age": "(17)",
+        "Batting Average": ".2714",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Myril Hoag",
+        "Years-Age": "(13)",
+        "Batting Average": ".2714",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Duane Kuiper",
+        "Years-Age": "(12)",
+        "Batting Average": ".2714",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Sixto Lezcano",
+        "Years-Age": "(12)",
+        "Batting Average": ".2714",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Doug Mientkiewicz",
+        "Years-Age": "(12)",
+        "Batting Average": ".2714",
+        "Bats": "L"
+      },
+      {
+        "Rank": "941.",
+        "Player": "Joe Morgan+",
+        "Years-Age": "(22)",
+        "Batting Average": ".2713",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Denny Walling",
+        "Years-Age": "(18)",
+        "Batting Average": ".2713",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Billy Werber",
+        "Years-Age": "(11)",
+        "Batting Average": ".2713",
+        "Bats": "R"
+      },
+      {
+        "Rank": "944.",
+        "Player": "Carl Everett",
+        "Years-Age": "(14)",
+        "Batting Average": ".2712",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Steve Finley",
+        "Years-Age": "(19)",
+        "Batting Average": ".2712",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Elbie Fletcher",
+        "Years-Age": "(12)",
+        "Batting Average": ".2712",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Eddie Mathews+",
+        "Years-Age": "(17)",
+        "Batting Average": ".2712",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Merv Rettenmund",
+        "Years-Age": "(13)",
+        "Batting Average": ".2712",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ossee Schrecongost",
+        "Years-Age": "(11)",
+        "Batting Average": ".2712",
+        "Bats": "R"
+      },
+      {
+        "Rank": "950.",
+        "Player": "Cristian Guzman",
+        "Years-Age": "(11)",
+        "Batting Average": ".2711",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Tom Herr",
+        "Years-Age": "(13)",
+        "Batting Average": ".2711",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Billy Johnson",
+        "Years-Age": "(9)",
+        "Batting Average": ".2711",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Roy White",
+        "Years-Age": "(15)",
+        "Batting Average": ".2711",
+        "Bats": "B"
+      },
+      {
+        "Rank": "954.",
+        "Player": "Steve Braun",
+        "Years-Age": "(15)",
+        "Batting Average": ".2710",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Russ Snyder",
+        "Years-Age": "(12)",
+        "Batting Average": ".2710",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Johnny Wyrostek",
+        "Years-Age": "(11)",
+        "Batting Average": ".2710",
+        "Bats": "L"
+      },
+      {
+        "Rank": "957.",
+        "Player": "Erick Aybar",
+        "Years-Age": "(12, 34)",
+        "Batting Average": ".2709",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Bill Bradley",
+        "Years-Age": "(14)",
+        "Batting Average": ".2709",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Charlie Hemphill",
+        "Years-Age": "(11)",
+        "Batting Average": ".2709",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ian Kinsler",
+        "Years-Age": "(13, 36)",
+        "Batting Average": ".2709",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Heinie Peitz",
+        "Years-Age": "(16)",
+        "Batting Average": ".2709",
+        "Bats": "R"
+      },
+      {
+        "Rank": "962.",
+        "Player": "Jorge Cantu",
+        "Years-Age": "(8, 36)",
+        "Batting Average": ".2708",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Tommy Dowd",
+        "Years-Age": "(10)",
+        "Batting Average": ".2708",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Kid Elberfeld",
+        "Years-Age": "(14)",
+        "Batting Average": ".2708",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mike Lansing",
+        "Years-Age": "(9)",
+        "Batting Average": ".2708",
+        "Bats": "R"
+      },
+      {
+        "Rank": "966.",
+        "Player": "Milton Bradley",
+        "Years-Age": "(12)",
+        "Batting Average": ".2707",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Omar Infante",
+        "Years-Age": "(15)",
+        "Batting Average": ".2707",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Don Kolloway",
+        "Years-Age": "(12)",
+        "Batting Average": ".2707",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Tino Martinez",
+        "Years-Age": "(16)",
+        "Batting Average": ".2707",
+        "Bats": "L"
+      },
+      {
+        "Rank": "970.",
+        "Player": "Max Bishop",
+        "Years-Age": "(12)",
+        "Batting Average": ".2706",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Corey Hart",
+        "Years-Age": "(11)",
+        "Batting Average": ".2706",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Burt Shotton",
+        "Years-Age": "(14)",
+        "Batting Average": ".2706",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Terry Steinbach",
+        "Years-Age": "(14)",
+        "Batting Average": ".2706",
+        "Bats": "R"
+      },
+      {
+        "Rank": "974.",
+        "Player": "Asdrubal Cabrera",
+        "Years-Age": "(12, 32)",
+        "Batting Average": ".2705",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Glenallen Hill",
+        "Years-Age": "(13)",
+        "Batting Average": ".2705",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bill Spiers",
+        "Years-Age": "(13)",
+        "Batting Average": ".2705",
+        "Bats": "L"
+      },
+      {
+        "Rank": "977.",
+        "Player": "Gene Moore",
+        "Years-Age": "(14)",
+        "Batting Average": ".2704",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Rube Oldring",
+        "Years-Age": "(13)",
+        "Batting Average": ".2704",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bobby Thomson",
+        "Years-Age": "(15)",
+        "Batting Average": ".2704",
+        "Bats": "R"
+      },
+      {
+        "Rank": "980.",
+        "Player": "Jason Bartlett",
+        "Years-Age": "(10)",
+        "Batting Average": ".2703",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Kevin Bass",
+        "Years-Age": "(14)",
+        "Batting Average": ".2703",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Kitty Bransfield",
+        "Years-Age": "(12)",
+        "Batting Average": ".2703",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Johnny Evers+",
+        "Years-Age": "(18)",
+        "Batting Average": ".2703",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Davy Jones",
+        "Years-Age": "(15)",
+        "Batting Average": ".2703",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jody Reed",
+        "Years-Age": "(11)",
+        "Batting Average": ".2703",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank Schulte",
+        "Years-Age": "(15)",
+        "Batting Average": ".2703",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Alfonso Soriano",
+        "Years-Age": "(16)",
+        "Batting Average": ".2703",
+        "Bats": "R"
+      },
+      {
+        "Rank": "988.",
+        "Player": "Earl Battey",
+        "Years-Age": "(13)",
+        "Batting Average": ".2702",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jose Guillen",
+        "Years-Age": "(14)",
+        "Batting Average": ".2702",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mike Marshall",
+        "Years-Age": "(11)",
+        "Batting Average": ".2702",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Alexei Ramirez",
+        "Years-Age": "(9, 36)",
+        "Batting Average": ".2702",
+        "Bats": "R"
+      },
+      {
+        "Rank": "992.",
+        "Player": "Phil Nevin",
+        "Years-Age": "(12)",
+        "Batting Average": ".2701",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Albie Pearson",
+        "Years-Age": "(9)",
+        "Batting Average": ".2701",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jose Vizcaino",
+        "Years-Age": "(18)",
+        "Batting Average": ".2701",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Vernon Wells",
+        "Years-Age": "(15)",
+        "Batting Average": ".2701",
+        "Bats": "R"
+      },
+      {
+        "Rank": "996.",
+        "Player": "Al Cowens",
+        "Years-Age": "(13)",
+        "Batting Average": ".2700",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Red Murray",
+        "Years-Age": "(11)",
+        "Batting Average": ".2700",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Dave Philley",
+        "Years-Age": "(18)",
+        "Batting Average": ".2700",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Birdie Tebbetts",
+        "Years-Age": "(14)",
+        "Batting Average": ".2700",
+        "Bats": "R"
+      }
     ]
   }
 }
