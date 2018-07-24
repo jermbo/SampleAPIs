@@ -27670,8 +27670,4080 @@
     ]
   },
   "rbi": {
-    "singleSeason": [],
+    "singleSeason": [
+      {
+        "Rank": "1.",
+        "Player": "Hack Wilson+",
+        "Age": "(30)",
+        "Runs Batted In": "191",
+        "Year": "1930",
+        "Bats": "R"
+      },
+      {
+        "Rank": "2.",
+        "Player": "Lou Gehrig+",
+        "Age": "(28)",
+        "Runs Batted In": "185",
+        "Year": "1931",
+        "Bats": "L"
+      },
+      {
+        "Rank": "3.",
+        "Player": "Hank Greenberg+",
+        "Age": "(26)",
+        "Runs Batted In": "184",
+        "Year": "1937",
+        "Bats": "R"
+      },
+      {
+        "Rank": "4.",
+        "Player": "Jimmie Foxx+",
+        "Age": "(30)",
+        "Runs Batted In": "175",
+        "Year": "1938",
+        "Bats": "R"
+      },
+      {
+        "Rank": "5.",
+        "Player": "Lou Gehrig+",
+        "Age": "(24)",
+        "Runs Batted In": "173",
+        "Year": "1927",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Lou Gehrig+",
+        "Age": "(27)",
+        "Runs Batted In": "173",
+        "Year": "1930",
+        "Bats": "L"
+      },
+      {
+        "Rank": "7.",
+        "Player": "Chuck Klein+",
+        "Age": "(25)",
+        "Runs Batted In": "170",
+        "Year": "1930",
+        "Bats": "L"
+      },
+      {
+        "Rank": "8.",
+        "Player": "Jimmie Foxx+",
+        "Age": "(24)",
+        "Runs Batted In": "169",
+        "Year": "1932",
+        "Bats": "R"
+      },
+      {
+        "Rank": "9.",
+        "Player": "Hank Greenberg+",
+        "Age": "(24)",
+        "Runs Batted In": "168",
+        "Year": "1935",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Babe Ruth+",
+        "Age": "(26)",
+        "Runs Batted In": "168",
+        "Year": "1921",
+        "Bats": "L"
+      },
+      {
+        "Rank": "11.",
+        "Player": "Joe DiMaggio+",
+        "Age": "(22)",
+        "Runs Batted In": "167",
+        "Year": "1937",
+        "Bats": "R"
+      },
+      {
+        "Rank": "12.",
+        "Player": "Lou Gehrig+",
+        "Age": "(31)",
+        "Runs Batted In": "166",
+        "Year": "1934",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Sam Thompson+",
+        "Age": "(27)",
+        "Runs Batted In": "166",
+        "Year": "1887",
+        "Bats": "L"
+      },
+      {
+        "Rank": "14.",
+        "Player": "Manny Ramirez",
+        "Age": "(27)",
+        "Runs Batted In": "165",
+        "Year": "1999",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Babe Ruth+",
+        "Age": "(32)",
+        "Runs Batted In": "165",
+        "Year": "1927",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Al Simmons+",
+        "Age": "(28)",
+        "Runs Batted In": "165",
+        "Year": "1930",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Sam Thompson+",
+        "Age": "(35)",
+        "Runs Batted In": "165",
+        "Year": "1895",
+        "Bats": "L"
+      },
+      {
+        "Rank": "18.",
+        "Player": "Jimmie Foxx+",
+        "Age": "(25)",
+        "Runs Batted In": "163",
+        "Year": "1933",
+        "Bats": "R"
+      },
+      {
+        "Rank": "19.",
+        "Player": "Babe Ruth+",
+        "Age": "(36)",
+        "Runs Batted In": "162",
+        "Year": "1931",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Hal Trosky",
+        "Age": "(23)",
+        "Runs Batted In": "162",
+        "Year": "1936",
+        "Bats": "L"
+      },
+      {
+        "Rank": "21.",
+        "Player": "Sammy Sosa",
+        "Age": "(32)",
+        "Runs Batted In": "160",
+        "Year": "2001",
+        "Bats": "R"
+      },
+      {
+        "Rank": "22.",
+        "Player": "Vern Stephens",
+        "Age": "(28)",
+        "Runs Batted In": "159",
+        "Year": "1949",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ted Williams+",
+        "Age": "(30)",
+        "Runs Batted In": "159",
+        "Year": "1949",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Hack Wilson+",
+        "Age": "(29)",
+        "Runs Batted In": "159",
+        "Year": "1929",
+        "Bats": "R"
+      },
+      {
+        "Rank": "25.",
+        "Player": "Lou Gehrig+",
+        "Age": "(34)",
+        "Runs Batted In": "158",
+        "Year": "1937",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Sammy Sosa",
+        "Age": "(29)",
+        "Runs Batted In": "158",
+        "Year": "1998",
+        "Bats": "R"
+      },
+      {
+        "Rank": "27.",
+        "Player": "Juan Gonzalez",
+        "Age": "(28)",
+        "Runs Batted In": "157",
+        "Year": "1998",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Al Simmons+",
+        "Age": "(27)",
+        "Runs Batted In": "157",
+        "Year": "1929",
+        "Bats": "R"
+      },
+      {
+        "Rank": "29.",
+        "Player": "Jimmie Foxx+",
+        "Age": "(22)",
+        "Runs Batted In": "156",
+        "Year": "1930",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Alex Rodriguez",
+        "Age": "(31)",
+        "Runs Batted In": "156",
+        "Year": "2007",
+        "Bats": "R"
+      },
+      {
+        "Rank": "31.",
+        "Player": "Joe DiMaggio+",
+        "Age": "(33)",
+        "Runs Batted In": "155",
+        "Year": "1948",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ken Williams",
+        "Age": "(32)",
+        "Runs Batted In": "155",
+        "Year": "1922",
+        "Bats": "L"
+      },
+      {
+        "Rank": "33.",
+        "Player": "Joe Medwick+",
+        "Age": "(25)",
+        "Runs Batted In": "154",
+        "Year": "1937",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Babe Ruth+",
+        "Age": "(34)",
+        "Runs Batted In": "154",
+        "Year": "1929",
+        "Bats": "L"
+      },
+      {
+        "Rank": "35.",
+        "Player": "Tommy Davis",
+        "Age": "(23)",
+        "Runs Batted In": "153",
+        "Year": "1962",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Babe Ruth+",
+        "Age": "(31)",
+        "Runs Batted In": "153",
+        "Year": "1926",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Babe Ruth+",
+        "Age": "(35)",
+        "Runs Batted In": "153",
+        "Year": "1930",
+        "Bats": "L"
+      },
+      {
+        "Rank": "38.",
+        "Player": "Albert Belle",
+        "Age": "(31)",
+        "Runs Batted In": "152",
+        "Year": "1998",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Lou Gehrig+",
+        "Age": "(33)",
+        "Runs Batted In": "152",
+        "Year": "1936",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Rogers Hornsby+",
+        "Age": "(26)",
+        "Runs Batted In": "152",
+        "Year": "1922",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Hardy Richardson",
+        "Age": "(35)",
+        "Runs Batted In": "152",
+        "Year": "1890",
+        "Bats": "R"
+      },
+      {
+        "Rank": "42.",
+        "Player": "Lou Gehrig+",
+        "Age": "(29)",
+        "Runs Batted In": "151",
+        "Year": "1932",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Mel Ott+",
+        "Age": "(20)",
+        "Runs Batted In": "151",
+        "Year": "1929",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Al Simmons+",
+        "Age": "(30)",
+        "Runs Batted In": "151",
+        "Year": "1932",
+        "Bats": "R"
+      },
+      {
+        "Rank": "45.",
+        "Player": "Andres Galarraga",
+        "Age": "(35)",
+        "Runs Batted In": "150",
+        "Year": "1996",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Hank Greenberg+",
+        "Age": "(29)",
+        "Runs Batted In": "150",
+        "Year": "1940",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Miguel Tejada",
+        "Age": "(30)",
+        "Runs Batted In": "150",
+        "Year": "2004",
+        "Bats": "R"
+      },
+      {
+        "Rank": "48.",
+        "Player": "George Foster",
+        "Age": "(28)",
+        "Runs Batted In": "149",
+        "Year": "1977",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Rogers Hornsby+",
+        "Age": "(33)",
+        "Runs Batted In": "149",
+        "Year": "1929",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ryan Howard",
+        "Age": "(26)",
+        "Runs Batted In": "149",
+        "Year": "2006",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Sam Thompson+",
+        "Age": "(34)",
+        "Runs Batted In": "149",
+        "Year": "1894",
+        "Bats": "L"
+      },
+      {
+        "Rank": "52.",
+        "Player": "Albert Belle",
+        "Age": "(29)",
+        "Runs Batted In": "148",
+        "Year": "1996",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Johnny Bench+",
+        "Age": "(22)",
+        "Runs Batted In": "148",
+        "Year": "1970",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "David Ortiz",
+        "Age": "(29)",
+        "Runs Batted In": "148",
+        "Year": "2005",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Rafael Palmeiro",
+        "Age": "(34)",
+        "Runs Batted In": "148",
+        "Year": "1999",
+        "Bats": "L"
+      },
+      {
+        "Rank": "56.",
+        "Player": "Cap Anson+",
+        "Age": "(34)",
+        "Runs Batted In": "147",
+        "Year": "1886",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Lou Gehrig+",
+        "Age": "(25)",
+        "Runs Batted In": "147",
+        "Year": "1928",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Hank Greenberg+",
+        "Age": "(27)",
+        "Runs Batted In": "147",
+        "Year": "1938",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ken Griffey+",
+        "Age": "(27)",
+        "Runs Batted In": "147",
+        "Year": "1997",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Todd Helton",
+        "Age": "(26)",
+        "Runs Batted In": "147",
+        "Year": "2000",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Mark McGwire",
+        "Age": "(34)",
+        "Runs Batted In": "147",
+        "Year": "1998",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mark McGwire",
+        "Age": "(35)",
+        "Runs Batted In": "147",
+        "Year": "1999",
+        "Bats": "R"
+      },
+      {
+        "Rank": "63.",
+        "Player": "Ed Delahanty+",
+        "Age": "(25)",
+        "Runs Batted In": "146",
+        "Year": "1893",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ken Griffey+",
+        "Age": "(28)",
+        "Runs Batted In": "146",
+        "Year": "1998",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Todd Helton",
+        "Age": "(27)",
+        "Runs Batted In": "146",
+        "Year": "2001",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ryan Howard",
+        "Age": "(28)",
+        "Runs Batted In": "146",
+        "Year": "2008",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Babe Ruth+",
+        "Age": "(33)",
+        "Runs Batted In": "146",
+        "Year": "1928",
+        "Bats": "L"
+      },
+      {
+        "Rank": "68.",
+        "Player": "Carlos Delgado",
+        "Age": "(31)",
+        "Runs Batted In": "145",
+        "Year": "2003",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Hugh Duffy+",
+        "Age": "(27)",
+        "Runs Batted In": "145",
+        "Year": "1894",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Chuck Klein+",
+        "Age": "(24)",
+        "Runs Batted In": "145",
+        "Year": "1929",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Edgar Martinez",
+        "Age": "(37)",
+        "Runs Batted In": "145",
+        "Year": "2000",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Don Mattingly",
+        "Age": "(24)",
+        "Runs Batted In": "145",
+        "Year": "1985",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Manny Ramirez",
+        "Age": "(26)",
+        "Runs Batted In": "145",
+        "Year": "1998",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Al Rosen",
+        "Age": "(29)",
+        "Runs Batted In": "145",
+        "Year": "1953",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ted Williams+",
+        "Age": "(20)",
+        "Runs Batted In": "145",
+        "Year": "1939",
+        "Bats": "L"
+      },
+      {
+        "Rank": "76.",
+        "Player": "Vinny Castilla",
+        "Age": "(30)",
+        "Runs Batted In": "144",
+        "Year": "1998",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Walt Dropo",
+        "Age": "(27)",
+        "Runs Batted In": "144",
+        "Year": "1950",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Juan Gonzalez",
+        "Age": "(26)",
+        "Runs Batted In": "144",
+        "Year": "1996",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Manny Ramirez",
+        "Age": "(33)",
+        "Runs Batted In": "144",
+        "Year": "2005",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Vern Stephens",
+        "Age": "(29)",
+        "Runs Batted In": "144",
+        "Year": "1950",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mike Sweeney",
+        "Age": "(26)",
+        "Runs Batted In": "144",
+        "Year": "2000",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mark Teixeira",
+        "Age": "(25)",
+        "Runs Batted In": "144",
+        "Year": "2005",
+        "Bats": "B"
+      },
+      {
+        "Rank": "83.",
+        "Player": "Earl Averill+",
+        "Age": "(29)",
+        "Runs Batted In": "143",
+        "Year": "1931",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ernie Banks+",
+        "Age": "(28)",
+        "Runs Batted In": "143",
+        "Year": "1959",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jimmie Foxx+",
+        "Age": "(28)",
+        "Runs Batted In": "143",
+        "Year": "1936",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Rogers Hornsby+",
+        "Age": "(29)",
+        "Runs Batted In": "143",
+        "Year": "1925",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Don Hurst",
+        "Age": "(26)",
+        "Runs Batted In": "143",
+        "Year": "1932",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank Thomas+",
+        "Age": "(32)",
+        "Runs Batted In": "143",
+        "Year": "2000",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mo Vaughn",
+        "Age": "(28)",
+        "Runs Batted In": "143",
+        "Year": "1996",
+        "Bats": "L"
+      },
+      {
+        "Rank": "90.",
+        "Player": "Roy Campanella+",
+        "Age": "(31)",
+        "Runs Batted In": "142",
+        "Year": "1953",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Orlando Cepeda+",
+        "Age": "(23)",
+        "Runs Batted In": "142",
+        "Year": "1961",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Luis Gonzalez",
+        "Age": "(33)",
+        "Runs Batted In": "142",
+        "Year": "2001",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Rafael Palmeiro",
+        "Age": "(31)",
+        "Runs Batted In": "142",
+        "Year": "1996",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Alex Rodriguez",
+        "Age": "(26)",
+        "Runs Batted In": "142",
+        "Year": "2002",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Hal Trosky",
+        "Age": "(21)",
+        "Runs Batted In": "142",
+        "Year": "1934",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Matt Williams",
+        "Age": "(33)",
+        "Runs Batted In": "142",
+        "Year": "1999",
+        "Bats": "R"
+      },
+      {
+        "Rank": "97.",
+        "Player": "Dante Bichette",
+        "Age": "(32)",
+        "Runs Batted In": "141",
+        "Year": "1996",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bret Boone",
+        "Age": "(32)",
+        "Runs Batted In": "141",
+        "Year": "2001",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Prince Fielder",
+        "Age": "(25)",
+        "Runs Batted In": "141",
+        "Year": "2009",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Gentile",
+        "Age": "(27)",
+        "Runs Batted In": "141",
+        "Year": "1961",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ryan Howard",
+        "Age": "(29)",
+        "Runs Batted In": "141",
+        "Year": "2009",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ted Kluszewski",
+        "Age": "(29)",
+        "Runs Batted In": "141",
+        "Year": "1954",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Roger Maris",
+        "Age": "(26)",
+        "Runs Batted In": "141",
+        "Year": "1961",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Tino Martinez",
+        "Age": "(29)",
+        "Runs Batted In": "141",
+        "Year": "1997",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Willie Mays+",
+        "Age": "(31)",
+        "Runs Batted In": "141",
+        "Year": "1962",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Sammy Sosa",
+        "Age": "(30)",
+        "Runs Batted In": "141",
+        "Year": "1999",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Preston Wilson",
+        "Age": "(28)",
+        "Runs Batted In": "141",
+        "Year": "2003",
+        "Bats": "R"
+      },
+      {
+        "Rank": "108.",
+        "Player": "Rocky Colavito",
+        "Age": "(27)",
+        "Runs Batted In": "140",
+        "Year": "1961",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe DiMaggio+",
+        "Age": "(23)",
+        "Runs Batted In": "140",
+        "Year": "1938",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Andres Galarraga",
+        "Age": "(36)",
+        "Runs Batted In": "140",
+        "Year": "1997",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Lou Gehrig+",
+        "Age": "(30)",
+        "Runs Batted In": "140",
+        "Year": "1933",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Juan Gonzalez",
+        "Age": "(31)",
+        "Runs Batted In": "140",
+        "Year": "2001",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ken Griffey+",
+        "Age": "(26)",
+        "Runs Batted In": "140",
+        "Year": "1996",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Harmon Killebrew+",
+        "Age": "(33)",
+        "Runs Batted In": "140",
+        "Year": "1969",
+        "Bats": "R"
+      },
+      {
+        "Rank": "115.",
+        "Player": "Don Baylor",
+        "Age": "(30)",
+        "Runs Batted In": "139",
+        "Year": "1979",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Miguel Cabrera",
+        "Age": "(29)",
+        "Runs Batted In": "139",
+        "Year": "2012",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Hank Greenberg+",
+        "Age": "(23)",
+        "Runs Batted In": "139",
+        "Year": "1934",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Harry Heilmann+",
+        "Age": "(26)",
+        "Runs Batted In": "139",
+        "Year": "1921",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Magglio Ordonez",
+        "Age": "(33)",
+        "Runs Batted In": "139",
+        "Year": "2007",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "David Ortiz",
+        "Age": "(28)",
+        "Runs Batted In": "139",
+        "Year": "2004",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Rice+",
+        "Age": "(25)",
+        "Runs Batted In": "139",
+        "Year": "1978",
+        "Bats": "R"
+      },
+      {
+        "Rank": "122.",
+        "Player": "Zeke Bonura",
+        "Age": "(27)",
+        "Runs Batted In": "138",
+        "Year": "1936",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jay Buhner",
+        "Age": "(31)",
+        "Runs Batted In": "138",
+        "Year": "1996",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Chris Davis",
+        "Age": "(27)",
+        "Runs Batted In": "138",
+        "Year": "2013",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Goose Goslin+",
+        "Age": "(29)",
+        "Runs Batted In": "138",
+        "Year": "1930",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Medwick+",
+        "Age": "(24)",
+        "Runs Batted In": "138",
+        "Year": "1936",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bob Meusel",
+        "Age": "(24)",
+        "Runs Batted In": "138",
+        "Year": "1921",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Johnny Mize+",
+        "Age": "(34)",
+        "Runs Batted In": "138",
+        "Year": "1947",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Sammy Sosa",
+        "Age": "(31)",
+        "Runs Batted In": "138",
+        "Year": "2000",
+        "Bats": "R"
+      },
+      {
+        "Rank": "130.",
+        "Player": "Dale Alexander",
+        "Age": "(26)",
+        "Runs Batted In": "137",
+        "Year": "1929",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Barry Bonds",
+        "Age": "(36)",
+        "Runs Batted In": "137",
+        "Year": "2001",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Bottomley+",
+        "Age": "(29)",
+        "Runs Batted In": "137",
+        "Year": "1929",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Miguel Cabrera",
+        "Age": "(30)",
+        "Runs Batted In": "137",
+        "Year": "2013",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Andre Dawson+",
+        "Age": "(32)",
+        "Runs Batted In": "137",
+        "Year": "1987",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ed Delahanty+",
+        "Age": "(31)",
+        "Runs Batted In": "137",
+        "Year": "1899",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Carlos Delgado",
+        "Age": "(28)",
+        "Runs Batted In": "137",
+        "Year": "2000",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jason Giambi",
+        "Age": "(29)",
+        "Runs Batted In": "137",
+        "Year": "2000",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Matt Holliday",
+        "Age": "(27)",
+        "Runs Batted In": "137",
+        "Year": "2007",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Chuck Klein+",
+        "Age": "(27)",
+        "Runs Batted In": "137",
+        "Year": "1932",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Johnny Mize+",
+        "Age": "(27)",
+        "Runs Batted In": "137",
+        "Year": "1940",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "David Ortiz",
+        "Age": "(30)",
+        "Runs Batted In": "137",
+        "Year": "2006",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Albert Pujols",
+        "Age": "(26)",
+        "Runs Batted In": "137",
+        "Year": "2006",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Babe Ruth+",
+        "Age": "(37)",
+        "Runs Batted In": "137",
+        "Year": "1932",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Vern Stephens",
+        "Age": "(27)",
+        "Runs Batted In": "137",
+        "Year": "1948",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Torre+",
+        "Age": "(30)",
+        "Runs Batted In": "137",
+        "Year": "1971",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ted Williams+",
+        "Age": "(23)",
+        "Runs Batted In": "137",
+        "Year": "1942",
+        "Bats": "L"
+      },
+      {
+        "Rank": "147.",
+        "Player": "Lance Berkman",
+        "Age": "(30)",
+        "Runs Batted In": "136",
+        "Year": "2006",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Bottomley+",
+        "Age": "(28)",
+        "Runs Batted In": "136",
+        "Year": "1928",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ryan Howard",
+        "Age": "(27)",
+        "Runs Batted In": "136",
+        "Year": "2007",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "High Pockets Kelly+",
+        "Age": "(28)",
+        "Runs Batted In": "136",
+        "Year": "1924",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ed Morgan",
+        "Age": "(26)",
+        "Runs Batted In": "136",
+        "Year": "1930",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank Robinson+",
+        "Age": "(26)",
+        "Runs Batted In": "136",
+        "Year": "1962",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Duke Snider+",
+        "Age": "(28)",
+        "Runs Batted In": "136",
+        "Year": "1955",
+        "Bats": "L"
+      },
+      {
+        "Rank": "154.",
+        "Player": "Dale Alexander",
+        "Age": "(27)",
+        "Runs Batted In": "135",
+        "Year": "1930",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jeff Bagwell+",
+        "Age": "(29)",
+        "Runs Batted In": "135",
+        "Year": "1997",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "George Davis+",
+        "Age": "(26)",
+        "Runs Batted In": "135",
+        "Year": "1897",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Eddie Mathews+",
+        "Age": "(21)",
+        "Runs Batted In": "135",
+        "Year": "1953",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Magglio Ordonez",
+        "Age": "(28)",
+        "Runs Batted In": "135",
+        "Year": "2002",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mel Ott+",
+        "Age": "(25)",
+        "Runs Batted In": "135",
+        "Year": "1934",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Mel Ott+",
+        "Age": "(27)",
+        "Runs Batted In": "135",
+        "Year": "1936",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Albert Pujols",
+        "Age": "(29)",
+        "Runs Batted In": "135",
+        "Year": "2009",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Alex Rodriguez",
+        "Age": "(25)",
+        "Runs Batted In": "135",
+        "Year": "2001",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Babe Ruth+",
+        "Age": "(25)",
+        "Runs Batted In": "135",
+        "Year": "1920",
+        "Bats": "L"
+      },
+      {
+        "Rank": "164.",
+        "Player": "George Bell",
+        "Age": "(27)",
+        "Runs Batted In": "134",
+        "Year": "1987",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Steve Brodie",
+        "Age": "(26)",
+        "Runs Batted In": "134",
+        "Year": "1895",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Kiki Cuyler+",
+        "Age": "(31)",
+        "Runs Batted In": "134",
+        "Year": "1930",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Carlos Delgado",
+        "Age": "(27)",
+        "Runs Batted In": "134",
+        "Year": "1999",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ken Griffey+",
+        "Age": "(29)",
+        "Runs Batted In": "134",
+        "Year": "1999",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Harry Heilmann+",
+        "Age": "(30)",
+        "Runs Batted In": "134",
+        "Year": "1925",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Kelley+",
+        "Age": "(23)",
+        "Runs Batted In": "134",
+        "Year": "1895",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bob Meusel",
+        "Age": "(28)",
+        "Runs Batted In": "134",
+        "Year": "1925",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Moose Solters",
+        "Age": "(30)",
+        "Runs Batted In": "134",
+        "Year": "1936",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank Thomas+",
+        "Age": "(28)",
+        "Runs Batted In": "134",
+        "Year": "1996",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Rudy York",
+        "Age": "(26)",
+        "Runs Batted In": "134",
+        "Year": "1940",
+        "Bats": "R"
+      },
+      {
+        "Rank": "175.",
+        "Player": "Nolan Arenado",
+        "Age": "(25)",
+        "Runs Batted In": "133",
+        "Year": "2016",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Dante Bichette",
+        "Age": "(35)",
+        "Runs Batted In": "133",
+        "Year": "1999",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ed Delahanty+",
+        "Age": "(26)",
+        "Runs Batted In": "133",
+        "Year": "1894",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bill Dickey+",
+        "Age": "(30)",
+        "Runs Batted In": "133",
+        "Year": "1937",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe DiMaggio+",
+        "Age": "(25)",
+        "Runs Batted In": "133",
+        "Year": "1940",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Cecil Fielder",
+        "Age": "(27)",
+        "Runs Batted In": "133",
+        "Year": "1991",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ed McKean",
+        "Age": "(29)",
+        "Runs Batted In": "133",
+        "Year": "1893",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Hal McRae",
+        "Age": "(36)",
+        "Runs Batted In": "133",
+        "Year": "1982",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Vic Wertz",
+        "Age": "(24)",
+        "Runs Batted In": "133",
+        "Year": "1949",
+        "Bats": "L"
+      },
+      {
+        "Rank": "184.",
+        "Player": "Hank Aaron+",
+        "Age": "(23)",
+        "Runs Batted In": "132",
+        "Year": "1957",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jeff Bagwell+",
+        "Age": "(32)",
+        "Runs Batted In": "132",
+        "Year": "2000",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Norm Cash",
+        "Age": "(26)",
+        "Runs Batted In": "132",
+        "Year": "1961",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jimmy Collins+",
+        "Age": "(27)",
+        "Runs Batted In": "132",
+        "Year": "1897",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Lave Cross",
+        "Age": "(28)",
+        "Runs Batted In": "132",
+        "Year": "1894",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Cecil Fielder",
+        "Age": "(26)",
+        "Runs Batted In": "132",
+        "Year": "1990",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Irish Meusel",
+        "Age": "(29)",
+        "Runs Batted In": "132",
+        "Year": "1922",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Alex Rodriguez",
+        "Age": "(24)",
+        "Runs Batted In": "132",
+        "Year": "2000",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Gary Sheffield",
+        "Age": "(34)",
+        "Runs Batted In": "132",
+        "Year": "2003",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Giancarlo Stanton",
+        "Age": "(27)",
+        "Runs Batted In": "132",
+        "Year": "2017",
+        "Bats": "R"
+      },
+      {
+        "Rank": "194.",
+        "Player": "Vinny Castilla",
+        "Age": "(36)",
+        "Runs Batted In": "131",
+        "Year": "2004",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Juan Gonzalez",
+        "Age": "(27)",
+        "Runs Batted In": "131",
+        "Year": "1997",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Vladimir Guerrero+",
+        "Age": "(24)",
+        "Runs Batted In": "131",
+        "Year": "1999",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Stan Musial+",
+        "Age": "(27)",
+        "Runs Batted In": "131",
+        "Year": "1948",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Miguel Tejada",
+        "Age": "(28)",
+        "Runs Batted In": "131",
+        "Year": "2002",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Thome+",
+        "Age": "(32)",
+        "Runs Batted In": "131",
+        "Year": "2003",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Paul Waner+",
+        "Age": "(24)",
+        "Runs Batted In": "131",
+        "Year": "1927",
+        "Bats": "L"
+      },
+      {
+        "Rank": "201.",
+        "Player": "Hank Aaron+",
+        "Age": "(29)",
+        "Runs Batted In": "130",
+        "Year": "1963",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Nolan Arenado",
+        "Age": "(24)",
+        "Runs Batted In": "130",
+        "Year": "2015",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Nolan Arenado",
+        "Age": "(26)",
+        "Runs Batted In": "130",
+        "Year": "2017",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jeff Bagwell+",
+        "Age": "(33)",
+        "Runs Batted In": "130",
+        "Year": "2001",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Home Run Baker+",
+        "Age": "(26)",
+        "Runs Batted In": "130",
+        "Year": "1912",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Wally Berger",
+        "Age": "(29)",
+        "Runs Batted In": "130",
+        "Year": "1935",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ken Caminiti",
+        "Age": "(33)",
+        "Runs Batted In": "130",
+        "Year": "1996",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Roger Connor+",
+        "Age": "(31)",
+        "Runs Batted In": "130",
+        "Year": "1889",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Jack Fournier",
+        "Age": "(35)",
+        "Runs Batted In": "130",
+        "Year": "1925",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jimmie Foxx+",
+        "Age": "(26)",
+        "Runs Batted In": "130",
+        "Year": "1934",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Josh Hamilton",
+        "Age": "(27)",
+        "Runs Batted In": "130",
+        "Year": "2008",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Babe Herman",
+        "Age": "(27)",
+        "Runs Batted In": "130",
+        "Year": "1930",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Gil Hodges",
+        "Age": "(30)",
+        "Runs Batted In": "130",
+        "Year": "1954",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Deron Johnson",
+        "Age": "(26)",
+        "Runs Batted In": "130",
+        "Year": "1965",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Greg Luzinski",
+        "Age": "(26)",
+        "Runs Batted In": "130",
+        "Year": "1977",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mickey Mantle+",
+        "Age": "(24)",
+        "Runs Batted In": "130",
+        "Year": "1956",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Justin Morneau",
+        "Age": "(25)",
+        "Runs Batted In": "130",
+        "Year": "2006",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Albert Pujols",
+        "Age": "(21)",
+        "Runs Batted In": "130",
+        "Year": "2001",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Manny Ramirez",
+        "Age": "(32)",
+        "Runs Batted In": "130",
+        "Year": "2004",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Rice+",
+        "Age": "(26)",
+        "Runs Batted In": "130",
+        "Year": "1979",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Alex Rodriguez",
+        "Age": "(29)",
+        "Runs Batted In": "130",
+        "Year": "2005",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Babe Ruth+",
+        "Age": "(28)",
+        "Runs Batted In": "130",
+        "Year": "1923",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Enos Slaughter+",
+        "Age": "(30)",
+        "Runs Batted In": "130",
+        "Year": "1946",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Duke Snider+",
+        "Age": "(27)",
+        "Runs Batted In": "130",
+        "Year": "1954",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Tris Speaker+",
+        "Age": "(35)",
+        "Runs Batted In": "130",
+        "Year": "1923",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Larry Walker",
+        "Age": "(30)",
+        "Runs Batted In": "130",
+        "Year": "1997",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Walt Wilmot",
+        "Age": "(30)",
+        "Runs Batted In": "130",
+        "Year": "1894",
+        "Bats": "B"
+      },
+      {
+        "Rank": "228.",
+        "Player": "Ernie Banks+",
+        "Age": "(27)",
+        "Runs Batted In": "129",
+        "Year": "1958",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Albert Belle",
+        "Age": "(26)",
+        "Runs Batted In": "129",
+        "Year": "1993",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Johnny Bench+",
+        "Age": "(26)",
+        "Runs Batted In": "129",
+        "Year": "1974",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Barry Bonds",
+        "Age": "(31)",
+        "Runs Batted In": "129",
+        "Year": "1996",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Hugh Duffy+",
+        "Age": "(30)",
+        "Runs Batted In": "129",
+        "Year": "1897",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Goose Goslin+",
+        "Age": "(23)",
+        "Runs Batted In": "129",
+        "Year": "1924",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Andruw Jones",
+        "Age": "(29)",
+        "Runs Batted In": "129",
+        "Year": "2006",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Justin Morneau",
+        "Age": "(27)",
+        "Runs Batted In": "129",
+        "Year": "2008",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Tony Perez+",
+        "Age": "(28)",
+        "Runs Batted In": "129",
+        "Year": "1970",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Tim Salmon",
+        "Age": "(28)",
+        "Runs Batted In": "129",
+        "Year": "1997",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Al Simmons+",
+        "Age": "(23)",
+        "Runs Batted In": "129",
+        "Year": "1925",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bill Terry+",
+        "Age": "(31)",
+        "Runs Batted In": "129",
+        "Year": "1930",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Billy Williams+",
+        "Age": "(32)",
+        "Runs Batted In": "129",
+        "Year": "1970",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Hack Wilson+",
+        "Age": "(27)",
+        "Runs Batted In": "129",
+        "Year": "1927",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Gus Zernial",
+        "Age": "(28)",
+        "Runs Batted In": "129",
+        "Year": "1951",
+        "Bats": "R"
+      },
+      {
+        "Rank": "243.",
+        "Player": "Hank Aaron+",
+        "Age": "(28)",
+        "Runs Batted In": "128",
+        "Year": "1962",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Luke Appling+",
+        "Age": "(29)",
+        "Runs Batted In": "128",
+        "Year": "1936",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Lance Berkman",
+        "Age": "(26)",
+        "Runs Batted In": "128",
+        "Year": "2002",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Dante Bichette",
+        "Age": "(31)",
+        "Runs Batted In": "128",
+        "Year": "1995",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Bottomley+",
+        "Age": "(25)",
+        "Runs Batted In": "128",
+        "Year": "1925",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Dan Brouthers+",
+        "Age": "(36)",
+        "Runs Batted In": "128",
+        "Year": "1894",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ellis Burks",
+        "Age": "(31)",
+        "Runs Batted In": "128",
+        "Year": "1996",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Oyster Burns",
+        "Age": "(25)",
+        "Runs Batted In": "128",
+        "Year": "1890",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ripper Collins",
+        "Age": "(30)",
+        "Runs Batted In": "128",
+        "Year": "1934",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Gavvy Cravath",
+        "Age": "(32)",
+        "Runs Batted In": "128",
+        "Year": "1913",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Juan Gonzalez",
+        "Age": "(29)",
+        "Runs Batted In": "128",
+        "Year": "1999",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Josh Hamilton",
+        "Age": "(31)",
+        "Runs Batted In": "128",
+        "Year": "2012",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Andruw Jones",
+        "Age": "(28)",
+        "Runs Batted In": "128",
+        "Year": "2005",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Al Kaline+",
+        "Age": "(21)",
+        "Runs Batted In": "128",
+        "Year": "1956",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jeff Kent",
+        "Age": "(30)",
+        "Runs Batted In": "128",
+        "Year": "1998",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mickey Mantle+",
+        "Age": "(29)",
+        "Runs Batted In": "128",
+        "Year": "1961",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank McCormick",
+        "Age": "(28)",
+        "Runs Batted In": "128",
+        "Year": "1939",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ed McKean",
+        "Age": "(30)",
+        "Runs Batted In": "128",
+        "Year": "1894",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bill Nicholson",
+        "Age": "(28)",
+        "Runs Batted In": "128",
+        "Year": "1943",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Al Simmons+",
+        "Age": "(29)",
+        "Runs Batted In": "128",
+        "Year": "1931",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank Thomas+",
+        "Age": "(25)",
+        "Runs Batted In": "128",
+        "Year": "1993",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Hal Trosky",
+        "Age": "(24)",
+        "Runs Batted In": "128",
+        "Year": "1937",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Bobby Veach",
+        "Age": "(33)",
+        "Runs Batted In": "128",
+        "Year": "1921",
+        "Bats": "L"
+      },
+      {
+        "Rank": "266.",
+        "Player": "Hank Aaron+",
+        "Age": "(32)",
+        "Runs Batted In": "127",
+        "Year": "1966",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Miguel Cabrera",
+        "Age": "(25)",
+        "Runs Batted In": "127",
+        "Year": "2008",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ty Cobb+",
+        "Age": "(24)",
+        "Runs Batted In": "127",
+        "Year": "1911",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Edwin Encarnacion",
+        "Age": "(33)",
+        "Runs Batted In": "127",
+        "Year": "2016",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jimmie Foxx+",
+        "Age": "(29)",
+        "Runs Batted In": "127",
+        "Year": "1937",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Charlie Gehringer+",
+        "Age": "(31)",
+        "Runs Batted In": "127",
+        "Year": "1934",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Hank Greenberg+",
+        "Age": "(35)",
+        "Runs Batted In": "127",
+        "Year": "1946",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ralph Kiner+",
+        "Age": "(24)",
+        "Runs Batted In": "127",
+        "Year": "1947",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ralph Kiner+",
+        "Age": "(26)",
+        "Runs Batted In": "127",
+        "Year": "1949",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Nap Lajoie+",
+        "Age": "(22)",
+        "Runs Batted In": "127",
+        "Year": "1897",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Nap Lajoie+",
+        "Age": "(23)",
+        "Runs Batted In": "127",
+        "Year": "1898",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Willie Mays+",
+        "Age": "(24)",
+        "Runs Batted In": "127",
+        "Year": "1955",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank McCormick",
+        "Age": "(29)",
+        "Runs Batted In": "127",
+        "Year": "1940",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "David Ortiz",
+        "Age": "(40)",
+        "Runs Batted In": "127",
+        "Year": "2016",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Albert Pujols",
+        "Age": "(22)",
+        "Runs Batted In": "127",
+        "Year": "2002",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ted Williams+",
+        "Age": "(29)",
+        "Runs Batted In": "127",
+        "Year": "1948",
+        "Bats": "L"
+      },
+      {
+        "Rank": "282.",
+        "Player": "Hank Aaron+",
+        "Age": "(26)",
+        "Runs Batted In": "126",
+        "Year": "1960",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Earl Averill+",
+        "Age": "(34)",
+        "Runs Batted In": "126",
+        "Year": "1936",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jeff Bagwell+",
+        "Age": "(31)",
+        "Runs Batted In": "126",
+        "Year": "1999",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Albert Belle",
+        "Age": "(28)",
+        "Runs Batted In": "126",
+        "Year": "1995",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Lance Berkman",
+        "Age": "(25)",
+        "Runs Batted In": "126",
+        "Year": "2001",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Miguel Cabrera",
+        "Age": "(27)",
+        "Runs Batted In": "126",
+        "Year": "2010",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Cecil Cooper",
+        "Age": "(33)",
+        "Runs Batted In": "126",
+        "Year": "1983",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Cronin+",
+        "Age": "(23)",
+        "Runs Batted In": "126",
+        "Year": "1930",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Cronin+",
+        "Age": "(24)",
+        "Runs Batted In": "126",
+        "Year": "1931",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ed Delahanty+",
+        "Age": "(28)",
+        "Runs Batted In": "126",
+        "Year": "1896",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe DiMaggio+",
+        "Age": "(24)",
+        "Runs Batted In": "126",
+        "Year": "1939",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Larry Doby+",
+        "Age": "(30)",
+        "Runs Batted In": "126",
+        "Year": "1954",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Del Ennis",
+        "Age": "(25)",
+        "Runs Batted In": "126",
+        "Year": "1950",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Vladimir Guerrero+",
+        "Age": "(29)",
+        "Runs Batted In": "126",
+        "Year": "2004",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Rogers Hornsby+",
+        "Age": "(25)",
+        "Runs Batted In": "126",
+        "Year": "1921",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank Howard",
+        "Age": "(33)",
+        "Runs Batted In": "126",
+        "Year": "1970",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Matt Kemp",
+        "Age": "(26)",
+        "Runs Batted In": "126",
+        "Year": "2011",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Harmon Killebrew+",
+        "Age": "(26)",
+        "Runs Batted In": "126",
+        "Year": "1962",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Tommy McCarthy+",
+        "Age": "(30)",
+        "Runs Batted In": "126",
+        "Year": "1894",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Willie McCovey+",
+        "Age": "(31)",
+        "Runs Batted In": "126",
+        "Year": "1969",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Willie McCovey+",
+        "Age": "(32)",
+        "Runs Batted In": "126",
+        "Year": "1970",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Medwick+",
+        "Age": "(23)",
+        "Runs Batted In": "126",
+        "Year": "1935",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Stan Musial+",
+        "Age": "(33)",
+        "Runs Batted In": "126",
+        "Year": "1954",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Phil Nevin",
+        "Age": "(30)",
+        "Runs Batted In": "126",
+        "Year": "2001",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Magglio Ordonez",
+        "Age": "(26)",
+        "Runs Batted In": "126",
+        "Year": "2000",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Rice+",
+        "Age": "(30)",
+        "Runs Batted In": "126",
+        "Year": "1983",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Duke Snider+",
+        "Age": "(26)",
+        "Runs Batted In": "126",
+        "Year": "1953",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Sam Thompson+",
+        "Age": "(33)",
+        "Runs Batted In": "126",
+        "Year": "1893",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Mo Vaughn",
+        "Age": "(27)",
+        "Runs Batted In": "126",
+        "Year": "1995",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Bobby Veach",
+        "Age": "(34)",
+        "Runs Batted In": "126",
+        "Year": "1922",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Honus Wagner+",
+        "Age": "(27)",
+        "Runs Batted In": "126",
+        "Year": "1901",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ted Williams+",
+        "Age": "(32)",
+        "Runs Batted In": "126",
+        "Year": "1951",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Glenn Wright",
+        "Age": "(29)",
+        "Runs Batted In": "126",
+        "Year": "1930",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Rudy York",
+        "Age": "(24)",
+        "Runs Batted In": "126",
+        "Year": "1938",
+        "Bats": "R"
+      },
+      {
+        "Rank": "316.",
+        "Player": "Johnny Bench+",
+        "Age": "(24)",
+        "Runs Batted In": "125",
+        "Year": "1972",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Yogi Berra+",
+        "Age": "(29)",
+        "Runs Batted In": "125",
+        "Year": "1954",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jeromy Burnitz",
+        "Age": "(29)",
+        "Runs Batted In": "125",
+        "Year": "1998",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe DiMaggio+",
+        "Age": "(21)",
+        "Runs Batted In": "125",
+        "Year": "1936",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe DiMaggio+",
+        "Age": "(26)",
+        "Runs Batted In": "125",
+        "Year": "1941",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Del Ennis",
+        "Age": "(28)",
+        "Runs Batted In": "125",
+        "Year": "1953",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Lou Gehrig+",
+        "Age": "(26)",
+        "Runs Batted In": "125",
+        "Year": "1929",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Paul Goldschmidt",
+        "Age": "(25)",
+        "Runs Batted In": "125",
+        "Year": "2013",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Goose Goslin+",
+        "Age": "(35)",
+        "Runs Batted In": "125",
+        "Year": "1936",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Shawn Green",
+        "Age": "(28)",
+        "Runs Batted In": "125",
+        "Year": "2001",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Vladimir Guerrero+",
+        "Age": "(32)",
+        "Runs Batted In": "125",
+        "Year": "2007",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Chick Hafey+",
+        "Age": "(26)",
+        "Runs Batted In": "125",
+        "Year": "1929",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Rogers Hornsby+",
+        "Age": "(31)",
+        "Runs Batted In": "125",
+        "Year": "1927",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Don Hurst",
+        "Age": "(23)",
+        "Runs Batted In": "125",
+        "Year": "1929",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Hughie Jennings+",
+        "Age": "(26)",
+        "Runs Batted In": "125",
+        "Year": "1895",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jeff Kent",
+        "Age": "(32)",
+        "Runs Batted In": "125",
+        "Year": "2000",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Nap Lajoie+",
+        "Age": "(26)",
+        "Runs Batted In": "125",
+        "Year": "1901",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Irish Meusel",
+        "Age": "(30)",
+        "Runs Batted In": "125",
+        "Year": "1923",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Kevin Mitchell",
+        "Age": "(27)",
+        "Runs Batted In": "125",
+        "Year": "1989",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Johnny Mize+",
+        "Age": "(35)",
+        "Runs Batted In": "125",
+        "Year": "1948",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Dave Parker",
+        "Age": "(34)",
+        "Runs Batted In": "125",
+        "Year": "1985",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Manny Ramirez",
+        "Age": "(29)",
+        "Runs Batted In": "125",
+        "Year": "2001",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank Robinson+",
+        "Age": "(23)",
+        "Runs Batted In": "125",
+        "Year": "1959",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Alex Rodriguez",
+        "Age": "(34)",
+        "Runs Batted In": "125",
+        "Year": "2010",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Richie Sexson",
+        "Age": "(26)",
+        "Runs Batted In": "125",
+        "Year": "2001",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Willie Stargell+",
+        "Age": "(31)",
+        "Runs Batted In": "125",
+        "Year": "1971",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank Thomas+",
+        "Age": "(29)",
+        "Runs Batted In": "125",
+        "Year": "1997",
+        "Bats": "R"
+      },
+      {
+        "Rank": "343.",
+        "Player": "Moises Alou",
+        "Age": "(31)",
+        "Runs Batted In": "124",
+        "Year": "1998",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Earl Averill+",
+        "Age": "(30)",
+        "Runs Batted In": "124",
+        "Year": "1932",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jose Bautista",
+        "Age": "(29)",
+        "Runs Batted In": "124",
+        "Year": "2010",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Yogi Berra+",
+        "Age": "(25)",
+        "Runs Batted In": "124",
+        "Year": "1950",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Bottomley+",
+        "Age": "(27)",
+        "Runs Batted In": "124",
+        "Year": "1927",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Dan Brouthers+",
+        "Age": "(34)",
+        "Runs Batted In": "124",
+        "Year": "1892",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jose Canseco",
+        "Age": "(23)",
+        "Runs Batted In": "124",
+        "Year": "1988",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Cecil Fielder",
+        "Age": "(28)",
+        "Runs Batted In": "124",
+        "Year": "1992",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Gordon+",
+        "Age": "(33)",
+        "Runs Batted In": "124",
+        "Year": "1948",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Eddie Mathews+",
+        "Age": "(28)",
+        "Runs Batted In": "124",
+        "Year": "1960",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Bob Meusel",
+        "Age": "(27)",
+        "Runs Batted In": "124",
+        "Year": "1924",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Eddie Murray+",
+        "Age": "(29)",
+        "Runs Batted In": "124",
+        "Year": "1985",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Dave Orr",
+        "Age": "(30)",
+        "Runs Batted In": "124",
+        "Year": "1890",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Marcell Ozuna",
+        "Age": "(26)",
+        "Runs Batted In": "124",
+        "Year": "2017",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mike Piazza+",
+        "Age": "(28)",
+        "Runs Batted In": "124",
+        "Year": "1997",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mike Piazza+",
+        "Age": "(30)",
+        "Runs Batted In": "124",
+        "Year": "1999",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Albert Pujols",
+        "Age": "(23)",
+        "Runs Batted In": "124",
+        "Year": "2003",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank Robinson+",
+        "Age": "(25)",
+        "Runs Batted In": "124",
+        "Year": "1961",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jackie Robinson+",
+        "Age": "(30)",
+        "Runs Batted In": "124",
+        "Year": "1949",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Alex Rodriguez",
+        "Age": "(22)",
+        "Runs Batted In": "124",
+        "Year": "1998",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Scott Rolen",
+        "Age": "(29)",
+        "Runs Batted In": "124",
+        "Year": "2004",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Babe Ruth+",
+        "Age": "(29)",
+        "Runs Batted In": "124",
+        "Year": "1924",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Richie Sexson",
+        "Age": "(28)",
+        "Runs Batted In": "124",
+        "Year": "2003",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Thome+",
+        "Age": "(30)",
+        "Runs Batted In": "124",
+        "Year": "2001",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Pie Traynor+",
+        "Age": "(29)",
+        "Runs Batted In": "124",
+        "Year": "1928",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Dixie Walker",
+        "Age": "(34)",
+        "Runs Batted In": "124",
+        "Year": "1945",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Pinky Whitney",
+        "Age": "(27)",
+        "Runs Batted In": "124",
+        "Year": "1932",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "David Wright",
+        "Age": "(25)",
+        "Runs Batted In": "124",
+        "Year": "2008",
+        "Bats": "R"
+      },
+      {
+        "Rank": "371.",
+        "Player": "Hank Aaron+",
+        "Age": "(25)",
+        "Runs Batted In": "123",
+        "Year": "1959",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Garret Anderson",
+        "Age": "(29)",
+        "Runs Batted In": "123",
+        "Year": "2001",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Garret Anderson",
+        "Age": "(30)",
+        "Runs Batted In": "123",
+        "Year": "2002",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Tony Armas",
+        "Age": "(30)",
+        "Runs Batted In": "123",
+        "Year": "1984",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jake Beckley+",
+        "Age": "(22)",
+        "Runs Batted In": "123",
+        "Year": "1890",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Beau Bell",
+        "Age": "(28)",
+        "Runs Batted In": "123",
+        "Year": "1936",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Barry Bonds",
+        "Age": "(28)",
+        "Runs Batted In": "123",
+        "Year": "1993",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Josh Donaldson",
+        "Age": "(29)",
+        "Runs Batted In": "123",
+        "Year": "2015",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Dwight Evans",
+        "Age": "(35)",
+        "Runs Batted In": "123",
+        "Year": "1987",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jason Giambi",
+        "Age": "(28)",
+        "Runs Batted In": "123",
+        "Year": "1999",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Brian Giles",
+        "Age": "(29)",
+        "Runs Batted In": "123",
+        "Year": "2000",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Shawn Green",
+        "Age": "(26)",
+        "Runs Batted In": "123",
+        "Year": "1999",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Vladimir Guerrero+",
+        "Age": "(25)",
+        "Runs Batted In": "123",
+        "Year": "2000",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jeff Heath",
+        "Age": "(26)",
+        "Runs Batted In": "123",
+        "Year": "1941",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Bug Holliday",
+        "Age": "(27)",
+        "Runs Batted In": "123",
+        "Year": "1894",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Raul Ibanez",
+        "Age": "(34)",
+        "Runs Batted In": "123",
+        "Year": "2006",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ralph Kiner+",
+        "Age": "(25)",
+        "Runs Batted In": "123",
+        "Year": "1948",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Sherry Magee",
+        "Age": "(25)",
+        "Runs Batted In": "123",
+        "Year": "1910",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Tino Martinez",
+        "Age": "(30)",
+        "Runs Batted In": "123",
+        "Year": "1998",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Willie Mays+",
+        "Age": "(30)",
+        "Runs Batted In": "123",
+        "Year": "1961",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mark McGwire",
+        "Age": "(33)",
+        "Runs Batted In": "123",
+        "Year": "1997",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Stan Musial+",
+        "Age": "(28)",
+        "Runs Batted In": "123",
+        "Year": "1949",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Billy Nash",
+        "Age": "(28)",
+        "Runs Batted In": "123",
+        "Year": "1893",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Tip O'Neill",
+        "Age": "(29)",
+        "Runs Batted In": "123",
+        "Year": "1887",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mel Ott+",
+        "Age": "(23)",
+        "Runs Batted In": "123",
+        "Year": "1932",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Rafael Palmeiro",
+        "Age": "(36)",
+        "Runs Batted In": "123",
+        "Year": "2001",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Albert Pujols",
+        "Age": "(24)",
+        "Runs Batted In": "123",
+        "Year": "2004",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Alex Rodriguez",
+        "Age": "(20)",
+        "Runs Batted In": "123",
+        "Year": "1996",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ron Santo+",
+        "Age": "(29)",
+        "Runs Batted In": "123",
+        "Year": "1969",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Gary Sheffield",
+        "Age": "(36)",
+        "Runs Batted In": "123",
+        "Year": "2005",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Gorman Thomas",
+        "Age": "(28)",
+        "Runs Batted In": "123",
+        "Year": "1979",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Larry Walker",
+        "Age": "(34)",
+        "Runs Batted In": "123",
+        "Year": "2001",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Tim Wallach",
+        "Age": "(29)",
+        "Runs Batted In": "123",
+        "Year": "1987",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Vic Wertz",
+        "Age": "(25)",
+        "Runs Batted In": "123",
+        "Year": "1950",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ted Williams+",
+        "Age": "(27)",
+        "Runs Batted In": "123",
+        "Year": "1946",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Hack Wilson+",
+        "Age": "(32)",
+        "Runs Batted In": "123",
+        "Year": "1932",
+        "Bats": "R"
+      },
+      {
+        "Rank": "407.",
+        "Player": "Jake Beckley+",
+        "Age": "(26)",
+        "Runs Batted In": "122",
+        "Year": "1894",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Dante Bichette",
+        "Age": "(34)",
+        "Runs Batted In": "122",
+        "Year": "1998",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Barry Bonds",
+        "Age": "(33)",
+        "Runs Batted In": "122",
+        "Year": "1998",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jose Canseco",
+        "Age": "(26)",
+        "Runs Batted In": "122",
+        "Year": "1991",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ben Chapman",
+        "Age": "(22)",
+        "Runs Batted In": "122",
+        "Year": "1931",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Ripper Collins",
+        "Age": "(31)",
+        "Runs Batted In": "122",
+        "Year": "1935",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Cecil Cooper",
+        "Age": "(30)",
+        "Runs Batted In": "122",
+        "Year": "1980",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Walker Cooper",
+        "Age": "(32)",
+        "Runs Batted In": "122",
+        "Year": "1947",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe DiMaggio+",
+        "Age": "(35)",
+        "Runs Batted In": "122",
+        "Year": "1950",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Buck Ewing+",
+        "Age": "(33)",
+        "Runs Batted In": "122",
+        "Year": "1893",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Buck Freeman",
+        "Age": "(27)",
+        "Runs Batted In": "122",
+        "Year": "1899",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Nomar Garciaparra",
+        "Age": "(24)",
+        "Runs Batted In": "122",
+        "Year": "1998",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jason Giambi",
+        "Age": "(31)",
+        "Runs Batted In": "122",
+        "Year": "2002",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Gabby Hartnett+",
+        "Age": "(29)",
+        "Runs Batted In": "122",
+        "Year": "1930",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Richard Hidalgo",
+        "Age": "(25)",
+        "Runs Batted In": "122",
+        "Year": "2000",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Gil Hodges",
+        "Age": "(29)",
+        "Runs Batted In": "122",
+        "Year": "1953",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Baby Doll Jacobson",
+        "Age": "(29)",
+        "Runs Batted In": "122",
+        "Year": "1920",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jackie Jensen",
+        "Age": "(31)",
+        "Runs Batted In": "122",
+        "Year": "1958",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Charlie Keller",
+        "Age": "(24)",
+        "Runs Batted In": "122",
+        "Year": "1941",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "High Pockets Kelly+",
+        "Age": "(25)",
+        "Runs Batted In": "122",
+        "Year": "1921",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Harmon Killebrew+",
+        "Age": "(25)",
+        "Runs Batted In": "122",
+        "Year": "1961",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Fred Lynn",
+        "Age": "(27)",
+        "Runs Batted In": "122",
+        "Year": "1979",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Medwick+",
+        "Age": "(26)",
+        "Runs Batted In": "122",
+        "Year": "1938",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bill Nicholson",
+        "Age": "(29)",
+        "Runs Batted In": "122",
+        "Year": "1944",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Lefty O'Doul",
+        "Age": "(32)",
+        "Runs Batted In": "122",
+        "Year": "1929",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Tony Perez+",
+        "Age": "(27)",
+        "Runs Batted In": "122",
+        "Year": "1969",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Manny Ramirez",
+        "Age": "(28)",
+        "Runs Batted In": "122",
+        "Year": "2000",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Rice+",
+        "Age": "(31)",
+        "Runs Batted In": "122",
+        "Year": "1984",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Frank Robinson+",
+        "Age": "(30)",
+        "Runs Batted In": "122",
+        "Year": "1966",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "George Sisler+",
+        "Age": "(27)",
+        "Runs Batted In": "122",
+        "Year": "1920",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Mark Teixeira",
+        "Age": "(29)",
+        "Runs Batted In": "122",
+        "Year": "2009",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Billy Williams+",
+        "Age": "(34)",
+        "Runs Batted In": "122",
+        "Year": "1972",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Matt Williams",
+        "Age": "(24)",
+        "Runs Batted In": "122",
+        "Year": "1990",
+        "Bats": "R"
+      },
+      {
+        "Rank": "440.",
+        "Player": "Adrian Beltre",
+        "Age": "(25)",
+        "Runs Batted In": "121",
+        "Year": "2004",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Wally Berger",
+        "Age": "(28)",
+        "Runs Batted In": "121",
+        "Year": "1934",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jay Buhner",
+        "Age": "(30)",
+        "Runs Batted In": "121",
+        "Year": "1995",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Carter",
+        "Age": "(26)",
+        "Runs Batted In": "121",
+        "Year": "1986",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Joe Carter",
+        "Age": "(33)",
+        "Runs Batted In": "121",
+        "Year": "1993",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Cecil Cooper",
+        "Age": "(32)",
+        "Runs Batted In": "121",
+        "Year": "1982",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "George Foster",
+        "Age": "(27)",
+        "Runs Batted In": "121",
+        "Year": "1976",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Buck Freeman",
+        "Age": "(30)",
+        "Runs Batted In": "121",
+        "Year": "1902",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Andres Galarraga",
+        "Age": "(37)",
+        "Runs Batted In": "121",
+        "Year": "1998",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Johnny Hodapp",
+        "Age": "(24)",
+        "Runs Batted In": "121",
+        "Year": "1930",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Monte Irvin+",
+        "Age": "(32)",
+        "Runs Batted In": "121",
+        "Year": "1951",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Shoeless Joe Jackson",
+        "Age": "(32)",
+        "Runs Batted In": "121",
+        "Year": "1920",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Hughie Jennings+",
+        "Age": "(27)",
+        "Runs Batted In": "121",
+        "Year": "1896",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bob Johnson",
+        "Age": "(30)",
+        "Runs Batted In": "121",
+        "Year": "1936",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jeff Kent",
+        "Age": "(29)",
+        "Runs Batted In": "121",
+        "Year": "1997",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Chuck Klein+",
+        "Age": "(26)",
+        "Runs Batted In": "121",
+        "Year": "1931",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Tony Lazzeri+",
+        "Age": "(26)",
+        "Runs Batted In": "121",
+        "Year": "1930",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Dale Murphy",
+        "Age": "(27)",
+        "Runs Batted In": "121",
+        "Year": "1983",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Rafael Palmeiro",
+        "Age": "(33)",
+        "Runs Batted In": "121",
+        "Year": "1998",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Carlos Pena",
+        "Age": "(29)",
+        "Runs Batted In": "121",
+        "Year": "2007",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Boog Powell",
+        "Age": "(27)",
+        "Runs Batted In": "121",
+        "Year": "1969",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Kirby Puckett+",
+        "Age": "(28)",
+        "Runs Batted In": "121",
+        "Year": "1988",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Manny Ramirez",
+        "Age": "(36)",
+        "Runs Batted In": "121",
+        "Year": "2008",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Alex Rodriguez",
+        "Age": "(30)",
+        "Runs Batted In": "121",
+        "Year": "2006",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Hank Sauer",
+        "Age": "(35)",
+        "Runs Batted In": "121",
+        "Year": "1952",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mike Schmidt+",
+        "Age": "(30)",
+        "Runs Batted In": "121",
+        "Year": "1980",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Richie Sexson",
+        "Age": "(30)",
+        "Runs Batted In": "121",
+        "Year": "2005",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Cy Seymour",
+        "Age": "(32)",
+        "Runs Batted In": "121",
+        "Year": "1905",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Gary Sheffield",
+        "Age": "(35)",
+        "Runs Batted In": "121",
+        "Year": "2004",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Rusty Staub",
+        "Age": "(34)",
+        "Runs Batted In": "121",
+        "Year": "1978",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jake Stenzel",
+        "Age": "(27)",
+        "Runs Batted In": "121",
+        "Year": "1894",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Mark Teixeira",
+        "Age": "(28)",
+        "Runs Batted In": "121",
+        "Year": "2008",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Bill Terry+",
+        "Age": "(28)",
+        "Runs Batted In": "121",
+        "Year": "1927",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Bernie Williams",
+        "Age": "(31)",
+        "Runs Batted In": "121",
+        "Year": "2000",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Preston Wilson",
+        "Age": "(25)",
+        "Runs Batted In": "121",
+        "Year": "2000",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Glenn Wright",
+        "Age": "(24)",
+        "Runs Batted In": "121",
+        "Year": "1925",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Carl Yastrzemski+",
+        "Age": "(27)",
+        "Runs Batted In": "121",
+        "Year": "1967",
+        "Bats": "L"
+      },
+      {
+        "Rank": "477.",
+        "Player": "Hank Aaron+",
+        "Age": "(27)",
+        "Runs Batted In": "120",
+        "Year": "1961",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Roberto Alomar+",
+        "Age": "(31)",
+        "Runs Batted In": "120",
+        "Year": "1999",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Cap Anson+",
+        "Age": "(39)",
+        "Runs Batted In": "120",
+        "Year": "1891",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Garrett Atkins",
+        "Age": "(26)",
+        "Runs Batted In": "120",
+        "Year": "2006",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jeff Bagwell+",
+        "Age": "(28)",
+        "Runs Batted In": "120",
+        "Year": "1996",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Bobby Bonilla",
+        "Age": "(27)",
+        "Runs Batted In": "120",
+        "Year": "1990",
+        "Bats": "B"
+      },
+      {
+        "Rank": "",
+        "Player": "Jim Bottomley+",
+        "Age": "(26)",
+        "Runs Batted In": "120",
+        "Year": "1926",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Dolph Camilli",
+        "Age": "(34)",
+        "Runs Batted In": "120",
+        "Year": "1941",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Sam Crawford+",
+        "Age": "(30)",
+        "Runs Batted In": "120",
+        "Year": "1910",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Bobby Doerr+",
+        "Age": "(32)",
+        "Runs Batted In": "120",
+        "Year": "1950",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jermaine Dye",
+        "Age": "(32)",
+        "Runs Batted In": "120",
+        "Year": "2006",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Del Ennis",
+        "Age": "(30)",
+        "Runs Batted In": "120",
+        "Year": "1955",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Prince Fielder",
+        "Age": "(27)",
+        "Runs Batted In": "120",
+        "Year": "2011",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "George Foster",
+        "Age": "(29)",
+        "Runs Batted In": "120",
+        "Year": "1978",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Jimmie Foxx+",
+        "Age": "(23)",
+        "Runs Batted In": "120",
+        "Year": "1931",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Nomar Garciaparra",
+        "Age": "(28)",
+        "Runs Batted In": "120",
+        "Year": "2002",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Larry Gardner",
+        "Age": "(35)",
+        "Runs Batted In": "120",
+        "Year": "1921",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Lou Gehrig+",
+        "Age": "(32)",
+        "Runs Batted In": "120",
+        "Year": "1935",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Jason Giambi",
+        "Age": "(30)",
+        "Runs Batted In": "120",
+        "Year": "2001",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Paul Goldschmidt",
+        "Age": "(29)",
+        "Runs Batted In": "120",
+        "Year": "2017",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Goose Goslin+",
+        "Age": "(26)",
+        "Runs Batted In": "120",
+        "Year": "1927",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Harry Heilmann+",
+        "Age": "(32)",
+        "Runs Batted In": "120",
+        "Year": "1927",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Harry Heilmann+",
+        "Age": "(34)",
+        "Runs Batted In": "120",
+        "Year": "1929",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "David Justice",
+        "Age": "(27)",
+        "Runs Batted In": "120",
+        "Year": "1993",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Chuck Klein+",
+        "Age": "(28)",
+        "Runs Batted In": "120",
+        "Year": "1933",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Mike Lowell",
+        "Age": "(33)",
+        "Runs Batted In": "120",
+        "Year": "2007",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Greg Luzinski",
+        "Age": "(24)",
+        "Runs Batted In": "120",
+        "Year": "1975",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Hank Majeski",
+        "Age": "(31)",
+        "Runs Batted In": "120",
+        "Year": "1948",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Rafael Palmeiro",
+        "Age": "(35)",
+        "Runs Batted In": "120",
+        "Year": "2000",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Gary Sheffield",
+        "Age": "(27)",
+        "Runs Batted In": "120",
+        "Year": "1996",
+        "Bats": "R"
+      },
+      {
+        "Rank": "",
+        "Player": "Robin Ventura",
+        "Age": "(31)",
+        "Runs Batted In": "120",
+        "Year": "1999",
+        "Bats": "L"
+      },
+      {
+        "Rank": "",
+        "Player": "Ted Williams+",
+        "Age": "(22)",
+        "Runs Batted In": "120",
+        "Year": "1941",
+        "Bats": "L"
+      }
+    ],
     "career": [
+      {
+        "Rank": "1.",
+        "Player": "Hank Aaron+",
+        "Years-Age": "(23)",
+        "Runs Batted In": "2297",
+        "Bats": "R"
+      },
       {
         "Rank": "2.",
         "Player": "Babe Ruth+",
