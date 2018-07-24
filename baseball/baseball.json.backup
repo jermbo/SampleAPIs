@@ -1563,19 +1563,15 @@
       },
       {
         "Rank": "",
-
         "Player": "Albert Pujols",
-
-        "Player": "Albert Pujols",
         "AgeThatYear": "23",
+        "Hits": 212,
+        "Year": 2003,
+        "Bats": "R"
       },
       {
         "Rank": "",
-
         "Player": "Hanley Ramirez",
-
-        "Player": "Hanley Ramirez",
-
         "AgeThatYear": "23",
         "Hits": 212,
         "Year": 2007,
@@ -1583,7 +1579,7 @@
       },
       {
         "Rank": "",
-        "Player": "Jimmy Rollins",
+        "Player": "Jimmy Rollins",
         "AgeThatYear": "28",
         "Hits": 212,
         "Year": 2007,
@@ -1591,7 +1587,7 @@
       },
       {
         "Rank": "",
-        "Player": "Al Simmons",
+        "Player": "Al Simmons",
         "AgeThatYear": "27",
         "Hits": 212,
         "Year": 1929,
@@ -1599,7 +1595,7 @@
       },
       {
         "Rank": "",
-        "Player": "Ichiro Suzuki",
+        "Player": "Ichiro Suzuki",
         "AgeThatYear": "29",
         "Hits": 212,
         "Year": 2003,
@@ -1607,7 +1603,7 @@
       },
       {
         "Rank": "",
-        "Player": "Zack Wheat",
+        "Player": "Zack Wheat",
         "AgeThatYear": "36",
         "Hits": 212,
         "Year": 1924,
@@ -1623,7 +1619,7 @@
       },
       {
         "Rank": "",
-        "Player": "Roberto Clemente",
+        "Player": "Roberto Clemente",
         "AgeThatYear": "29",
         "Hits": 211,
         "Year": 1964,
@@ -1655,7 +1651,7 @@
       },
       {
         "Rank": "",
-        "Player": "Frankie Frisch",
+        "Player": "Frankie Frisch",
         "AgeThatYear": "23",
         "Hits": 211,
         "Year": 1921,
@@ -1783,7 +1779,7 @@
       },
       {
         "Rank": "",
-        "Player": "Craig Biggio",
+        "Player": "Craig Biggio",
         "AgeThatYear": "32",
         "Hits": 210,
         "Year": 1998,
@@ -1791,7 +1787,7 @@
       },
       {
         "Rank": "",
-        "Player": "Wade Boggs",
+        "Player": "Wade Boggs",
         "AgeThatYear": "25",
         "Hits": 210,
         "Year": 1983,
@@ -1999,7 +1995,7 @@
       },
       {
         "Rank": "",
-        "Player": "Harvey Kuenn",
+        "Player": "Harvey Kuenn",
         "AgeThatYear": "22",
         "Hits": 209,
         "Year": 1953,
@@ -2015,7 +2011,7 @@
       },
       {
         "Rank": "",
-        "Player": "Frank McCormick",
+        "Player": "Frank McCormick",
         "AgeThatYear": "27",
         "Hits": 209,
         "Year": 1938,
@@ -2183,7 +2179,7 @@
       },
       {
         "Rank": "",
-        "Player": "Ichiro Suzuki",
+        "Player": "Ichiro Suzuki",
         "AgeThatYear": "28",
         "Hits": 208,
         "Year": 2002,
@@ -2207,7 +2203,7 @@
       },
       {
         "Rank": "",
-        "Player": "Buck Weaver",
+        "Player": "Buck Weaver",
         "AgeThatYear": "29",
         "Hits": 208,
         "Year": 1920,
@@ -2391,7 +2387,7 @@
       },
       {
         "Rank": "",
-        "Player": "Bret Boone",
+        "Player": "Bret Boone",
         "AgeThatYear": "32",
         "Hits": 206,
         "Year": 2001,
@@ -2423,7 +2419,7 @@
       },
       {
         "Rank": "",
-        "Player": "Fred Clarke",
+        "Player": "Fred Clarke",
         "AgeThatYear": "26",
         "Hits": 206,
         "Year": 1899,
@@ -2503,7 +2499,7 @@
       },
       {
         "Rank": "",
-        "Player": "Willie Montanez",
+        "Player": "Willie Montanez",
         "AgeThatYear": "28",
         "Hits": 206,
         "Year": 1976,
@@ -2511,7 +2507,7 @@
       },
       {
         "Rank": "",
-        "Player": "Jim Rice",
+        "Player": "Jim Rice",
         "AgeThatYear": "24",
         "Hits": 206,
         "Year": 1977,
@@ -2519,7 +2515,7 @@
       },
       {
         "Rank": "",
-        "Player": "Lance Richbourg",
+        "Player": "Lance Richbourg",
         "AgeThatYear": "30",
         "Hits": 206,
         "Year": 1928,
@@ -2567,7 +2563,7 @@
       },
       {
         "Rank": "",
-        "Player": "Carlos Baerga",
+        "Player": "Carlos Baerga",
         "AgeThatYear": "23",
         "Hits": 205,
         "Year": 1992,
@@ -2575,7 +2571,7 @@
       },
       {
         "Rank": "",
-        "Player": "Wade Boggs",
+        "Player": "Wade Boggs",
         "AgeThatYear": "31",
         "Hits": 205,
         "Year": 1989,
@@ -2623,7 +2619,7 @@
       },
       {
         "Rank": "",
-        "Player": "Lou Gehrig",
+        "Player": "Lou Gehrig",
         "AgeThatYear": "33",
         "Hits": 205,
         "Year": 1936,
@@ -2631,7 +2627,7 @@
       },
       {
         "Rank": "",
-        "Player": "Jack Glasscock",
+        "Player": "Jack Glasscock",
         "AgeThatYear": "31",
         "Hits": 205,
         "Year": 1889,
@@ -2687,7 +2683,7 @@
       },
       {
         "Rank": "",
-        "Player": "Pete Rose",
+        "Player": "Pete Rose",
         "AgeThatYear": "25",
         "Hits": 205,
         "Year": 1966,
@@ -2695,7 +2691,7 @@
       },
       {
         "Rank": "",
-        "Player": "Pete Rose",
+        "Player": "Pete Rose",
         "AgeThatYear": "29",
         "Hits": 205,
         "Year": 1970,
@@ -2759,7 +2755,7 @@
       },
       {
         "Rank": "",
-        "Player": "Billy Williams",
+        "Player": "Billy Williams",
         "AgeThatYear": "32",
         "Hits": 205,
         "Year": 1970,
@@ -2767,7 +2763,7 @@
       },
       {
         "Rank": "346",
-        "Player": "Jose Altuve",
+        "Player": "Jose Altuve",
         "AgeThatYear": "27",
         "Hits": 204,
         "Year": 2017,
@@ -2775,7 +2771,7 @@
       },
       {
         "Rank": "",
-        "Player": "Luke Appling",
+        "Player": "Luke Appling",
         "AgeThatYear": "29",
         "Hits": 204,
         "Year": 1936,
@@ -2783,7 +2779,7 @@
       },
       {
         "Rank": "",
-        "Player": "Carson Bigbee",
+        "Player": "Carson Bigbee",
         "AgeThatYear": "26",
         "Hits": 204,
         "Year": 1921,
@@ -2823,7 +2819,7 @@
       },
       {
         "Rank": "",
-        "Player": "Doug Glanville",
+        "Player": "Doug Glanville",
         "AgeThatYear": "28",
         "Hits": 204,
         "Year": 1999,
@@ -2943,7 +2939,7 @@
       },
       {
         "Rank": "",
-        "Player": "Pete Rose",
+        "Player": "Pete Rose",
         "AgeThatYear": "36",
         "Hits": 204,
         "Year": 1977,
@@ -2951,7 +2947,7 @@
       },
       {
         "Rank": "",
-        "Player": "Babe Ruth",
+        "Player": "Babe Ruth",
         "AgeThatYear": "26",
         "Hits": 204,
         "Year": 1921,
@@ -2959,7 +2955,7 @@
       },
       {
         "Rank": "",
-        "Player": "Joe Sewell",
+        "Player": "Joe Sewell",
         "AgeThatYear": "26",
         "Hits": 204,
         "Year": 1925,
@@ -2967,7 +2963,7 @@
       },
       {
         "Rank": "",
-        "Player": "Milt Stock",
+        "Player": "Milt Stock",
         "AgeThatYear": "26",
         "Hits": 204,
         "Year": 1920,
@@ -2975,7 +2971,7 @@
       },
       {
         "Rank": "",
-        "Player": "Bill Sweeney",
+        "Player": "Bill Sweeney",
         "AgeThatYear": "26",
         "Hits": 204,
         "Year": 1912,
@@ -2983,7 +2979,7 @@
       },
       {
         "Rank": "",
-        "Player": "Miguel Tejada",
+        "Player": "Miguel Tejada",
         "AgeThatYear": "28",
         "Hits": 204,
         "Year": 2002,
@@ -2991,11 +2987,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Cesar Tovar",
-
-        "Player": "Cesar Tovar",
-
         "AgeThatYear": "30",
         "Hits": 204,
         "Year": 1971,
@@ -3003,11 +2995,7 @@
       },
       {
         "Rank": "",
-
         "Player": "George Van Haltren",
-
-        "Player": "George Van Haltren",
-
         "AgeThatYear": "32",
         "Hits": 204,
         "Year": 1898,
@@ -3015,11 +3003,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Bernie Williams",
-
-        "Player": "Bernie Williams",
-
         "AgeThatYear": "33",
         "Hits": 204,
         "Year": 2002,
@@ -3027,11 +3011,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Michael Young",
-
-        "Player": "Michael Young",
-
         "AgeThatYear": "26",
         "Hits": 204,
         "Year": 2003,
@@ -3039,11 +3019,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Ross Youngs",
-
-        "Player": "Ross Youngs",
-
         "AgeThatYear": "23",
         "Hits": 204,
         "Year": 1920,
@@ -3051,11 +3027,7 @@
       },
       {
         "Rank": "379",
-
         "Player": "Wade Boggs",
-
-        "Player": "Wade Boggs",
-
         "AgeThatYear": "26",
         "Hits": 203,
         "Year": 1984,
@@ -3063,11 +3035,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Ryan Braun",
-
-        "Player": "Ryan Braun",
-
         "AgeThatYear": "25",
         "Hits": 203,
         "Year": 2009,
@@ -3075,11 +3043,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Jesse Burkett",
-
-        "Player": "Jesse Burkett",
-
         "AgeThatYear": "31",
         "Hits": 203,
         "Year": 1900,
@@ -3087,11 +3051,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Rod Carew",
-
-        "Player": "Rod Carew",
-
         "AgeThatYear": "27",
         "Hits": 203,
         "Year": 1973,
@@ -3099,11 +3059,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Earle Combs",
-
-        "Player": "Earle Combs",
-
         "AgeThatYear": "26",
         "Hits": 203,
         "Year": 1925,
@@ -3111,11 +3067,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Cecil Cooper",
-
-        "Player": "Cecil Cooper",
-
         "AgeThatYear": "33",
         "Hits": 203,
         "Year": 1983,
@@ -3123,11 +3075,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Joe Cronin",
-
-        "Player": "Joe Cronin",
-
         "AgeThatYear": "23",
         "Hits": 203,
         "Year": 1930,
@@ -3135,11 +3083,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Hugh Duffy",
-
-        "Player": "Hugh Duffy",
-
         "AgeThatYear": "26",
         "Hits": 203,
         "Year": 1893,
@@ -3147,11 +3091,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Augie Galan",
-
-        "Player": "Augie Galan",
-
         "AgeThatYear": "23",
         "Hits": 203,
         "Year": 1935,
@@ -3159,11 +3099,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Hank Greenberg",
-
-        "Player": "Hank Greenberg",
-
         "AgeThatYear": "24",
         "Hits": 203,
         "Year": 1935,
@@ -3171,11 +3107,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Tony Gwynn",
-
-        "Player": "Tony Gwynn",
-
         "AgeThatYear": "29",
         "Hits": 203,
         "Year": 1989,
@@ -3183,11 +3115,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Rogers Hornsby",
-
-        "Player": "Rogers Hornsby",
-
         "AgeThatYear": "29",
         "Hits": 203,
         "Year": 1925,
@@ -3195,11 +3123,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Woody Jensen",
-
-        "Player": "Woody Jensen",
-
         "AgeThatYear": "27",
         "Hits": 203,
         "Year": 1935,
@@ -3207,11 +3131,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Derek Jeter",
-
-        "Player": "Derek Jeter",
-
         "AgeThatYear": "24",
         "Hits": 203,
         "Year": 1998,
@@ -3219,11 +3139,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Jimmy Johnston",
-
-        "Player": "Jimmy Johnston",
-
         "AgeThatYear": "31",
         "Hits": 203,
         "Year": 1921,
@@ -3231,11 +3147,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Jimmy Johnston",
-
-        "Player": "Jimmy Johnston",
-
         "AgeThatYear": "33",
         "Hits": 203,
         "Year": 1923,
@@ -3243,11 +3155,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Hank Leiber",
-
-        "Player": "Hank Leiber",
-
         "AgeThatYear": "24",
         "Hits": 203,
         "Year": 1935,
@@ -3255,11 +3163,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Dale Mitchell",
-
-        "Player": "Dale Mitchell",
-
         "AgeThatYear": "27",
         "Hits": 203,
         "Year": 1949,
@@ -3267,11 +3171,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Rafael Palmeiro",
-
-        "Player": "Rafael Palmeiro",
-
         "AgeThatYear": "26",
         "Hits": 203,
         "Year": 1991,
@@ -3279,11 +3179,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Jackie Robinson",
-
-        "Player": "Jackie Robinson",
-
         "AgeThatYear": "30",
         "Hits": 203,
         "Year": 1949,
@@ -3291,11 +3187,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Jean Segura",
-
-        "Player": "Jean Segura",
-
         "AgeThatYear": "26",
         "Hits": 203,
         "Year": 2016,
@@ -3303,11 +3195,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Ruben Sierra",
-
-        "Player": "Ruben Sierra",
-
         "AgeThatYear": "25",
         "Hits": 203,
         "Year": 1991,
@@ -3315,11 +3203,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Stan Spence",
-
-        "Player": "Stan Spence",
-
         "AgeThatYear": "27",
         "Hits": 203,
         "Year": 1942,
@@ -3327,11 +3211,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Miguel Tejada",
-
-        "Player": "Miguel Tejada",
-
         "AgeThatYear": "30",
         "Hits": 203,
         "Year": 2004,
@@ -3339,11 +3219,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Bill Terry",
-
-        "Player": "Bill Terry",
-
         "AgeThatYear": "36",
         "Hits": 203,
         "Year": 1935,
@@ -3351,11 +3227,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Sam Thompson",
-
-        "Player": "Sam Thompson",
-
         "AgeThatYear": "27",
         "Hits": 203,
         "Year": 1887,
@@ -3363,11 +3235,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Joe Torre",
-
-        "Player": "Joe Torre",
-
         "AgeThatYear": "29",
         "Hits": 203,
         "Year": 1970,
@@ -3375,11 +3243,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Chase Utley",
-
-        "Player": "Chase Utley",
-
         "AgeThatYear": "27",
         "Hits": 203,
         "Year": 2006,
@@ -3387,11 +3251,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Billy Williams",
-
-        "Player": "Billy Williams",
-
         "AgeThatYear": "27",
         "Hits": 203,
         "Year": 1965,
@@ -3399,11 +3259,7 @@
       },
       {
         "Rank": "408",
-
         "Player": "Lou Brock",
-
-        "Player": "Lou Brock",
-
         "AgeThatYear": "31",
         "Hits": 202,
         "Year": 1970,
@@ -3411,11 +3267,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Roberto Clemente",
-
-        "Player": "Roberto Clemente",
-
         "AgeThatYear": "31",
         "Hits": 202,
         "Year": 1966,
@@ -3423,11 +3275,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Earle Combs",
-
-        "Player": "Earle Combs",
-
         "AgeThatYear": "30",
         "Hits": 202,
         "Year": 1929,
@@ -3435,11 +3283,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Doc Cramer",
-
-        "Player": "Doc Cramer",
-
         "AgeThatYear": "28",
         "Hits": 202,
         "Year": 1934,
@@ -3447,11 +3291,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Kiki Cuyler",
-
-        "Player": "Kiki Cuyler",
-
         "AgeThatYear": "32",
         "Hits": 202,
         "Year": 1931,
@@ -3459,11 +3299,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Woody English",
-
-        "Player": "Woody English",
-
         "AgeThatYear": "25",
         "Hits": 202,
         "Year": 1931,
@@ -3471,11 +3307,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Steve Garvey",
-
-        "Player": "Steve Garvey",
-
         "AgeThatYear": "29",
         "Hits": 202,
         "Year": 1978,
@@ -3483,11 +3315,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Vladimir Guerrero",
-
-        "Player": "Vladimir Guerrero",
-
         "AgeThatYear": "23",
         "Hits": 202,
         "Year": 1998,
@@ -3495,11 +3323,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Shoeless Joe Jackson",
-
-        "Player": "Shoeless Joe Jackson",
-
         "AgeThatYear": "28",
         "Hits": 202,
         "Year": 1916,
@@ -3507,11 +3331,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Derek Jeter",
-
-        "Player": "Derek Jeter",
-
         "AgeThatYear": "31",
         "Hits": 202,
         "Year": 2005,
@@ -3519,11 +3339,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Alex Johnson",
-
-        "Player": "Alex Johnson",
-
         "AgeThatYear": "27",
         "Hits": 202,
         "Year": 1970,
@@ -3531,11 +3347,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Willie Keeler",
-
-        "Player": "Willie Keeler",
-
         "AgeThatYear": "29",
         "Hits": 202,
         "Year": 1901,
@@ -3543,11 +3355,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Bill Lamar",
-
-        "Player": "Bill Lamar",
-
         "AgeThatYear": "28",
         "Hits": 202,
         "Year": 1925,
@@ -3555,11 +3363,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Wally Moses",
-
-        "Player": "Wally Moses",
-
         "AgeThatYear": "25",
         "Hits": 202,
         "Year": 1936,
@@ -3567,11 +3371,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Lefty O'Doul",
-
-        "Player": "Lefty O'Doul",
-
         "AgeThatYear": "33",
         "Hits": 202,
         "Year": 1930,
@@ -3579,11 +3379,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Juan Pierre",
-
-        "Player": "Juan Pierre",
-
         "AgeThatYear": "23",
         "Hits": 202,
         "Year": 2001,
@@ -3591,11 +3387,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Carl Reynolds",
-
-        "Player": "Carl Reynolds",
-
         "AgeThatYear": "27",
         "Hits": 202,
         "Year": 1930,
@@ -3603,11 +3395,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Sam Rice",
-
-        "Player": "Sam Rice",
-
         "AgeThatYear": "38",
         "Hits": 202,
         "Year": 1928,
@@ -3615,11 +3403,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Chick Stahl",
-
-        "Player": "Chick Stahl",
-
         "AgeThatYear": "26",
         "Hits": 202,
         "Year": 1899,
@@ -3627,11 +3411,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Shannon Stewart",
-
-        "Player": "Shannon Stewart",
-
         "AgeThatYear": "27",
         "Hits": 202,
         "Year": 2001,
@@ -3639,11 +3419,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Milt Stock",
-
-        "Player": "Milt Stock",
-
         "AgeThatYear": "31",
         "Hits": 202,
         "Year": 1925,
@@ -3651,11 +3427,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Fresco Thompson",
-
-        "Player": "Fresco Thompson",
-
         "AgeThatYear": "27",
         "Hits": 202,
         "Year": 1929,
@@ -3663,11 +3435,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Jack Tobin",
-
-        "Player": "Jack Tobin",
-
         "AgeThatYear": "28",
         "Hits": 202,
         "Year": 1920,
@@ -3675,11 +3443,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Jack Tobin",
-
-        "Player": "Jack Tobin",
-
         "AgeThatYear": "31",
         "Hits": 202,
         "Year": 1923,
@@ -3687,11 +3451,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Bobby Veach",
-
-        "Player": "Bobby Veach",
-
         "AgeThatYear": "34",
         "Hits": 202,
         "Year": 1922,
@@ -3699,11 +3459,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Bernie Williams",
-
-        "Player": "Bernie Williams",
-
         "AgeThatYear": "30",
         "Hits": 202,
         "Year": 1999,
@@ -3711,11 +3467,7 @@
       },
       {
         "Rank": "434",
-
         "Player": "Hank Aaron",
-
-        "Player": "Hank Aaron",
-
         "AgeThatYear": "29",
         "Hits": 201,
         "Year": 1963,
@@ -3723,11 +3475,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Dick Allen",
-
-        "Player": "Dick Allen",
-
         "AgeThatYear": "22",
         "Hits": 201,
         "Year": 1964,
@@ -3735,11 +3483,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Matty Alou",
-
-        "Player": "Matty Alou",
-
         "AgeThatYear": "31",
         "Hits": 201,
         "Year": 1970,
@@ -3747,11 +3491,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Garret Anderson",
-
-        "Player": "Garret Anderson",
-
         "AgeThatYear": "31",
         "Hits": 201,
         "Year": 2003,
@@ -3759,11 +3499,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Eddie Brown",
-
-        "Player": "Eddie Brown",
-
         "AgeThatYear": "34",
         "Hits": 201,
         "Year": 1926,
@@ -3771,11 +3507,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Bill Buckner",
-
-        "Player": "Bill Buckner",
-
         "AgeThatYear": "32",
         "Hits": 201,
         "Year": 1982,
@@ -3783,11 +3515,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Bill Buckner",
-
-        "Player": "Bill Buckner",
-
         "AgeThatYear": "35",
         "Hits": 201,
         "Year": 1985,
@@ -3795,11 +3523,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Melky Cabrera",
-
-        "Player": "Melky Cabrera",
-
         "AgeThatYear": "26",
         "Hits": 201,
         "Year": 2011,
@@ -3807,11 +3531,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Roberto Clemente",
-
-        "Player": "Roberto Clemente",
-
         "AgeThatYear": "26",
         "Hits": 201,
         "Year": 1961,
@@ -3819,11 +3539,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Ty Cobb",
-
-        "Player": "Ty Cobb",
-
         "AgeThatYear": "29",
         "Hits": 201,
         "Year": 1916,
@@ -3831,11 +3547,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Taylor Douthit",
-
-        "Player": "Taylor Douthit",
-
         "AgeThatYear": "29",
         "Hits": 201,
         "Year": 1930,
@@ -3843,11 +3555,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Nellie Fox",
-
-        "Player": "Nellie Fox",
-
         "AgeThatYear": "26",
         "Hits": 201,
         "Year": 1954,
@@ -3855,11 +3563,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Julio Franco",
-
-        "Player": "Julio Franco",
-
         "AgeThatYear": "32",
         "Hits": 201,
         "Year": 1991,
@@ -3867,11 +3571,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Charlie Gehringer",
-
-        "Player": "Charlie Gehringer",
-
         "AgeThatYear": "27",
         "Hits": 201,
         "Year": 1930,
@@ -3879,11 +3579,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Charlie Gehringer",
-
-        "Player": "Charlie Gehringer",
-
         "AgeThatYear": "32",
         "Hits": 201,
         "Year": 1935,
@@ -3891,11 +3587,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Dee Gordon",
-
-        "Player": "Dee Gordon",
-
         "AgeThatYear": "29",
         "Hits": 201,
         "Year": 2017,
@@ -3903,11 +3595,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Goose Goslin",
-
-        "Player": "Goose Goslin",
-
         "AgeThatYear": "24",
         "Hits": 201,
         "Year": 1925,
@@ -3915,11 +3603,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Goose Goslin",
-
-        "Player": "Goose Goslin",
-
         "AgeThatYear": "25",
         "Hits": 201,
         "Year": 1926,
@@ -3927,11 +3611,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Hank Greenberg",
-
-        "Player": "Hank Greenberg",
-
         "AgeThatYear": "23",
         "Hits": 201,
         "Year": 1934,
@@ -3939,11 +3619,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Dick Groat",
-
-        "Player": "Dick Groat",
-
         "AgeThatYear": "32",
         "Hits": 201,
         "Year": 1963,
@@ -3951,11 +3627,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Mark Grudzielanek",
-
-        "Player": "Mark Grudzielanek",
-
         "AgeThatYear": "26",
         "Hits": 201,
         "Year": 1996,
@@ -3963,11 +3635,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Billy Hamilton",
-
-        "Player": "Billy Hamilton",
-
         "AgeThatYear": "29",
         "Hits": 201,
         "Year": 1895,
@@ -3975,11 +3643,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Harry Heilmann",
-
-        "Player": "Harry Heilmann",
-
         "AgeThatYear": "32",
         "Hits": 201,
         "Year": 1927,
@@ -3987,11 +3651,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Charlie Hollocher",
-
-        "Player": "Charlie Hollocher",
-
         "AgeThatYear": "26",
         "Hits": 201,
         "Year": 1922,
@@ -3999,11 +3659,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Ender Inciarte",
-
-        "Player": "Ender Inciarte",
-
         "AgeThatYear": "26",
         "Hits": 201,
         "Year": 2017,
@@ -4011,11 +3667,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Derek Jeter",
-
-        "Player": "Derek Jeter",
-
         "AgeThatYear": "26",
         "Hits": 201,
         "Year": 2000,
@@ -4023,11 +3675,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Roy Johnson",
-
-        "Player": "Roy Johnson",
-
         "AgeThatYear": "26",
         "Hits": 201,
         "Year": 1929,
@@ -4035,11 +3683,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Harvey Kuenn",
-
-        "Player": "Harvey Kuenn",
-
         "AgeThatYear": "23",
         "Hits": 201,
         "Year": 1954,
@@ -4047,11 +3691,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Austin McHenry",
-
-        "Player": "Austin McHenry",
-
         "AgeThatYear": "25",
         "Hits": 201,
         "Year": 1921,
@@ -4059,11 +3699,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Joe Medwick",
-
-        "Player": "Joe Medwick",
-
         "AgeThatYear": "27",
         "Hits": 201,
         "Year": 1939,
@@ -4071,11 +3707,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Irish Meusel",
-
-        "Player": "Irish Meusel",
-
         "AgeThatYear": "28",
         "Hits": 201,
         "Year": 1921,
@@ -4083,11 +3715,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Paul Molitor",
-
-        "Player": "Paul Molitor",
-
         "AgeThatYear": "25",
         "Hits": 201,
         "Year": 1982,
@@ -4095,11 +3723,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Jo-Jo Moore",
-
-        "Player": "Jo-Jo Moore",
-
         "AgeThatYear": "26",
         "Hits": 201,
         "Year": 1935,
@@ -4107,11 +3731,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Dustin Pedroia",
-
-        "Player": "Dustin Pedroia",
-
         "AgeThatYear": "32",
         "Hits": 201,
         "Year": 2016,
@@ -4119,11 +3739,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Mike Piazza",
-
-        "Player": "Mike Piazza",
-
         "AgeThatYear": "28",
         "Hits": 201,
         "Year": 1997,
@@ -4131,11 +3747,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Jim Rice",
-
-        "Player": "Jim Rice",
-
         "AgeThatYear": "26",
         "Hits": 201,
         "Year": 1979,
@@ -4143,11 +3755,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Alex Rodriguez",
-
-        "Player": "Alex Rodriguez",
-
         "AgeThatYear": "25",
         "Hits": 201,
         "Year": 2001,
@@ -4155,11 +3763,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Al Rosen",
-
-        "Player": "Al Rosen",
-
         "AgeThatYear": "29",
         "Hits": 201,
         "Year": 1953,
@@ -4167,11 +3771,7 @@
       },
       {
         "Rank": "",
-
         "Player": "George Sisler",
-
-        "Player": "George Sisler",
-
         "AgeThatYear": "34",
         "Hits": 201,
         "Year": 1927,
@@ -4179,11 +3779,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Moose Solters",
-
-        "Player": "Moose Solters",
-
         "AgeThatYear": "29",
         "Hits": 201,
         "Year": 1935,
@@ -4191,11 +3787,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Joe Vosmik",
-
-        "Player": "Joe Vosmik",
-
         "AgeThatYear": "28",
         "Hits": 201,
         "Year": 1938,
@@ -4203,11 +3795,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Honus Wagner",
-
-        "Player": "Honus Wagner",
-
         "AgeThatYear": "26",
         "Hits": 201,
         "Year": 1900,
@@ -4215,11 +3803,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Honus Wagner",
-
-        "Player": "Honus Wagner",
-
         "AgeThatYear": "34",
         "Hits": 201,
         "Year": 1908,
@@ -4227,11 +3811,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Zack Wheat",
-
-        "Player": "Zack Wheat",
-
         "AgeThatYear": "34",
         "Hits": 201,
         "Year": 1922,
@@ -4239,11 +3819,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Billy Williams",
-
-        "Player": "Billy Williams",
-
         "AgeThatYear": "26",
         "Hits": 201,
         "Year": 1964,
@@ -4251,11 +3827,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Jack Wilson",
-
-        "Player": "Jack Wilson",
-
         "AgeThatYear": "26",
         "Hits": 201,
         "Year": 2004,
@@ -4263,11 +3835,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Michael Young",
-
-        "Player": "Michael Young",
-
         "AgeThatYear": "30",
         "Hits": 201,
         "Year": 2007,
@@ -4275,11 +3843,7 @@
       },
       {
         "Rank": "481",
-
         "Player": "Hank Aaron",
-
-        "Player": "Hank Aaron",
-
         "AgeThatYear": "22",
         "Hits": 200,
         "Year": 1956,
@@ -4287,11 +3851,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Jose Altuve",
-
-        "Player": "Jose Altuve",
-
         "AgeThatYear": "25",
         "Hits": 200,
         "Year": 2015,
@@ -4299,11 +3859,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Carlos Baerga",
-
-        "Player": "Carlos Baerga",
-
         "AgeThatYear": "24",
         "Hits": 200,
         "Year": 1993,
@@ -4311,11 +3867,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Home Run Baker",
-
-        "Player": "Home Run Baker",
-
         "AgeThatYear": "26",
         "Hits": 200,
         "Year": 1912,
@@ -4323,11 +3875,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Buddy Bell",
-
-        "Player": "Buddy Bell",
-
         "AgeThatYear": "27",
         "Hits": 200,
         "Year": 1979,
@@ -4335,11 +3883,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Albert Belle",
-
-        "Player": "Albert Belle",
-
         "AgeThatYear": "31",
         "Hits": 200,
         "Year": 1998,
@@ -4347,11 +3891,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Adrian Beltre",
-
-        "Player": "Adrian Beltre",
-
         "AgeThatYear": "25",
         "Hits": 200,
         "Year": 2004,
@@ -4359,11 +3899,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Wade Boggs",
-
-        "Player": "Wade Boggs",
-
         "AgeThatYear": "29",
         "Hits": 200,
         "Year": 1987,
@@ -4371,11 +3907,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Bobby Bonds",
-
-        "Player": "Bobby Bonds",
-
         "AgeThatYear": "24",
         "Hits": 200,
         "Year": 1970,
@@ -4383,11 +3915,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Michael Brantley",
-
-        "Player": "Michael Brantley",
-
         "AgeThatYear": "27",
         "Hits": 200,
         "Year": 2014,
@@ -4395,11 +3923,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Lou Brock",
-
-        "Player": "Lou Brock",
-
         "AgeThatYear": "25",
         "Hits": 200,
         "Year": 1964,
@@ -4407,11 +3931,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Lou Brock",
-
-        "Player": "Lou Brock",
-
         "AgeThatYear": "32",
         "Hits": 200,
         "Year": 1971,
@@ -4419,11 +3939,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Dick Burrus",
-
-        "Player": "Dick Burrus",
-
         "AgeThatYear": "27",
         "Hits": 200,
         "Year": 1925,
@@ -4431,11 +3947,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Robinson Cano",
-
-        "Player": "Robinson Cano",
-
         "AgeThatYear": "27",
         "Hits": 200,
         "Year": 2010,
@@ -4443,11 +3955,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Rod Carew",
-
-        "Player": "Rod Carew",
-
         "AgeThatYear": "30",
         "Hits": 200,
         "Year": 1976,
@@ -4455,11 +3963,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Joe Carter",
-
-        "Player": "Joe Carter",
-
         "AgeThatYear": "26",
         "Hits": 200,
         "Year": 1986,
@@ -4467,11 +3971,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Ripper Collins",
-
-        "Player": "Ripper Collins",
-
         "AgeThatYear": "30",
         "Hits": 200,
         "Year": 1934,
@@ -4479,11 +3979,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Doc Cramer",
-
-        "Player": "Doc Cramer",
-
         "AgeThatYear": "34",
         "Hits": 200,
         "Year": 1940,
@@ -4491,11 +3987,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Ed Delahanty",
-
-        "Player": "Ed Delahanty",
-
         "AgeThatYear": "26",
         "Hits": 200,
         "Year": 1894,
@@ -4503,11 +3995,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Ed Delahanty",
-
-        "Player": "Ed Delahanty",
-
         "AgeThatYear": "29",
         "Hits": 200,
         "Year": 1897,
@@ -4515,11 +4003,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Elmer Flick",
-
-        "Player": "Elmer Flick",
-
         "AgeThatYear": "24",
         "Hits": 200,
         "Year": 1900,
@@ -4527,11 +4011,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Curt Flood",
-
-        "Player": "Curt Flood",
-
         "AgeThatYear": "25",
         "Hits": 200,
         "Year": 1963,
@@ -4539,11 +4019,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Chick Fullis",
-
-        "Player": "Chick Fullis",
-
         "AgeThatYear": "32",
         "Hits": 200,
         "Year": 1933,
@@ -4551,11 +4027,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Ralph Garr",
-
-        "Player": "Ralph Garr",
-
         "AgeThatYear": "27",
         "Hits": 200,
         "Year": 1973,
@@ -4563,11 +4035,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Steve Garvey",
-
-        "Player": "Steve Garvey",
-
         "AgeThatYear": "25",
         "Hits": 200,
         "Year": 1974,
@@ -4575,11 +4043,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Steve Garvey",
-
-        "Player": "Steve Garvey",
-
         "AgeThatYear": "27",
         "Hits": 200,
         "Year": 1976,
@@ -4587,11 +4051,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Steve Garvey",
-
-        "Player": "Steve Garvey",
-
         "AgeThatYear": "31",
         "Hits": 200,
         "Year": 1980,
@@ -4599,11 +4059,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Lou Gehrig",
-
-        "Player": "Lou Gehrig",
-
         "AgeThatYear": "34",
         "Hits": 200,
         "Year": 1937,
@@ -4611,11 +4067,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Hank Greenberg",
-
-        "Player": "Hank Greenberg",
-
         "AgeThatYear": "26",
         "Hits": 200,
         "Year": 1937,
@@ -4623,11 +4075,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Vladimir Guerrero",
-
-        "Player": "Vladimir Guerrero",
-
         "AgeThatYear": "31",
         "Hits": 200,
         "Year": 2006,
@@ -4635,11 +4083,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Al Kaline",
-
-        "Player": "Al Kaline",
-
         "AgeThatYear": "20",
         "Hits": 200,
         "Year": 1955,
@@ -4647,11 +4091,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Chuck Klein",
-
-        "Player": "Chuck Klein",
-
         "AgeThatYear": "26",
         "Hits": 200,
         "Year": 1931,
@@ -4659,11 +4099,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Barney McCosky",
-
-        "Player": "Barney McCosky",
-
         "AgeThatYear": "23",
         "Hits": 200,
         "Year": 1940,
@@ -4671,11 +4107,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Stan Musial",
-
-        "Player": "Stan Musial",
-
         "AgeThatYear": "32",
         "Hits": 200,
         "Year": 1953,
@@ -4683,11 +4115,7 @@
       },
       {
         "Rank": "",
-
         "Player": "John Olerud",
-
-        "Player": "John Olerud",
-
         "AgeThatYear": "24",
         "Hits": 200,
         "Year": 1993,
@@ -4695,11 +4123,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Placido Polanco",
-
-        "Player": "Placido Polanco",
-
         "AgeThatYear": "31",
         "Hits": 200,
         "Year": 2007,
@@ -4707,11 +4131,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Rip Radcliff",
-
-        "Player": "Rip Radcliff",
-
         "AgeThatYear": "34",
         "Hits": 200,
         "Year": 1940,
@@ -4719,11 +4139,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Jim Rice",
-
-        "Player": "Jim Rice",
-
         "AgeThatYear": "33",
         "Hits": 200,
         "Year": 1986,
@@ -4731,11 +4147,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Phil Rizzuto",
-
-        "Player": "Phil Rizzuto",
-
         "AgeThatYear": "32",
         "Hits": 200,
         "Year": 1950,
@@ -4743,11 +4155,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Babe Ruth",
-
-        "Player": "Babe Ruth",
-
         "AgeThatYear": "29",
         "Hits": 200,
         "Year": 1924,
@@ -4755,11 +4163,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Freddy Sanchez",
-
-        "Player": "Freddy Sanchez",
-
         "AgeThatYear": "28",
         "Hits": 200,
         "Year": 2006,
@@ -4767,11 +4171,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Ryne Sandberg",
-
-        "Player": "Ryne Sandberg",
-
         "AgeThatYear": "24",
         "Hits": 200,
         "Year": 1984,
@@ -4779,11 +4179,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Red Schoendienst",
-
-        "Player": "Red Schoendienst",
-
         "AgeThatYear": "34",
         "Hits": 200,
         "Year": 1957,
@@ -4791,11 +4187,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Al Simmons",
-
-        "Player": "Al Simmons",
-
         "AgeThatYear": "29",
         "Hits": 200,
         "Year": 1931,
@@ -4803,11 +4195,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Al Simmons",
-
-        "Player": "Al Simmons",
-
         "AgeThatYear": "31",
         "Hits": 200,
         "Year": 1933,
@@ -4815,11 +4203,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Garry Templeton",
-
-        "Player": "Garry Templeton",
-
         "AgeThatYear": "21",
         "Hits": 200,
         "Year": 1977,
@@ -4827,11 +4211,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Randy Velarde",
-
-        "Player": "Randy Velarde",
-
         "AgeThatYear": "36",
         "Hits": 200,
         "Year": 1999,
@@ -4839,11 +4219,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Jose Vidro",
-
-        "Player": "Jose Vidro",
-
         "AgeThatYear": "25",
         "Hits": 200,
         "Year": 2000,
@@ -4851,11 +4227,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Dick Wakefield",
-
-        "Player": "Dick Wakefield",
-
         "AgeThatYear": "22",
         "Hits": 200,
         "Year": 1943,
@@ -4863,11 +4235,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Paul Waner",
-
-        "Player": "Paul Waner",
-
         "AgeThatYear": "26",
         "Hits": 200,
         "Year": 1929,
@@ -4875,11 +4243,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Billy Werber",
-
-        "Player": "Billy Werber",
-
         "AgeThatYear": "26",
         "Hits": 200,
         "Year": 1934,
@@ -4887,11 +4251,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Bill White",
-
-        "Player": "Bill White",
-
         "AgeThatYear": "29",
         "Hits": 200,
         "Year": 1963,
@@ -4899,11 +4259,7 @@
       },
       {
         "Rank": "",
-
         "Player": "Pinky Whitney",
-
-        "Player": "Pinky Whitney",
-
         "AgeThatYear": "24",
         "Hits": 200,
         "Year": 1929,
@@ -4911,18 +4267,13 @@
       },
       {
         "Rank": "",
-
         "Player": "Ross Youngs",
-
-        "Player": "Ross Youngs",
-
         "AgeThatYear": "26",
         "Hits": 200,
         "Year": 1923,
         "Bats": "L"
       }
     ],
-
     "career": [
       {
         "Rank": "1.",
@@ -4936,42 +4287,17 @@
         "Player": "Ty Cobb+",
         "YearsAge": "(24)",
         "Hits": "4189",
-
-    "era": [
-      {
-        "Rank": "1.",
-        "Player": "Tim Keefe+",
-        "Age": 23,
-        "ERA": 0.857,
-        "Year": 1880,
-        "Throws": "R"
-      },
-      {
-        "Rank": "2.",
-        "Player": "Dutch Leonard",
-        "Age": 22,
-        "ERA": 0.961,
-        "Year": 1914,
-
         "Throws": "L"
       },
       {
         "Rank": "3.",
-
         "Player": "Hank Aaron+",
         "YearsAge": "(23)",
         "Hits": "3771",
-
-        "Player": "Mordecai Brown+",
-        "Age": 29,
-        "ERA": 1.038,
-        "Year": 1906,
-
         "Throws": "R"
       },
       {
         "Rank": "4.",
-
         "Player": "Stan Musial+",
         "YearsAge": "(22)",
         "Hits": "3630",
@@ -4989,33 +4315,10 @@
         "Player": "Derek Jeter",
         "YearsAge": "(20)",
         "Hits": "3465",
-
-        "Player": "Bob Gibson+",
-        "Age": 32,
-        "ERA": 1.123,
-        "Year": 1968,
-        "Throws": "R"
-      },
-      {
-        "Rank": "5.",
-        "Player": "Christy Mathewson+",
-        "Age": 28,
-        "ERA": 1.144,
-        "Year": 1909,
-        "Throws": "R"
-      },
-      {
-        "Rank": "6.",
-        "Player": "Walter Johnson+",
-        "Age": 25,
-        "ERA": 1.145,
-        "Year": 1913,
-
         "Throws": "R"
       },
       {
         "Rank": "7.",
-
         "Player": "Cap Anson+",
         "YearsAge": "(27)",
         "Hits": "3435",
@@ -5026,25 +4329,10 @@
         "Player": "Honus Wagner+",
         "YearsAge": "(21)",
         "Hits": "3420",
-
-        "Player": "Jack Pfiester",
-        "Age": 29,
-        "ERA": 1.154,
-        "Year": 1907,
-        "Throws": "L"
-      },
-      {
-        "Rank": "8.",
-        "Player": "Addie Joss+",
-        "Age": 28,
-        "ERA": 1.163,
-        "Year": 1908,
-
         "Throws": "R"
       },
       {
         "Rank": "9.",
-
         "Player": "Carl Yastrzemski+",
         "YearsAge": "(23)",
         "Hits": "3419",
@@ -5069,41 +4357,10 @@
         "Player": "Willie Mays+",
         "YearsAge": "(22)",
         "Hits": "3283",
-
-        "Player": "Carl Lundgren",
-        "Age": 27,
-        "ERA": 1.174,
-        "Year": 1907,
-        "Throws": "R"
-      },
-      {
-        "Rank": "10.",
-        "Player": "Denny Driscoll",
-        "Age": 26,
-        "ERA": 1.209,
-        "Year": 1882,
-        "Throws": "L"
-      },
-      {
-        "Rank": "11.",
-        "Player": "Pete Alexander+",
-        "Age": 28,
-        "ERA": 1.22,
-        "Year": 1915,
-        "Throws": "R"
-      },
-      {
-        "Rank": "12.",
-        "Player": "George Bradley",
-        "Age": 23,
-        "ERA": 1.225,
-        "Year": 1876,
-
         "Throws": "R"
       },
       {
         "Rank": "13.",
-
         "Player": "Eddie Murray+",
         "YearsAge": "(21)",
         "Hits": "3255",
@@ -5114,39 +4371,17 @@
         "Player": "Nap Lajoie+",
         "YearsAge": "(21)",
         "Hits": "3243",
-
-        "Player": "Cy Young+",
-        "Age": 41,
-        "ERA": 1.264,
-        "Year": 1908,
-        "Throws": "R"
-      },
-      {
-        "Rank": "14.",
-        "Player": "Ed Walsh+",
-        "Age": 29,
-        "ERA": 1.266,
-        "Year": 1910,
-
         "Throws": "R"
       },
       {
         "Rank": "15.",
-
         "Player": "Cal Ripken+",
         "YearsAge": "(21)",
         "Hits": "3184",
-
-        "Player": "Walter Johnson+",
-        "Age": 30,
-        "ERA": 1.27,
-        "Year": 1918,
-
         "Throws": "R"
       },
       {
         "Rank": "16.",
-
         "Player": "George Brett+",
         "YearsAge": "(21)",
         "Hits": "3154",
@@ -5164,33 +4399,10 @@
         "Player": "Robin Yount+",
         "YearsAge": "(20)",
         "Hits": "3142",
-
-        "Player": "Christy Mathewson+",
-        "Age": 24,
-        "ERA": 1.276,
-        "Year": 1905,
-        "Throws": "R"
-      },
-      {
-        "Rank": "17.",
-        "Player": "Jack Taylor",
-        "Age": 28,
-        "ERA": 1.295,
-        "Year": 1902,
-        "Throws": "R"
-      },
-      {
-        "Rank": "18.",
-        "Player": "Guy Hecker",
-        "Age": 26,
-        "ERA": 1.298,
-        "Year": 1882,
-
         "Throws": "R"
       },
       {
         "Rank": "19.",
-
         "Player": "Tony Gwynn+",
         "YearsAge": "(20)",
         "Hits": "3141",
@@ -5201,53 +4413,24 @@
         "Player": "Adrian Beltre",
         "YearsAge": "(21, 39)",
         "Hits": "3117",
-
-        "Player": "Jack Coombs",
-        "Age": 27,
-        "ERA": 1.3,
-        "Year": 1910,
-        "Throws": "R"
-      },
-      {
-        "Rank": "20.",
-        "Player": "Mordecai Brown+",
-        "Age": 32,
-        "ERA": 1.313,
-        "Year": 1909,
-
         "Throws": "R"
       },
       {
         "Rank": "21.",
-
         "Player": "Alex Rodriguez",
         "YearsAge": "(22)",
         "Hits": "3115",
-
-        "Player": "Walter Johnson+",
-        "Age": 22,
-        "ERA": 1.362,
-        "Year": 1910,
-
         "Throws": "R"
       },
       {
         "Rank": "22.",
-
         "Player": "Dave Winfield+",
         "YearsAge": "(22)",
         "Hits": "3110",
-
-        "Player": "George Bradley",
-        "Age": 27,
-        "ERA": 1.378,
-        "Year": 1880,
-
         "Throws": "R"
       },
       {
         "Rank": "23.",
-
         "Player": "Ichiro Suzuki",
         "YearsAge": "(18, 44)",
         "Hits": "3089",
@@ -5258,25 +4441,10 @@
         "Player": "Craig Biggio+",
         "YearsAge": "(20)",
         "Hits": "3060",
-
-        "Player": "Old Hoss Radbourn+",
-        "Age": 29,
-        "ERA": 1.379,
-        "Year": 1884,
-        "Throws": "R"
-      },
-      {
-        "Rank": "24.",
-        "Player": "Walter Johnson+",
-        "Age": 24,
-        "ERA": 1.39,
-        "Year": 1912,
-
         "Throws": "R"
       },
       {
         "Rank": "25.",
-
         "Player": "Rickey Henderson+",
         "YearsAge": "(25)",
         "Hits": "3055",
@@ -5322,79 +4490,17 @@
         "Player": "Al Kaline+",
         "YearsAge": "(22)",
         "Hits": "3007",
-
-        "Player": "Mordecai Brown+",
-        "Age": 30,
-        "ERA": 1.391,
-        "Year": 1907,
-        "Throws": "R"
-      },
-      {
-        "Rank": "26.",
-        "Player": "Harry Krause",
-        "Age": 20,
-        "ERA": 1.394,
-        "Year": 1909,
-        "Throws": "L"
-      },
-      {
-        "Rank": "27.",
-        "Player": "Ed Walsh+",
-        "Age": 28,
-        "ERA": 1.407,
-        "Year": 1909,
-        "Throws": "R"
-      },
-      {
-        "Rank": "28.",
-        "Player": "Ed Walsh+",
-        "Age": 27,
-        "ERA": 1.416,
-        "Year": 1908,
-        "Throws": "R"
-      },
-      {
-        "Rank": "29.",
-        "Player": "Ed Reulbach",
-        "Age": 22,
-        "ERA": 1.419,
-        "Year": 1905,
-        "Throws": "R"
-      },
-      {
-        "Rank": "30.",
-        "Player": "Orval Overall",
-        "Age": 28,
-        "ERA": 1.421,
-        "Year": 1909,
-        "Throws": "R"
-      },
-      {
-        "Rank": "31.",
-        "Player": "Christy Mathewson+",
-        "Age": 27,
-        "ERA": 1.428,
-        "Year": 1908,
-
         "Throws": "R"
       },
       {
         "Rank": "32.",
-
         "Player": "Roberto Clemente+",
         "YearsAge": "(18)",
         "Hits": "3000",
-
-        "Player": "Fred Anderson",
-        "Age": 31,
-        "ERA": 1.444,
-        "Year": 1917,
-
         "Throws": "R"
       },
       {
         "Rank": "33.",
-
         "Player": "Sam Rice+",
         "YearsAge": "(20)",
         "Hits": "2987",
@@ -5405,39 +4511,17 @@
         "Player": "Sam Crawford+",
         "YearsAge": "(19)",
         "Hits": "2961",
-
-        "Player": "Mordecai Brown+",
-        "Age": 31,
-        "ERA": 1.47,
-        "Year": 1908,
-        "Throws": "R"
-      },
-      {
-        "Rank": "34.",
-        "Player": "Rube Waddell+",
-        "Age": 28,
-        "ERA": 1.479,
-        "Year": 1905,
-
         "Throws": "L"
       },
       {
         "Rank": "35.",
-
         "Player": "Frank Robinson+",
         "YearsAge": "(21)",
         "Hits": "2943",
-
-        "Player": "Smoky Joe Wood",
-        "Age": 25,
-        "ERA": 1.487,
-        "Year": 1915,
-
         "Throws": "R"
       },
       {
         "Rank": "36.",
-
         "Player": "Jake Beckley+",
         "YearsAge": "(20)",
         "Hits": "2938",
@@ -5448,25 +4532,10 @@
         "Player": "Barry Bonds",
         "YearsAge": "(22)",
         "Hits": "2935",
-
-        "Player": "Walter Johnson+",
-        "Age": 31,
-        "ERA": 1.488,
-        "Year": 1919,
-        "Throws": "R"
-      },
-      {
-        "Rank": "37.",
-        "Player": "Jack Pfiester",
-        "Age": 28,
-        "ERA": 1.508,
-        "Year": 1906,
-
         "Throws": "L"
       },
       {
         "Rank": "38.",
-
         "Player": "Willie Keeler+",
         "YearsAge": "(19)",
         "Hits": "2932",
@@ -5477,25 +4546,10 @@
         "Player": "Rogers Hornsby+",
         "YearsAge": "(23)",
         "Hits": "2930",
-
-        "Player": "John Ward+",
-        "Age": 18,
-        "ERA": 1.509,
-        "Year": 1878,
-        "Throws": "R"
-      },
-      {
-        "Rank": "39.",
-        "Player": "Harry McCormick",
-        "Age": 26,
-        "ERA": 1.516,
-        "Year": 1882,
-
         "Throws": "R"
       },
       {
         "Rank": "40.",
-
         "Player": "Al Simmons+",
         "YearsAge": "(20)",
         "Hits": "2927",
@@ -5562,89 +4616,10 @@
         "Player": "Ivan Rodriguez+",
         "YearsAge": "(21)",
         "Hits": "2844",
-
-        "Player": "Doc White",
-        "Age": 27,
-        "ERA": 1.518,
-        "Year": 1906,
-        "Throws": "L"
-      },
-      {
-        "Rank": "41.",
-        "Player": "George McQuillan",
-        "Age": 23,
-        "ERA": 1.526,
-        "Year": 1908,
-        "Throws": "R"
-      },
-      {
-        "Rank": "42.",
-        "Player": "Dwight Gooden",
-        "Age": 20,
-        "ERA": 1.529,
-        "Year": 1985,
-        "Throws": "R"
-      },
-      {
-        "Rank": "43.",
-        "Player": "Eddie Cicotte",
-        "Age": 33,
-        "ERA": 1.532,
-        "Year": 1917,
-        "Throws": "R"
-      },
-      {
-        "Rank": "44.",
-        "Player": "Will White",
-        "Age": 27,
-        "ERA": 1.538,
-        "Year": 1882,
-        "Throws": "R"
-      },
-      {
-        "Rank": "45.",
-        "Player": "Cy Morgan",
-        "Age": 31,
-        "ERA": 1.548,
-        "Year": 1910,
-        "Throws": "R"
-      },
-      {
-        "Rank": "46.",
-        "Player": "Pete Alexander+",
-        "Age": 29,
-        "ERA": 1.55,
-        "Year": 1916,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Walter Johnson+",
-        "Age": 27,
-        "ERA": 1.55,
-        "Year": 1915,
-        "Throws": "R"
-      },
-      {
-        "Rank": "48.",
-        "Player": "Howie Camnitz",
-        "Age": 26,
-        "ERA": 1.559,
-        "Year": 1908,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Greg Maddux+",
-        "Age": 28,
-        "ERA": 1.559,
-        "Year": 1994,
-
         "Throws": "R"
       },
       {
         "Rank": "50.",
-
         "Player": "Charlie Gehringer+",
         "YearsAge": "(19)",
         "Hits": "2839",
@@ -5662,55 +4637,17 @@
         "Player": "Andre Dawson+",
         "YearsAge": "(21)",
         "Hits": "2774",
-
-        "Player": "Jim Devlin",
-        "Age": 27,
-        "ERA": 1.563,
-        "Year": 1876,
-        "Throws": "R"
-      },
-      {
-        "Rank": "51.",
-        "Player": "Tim Keefe+",
-        "Age": 28,
-        "ERA": 1.575,
-        "Year": 1885,
-        "Throws": "R"
-      },
-      {
-        "Rank": "52.",
-        "Player": "Fred Toney",
-        "Age": 26,
-        "ERA": 1.576,
-        "Year": 1915,
-        "Throws": "R"
-      },
-      {
-        "Rank": "53.",
-        "Player": "Eddie Cicotte",
-        "Age": 29,
-        "ERA": 1.578,
-        "Year": 1913,
-
         "Throws": "R"
       },
       {
         "Rank": "54.",
-
         "Player": "Johnny Damon",
         "YearsAge": "(18)",
         "Hits": "2769",
-
-        "Player": "Rube Marquard+",
-        "Age": 29,
-        "ERA": 1.58,
-        "Year": 1916,
-
         "Throws": "L"
       },
       {
         "Rank": "55.",
-
         "Player": "Vada Pinson",
         "YearsAge": "(18)",
         "Hits": "2757",
@@ -5721,25 +4658,10 @@
         "Player": "Luke Appling+",
         "YearsAge": "(20)",
         "Hits": "2749",
-
-        "Player": "Chief Bender+",
-        "Age": 26,
-        "ERA": 1.584,
-        "Year": 1910,
-        "Throws": "R"
-      },
-      {
-        "Rank": "56.",
-        "Player": "Barney Pelty",
-        "Age": 25,
-        "ERA": 1.588,
-        "Year": 1906,
-
         "Throws": "R"
       },
       {
         "Rank": "57.",
-
         "Player": "Al Oliver",
         "YearsAge": "(18)",
         "Hits": "2743",
@@ -5757,33 +4679,10 @@
         "Player": "Tony Perez+",
         "YearsAge": "(23)",
         "Hits": "2732",
-
-        "Player": "Addie Joss+",
-        "Age": 24,
-        "ERA": 1.591,
-        "Year": 1904,
-        "Throws": "R"
-      },
-      {
-        "Rank": "58.",
-        "Player": "Ed Walsh+",
-        "Age": 26,
-        "ERA": 1.598,
-        "Year": 1907,
-        "Throws": "R"
-      },
-      {
-        "Rank": "59.",
-        "Player": "Luis Tiant",
-        "Age": 27,
-        "ERA": 1.603,
-        "Year": 1968,
-
         "Throws": "R"
       },
       {
         "Rank": "60.",
-
         "Player": "Chipper Jones+",
         "YearsAge": "(19)",
         "Hits": "2726",
@@ -5850,89 +4749,10 @@
         "Player": "Gary Sheffield",
         "YearsAge": "(22)",
         "Hits": "2689",
-
-        "Player": "Joe McGinnity+",
-        "Age": 33,
-        "ERA": 1.61,
-        "Year": 1904,
-        "Throws": "R"
-      },
-      {
-        "Rank": "61.",
-        "Player": "Ray Collins",
-        "Age": 23,
-        "ERA": 1.619,
-        "Year": 1910,
-        "Throws": "L"
-      },
-      {
-        "Rank": "62.",
-        "Player": "Rube Waddell+",
-        "Age": 27,
-        "ERA": 1.621,
-        "Year": 1904,
-        "Throws": "L"
-      },
-      {
-        "Rank": "63.",
-        "Player": "Howie Camnitz",
-        "Age": 27,
-        "ERA": 1.622,
-        "Year": 1909,
-        "Throws": "R"
-      },
-      {
-        "Rank": "64.",
-        "Player": "Cy Young+",
-        "Age": 34,
-        "ERA": 1.624,
-        "Year": 1901,
-        "Throws": "R"
-      },
-      {
-        "Rank": "65.",
-        "Player": "Greg Maddux+",
-        "Age": 29,
-        "ERA": 1.631,
-        "Year": 1995,
-        "Throws": "R"
-      },
-      {
-        "Rank": "66.",
-        "Player": "Silver King",
-        "Age": 20,
-        "ERA": 1.632,
-        "Year": 1888,
-        "Throws": "R"
-      },
-      {
-        "Rank": "67.",
-        "Player": "Spud Chandler",
-        "Age": 35,
-        "ERA": 1.636,
-        "Year": 1943,
-        "Throws": "R"
-      },
-      {
-        "Rank": "68.",
-        "Player": "Ernie Shore",
-        "Age": 24,
-        "ERA": 1.64,
-        "Year": 1915,
-        "Throws": "R"
-      },
-      {
-        "Rank": "69.",
-        "Player": "Ed Summers",
-        "Age": 23,
-        "ERA": 1.645,
-        "Year": 1908,
-
         "Throws": "R"
       },
       {
         "Rank": "70.",
-
         "Player": "Fred Clarke+",
         "YearsAge": "(21)",
         "Hits": "2678",
@@ -5943,39 +4763,17 @@
         "Player": "Luis Aparicio+",
         "YearsAge": "(18)",
         "Hits": "2677",
-
-        "Player": "Dean Chance",
-        "Age": 23,
-        "ERA": 1.649,
-        "Year": 1964,
-        "Throws": "R"
-      },
-      {
-        "Rank": "71.",
-        "Player": "Walter Johnson+",
-        "Age": 20,
-        "ERA": 1.65,
-        "Year": 1908,
-
         "Throws": "R"
       },
       {
         "Rank": "72.",
-
         "Player": "Miguel Cabrera",
         "YearsAge": "(16, 35)",
         "Hits": "2676",
-
-        "Player": "Ed Reulbach",
-        "Age": 23,
-        "ERA": 1.651,
-        "Year": 1906,
-
         "Throws": "R"
       },
       {
         "Rank": "73.",
-
         "Player": "Max Carey+",
         "YearsAge": "(20)",
         "Hits": "2665",
@@ -6014,85 +4812,24 @@
         "Player": "Lave Cross",
         "YearsAge": "(21)",
         "Hits": "2651",
-
-        "Player": "Russ Ford",
-        "Age": 27,
-        "ERA": 1.652,
-        "Year": 1910,
-        "Throws": "R"
-      },
-      {
-        "Rank": "74.",
-        "Player": "Chief Bender+",
-        "Age": 25,
-        "ERA": 1.656,
-        "Year": 1909,
-        "Throws": "R"
-      },
-      {
-        "Rank": "75.",
-        "Player": "Zack Greinke",
-        "Age": 31,
-        "ERA": 1.657,
-        "Year": 2015,
-        "Throws": "R"
-      },
-      {
-        "Rank": "76.",
-        "Player": "Carl Hubbell+",
-        "Age": 30,
-        "ERA": 1.662,
-        "Year": 1933,
-        "Throws": "L"
-      },
-      {
-        "Rank": " ",
-        "Player": "Sam Leever",
-        "Age": 35,
-        "ERA": 1.662,
-        "Year": 1907,
-        "Throws": "R"
-      },
-      {
-        "Rank": "78.",
-        "Player": "Mickey Welch+",
-        "Age": 25,
-        "ERA": 1.665,
-        "Year": 1885,
-
         "Throws": "R"
       },
       {
         "Rank": "79.",
-
         "Player": "Jimmie Foxx+",
         "YearsAge": "(20)",
         "Hits": "2646",
-
-        "Player": "Candy Cummings+",
-        "Age": 27,
-        "ERA": 1.667,
-        "Year": 1876,
-
         "Throws": "R"
       },
       {
         "Rank": "80.",
-
         "Player": "Jim O'Rourke+",
         "YearsAge": "(23)",
         "Hits": "2639",
-
-        "Player": "Tommy Bond",
-        "Age": 20,
-        "ERA": 1.676,
-        "Year": 1876,
-
         "Throws": "R"
       },
       {
         "Rank": "81.",
-
         "Player": "Rabbit Maranville+",
         "YearsAge": "(23)",
         "Hits": "2605",
@@ -6110,33 +4847,10 @@
         "Player": "Steve Garvey",
         "YearsAge": "(19)",
         "Hits": "2599",
-
-        "Player": "Orval Overall",
-        "Age": 26,
-        "ERA": 1.677,
-        "Year": 1907,
-        "Throws": "R"
-      },
-      {
-        "Rank": "82.",
-        "Player": "Jacob deGrom",
-        "Age": 30,
-        "ERA": 1.678,
-        "Year": 2018,
-        "Throws": "R"
-      },
-      {
-        "Rank": "83.",
-        "Player": "Ed Reulbach",
-        "Age": 24,
-        "ERA": 1.688,
-        "Year": 1907,
-
         "Throws": "R"
       },
       {
         "Rank": "84.",
-
         "Player": "Ed Delahanty+",
         "YearsAge": "(16)",
         "Hits": "2597",
@@ -6154,47 +4868,17 @@
         "Player": "Vladimir Guerrero+",
         "YearsAge": "(16)",
         "Hits": "2590",
-
-        "Player": "Claude Hendrix",
-        "Age": 25,
-        "ERA": 1.691,
-        "Year": 1914,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Nolan Ryan+",
-        "Age": 34,
-        "ERA": 1.691,
-        "Year": 1981,
-        "Throws": "R"
-      },
-      {
-        "Rank": "86.",
-        "Player": "Jim McCormick",
-        "Age": 21,
-        "ERA": 1.692,
-        "Year": 1878,
-
         "Throws": "R"
       },
       {
         "Rank": "87.",
-
         "Player": "Julio Franco",
         "YearsAge": "(23)",
         "Hits": "2586",
-
-        "Player": "Smoky Joe Wood",
-        "Age": 20,
-        "ERA": 1.693,
-        "Year": 1910,
-
         "Throws": "R"
       },
       {
         "Rank": "88.",
-
         "Player": "Reggie Jackson+",
         "YearsAge": "(21)",
         "Hits": "2584",
@@ -6219,55 +4903,17 @@
         "Player": "Manny Ramirez",
         "YearsAge": "(19)",
         "Hits": "2574",
-
-        "Player": "Bill Burns",
-        "Age": 28,
-        "ERA": 1.701,
-        "Year": 1908,
-        "Throws": "L"
-      },
-      {
-        "Rank": " ",
-        "Player": "Rube Foster",
-        "Age": 26,
-        "ERA": 1.701,
-        "Year": 1914,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Charlie Sweeney",
-        "Age": 21,
-        "ERA": 1.701,
-        "Year": 1884,
-        "Throws": "R"
-      },
-      {
-        "Rank": "91.",
-        "Player": "Addie Joss+",
-        "Age": 29,
-        "ERA": 1.706,
-        "Year": 1909,
-
         "Throws": "R"
       },
       {
         "Rank": "92.",
-
         "Player": "Willie Davis",
         "YearsAge": "(18)",
         "Hits": "2561",
-
-        "Player": "Ed Killian",
-        "Age": 32,
-        "ERA": 1.713,
-        "Year": 1909,
-
         "Throws": "L"
       },
       {
         "Rank": "93.",
-
         "Player": "Steve Finley",
         "YearsAge": "(19)",
         "Hits": "2548",
@@ -6285,33 +4931,10 @@
         "Player": "Garret Anderson",
         "YearsAge": "(17)",
         "Hits": "2529",
-
-        "Player": "Ned Garvin",
-        "Age": 30,
-        "ERA": 1.719,
-        "Year": 1904,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Walter Johnson+",
-        "Age": 26,
-        "ERA": 1.719,
-        "Year": 1914,
-        "Throws": "R"
-      },
-      {
-        "Rank": "95.",
-        "Player": "Doc White",
-        "Age": 30,
-        "ERA": 1.722,
-        "Year": 1909,
-
         "Throws": "L"
       },
       {
         "Rank": "96.",
-
         "Player": "Heinie Manush+",
         "YearsAge": "(17)",
         "Hits": "2524",
@@ -6343,49 +4966,10 @@
         "Player": "Jimmy Ryan",
         "YearsAge": "(18)",
         "Hits": "2513",
-
-        "Player": "Pete Alexander+",
-        "Age": 32,
-        "ERA": 1.723,
-        "Year": 1919,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Bill Doak",
-        "Age": 23,
-        "ERA": 1.723,
-        "Year": 1914,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Addie Joss+",
-        "Age": 26,
-        "ERA": 1.723,
-        "Year": 1906,
-        "Throws": "R"
-      },
-      {
-        "Rank": "99.",
-        "Player": "Sandy Koufax+",
-        "Age": 30,
-        "ERA": 1.728,
-        "Year": 1966,
-        "Throws": "L"
-      },
-      {
-        "Rank": "100.",
-        "Player": "Bob Ewing",
-        "Age": 34,
-        "ERA": 1.731,
-        "Year": 1907,
-
         "Throws": "R"
       },
       {
         "Rank": "101.",
-
         "Player": "Mickey Vernon",
         "YearsAge": "(20)",
         "Hits": "2495",
@@ -6396,25 +4980,10 @@
         "Player": "Fred McGriff",
         "YearsAge": "(19)",
         "Hits": "2490",
-
-        "Player": "Vic Willis+",
-        "Age": 30,
-        "ERA": 1.733,
-        "Year": 1906,
-        "Throws": "R"
-      },
-      {
-        "Rank": "102.",
-        "Player": "Sandy Koufax+",
-        "Age": 28,
-        "ERA": 1.735,
-        "Year": 1964,
-
         "Throws": "L"
       },
       {
         "Rank": "103.",
-
         "Player": "David Ortiz",
         "YearsAge": "(20)",
         "Hits": "2472",
@@ -6432,33 +5001,10 @@
         "Player": "Joe Medwick+",
         "YearsAge": "(17)",
         "Hits": "2471",
-
-        "Player": "Hippo Vaughn",
-        "Age": 30,
-        "ERA": 1.736,
-        "Year": 1918,
-        "Throws": "L"
-      },
-      {
-        "Rank": "104.",
-        "Player": "Charlie Chech",
-        "Age": 30,
-        "ERA": 1.738,
-        "Year": 1908,
-        "Throws": "R"
-      },
-      {
-        "Rank": "105.",
-        "Player": "John Ward+",
-        "Age": 20,
-        "ERA": 1.739,
-        "Year": 1880,
-
         "Throws": "R"
       },
       {
         "Rank": "106.",
-
         "Player": "Bobby Abreu",
         "YearsAge": "(18)",
         "Hits": "2470",
@@ -6469,25 +5015,10 @@
         "Player": "Frank Thomas+",
         "YearsAge": "(19)",
         "Hits": "2468",
-
-        "Player": "Henry Boyle",
-        "Age": 23,
-        "ERA": 1.74,
-        "Year": 1884,
-        "Throws": "R"
-      },
-      {
-        "Rank": "107.",
-        "Player": "Tim Keefe+",
-        "Age": 31,
-        "ERA": 1.741,
-        "Year": 1888,
-
         "Throws": "R"
       },
       {
         "Rank": "108.",
-
         "Player": "Roger Connor+",
         "YearsAge": "(18)",
         "Hits": "2467",
@@ -6498,25 +5029,10 @@
         "Player": "Harry Hooper+",
         "YearsAge": "(17)",
         "Hits": "2466",
-
-        "Player": "Pedro Martinez+",
-        "Age": 28,
-        "ERA": 1.742,
-        "Year": 2000,
-        "Throws": "R"
-      },
-      {
-        "Rank": "109.",
-        "Player": "Ron Guidry",
-        "Age": 27,
-        "ERA": 1.743,
-        "Year": 1978,
-
         "Throws": "L"
       },
       {
         "Rank": "110.",
-
         "Player": "Bill Dahlen",
         "YearsAge": "(21)",
         "Hits": "2461",
@@ -6527,25 +5043,10 @@
         "Player": "Jeff Kent",
         "YearsAge": "(17)",
         "Hits": "2461",
-
-        "Player": "Carl Mays",
-        "Age": 25,
-        "ERA": 1.744,
-        "Year": 1917,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Earl Moore",
-        "Age": 25,
-        "ERA": 1.744,
-        "Year": 1903,
-
         "Throws": "R"
       },
       {
         "Rank": "112.",
-
         "Player": "Ozzie Smith+",
         "YearsAge": "(19)",
         "Hits": "2460",
@@ -6577,49 +5078,10 @@
         "Player": "Jim Rice+",
         "YearsAge": "(16)",
         "Hits": "2452",
-
-        "Player": "Babe Ruth+",
-        "Age": 21,
-        "ERA": 1.752,
-        "Year": 1916,
-        "Throws": "L"
-      },
-      {
-        "Rank": "113.",
-        "Player": "Al Spalding+",
-        "Age": 25,
-        "ERA": 1.753,
-        "Year": 1876,
-        "Throws": "R"
-      },
-      {
-        "Rank": "114.",
-        "Player": "Fred Goldsmith",
-        "Age": 24,
-        "ERA": 1.754,
-        "Year": 1880,
-        "Throws": "R"
-      },
-      {
-        "Rank": "115.",
-        "Player": "Henry Boyle",
-        "Age": 25,
-        "ERA": 1.757,
-        "Year": 1886,
-        "Throws": "R"
-      },
-      {
-        "Rank": "116.",
-        "Player": "Tom Seaver+",
-        "Age": 26,
-        "ERA": 1.76,
-        "Year": 1971,
-
         "Throws": "R"
       },
       {
         "Rank": "117.",
-
         "Player": "Red Schoendienst+",
         "YearsAge": "(19)",
         "Hits": "2449",
@@ -6693,97 +5155,10 @@
         "Player": "Ryne Sandberg+",
         "YearsAge": "(16)",
         "Hits": "2386",
-
-        "Player": "Doc White",
-        "Age": 26,
-        "ERA": 1.763,
-        "Year": 1905,
-        "Throws": "L"
-      },
-      {
-        "Rank": "118.",
-        "Player": "Eddie Plank+",
-        "Age": 33,
-        "ERA": 1.764,
-        "Year": 1909,
-        "Throws": "L"
-      },
-      {
-        "Rank": "119.",
-        "Player": "Noodles Hahn",
-        "Age": 23,
-        "ERA": 1.766,
-        "Year": 1902,
-        "Throws": "L"
-      },
-      {
-        "Rank": "120.",
-        "Player": "Bob Rhoads",
-        "Age": 28,
-        "ERA": 1.767,
-        "Year": 1908,
-        "Throws": "R"
-      },
-      {
-        "Rank": "121.",
-        "Player": "Jake Arrieta",
-        "Age": 29,
-        "ERA": 1.769,
-        "Year": 2015,
-        "Throws": "R"
-      },
-      {
-        "Rank": "122.",
-        "Player": "Clayton Kershaw",
-        "Age": 26,
-        "ERA": 1.77,
-        "Year": 2014,
-        "Throws": "L"
-      },
-      {
-        "Rank": " ",
-        "Player": "Jack Powell",
-        "Age": 31,
-        "ERA": 1.77,
-        "Year": 1906,
-        "Throws": "R"
-      },
-      {
-        "Rank": "124.",
-        "Player": "Mort Cooper",
-        "Age": 29,
-        "ERA": 1.776,
-        "Year": 1942,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Doc White",
-        "Age": 25,
-        "ERA": 1.776,
-        "Year": 1904,
-        "Throws": "L"
-      },
-      {
-        "Rank": "126.",
-        "Player": "Ed Killian",
-        "Age": 30,
-        "ERA": 1.777,
-        "Year": 1907,
-        "Throws": "L"
-      },
-      {
-        "Rank": "127.",
-        "Player": "Eddie Cicotte",
-        "Age": 32,
-        "ERA": 1.781,
-        "Year": 1916,
-
         "Throws": "R"
       },
       {
         "Rank": "128.",
-
         "Player": "Enos Slaughter+",
         "YearsAge": "(19)",
         "Hits": "2383",
@@ -6815,49 +5190,10 @@
         "Player": "Michael Young",
         "YearsAge": "(14)",
         "Hits": "2375",
-
-        "Player": "Andy Coakley",
-        "Age": 25,
-        "ERA": 1.782,
-        "Year": 1908,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Ed Reulbach",
-        "Age": 26,
-        "ERA": 1.782,
-        "Year": 1909,
-        "Throws": "R"
-      },
-      {
-        "Rank": "130.",
-        "Player": "Will White",
-        "Age": 23,
-        "ERA": 1.788,
-        "Year": 1878,
-        "Throws": "R"
-      },
-      {
-        "Rank": "131.",
-        "Player": "Hippo Vaughn",
-        "Age": 31,
-        "ERA": 1.79,
-        "Year": 1919,
-        "Throws": "L"
-      },
-      {
-        "Rank": "132.",
-        "Player": "Guy Hecker",
-        "Age": 28,
-        "ERA": 1.798,
-        "Year": 1884,
-
         "Throws": "R"
       },
       {
         "Rank": "133.",
-
         "Player": "Lou Whitaker",
         "YearsAge": "(19)",
         "Hits": "2369",
@@ -6875,61 +5211,24 @@
         "Player": "Carlton Fisk+",
         "YearsAge": "(24)",
         "Hits": "2356",
-
-        "Player": "Bob Rhoads",
-        "Age": 26,
-        "ERA": 1.8,
-        "Year": 1906,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Frank Smith",
-        "Age": 29,
-        "ERA": 1.8,
-        "Year": 1909,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Stump Weidman",
-        "Age": 20,
-        "ERA": 1.8,
-        "Year": 1881,
-
         "Throws": "R"
       },
       {
         "Rank": "136.",
-
         "Player": "Joe Judge",
         "YearsAge": "(20)",
         "Hits": "2352",
-
-        "Player": "Vean Gregg",
-        "Age": 26,
-        "ERA": 1.802,
-        "Year": 1911,
-
         "Throws": "L"
       },
       {
         "Rank": "137.",
-
         "Player": "Orlando Cepeda+",
         "YearsAge": "(17)",
         "Hits": "2351",
-
-        "Player": "King Cole",
-        "Age": 24,
-        "ERA": 1.803,
-        "Year": 1910,
-
         "Throws": "R"
       },
       {
         "Rank": "138.",
-
         "Player": "Billy Herman+",
         "YearsAge": "(15)",
         "Hits": "2345",
@@ -6982,73 +5281,10 @@
         "Player": "Edgar Renteria",
         "YearsAge": "(16)",
         "Hits": "2327",
-
-        "Player": "Sam McDowell",
-        "Age": 25,
-        "ERA": 1.807,
-        "Year": 1968,
-        "Throws": "L"
-      },
-      {
-        "Rank": "139.",
-        "Player": "Stan Coveleski+",
-        "Age": 27,
-        "ERA": 1.81,
-        "Year": 1917,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Cy Morgan",
-        "Age": 30,
-        "ERA": 1.81,
-        "Year": 1909,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Hal Newhouser+",
-        "Age": 24,
-        "ERA": 1.81,
-        "Year": 1945,
-        "Throws": "L"
-      },
-      {
-        "Rank": "142.",
-        "Player": "Vida Blue",
-        "Age": 21,
-        "ERA": 1.817,
-        "Year": 1971,
-        "Throws": "L"
-      },
-      {
-        "Rank": " ",
-        "Player": "Dutch Ruether",
-        "Age": 25,
-        "ERA": 1.817,
-        "Year": 1919,
-        "Throws": "L"
-      },
-      {
-        "Rank": "144.",
-        "Player": "Russ Ford",
-        "Age": 31,
-        "ERA": 1.819,
-        "Year": 1914,
-        "Throws": "R"
-      },
-      {
-        "Rank": "145.",
-        "Player": "Eddie Cicotte",
-        "Age": 35,
-        "ERA": 1.82,
-        "Year": 1919,
-
         "Throws": "R"
       },
       {
         "Rank": "146.",
-
         "Player": "Dave Concepcion",
         "YearsAge": "(19)",
         "Hits": "2326",
@@ -7087,66 +5323,13 @@
         "Player": "Jim Bottomley+",
         "YearsAge": "(16)",
         "Hits": "2313",
-
-        "Player": "Jack Chesbro+",
-        "Age": 30,
-        "ERA": 1.821,
-        "Year": 1904,
-        "Throws": "R"
-      },
-      {
-        "Rank": "147.",
-        "Player": "Stan Coveleski+",
-        "Age": 28,
-        "ERA": 1.823,
-        "Year": 1918,
-        "Throws": "R"
-      },
-      {
-        "Rank": "148.",
-        "Player": "Cy Young+",
-        "Age": 38,
-        "ERA": 1.824,
-        "Year": 1905,
-        "Throws": "R"
-      },
-      {
-        "Rank": "149.",
-        "Player": "Lew Richie",
-        "Age": 24,
-        "ERA": 1.827,
-        "Year": 1908,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Hippo Vaughn",
-        "Age": 22,
-        "ERA": 1.827,
-        "Year": 1910,
-        "Throws": "L"
-      },
-      {
-        "Rank": "151.",
-        "Player": "Clayton Kershaw",
-        "Age": 25,
-        "ERA": 1.831,
-        "Year": 2013,
-
         "Throws": "L"
       },
       {
         "Rank": "152.",
-
         "Player": "Bobby Wallace+",
         "YearsAge": "(25)",
         "Hits": "2309",
-
-        "Player": "Pete Alexander+",
-        "Age": 30,
-        "ERA": 1.832,
-        "Year": 1917,
-
         "Throws": "R"
       },
       {
@@ -7172,7 +5355,6 @@
       },
       {
         "Rank": "156.",
-
         "Player": "Kiki Cuyler+",
         "YearsAge": "(18)",
         "Hits": "2299",
@@ -7190,47 +5372,17 @@
         "Player": "Hugh Duffy+",
         "YearsAge": "(17)",
         "Hits": "2293",
-
-        "Player": "Fred Toney",
-        "Age": 30,
-        "ERA": 1.84,
-        "Year": 1919,
-        "Throws": "R"
-      },
-      {
-        "Rank": "157.",
-        "Player": "Jim McCormick",
-        "Age": 26,
-        "ERA": 1.842,
-        "Year": 1883,
-        "Throws": "R"
-      },
-      {
-        "Rank": "158.",
-        "Player": "Jim McCormick",
-        "Age": 23,
-        "ERA": 1.847,
-        "Year": 1880,
-
         "Throws": "R"
       },
       {
         "Rank": "159.",
-
         "Player": "Joe Cronin+",
         "YearsAge": "(20)",
         "Hits": "2285",
-
-        "Player": "John Clarkson+",
-        "Age": 23,
-        "ERA": 1.849,
-        "Year": 1885,
-
         "Throws": "R"
       },
       {
         "Rank": "160.",
-
         "Player": "Gary Gaetti",
         "YearsAge": "(20)",
         "Hits": "2280",
@@ -7248,47 +5400,17 @@
         "Player": "Carlos Lee",
         "YearsAge": "(14)",
         "Hits": "2273",
-
-        "Player": "Eppa Rixey+",
-        "Age": 25,
-        "ERA": 1.85,
-        "Year": 1916,
-        "Throws": "L"
-      },
-      {
-        "Rank": "161.",
-        "Player": "Lady Baldwin",
-        "Age": 26,
-        "ERA": 1.857,
-        "Year": 1885,
-        "Throws": "L"
-      },
-      {
-        "Rank": "162.",
-        "Player": "Mordecai Brown+",
-        "Age": 33,
-        "ERA": 1.859,
-        "Year": 1910,
-
         "Throws": "R"
       },
       {
         "Rank": "163.",
-
         "Player": "Tommy Corcoran",
         "YearsAge": "(18)",
         "Hits": "2259",
-
-        "Player": "Mordecai Brown+",
-        "Age": 27,
-        "ERA": 1.865,
-        "Year": 1904,
-
         "Throws": "R"
       },
       {
         "Rank": "164.",
-
         "Player": "Bid McPhee+",
         "YearsAge": "(18)",
         "Hits": "2258",
@@ -7320,49 +5442,10 @@
         "Player": "Ron Santo+",
         "YearsAge": "(15)",
         "Hits": "2254",
-
-        "Player": "Wilbur Cooper",
-        "Age": 24,
-        "ERA": 1.866,
-        "Year": 1916,
-        "Throws": "L"
-      },
-      {
-        "Rank": " ",
-        "Player": "Lefty Leifield",
-        "Age": 22,
-        "ERA": 1.866,
-        "Year": 1906,
-        "Throws": "L"
-      },
-      {
-        "Rank": "166.",
-        "Player": "Phil Niekro+",
-        "Age": 28,
-        "ERA": 1.87,
-        "Year": 1967,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Kaiser Wilhelm",
-        "Age": 31,
-        "ERA": 1.87,
-        "Year": 1908,
-        "Throws": "R"
-      },
-      {
-        "Rank": "168.",
-        "Player": "Roger Clemens",
-        "Age": 42,
-        "ERA": 1.874,
-        "Year": 2005,
-
         "Throws": "R"
       },
       {
         "Rank": "169.",
-
         "Player": "Jose Cruz",
         "YearsAge": "(19)",
         "Hits": "2251",
@@ -7373,53 +5456,24 @@
         "Player": "Marquis Grissom",
         "YearsAge": "(17)",
         "Hits": "2251",
-
-        "Player": "Ed Walsh+",
-        "Age": 25,
-        "ERA": 1.875,
-        "Year": 1906,
-        "Throws": "R"
-      },
-      {
-        "Rank": "170.",
-        "Player": "Tony Mullane",
-        "Age": 23,
-        "ERA": 1.877,
-        "Year": 1882,
-
         "Throws": "R"
       },
       {
         "Rank": "171.",
-
         "Player": "Bert Campaneris",
         "YearsAge": "(19)",
         "Hits": "2249",
-
-        "Player": "Clark Griffith+",
-        "Age": 28,
-        "ERA": 1.879,
-        "Year": 1898,
-
         "Throws": "R"
       },
       {
         "Rank": "172.",
-
         "Player": "Edgar Martinez",
         "YearsAge": "(18)",
         "Hits": "2247",
-
-        "Player": "Joe Horlen",
-        "Age": 26,
-        "ERA": 1.88,
-        "Year": 1964,
-
         "Throws": "R"
       },
       {
         "Rank": "173.",
-
         "Player": "John Olerud",
         "YearsAge": "(17)",
         "Hits": "2239",
@@ -7430,39 +5484,17 @@
         "Player": "Mike Schmidt+",
         "YearsAge": "(18)",
         "Hits": "2234",
-
-        "Player": "Sandy Koufax+",
-        "Age": 27,
-        "ERA": 1.881,
-        "Year": 1963,
-        "Throws": "L"
-      },
-      {
-        "Rank": " ",
-        "Player": "Joe Lake",
-        "Age": 28,
-        "ERA": 1.881,
-        "Year": 1909,
-
         "Throws": "R"
       },
       {
         "Rank": "175.",
-
         "Player": "Willie Stargell+",
         "YearsAge": "(21)",
         "Hits": "2232",
-
-        "Player": "Nick Altrock",
-        "Age": 28,
-        "ERA": 1.882,
-        "Year": 1905,
-
         "Throws": "L"
       },
       {
         "Rank": "176.",
-
         "Player": "Fred Tenney",
         "YearsAge": "(17)",
         "Hits": "2231",
@@ -7480,33 +5512,10 @@
         "Player": "Graig Nettles",
         "YearsAge": "(22)",
         "Hits": "2225",
-
-        "Player": "Pol Perritt",
-        "Age": 25,
-        "ERA": 1.884,
-        "Year": 1917,
-        "Throws": "R"
-      },
-      {
-        "Rank": "177.",
-        "Player": "Harry Howell",
-        "Age": 31,
-        "ERA": 1.887,
-        "Year": 1908,
-        "Throws": "R"
-      },
-      {
-        "Rank": "178.",
-        "Player": "Rube Waddell+",
-        "Age": 31,
-        "ERA": 1.89,
-        "Year": 1908,
-
         "Throws": "L"
       },
       {
         "Rank": "179.",
-
         "Player": "Darrell Evans",
         "YearsAge": "(21)",
         "Hits": "2223",
@@ -7517,25 +5526,10 @@
         "Player": "Joe Kelley+",
         "YearsAge": "(17)",
         "Hits": "2220",
-
-        "Player": "Kevin Brown",
-        "Age": 31,
-        "ERA": 1.893,
-        "Year": 1996,
-        "Throws": "R"
-      },
-      {
-        "Rank": "180.",
-        "Player": "Christy Mathewson+",
-        "Age": 29,
-        "ERA": 1.894,
-        "Year": 1910,
-
         "Throws": "R"
       },
       {
         "Rank": "181.",
-
         "Player": "Juan Pierre",
         "YearsAge": "(14)",
         "Hits": "2217",
@@ -7546,39 +5540,17 @@
         "Player": "Joe DiMaggio+",
         "YearsAge": "(13)",
         "Hits": "2214",
-
-        "Player": "Bill James",
-        "Age": 22,
-        "ERA": 1.896,
-        "Year": 1914,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Ben Sanders",
-        "Age": 23,
-        "ERA": 1.896,
-        "Year": 1888,
-
         "Throws": "R"
       },
       {
         "Rank": "183.",
-
         "Player": "Joe Kuhel",
         "YearsAge": "(18)",
         "Hits": "2212",
-
-        "Player": "Max Lanier",
-        "Age": 27,
-        "ERA": 1.898,
-        "Year": 1943,
-
         "Throws": "L"
       },
       {
         "Rank": "184.",
-
         "Player": "Willie McCovey+",
         "YearsAge": "(22)",
         "Hits": "2211",
@@ -7589,25 +5561,10 @@
         "Player": "Willie Randolph",
         "YearsAge": "(18)",
         "Hits": "2210",
-
-        "Player": "Walter Johnson+",
-        "Age": 23,
-        "ERA": 1.899,
-        "Year": 1911,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Walter Johnson+",
-        "Age": 28,
-        "ERA": 1.899,
-        "Year": 1916,
-
         "Throws": "R"
       },
       {
         "Rank": "186.",
-
         "Player": "Willie Wilson",
         "YearsAge": "(19)",
         "Hits": "2207",
@@ -7632,55 +5589,17 @@
         "Player": "Bill Terry+",
         "YearsAge": "(14)",
         "Hits": "2193",
-
-        "Player": "Art Fromme",
-        "Age": 25,
-        "ERA": 1.901,
-        "Year": 1909,
-        "Throws": "R"
-      },
-      {
-        "Rank": "187.",
-        "Player": "Pedro Martinez+",
-        "Age": 25,
-        "ERA": 1.902,
-        "Year": 1997,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Jim Scott",
-        "Age": 25,
-        "ERA": 1.902,
-        "Year": 1913,
-        "Throws": "R"
-      },
-      {
-        "Rank": "189.",
-        "Player": "Reb Russell",
-        "Age": 24,
-        "ERA": 1.904,
-        "Year": 1913,
-
         "Throws": "L"
       },
       {
         "Rank": "190.",
-
         "Player": "Cecil Cooper",
         "YearsAge": "(17)",
         "Hits": "2192",
-
-        "Player": "Jake Weimer",
-        "Age": 30,
-        "ERA": 1.906,
-        "Year": 1904,
-
         "Throws": "L"
       },
       {
         "Rank": "191.",
-
         "Player": "Larry Bowa",
         "YearsAge": "(16)",
         "Hits": "2191",
@@ -7698,33 +5617,10 @@
         "Player": "Keith Hernandez",
         "YearsAge": "(17)",
         "Hits": "2182",
-
-        "Player": "Pete Alexander+",
-        "Age": 33,
-        "ERA": 1.907,
-        "Year": 1920,
-        "Throws": "R"
-      },
-      {
-        "Rank": "192.",
-        "Player": "Charley Hall",
-        "Age": 25,
-        "ERA": 1.908,
-        "Year": 1910,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Willie Mitchell",
-        "Age": 23,
-        "ERA": 1.908,
-        "Year": 1913,
-
         "Throws": "L"
       },
       {
         "Rank": "194.",
-
         "Player": "Will Clark",
         "YearsAge": "(15)",
         "Hits": "2176",
@@ -7742,33 +5638,10 @@
         "Player": "Pee Wee Reese+",
         "YearsAge": "(16)",
         "Hits": "2170",
-
-        "Player": "Smoky Joe Wood",
-        "Age": 22,
-        "ERA": 1.91,
-        "Year": 1912,
-        "Throws": "R"
-      },
-      {
-        "Rank": "195.",
-        "Player": "Charlie Buffinton",
-        "Age": 27,
-        "ERA": 1.911,
-        "Year": 1888,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Luis Tiant",
-        "Age": 31,
-        "ERA": 1.911,
-        "Year": 1972,
-
         "Throws": "R"
       },
       {
         "Rank": "197.",
-
         "Player": "Sherry Magee",
         "YearsAge": "(16)",
         "Hits": "2169",
@@ -7793,41 +5666,10 @@
         "Player": "Larry Walker",
         "YearsAge": "(17)",
         "Hits": "2160",
-
-        "Player": "Ed Siever",
-        "Age": 27,
-        "ERA": 1.912,
-        "Year": 1902,
-        "Throws": "L"
-      },
-      {
-        "Rank": "198.",
-        "Player": "Wilbur Wood",
-        "Age": 29,
-        "ERA": 1.913,
-        "Year": 1971,
-        "Throws": "L"
-      },
-      {
-        "Rank": "199.",
-        "Player": "Earl Moseley",
-        "Age": 27,
-        "ERA": 1.914,
-        "Year": 1915,
-        "Throws": "R"
-      },
-      {
-        "Rank": "200.",
-        "Player": "Bill Burns",
-        "Age": 29,
-        "ERA": 1.916,
-        "Year": 1909,
-
         "Throws": "L"
       },
       {
         "Rank": "201.",
-
         "Player": "Hal Chase",
         "YearsAge": "(15)",
         "Hits": "2158",
@@ -7838,25 +5680,10 @@
         "Player": "Magglio Ordonez",
         "YearsAge": "(15)",
         "Hits": "2156",
-
-        "Player": "Gaylord Perry+",
-        "Age": 33,
-        "ERA": 1.917,
-        "Year": 1972,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Jeff Pfeffer",
-        "Age": 28,
-        "ERA": 1.917,
-        "Year": 1916,
-
         "Throws": "R"
       },
       {
         "Rank": "203.",
-
         "Player": "Don Mattingly",
         "YearsAge": "(14)",
         "Hits": "2153",
@@ -7881,41 +5708,10 @@
         "Player": "Ed Konetchy",
         "YearsAge": "(15)",
         "Hits": "2150",
-
-        "Player": "Orval Overall",
-        "Age": 27,
-        "ERA": 1.92,
-        "Year": 1908,
-        "Throws": "R"
-      },
-      {
-        "Rank": "204.",
-        "Player": "Larry Cheney",
-        "Age": 30,
-        "ERA": 1.921,
-        "Year": 1916,
-        "Throws": "R"
-      },
-      {
-        "Rank": "205.",
-        "Player": "Red Faber+",
-        "Age": 28,
-        "ERA": 1.923,
-        "Year": 1917,
-        "Throws": "R"
-      },
-      {
-        "Rank": "206.",
-        "Player": "Mickey Welch+",
-        "Age": 28,
-        "ERA": 1.926,
-        "Year": 1888,
-
         "Throws": "R"
       },
       {
         "Rank": "207.",
-
         "Player": "Ken Boyer",
         "YearsAge": "(15)",
         "Hits": "2143",
@@ -7954,71 +5750,17 @@
         "Player": "Wally Moses",
         "YearsAge": "(17)",
         "Hits": "2138",
-
-        "Player": "Cy Young+",
-        "Age": 25,
-        "ERA": 1.927,
-        "Year": 1892,
-        "Throws": "R"
-      },
-      {
-        "Rank": "208.",
-        "Player": "Dolf Luque",
-        "Age": 32,
-        "ERA": 1.929,
-        "Year": 1923,
-        "Throws": "R"
-      },
-      {
-        "Rank": "209.",
-        "Player": "Roger Clemens",
-        "Age": 27,
-        "ERA": 1.931,
-        "Year": 1990,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "John Tudor",
-        "Age": 31,
-        "ERA": 1.931,
-        "Year": 1985,
-        "Throws": "L"
-      },
-      {
-        "Rank": "211.",
-        "Player": "Harry Howell",
-        "Age": 30,
-        "ERA": 1.935,
-        "Year": 1907,
-        "Throws": "R"
-      },
-      {
-        "Rank": "212.",
-        "Player": "Hal Newhouser+",
-        "Age": 25,
-        "ERA": 1.937,
-        "Year": 1946,
-
         "Throws": "L"
       },
       {
         "Rank": "213.",
-
         "Player": "Don Baylor",
         "YearsAge": "(19)",
         "Hits": "2135",
-
-        "Player": "Allan Sothoron",
-        "Age": 25,
-        "ERA": 1.938,
-        "Year": 1918,
-
         "Throws": "R"
       },
       {
         "Rank": "214.",
-
         "Player": "Moises Alou",
         "YearsAge": "(17)",
         "Hits": "2134",
@@ -8036,47 +5778,17 @@
         "Player": "Paul Hines",
         "YearsAge": "(20)",
         "Hits": "2133",
-
-        "Player": "Eddie Cicotte",
-        "Age": 25,
-        "ERA": 1.94,
-        "Year": 1909,
-        "Throws": "R"
-      },
-      {
-        "Rank": "215.",
-        "Player": "Frank Owen",
-        "Age": 24,
-        "ERA": 1.943,
-        "Year": 1904,
-        "Throws": "R"
-      },
-      {
-        "Rank": "216.",
-        "Player": "Ray Caldwell",
-        "Age": 26,
-        "ERA": 1.944,
-        "Year": 1914,
-
         "Throws": "R"
       },
       {
         "Rank": "217.",
-
         "Player": "Buddy Myer",
         "YearsAge": "(17)",
         "Hits": "2131",
-
-        "Player": "Dave McNally",
-        "Age": 25,
-        "ERA": 1.945,
-        "Year": 1968,
-
         "Throws": "L"
       },
       {
         "Rank": "218.",
-
         "Player": "Herman Long",
         "YearsAge": "(16)",
         "Hits": "2129",
@@ -8115,71 +5827,17 @@
         "Player": "Dale Murphy",
         "YearsAge": "(18)",
         "Hits": "2111",
-
-        "Player": "Larry Corcoran",
-        "Age": 20,
-        "ERA": 1.947,
-        "Year": 1880,
-        "Throws": "R"
-      },
-      {
-        "Rank": "219.",
-        "Player": "Larry Corcoran",
-        "Age": 22,
-        "ERA": 1.948,
-        "Year": 1882,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Jesse Tannehill",
-        "Age": 27,
-        "ERA": 1.948,
-        "Year": 1902,
-        "Throws": "L"
-      },
-      {
-        "Rank": "221.",
-        "Player": "Reb Russell",
-        "Age": 28,
-        "ERA": 1.949,
-        "Year": 1917,
-        "Throws": "L"
-      },
-      {
-        "Rank": "222.",
-        "Player": "Sam Weaver",
-        "Age": 22,
-        "ERA": 1.95,
-        "Year": 1878,
-        "Throws": "R"
-      },
-      {
-        "Rank": "223.",
-        "Player": "Billy Rhines",
-        "Age": 21,
-        "ERA": 1.951,
-        "Year": 1890,
-
         "Throws": "R"
       },
       {
         "Rank": "224.",
-
         "Player": "Chris Chambliss",
         "YearsAge": "(17)",
         "Hits": "2109",
-
-        "Player": "Ferdie Schupp",
-        "Age": 26,
-        "ERA": 1.952,
-        "Year": 1917,
-
         "Throws": "L"
       },
       {
         "Rank": "225.",
-
         "Player": "Ellis Burks",
         "YearsAge": "(18)",
         "Hits": "2107",
@@ -8218,57 +5876,10 @@
         "Player": "Felipe Alou",
         "YearsAge": "(17)",
         "Hits": "2101",
-
-        "Player": "Fred Olmstead",
-        "Age": 28,
-        "ERA": 1.953,
-        "Year": 1910,
-        "Throws": "R"
-      },
-      {
-        "Rank": "226.",
-        "Player": "Pretzels Getzien",
-        "Age": 20,
-        "ERA": 1.955,
-        "Year": 1884,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Denny McLain",
-        "Age": 24,
-        "ERA": 1.955,
-        "Year": 1968,
-        "Throws": "R"
-      },
-      {
-        "Rank": "228.",
-        "Player": "Tommy Bond",
-        "Age": 23,
-        "ERA": 1.961,
-        "Year": 1879,
-        "Throws": "R"
-      },
-      {
-        "Rank": "229.",
-        "Player": "Jeff Tesreau",
-        "Age": 24,
-        "ERA": 1.963,
-        "Year": 1912,
-        "Throws": "R"
-      },
-      {
-        "Rank": "230.",
-        "Player": "Cy Young+",
-        "Age": 37,
-        "ERA": 1.966,
-        "Year": 1904,
-
         "Throws": "R"
       },
       {
         "Rank": "231.",
-
         "Player": "Clyde Milan",
         "YearsAge": "(16)",
         "Hits": "2100",
@@ -8314,79 +5925,17 @@
         "Player": "Hal McRae",
         "YearsAge": "(19)",
         "Hits": "2091",
-
-        "Player": "Carl Lundgren",
-        "Age": 22,
-        "ERA": 1.969,
-        "Year": 1902,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Billy Pierce",
-        "Age": 28,
-        "ERA": 1.969,
-        "Year": 1955,
-        "Throws": "L"
-      },
-      {
-        "Rank": "233.",
-        "Player": "Harry Coveleski",
-        "Age": 30,
-        "ERA": 1.97,
-        "Year": 1916,
-        "Throws": "L"
-      },
-      {
-        "Rank": "234.",
-        "Player": "Jeff Pfeffer",
-        "Age": 26,
-        "ERA": 1.971,
-        "Year": 1914,
-        "Throws": "R"
-      },
-      {
-        "Rank": "235.",
-        "Player": "Perry Werden",
-        "Age": 22,
-        "ERA": 1.974,
-        "Year": 1884,
-        "Throws": "R"
-      },
-      {
-        "Rank": "236.",
-        "Player": "Steve Carlton+",
-        "Age": 27,
-        "ERA": 1.975,
-        "Year": 1972,
-        "Throws": "L"
-      },
-      {
-        "Rank": "237.",
-        "Player": "Scott Perry",
-        "Age": 27,
-        "ERA": 1.977,
-        "Year": 1918,
-
         "Throws": "R"
       },
       {
         "Rank": "238.",
-
         "Player": "Al Dark",
         "YearsAge": "(14)",
         "Hits": "2089",
-
-        "Player": "Harry Howell",
-        "Age": 28,
-        "ERA": 1.978,
-        "Year": 1905,
-
         "Throws": "R"
       },
       {
         "Rank": "239.",
-
         "Player": "Cesar Cedeno",
         "YearsAge": "(17)",
         "Hits": "2087",
@@ -8425,57 +5974,10 @@
         "Player": "Matt Holliday",
         "YearsAge": "(14)",
         "Hits": "2081",
-
-        "Player": "Charlie Ferguson",
-        "Age": 23,
-        "ERA": 1.979,
-        "Year": 1886,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Tommy John",
-        "Age": 25,
-        "ERA": 1.979,
-        "Year": 1968,
-        "Throws": "L"
-      },
-      {
-        "Rank": " ",
-        "Player": "Gary Peters",
-        "Age": 29,
-        "ERA": 1.979,
-        "Year": 1966,
-        "Throws": "L"
-      },
-      {
-        "Rank": "242.",
-        "Player": "Babe Adams",
-        "Age": 37,
-        "ERA": 1.982,
-        "Year": 1919,
-        "Throws": "R"
-      },
-      {
-        "Rank": "243.",
-        "Player": "Will White",
-        "Age": 24,
-        "ERA": 1.985,
-        "Year": 1879,
-        "Throws": "R"
-      },
-      {
-        "Rank": "244.",
-        "Player": "Bobby Bolin",
-        "Age": 29,
-        "ERA": 1.987,
-        "Year": 1968,
-
         "Throws": "R"
       },
       {
         "Rank": "245.",
-
         "Player": "George Burns",
         "YearsAge": "(15)",
         "Hits": "2077",
@@ -8528,87 +6030,17 @@
         "Player": "Bobby Veach",
         "YearsAge": "(14)",
         "Hits": "2063",
-
-        "Player": "Cy Young+",
-        "Age": 40,
-        "ERA": 1.992,
-        "Year": 1907,
-        "Throws": "R"
-      },
-      {
-        "Rank": "246.",
-        "Player": "Jim Bagby",
-        "Age": 27,
-        "ERA": 1.993,
-        "Year": 1917,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Christy Mathewson+",
-        "Age": 30,
-        "ERA": 1.993,
-        "Year": 1911,
-        "Throws": "R"
-      },
-      {
-        "Rank": "248.",
-        "Player": "Pud Galvin+",
-        "Age": 27,
-        "ERA": 1.994,
-        "Year": 1884,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Gary Nolan",
-        "Age": 24,
-        "ERA": 1.994,
-        "Year": 1972,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Jack Taylor",
-        "Age": 32,
-        "ERA": 1.994,
-        "Year": 1906,
-        "Throws": "R"
-      },
-      {
-        "Rank": "251.",
-        "Player": "Christy Mathewson+",
-        "Age": 26,
-        "ERA": 2,
-        "Year": 1907,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Jack Pfiester",
-        "Age": 30,
-        "ERA": 2,
-        "Year": 1908,
-
         "Throws": "L"
       },
       {
         "Rank": "253.",
-
         "Player": "Bob Elliott",
         "YearsAge": "(15)",
         "Hits": "2061",
-
-        "Player": "Tully Sparks",
-        "Age": 32,
-        "ERA": 2.004,
-        "Year": 1907,
-
         "Throws": "R"
       },
       {
         "Rank": "254.",
-
         "Player": "Wally Joyner",
         "YearsAge": "(16)",
         "Hits": "2060",
@@ -8654,65 +6086,10 @@
         "Player": "Adrian Gonzalez",
         "YearsAge": "(15, 36)",
         "Hits": "2050",
-
-        "Player": "Lefty Tyler",
-        "Age": 28,
-        "ERA": 2.005,
-        "Year": 1918,
-        "Throws": "L"
-      },
-      {
-        "Rank": " ",
-        "Player": "Lon Warneke",
-        "Age": 24,
-        "ERA": 2.005,
-        "Year": 1933,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Hooks Wiltse",
-        "Age": 29,
-        "ERA": 2.005,
-        "Year": 1909,
-        "Throws": "L"
-      },
-      {
-        "Rank": "257.",
-        "Player": "Harry Gaspar",
-        "Age": 26,
-        "ERA": 2.008,
-        "Year": 1909,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Charlie Hodnett",
-        "Age": 24,
-        "ERA": 2.008,
-        "Year": 1884,
-        "Throws": ""
-      },
-      {
-        "Rank": "259.",
-        "Player": "Hippo Vaughn",
-        "Age": 29,
-        "ERA": 2.009,
-        "Year": 1917,
-        "Throws": "L"
-      },
-      {
-        "Rank": "260.",
-        "Player": "Whitey Ford+",
-        "Age": 29,
-        "ERA": 2.011,
-        "Year": 1958,
-
         "Throws": "L"
       },
       {
         "Rank": "261.",
-
         "Player": "Johnny Bench+",
         "YearsAge": "(17)",
         "Hits": "2048",
@@ -8744,49 +6121,10 @@
         "Player": "Jack Glasscock",
         "YearsAge": "(17)",
         "Hits": "2041",
-
-        "Player": "Eddie Plank+",
-        "Age": 34,
-        "ERA": 2.013,
-        "Year": 1910,
-        "Throws": "L"
-      },
-      {
-        "Rank": " ",
-        "Player": "Babe Ruth+",
-        "Age": 22,
-        "ERA": 2.013,
-        "Year": 1917,
-        "Throws": "L"
-      },
-      {
-        "Rank": " ",
-        "Player": "Ed Seward",
-        "Age": 21,
-        "ERA": 2.013,
-        "Year": 1888,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Doc Watson",
-        "Age": 29,
-        "ERA": 2.013,
-        "Year": 1914,
-        "Throws": "L"
-      },
-      {
-        "Rank": "265.",
-        "Player": "Addie Joss+",
-        "Age": 25,
-        "ERA": 2.014,
-        "Year": 1905,
-
         "Throws": "R"
       },
       {
         "Rank": "266.",
-
         "Player": "Mark Grudzielanek",
         "YearsAge": "(15)",
         "Hits": "2040",
@@ -8825,57 +6163,10 @@
         "Player": "Brandon Phillips",
         "YearsAge": "(16, 37)",
         "Hits": "2026",
-
-        "Player": "Red Faber+",
-        "Age": 27,
-        "ERA": 2.016,
-        "Year": 1916,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Kid Nichols+",
-        "Age": 34,
-        "ERA": 2.016,
-        "Year": 1904,
-        "Throws": "R"
-      },
-      {
-        "Rank": "268.",
-        "Player": "Al Benton",
-        "Age": 34,
-        "ERA": 2.019,
-        "Year": 1945,
-        "Throws": "R"
-      },
-      {
-        "Rank": "269.",
-        "Player": "Lefty Tyler",
-        "Age": 26,
-        "ERA": 2.021,
-        "Year": 1916,
-        "Throws": "L"
-      },
-      {
-        "Rank": "270.",
-        "Player": "Bob Wicker",
-        "Age": 28,
-        "ERA": 2.022,
-        "Year": 1905,
-        "Throws": "R"
-      },
-      {
-        "Rank": "271.",
-        "Player": "Smoky Joe Wood",
-        "Age": 21,
-        "ERA": 2.024,
-        "Year": 1911,
-
         "Throws": "R"
       },
       {
         "Rank": "272.",
-
         "Player": "Tony Phillips",
         "YearsAge": "(18)",
         "Hits": "2023",
@@ -8907,63 +6198,17 @@
         "Player": "George Burns",
         "YearsAge": "(16)",
         "Hits": "2018",
-
-        "Player": "Bugs Raymond",
-        "Age": 26,
-        "ERA": 2.026,
-        "Year": 1908,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Ed Reulbach",
-        "Age": 25,
-        "ERA": 2.026,
-        "Year": 1908,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Frank Smith",
-        "Age": 28,
-        "ERA": 2.026,
-        "Year": 1908,
-        "Throws": "R"
-      },
-      {
-        "Rank": "275.",
-        "Player": "Phil Douglas",
-        "Age": 29,
-        "ERA": 2.028,
-        "Year": 1919,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Orel Hershiser",
-        "Age": 26,
-        "ERA": 2.028,
-        "Year": 1985,
-
         "Throws": "R"
       },
       {
         "Rank": "277.",
-
         "Player": "Bill Mazeroski+",
         "YearsAge": "(17)",
         "Hits": "2016",
-
-        "Player": "Adonis Terry",
-        "Age": 23,
-        "ERA": 2.031,
-        "Year": 1888,
-
         "Throws": "R"
       },
       {
         "Rank": "278.",
-
         "Player": "Gary Matthews",
         "YearsAge": "(16)",
         "Hits": "2011",
@@ -9002,71 +6247,17 @@
         "Player": "Tony Taylor",
         "YearsAge": "(19)",
         "Hits": "2007",
-
-        "Player": "Christy Mathewson+",
-        "Age": 23,
-        "ERA": 2.032,
-        "Year": 1904,
-        "Throws": "R"
-      },
-      {
-        "Rank": "279.",
-        "Player": "Ed Karger",
-        "Age": 24,
-        "ERA": 2.035,
-        "Year": 1907,
-        "Throws": "L"
-      },
-      {
-        "Rank": " ",
-        "Player": "Jim Scott",
-        "Age": 27,
-        "ERA": 2.035,
-        "Year": 1915,
-        "Throws": "R"
-      },
-      {
-        "Rank": "281.",
-        "Player": "Eddie Cicotte",
-        "Age": 30,
-        "ERA": 2.038,
-        "Year": 1914,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Sandy Koufax+",
-        "Age": 29,
-        "ERA": 2.038,
-        "Year": 1965,
-        "Throws": "L"
-      },
-      {
-        "Rank": " ",
-        "Player": "Al Mamaux",
-        "Age": 21,
-        "ERA": 2.038,
-        "Year": 1915,
-
         "Throws": "R"
       },
       {
         "Rank": "284.",
-
         "Player": "Frank White",
         "YearsAge": "(18)",
         "Hits": "2006",
-
-        "Player": "Catfish Hunter+",
-        "Age": 26,
-        "ERA": 2.042,
-        "Year": 1972,
-
         "Throws": "R"
       },
       {
         "Rank": "285.",
-
         "Player": "Dave Bancroft+",
         "YearsAge": "(16)",
         "Hits": "2004",
@@ -9098,44 +6289,6 @@
         "Player": "Del Pratt",
         "YearsAge": "(13)",
         "Hits": "1996",
-
-        "Player": "Roger Clemens",
-        "Age": 34,
-        "ERA": 2.045,
-        "Year": 1997,
-        "Throws": "R"
-      },
-      {
-        "Rank": " ",
-        "Player": "Jesse Tannehill",
-        "Age": 29,
-        "ERA": 2.045,
-        "Year": 1904,
-        "Throws": "L"
-      },
-      {
-        "Rank": "287.",
-        "Player": "Buttons Briggs",
-        "Age": 28,
-        "ERA": 2.047,
-        "Year": 1904,
-        "Throws": "R"
-      },
-      {
-        "Rank": "288.",
-        "Player": "Nick Cullop",
-        "Age": 28,
-        "ERA": 2.048,
-        "Year": 1916,
-        "Throws": "L"
-      },
-      {
-        "Rank": "289.",
-        "Player": "Old Hoss Radbourn+",
-        "Age": 28,
-        "ERA": 2.05,
-        "Year": 1883,
-
         "Throws": "R"
       },
       {
@@ -11943,9 +9096,16 @@
         "Player": "Roy Smalley",
         "YearsAge": "(13)",
         "Hits": "1454",
+        "Throws": "B"
       },
       {
         "Rank": "691.",
+        "Player": "Terry Steinbach",
+        "YearsAge": "(14)",
+        "Hits": "1453",
+        "Throws": "R"
+      },
+      {
         "Rank": "",
         "Player": "Jose Vizcaino",
         "YearsAge": "(18)",
