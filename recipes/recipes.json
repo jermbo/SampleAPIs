@@ -1,0 +1,47 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Berry-Banana Overnight Oats",
+      "time": {
+        "handsOn": "5 min.",
+        "total": "6 hr. 5 min."
+      },
+      "desc": "Speed up your morning routine with a lot maintenance breakfast made the night before. Studies have shown frozen blueberries have considerably greater polyphenol concentrations than fresh, while most, other nutrient levels are comparable between the two. Walnuts deliver a one-two punch of crunch and nutrition: They are a top nut for brain health thanks to powerful combination of omega 3 fats, vitamin E, and antioxidants.",
+      "ingredients": [
+        "1/2 medium-size ripe banana",
+        "1/4 cup plain 2% reduced-fat Greek yogurt",
+        "1/2 cup old-fashioned rolled oats",
+        "1 tsp. chia seeds",
+        "1 tsp. kosher salt",
+        "1/8 cup unsweetened almond milk",
+        "1/4 cup frozen thawed mixed berries",
+        "1 Tbsp. chpped walnuts"
+      ],
+      "instructions": [
+        "Place banana in a small bowl, and use a fork to thoroughly mash. Add yogurt; mix to combine.",
+        "Add oats, chia seeds, salt, and almond milk; mix well. Cover and refigerate overnight or at least 6 hours",
+        "Top with mixed berries and chopped walnuts."
+      ],
+      "nutrition": {
+        "serves": 1,
+        "servingSize": "1 cup",
+        "calories": 359,
+        "fat": {
+          "total": "13g",
+          "saturated": "2g",
+          "unsaturated": "9g"
+        },
+        "protein": "14g",
+        "carbs": "52g",
+        "fiber": "10g",
+        "sugars": {
+          "total": "14g",
+          "added": "0"
+        },
+        "calcium": "26% DV",
+        "potassium": "16% DV"
+      }
+    }
+  ]
+}

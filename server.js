@@ -4,7 +4,7 @@ const path = require("path");
 const server = jsonServer.create();
 const middleware = jsonServer.defaults();
 const port = process.env.PORT || 5000;
-const pages = ["futurama", "avatar", "baseball"];
+const pages = ["futurama", "avatar", "baseball", "recipes", "fakebank"];
 
 server.use(middleware);
 
@@ -14,5 +14,5 @@ pages.forEach(page => {
 });
 
 server.listen(port, () => {
-  console.log(`JSON Server is now running on port: ${port}`);
+  console.log(`JSON Server is now running : http://localhost:${port}`);
 });
