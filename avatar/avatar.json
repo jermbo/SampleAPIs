@@ -21,5 +21,785 @@
         "url": "https://www.imdb.com/name/nm1665983/"
       }
     ]
-  }
+  },
+  "characters": [
+    {
+      "Name": "Aang",
+      "First appearance": "'The Boy in the Iceberg'",
+      "Last appearance": "'Remembrances' (flashback)",
+      "Portrayed by": "Noah Ringer (The Last Airbender)",
+      "Voiced by": [
+        "Zach Tyler Eisen (original series)",
+        "Mitchel Musso (Unaired Pilot)",
+        "Ben Helms (Nicktoons MLB)",
+        "D. B. Sweeney (The Legend of Korra)"
+      ],
+      "Nicknames": ["Bonzu", "Pipinpadaloxicopolis the Third", "'Twinkletoes'"],
+      "Aliases": ["Butopak aang"],
+      "Species": "Human (Spiritually linked with Raava/the Avatar Spirit)",
+      "Gender": "Male",
+      "Occupation":
+        "Avatar Mediator of balance, peace, order and reconciliation",
+      "Title": "The Avatar Avatar Aang",
+      "Family": ["Gyatso (guardian)"],
+      "Spouse": "Katara",
+      "Significant others": [
+        "Soulmate: Appa (animal guide)",
+        "Raava/The Avatar Spirit (Deity, Spiritual personification of peace and order)",
+        "Incarnation: Roku (immediate predecessor)",
+        "Kyoshi (preceding Roku)",
+        "Kuruk (preceding Kyoshi as Avatar, and Korra as a Water-bender Avatar)",
+        "Yangchen (preceding Kuruk as Avatar, and Aang as an Air Nomad Avatar)",
+        "Wan (original Avatar)",
+        "Korra (Aang's immediate reincarnation)"
+      ],
+      "Children": [
+        "Bumi (firstborn son)",
+        "Kya (daughter)",
+        "Tenzin (second son)"
+      ],
+      "Nationality": "Air Nomads",
+      "Bending element": {
+        "Primary": "Airbending",
+        "Others": [
+          "Earthbending",
+          "Firebending",
+          ",Waterbending",
+          "Energybending"
+        ],
+        "Substyles": "Astral Projection"
+      },
+      "Age": "12/112",
+      "Hair color": "Dark brown (generally shaven)",
+      "Eye color": "Hazel / Gray"
+    },
+    {
+      "Name": "Appa",
+      "First appearance": "'The Boy in the Iceberg'",
+      "Voiced by": ["Dee Bradley Baker"],
+      "Aliases": ["Sky Bison", "Wind Buffalo", "Flying Bison"],
+      "Nationality": "Air Nomads",
+      "Bending element": {
+        "Primary": "Airbending (master)"
+      },
+      "Hair color": "White (with brown arrow-shaped patch of fur)",
+      "Eye color": "Brown"
+    }
+  ],
+  "episodes": [
+    {
+      "id": "1",
+      "Season": "1",
+      "NumInSeason": "1",
+      "Title": "'The Boy in the Iceberg'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Dave Filoni",
+      "WrittenBy": ["Michael Dante DiMartino", "Bryan Konietzko"],
+      "OriginalAirDate": "February 21, 2005",
+      "ProductionCode ": "101"
+    },
+    {
+      "id": "2",
+      "Season": "1",
+      "NumInSeason": "2",
+      "Title": "'The Avatar Returns'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Dave Filoni",
+      "WrittenBy": ["Michael Dante DiMartino", "Bryan Konietzko"],
+      "OriginalAirDate": "February 21, 2005",
+      "ProductionCode ": "102"
+    },
+    {
+      "id": "3",
+      "Season": "1",
+      "NumInSeason": "3",
+      "Title": "'The Southern Air Temple'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Michael Dante DiMartino"],
+      "OriginalAirDate": "February 25, 2005",
+      "ProductionCode ": "103"
+    },
+    {
+      "id": "4",
+      "Season": "1",
+      "NumInSeason": "4",
+      "Title": "'The Warriors of Kyoshi'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Nick Malis"],
+      "OriginalAirDate": "March 4, 2005",
+      "ProductionCode ": "104"
+    },
+    {
+      "id": "5",
+      "Season": "1",
+      "NumInSeason": "5",
+      "Title": "'The King of Omashu'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Anthony Lioi",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "March 18, 2005",
+      "ProductionCode ": "105"
+    },
+    {
+      "id": "6",
+      "Season": "1",
+      "NumInSeason": "6",
+      "Title": "'Imprisoned'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Dave Filoni",
+      "WrittenBy": ["Matthew Hubbard"],
+      "OriginalAirDate": "March 25, 2005",
+      "ProductionCode ": "106"
+    },
+    {
+      "id": "7",
+      "Season": "1",
+      "NumInSeason": "7",
+      "Title": "'Winter Solstice Part 1: The Spirit World'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Aaron Ehasz"],
+      "OriginalAirDate": "April 8, 2005",
+      "ProductionCode ": "107"
+    },
+    {
+      "id": "8",
+      "Season": "1",
+      "NumInSeason": "8",
+      "Title": "'Winter Solstice Part 2: Avatar Roku'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Michael Dante DiMartino"],
+      "OriginalAirDate": "April 15, 2005",
+      "ProductionCode ": "108"
+    },
+    {
+      "id": "9",
+      "Season": "1",
+      "NumInSeason": "9",
+      "Title": "'The Waterbending Scroll'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Anthony Lioi",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "April 29, 2005",
+      "ProductionCode ": "109"
+    },
+    {
+      "id": "10",
+      "Season": "1",
+      "NumInSeason": "10",
+      "Title": "'Jet'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Dave Filoni",
+      "WrittenBy": ["James Eagan"],
+      "OriginalAirDate": "May 6, 2005",
+      "ProductionCode ": "110"
+    },
+    {
+      "id": "11",
+      "Season": "1",
+      "NumInSeason": "11",
+      "Title": "'The Great Divide'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "May 20, 2005",
+      "ProductionCode ": "111"
+    },
+    {
+      "id": "12",
+      "Season": "1",
+      "NumInSeason": "12",
+      "Title": "'The Storm'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Aaron Ehasz"],
+      "OriginalAirDate": "June 3, 2005",
+      "ProductionCode ": "112"
+    },
+    {
+      "id": "13",
+      "Season": "1",
+      "NumInSeason": "13",
+      "Title": "'The Blue Spirit'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Dave Filoni",
+      "WrittenBy": ["Michael Dante DiMartino", "Bryan Konietzko"],
+      "OriginalAirDate": "June 17, 2005",
+      "ProductionCode ": "113"
+    },
+    {
+      "id": "14",
+      "Season": "1",
+      "NumInSeason": "14",
+      "Title": "'The Fortuneteller'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Dave Filoni",
+      "WrittenBy": ["Aaron Ehasz John O'Bryan"],
+      "OriginalAirDate": "September 23, 2005",
+      "ProductionCode ": "114"
+    },
+    {
+      "id": "15",
+      "Season": "1",
+      "NumInSeason": "15",
+      "Title": "'Bato of the Water Tribe'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Ian Wilcox"],
+      "OriginalAirDate": "October 7, 2005",
+      "ProductionCode ": "115"
+    },
+    {
+      "id": "16",
+      "Season": "1",
+      "NumInSeason": "16",
+      "Title": "'The Deserter'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Tim Hedrick"],
+      "OriginalAirDate": "October 21, 2005",
+      "ProductionCode ": "116"
+    },
+    {
+      "id": "17",
+      "Season": "1",
+      "NumInSeason": "17",
+      "Title": "'The Northern Air Temple'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Dave Filoni",
+      "WrittenBy": ["Elizabeth Welch Ehasz"],
+      "OriginalAirDate": "November 4, 2005",
+      "ProductionCode ": "117"
+    },
+    {
+      "id": "18",
+      "Season": "1",
+      "NumInSeason": "18",
+      "Title": "'The Waterbending Master'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Michael Dante DiMartino"],
+      "OriginalAirDate": "November 18, 2005",
+      "ProductionCode ": "118"
+    },
+    {
+      "id": "19",
+      "Season": "1",
+      "NumInSeason": "19",
+      "Title": "'The Siege of the North, Part 1'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "December 2, 2005",
+      "ProductionCode ": "119"
+    },
+    {
+      "id": "20",
+      "Season": "1",
+      "NumInSeason": "20",
+      "Title": "'The Siege of the North, Part 2'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Dave Filoni",
+      "WrittenBy": ["Aaron Ehasz"],
+      "OriginalAirDate": "December 2, 2005",
+      "ProductionCode ": "120"
+    },
+    {
+      "id": "21",
+      "Season": "2",
+      "NumInSeason": "1",
+      "Title": "'The Avatar State'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": [
+        "Aaron Ehasz",
+        "Elizabeth Welch Ehasz",
+        "Tim Hedrick",
+        "John O'Bryan"
+      ],
+      "OriginalAirDate": "March 17, 2006",
+      "ProductionCode ": "201"
+    },
+    {
+      "id": "22",
+      "Season": "2",
+      "NumInSeason": "2",
+      "Title": "'The Cave of Two Lovers'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Joshua Hamilton"],
+      "OriginalAirDate": "March 24, 2006",
+      "ProductionCode ": "202"
+    },
+    {
+      "id": "23",
+      "Season": "2",
+      "NumInSeason": "3",
+      "Title": "'Return to Omashu'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Elizabeth Welch Ehasz"],
+      "OriginalAirDate": "April 7, 2006",
+      "ProductionCode ": "203"
+    },
+    {
+      "id": "24",
+      "Season": "2",
+      "NumInSeason": "4",
+      "Title": "'The Swamp'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Tim Hedrick"],
+      "OriginalAirDate": "April 14, 2006",
+      "ProductionCode ": "204"
+    },
+    {
+      "id": "25",
+      "Season": "2",
+      "NumInSeason": "5",
+      "Title": "'Avatar Day'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "April 28, 2006",
+      "ProductionCode ": "205"
+    },
+    {
+      "id": "26",
+      "Season": "2",
+      "NumInSeason": "6",
+      "Title": "'The Blind Bandit'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Michael Dante DiMartino"],
+      "OriginalAirDate": "May 5, 2006",
+      "ProductionCode ": "206"
+    },
+    {
+      "id": "27",
+      "Season": "2",
+      "NumInSeason": "7",
+      "Title": "'Zuko Alone'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Elizabeth Welch Ehasz"],
+      "OriginalAirDate": "May 12, 2006",
+      "ProductionCode ": "207"
+    },
+    {
+      "id": "28",
+      "Season": "2",
+      "NumInSeason": "8",
+      "Title": "'The Chase'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Joshua Hamilton"],
+      "OriginalAirDate": "May 26, 2006",
+      "ProductionCode ": "208"
+    },
+    {
+      "id": "29",
+      "Season": "2",
+      "NumInSeason": "9",
+      "Title": "'Bitter Work'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Aaron Ehasz"],
+      "OriginalAirDate": "June 2, 2006",
+      "ProductionCode ": "209"
+    },
+    {
+      "id": "30",
+      "Season": "2",
+      "NumInSeason": "10",
+      "Title": "'The Library'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "July 14, 2006",
+      "ProductionCode ": "210"
+    },
+    {
+      "id": "31",
+      "Season": "2",
+      "NumInSeason": "11",
+      "Title": "'The Desert'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Tim Hedrick"],
+      "OriginalAirDate": "July 14, 2006",
+      "ProductionCode ": "211"
+    },
+    {
+      "id": "32",
+      "Season": "2",
+      "NumInSeason": "12",
+      "Title": "'The Serpent's Pass'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Michael Dante DiMartino", "Joshua Hamilton"],
+      "OriginalAirDate": "September 15, 2006",
+      "ProductionCode ": "212"
+    },
+    {
+      "id": "33",
+      "Season": "2",
+      "NumInSeason": "13",
+      "Title": "'The Drill'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Michael Dante DiMartino", "Bryan Konietzko"],
+      "OriginalAirDate": "September 15, 2006",
+      "ProductionCode ": "213"
+    },
+    {
+      "id": "34",
+      "Season": "2",
+      "NumInSeason": "14",
+      "Title": "'City of Walls and Secrets'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Tim Hedrick"],
+      "OriginalAirDate": "September 22, 2006",
+      "ProductionCode ": "214"
+    },
+    {
+      "id": "35",
+      "Season": "2",
+      "NumInSeason": "15",
+      "Title": "'The Tales of Ba Sing Se'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": [
+        "Joann Estoesta",
+        "Lisa Wahlander",
+        "Andrew Huebner",
+        "Gary Scheppke",
+        "Lauren MacMullan",
+        "Katie Mattila",
+        "Justin Ridge",
+        "Giancarlo Volpe"
+      ],
+      "OriginalAirDate": "September 29, 2006",
+      "ProductionCode ": "215"
+    },
+    {
+      "id": "36",
+      "Season": "2",
+      "NumInSeason": "16",
+      "Title": "'Appa's Lost Days'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Elizabeth Welch Ehasz"],
+      "OriginalAirDate": "October 13, 2006",
+      "ProductionCode ": "216"
+    },
+    {
+      "id": "37",
+      "Season": "2",
+      "NumInSeason": "17",
+      "Title": "'Lake Laogai'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Tim Hedrick"],
+      "OriginalAirDate": "November 3, 2006",
+      "ProductionCode ": "217"
+    },
+    {
+      "id": "38",
+      "Season": "2",
+      "NumInSeason": "18",
+      "Title": "'The Earth King'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "November 17, 2006",
+      "ProductionCode ": "218"
+    },
+    {
+      "id": "39",
+      "Season": "2",
+      "NumInSeason": "19",
+      "Title": "'The Guru'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Michael Dante DiMartino", "Bryan Konietzko"],
+      "OriginalAirDate": "December 1, 2006",
+      "ProductionCode ": "219"
+    },
+    {
+      "id": "40",
+      "Season": "2",
+      "NumInSeason": "20",
+      "Title": "'The Crossroads of Destiny'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Michael Dante DiMartino",
+      "WrittenBy": ["Aaron Ehasz"],
+      "OriginalAirDate": "December 1, 2006",
+      "ProductionCode ": "220"
+    },
+    {
+      "id": "41",
+      "Season": "3",
+      "NumInSeason": "1",
+      "Title": "'The Awakening'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Aaron Ehasz"],
+      "OriginalAirDate": "September 21, 2007",
+      "ProductionCode ": "301",
+      "Viewers": "—"
+    },
+    {
+      "id": "42",
+      "Season": "3",
+      "NumInSeason": "2",
+      "Title": "'The Headband'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Joaquim Dos Santos",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "September 28, 2007",
+      "ProductionCode ": "302",
+      "Viewers": "—"
+    },
+    {
+      "id": "43",
+      "Season": "3",
+      "NumInSeason": "3",
+      "Title": "'The Painted Lady'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Joshua Hamilton"],
+      "OriginalAirDate": "October 5, 2007",
+      "ProductionCode ": "303",
+      "Viewers": "—"
+    },
+    {
+      "id": "44",
+      "Season": "3",
+      "NumInSeason": "4",
+      "Title": "'Sokka's Master'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Tim Hedrick"],
+      "OriginalAirDate": "October 12, 2007",
+      "ProductionCode ": "304",
+      "Viewers": "—"
+    },
+    {
+      "id": "45",
+      "Season": "3",
+      "NumInSeason": "5",
+      "Title": "'The Beach'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Joaquim Dos Santos",
+      "WrittenBy": ["Katie Mattila"],
+      "OriginalAirDate": "October 19, 2007",
+      "ProductionCode ": "305",
+      "Viewers": "—"
+    },
+    {
+      "id": "46",
+      "Season": "3",
+      "NumInSeason": "6",
+      "Title": "'The Avatar and the Firelord'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Elizabeth Welch Ehasz"],
+      "OriginalAirDate": "October 26, 2007",
+      "ProductionCode ": "306",
+      "Viewers": "—"
+    },
+    {
+      "id": "47",
+      "Season": "3",
+      "NumInSeason": "7",
+      "Title": "'The Runaway'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Joshua Hamilton"],
+      "OriginalAirDate": "November 2, 2007",
+      "ProductionCode ": "307",
+      "Viewers": "—"
+    },
+    {
+      "id": "48",
+      "Season": "3",
+      "NumInSeason": "8",
+      "Title": "'The Puppetmaster'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Joaquim Dos Santos",
+      "WrittenBy": ["Tim Hedrick"],
+      "OriginalAirDate": "November 9, 2007",
+      "ProductionCode ": "308",
+      "Viewers": "—"
+    },
+    {
+      "id": "49",
+      "Season": "3",
+      "NumInSeason": "9",
+      "Title": "'Nightmares and Daydreams'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "November 16, 2007",
+      "ProductionCode ": "309",
+      "Viewers": "—"
+    },
+    {
+      "id": "50",
+      "Season": "3",
+      "NumInSeason": "10",
+      "Title": "'The Day of Black Sun, Part 1: The Invasion'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Michael Dante DiMartino"],
+      "OriginalAirDate": "November 30, 2007",
+      "ProductionCode ": "310",
+      "Viewers": "3.77[6]"
+    },
+    {
+      "id": "51",
+      "Season": "3",
+      "NumInSeason": "11",
+      "Title": "'The Day of Black Sun, Part 2: The Eclipse'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Joaquim Dos Santos",
+      "WrittenBy": ["Aaron Ehasz"],
+      "OriginalAirDate": "November 30, 2007",
+      "ProductionCode ": "311",
+      "Viewers": "3.77[6]"
+    },
+    {
+      "id": "52",
+      "Season": "3",
+      "NumInSeason": "12",
+      "Title": "'The Western Air Temple'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Elizabeth Welch Ehasz", "Tim Hedrick"],
+      "OriginalAirDate": "July 14, 2008",
+      "ProductionCode ": "312",
+      "Viewers": "—"
+    },
+    {
+      "id": "53",
+      "Season": "3",
+      "NumInSeason": "13",
+      "Title": "'The Firebending Masters'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "July 15, 2008",
+      "ProductionCode ": "313",
+      "Viewers": "—"
+    },
+    {
+      "id": "54",
+      "Season": "3",
+      "NumInSeason": "14",
+      "Title": "'The Boiling Rock, Part 1'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Joaquim Dos Santos",
+      "WrittenBy": ["May Chan"],
+      "OriginalAirDate": "July 16, 2008",
+      "ProductionCode ": "314",
+      "Viewers": "3.97[7]"
+    },
+    {
+      "id": "55",
+      "Season": "3",
+      "NumInSeason": "15",
+      "Title": "'The Boiling Rock, Part 2'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Joshua Hamilton"],
+      "OriginalAirDate": "July 16, 2008",
+      "ProductionCode ": "315",
+      "Viewers": "3.97[7]"
+    },
+    {
+      "id": "56",
+      "Season": "3",
+      "NumInSeason": "16",
+      "Title": "'The Southern Raiders'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Joaquim Dos Santos",
+      "WrittenBy": ["Elizabeth Welch Ehasz"],
+      "OriginalAirDate": "July 17, 2008",
+      "ProductionCode ": "316",
+      "Viewers": "4.23[7]"
+    },
+    {
+      "id": "57",
+      "Season": "3",
+      "NumInSeason": "17",
+      "Title": "'The Ember Island Players'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Tim Hedrick", "Josh Hamilton", "John O'Bryan"],
+      "OriginalAirDate": "July 18, 2008",
+      "ProductionCode ": "317",
+      "Viewers": "4.53[7]"
+    },
+    {
+      "id": "58",
+      "Season": "3",
+      "NumInSeason": "18",
+      "Title": "'Sozin's Comet, Part 1: The Phoenix King'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Michael Dante DiMartino"],
+      "OriginalAirDate": "July 19, 2008",
+      "ProductionCode ": "318",
+      "Viewers": "5.59[7]"
+    },
+    {
+      "id": "59",
+      "Season": "3",
+      "NumInSeason": "19",
+      "Title": "'Sozin's Comet, Part 2: The Old Masters'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Aaron Ehasz"],
+      "OriginalAirDate": "July 19, 2008",
+      "ProductionCode ": "319",
+      "Viewers": "5.59[7]"
+    },
+    {
+      "id": "60",
+      "Season": "3",
+      "NumInSeason": "20",
+      "Title": "'Sozin's Comet, Part 3: Into the Inferno'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Joaquim Dos Santos",
+      "WrittenBy": ["Michael Dante DiMartino", "Bryan Konietzko"],
+      "OriginalAirDate": "July 19, 2008",
+      "ProductionCode ": "320",
+      "Viewers": "5.59[7]"
+    },
+    {
+      "id": "61",
+      "Season": "3",
+      "NumInSeason": "21",
+      "Title": "'Sozin's Comet, Part 4: Avatar Aang'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Joaquim Dos Santos",
+      "WrittenBy": ["Michael Dante DiMartino", "Bryan Konietzko"],
+      "OriginalAirDate": "July 19, 2008",
+      "ProductionCode ": "321",
+      "Viewers": "5.59[7]"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is aangs natural element?",
+      "possibleAnswers": ["earth", "fire", "air", "water"],
+      "correctAnswer": "air",
+      "id": 1
+    }
+  ]
 }
