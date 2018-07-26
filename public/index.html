@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Test JSON</title>
+    <title>Sample APIs</title>
     <link rel="stylesheet" href="assets/styles/home-styles.css">
 </head>
 
@@ -13,9 +13,14 @@
     <main id="app">
         <article class="site">
             <div class="site__inner">
-                <h1 class="site__title">{{title}}</h1>
-                <p>{{desc}}</p>
-                <p>{{thing}}</p>
+                <h1 class="site__title">Sample APIs</h1>
+                <p>Welcome to SampleAPIs. A playground for messing with RESTful endpoints. Checkout the project on
+                    <a href="https://github.com/jermbo/SampleAPIs">GitHub</a> and consider contributing to the project with a new endpoint!</p>
+                <p>You can use any HTTP verbs (GET, POST, PUT, PATCH and DELETE) and access your resources from anywhere using
+                    CORS and JSONP.</p>
+
+                <p class="disclaimer">The data on this site is for educational purposes only and is not owned by SampleAPIs.com</p>
+                <p class="disclaimer">The data on this site will be reset on a regular basis.</p>
             </div>
         </article>
         <section class="apis">
@@ -38,12 +43,9 @@
             props: ['api'],
         });
         const app = new Vue({
-            el: '#app',
+            el: '.apis',
             data: function () {
                 return {
-                    title: 'Sample APIs',
-                    desc: 'Here is a list of existing APIs to get you started.',
-                    thing: 'You can use any HTTP verbs (GET, POST, PUT, PATCH and DELETE) and access your resources from anywhere using CORS and JSONP.',
                     apis: [
                         {
                             id: 1,
