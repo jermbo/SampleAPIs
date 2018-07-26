@@ -20,8 +20,16 @@ main {
   height: 100%;
 }
 
+a {
+  color: #15e3d9;
+}
+
+.disclaimer {
+  font-size: 0.75rem;
+}
+
 .site {
-  flex: 1 0 50%;
+  flex: 2;
   display: flex;
   color: #eadeda;
   align-items: center;
@@ -51,7 +59,7 @@ main {
 }
 
 .apis {
-  flex: 1 0 50%;
+  flex: 3;
   max-height: 100%;
   display: flex;
   overflow-y: auto;
