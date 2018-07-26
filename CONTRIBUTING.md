@@ -7,7 +7,7 @@ Please note we have a [Code of Conduct](https://github.com/jermbo/SampleAPIs/blo
 ## Pull Request Process for new Databases
 
 1.  Create new folder with name describing data.
-2.  Ensure index file has a list of end points dynamically added.
+2.  Ensure index file has a list of endpoints dynamically added.
     1.  Utilize the `displayEndPoints.js` file to accomplish this.
 3.  Create json file with same name as folder. eg. `futurama.json`
 4.  Create a `.backup` file of your json data. eg. `futurama.json.data`
