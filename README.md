@@ -13,3 +13,9 @@ Once you get to an endpoint, you can do all the normal actions on a RESTful endp
 ## Starting server locally
 
 Navigate to the folder containing the cloned files. Install dependencies `npm i`. Once all the dependencies are loaded, run `npm start`. Open your browser to `localhost:5000`. Use the site the same way you would from the website.
+
+#### Disclaimers
+
+- The data on this site is for educational purposes only and is not owned by SampleAPIs.com
+- Data will be reset back to its original state on a regular basis. If you are updating or adding to data to the endpoints and want to have them present, contribute to the repo by submitting a pull request.
+-
