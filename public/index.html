@@ -41,7 +41,7 @@
             </div>
         </article>
         <section class="apis">
-            <Apis v-for="api in apis" :api="api"></Apis>
+            <Apis v-for="api, i in apis" :api="api" :key="i"></Apis>
         </section>
     </main>
     <template id="api">
@@ -90,7 +90,7 @@
                             title: 'FakeBank',
                             desc: 'Just a random set of fake bank data.',
                             link: '/fakebank',
-                        }, ,
+                        },
                         {
                             id: 6,
                             title: 'Football',
