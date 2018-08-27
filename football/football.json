@@ -1,6 +1,2007 @@
 {
     "passing-yards": {
-        "single-season": [],
+        "single-season": [
+          {
+            "Rank": "1",
+            "Player": "Peyton Manning",
+            "AgeThatYear": "37",
+            "YD": "5,477",
+            "Year": "2013",
+            "Team": "DEN"
+          },
+          {
+            "Rank": "2",
+            "Player": "Drew Brees",
+            "AgeThatYear": "32",
+            "YD": "5,476",
+            "Year": "2011",
+            "Team": "NOR"
+          },
+          {
+            "Rank": "3",
+            "Player": "Tom Brady",
+            "AgeThatYear": "34",
+            "YD": "5,235",
+            "Year": "2011",
+            "Team": "NWE"
+          },
+          {
+            "Rank": "4",
+            "Player": "Drew Brees",
+            "AgeThatYear": "37",
+            "YD": "5,208",
+            "Year": "2016",
+            "Team": "NOR"
+          },
+          {
+            "Rank": "5",
+            "Player": "Drew Brees",
+            "AgeThatYear": "33",
+            "YD": "5,177",
+            "Year": "2012",
+            "Team": "NOR"
+          },
+          {
+            "Rank": "6",
+            "Player": "Drew Brees",
+            "AgeThatYear": "34",
+            "YD": "5,162",
+            "Year": "2013",
+            "Team": "NOR"
+          },
+          {
+            "Rank": "7",
+            "Player": "Dan Marino+",
+            "AgeThatYear": "22",
+            "YD": "5,084",
+            "Year": "1984",
+            "Team": "MIA"
+          },
+          {
+            "Rank": "8",
+            "Player": "Drew Brees",
+            "AgeThatYear": "29",
+            "YD": "5,069",
+            "Year": "2008",
+            "Team": "NOR"
+          },
+          {
+            "Rank": "9",
+            "Player": "Matthew Stafford",
+            "AgeThatYear": "23",
+            "YD": "5,038",
+            "Year": "2011",
+            "Team": "DET"
+          },
+          {
+            "Rank": "10",
+            "Player": "Matthew Stafford",
+            "AgeThatYear": "24",
+            "YD": "4,967",
+            "Year": "2012",
+            "Team": "DET"
+          },
+          {
+            "Rank": "11",
+            "Player": "Drew Brees",
+            "AgeThatYear": "35",
+            "YD": "4,952",
+            "Year": "2014",
+            "Team": "NOR"
+          },
+          {
+            "Rank": "",
+            "Player": "Ben Roethlisberger",
+            "AgeThatYear": "32",
+            "YD": "4,952",
+            "Year": "2014",
+            "Team": "PIT"
+          },
+          {
+            "Rank": "13",
+            "Player": "Matt Ryan",
+            "AgeThatYear": "31",
+            "YD": "4,944",
+            "Year": "2016",
+            "Team": "ATL"
+          },
+          {
+            "Rank": "14",
+            "Player": "Eli Manning",
+            "AgeThatYear": "30",
+            "YD": "4,933",
+            "Year": "2011",
+            "Team": "NYG"
+          },
+          {
+            "Rank": "15",
+            "Player": "Kirk Cousins",
+            "AgeThatYear": "28",
+            "YD": "4,917",
+            "Year": "2016",
+            "Team": "WAS"
+          },
+          {
+            "Rank": "16",
+            "Player": "Tony Romo",
+            "AgeThatYear": "32",
+            "YD": "4,903",
+            "Year": "2012",
+            "Team": "DAL"
+          },
+          {
+            "Rank": "17",
+            "Player": "Drew Brees",
+            "AgeThatYear": "36",
+            "YD": "4,870",
+            "Year": "2015",
+            "Team": "NOR"
+          },
+          {
+            "Rank": "18",
+            "Player": "Kurt Warner+",
+            "AgeThatYear": "30",
+            "YD": "4,830",
+            "Year": "2001",
+            "Team": "STL"
+          },
+          {
+            "Rank": "19",
+            "Player": "Tom Brady",
+            "AgeThatYear": "35",
+            "YD": "4,827",
+            "Year": "2012",
+            "Team": "NWE"
+          },
+          {
+            "Rank": "20",
+            "Player": "Tom Brady",
+            "AgeThatYear": "30",
+            "YD": "4,806",
+            "Year": "2007",
+            "Team": "NWE"
+          },
+          {
+            "Rank": "21",
+            "Player": "Dan Fouts+",
+            "AgeThatYear": "30",
+            "YD": "4,802",
+            "Year": "1981",
+            "Team": "SDG"
+          },
+          {
+            "Rank": "22",
+            "Player": "Philip Rivers",
+            "AgeThatYear": "33",
+            "YD": "4,792",
+            "Year": "2015",
+            "Team": "SDG"
+          },
+          {
+            "Rank": "23",
+            "Player": "Tom Brady",
+            "AgeThatYear": "38",
+            "YD": "4,770",
+            "Year": "2015",
+            "Team": "NWE"
+          },
+          {
+            "Rank": "",
+            "Player": "Matt Schaub",
+            "AgeThatYear": "28",
+            "YD": "4,770",
+            "Year": "2009",
+            "Team": "HOU"
+          },
+          {
+            "Rank": "25",
+            "Player": "Andrew Luck",
+            "AgeThatYear": "24",
+            "YD": "4,761",
+            "Year": "2014",
+            "Team": "IND"
+          },
+          {
+            "Rank": "26",
+            "Player": "Dan Marino+",
+            "AgeThatYear": "24",
+            "YD": "4,746",
+            "Year": "1986",
+            "Team": "MIA"
+          },
+          {
+            "Rank": "27",
+            "Player": "Peyton Manning",
+            "AgeThatYear": "38",
+            "YD": "4,727",
+            "Year": "2014",
+            "Team": "DEN"
+          },
+          {
+            "Rank": "28",
+            "Player": "Matt Ryan",
+            "AgeThatYear": "27",
+            "YD": "4,719",
+            "Year": "2012",
+            "Team": "ATL"
+          },
+          {
+            "Rank": "29",
+            "Player": "Daunte Culpepper",
+            "AgeThatYear": "27",
+            "YD": "4,717",
+            "Year": "2004",
+            "Team": "MIN"
+          },
+          {
+            "Rank": "30",
+            "Player": "Dan Fouts+",
+            "AgeThatYear": "29",
+            "YD": "4,715",
+            "Year": "1980",
+            "Team": "SDG"
+          },
+          {
+            "Rank": "31",
+            "Player": "Philip Rivers",
+            "AgeThatYear": "28",
+            "YD": "4,710",
+            "Year": "2010",
+            "Team": "SDG"
+          },
+          {
+            "Rank": "32",
+            "Player": "Peyton Manning",
+            "AgeThatYear": "34",
+            "YD": "4,700",
+            "Year": "2010",
+            "Team": "IND"
+          },
+          {
+            "Rank": "33",
+            "Player": "Matt Ryan",
+            "AgeThatYear": "29",
+            "YD": "4,694",
+            "Year": "2014",
+            "Team": "ATL"
+          },
+          {
+            "Rank": "34",
+            "Player": "Warren Moon+",
+            "AgeThatYear": "34",
+            "YD": "4,690",
+            "Year": "1991",
+            "Team": "HOU"
+          },
+          {
+            "Rank": "35",
+            "Player": "Rich Gannon",
+            "AgeThatYear": "36",
+            "YD": "4,689",
+            "Year": "2002",
+            "Team": "OAK"
+          },
+          {
+            "Rank": "",
+            "Player": "Warren Moon+",
+            "AgeThatYear": "33",
+            "YD": "4,689",
+            "Year": "1990",
+            "Team": "HOU"
+          },
+          {
+            "Rank": "37",
+            "Player": "Carson Palmer",
+            "AgeThatYear": "35",
+            "YD": "4,671",
+            "Year": "2015",
+            "Team": "ARI"
+          },
+          {
+            "Rank": "38",
+            "Player": "Peyton Manning",
+            "AgeThatYear": "36",
+            "YD": "4,659",
+            "Year": "2012",
+            "Team": "DEN"
+          },
+          {
+            "Rank": "39",
+            "Player": "Matthew Stafford",
+            "AgeThatYear": "25",
+            "YD": "4,650",
+            "Year": "2013",
+            "Team": "DET"
+          },
+          {
+            "Rank": "40",
+            "Player": "Aaron Rodgers",
+            "AgeThatYear": "27",
+            "YD": "4,643",
+            "Year": "2011",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "41",
+            "Player": "Philip Rivers",
+            "AgeThatYear": "29",
+            "YD": "4,624",
+            "Year": "2011",
+            "Team": "SDG"
+          },
+          {
+            "Rank": "42",
+            "Player": "Drew Brees",
+            "AgeThatYear": "31",
+            "YD": "4,620",
+            "Year": "2010",
+            "Team": "NOR"
+          },
+          {
+            "Rank": "43",
+            "Player": "Neil Lomax",
+            "AgeThatYear": "25",
+            "YD": "4,614",
+            "Year": "1984",
+            "Team": "STL"
+          },
+          {
+            "Rank": "44",
+            "Player": "Trent Green",
+            "AgeThatYear": "34",
+            "YD": "4,591",
+            "Year": "2004",
+            "Team": "KAN"
+          },
+          {
+            "Rank": "",
+            "Player": "Matt Ryan",
+            "AgeThatYear": "30",
+            "YD": "4,591",
+            "Year": "2015",
+            "Team": "ATL"
+          },
+          {
+            "Rank": "46",
+            "Player": "Kurt Warner+",
+            "AgeThatYear": "37",
+            "YD": "4,583",
+            "Year": "2008",
+            "Team": "ARI"
+          },
+          {
+            "Rank": "47",
+            "Player": "Tom Brady",
+            "AgeThatYear": "40",
+            "YD": "4,577",
+            "Year": "2017",
+            "Team": "NWE"
+          },
+          {
+            "Rank": "48",
+            "Player": "Peyton Manning",
+            "AgeThatYear": "28",
+            "YD": "4,557",
+            "Year": "2004",
+            "Team": "IND"
+          },
+          {
+            "Rank": "49",
+            "Player": "Drew Bledsoe",
+            "AgeThatYear": "22",
+            "YD": "4,555",
+            "Year": "1994",
+            "Team": "NWE"
+          },
+          {
+            "Rank": "50",
+            "Player": "Jay Cutler",
+            "AgeThatYear": "25",
+            "YD": "4,526",
+            "Year": "2008",
+            "Team": "DEN"
+          },
+          {
+            "Rank": "51",
+            "Player": "Philip Rivers",
+            "AgeThatYear": "35",
+            "YD": "4,515",
+            "Year": "2017",
+            "Team": "LAC"
+          },
+          {
+            "Rank": "",
+            "Player": "Matt Ryan",
+            "AgeThatYear": "28",
+            "YD": "4,515",
+            "Year": "2013",
+            "Team": "ATL"
+          },
+          {
+            "Rank": "53",
+            "Player": "Peyton Manning",
+            "AgeThatYear": "33",
+            "YD": "4,500",
+            "Year": "2009",
+            "Team": "IND"
+          },
+          {
+            "Rank": "54",
+            "Player": "Tony Romo",
+            "AgeThatYear": "29",
+            "YD": "4,483",
+            "Year": "2009",
+            "Team": "DAL"
+          },
+          {
+            "Rank": "55",
+            "Player": "Philip Rivers",
+            "AgeThatYear": "31",
+            "YD": "4,478",
+            "Year": "2013",
+            "Team": "SDG"
+          },
+          {
+            "Rank": "56",
+            "Player": "Lynn Dickey",
+            "AgeThatYear": "33",
+            "YD": "4,458",
+            "Year": "1983",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "57",
+            "Player": "Dan Marino+",
+            "AgeThatYear": "32",
+            "YD": "4,453",
+            "Year": "1994",
+            "Team": "MIA"
+          },
+          {
+            "Rank": "58",
+            "Player": "Matthew Stafford",
+            "AgeThatYear": "29",
+            "YD": "4,446",
+            "Year": "2017",
+            "Team": "DET"
+          },
+          {
+            "Rank": "59",
+            "Player": "Steve Beuerlein",
+            "AgeThatYear": "34",
+            "YD": "4,436",
+            "Year": "1999",
+            "Team": "CAR"
+          },
+          {
+            "Rank": "60",
+            "Player": "Dan Marino+",
+            "AgeThatYear": "26",
+            "YD": "4,434",
+            "Year": "1988",
+            "Team": "MIA"
+          },
+          {
+            "Rank": "",
+            "Player": "Aaron Rodgers",
+            "AgeThatYear": "25",
+            "YD": "4,434",
+            "Year": "2009",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "62",
+            "Player": "Eli Manning",
+            "AgeThatYear": "34",
+            "YD": "4,432",
+            "Year": "2015",
+            "Team": "NYG"
+          },
+          {
+            "Rank": "63",
+            "Player": "Blake Bortles",
+            "AgeThatYear": "23",
+            "YD": "4,428",
+            "Year": "2015",
+            "Team": "JAX"
+          },
+          {
+            "Rank": "",
+            "Player": "Aaron Rodgers",
+            "AgeThatYear": "32",
+            "YD": "4,428",
+            "Year": "2016",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "65",
+            "Player": "Drew Brees",
+            "AgeThatYear": "28",
+            "YD": "4,423",
+            "Year": "2007",
+            "Team": "NOR"
+          },
+          {
+            "Rank": "66",
+            "Player": "Drew Brees",
+            "AgeThatYear": "27",
+            "YD": "4,418",
+            "Year": "2006",
+            "Team": "NOR"
+          },
+          {
+            "Rank": "67",
+            "Player": "Brett Favre+",
+            "AgeThatYear": "25",
+            "YD": "4,413",
+            "Year": "1995",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "",
+            "Player": "Peyton Manning",
+            "AgeThatYear": "24",
+            "YD": "4,413",
+            "Year": "2000",
+            "Team": "IND"
+          },
+          {
+            "Rank": "69",
+            "Player": "Eli Manning",
+            "AgeThatYear": "33",
+            "YD": "4,410",
+            "Year": "2014",
+            "Team": "NYG"
+          },
+          {
+            "Rank": "70",
+            "Player": "Tom Brady",
+            "AgeThatYear": "32",
+            "YD": "4,398",
+            "Year": "2009",
+            "Team": "NWE"
+          },
+          {
+            "Rank": "71",
+            "Player": "Peyton Manning",
+            "AgeThatYear": "30",
+            "YD": "4,397",
+            "Year": "2006",
+            "Team": "IND"
+          },
+          {
+            "Rank": "72",
+            "Player": "Drew Brees",
+            "AgeThatYear": "30",
+            "YD": "4,388",
+            "Year": "2009",
+            "Team": "NOR"
+          },
+          {
+            "Rank": "73",
+            "Player": "Philip Rivers",
+            "AgeThatYear": "34",
+            "YD": "4,386",
+            "Year": "2016",
+            "Team": "SDG"
+          },
+          {
+            "Rank": "74",
+            "Player": "Aaron Rodgers",
+            "AgeThatYear": "30",
+            "YD": "4,381",
+            "Year": "2014",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "75",
+            "Player": "Andrew Luck",
+            "AgeThatYear": "22",
+            "YD": "4,374",
+            "Year": "2012",
+            "Team": "IND"
+          },
+          {
+            "Rank": "76",
+            "Player": "Matt Schaub",
+            "AgeThatYear": "29",
+            "YD": "4,370",
+            "Year": "2010",
+            "Team": "HOU"
+          },
+          {
+            "Rank": "77",
+            "Player": "Mark Brunell",
+            "AgeThatYear": "25",
+            "YD": "4,367",
+            "Year": "1996",
+            "Team": "JAX"
+          },
+          {
+            "Rank": "78",
+            "Player": "Drew Bledsoe",
+            "AgeThatYear": "30",
+            "YD": "4,359",
+            "Year": "2002",
+            "Team": "BUF"
+          },
+          {
+            "Rank": "79",
+            "Player": "Kurt Warner+",
+            "AgeThatYear": "28",
+            "YD": "4,353",
+            "Year": "1999",
+            "Team": "STL"
+          },
+          {
+            "Rank": "80",
+            "Player": "Bill Kenney",
+            "AgeThatYear": "28",
+            "YD": "4,348",
+            "Year": "1983",
+            "Team": "KAN"
+          },
+          {
+            "Rank": "81",
+            "Player": "Tom Brady",
+            "AgeThatYear": "36",
+            "YD": "4,343",
+            "Year": "2013",
+            "Team": "NWE"
+          },
+          {
+            "Rank": "82",
+            "Player": "Scott Mitchell",
+            "AgeThatYear": "27",
+            "YD": "4,338",
+            "Year": "1995",
+            "Team": "DET"
+          },
+          {
+            "Rank": "83",
+            "Player": "Drew Brees",
+            "AgeThatYear": "38",
+            "YD": "4,334",
+            "Year": "2017",
+            "Team": "NOR"
+          },
+          {
+            "Rank": "84",
+            "Player": "Ben Roethlisberger",
+            "AgeThatYear": "27",
+            "YD": "4,328",
+            "Year": "2009",
+            "Team": "PIT"
+          },
+          {
+            "Rank": "85",
+            "Player": "Matthew Stafford",
+            "AgeThatYear": "28",
+            "YD": "4,327",
+            "Year": "2016",
+            "Team": "DET"
+          },
+          {
+            "Rank": "86",
+            "Player": "Don Majkowski",
+            "AgeThatYear": "25",
+            "YD": "4,318",
+            "Year": "1989",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "87",
+            "Player": "Joe Flacco",
+            "AgeThatYear": "31",
+            "YD": "4,317",
+            "Year": "2016",
+            "Team": "BAL"
+          },
+          {
+            "Rank": "88",
+            "Player": "Jim Everett",
+            "AgeThatYear": "26",
+            "YD": "4,310",
+            "Year": "1989",
+            "Team": "RAM"
+          },
+          {
+            "Rank": "89",
+            "Player": "Marc Bulger",
+            "AgeThatYear": "29",
+            "YD": "4,301",
+            "Year": "2006",
+            "Team": "STL"
+          },
+          {
+            "Rank": "90",
+            "Player": "Aaron Rodgers",
+            "AgeThatYear": "28",
+            "YD": "4,295",
+            "Year": "2012",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "91",
+            "Player": "Andy Dalton",
+            "AgeThatYear": "25",
+            "YD": "4,293",
+            "Year": "2013",
+            "Team": "CIN"
+          },
+          {
+            "Rank": "92",
+            "Player": "Philip Rivers",
+            "AgeThatYear": "32",
+            "YD": "4,286",
+            "Year": "2014",
+            "Team": "SDG"
+          },
+          {
+            "Rank": "93",
+            "Player": "Jeff Garcia",
+            "AgeThatYear": "30",
+            "YD": "4,278",
+            "Year": "2000",
+            "Team": "SFO"
+          },
+          {
+            "Rank": "94",
+            "Player": "Carson Palmer",
+            "AgeThatYear": "33",
+            "YD": "4,274",
+            "Year": "2013",
+            "Team": "ARI"
+          },
+          {
+            "Rank": "95",
+            "Player": "Peyton Manning",
+            "AgeThatYear": "27",
+            "YD": "4,267",
+            "Year": "2003",
+            "Team": "IND"
+          },
+          {
+            "Rank": "96",
+            "Player": "Warren Moon+",
+            "AgeThatYear": "37",
+            "YD": "4,264",
+            "Year": "1994",
+            "Team": "MIN"
+          },
+          {
+            "Rank": "97",
+            "Player": "Matthew Stafford",
+            "AgeThatYear": "27",
+            "YD": "4,262",
+            "Year": "2015",
+            "Team": "DET"
+          },
+          {
+            "Rank": "98",
+            "Player": "Ben Roethlisberger",
+            "AgeThatYear": "31",
+            "YD": "4,261",
+            "Year": "2013",
+            "Team": "PIT"
+          },
+          {
+            "Rank": "99",
+            "Player": "Matthew Stafford",
+            "AgeThatYear": "26",
+            "YD": "4,257",
+            "Year": "2014",
+            "Team": "DET"
+          },
+          {
+            "Rank": "100",
+            "Player": "Philip Rivers",
+            "AgeThatYear": "27",
+            "YD": "4,254",
+            "Year": "2009",
+            "Team": "SDG"
+          },
+          {
+            "Rank": "101",
+            "Player": "Ben Roethlisberger",
+            "AgeThatYear": "35",
+            "YD": "4,251",
+            "Year": "2017",
+            "Team": "PIT"
+          },
+          {
+            "Rank": "102",
+            "Player": "Andrew Luck",
+            "AgeThatYear": "26",
+            "YD": "4,240",
+            "Year": "2016",
+            "Team": "IND"
+          },
+          {
+            "Rank": "103",
+            "Player": "Carson Palmer",
+            "AgeThatYear": "36",
+            "YD": "4,233",
+            "Year": "2016",
+            "Team": "ARI"
+          },
+          {
+            "Rank": "104",
+            "Player": "Warren Moon+",
+            "AgeThatYear": "38",
+            "YD": "4,228",
+            "Year": "1995",
+            "Team": "MIN"
+          },
+          {
+            "Rank": "105",
+            "Player": "Russell Wilson",
+            "AgeThatYear": "27",
+            "YD": "4,219",
+            "Year": "2016",
+            "Team": "SEA"
+          },
+          {
+            "Rank": "106",
+            "Player": "Brett Favre+",
+            "AgeThatYear": "28",
+            "YD": "4,212",
+            "Year": "1998",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "107",
+            "Player": "Tony Romo",
+            "AgeThatYear": "27",
+            "YD": "4,211",
+            "Year": "2007",
+            "Team": "DAL"
+          },
+          {
+            "Rank": "108",
+            "Player": "Jon Kitna",
+            "AgeThatYear": "33",
+            "YD": "4,208",
+            "Year": "2006",
+            "Team": "DET"
+          },
+          {
+            "Rank": "",
+            "Player": "Ryan Tannehill",
+            "AgeThatYear": "27",
+            "YD": "4,208",
+            "Year": "2015",
+            "Team": "MIA"
+          },
+          {
+            "Rank": "110",
+            "Player": "Andy Dalton",
+            "AgeThatYear": "28",
+            "YD": "4,206",
+            "Year": "2016",
+            "Team": "CIN"
+          },
+          {
+            "Rank": "111",
+            "Player": "Brett Favre+",
+            "AgeThatYear": "39",
+            "YD": "4,202",
+            "Year": "2009",
+            "Team": "MIN"
+          },
+          {
+            "Rank": "112",
+            "Player": "Peyton Manning",
+            "AgeThatYear": "26",
+            "YD": "4,200",
+            "Year": "2002",
+            "Team": "IND"
+          },
+          {
+            "Rank": "113",
+            "Player": "Tony Romo",
+            "AgeThatYear": "31",
+            "YD": "4,184",
+            "Year": "2011",
+            "Team": "DAL"
+          },
+          {
+            "Rank": "114",
+            "Player": "Matt Ryan",
+            "AgeThatYear": "26",
+            "YD": "4,177",
+            "Year": "2011",
+            "Team": "ATL"
+          },
+          {
+            "Rank": "",
+            "Player": "Vinny Testaverde",
+            "AgeThatYear": "32",
+            "YD": "4,177",
+            "Year": "1996",
+            "Team": "BAL"
+          },
+          {
+            "Rank": "116",
+            "Player": "Steve Young+",
+            "AgeThatYear": "36",
+            "YD": "4,170",
+            "Year": "1998",
+            "Team": "SFO"
+          },
+          {
+            "Rank": "117",
+            "Player": "Elvis Grbac",
+            "AgeThatYear": "30",
+            "YD": "4,169",
+            "Year": "2000",
+            "Team": "KAN"
+          },
+          {
+            "Rank": "118",
+            "Player": "Kirk Cousins",
+            "AgeThatYear": "27",
+            "YD": "4,166",
+            "Year": "2015",
+            "Team": "WAS"
+          },
+          {
+            "Rank": "119",
+            "Player": "Brett Favre+",
+            "AgeThatYear": "37",
+            "YD": "4,155",
+            "Year": "2007",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "120",
+            "Player": "Jeff George",
+            "AgeThatYear": "27",
+            "YD": "4,143",
+            "Year": "1995",
+            "Team": "ATL"
+          },
+          {
+            "Rank": "121",
+            "Player": "Dan Marino+",
+            "AgeThatYear": "23",
+            "YD": "4,137",
+            "Year": "1985",
+            "Team": "MIA"
+          },
+          {
+            "Rank": "122",
+            "Player": "Peyton Manning",
+            "AgeThatYear": "23",
+            "YD": "4,135",
+            "Year": "1999",
+            "Team": "IND"
+          },
+          {
+            "Rank": "123",
+            "Player": "Brian Sipe",
+            "AgeThatYear": "31",
+            "YD": "4,132",
+            "Year": "1980",
+            "Team": "CLE"
+          },
+          {
+            "Rank": "124",
+            "Player": "Peyton Manning",
+            "AgeThatYear": "25",
+            "YD": "4,131",
+            "Year": "2001",
+            "Team": "IND"
+          },
+          {
+            "Rank": "",
+            "Player": "Carson Palmer",
+            "AgeThatYear": "27",
+            "YD": "4,131",
+            "Year": "2007",
+            "Team": "CIN"
+          },
+          {
+            "Rank": "126",
+            "Player": "Dan Marino+",
+            "AgeThatYear": "30",
+            "YD": "4,116",
+            "Year": "1992",
+            "Team": "MIA"
+          },
+          {
+            "Rank": "127",
+            "Player": "Tom Brady",
+            "AgeThatYear": "28",
+            "YD": "4,110",
+            "Year": "2005",
+            "Team": "NWE"
+          },
+          {
+            "Rank": "128",
+            "Player": "Tom Brady",
+            "AgeThatYear": "37",
+            "YD": "4,109",
+            "Year": "2014",
+            "Team": "NWE"
+          },
+          {
+            "Rank": "",
+            "Player": "Jay Schroeder",
+            "AgeThatYear": "25",
+            "YD": "4,109",
+            "Year": "1986",
+            "Team": "WAS"
+          },
+          {
+            "Rank": "130",
+            "Player": "Matt Ryan",
+            "AgeThatYear": "32",
+            "YD": "4,095",
+            "Year": "2017",
+            "Team": "ATL"
+          },
+          {
+            "Rank": "131",
+            "Player": "Kirk Cousins",
+            "AgeThatYear": "29",
+            "YD": "4,093",
+            "Year": "2017",
+            "Team": "WAS"
+          },
+          {
+            "Rank": "132",
+            "Player": "Brett Favre+",
+            "AgeThatYear": "29",
+            "YD": "4,091",
+            "Year": "1999",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "133",
+            "Player": "Jameis Winston",
+            "AgeThatYear": "22",
+            "YD": "4,090",
+            "Year": "2016",
+            "Team": "TAM"
+          },
+          {
+            "Rank": "134",
+            "Player": "Jake Plummer",
+            "AgeThatYear": "29",
+            "YD": "4,089",
+            "Year": "2004",
+            "Team": "DEN"
+          },
+          {
+            "Rank": "135",
+            "Player": "Brett Favre+",
+            "AgeThatYear": "34",
+            "YD": "4,088",
+            "Year": "2004",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "136",
+            "Player": "Drew Bledsoe",
+            "AgeThatYear": "24",
+            "YD": "4,086",
+            "Year": "1996",
+            "Team": "NWE"
+          },
+          {
+            "Rank": "137",
+            "Player": "Dan Fouts+",
+            "AgeThatYear": "28",
+            "YD": "4,082",
+            "Year": "1979",
+            "Team": "SDG"
+          },
+          {
+            "Rank": "138",
+            "Player": "Ben Roethlisberger",
+            "AgeThatYear": "29",
+            "YD": "4,077",
+            "Year": "2011",
+            "Team": "PIT"
+          },
+          {
+            "Rank": "139",
+            "Player": "Kerry Collins",
+            "AgeThatYear": "29",
+            "YD": "4,073",
+            "Year": "2002",
+            "Team": "NYG"
+          },
+          {
+            "Rank": "140",
+            "Player": "Jon Kitna",
+            "AgeThatYear": "34",
+            "YD": "4,068",
+            "Year": "2007",
+            "Team": "DET"
+          },
+          {
+            "Rank": "141",
+            "Player": "Josh Freeman",
+            "AgeThatYear": "24",
+            "YD": "4,065",
+            "Year": "2012",
+            "Team": "TAM"
+          },
+          {
+            "Rank": "142",
+            "Player": "Cam Newton",
+            "AgeThatYear": "22",
+            "YD": "4,051",
+            "Year": "2011",
+            "Team": "CAR"
+          },
+          {
+            "Rank": "143",
+            "Player": "Ryan Tannehill",
+            "AgeThatYear": "26",
+            "YD": "4,045",
+            "Year": "2014",
+            "Team": "MIA"
+          },
+          {
+            "Rank": "144",
+            "Player": "Phil Simms",
+            "AgeThatYear": "28",
+            "YD": "4,044",
+            "Year": "1984",
+            "Team": "NYG"
+          },
+          {
+            "Rank": "145",
+            "Player": "Alex Smith",
+            "AgeThatYear": "33",
+            "YD": "4,042",
+            "Year": "2017",
+            "Team": "KAN"
+          },
+          {
+            "Rank": "",
+            "Player": "Jameis Winston",
+            "AgeThatYear": "21",
+            "YD": "4,042",
+            "Year": "2015",
+            "Team": "TAM"
+          },
+          {
+            "Rank": "147",
+            "Player": "Peyton Manning",
+            "AgeThatYear": "31",
+            "YD": "4,040",
+            "Year": "2007",
+            "Team": "IND"
+          },
+          {
+            "Rank": "148",
+            "Player": "Trent Green",
+            "AgeThatYear": "33",
+            "YD": "4,039",
+            "Year": "2003",
+            "Team": "KAN"
+          },
+          {
+            "Rank": "149",
+            "Player": "Aaron Rodgers",
+            "AgeThatYear": "24",
+            "YD": "4,038",
+            "Year": "2008",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "150",
+            "Player": "Carson Palmer",
+            "AgeThatYear": "26",
+            "YD": "4,035",
+            "Year": "2006",
+            "Team": "CIN"
+          },
+          {
+            "Rank": "151",
+            "Player": "John Elway+",
+            "AgeThatYear": "33",
+            "YD": "4,030",
+            "Year": "1993",
+            "Team": "DEN"
+          },
+          {
+            "Rank": "152",
+            "Player": "Eli Manning",
+            "AgeThatYear": "35",
+            "YD": "4,027",
+            "Year": "2016",
+            "Team": "NYG"
+          },
+          {
+            "Rank": "153",
+            "Player": "Russell Wilson",
+            "AgeThatYear": "26",
+            "YD": "4,024",
+            "Year": "2015",
+            "Team": "SEA"
+          },
+          {
+            "Rank": "154",
+            "Player": "Steve Young+",
+            "AgeThatYear": "31",
+            "YD": "4,023",
+            "Year": "1993",
+            "Team": "SFO"
+          },
+          {
+            "Rank": "155",
+            "Player": "Eli Manning",
+            "AgeThatYear": "28",
+            "YD": "4,021",
+            "Year": "2009",
+            "Team": "NYG"
+          },
+          {
+            "Rank": "156",
+            "Player": "Carson Palmer",
+            "AgeThatYear": "32",
+            "YD": "4,018",
+            "Year": "2012",
+            "Team": "OAK"
+          },
+          {
+            "Rank": "157",
+            "Player": "Trent Green",
+            "AgeThatYear": "35",
+            "YD": "4,014",
+            "Year": "2005",
+            "Team": "KAN"
+          },
+          {
+            "Rank": "158",
+            "Player": "Philip Rivers",
+            "AgeThatYear": "26",
+            "YD": "4,009",
+            "Year": "2008",
+            "Team": "SDG"
+          },
+          {
+            "Rank": "159",
+            "Player": "Matt Schaub",
+            "AgeThatYear": "31",
+            "YD": "4,008",
+            "Year": "2012",
+            "Team": "HOU"
+          },
+          {
+            "Rank": "160",
+            "Player": "Joe Namath+",
+            "AgeThatYear": "24",
+            "YD": "4,007",
+            "Year": "1967",
+            "Team": "NYJ"
+          },
+          {
+            "Rank": "161",
+            "Player": "Brad Johnson",
+            "AgeThatYear": "30",
+            "YD": "4,005",
+            "Year": "1999",
+            "Team": "WAS"
+          },
+          {
+            "Rank": "162",
+            "Player": "Eli Manning",
+            "AgeThatYear": "29",
+            "YD": "4,002",
+            "Year": "2010",
+            "Team": "NYG"
+          },
+          {
+            "Rank": "",
+            "Player": "Peyton Manning",
+            "AgeThatYear": "32",
+            "YD": "4,002",
+            "Year": "2008",
+            "Team": "IND"
+          },
+          {
+            "Rank": "164",
+            "Player": "Dan Marino+",
+            "AgeThatYear": "27",
+            "YD": "3,997",
+            "Year": "1989",
+            "Team": "MIA"
+          },
+          {
+            "Rank": "165",
+            "Player": "Jim Everett",
+            "AgeThatYear": "27",
+            "YD": "3,989",
+            "Year": "1990",
+            "Team": "RAM"
+          },
+          {
+            "Rank": "166",
+            "Player": "Derek Carr",
+            "AgeThatYear": "24",
+            "YD": "3,987",
+            "Year": "2015",
+            "Team": "OAK"
+          },
+          {
+            "Rank": "167",
+            "Player": "Joe Flacco",
+            "AgeThatYear": "29",
+            "YD": "3,986",
+            "Year": "2014",
+            "Team": "BAL"
+          },
+          {
+            "Rank": "168",
+            "Player": "Drew Bledsoe",
+            "AgeThatYear": "27",
+            "YD": "3,985",
+            "Year": "1999",
+            "Team": "NWE"
+          },
+          {
+            "Rank": "169",
+            "Player": "Russell Wilson",
+            "AgeThatYear": "28",
+            "YD": "3,983",
+            "Year": "2017",
+            "Team": "SEA"
+          },
+          {
+            "Rank": "170",
+            "Player": "Danny White",
+            "AgeThatYear": "31",
+            "YD": "3,980",
+            "Year": "1983",
+            "Team": "DAL"
+          },
+          {
+            "Rank": "171",
+            "Player": "John Elway+",
+            "AgeThatYear": "35",
+            "YD": "3,970",
+            "Year": "1995",
+            "Team": "DEN"
+          },
+          {
+            "Rank": "",
+            "Player": "Jim Everett",
+            "AgeThatYear": "32",
+            "YD": "3,970",
+            "Year": "1995",
+            "Team": "NOR"
+          },
+          {
+            "Rank": "",
+            "Player": "Dan Marino+",
+            "AgeThatYear": "29",
+            "YD": "3,970",
+            "Year": "1991",
+            "Team": "MIA"
+          },
+          {
+            "Rank": "",
+            "Player": "Carson Palmer",
+            "AgeThatYear": "30",
+            "YD": "3,970",
+            "Year": "2010",
+            "Team": "CIN"
+          },
+          {
+            "Rank": "175",
+            "Player": "Steve Young+",
+            "AgeThatYear": "32",
+            "YD": "3,969",
+            "Year": "1994",
+            "Team": "SFO"
+          },
+          {
+            "Rank": "176",
+            "Player": "Matt Hasselbeck",
+            "AgeThatYear": "31",
+            "YD": "3,966",
+            "Year": "2007",
+            "Team": "SEA"
+          },
+          {
+            "Rank": "177",
+            "Player": "Marc Bulger",
+            "AgeThatYear": "27",
+            "YD": "3,964",
+            "Year": "2004",
+            "Team": "STL"
+          },
+          {
+            "Rank": "",
+            "Player": "Jim Everett",
+            "AgeThatYear": "25",
+            "YD": "3,964",
+            "Year": "1988",
+            "Team": "RAM"
+          },
+          {
+            "Rank": "179",
+            "Player": "Boomer Esiason",
+            "AgeThatYear": "25",
+            "YD": "3,959",
+            "Year": "1986",
+            "Team": "CIN"
+          },
+          {
+            "Rank": "180",
+            "Player": "Eli Manning",
+            "AgeThatYear": "31",
+            "YD": "3,948",
+            "Year": "2012",
+            "Team": "NYG"
+          },
+          {
+            "Rank": "181",
+            "Player": "Joe Montana+",
+            "AgeThatYear": "34",
+            "YD": "3,944",
+            "Year": "1990",
+            "Team": "SFO"
+          },
+          {
+            "Rank": "182",
+            "Player": "Ben Roethlisberger",
+            "AgeThatYear": "33",
+            "YD": "3,938",
+            "Year": "2015",
+            "Team": "PIT"
+          },
+          {
+            "Rank": "183",
+            "Player": "Derek Carr",
+            "AgeThatYear": "25",
+            "YD": "3,937",
+            "Year": "2016",
+            "Team": "OAK"
+          },
+          {
+            "Rank": "",
+            "Player": "Daunte Culpepper",
+            "AgeThatYear": "23",
+            "YD": "3,937",
+            "Year": "2000",
+            "Team": "MIN"
+          },
+          {
+            "Rank": "185",
+            "Player": "Aaron Rodgers",
+            "AgeThatYear": "26",
+            "YD": "3,922",
+            "Year": "2010",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "186",
+            "Player": "Brett Favre+",
+            "AgeThatYear": "31",
+            "YD": "3,921",
+            "Year": "2001",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "187",
+            "Player": "Jeff George",
+            "AgeThatYear": "29",
+            "YD": "3,917",
+            "Year": "1997",
+            "Team": "OAK"
+          },
+          {
+            "Rank": "188",
+            "Player": "Donovan McNabb",
+            "AgeThatYear": "31",
+            "YD": "3,916",
+            "Year": "2008",
+            "Team": "PHI"
+          },
+          {
+            "Rank": "189",
+            "Player": "Ryan Tannehill",
+            "AgeThatYear": "25",
+            "YD": "3,913",
+            "Year": "2013",
+            "Team": "MIA"
+          },
+          {
+            "Rank": "190",
+            "Player": "Joe Flacco",
+            "AgeThatYear": "28",
+            "YD": "3,912",
+            "Year": "2013",
+            "Team": "BAL"
+          },
+          {
+            "Rank": "",
+            "Player": "Tommy Kramer",
+            "AgeThatYear": "26",
+            "YD": "3,912",
+            "Year": "1981",
+            "Team": "MIN"
+          },
+          {
+            "Rank": "192",
+            "Player": "Joe Montana+",
+            "AgeThatYear": "27",
+            "YD": "3,910",
+            "Year": "1983",
+            "Team": "SFO"
+          },
+          {
+            "Rank": "193",
+            "Player": "Blake Bortles",
+            "AgeThatYear": "24",
+            "YD": "3,905",
+            "Year": "2016",
+            "Team": "JAX"
+          },
+          {
+            "Rank": "",
+            "Player": "Ryan Fitzpatrick",
+            "AgeThatYear": "32",
+            "YD": "3,905",
+            "Year": "2015",
+            "Team": "NYJ"
+          },
+          {
+            "Rank": "195",
+            "Player": "Tom Brady",
+            "AgeThatYear": "33",
+            "YD": "3,900",
+            "Year": "2010",
+            "Team": "NWE"
+          },
+          {
+            "Rank": "196",
+            "Player": "Brett Favre+",
+            "AgeThatYear": "26",
+            "YD": "3,899",
+            "Year": "1996",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "197",
+            "Player": "John Elway+",
+            "AgeThatYear": "25",
+            "YD": "3,891",
+            "Year": "1985",
+            "Team": "DEN"
+          },
+          {
+            "Rank": "198",
+            "Player": "Ken O'Brien",
+            "AgeThatYear": "24",
+            "YD": "3,888",
+            "Year": "1985",
+            "Team": "NYJ"
+          },
+          {
+            "Rank": "199",
+            "Player": "Jake Delhomme",
+            "AgeThatYear": "29",
+            "YD": "3,886",
+            "Year": "2004",
+            "Team": "CAR"
+          },
+          {
+            "Rank": "200",
+            "Player": "Brett Favre+",
+            "AgeThatYear": "36",
+            "YD": "3,885",
+            "Year": "2006",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "201",
+            "Player": "Brett Favre+",
+            "AgeThatYear": "24",
+            "YD": "3,882",
+            "Year": "1994",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "202",
+            "Player": "Brett Favre+",
+            "AgeThatYear": "35",
+            "YD": "3,881",
+            "Year": "2005",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "203",
+            "Player": "Sam Bradford",
+            "AgeThatYear": "28",
+            "YD": "3,877",
+            "Year": "2016",
+            "Team": "MIN"
+          },
+          {
+            "Rank": "204",
+            "Player": "Brian Sipe",
+            "AgeThatYear": "32",
+            "YD": "3,876",
+            "Year": "1981",
+            "Team": "CLE"
+          },
+          {
+            "Rank": "205",
+            "Player": "Donovan McNabb",
+            "AgeThatYear": "27",
+            "YD": "3,875",
+            "Year": "2004",
+            "Team": "PHI"
+          },
+          {
+            "Rank": "206",
+            "Player": "Cam Newton",
+            "AgeThatYear": "23",
+            "YD": "3,869",
+            "Year": "2012",
+            "Team": "CAR"
+          },
+          {
+            "Rank": "207",
+            "Player": "Brett Favre+",
+            "AgeThatYear": "27",
+            "YD": "3,867",
+            "Year": "1997",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "208",
+            "Player": "Jim Everett",
+            "AgeThatYear": "31",
+            "YD": "3,855",
+            "Year": "1994",
+            "Team": "NOR"
+          },
+          {
+            "Rank": "209",
+            "Player": "Bernie Kosar",
+            "AgeThatYear": "22",
+            "YD": "3,854",
+            "Year": "1986",
+            "Team": "CLE"
+          },
+          {
+            "Rank": "210",
+            "Player": "Daunte Culpepper",
+            "AgeThatYear": "25",
+            "YD": "3,853",
+            "Year": "2002",
+            "Team": "MIN"
+          },
+          {
+            "Rank": "211",
+            "Player": "Marc Bulger",
+            "AgeThatYear": "26",
+            "YD": "3,845",
+            "Year": "2003",
+            "Team": "STL"
+          },
+          {
+            "Rank": "212",
+            "Player": "Jim Kelly+",
+            "AgeThatYear": "31",
+            "YD": "3,844",
+            "Year": "1991",
+            "Team": "BUF"
+          },
+          {
+            "Rank": "213",
+            "Player": "Matt Hasselbeck",
+            "AgeThatYear": "27",
+            "YD": "3,841",
+            "Year": "2003",
+            "Team": "SEA"
+          },
+          {
+            "Rank": "214",
+            "Player": "Rich Gannon",
+            "AgeThatYear": "33",
+            "YD": "3,840",
+            "Year": "1999",
+            "Team": "OAK"
+          },
+          {
+            "Rank": "215",
+            "Player": "Erik Kramer",
+            "AgeThatYear": "30",
+            "YD": "3,838",
+            "Year": "1995",
+            "Team": "CHI"
+          },
+          {
+            "Rank": "216",
+            "Player": "Cam Newton",
+            "AgeThatYear": "26",
+            "YD": "3,837",
+            "Year": "2015",
+            "Team": "CAR"
+          },
+          {
+            "Rank": "217",
+            "Player": "Carson Palmer",
+            "AgeThatYear": "25",
+            "YD": "3,836",
+            "Year": "2005",
+            "Team": "CIN"
+          },
+          {
+            "Rank": "218",
+            "Player": "Aaron Brooks",
+            "AgeThatYear": "25",
+            "YD": "3,832",
+            "Year": "2001",
+            "Team": "NOR"
+          },
+          {
+            "Rank": "",
+            "Player": "Ryan Fitzpatrick",
+            "AgeThatYear": "28",
+            "YD": "3,832",
+            "Year": "2011",
+            "Team": "BUF"
+          },
+          {
+            "Rank": "220",
+            "Player": "Steve Bartkowski",
+            "AgeThatYear": "28",
+            "YD": "3,829",
+            "Year": "1981",
+            "Team": "ATL"
+          },
+          {
+            "Rank": "",
+            "Player": "Phil Simms",
+            "AgeThatYear": "29",
+            "YD": "3,829",
+            "Year": "1985",
+            "Team": "NYG"
+          },
+          {
+            "Rank": "222",
+            "Player": "Rich Gannon",
+            "AgeThatYear": "35",
+            "YD": "3,828",
+            "Year": "2001",
+            "Team": "OAK"
+          },
+          {
+            "Rank": "",
+            "Player": "Tony Romo",
+            "AgeThatYear": "33",
+            "YD": "3,828",
+            "Year": "2013",
+            "Team": "DAL"
+          },
+          {
+            "Rank": "224",
+            "Player": "Jeff Blake",
+            "AgeThatYear": "24",
+            "YD": "3,822",
+            "Year": "1995",
+            "Team": "CIN"
+          },
+          {
+            "Rank": "",
+            "Player": "Andrew Luck",
+            "AgeThatYear": "23",
+            "YD": "3,822",
+            "Year": "2013",
+            "Team": "IND"
+          },
+          {
+            "Rank": "226",
+            "Player": "Aaron Rodgers",
+            "AgeThatYear": "31",
+            "YD": "3,821",
+            "Year": "2015",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "227",
+            "Player": "Ben Roethlisberger",
+            "AgeThatYear": "34",
+            "YD": "3,819",
+            "Year": "2016",
+            "Team": "PIT"
+          },
+          {
+            "Rank": "228",
+            "Player": "Eli Manning",
+            "AgeThatYear": "32",
+            "YD": "3,818",
+            "Year": "2013",
+            "Team": "NYG"
+          },
+          {
+            "Rank": "229",
+            "Player": "Joe Flacco",
+            "AgeThatYear": "27",
+            "YD": "3,817",
+            "Year": "2012",
+            "Team": "BAL"
+          },
+          {
+            "Rank": "230",
+            "Player": "Jay Cutler",
+            "AgeThatYear": "31",
+            "YD": "3,812",
+            "Year": "2014",
+            "Team": "CHI"
+          },
+          {
+            "Rank": "",
+            "Player": "Brett Favre+",
+            "AgeThatYear": "30",
+            "YD": "3,812",
+            "Year": "2000",
+            "Team": "GNB"
+          },
+          {
+            "Rank": "232",
+            "Player": "Brad Johnson",
+            "AgeThatYear": "34",
+            "YD": "3,811",
+            "Year": "2003",
+            "Team": "TAM"
+          },
+          {
+            "Rank": "233",
+            "Player": "Aaron Brooks",
+            "AgeThatYear": "28",
+            "YD": "3,810",
+            "Year": "2004",
+            "Team": "NOR"
+          },
+          {
+            "Rank": "234",
+            "Player": "Randall Cunningham",
+            "AgeThatYear": "25",
+            "YD": "3,808",
+            "Year": "1988",
+            "Team": "PHI"
+          },
+          {
+            "Rank": "235",
+            "Player": "Jared Goff",
+            "AgeThatYear": "22",
+            "YD": "3,804",
+            "Year": "2017",
+            "Team": "LAR"
+          },
+          {
+            "Rank": "236",
+            "Player": "Kyle Orton",
+            "AgeThatYear": "26",
+            "YD": "3,802",
+            "Year": "2009",
+            "Team": "DEN"
+          },
+          {
+            "Rank": "237",
+            "Player": "Brian Sipe",
+            "AgeThatYear": "30",
+            "YD": "3,793",
+            "Year": "1979",
+            "Team": "CLE"
+          },
+          {
+            "Rank": "238",
+            "Player": "Derek Anderson",
+            "AgeThatYear": "24",
+            "YD": "3,787",
+            "Year": "2007",
+            "Team": "CLE"
+          },
+          {
+            "Rank": "239",
+            "Player": "Trent Green",
+            "AgeThatYear": "31",
+            "YD": "3,783",
+            "Year": "2001",
+            "Team": "KAN"
+          },
+          {
+            "Rank": "240",
+            "Player": "Carson Wentz",
+            "AgeThatYear": "23",
+            "YD": "3,782",
+            "Year": "2016",
+            "Team": "PHI"
+          },
+          {
+            "Rank": "241",
+            "Player": "Dan Marino+",
+            "AgeThatYear": "35",
+            "YD": "3,780",
+            "Year": "1997",
+            "Team": "MIA"
+          },
+          {
+            "Rank": "242",
+            "Player": "Mark Rypien",
+            "AgeThatYear": "26",
+            "YD": "3,768",
+            "Year": "1989",
+            "Team": "WAS"
+          },
+          {
+            "Rank": "243",
+            "Player": "Tom Brady",
+            "AgeThatYear": "25",
+            "YD": "3,764",
+            "Year": "2002",
+            "Team": "NWE"
+          },
+          {
+            "Rank": "",
+            "Player": "Kerry Collins",
+            "AgeThatYear": "28",
+            "YD": "3,764",
+            "Year": "2001",
+            "Team": "NYG"
+          },
+          {
+            "Rank": "245",
+            "Player": "Eli Manning",
+            "AgeThatYear": "24",
+            "YD": "3,762",
+            "Year": "2005",
+            "Team": "NYG"
+          },
+          {
+            "Rank": "246",
+            "Player": "Kerry Collins",
+            "AgeThatYear": "32",
+            "YD": "3,759",
+            "Year": "2005",
+            "Team": "OAK"
+          },
+          {
+            "Rank": "247",
+            "Player": "Ken Anderson",
+            "AgeThatYear": "32",
+            "YD": "3,754",
+            "Year": "1981",
+            "Team": "CIN"
+          },
+          {
+            "Rank": "248",
+            "Player": "Kurt Warner+",
+            "AgeThatYear": "38",
+            "YD": "3,753",
+            "Year": "2009",
+            "Team": "ARI"
+          },
+          {
+            "Rank": "249",
+            "Player": "Sonny Jurgensen+",
+            "AgeThatYear": "33",
+            "YD": "3,747",
+            "Year": "1967",
+            "Team": "WAS"
+          },
+          {
+            "Rank": "",
+            "Player": "Peyton Manning",
+            "AgeThatYear": "29",
+            "YD": "3,747",
+            "Year": "2005",
+            "Team": "IND"
+          }
+        ],
         "career": []
     },
     "passing-td": {
