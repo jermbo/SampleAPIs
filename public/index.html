@@ -41,7 +41,7 @@
             </div>
         </article>
         <section class="apis">
-            <Apis v-for="api, i in apis" :api="api" :key="i"></Apis>
+            <Apis v-for="api in apis" :api="api"></Apis>
         </section>
     </main>
     <template id="api">
