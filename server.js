@@ -4,14 +4,7 @@ const path = require("path");
 const server = jsonServer.create();
 const middleware = jsonServer.defaults();
 const port = process.env.PORT || 5000;
-const pages = [
-  "futurama",
-  "avatar",
-  "baseball",
-  "recipes",
-  "fakebank",
-  "football"
-];
+const pages = ["futurama", "avatar", "baseball", "recipes", "fakebank"];
 
 server.get("/reset", (req, res) => {
   pages.forEach(page => {
