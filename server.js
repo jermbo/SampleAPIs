@@ -11,7 +11,8 @@ const pages = [
   "baseball",
   "recipes",
   "fakebank",
-  "football"
+  "football",
+  "countries"
 ];
 
 server.get("/reset", (req, res) => {
