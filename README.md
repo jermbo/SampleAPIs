@@ -1,21 +1,20 @@
 # Sample APIs
 
-Understanding RESTful APIs is hard enough without including a authentication mechanism. The sole purpose of this repository is to play with RESTful endpoints and learn. We have a few endpoints that you can start playing around with right away. If you are not finding anything you are interested in, create your own endpoints and or submit a pull request. ( Take a look at the [CONTRIBUTING](https://github.com/jermbo/SampleAPIs/blob/master/CONTRIBUTING.md) for more information on how to get involved )
+Understanding RESTful APIs is hard enough, even without including an authentication mechanism. The sole purpose of this repository is to play with RESTful endpoints and learn. We have a few endpoints that you can start playing around with right away! If you are not finding anything you are interested in, create your own endpoints and/or submit a pull request. ( Take a look at the [CONTRIBUTING](https://github.com/jermbo/SampleAPIs/blob/master/CONTRIBUTING.md) for more information on how to get involved )
 
 ## Using the API
 
-We have a growing number of APIs to choose from. Head over to [SampleAPIs.com](https://sampleapis.com) and checkout the current list of APIs. On the right hand side, you will see the name of the API, brief description, and link. When you have navigated to an individual page, you will be presented with more details about that specific API, along with all the endpoints you can utilize.
+We have a growing number of APIs to choose from. Head over to [SampleAPIs.com](https://sampleapis.com) and check out the current list of APIs. On the right-hand side, you will see the name of the API, a brief description, and a link. When you have navigated to an individual page, you will be presented with more details about that specific API, along with all the endpoints you can utilize.
 
-All APIs will follow the same url structure, the differences being the base category and the specific endpoint. For example, let's look at the path for Futurama. To get to the basic information about the database you will navigate to `https://sampleapis.com/futurama`. There you will notice a list of all the endpoints and you are interested in the inventory list. Your url would look like `https://sampleapis.com/futurama/inventory`.
+All APIs will follow the same url structure; the differences being the base category and the specific endpoint. For example, let's look at the path for Futurama. To get to the basic information about the database, you will navigate to `https://sampleapis.com/futurama`. There, you will notice a list of all the endpoints you are interested in and the inventory list. Your url would look like `https://sampleapis.com/futurama/inventory`.
 
-Once you get to an endpoint, you can do all the normal actions on a RESTful endpoint. Check out the documentation over at [JSON-Server](https://github.com/typicode/json-server) as this is the tool that is powering the site.
+Once you get to an endpoint, you can do all the normal actions on a RESTful endpoint (eg., GET, POST). Check out the documentation over at [JSON-Server](https://github.com/typicode/json-server) as this is the tool that is powering the site.
 
 ## Starting server locally
 
-Navigate to the folder containing the cloned files. Install dependencies `npm i`. Once all the dependencies are loaded, run `npm start`. Open your browser to `localhost:5000`. Use the site the same way you would from the website.
+Navigate to the folder containing the cloned files. Install dependencies with the command `npm i`. Once all the dependencies are loaded, run `npm start`. Open your browser to `localhost:5000`. Use the site the same way you would from the live version of the website.
 
 #### Disclaimers
 
 - The data on this site is for educational purposes only and is not owned by SampleAPIs.com
-- Data will be reset back to its original state on a regular basis. If you are updating or adding to data to the endpoints and want to have them present, contribute to the repo by submitting a pull request.
--
+- Data will be reset back to its original state on a regular basis. If you are updating or adding data to the endpoints and want to have them persist as part of the collection, please contribute to the repo by submitting a pull request.
