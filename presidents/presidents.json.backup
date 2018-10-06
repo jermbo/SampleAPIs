@@ -65,7 +65,7 @@
 		},
 		{
 			"id": 8,
-			"order": 8,
+			"ordinal": 8,
 			"name": "Martin Van Buren",
 			"yearsInOffice": "1837-1841",
 			"vicePresidents": ["Richard Mentor Johnson"],
