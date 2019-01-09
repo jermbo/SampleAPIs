@@ -14,9 +14,9 @@
   "homepage": "https://github.com/jermbo/SampleAPIs#readme",
   "dependencies": {
     "babel-preset-preact": "^1.1.0",
-    "express": "^4.16.3",
+    "express": "^4.16.4",
     "fs": "0.0.1-security",
-    "json-server": "^0.14.0",
+    "json-server": "^0.14.2",
     "path": "^0.12.7"
   }
 }
