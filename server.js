@@ -14,20 +14,17 @@ const pages = [
   "football",
   "countries",
   "presidents",
-  "simpsons"
+  "simpsons",
+  "hurricanes"
 ];
 
 server.get("/reset", (req, res) => {
   pages.forEach(page => {
-    fs.copyFile(
-      `./${page}/${page}.json.backup`,
-      `./${page}/${page}.json`,
-      err => {
-        if (err) {
-          console.error(err);
-        }
+    fs.copyFile(`./${page}/${page}.json.backup`, `./${page}/${page}.json`, err => {
+      if (err) {
+        console.error(err);
       }
-    );
+    });
   });
   res.end("ok");
 });
