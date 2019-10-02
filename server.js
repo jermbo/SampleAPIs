@@ -4,7 +4,7 @@ const path = require("path");
 const fs = require("fs");
 const server = jsonServer.create();
 const middleware = jsonServer.defaults();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5001;
 const pages = [
   "futurama",
   "avatar",
@@ -15,7 +15,8 @@ const pages = [
   "countries",
   "presidents",
   "simpsons",
-  "hurricanes"
+  "hurricanes",
+  "movies"
 ];
 
 server.get("/reset", (req, res) => {
