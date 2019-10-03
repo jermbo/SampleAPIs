@@ -16,7 +16,8 @@ const pages = [
   "presidents",
   "simpsons",
   "hurricanes",
-  "movies"
+  "movies",
+  "wines"
 ];
 
 server.get("/reset", (req, res) => {
