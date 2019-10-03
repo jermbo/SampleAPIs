@@ -1,0 +1,218 @@
+{
+  "reds": [
+    {
+      "name": "Roscato Rosse Dolce",
+      "stars": 5,
+      "country": "Italy",
+      "color": "red",
+      "grapes": ["teroldego", "lagrein"],
+      "year_made": 2015,
+      "region": "not captured",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "Marchesi Mazzei Zisola Doppiozeta Noto Rosso",
+      "stars": 5,
+      "country": "Italy",
+      "color": "red",
+      "grapes": ["nero d'avola", "shiraz", "cabernet franc"],
+      "year_made": 2008,
+      "region": "not captured",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "Campo Viejo Garnacha",
+      "stars": 2,
+      "country": "Spain",
+      "color": "red",
+      "grapes": ["grenache"],
+      "year_made": 2012,
+      "region": "not captured",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "Robert Mondavi Twin Oaks Shiraz",
+      "stars": 4,
+      "country": "United States (CA)",
+      "color": "red",
+      "grapes": ["shiraz"],
+      "year_made": 2013,
+      "region": "not captured",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "Yellowtail Sweet Red Roo",
+      "stars": 5,
+      "country": "Australia",
+      "color": "red",
+      "grapes": ["shiraz", "cabernet sauvignon"],
+      "year_made": 2015,
+      "region": "not captured",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "Elmo Pio Piemonte Sweet Red Brachetto",
+      "stars": 4,
+      "country": "Italy",
+      "color": "red",
+      "grapes": ["brachetto"],
+      "year_made": 2014,
+      "region": "not captured",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "Cavit Pinot Noir",
+      "stars": 4,
+      "country": "Italy",
+      "color": "red",
+      "grapes": ["pinot noir"],
+      "year_made": 2014,
+      "region": "not captured",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "Yellowtail Shiraz Grenache",
+      "stars": 5,
+      "country": "Australia",
+      "color": "red",
+      "grapes": ["shiraz", "grenache"],
+      "year_made": 2015,
+      "region": "not captured",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "FAT bastard Shiraz",
+      "stars": 4,
+      "country": "France",
+      "color": "red",
+      "grapes": ["shiraz"],
+      "year_made": 2013,
+      "region": "not captured",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "Bully Hill Vineyards Love My Goat",
+      "stars": 3,
+      "country": "United States (NY)",
+      "color": "red",
+      "grapes": ["baco noir", "foch"],
+      "year_made": 2012,
+      "region": "not captured",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "Castello Banfi Rosso di Montalcino Poggio alle Mura",
+      "stars": 4,
+      "country": "Italy",
+      "color": "red",
+      "grapes": ["sangiovese"],
+      "year_made": 2012,
+      "region": "Tuscany",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "Los Vascos Rose",
+      "stars": 4,
+      "country": "Chile",
+      "color": "red",
+      "grapes": ["cabernet sauvignon", "shiraz"],
+      "year_made": 2015,
+      "region": "Colchagua",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "Encanto Mencia Roble",
+      "stars": 5,
+      "country": "Spain",
+      "color": "red",
+      "grapes": ["mencia"],
+      "year_made": 2011,
+      "region": "Bierzo",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "Yellowtail Cabernet Sauvignon",
+      "stars": 1,
+      "country": "Australia",
+      "color": "red",
+      "grapes": ["cabernet sauvignon"],
+      "year_made": 2015,
+      "region": "not captured",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "Menage a Trois Merlot",
+      "stars": 4,
+      "country": "United States (CA)",
+      "color": "red",
+      "grapes": ["merlot"],
+      "year_made": 2014,
+      "region": "various California vineyards",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "Turkey Flat Butcher's Block",
+      "stars": 5,
+      "country": "Australia",
+      "color": "red",
+      "grapes": ["shiraz", "grenache", "mourvedre"],
+      "year_made": 2012,
+      "region": "Barossa Valley",
+      "contains_gluten": "not captured"
+    }
+  ],
+  "whites": [
+    {
+      "name": "Corte Giara Pinot Grigio",
+      "stars": 3.5,
+      "country": "Italy",
+      "color": "white",
+      "grapes": ["pinot grigio"],
+      "year_made": 2014,
+      "region": "IGT delle Venezie",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "HRM Rex Goliath Chardonnay",
+      "stars": 4.5,
+      "country": "United States (CA)",
+      "color": "white",
+      "grapes": ["chardonnay"],
+      "year_made": 2015,
+      "region": "Madera",
+      "contains_gluten": true
+    },
+    {
+      "name": "Elmo Pio Moscato",
+      "stars": 3,
+      "country": "Italy",
+      "color": "white",
+      "grapes": ["moscato"],
+      "year_made": 2014,
+      "region": "not captured",
+      "contains_gluten": "not captured"
+    },
+    {
+      "name": "Albert Boxler Edelzwicker Reserve",
+      "stars": 5,
+      "country": "France",
+      "color": "white",
+      "grapes": ["pinot blanc", "riesling", "muscat", "chasselas"],
+      "year_made": 2012,
+      "region": "not captured",
+      "contains_gluten": "not captured"
+    }
+  ],
+  "sparkling": [
+    {
+      "name": "Love Over Money Basca",
+      "stars": 5,
+      "country": "Spain",
+      "color": "sparkling white",
+      "grapes": ["cava blend"],
+      "year_made": "not captured",
+      "region": "Penedes",
+      "contains_gluten": "not captured"
+    }
+  ]
+}
