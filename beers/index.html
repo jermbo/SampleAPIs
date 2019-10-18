@@ -59,7 +59,7 @@
           name: card.querySelector(".analyticsProductName").innerText,
           rating: {
             average: getRandomFloat(1, 5),
-            reviews: getRandomFloat(50, 500)
+            reviews: parseInt(getRandomFloat(50, 500))
           },
           image: card.querySelector("img") ? card.querySelector("img").src : ""
         };
