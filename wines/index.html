@@ -45,5 +45,28 @@
         db: "wines"
       });
     </script>
+
+    <script>
+      console.clear();
+      var cards = [...document.querySelectorAll(".explorerCard__explorerCard--3Q7_0")];
+      var data = cards.map(card => {
+        // console.log(card.querySelector('img'))
+        return {
+          winery: card.querySelector(".vintageTitle__winery--2YoIr")
+            ? card.querySelector(".vintageTitle__winery--2YoIr").innerText
+            : "",
+          wine: card.querySelector(".vintageTitle__wine--U7t9G").innerText,
+          rating: {
+            average: card.querySelector(".vivinoRating__rating--4Oti3").innerText,
+            reviews: card.querySelector(".vivinoRating__ratingCount--NmiVg").innerText
+          },
+          location: card.querySelector(".vintageLocation__vintageLocation--1DF0p").innerText,
+          image: card.querySelector("img") ? card.querySelector("img").src : ""
+        };
+      });
+      var hasImage = data.filter(d => d.image);
+      console.log(hasImage);
+      copy(hasImage);
+    </script>
   </body>
 </html>
