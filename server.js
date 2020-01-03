@@ -19,7 +19,8 @@ const pages = [
   "movies",
   "wines",
   "health",
-  "beers"
+  "beers",
+  "video-games"
 ];
 
 server.get("/reset", (req, res) => {
