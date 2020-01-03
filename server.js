@@ -21,7 +21,8 @@ const pages = [
   "health",
   "beers",
   "switch",
-  "playstation"
+  "playstation",
+  "xbox"
 ];
 
 server.get("/reset", (req, res) => {
