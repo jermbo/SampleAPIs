@@ -25,20 +25,21 @@ const pages = [
 
 const app = express();
 
-// app.get("api/reset", (req, res) => {
-//   pages.forEach(page => {
-//     fs.copyFile(
-//       `./api/${page}/${page}.json.backup`,
-//       `./${page}/${page}.json`,
-//       err => {
-//         if (err) {
-//           console.error(err);
-//         }
-//       }
-//     );
-//   });
-//   res.end("ok");
-// });
+app.get("/api-reset", (req, res) => {
+  pages.forEach(page => {
+    fs.copyFile(
+      path.join(__dirname, `/api/${page}/${page}.json.backup`),
+      path.join(__dirname, `/api/${page}/${page}.json`),
+      err => {
+        if (err) {
+          console.log(err);
+        }
+      }
+    );
+  });
+
+  res.send("ok");
+});
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "/public/index.html"));
