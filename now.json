@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "sampleapis",
+  "builds": [
+    {
+      "src": "src/index.js",
+      "use": "@now/node-server"
+    }
+  ],
+  "routes": [{ "src": "/.*", "dest": "src/index.js" }],
+  "alias": ["sampleapis.com", "sampleapis"]
+}

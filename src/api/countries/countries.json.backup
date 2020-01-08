@@ -1,0 +1,1906 @@
+{
+    "name": [
+        { "BD": "Bangladesh" },
+        { "BE": "Belgium" },
+        { "BF": "Burkina Faso" },
+        { "BG": "Bulgaria" },
+        { "BA": "Bosnia and Herzegovina" },
+        { "BB": "Barbados" },
+        { "WF": "Wallis and Futuna" },
+        { "BL": "Saint Barthelemy" },
+        { "BM": "Bermuda" },
+        { "BN": "Brunei" },
+        { "BO": "Bolivia" },
+        { "BH": "Bahrain" },
+        { "BI": "Burundi" },
+        { "BJ": "Benin" },
+        { "BT": "Bhutan" },
+        { "JM": "Jamaica" },
+        { "BV": "Bouvet Island" },
+        { "BW": "Botswana" },
+        { "WS": "Samoa" },
+        { "BQ": "Bonaire, Saint Eustatius and Saba" },
+        { "BR": "Brazil" },
+        { "BS": "Bahamas" },
+        { "JE": "Jersey" },
+        { "BY": "Belarus" },
+        { "BZ": "Belize" },
+        { "RU": "Russia" },
+        { "RW": "Rwanda" },
+        { "RS": "Serbia" },
+        { "TL": "East Timor" },
+        { "RE": "Reunion" },
+        { "TM": "Turkmenistan" },
+        { "TJ": "Tajikistan" },
+        { "RO": "Romania" },
+        { "TK": "Tokelau" },
+        { "GW": "Guinea-Bissau" },
+        { "GU": "Guam" },
+        { "GT": "Guatemala" },
+        { "GS": "South Georgia and the South Sandwich Islands" },
+        { "GR": "Greece" },
+        { "GQ": "Equatorial Guinea" },
+        { "GP": "Guadeloupe" },
+        { "JP": "Japan" },
+        { "GY": "Guyana" },
+        { "GG": "Guernsey" },
+        { "GF": "French Guiana" },
+        { "GE": "Georgia" },
+        { "GD": "Grenada" },
+        { "GB": "United Kingdom" },
+        { "GA": "Gabon" },
+        { "SV": "El Salvador" },
+        { "GN": "Guinea" },
+        { "GM": "Gambia" },
+        { "GL": "Greenland" },
+        { "GI": "Gibraltar" },
+        { "GH": "Ghana" },
+        { "OM": "Oman" },
+        { "TN": "Tunisia" },
+        { "JO": "Jordan" },
+        { "HR": "Croatia" },
+        { "HT": "Haiti" },
+        { "HU": "Hungary" },
+        { "HK": "Hong Kong" },
+        { "HN": "Honduras" },
+        { "HM": "Heard Island and McDonald Islands" },
+        { "VE": "Venezuela" },
+        { "PR": "Puerto Rico" },
+        { "PS": "Palestinian Territory" },
+        { "PW": "Palau" },
+        { "PT": "Portugal" },
+        { "SJ": "Svalbard and Jan Mayen" },
+        { "PY": "Paraguay" },
+        { "IQ": "Iraq" },
+        { "PA": "Panama" },
+        { "PF": "French Polynesia" },
+        { "PG": "Papua New Guinea" },
+        { "PE": "Peru" },
+        { "PK": "Pakistan" },
+        { "PH": "Philippines" },
+        { "PN": "Pitcairn" },
+        { "PL": "Poland" },
+        { "PM": "Saint Pierre and Miquelon" },
+        { "ZM": "Zambia" },
+        { "EH": "Western Sahara" },
+        { "EE": "Estonia" },
+        { "EG": "Egypt" },
+        { "ZA": "South Africa" },
+        { "EC": "Ecuador" },
+        { "IT": "Italy" },
+        { "VN": "Vietnam" },
+        { "SB": "Solomon Islands" },
+        { "ET": "Ethiopia" },
+        { "SO": "Somalia" },
+        { "ZW": "Zimbabwe" },
+        { "SA": "Saudi Arabia" },
+        { "ES": "Spain" },
+        { "ER": "Eritrea" },
+        { "ME": "Montenegro" },
+        { "MD": "Moldova" },
+        { "MG": "Madagascar" },
+        { "MF": "Saint Martin" },
+        { "MA": "Morocco" },
+        { "MC": "Monaco" },
+        { "UZ": "Uzbekistan" },
+        { "MM": "Myanmar" },
+        { "ML": "Mali" },
+        { "MO": "Macao" },
+        { "MN": "Mongolia" },
+        { "MH": "Marshall Islands" },
+        { "MK": "Macedonia" },
+        { "MU": "Mauritius" },
+        { "MT": "Malta" },
+        { "MW": "Malawi" },
+        { "MV": "Maldives" },
+        { "MQ": "Martinique" },
+        { "MP": "Northern Mariana Islands" },
+        { "MS": "Montserrat" },
+        { "MR": "Mauritania" },
+        { "IM": "Isle of Man" },
+        { "UG": "Uganda" },
+        { "TZ": "Tanzania" },
+        { "MY": "Malaysia" },
+        { "MX": "Mexico" },
+        { "IL": "Israel" },
+        { "FR": "France" },
+        { "IO": "British Indian Ocean Territory" },
+        { "SH": "Saint Helena" },
+        { "FI": "Finland" },
+        { "FJ": "Fiji" },
+        { "FK": "Falkland Islands" },
+        { "FM": "Micronesia" },
+        { "FO": "Faroe Islands" },
+        { "NI": "Nicaragua" },
+        { "NL": "Netherlands" },
+        { "NO": "Norway" },
+        { "NA": "Namibia" },
+        { "VU": "Vanuatu" },
+        { "NC": "New Caledonia" },
+        { "NE": "Niger" },
+        { "NF": "Norfolk Island" },
+        { "NG": "Nigeria" },
+        { "NZ": "New Zealand" },
+        { "NP": "Nepal" },
+        { "NR": "Nauru" },
+        { "NU": "Niue" },
+        { "CK": "Cook Islands" },
+        { "XK": "Kosovo" },
+        { "CI": "Ivory Coast" },
+        { "CH": "Switzerland" },
+        { "CO": "Colombia" },
+        { "CN": "China" },
+        { "CM": "Cameroon" },
+        { "CL": "Chile" },
+        { "CC": "Cocos Islands" },
+        { "CA": "Canada" },
+        { "CG": "Republic of the Congo" },
+        { "CF": "Central African Republic" },
+        { "CD": "Democratic Republic of the Congo" },
+        { "CZ": "Czech Republic" },
+        { "CY": "Cyprus" },
+        { "CX": "Christmas Island" },
+        { "CR": "Costa Rica" },
+        { "CW": "Curacao" },
+        { "CV": "Cape Verde" },
+        { "CU": "Cuba" },
+        { "SZ": "Swaziland" },
+        { "SY": "Syria" },
+        { "SX": "Sint Maarten" },
+        { "KG": "Kyrgyzstan" },
+        { "KE": "Kenya" },
+        { "SS": "South Sudan" },
+        { "SR": "Suriname" },
+        { "KI": "Kiribati" },
+        { "KH": "Cambodia" },
+        { "KN": "Saint Kitts and Nevis" },
+        { "KM": "Comoros" },
+        { "ST": "Sao Tome and Principe" },
+        { "SK": "Slovakia" },
+        { "KR": "South Korea" },
+        { "SI": "Slovenia" },
+        { "KP": "North Korea" },
+        { "KW": "Kuwait" },
+        { "SN": "Senegal" },
+        { "SM": "San Marino" },
+        { "SL": "Sierra Leone" },
+        { "SC": "Seychelles" },
+        { "KZ": "Kazakhstan" },
+        { "KY": "Cayman Islands" },
+        { "SG": "Singapore" },
+        { "SE": "Sweden" },
+        { "SD": "Sudan" },
+        { "DO": "Dominican Republic" },
+        { "DM": "Dominica" },
+        { "DJ": "Djibouti" },
+        { "DK": "Denmark" },
+        { "VG": "British Virgin Islands" },
+        { "DE": "Germany" },
+        { "YE": "Yemen" },
+        { "DZ": "Algeria" },
+        { "US": "United States" },
+        { "UY": "Uruguay" },
+        { "YT": "Mayotte" },
+        { "UM": "United States Minor Outlying Islands" },
+        { "LB": "Lebanon" },
+        { "LC": "Saint Lucia" },
+        { "LA": "Laos" },
+        { "TV": "Tuvalu" },
+        { "TW": "Taiwan" },
+        { "TT": "Trinidad and Tobago" },
+        { "TR": "Turkey" },
+        { "LK": "Sri Lanka" },
+        { "LI": "Liechtenstein" },
+        { "LV": "Latvia" },
+        { "TO": "Tonga" },
+        { "LT": "Lithuania" },
+        { "LU": "Luxembourg" },
+        { "LR": "Liberia" },
+        { "LS": "Lesotho" },
+        { "TH": "Thailand" },
+        { "TF": "French Southern Territories" },
+        { "TG": "Togo" },
+        { "TD": "Chad" },
+        { "TC": "Turks and Caicos Islands" },
+        { "LY": "Libya" },
+        { "VA": "Vatican" },
+        { "VC": "Saint Vincent and the Grenadines" },
+        { "AE": "United Arab Emirates" },
+        { "AD": "Andorra" },
+        { "AG": "Antigua and Barbuda" },
+        { "AF": "Afghanistan" },
+        { "AI": "Anguilla" },
+        { "VI": "U.S. Virgin Islands" },
+        { "IS": "Iceland" },
+        { "IR": "Iran" },
+        { "AM": "Armenia" },
+        { "AL": "Albania" },
+        { "AO": "Angola" },
+        { "AQ": "Antarctica" },
+        { "AS": "American Samoa" },
+        { "AR": "Argentina" },
+        { "AU": "Australia" },
+        { "AT": "Austria" },
+        { "AW": "Aruba" },
+        { "IN": "India" },
+        { "AX": "Aland Islands" },
+        { "AZ": "Azerbaijan" },
+        { "IE": "Ireland" },
+        { "ID": "Indonesia" },
+        { "UA": "Ukraine" },
+        { "QA": "Qatar" },
+        { "MZ": "Mozambique" }
+    ],
+    "capital": [
+        { "BD": "Dhaka" },
+        { "BE": "Brussels" },
+        { "BF": "Ouagadougou" },
+        { "BG": "Sofia" },
+        { "BA": "Sarajevo" },
+        { "BB": "Bridgetown" },
+        { "WF": "Mata Utu" },
+        { "BL": "Gustavia" },
+        { "BM": "Hamilton" },
+        { "BN": "Bandar Seri Begawan" },
+        { "BO": "Sucre" },
+        { "BH": "Manama" },
+        { "BI": "Bujumbura" },
+        { "BJ": "Porto-Novo" },
+        { "BT": "Thimphu" },
+        { "JM": "Kingston" },
+        { "BV": "" },
+        { "BW": "Gaborone" },
+        { "WS": "Apia" },
+        { "BQ": "" },
+        { "BR": "Brasilia" },
+        { "BS": "Nassau" },
+        { "JE": "Saint Helier" },
+        { "BY": "Minsk" },
+        { "BZ": "Belmopan" },
+        { "RU": "Moscow" },
+        { "RW": "Kigali" },
+        { "RS": "Belgrade" },
+        { "TL": "Dili" },
+        { "RE": "Saint-Denis" },
+        { "TM": "Ashgabat" },
+        { "TJ": "Dushanbe" },
+        { "RO": "Bucharest" },
+        { "TK": "" },
+        { "GW": "Bissau" },
+        { "GU": "Hagatna" },
+        { "GT": "Guatemala City" },
+        { "GS": "Grytviken" },
+        { "GR": "Athens" },
+        { "GQ": "Malabo" },
+        { "GP": "Basse-Terre" },
+        { "JP": "Tokyo" },
+        { "GY": "Georgetown" },
+        { "GG": "St Peter Port" },
+        { "GF": "Cayenne" },
+        { "GE": "Tbilisi" },
+        { "GD": "St. George's" },
+        { "GB": "London" },
+        { "GA": "Libreville" },
+        { "SV": "San Salvador" },
+        { "GN": "Conakry" },
+        { "GM": "Banjul" },
+        { "GL": "Nuuk" },
+        { "GI": "Gibraltar" },
+        { "GH": "Accra" },
+        { "OM": "Muscat" },
+        { "TN": "Tunis" },
+        { "JO": "Amman" },
+        { "HR": "Zagreb" },
+        { "HT": "Port-au-Prince" },
+        { "HU": "Budapest" },
+        { "HK": "Hong Kong" },
+        { "HN": "Tegucigalpa" },
+        { "HM": "" },
+        { "VE": "Caracas" },
+        { "PR": "San Juan" },
+        { "PS": "East Jerusalem" },
+        { "PW": "Melekeok" },
+        { "PT": "Lisbon" },
+        { "SJ": "Longyearbyen" },
+        { "PY": "Asuncion" },
+        { "IQ": "Baghdad" },
+        { "PA": "Panama City" },
+        { "PF": "Papeete" },
+        { "PG": "Port Moresby" },
+        { "PE": "Lima" },
+        { "PK": "Islamabad" },
+        { "PH": "Manila" },
+        { "PN": "Adamstown" },
+        { "PL": "Warsaw" },
+        { "PM": "Saint-Pierre" },
+        { "ZM": "Lusaka" },
+        { "EH": "El-Aaiun" },
+        { "EE": "Tallinn" },
+        { "EG": "Cairo" },
+        { "ZA": "Pretoria" },
+        { "EC": "Quito" },
+        { "IT": "Rome" },
+        { "VN": "Hanoi" },
+        { "SB": "Honiara" },
+        { "ET": "Addis Ababa" },
+        { "SO": "Mogadishu" },
+        { "ZW": "Harare" },
+        { "SA": "Riyadh" },
+        { "ES": "Madrid" },
+        { "ER": "Asmara" },
+        { "ME": "Podgorica" },
+        { "MD": "Chisinau" },
+        { "MG": "Antananarivo" },
+        { "MF": "Marigot" },
+        { "MA": "Rabat" },
+        { "MC": "Monaco" },
+        { "UZ": "Tashkent" },
+        { "MM": "Nay Pyi Taw" },
+        { "ML": "Bamako" },
+        { "MO": "Macao" },
+        { "MN": "Ulan Bator" },
+        { "MH": "Majuro" },
+        { "MK": "Skopje" },
+        { "MU": "Port Louis" },
+        { "MT": "Valletta" },
+        { "MW": "Lilongwe" },
+        { "MV": "Male" },
+        { "MQ": "Fort-de-France" },
+        { "MP": "Saipan" },
+        { "MS": "Plymouth" },
+        { "MR": "Nouakchott" },
+        { "IM": "Douglas, Isle of Man" },
+        { "UG": "Kampala" },
+        { "TZ": "Dodoma" },
+        { "MY": "Kuala Lumpur" },
+        { "MX": "Mexico City" },
+        { "IL": "Jerusalem" },
+        { "FR": "Paris" },
+        { "IO": "Diego Garcia" },
+        { "SH": "Jamestown" },
+        { "FI": "Helsinki" },
+        { "FJ": "Suva" },
+        { "FK": "Stanley" },
+        { "FM": "Palikir" },
+        { "FO": "Torshavn" },
+        { "NI": "Managua" },
+        { "NL": "Amsterdam" },
+        { "NO": "Oslo" },
+        { "NA": "Windhoek" },
+        { "VU": "Port Vila" },
+        { "NC": "Noumea" },
+        { "NE": "Niamey" },
+        { "NF": "Kingston" },
+        { "NG": "Abuja" },
+        { "NZ": "Wellington" },
+        { "NP": "Kathmandu" },
+        { "NR": "Yaren" },
+        { "NU": "Alofi" },
+        { "CK": "Avarua" },
+        { "XK": "Pristina" },
+        { "CI": "Yamoussoukro" },
+        { "CH": "Berne" },
+        { "CO": "Bogota" },
+        { "CN": "Beijing" },
+        { "CM": "Yaounde" },
+        { "CL": "Santiago" },
+        { "CC": "West Island" },
+        { "CA": "Ottawa" },
+        { "CG": "Brazzaville" },
+        { "CF": "Bangui" },
+        { "CD": "Kinshasa" },
+        { "CZ": "Prague" },
+        { "CY": "Nicosia" },
+        { "CX": "Flying Fish Cove" },
+        { "CR": "San Jose" },
+        { "CW": " Willemstad" },
+        { "CV": "Praia" },
+        { "CU": "Havana" },
+        { "SZ": "Mbabane" },
+        { "SY": "Damascus" },
+        { "SX": "Philipsburg" },
+        { "KG": "Bishkek" },
+        { "KE": "Nairobi" },
+        { "SS": "Juba" },
+        { "SR": "Paramaribo" },
+        { "KI": "Tarawa" },
+        { "KH": "Phnom Penh" },
+        { "KN": "Basseterre" },
+        { "KM": "Moroni" },
+        { "ST": "Sao Tome" },
+        { "SK": "Bratislava" },
+        { "KR": "Seoul" },
+        { "SI": "Ljubljana" },
+        { "KP": "Pyongyang" },
+        { "KW": "Kuwait City" },
+        { "SN": "Dakar" },
+        { "SM": "San Marino" },
+        { "SL": "Freetown" },
+        { "SC": "Victoria" },
+        { "KZ": "Astana" },
+        { "KY": "George Town" },
+        { "SG": "Singapur" },
+        { "SE": "Stockholm" },
+        { "SD": "Khartoum" },
+        { "DO": "Santo Domingo" },
+        { "DM": "Roseau" },
+        { "DJ": "Djibouti" },
+        { "DK": "Copenhagen" },
+        { "VG": "Road Town" },
+        { "DE": "Berlin" },
+        { "YE": "Sanaa" },
+        { "DZ": "Algiers" },
+        { "US": "Washington" },
+        { "UY": "Montevideo" },
+        { "YT": "Mamoudzou" },
+        { "UM": "" },
+        { "LB": "Beirut" },
+        { "LC": "Castries" },
+        { "LA": "Vientiane" },
+        { "TV": "Funafuti" },
+        { "TW": "Taipei" },
+        { "TT": "Port of Spain" },
+        { "TR": "Ankara" },
+        { "LK": "Colombo" },
+        { "LI": "Vaduz" },
+        { "LV": "Riga" },
+        { "TO": "Nuku'alofa" },
+        { "LT": "Vilnius" },
+        { "LU": "Luxembourg" },
+        { "LR": "Monrovia" },
+        { "LS": "Maseru" },
+        { "TH": "Bangkok" },
+        { "TF": "Port-aux-Francais" },
+        { "TG": "Lome" },
+        { "TD": "N'Djamena" },
+        { "TC": "Cockburn Town" },
+        { "LY": "Tripolis" },
+        { "VA": "Vatican City" },
+        { "VC": "Kingstown" },
+        { "AE": "Abu Dhabi" },
+        { "AD": "Andorra la Vella" },
+        { "AG": "St. John's" },
+        { "AF": "Kabul" },
+        { "AI": "The Valley" },
+        { "VI": "Charlotte Amalie" },
+        { "IS": "Reykjavik" },
+        { "IR": "Tehran" },
+        { "AM": "Yerevan" },
+        { "AL": "Tirana" },
+        { "AO": "Luanda" },
+        { "AQ": "" },
+        { "AS": "Pago Pago" },
+        { "AR": "Buenos Aires" },
+        { "AU": "Canberra" },
+        { "AT": "Vienna" },
+        { "AW": "Oranjestad" },
+        { "IN": "New Delhi" },
+        { "AX": "Mariehamn" },
+        { "AZ": "Baku" },
+        { "IE": "Dublin" },
+        { "ID": "Jakarta" },
+        { "UA": "Kiev" },
+        { "QA": "Doha" },
+        { "MZ": "Maputo" }
+    ],
+    "phone": [
+        { "BD": "880" },
+        { "BE": "32" },
+        { "BF": "226" },
+        { "BG": "359" },
+        { "BA": "387" },
+        { "BB": "+1-246" },
+        { "WF": "681" },
+        { "BL": "590" },
+        { "BM": "+1-441" },
+        { "BN": "673" },
+        { "BO": "591" },
+        { "BH": "973" },
+        { "BI": "257" },
+        { "BJ": "229" },
+        { "BT": "975" },
+        { "JM": "+1-876" },
+        { "BV": "" },
+        { "BW": "267" },
+        { "WS": "685" },
+        { "BQ": "599" },
+        { "BR": "55" },
+        { "BS": "+1-242" },
+        { "JE": "+44-1534" },
+        { "BY": "375" },
+        { "BZ": "501" },
+        { "RU": "7" },
+        { "RW": "250" },
+        { "RS": "381" },
+        { "TL": "670" },
+        { "RE": "262" },
+        { "TM": "993" },
+        { "TJ": "992" },
+        { "RO": "40" },
+        { "TK": "690" },
+        { "GW": "245" },
+        { "GU": "+1-671" },
+        { "GT": "502" },
+        { "GS": "" },
+        { "GR": "30" },
+        { "GQ": "240" },
+        { "GP": "590" },
+        { "JP": "81" },
+        { "GY": "592" },
+        { "GG": "+44-1481" },
+        { "GF": "594" },
+        { "GE": "995" },
+        { "GD": "+1-473" },
+        { "GB": "44" },
+        { "GA": "241" },
+        { "SV": "503" },
+        { "GN": "224" },
+        { "GM": "220" },
+        { "GL": "299" },
+        { "GI": "350" },
+        { "GH": "233" },
+        { "OM": "968" },
+        { "TN": "216" },
+        { "JO": "962" },
+        { "HR": "385" },
+        { "HT": "509" },
+        { "HU": "36" },
+        { "HK": "852" },
+        { "HN": "504" },
+        { "HM": " " },
+        { "VE": "58" },
+        { "PR": "+1-787 and 1-939" },
+        { "PS": "970" },
+        { "PW": "680" },
+        { "PT": "351" },
+        { "SJ": "47" },
+        { "PY": "595" },
+        { "IQ": "964" },
+        { "PA": "507" },
+        { "PF": "689" },
+        { "PG": "675" },
+        { "PE": "51" },
+        { "PK": "92" },
+        { "PH": "63" },
+        { "PN": "870" },
+        { "PL": "48" },
+        { "PM": "508" },
+        { "ZM": "260" },
+        { "EH": "212" },
+        { "EE": "372" },
+        { "EG": "20" },
+        { "ZA": "27" },
+        { "EC": "593" },
+        { "IT": "39" },
+        { "VN": "84" },
+        { "SB": "677" },
+        { "ET": "251" },
+        { "SO": "252" },
+        { "ZW": "263" },
+        { "SA": "966" },
+        { "ES": "34" },
+        { "ER": "291" },
+        { "ME": "382" },
+        { "MD": "373" },
+        { "MG": "261" },
+        { "MF": "590" },
+        { "MA": "212" },
+        { "MC": "377" },
+        { "UZ": "998" },
+        { "MM": "95" },
+        { "ML": "223" },
+        { "MO": "853" },
+        { "MN": "976" },
+        { "MH": "692" },
+        { "MK": "389" },
+        { "MU": "230" },
+        { "MT": "356" },
+        { "MW": "265" },
+        { "MV": "960" },
+        { "MQ": "596" },
+        { "MP": "+1-670" },
+        { "MS": "+1-664" },
+        { "MR": "222" },
+        { "IM": "+44-1624" },
+        { "UG": "256" },
+        { "TZ": "255" },
+        { "MY": "60" },
+        { "MX": "52" },
+        { "IL": "972" },
+        { "FR": "33" },
+        { "IO": "246" },
+        { "SH": "290" },
+        { "FI": "358" },
+        { "FJ": "679" },
+        { "FK": "500" },
+        { "FM": "691" },
+        { "FO": "298" },
+        { "NI": "505" },
+        { "NL": "31" },
+        { "NO": "47" },
+        { "NA": "264" },
+        { "VU": "678" },
+        { "NC": "687" },
+        { "NE": "227" },
+        { "NF": "672" },
+        { "NG": "234" },
+        { "NZ": "64" },
+        { "NP": "977" },
+        { "NR": "674" },
+        { "NU": "683" },
+        { "CK": "682" },
+        { "XK": "" },
+        { "CI": "225" },
+        { "CH": "41" },
+        { "CO": "57" },
+        { "CN": "86" },
+        { "CM": "237" },
+        { "CL": "56" },
+        { "CC": "61" },
+        { "CA": "1" },
+        { "CG": "242" },
+        { "CF": "236" },
+        { "CD": "243" },
+        { "CZ": "420" },
+        { "CY": "357" },
+        { "CX": "61" },
+        { "CR": "506" },
+        { "CW": "599" },
+        { "CV": "238" },
+        { "CU": "53" },
+        { "SZ": "268" },
+        { "SY": "963" },
+        { "SX": "599" },
+        { "KG": "996" },
+        { "KE": "254" },
+        { "SS": "211" },
+        { "SR": "597" },
+        { "KI": "686" },
+        { "KH": "855" },
+        { "KN": "+1-869" },
+        { "KM": "269" },
+        { "ST": "239" },
+        { "SK": "421" },
+        { "KR": "82" },
+        { "SI": "386" },
+        { "KP": "850" },
+        { "KW": "965" },
+        { "SN": "221" },
+        { "SM": "378" },
+        { "SL": "232" },
+        { "SC": "248" },
+        { "KZ": "7" },
+        { "KY": "+1-345" },
+        { "SG": "65" },
+        { "SE": "46" },
+        { "SD": "249" },
+        { "DO": "+1-809 and 1-829" },
+        { "DM": "+1-767" },
+        { "DJ": "253" },
+        { "DK": "45" },
+        { "VG": "+1-284" },
+        { "DE": "49" },
+        { "YE": "967" },
+        { "DZ": "213" },
+        { "US": "1" },
+        { "UY": "598" },
+        { "YT": "262" },
+        { "UM": "1" },
+        { "LB": "961" },
+        { "LC": "+1-758" },
+        { "LA": "856" },
+        { "TV": "688" },
+        { "TW": "886" },
+        { "TT": "+1-868" },
+        { "TR": "90" },
+        { "LK": "94" },
+        { "LI": "423" },
+        { "LV": "371" },
+        { "TO": "676" },
+        { "LT": "370" },
+        { "LU": "352" },
+        { "LR": "231" },
+        { "LS": "266" },
+        { "TH": "66" },
+        { "TF": "" },
+        { "TG": "228" },
+        { "TD": "235" },
+        { "TC": "+1-649" },
+        { "LY": "218" },
+        { "VA": "379" },
+        { "VC": "+1-784" },
+        { "AE": "971" },
+        { "AD": "376" },
+        { "AG": "+1-268" },
+        { "AF": "93" },
+        { "AI": "+1-264" },
+        { "VI": "+1-340" },
+        { "IS": "354" },
+        { "IR": "98" },
+        { "AM": "374" },
+        { "AL": "355" },
+        { "AO": "244" },
+        { "AQ": "" },
+        { "AS": "+1-684" },
+        { "AR": "54" },
+        { "AU": "61" },
+        { "AT": "43" },
+        { "AW": "297" },
+        { "IN": "91" },
+        { "AX": "+358-18" },
+        { "AZ": "994" },
+        { "IE": "353" },
+        { "ID": "62" },
+        { "UA": "380" },
+        { "QA": "974" },
+        { "MZ": "258" }
+    ],
+    "currency": [
+        { "BD": "BDT" },
+        { "BE": "EUR" },
+        { "BF": "XOF" },
+        { "BG": "BGN" },
+        { "BA": "BAM" },
+        { "BB": "BBD" },
+        { "WF": "XPF" },
+        { "BL": "EUR" },
+        { "BM": "BMD" },
+        { "BN": "BND" },
+        { "BO": "BOB" },
+        { "BH": "BHD" },
+        { "BI": "BIF" },
+        { "BJ": "XOF" },
+        { "BT": "BTN" },
+        { "JM": "JMD" },
+        { "BV": "NOK" },
+        { "BW": "BWP" },
+        { "WS": "WST" },
+        { "BQ": "USD" },
+        { "BR": "BRL" },
+        { "BS": "BSD" },
+        { "JE": "GBP" },
+        { "BY": "BYR" },
+        { "BZ": "BZD" },
+        { "RU": "RUB" },
+        { "RW": "RWF" },
+        { "RS": "RSD" },
+        { "TL": "USD" },
+        { "RE": "EUR" },
+        { "TM": "TMT" },
+        { "TJ": "TJS" },
+        { "RO": "RON" },
+        { "TK": "NZD" },
+        { "GW": "XOF" },
+        { "GU": "USD" },
+        { "GT": "GTQ" },
+        { "GS": "GBP" },
+        { "GR": "EUR" },
+        { "GQ": "XAF" },
+        { "GP": "EUR" },
+        { "JP": "JPY" },
+        { "GY": "GYD" },
+        { "GG": "GBP" },
+        { "GF": "EUR" },
+        { "GE": "GEL" },
+        { "GD": "XCD" },
+        { "GB": "GBP" },
+        { "GA": "XAF" },
+        { "SV": "USD" },
+        { "GN": "GNF" },
+        { "GM": "GMD" },
+        { "GL": "DKK" },
+        { "GI": "GIP" },
+        { "GH": "GHS" },
+        { "OM": "OMR" },
+        { "TN": "TND" },
+        { "JO": "JOD" },
+        { "HR": "HRK" },
+        { "HT": "HTG" },
+        { "HU": "HUF" },
+        { "HK": "HKD" },
+        { "HN": "HNL" },
+        { "HM": "AUD" },
+        { "VE": "VEF" },
+        { "PR": "USD" },
+        { "PS": "ILS" },
+        { "PW": "USD" },
+        { "PT": "EUR" },
+        { "SJ": "NOK" },
+        { "PY": "PYG" },
+        { "IQ": "IQD" },
+        { "PA": "PAB" },
+        { "PF": "XPF" },
+        { "PG": "PGK" },
+        { "PE": "PEN" },
+        { "PK": "PKR" },
+        { "PH": "PHP" },
+        { "PN": "NZD" },
+        { "PL": "PLN" },
+        { "PM": "EUR" },
+        { "ZM": "ZMK" },
+        { "EH": "MAD" },
+        { "EE": "EUR" },
+        { "EG": "EGP" },
+        { "ZA": "ZAR" },
+        { "EC": "USD" },
+        { "IT": "EUR" },
+        { "VN": "VND" },
+        { "SB": "SBD" },
+        { "ET": "ETB" },
+        { "SO": "SOS" },
+        { "ZW": "ZWL" },
+        { "SA": "SAR" },
+        { "ES": "EUR" },
+        { "ER": "ERN" },
+        { "ME": "EUR" },
+        { "MD": "MDL" },
+        { "MG": "MGA" },
+        { "MF": "EUR" },
+        { "MA": "MAD" },
+        { "MC": "EUR" },
+        { "UZ": "UZS" },
+        { "MM": "MMK" },
+        { "ML": "XOF" },
+        { "MO": "MOP" },
+        { "MN": "MNT" },
+        { "MH": "USD" },
+        { "MK": "MKD" },
+        { "MU": "MUR" },
+        { "MT": "EUR" },
+        { "MW": "MWK" },
+        { "MV": "MVR" },
+        { "MQ": "EUR" },
+        { "MP": "USD" },
+        { "MS": "XCD" },
+        { "MR": "MRO" },
+        { "IM": "GBP" },
+        { "UG": "UGX" },
+        { "TZ": "TZS" },
+        { "MY": "MYR" },
+        { "MX": "MXN" },
+        { "IL": "ILS" },
+        { "FR": "EUR" },
+        { "IO": "USD" },
+        { "SH": "SHP" },
+        { "FI": "EUR" },
+        { "FJ": "FJD" },
+        { "FK": "FKP" },
+        { "FM": "USD" },
+        { "FO": "DKK" },
+        { "NI": "NIO" },
+        { "NL": "EUR" },
+        { "NO": "NOK" },
+        { "NA": "NAD" },
+        { "VU": "VUV" },
+        { "NC": "XPF" },
+        { "NE": "XOF" },
+        { "NF": "AUD" },
+        { "NG": "NGN" },
+        { "NZ": "NZD" },
+        { "NP": "NPR" },
+        { "NR": "AUD" },
+        { "NU": "NZD" },
+        { "CK": "NZD" },
+        { "XK": "EUR" },
+        { "CI": "XOF" },
+        { "CH": "CHF" },
+        { "CO": "COP" },
+        { "CN": "CNY" },
+        { "CM": "XAF" },
+        { "CL": "CLP" },
+        { "CC": "AUD" },
+        { "CA": "CAD" },
+        { "CG": "XAF" },
+        { "CF": "XAF" },
+        { "CD": "CDF" },
+        { "CZ": "CZK" },
+        { "CY": "EUR" },
+        { "CX": "AUD" },
+        { "CR": "CRC" },
+        { "CW": "ANG" },
+        { "CV": "CVE" },
+        { "CU": "CUP" },
+        { "SZ": "SZL" },
+        { "SY": "SYP" },
+        { "SX": "ANG" },
+        { "KG": "KGS" },
+        { "KE": "KES" },
+        { "SS": "SSP" },
+        { "SR": "SRD" },
+        { "KI": "AUD" },
+        { "KH": "KHR" },
+        { "KN": "XCD" },
+        { "KM": "KMF" },
+        { "ST": "STD" },
+        { "SK": "EUR" },
+        { "KR": "KRW" },
+        { "SI": "EUR" },
+        { "KP": "KPW" },
+        { "KW": "KWD" },
+        { "SN": "XOF" },
+        { "SM": "EUR" },
+        { "SL": "SLL" },
+        { "SC": "SCR" },
+        { "KZ": "KZT" },
+        { "KY": "KYD" },
+        { "SG": "SGD" },
+        { "SE": "SEK" },
+        { "SD": "SDG" },
+        { "DO": "DOP" },
+        { "DM": "XCD" },
+        { "DJ": "DJF" },
+        { "DK": "DKK" },
+        { "VG": "USD" },
+        { "DE": "EUR" },
+        { "YE": "YER" },
+        { "DZ": "DZD" },
+        { "US": "USD" },
+        { "UY": "UYU" },
+        { "YT": "EUR" },
+        { "UM": "USD" },
+        { "LB": "LBP" },
+        { "LC": "XCD" },
+        { "LA": "LAK" },
+        { "TV": "AUD" },
+        { "TW": "TWD" },
+        { "TT": "TTD" },
+        { "TR": "TRY" },
+        { "LK": "LKR" },
+        { "LI": "CHF" },
+        { "LV": "EUR" },
+        { "TO": "TOP" },
+        { "LT": "LTL" },
+        { "LU": "EUR" },
+        { "LR": "LRD" },
+        { "LS": "LSL" },
+        { "TH": "THB" },
+        { "TF": "EUR" },
+        { "TG": "XOF" },
+        { "TD": "XAF" },
+        { "TC": "USD" },
+        { "LY": "LYD" },
+        { "VA": "EUR" },
+        { "VC": "XCD" },
+        { "AE": "AED" },
+        { "AD": "EUR" },
+        { "AG": "XCD" },
+        { "AF": "AFN" },
+        { "AI": "XCD" },
+        { "VI": "USD" },
+        { "IS": "ISK" },
+        { "IR": "IRR" },
+        { "AM": "AMD" },
+        { "AL": "ALL" },
+        { "AO": "AOA" },
+        { "AQ": "" },
+        { "AS": "USD" },
+        { "AR": "ARS" },
+        { "AU": "AUD" },
+        { "AT": "EUR" },
+        { "AW": "AWG" },
+        { "IN": "INR" },
+        { "AX": "EUR" },
+        { "AZ": "AZN" },
+        { "IE": "EUR" },
+        { "ID": "IDR" },
+        { "UA": "UAH" },
+        { "QA": "QAR" },
+        { "MZ": "MZN" }
+    ],
+    "Population": [
+        {
+          "AF": 34656032
+        },
+        {
+          "AL": 2876101
+        },
+        {
+          "DZ": 40606052
+        },
+        {
+          "AS": 55599
+        },
+        {
+          "AD": 77281
+        },
+        {
+          "AO": 28813463
+        },
+        {
+          "AG": 100963
+        },
+        {
+          "AR": 43847430
+        },
+        {
+          "AM": 2924816
+        },
+        {
+          "AW": 104822
+        },
+        {
+          "AU": 24127159
+        },
+        {
+          "AT": 8747358
+        },
+        {
+          "AZ": 9762274
+        },
+        {
+          "BS": 391232
+        },
+        {
+          "BH": 1425171
+        },
+        {
+          "BD": 162951560
+        },
+        {
+          "BB": 284996
+        },
+        {
+          "BY": 9507120
+        },
+        {
+          "BE": 11348159
+        },
+        {
+          "BZ": 366954
+        },
+        {
+          "BJ": 10872298
+        },
+        {
+          "BM": 65331
+        },
+        {
+          "BT": 797765
+        },
+        {
+          "BO": 10887882
+        },
+        {
+          "BA": 3516816
+        },
+        {
+          "BW": 2250260
+        },
+        {
+          "BR": 207652865
+        },
+        {
+          "VG": 30661
+        },
+        {
+          "BN": 423196
+        },
+        {
+          "BG": 7127822
+        },
+        {
+          "BF": 18646433
+        },
+        {
+          "BI": 10524117
+        },
+        {
+          "CV": 539560
+        },
+        {
+          "KH": 15762370
+        },
+        {
+          "CM": 23439189
+        },
+        {
+          "CA": 36286425
+        },
+        {
+          "KY": 60765
+        },
+        {
+          "CF": 4594621
+        },
+        {
+          "TD": 14452543
+        },
+        {
+          "CL": 17909754
+        },
+        {
+          "CN": 1378665000
+        },
+        {
+          "CO": 48653419
+        },
+        {
+          "KM": 795601
+        },
+        {
+          "CD": 78736153
+        },
+        {
+          "CG": 5125821
+        },
+        {
+          "CR": 4857274
+        },
+        {
+          "CI": 23695919
+        },
+        {
+          "HR": 4170600
+        },
+        {
+          "CU": 11475982
+        },
+        {
+          "CW": 159999
+        },
+        {
+          "CY": 1170125
+        },
+        {
+          "CZ": 10561633
+        },
+        {
+          "DK": 5731118
+        },
+        {
+          "DJ": 942333
+        },
+        {
+          "DM": 73543
+        },
+        {
+          "DO": 10648791
+        },
+        {
+          "EC": 16385068
+        },
+        {
+          "EG": 95688681
+        },
+        {
+          "SV": 6344722
+        },
+        {
+          "GQ": 1221490
+        },
+        {
+          "EE": 1316481
+        },
+        {
+          "ET": 102403196
+        },
+        {
+          "FO": 49117
+        },
+        {
+          "FJ": 898760
+        },
+        {
+          "FI": 5495096
+        },
+        {
+          "FR": 66896109
+        },
+        {
+          "PF": 280208
+        },
+        {
+          "GA": 1979786
+        },
+        {
+          "GM": 2038501
+        },
+        {
+          "GE": 3719300
+        },
+        {
+          "DE": 82667685
+        },
+        {
+          "GH": 28206728
+        },
+        {
+          "GI": 34408
+        },
+        {
+          "GR": 10746740
+        },
+        {
+          "GL": 56186
+        },
+        {
+          "GD": 107317
+        },
+        {
+          "GU": 162896
+        },
+        {
+          "GT": 16582469
+        },
+        {
+          "GN": 12395924
+        },
+        {
+          "GW": 1815698
+        },
+        {
+          "GY": 773303
+        },
+        {
+          "HT": 10847334
+        },
+        {
+          "HN": 9112867
+        },
+        {
+          "HK": 7346700
+        },
+        {
+          "HU": 9817958
+        },
+        {
+          "IS": 334252
+        },
+        {
+          "IN": 1324171354
+        },
+        {
+          "ID": 261115456
+        },
+        {
+          "IR": 80277428
+        },
+        {
+          "IQ": 37202572
+        },
+        {
+          "IE": 4773095
+        },
+        {
+          "IM": 83737
+        },
+        {
+          "IL": 8547100
+        },
+        {
+          "IT": 60600590
+        },
+        {
+          "JM": 2881355
+        },
+        {
+          "JP": 126994511
+        },
+        {
+          "JO": 9455802
+        },
+        {
+          "KZ": 17797032
+        },
+        {
+          "KE": 48461567
+        },
+        {
+          "KI": 114395
+        },
+        {
+          "KP": 25368620
+        },
+        {
+          "KR": 51245707
+        },
+        {
+          "KW": 4052584
+        },
+        {
+          "KG": 6082700
+        },
+        {
+          "LA": 6758353
+        },
+        {
+          "LV": 1960424
+        },
+        {
+          "LB": 6006668
+        },
+        {
+          "LS": 2203821
+        },
+        {
+          "LR": 4613823
+        },
+        {
+          "LY": 6293253
+        },
+        {
+          "LI": 37666
+        },
+        {
+          "LT": 2872298
+        },
+        {
+          "LU": 582972
+        },
+        {
+          "MO": 612167
+        },
+        {
+          "MK": 2081206
+        },
+        {
+          "MG": 24894551
+        },
+        {
+          "MW": 18091575
+        },
+        {
+          "MY": 31187265
+        },
+        {
+          "MV": 417492
+        },
+        {
+          "ML": 17994837
+        },
+        {
+          "MT": 436947
+        },
+        {
+          "MH": 53066
+        },
+        {
+          "MR": 4301018
+        },
+        {
+          "MU": 1263473
+        },
+        {
+          "MX": 127540423
+        },
+        {
+          "FM": 104937
+        },
+        {
+          "MD": 3552000
+        },
+        {
+          "MC": 38499
+        },
+        {
+          "MN": 3027398
+        },
+        {
+          "ME": 622781
+        },
+        {
+          "MA": 35276786
+        },
+        {
+          "MZ": 28829476
+        },
+        {
+          "MM": 52885223
+        },
+        {
+          "NA": 2479713
+        },
+        {
+          "NR": 13049
+        },
+        {
+          "NP": 28982771
+        },
+        {
+          "NL": 17018408
+        },
+        {
+          "NC": 278000
+        },
+        {
+          "NZ": 4692700
+        },
+        {
+          "NI": 6149928
+        },
+        {
+          "NE": 20672987
+        },
+        {
+          "NG": 185989640
+        },
+        {
+          "MP": 55023
+        },
+        {
+          "NO": 5232929
+        },
+        {
+          "OM": 4424762
+        },
+        {
+          "PK": 193203476
+        },
+        {
+          "PW": 21503
+        },
+        {
+          "PA": 4034119
+        },
+        {
+          "PG": 8084991
+        },
+        {
+          "PY": 6725308
+        },
+        {
+          "PE": 31773839
+        },
+        {
+          "PH": 103320222
+        },
+        {
+          "PL": 37948016
+        },
+        {
+          "PT": 10324611
+        },
+        {
+          "PR": 3411307
+        },
+        {
+          "QA": 2569804
+        },
+        {
+          "RO": 19705301
+        },
+        {
+          "RU": 144342396
+        },
+        {
+          "RW": 11917508
+        },
+        {
+          "WS": 195125
+        },
+        {
+          "SM": 33203
+        },
+        {
+          "ST": 199910
+        },
+        {
+          "SA": 32275687
+        },
+        {
+          "SN": 15411614
+        },
+        {
+          "RS": 7057412
+        },
+        {
+          "SC": 94677
+        },
+        {
+          "SL": 7396190
+        },
+        {
+          "SG": 5607283
+        },
+        {
+          "SX": 40005
+        },
+        {
+          "SK": 5428704
+        },
+        {
+          "SI": 2064845
+        },
+        {
+          "SB": 599419
+        },
+        {
+          "SO": 14317996
+        },
+        {
+          "ZA": 55908865
+        },
+        {
+          "SS": 12230730
+        },
+        {
+          "ES": 46443959
+        },
+        {
+          "LK": 21203000
+        },
+        {
+          "KN": 54821
+        },
+        {
+          "LC": 178015
+        },
+        {
+          "MF": 31949
+        },
+        {
+          "VC": 109643
+        },
+        {
+          "SD": 39578828
+        },
+        {
+          "SR": 558368
+        },
+        {
+          "SZ": 1343098
+        },
+        {
+          "SE": 9903122
+        },
+        {
+          "CH": 8372098
+        },
+        {
+          "SY": 18430453
+        },
+        {
+          "TJ": 8734951
+        },
+        {
+          "TZ": 55572201
+        },
+        {
+          "TH": 68863514
+        },
+        {
+          "TL": 1268671
+        },
+        {
+          "TG": 7606374
+        },
+        {
+          "TO": 107122
+        },
+        {
+          "TT": 1364962
+        },
+        {
+          "TN": 11403248
+        },
+        {
+          "TR": 79512426
+        },
+        {
+          "TM": 5662544
+        },
+        {
+          "TC": 34900
+        },
+        {
+          "TV": 11097
+        },
+        {
+          "UG": 41487965
+        },
+        {
+          "UA": 45004645
+        },
+        {
+          "AE": 9269612
+        },
+        {
+          "GB": 65637239
+        },
+        {
+          "US": 323127513
+        },
+        {
+          "UY": 3444006
+        },
+        {
+          "UZ": 31848200
+        },
+        {
+          "VU": 270402
+        },
+        {
+          "VE": 31568179
+        },
+        {
+          "VN": 92701100
+        },
+        {
+          "VI": 102951
+        },
+        {
+          "PS": 4551566
+        },
+        {
+          "YE": 27584213
+        },
+        {
+          "ZM": 16591390
+        },
+        {
+          "ZW": 16150362
+        }
+      ],
+    "flags": [
+        { "BD": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/1280px-Flag_of_Bangladesh.svg.png" },
+        { "BE": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/1182px-Flag_of_Belgium.svg.png" },
+        { "BF": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/1280px-Flag_of_Burkina_Faso.svg.png" },
+        { "BG": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/1280px-Flag_of_Bulgaria.svg.png" },
+        { "BA": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/1280px-Flag_of_Bosnia_and_Herzegovina.svg.png" },
+        { "BB": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Barbados.svg/1280px-Flag_of_Barbados.svg.png" },
+        { "WF": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Flag_of_Wallis_and_Futuna.svg/1280px-Flag_of_Wallis_and_Futuna.svg.png" },
+        { "BL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Flag_of_Saint_Barthelemy.svg/1280px-Flag_of_Saint_Barthelemy.svg.png" },
+        { "BM": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bermuda.svg/1280px-Flag_of_Bermuda.svg.png" },
+        { "BN": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/1280px-Flag_of_Brunei.svg.png" },
+        { "BO": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/1280px-Flag_of_Bolivia.svg.png" },
+        { "BH": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/1280px-Flag_of_Bahrain.svg.png" },
+        { "BI": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Burundi.svg/1280px-Flag_of_Burundi.svg.png" },
+        { "BJ": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/1280px-Flag_of_Benin.svg.png" },
+        { "BT": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/1280px-Flag_of_Bhutan.svg.png" },
+        { "JM": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/1280px-Flag_of_Jamaica.svg.png" },
+        { "BV": "" },
+        { "BW": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Botswana.svg/1280px-Flag_of_Botswana.svg.png" },
+        { "WS": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Samoa.svg/1280px-Flag_of_Samoa.svg.png" },
+        { "BQ": "" },
+        { "BR": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png" },
+        { "BS": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_the_Bahamas.svg/1280px-Flag_of_the_Bahamas.svg.png" },
+        { "JE": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Flag_of_Jersey.svg/1280px-Flag_of_Jersey.svg.png" },
+        { "BY": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/1280px-Flag_of_Belarus.svg.png" },
+        { "BZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/1280px-Flag_of_Belize.svg.png" },
+        { "RU": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1280px-Flag_of_Russia.svg.png" },
+        { "RW": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Rwanda.svg/1280px-Flag_of_Rwanda.svg.png" },
+        { "RS": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/1280px-Flag_of_Serbia.svg.png" },
+        { "TL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/1280px-Flag_of_East_Timor.svg.png" },
+        { "RE": "" },
+        { "TM": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/1280px-Flag_of_Turkmenistan.svg.png" },
+        { "TJ": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Tajikistan.svg/1280px-Flag_of_Tajikistan.svg.png" },
+        { "RO": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/1280px-Flag_of_Romania.svg.png" },
+        { "TK": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_Tokelau.svg/1280px-Flag_of_Tokelau.svg.png" },
+        { "GW": "https:Bissau.svg/1280px-Flag_of_Guinea-Bissau.svg.png" },
+        { "GU": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flag_of_Guam.svg/1280px-Flag_of_Guam.svg.png" },
+        { "GT": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/1280px-Flag_of_Guatemala.svg.png" },
+        { "GS": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg/1280px-Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg.png" },
+        { "GR": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/1280px-Flag_of_Greece.svg.png" },
+        { "GQ": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/1280px-Flag_of_Equatorial_Guinea.svg.png" },
+        { "GP": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Unofficial_flag_of_Guadeloupe_%28local%29.svg/1024px-Unofficial_flag_of_Guadeloupe_%28local%29.svg.png" },
+        { "JP": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1280px-Flag_of_Japan.svg.png" },
+        { "GY": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/1280px-Flag_of_Guyana.svg.png" },
+        { "GG": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Guernsey.svg/1280px-Flag_of_Guernsey.svg.png" },
+        { "GF": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_French_Guiana.svg/1280px-Flag_of_French_Guiana.svg.png" },
+        { "GE": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/1280px-Flag_of_Georgia.svg.png" },
+        { "GD": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/1280px-Flag_of_Grenada.svg.png" },
+        { "GB": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png" },
+        { "GA": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/1280px-Flag_of_Gabon.svg.png" },
+        { "SV": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/1280px-Flag_of_El_Salvador.svg.png" },
+        { "GN": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Guinea.svg/1280px-Flag_of_Guinea.svg.png" },
+        { "GM": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_The_Gambia.svg/1280px-Flag_of_The_Gambia.svg.png" },
+        { "GL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_Greenland.svg/1280px-Flag_of_Greenland.svg.png" },
+        { "GI": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Flag_of_Gibraltar.svg/1280px-Flag_of_Gibraltar.svg.png" },
+        { "GH": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/1280px-Flag_of_Ghana.svg.png" },
+        { "OM": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/1280px-Flag_of_Oman.svg.png" },
+        { "TN": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/1280px-Flag_of_Tunisia.svg.png" },
+        { "JO": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/1280px-Flag_of_Jordan.svg.png" },
+        { "HR": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/1280px-Flag_of_Croatia.svg.png" },
+        { "HT": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/1280px-Flag_of_Haiti.svg.png" },
+        { "HU": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/1280px-Flag_of_Hungary.svg.png" },
+        { "HK": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/1280px-Flag_of_Hong_Kong.svg.png" },
+        { "HN": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Honduras.svg/1280px-Flag_of_Honduras.svg.png" },
+        { "HM": "" },
+        { "VE": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/1280px-Flag_of_Venezuela.svg.png" },
+        { "PR": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/1280px-Flag_of_Puerto_Rico.svg.png" },
+        { "PS": "" },
+        { "PW": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Palau.svg/1280px-Flag_of_Palau.svg.png" },
+        { "PT": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/1280px-Flag_of_Portugal.svg.png" },
+        { "SJ": "" },
+        { "PY": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/1280px-Flag_of_Paraguay.svg.png" },
+        { "IQ": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/1280px-Flag_of_Iraq.svg.png" },
+        { "PA": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/1280px-Flag_of_Panama.svg.png" },
+        { "PF": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Flag_of_French_Polynesia.svg/1280px-Flag_of_French_Polynesia.svg.png" },
+        { "PG": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/1280px-Flag_of_Papua_New_Guinea.svg.png" },
+        { "PE": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/1280px-Flag_of_Peru.svg.png" },
+        { "PK": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/1280px-Flag_of_Pakistan.svg.png" },
+        { "PH": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/1280px-Flag_of_the_Philippines.svg.png" },
+        { "PN": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_the_Pitcairn_Islands.svg/1280px-Flag_of_the_Pitcairn_Islands.svg.png" },
+        { "PL": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1280px-Flag_of_Poland.svg.png" },
+        { "PM": "https:Pierre_and_Miquelon.svg/1280px-Flag_of_Saint-Pierre_and_Miquelon.svg.png" },
+        { "ZM": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Zambia.svg/1280px-Flag_of_Zambia.svg.png" },
+        { "EH": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg/1280px-Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg.png" },
+        { "EE": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/1280px-Flag_of_Estonia.svg.png" },
+        { "EG": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/1280px-Flag_of_Egypt.svg.png" },
+        { "ZA": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1280px-Flag_of_South_Africa.svg.png" },
+        { "EC": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/1280px-Flag_of_Ecuador.svg.png" },
+        { "IT": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/1280px-Flag_of_Italy.svg.png" },
+        { "VN": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1280px-Flag_of_Vietnam.svg.png" },
+        { "SB": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/1280px-Flag_of_the_Solomon_Islands.svg.png" },
+        { "ET": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/1280px-Flag_of_Ethiopia.svg.png" },
+        { "SO": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/1280px-Flag_of_Somalia.svg.png" },
+        { "ZW": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/1280px-Flag_of_Zimbabwe.svg.png" },
+        { "SA": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/1280px-Flag_of_Saudi_Arabia.svg.png" },
+        { "ES": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png" },
+        { "ER": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Eritrea.svg/1280px-Flag_of_Eritrea.svg.png" },
+        { "ME": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/1280px-Flag_of_Montenegro.svg.png" },
+        { "MD": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/1280px-Flag_of_Moldova.svg.png" },
+        { "MG": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/1280px-Flag_of_Madagascar.svg.png" },
+        { "MF": "" },
+        { "MA": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1280px-Flag_of_Morocco.svg.png" },
+        { "MC": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/1280px-Flag_of_Monaco.svg.png" },
+        { "UZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/1280px-Flag_of_Uzbekistan.svg.png" },
+        { "MM": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/1280px-Flag_of_Myanmar.svg.png" },
+        { "ML": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/1280px-Flag_of_Mali.svg.png" },
+        { "MO": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_Macau.svg/1280px-Flag_of_Macau.svg.png" },
+        { "MN": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/1280px-Flag_of_Mongolia.svg.png" },
+        { "MH": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_the_Marshall_Islands.svg/1280px-Flag_of_the_Marshall_Islands.svg.png" },
+        { "MK": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/1280px-Flag_of_North_Macedonia.svg.png" },
+        { "MU": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/1280px-Flag_of_Mauritius.svg.png" },
+        { "MT": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/1280px-Flag_of_Malta.svg.png" },
+        { "MW": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Malawi.svg/1280px-Flag_of_Malawi.svg.png" },
+        { "MV": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/1280px-Flag_of_Maldives.svg.png" },
+        { "MQ": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Snake_Flag_of_Martinique.svg/1024px-Snake_Flag_of_Martinique.svg.png" },
+        { "MP": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_the_Northern_Mariana_Islands.svg/1280px-Flag_of_the_Northern_Mariana_Islands.svg.png" },
+        { "MS": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Montserrat.svg/1280px-Flag_of_Montserrat.svg.png" },
+        { "MR": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Mauritania.svg/1280px-Flag_of_Mauritania.svg.png" },
+        { "IM": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_the_Isle_of_Man.svg/1280px-Flag_of_the_Isle_of_Man.svg.png" },
+        { "UG": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/1280px-Flag_of_Uganda.svg.png" },
+        { "TZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/1280px-Flag_of_Tanzania.svg.png" },
+        { "MY": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/1280px-Flag_of_Malaysia.svg.png" },
+        { "MX": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1280px-Flag_of_Mexico.svg.png" },
+        { "IL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/1280px-Flag_of_Israel.svg.png" },
+        { "FR": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png" },
+        { "IO": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Flag_of_the_British_Indian_Ocean_Territory.svg/1280px-Flag_of_the_British_Indian_Ocean_Territory.svg.png" },
+        { "SH": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Saint_Helena.svg/1280px-Flag_of_Saint_Helena.svg.png" },
+        { "FI": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/1280px-Flag_of_Finland.svg.png" },
+        { "FJ": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/1280px-Flag_of_Fiji.svg.png" },
+        { "FK": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_Falkland_Islands.svg/1280px-Flag_of_the_Falkland_Islands.svg.png" },
+        { "FM": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg/1280px-Flag_of_the_Federated_States_of_Micronesia.svg.png" },
+        { "FO": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flag_of_the_Faroe_Islands.svg/1280px-Flag_of_the_Faroe_Islands.svg.png" },
+        { "NI": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/1280px-Flag_of_Nicaragua.svg.png" },
+        { "NL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1280px-Flag_of_the_Netherlands.svg.png" },
+        { "NO": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/1280px-Flag_of_Norway.svg.png" },
+        { "NA": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/1280px-Flag_of_Namibia.svg.png" },
+        { "VU": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Vanuatu.svg/1280px-Flag_of_Vanuatu.svg.png" },
+        { "NC": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_FLNKS.svg/1280px-Flag_of_FLNKS.svg.png" },
+        { "NE": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/1195px-Flag_of_Niger.svg.png" },
+        { "NF": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Norfolk_Island.svg/1280px-Flag_of_Norfolk_Island.svg.png" },
+        { "NG": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1280px-Flag_of_Nigeria.svg.png" },
+        { "NZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/1280px-Flag_of_New_Zealand.svg.png" },
+        { "NP": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/840px-Flag_of_Nepal.svg.png" },
+        { "NR": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Flag_of_Nauru.svg/1280px-Flag_of_Nauru.svg.png" },
+        { "NU": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Niue.svg/1280px-Flag_of_Niue.svg.png" },
+        { "CK": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_the_Cook_Islands.svg/1280px-Flag_of_the_Cook_Islands.svg.png" },
+        { "XK": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Kosovo.svg/1280px-Flag_of_Kosovo.svg.png" },
+        { "CI": "https:27Ivoire.svg/1280px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png" },
+        { "CH": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/1024px-Flag_of_Switzerland.svg.png" },
+        { "CO": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/1280px-Flag_of_Colombia.svg.png" },
+        { "CN": "https:27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png" },
+        { "CM": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/1280px-Flag_of_Cameroon.svg.png" },
+        { "CL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/1280px-Flag_of_Chile.svg.png" },
+        { "CC": "" },
+        { "CA": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Flag_of_Canada.svg/1280px-Flag_of_Canada.svg.png" },
+        { "CG": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/1280px-Flag_of_the_Republic_of_the_Congo.svg.png" },
+        { "CF": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Central_African_Republic.svg/1280px-Flag_of_the_Central_African_Republic.svg.png" },
+        { "CD": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/1280px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png" },
+        { "CZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png" },
+        { "CY": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/1280px-Flag_of_Cyprus.svg.png" },
+        { "CX": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Flag_of_Christmas_Island.svg/1280px-Flag_of_Christmas_Island.svg.png" },
+        { "CR": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/1280px-Flag_of_Costa_Rica.svg.png" },
+        { "CW": "https:A7ao.svg/1280px-Flag_of_Cura%C3%A7ao.svg.png" },
+        { "CV": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Cape_Verde.svg/1280px-Flag_of_Cape_Verde.svg.png" },
+        { "CU": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/1280px-Flag_of_Cuba.svg.png" },
+        { "SZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/1280px-Flag_of_Eswatini.svg.png" },
+        { "SY": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/1280px-Flag_of_Syria.svg.png" },
+        { "SX": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Sint_Maarten.svg/1280px-Flag_of_Sint_Maarten.svg.png" },
+        { "KG": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/1280px-Flag_of_Kyrgyzstan.svg.png" },
+        { "KE": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/1280px-Flag_of_Kenya.svg.png" },
+        { "SS": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_South_Sudan.svg/1280px-Flag_of_South_Sudan.svg.png" },
+        { "SR": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/1280px-Flag_of_Suriname.svg.png" },
+        { "KI": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kiribati.svg/1280px-Flag_of_Kiribati.svg.png" },
+        { "KH": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/1280px-Flag_of_Cambodia.svg.png" },
+        { "KN": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/1280px-Flag_of_Saint_Kitts_and_Nevis.svg.png" },
+        { "KM": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag_of_the_Comoros.svg/1280px-Flag_of_the_Comoros.svg.png" },
+        { "ST": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Sao_Tome_and_Principe.svg/1280px-Flag_of_Sao_Tome_and_Principe.svg.png" },
+        { "SK": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/1280px-Flag_of_Slovakia.svg.png" },
+        { "KR": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png" },
+        { "SI": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/1280px-Flag_of_Slovenia.svg.png" },
+        { "KP": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/1280px-Flag_of_North_Korea.svg.png" },
+        { "KW": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/1280px-Flag_of_Kuwait.svg.png" },
+        { "SN": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png" },
+        { "SM": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_San_Marino.svg/1280px-Flag_of_San_Marino.svg.png" },
+        { "SL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Sierra_Leone.svg/1280px-Flag_of_Sierra_Leone.svg.png" },
+        { "SC": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/1280px-Flag_of_Seychelles.svg.png" },
+        { "KZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/1280px-Flag_of_Kazakhstan.svg.png" },
+        { "KY": "https:1f1fe.svg.png" },
+        { "SG": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/1280px-Flag_of_Singapore.svg.png" },
+        { "SE": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/1280px-Flag_of_Sweden.svg.png" },
+        { "SD": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Sudan.svg/1280px-Flag_of_Sudan.svg.png" },
+        { "DO": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/1280px-Flag_of_the_Dominican_Republic.svg.png" },
+        { "DM": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Dominica.svg/1280px-Flag_of_Dominica.svg.png" },
+        { "DJ": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/1280px-Flag_of_Djibouti.svg.png" },
+        { "DK": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1280px-Flag_of_Denmark.svg.png" },
+        { "VG": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_the_British_Virgin_Islands.svg/1280px-Flag_of_the_British_Virgin_Islands.svg.png" },
+        { "DE": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1280px-Flag_of_Germany.svg.png" },
+        { "YE": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/1280px-Flag_of_Yemen.svg.png" },
+        { "DZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/1280px-Flag_of_Algeria.svg.png" },
+        { "US": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png" },
+        { "UY": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/1280px-Flag_of_Uruguay.svg.png" },
+        { "YT": "https:29.svg/1280px-Flag_of_Mayotte_%28local%29.svg.png" },
+        { "UM": "" },
+        { "LB": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/1280px-Flag_of_Lebanon.svg.png" },
+        { "LC": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/1280px-Flag_of_Saint_Lucia.svg.png" },
+        { "LA": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/1280px-Flag_of_Laos.svg.png" },
+        { "TV": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/1280px-Flag_of_Tuvalu.svg.png" },
+        { "TW": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/1280px-Flag_of_the_Republic_of_China.svg.png" },
+        { "TT": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/1280px-Flag_of_Trinidad_and_Tobago.svg.png" },
+        { "TR": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1280px-Flag_of_Turkey.svg.png" },
+        { "LK": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/1280px-Flag_of_Sri_Lanka.svg.png" },
+        { "LI": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Liechtenstein.svg/1280px-Flag_of_Liechtenstein.svg.png" },
+        { "LV": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/1280px-Flag_of_Latvia.svg.png" },
+        { "TO": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/1280px-Flag_of_Tonga.svg.png" },
+        { "LT": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/1280px-Flag_of_Lithuania.svg.png" },
+        { "LU": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/1280px-Flag_of_Luxembourg.svg.png" },
+        { "LR": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/1280px-Flag_of_Liberia.svg.png" },
+        { "LS": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Lesotho.svg/1280px-Flag_of_Lesotho.svg.png" },
+        { "TH": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/1280px-Flag_of_Thailand.svg.png" },
+        { "TF": "" },
+        { "TG": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/1280px-Flag_of_Togo.svg.png" },
+        { "TD": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_Chad.svg/1280px-Flag_of_Chad.svg.png" },
+        { "TC": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_the_Turks_and_Caicos_Islands.svg/1280px-Flag_of_the_Turks_and_Caicos_Islands.svg.png" },
+        { "LY": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Libya.svg/1280px-Flag_of_Libya.svg.png" },
+        { "VA": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_the_Vatican_City.svg/1024px-Flag_of_the_Vatican_City.svg.png" },
+        { "VC": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/1280px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png" },
+        { "AE": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/1280px-Flag_of_the_United_Arab_Emirates.svg.png" },
+        { "AD": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/1280px-Flag_of_Andorra.svg.png" },
+        { "AG": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/1280px-Flag_of_Antigua_and_Barbuda.svg.png" },
+        { "AF": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Afghanistan.svg/1280px-Flag_of_Afghanistan.svg.png" },
+        { "AI": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Anguilla.svg/1280px-Flag_of_Anguilla.svg.png" },
+        { "VI": "" },
+        { "IS": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/1280px-Flag_of_Iceland.svg.png" },
+        { "IR": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/1280px-Flag_of_Iran.svg.png" },
+        { "AM": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/1280px-Flag_of_Armenia.svg.png" },
+        { "AL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/1280px-Flag_of_Albania.svg.png" },
+        { "AO": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/1280px-Flag_of_Angola.svg.png" },
+        { "AQ": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg/1024px-Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg.png" },
+        { "AS": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Flag_of_American_Samoa.svg/1280px-Flag_of_American_Samoa.svg.png" },
+        { "AR": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1280px-Flag_of_Argentina.svg.png" },
+        { "AU": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Flag_of_Australia.svg/1280px-Flag_of_Australia.svg.png" },
+        { "AT": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/1280px-Flag_of_Austria.svg.png" },
+        { "AW": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Aruba.svg/1280px-Flag_of_Aruba.svg.png" },
+        { "IN": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1280px-Flag_of_India.svg.png" },
+        { "AX": "" },
+        { "AZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/1280px-Flag_of_Azerbaijan.svg.png" },
+        { "IE": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/1280px-Flag_of_Ireland.svg.png" },
+        { "ID": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/1280px-Flag_of_Indonesia.svg.png" },
+        { "UA": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1280px-Flag_of_Ukraine.svg.png" },
+        { "QA": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/1280px-Flag_of_Qatar.svg.png" },
+        { "MZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/1280px-Flag_of_Mozambique.svg.png" }
+    ]
+}

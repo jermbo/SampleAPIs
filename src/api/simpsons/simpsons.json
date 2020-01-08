@@ -1,0 +1,47 @@
+{
+  "characters": [],
+  "products": [
+    {
+      "name": "Baby Burps A Lot",
+      "category": "Toys",
+      "description": "Baby Burps A Lot is a doll owned by Lisa.",
+      "Details": "Lisa and Janey were playing with the doll and a teddy bear. Meanwhile, Bart and Milhouse put a garden hose to a hole in the ground and turned a tap to learn what is inside.\n\nHowever, there was another hole under a cloth the toys were sitting on, so a water geyser, full of tarantulas, erupted and threw the toys away.\n\nLisa screamed and tried to save her doll but when she saw the tarantulas, coming out of the doll's mouth while it was burping, Lisa just released the doll and ran away.",
+      "id": 1
+    },
+    {
+      "name": "Battle Balls",
+      "category": "Toys",
+      "description": "Battle Balls is a parody of Bakugan, a kids TV show and strategy game involving balls and cards. ",
+      "Details": "The characters in the game are identical to the real Bakugans. Some fans believe that the game is actually not a parody. Bart and his friends played with them, and Marge suspected that he was doing drugs. In the Simpsons Battle Balls are a Japanese card game based on a cartoon based on an ancient religion based on a candy bar.\n\nThe known cards are\n\nPlatinum Lavagini\n\nBattle Card Digitate\n\nDefense Card Deflector Warp\n\nDubaki Goji Kick\n\nan unnamed orange ball that uses a drill\n\nan unnamed butterfly\n\nan unnamed snowman that shoots carrots",
+      "id": 2
+    },
+    {
+      "name": "Krusty's Kreepy Konjuring Kit",
+      "category": "Toys",
+      "description": "Krusty's Kreepy Konjuring Kit is a magic kit by Krusty the Clown.",
+      "Details": "Bart was angry because Lisa was a magician, although it was he who got a magic kit for Christmas. However, he never opened the wrapper.",
+      "id": 3
+    },
+    {
+      "name": "Lakeside Boggle",
+      "category": "Toys",
+      "description": "Lakeside Boggle is a board game the Simpson family owns.",
+      "Details": "Homer and Marge took this game to their road trip to Kozy Kabins.",
+      "id": 4
+    },
+    {
+      "name": "Larry the Lamb",
+      "category": "Toys",
+      "description": "Larry the Lamb is the fourth grade's toy to take home for the weekend.",
+      "Details": "Each person that takes Larry home writes in his Journal. The person who takes him home is decided by a name drawn out of a box. Nelson also implies that he is rather attached to Larry the Lamb, as it is \"the only thing that keeps him sane\". Whenever one of the kids shouts Larry's name, Agnes Skinner thinks that the children are talking about a sexual partner, such as when Lisa lost Larry in the sewer and was calling out Larry's name, Agnes tells her that she's \"getting desperate\", and after Bart lamenting Larry's destruction, she even asks for his number.",
+      "id": 5
+    },
+    {
+      "name": "Lisa Lionheart",
+      "category": "Toys",
+      "description": "Lisa Lionheart is a doll created by Lisa Simpson and Stacy Lovell.",
+      "Details": "Lisa Lionheart was designed to provide a more positive role model for young girls, placing it into direct competition with the Malibu Stacy line of dolls. Fearful of what could happen to Malibu Stacy if Lisa Lionheart is a success, the managers (the men responsible for having instilled sexist wording for the doll) tried to stop Lisa's Pro-Feminist campaign against them. They attempt to threaten her with lawsuit, but Stacy Lovell, the creator of the Malibu Stacy franchise who had been removed for from the company for ideas that weren't cost effective and for funneling profits to the Vietcong, threatens to counter-sue them. The managers meet Lisa and promise to let her renovate Malibu Stacy into the nineties as a fashion forward and positive role model for little girls if she stops her production of her own doll. However, she sees past the managers' attempts and refuses. She knows that anything they have Stacy say and do will always be sexist. Lisa's opinions are supported by original creator herself, Stacy Lovell who called out the men for removing her from her beloved position as owner and is also fed up with the way they have been making the doll she created into being a dumb and sexist twit. The managers then must try to come up with a way to sink Lisa Lionheart.\n\nAfter seeing the news with Kent Brockman on it praising the Lisa Lionheart doll with his own daughter playing with another one, the desperate creators try one last ploy to sink Lisa Lionheart. When the Lisa doll was first released, all the young girls -- as well as Malibu Stacy collector Waylon Smithers, who yelled: \"I want it, I want it, I want it!\" -- were after it. However, before they could reach the Lisa Lionheart display, they were literally intercepted in the store by a cart of talking Malibu Stacy dolls with new hats, leading to the complete failure of Lisa Lionheart. However, Nina was the only one to buy one and Lisa is able to hope that one. Behind Lisa's back, Lovell had invested $46,000.00 into producing the Lisa Lionheart dolls, suggesting they were overpriced to cover production costs.",
+      "id": 6
+    }
+  ]
+}
