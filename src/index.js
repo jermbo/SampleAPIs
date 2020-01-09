@@ -45,13 +45,13 @@ app.get("/:id", (req, res) => {
 
 app.use(express.static(path.join(__dirname, "/public")));
 
-// pages.forEach(page => {
-//   app.use(`/${page}`, express.static(path.join(__dirname, `/api/${page}`)));
-//   app.use(
-//     `/${page}/api`,
-//     jsonServer.router(path.join(__dirname, `/api/${page}/${page}.json`))
-//   );
-// });
+ApiList.forEach(({ link }) => {
+  console.log(path.join(__dirname, `/api/${link}.json`));
+  app.use(
+    `/${link}/api`,
+    jsonServer.router(path.join(__dirname, `/api/${link}.json`))
+  );
+});
 
 app.listen(port, () => {
   console.log(`Express is now : http://localhost:${port}`);
