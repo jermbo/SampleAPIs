@@ -38,6 +38,7 @@ a {
 
 .site__inner {
   padding: 0 1.25rem;
+  max-width: 80vw;
 }
 
 .site__title {
