@@ -23,7 +23,7 @@ module.exports = [
       "If you are an Avatar fan, then this api is for you. Here you can find everything from Episodes to Characters to Trivia Questions and more.",
     desc: "An API with characters, episode listings, and trivia questions.",
     link: "avatar",
-    endPoints: []
+    endPoints: ["info", "characters", "episodes", "questions"]
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ module.exports = [
       "Baseball fans? Computer nerds? Now, in one place, you have baseball data and an api to access it. Have fun!",
     desc: "An API with records and trivia questions.",
     link: "baseball",
-    endPoints: []
+    endPoints: ["hits", "era", "stolenBases", "homeRuns", "battingAvgs", "rbi"]
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ module.exports = [
       "Because everyone is making a recipe app to learn to code. So, here is some data.",
     desc: "A recipe database",
     link: "recipes",
-    endPoints: []
+    endPoints: ["recipes"]
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ module.exports = [
       "Building an app that needs some bake transactions? Well, look no further. Here are what Fry's bank statements might look like from the future.",
     desc: "Just a random set of fake bank data.",
     link: "fakebank",
-    endPoints: []
+    endPoints: ["futurama"]
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ module.exports = [
       "Football fans? Computer nerds? Now, in one place, you have football data and an api to access it. Have fun!",
     desc: "An API with records and trivia questions.",
     link: "football",
-    endPoints: []
+    endPoints: ["passing-yards", "passing-td"]
   },
   {
     id: 7,
@@ -68,7 +68,7 @@ module.exports = [
       "Who doesn't need to get the dreaded long list of countries, codes, capitals, etc. every other week? You can get them all right here.",
     desc: "An API with information about countries.",
     link: "countries",
-    endPoints: []
+    endPoints: ["name", "capital", "phone", "currency", "population", "flags"]
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ module.exports = [
       "Millions of peaches! No...not those Presidents. You're practicing API calls, why not learn a little bit about United States history in the process? Here we have a collection of all the US Presidents. Updated every 4-8 years.",
     desc: "Millions of peaches! No...not those Presidents...",
     link: "presidents",
-    endPoints: []
+    endPoints: ["presidents"]
   },
   {
     id: 9,
@@ -86,23 +86,34 @@ module.exports = [
       "Because who doesn't need easily accessible data about the simpsons?",
     desc: "Because who doesn't need easily accessible data about the simpsons?",
     link: "simpsons",
-    endPoints: []
+    endPoints: ["characters", "products"]
   },
-  {
-    id: 10,
-    title: "Hurricanes",
-    longDesc: "Hurricanes.",
-    desc: "Hurricanes.",
-    link: "hurricanes",
-    endPoints: []
-  },
+  // {
+  //   id: 10,
+  //   title: "Hurricanes",
+  //   longDesc: "Hurricanes.",
+  //   desc: "Hurricanes.",
+  //   link: "hurricanes",
+  //   endPoints: []
+  // },
   {
     id: 11,
     title: "Movies",
     longDesc: "Movies.",
     desc: "Movies.",
     link: "movies",
-    endPoints: []
+    endPoints: [
+      "action-adventure",
+      "animation",
+      "classic",
+      "comedy",
+      "drama",
+      "horror",
+      "family",
+      "mystery",
+      "scifi-fantasy",
+      "western"
+    ]
   },
   {
     id: 12,
@@ -110,7 +121,7 @@ module.exports = [
     longDesc: "Wines.",
     desc: "Wines",
     link: "wines",
-    endPoints: []
+    endPoints: ["reds", "whites", "sparkling", "rose", "desert", "port"]
   },
   {
     id: 13,
@@ -119,7 +130,7 @@ module.exports = [
       "Sometimes health data is hard to come by. This endpoints make it easy for you to test your apps with examples of health data such as medical professions.",
     desc: "An API with health and medical information",
     link: "health",
-    endPoints: []
+    endPoints: ["professions"]
   },
   {
     id: 13,
@@ -127,33 +138,33 @@ module.exports = [
     longDesc: "Beers.",
     desc: "Beers",
     link: "beers",
-    endPoints: []
+    endPoints: ["ale", "stout", "red-ale"]
   },
   {
     id: 14,
-    title: "Switch Games",
+    title: "Switch",
     longDesc:
       "Figured it would be a cool db to have various video games on the Switch.",
     desc: "Figured it would be fun to have a Switch game list on here.",
     link: "switch",
-    endPoints: []
+    endPoints: ["games"]
   },
   {
     id: 15,
-    title: "PlayStation Games",
+    title: "PlayStation",
     longDesc:
       "Figured it would be a cool db to have various video games on the PlayStation 4.",
     desc: "Figured it would be fun to have a PlayStation game list on here.",
     link: "playstation",
-    endPoints: []
+    endPoints: ["games"]
   },
   {
     id: 16,
-    title: "XBox Games",
+    title: "XBox",
     longDesc:
       "Figured it would be a cool db to have various video games on the XBox.",
     desc: "Figured it would be fun to have a Xbox game list on here.",
     link: "xbox",
-    endPoints: []
+    endPoints: ["games"]
   }
 ];
