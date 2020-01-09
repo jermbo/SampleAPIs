@@ -1,0 +1,49 @@
+include partials/header.pug
+body
+  main#app
+    article.site
+      .site__inner
+        h1.site__title Sample APIs
+        p
+          | Welcome to SampleAPIs. A playground for messing with RESTful endpoints. Checkout the project on 
+          a(href='https://github.com/jermbo/SampleAPIs') GitHub 
+          | and consider contributing to the project with a new endpoint!
+        p
+        | You can use any HTTP verbs (GET, POST, PUT, PATCH and DELETE) and
+        | access your resources from anywhere using CORS and JSONP.
+        p.disclaimer
+          | The data on this site is for educational purposes only and is not
+          | owned by SampleAPIs.com
+        p.disclaimer
+          | The data on this site will be reset on a regular basis.
+    
+    section.apis
+      apis(v-for='api, i in apis' :api='api' :key='i')
+    
+
+template#api
+  article.api
+    .api__inner
+      h2.api__title {{ api.title }}
+      p.api__desc {{ api.desc }}
+      a.api__link(:href='api.link') API Link
+
+script(src='https://cdn.jsdelivr.net/npm/vue/dist/vue.js')
+script.
+  const api = Vue.component("Apis", {
+    template: "#api",
+    props: ["api"]
+  });
+  const apiList = !{apiList};
+  
+  const app = new Vue({
+    el: ".apis",
+    data: function() {
+      return {
+        apis: apiList
+      }
+    },
+    components: {
+      apis: api
+    }
+  });

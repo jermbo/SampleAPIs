@@ -1,0 +1,15 @@
+include partials/header.pug
+body
+  main
+    article.site
+      .site__inner
+        a(href="/" class="baclBtn") Home
+        h1.site__title= title
+        p.site__desc= longDesc
+        p You can use any HTTP verbs (GET, POST, PUT, PATCH and DELETE) and access your resources from anywhere using CORS and JSONP.
+
+        section.content
+          p Here are the endpoints currently available.
+          nav.endpoints
+            each endPoint in endPoints
+              a.endpoint(href=`/${link}/api/${endPoint}` target="_blank")= endPoint
