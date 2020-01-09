@@ -12,4 +12,4 @@ body
           p Here are the endpoints currently available.
           nav.endpoints
             each endPoint in endPoints
-              a.endpoint(href=`api/${endPoint}`)= endPoint
+              a.endpoint(href=`/${link}/api/${endPoint}` target="_blank")= endPoint

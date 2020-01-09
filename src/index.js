@@ -7,29 +7,24 @@ const ApiList = require("./apiList");
 
 const app = express();
 
-app.get("/api-reset", (req, res) => {
-  pages.forEach(page => {
-    fs.copyFile(
-      path.join(__dirname, `/api/${page}/${page}.json.backup`),
-      path.join(__dirname, `/api/${page}/${page}.json`),
-      err => {
-        if (err) {
-          console.log(err);
-        }
-      }
-    );
-  });
+// Static Files
+app.use(express.static(path.join(__dirname, "/public")));
 
-  res.send("ok");
-});
-
+// View Engine
 app.set("view engine", "pug");
+app.set("views", path.join(__dirname, `/views`));
+
+// ----------------------
+// Routes
+
+// Main page
 app.get("/", (req, res) => {
   res.render("index", {
     apiList: JSON.stringify(ApiList)
   });
 });
 
+// Individual Page Route
 app.get("/:id", (req, res) => {
   const id = req.params.id.toLowerCase();
   const data = ApiList.filter(api => id == api.title.toLowerCase())[0];
@@ -43,16 +38,32 @@ app.get("/:id", (req, res) => {
   }
 });
 
-app.use(express.static(path.join(__dirname, "/public")));
-
+// Creating Routes based on the ApiList array
 ApiList.forEach(({ link }) => {
-  console.log(path.join(__dirname, `/api/${link}.json`));
   app.use(
     `/${link}/api`,
     jsonServer.router(path.join(__dirname, `/api/${link}.json`))
   );
 });
 
+// Reset API Route
+app.get("/api-reset", (req, res) => {
+  pages.forEach(page => {
+    fs.copyFile(
+      path.join(__dirname, `/api/${page}.json.backup`),
+      path.join(__dirname, `/api/${page}.json`),
+      err => {
+        if (err) {
+          console.log(err);
+        }
+      }
+    );
+  });
+
+  res.send("ok");
+});
+
+// Starting App
 app.listen(port, () => {
   console.log(`Express is now : http://localhost:${port}`);
 });
