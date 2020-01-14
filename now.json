@@ -7,6 +7,15 @@
       "use": "@now/node-server"
     }
   ],
-  "routes": [{ "src": "/.*", "dest": "src/index.js" }],
-  "alias": ["sampleapis.com", "sampleapis"]
+  "alias": ["sampleapis.com", "sampleapis"],
+  "routes": [
+    {
+      "src": "/.*",
+      "dest": "src/index.js",
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*"
+      }
+    }
+  ]
 }
