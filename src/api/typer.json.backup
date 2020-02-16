@@ -76,13 +76,17 @@
         {
           "type": "dom",
           "desc": "This is the H1 heading tag. Our most important tag. Type out the tag and the words in between.",
-          "action": ["<h1>largest heading</h1>"],
+          "action": [
+            "<h1>largest heading</h1>"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "This is the H1 heading tag. Our most important tag. Type out the tag and the words in between.",
-          "action": ["<h1>largest heading</h1>"],
+          "action": [
+            "<h1>largest heading</h1>"
+          ],
           "render": true
         }
       ]
@@ -97,73 +101,97 @@
         {
           "type": "dom",
           "desc": "This is the H1 heading tag. Our most important tag. Type out the tag and the words in between.",
-          "action": ["<h1>largest heading</h1>"],
+          "action": [
+            "<h1>largest heading</h1>"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "The H2 tag is the second most important tag. This is usually the most commonly used heading tag. Remember to always close your tags with a forward slash '/' ",
-          "action": ["<h2>large heading</h2>"],
+          "action": [
+            "<h2>large heading</h2>"
+          ],
           "render": true
         },
         {
           "type": "style",
           "desc": "Here we will add a STYLE to style our text in the next test. This will turn the text green. ",
-          "action": [".green{ color: green; }"],
+          "action": [
+            ".green{ color: green; }"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "Now we will make an H3 tag with a CLASS. This acts as a SELECTOR for styles. ",
-          "action": ["<h3 class=\"green\">green heading</h3>"],
+          "action": [
+            "<h3 class=\"green\">green heading</h3>"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "Add a wrapper to contain your page.",
-          "action": ["<div class=\"wrapper\"></div>"],
+          "action": [
+            "<div class=\"wrapper\"></div>"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "Styles go between the STYLE tags.",
-          "action": ["<style></style>"],
+          "action": [
+            "<style></style>"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "The \"p\" tag is what we use for body text. This text is smaller and fills out most of content on the site.",
-          "action": ["<p class=\"body\">body text</p>"],
+          "action": [
+            "<p class=\"body\">body text</p>"
+          ],
           "render": true
         },
         {
           "type": "style",
           "desc": "Create a STYLE tag to color text yellow. ",
-          "action": [".yellow{ color: yellow; }"],
+          "action": [
+            ".yellow{ color: yellow; }"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "The \"<span>\" tag is used in addition to other tags and sometimes alone.",
-          "action": ["<span class=\"yellow\">in between tag</span>"],
+          "action": [
+            "<span class=\"yellow\">in between tag</span>"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "The \"href\" or \"Link Tag\" is what we link everything together with on the web. This is not the only way to link things but the most common.",
-          "action": ["<a href=\"#\">Link Tag</a>"],
+          "action": [
+            "<a href=\"#\">Link Tag</a>"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "Tags can be \"Nested\" within each other to do things like LINK BODY TEXT.",
-          "action": ["<p>Nested <a href=\"#\">elements</a></p>"],
+          "action": [
+            "<p>Nested <a href=\"#\">elements</a></p>"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "This is the \"img\" or IMAGE tag. We place the images here by setting the path inside the \"src\" or SOURCE attribute.",
-          "action": ["<img src=\"http://placekitten.com/400/200\" />"],
+          "action": [
+            "<img src=\"http://placekitten.com/400/200\" />"
+          ],
           "render": true
         }
       ]
@@ -178,31 +206,47 @@
         {
           "type": "dom",
           "desc": "We use an H1 Tag to display the most important title on the page.",
-          "action": ["<h1>hello</h1>"],
+          "action": [
+            "<h1>hello</h1>"
+          ],
           "render": true
         },
         {
           "type": "style",
           "desc": "Now let's style the h1",
-          "action": ["h1 {", "  color: #225668;", "  font-size: 30px;", "}"],
+          "action": [
+            "h1 {",
+            "  color: #225668;",
+            "  font-size: 30px;",
+            "}"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "Paragraphs are used to block out text used to provide information to your users.",
-          "action": ["<p>I have something to share with you.</p>"],
+          "action": [
+            "<p>I have something to share with you.</p>"
+          ],
           "render": true
         },
         {
           "type": "style",
           "desc": "Now let's all paragraph tags",
-          "action": ["p {", "  font-size: 12px;", "  color: #3fcc6e;", "}"],
+          "action": [
+            "p {",
+            "  font-size: 12px;",
+            "  color: #3fcc6e;",
+            "}"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "You want this paragraph to stand out, give it a class so we can style it with css.",
-          "action": ["<p id=\"different\">I am different than the rest.</p>"],
+          "action": [
+            "<p id=\"different\">I am different than the rest.</p>"
+          ],
           "render": true
         },
         {
@@ -219,7 +263,9 @@
         {
           "type": "dom",
           "desc": "Image tags are used to show pictures. You can place as many images on a page as you want. Each time you update the src attribute.",
-          "action": ["<img src=\"https://placekitten.com/g/200/300\" />"],
+          "action": [
+            "<img src=\"https://placekitten.com/g/200/300\" />"
+          ],
           "render": true
         },
         {
@@ -244,19 +290,27 @@
         {
           "type": "dom",
           "desc": "The class attribute can be added to any element. You can use a class to identify any element and give it special styles in css",
-          "action": ["<p class=\"fancy\">What a fancy text</p>"],
+          "action": [
+            "<p class=\"fancy\">What a fancy text</p>"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "We have multiple header tags to utilize. You can utilize this to divide your page up, as well as give it the same class of fancy to style it the same as the paragraph.",
-          "action": ["<h2 class=\"fancy\">Fancy Title</h2>"],
+          "action": [
+            "<h2 class=\"fancy\">Fancy Title</h2>"
+          ],
           "render": true
         },
         {
           "type": "style",
           "desc": "All we need to do now is style the fancy class",
-          "action": [".fancy {", "  font-family: cursive;", "}"],
+          "action": [
+            ".fancy {",
+            "  font-family: cursive;",
+            "}"
+          ],
           "render": true
         }
       ]
@@ -271,19 +325,25 @@
         {
           "type": "dom",
           "desc": "To link external styles, you need to connect it in the head tags of the document.",
-          "action": ["<link rel=\"stylesheet\" href=\"styles/styles.css\">"],
+          "action": [
+            "<link rel=\"stylesheet\" href=\"styles/styles.css\">"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "HTML needs to be open and closed in the correct order. That means nested elements need to be closed first.",
-          "action": ["<h1>Hello <small>World</small></h1>"],
+          "action": [
+            "<h1>Hello <small>World</small></h1>"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "Anchor tags go some where. You can tell it where to go by filling out the href attribute.",
-          "action": ["<a href=\"/aang.html\">Aang</a>"],
+          "action": [
+            "<a href=\"/aang.html\">Aang</a>"
+          ],
           "render": true
         },
         {
@@ -300,31 +360,44 @@
         {
           "type": "dom",
           "desc": "If you only wanted to style one element at a time you can use the style attribute and style only that one thing.",
-          "action": ["<div style=\"background-color: #f0ae12;\">Golden</div>"],
+          "action": [
+            "<div style=\"background-color: #f0ae12;\">Golden</div>"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "Image tags are used to show pictures. You can place as many images on a page as you want. Each time you update the src attribute.",
-          "action": ["<img src=\"https://placekitten.com/g/300/300\" />"],
+          "action": [
+            "<img src=\"https://placekitten.com/g/300/300\" />"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "Image tags are used to show pictures. You can place as many images on a page as you want. Each time you update the src attribute.",
-          "action": ["<img src=\"https://placekitten.com/g/400/400\" />"],
+          "action": [
+            "<img src=\"https://placekitten.com/g/400/400\" />"
+          ],
           "render": true
         },
         {
           "type": "style",
           "desc": "Lets style all the image tags to be a specific size.",
-          "action": ["img {", "  width: 250px;", "  height: 250px;", "}"],
+          "action": [
+            "img {",
+            "  width: 250px;",
+            "  height: 250px;",
+            "}"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "Anchors allow you to link to other pages in your site, or other websites all together. You can place as many anchors on the page as you would like. To tell the link to navigate to a specific location by its href attribute. You can nest tags inside eachother. You must open and close the tags in order.",
-          "action": ["<p>Visit <a href=\"katara.html\">Katara</a> page</p>"],
+          "action": [
+            "<p>Visit <a href=\"katara.html\">Katara</a> page</p>"
+          ],
           "render": true
         }
       ]
@@ -355,19 +428,25 @@
         {
           "type": "style",
           "desc": "You can select elements inside of another element like so",
-          "action": ["p a{ color: #ff00aa; text-decoration: none; }"],
+          "action": [
+            "p a{ color: #ff00aa; text-decoration: none; }"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "The class attribute can be added to any element. You can use a class to identify any element and give it special styles in css",
-          "action": ["<h3 class=\"fancy\">Welcome to my site!</h3>"],
+          "action": [
+            "<h3 class=\"fancy\">Welcome to my site!</h3>"
+          ],
           "render": true
         },
         {
           "type": "dom",
           "desc": "We have multiple header tags to utilize. You can utilize this to divide your page up, as well as give it the same class of fancy to style it the same as the paragraph.",
-          "action": ["<p class=\"fancy\">Hope you enjoy your stay!</p>"],
+          "action": [
+            "<p class=\"fancy\">Hope you enjoy your stay!</p>"
+          ],
           "render": true
         },
         {
@@ -384,13 +463,17 @@
         {
           "type": "dom",
           "desc": "Add a wrapper to contain your page.",
-          "action": ["<div class=\"wrapper\"></div>"],
+          "action": [
+            "<div class=\"wrapper\"></div>"
+          ],
           "render": true
         },
         {
           "type": "style",
           "desc": "Create a STYLE tag to color text yellow. ",
-          "action": [".yellow{ color: yellow; }"],
+          "action": [
+            ".yellow{ color: yellow; }"
+          ],
           "render": true
         },
         {
@@ -462,19 +545,31 @@
         {
           "type": "style",
           "desc": "Flexbox is used to position items inside of a container (.item-container in this case). We have to enable flex on the container. Watch closely to see how each new line of CSS manipulates our items.",
-          "action": [".item-container {", "  display: flex;", "}"],
+          "action": [
+            ".item-container {",
+            "  display: flex;",
+            "}"
+          ],
           "render": true
         },
         {
           "type": "style",
           "desc": "They moved! Why? Flexbox puts our items on an X and Y axis. This is more than a little confusing at first. Think of 'justify' as left to right or horizontal. And think of 'align' as up to down or vertical. Use justify to move the items to the center of the container.",
-          "action": [".item-container {", "  justify-content: center;", "}"],
+          "action": [
+            ".item-container {",
+            "  justify-content: center;",
+            "}"
+          ],
           "render": true
         },
         {
           "type": "style",
           "desc": "It... Kind of worked. So why aren't they completely in the center? Don't worry! We'll get there. Now that we've centered the items horizontally let's do vertical.",
-          "action": [".item-container {", "  align-items: center;", "}"],
+          "action": [
+            ".item-container {",
+            "  align-items: center;",
+            "}"
+          ],
           "render": true
         },
         {
