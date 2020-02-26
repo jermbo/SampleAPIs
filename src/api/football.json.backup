@@ -1,5 +1,5 @@
 {
-  "passing-yards": {
+  "passing-yards": [{
     "single-season": [
       {
         "Rank": "1",
@@ -4254,8 +4254,8 @@
         "id": 250
       }
     ]
-  },
-  "passing-td": {
+  }],
+  "passing-td": [{
     "single-season": [
       {
         "Rank": "1",
@@ -8593,5 +8593,5 @@
         "id": 254
       }
     ]
-  }
+  }]
 }

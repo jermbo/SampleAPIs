@@ -1,5 +1,5 @@
 {
-  "hits": {
+  "hits": [{
     "singleSeason": [
       {
         "Rank": "1",
@@ -12786,8 +12786,8 @@
         "id": 997
       }
     ]
-  },
-  "era": {
+  }],
+  "era": [{
     "singleSeason": [
       {
         "Rank": "1.",
@@ -25276,8 +25276,8 @@
         "id": 998
       }
     ]
-  },
-  "stolenBases": {
+  }],
+  "stolenBases": [{
     "singleSeason": [
       {
         "Rank": "1.",
@@ -38014,8 +38014,8 @@
         "id": 1001
       }
     ]
-  },
-  "homeRuns": {
+  }],
+  "homeRuns": [{
     "singleSeason": [
       {
         "Rank": "1.",
@@ -49196,8 +49196,8 @@
         "Bats": "L"
       }
     ]
-  },
-  "battingAvgs": {
+  }],
+  "battingAvgs": [{
     "singleSeason": [
       {
         "Rank": "1.",
@@ -61202,8 +61202,8 @@
         "id": 999
       }
     ]
-  },
-  "rbi": {
+  }],
+  "rbi": [{
     "singleSeason": [
       {
         "Rank": "1.",
@@ -73780,5 +73780,5 @@
         "id": 1000
       }
     ]
-  }
+  }]
 }
