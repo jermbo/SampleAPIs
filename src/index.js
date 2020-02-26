@@ -49,7 +49,9 @@ ApiList.forEach(({ link }) => {
   let data = getFromFile(path.join(__dirname, `/api/${link}.json`));
   try {
     app.use(`/${link}/graphql`, jsonGraphqlExpress.default(data));
-  } catch (err) { console.log(`Unable to set up  /${link}/graphql`) }
+  } catch (err) {
+    console.log(`Unable to set up  /${link}/graphql`);
+  }
 });
 
 // Reset API Route

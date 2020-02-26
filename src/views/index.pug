@@ -26,8 +26,8 @@ template#api
     .api__inner
       h2.api__title {{ api.title }}
       p.api__desc {{ api.desc }}
-      a.api__link(:href='api.link') API Link
-      a.api__link(:href='api.graphLink') GRAPHQL Link
+      a.api__link(:href='api.link' target="_blank") API Link
+      a.api__link(:href='api.graphLink' target="_blank") GRAPHQL Link
 
 script(src='https://cdn.jsdelivr.net/npm/vue/dist/vue.js')
 script.
