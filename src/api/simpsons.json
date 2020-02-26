@@ -1,5 +1,7 @@
 {
-  "characters": [],
+  "characters": [{
+    "name":"Bart"
+  }],
   "products": [
     {
       "name": "Baby Burps A Lot",

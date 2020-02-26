@@ -4,13 +4,15 @@ const path = require("path");
 const fs = require("fs");
 const port = process.env.PORT || 5001;
 const ApiList = require("./apiList");
+const jsonGraphqlExpress = require("json-graphql-server");
+const { getFromFile } = require("./utils");
 
 const app = express();
 
 // Static Files
 app.use(express.static(path.join(__dirname, "/public")));
 
-// View Engine
+// View EngineÍ
 app.set("view engine", "pug");
 app.set("views", path.join(__dirname, `/views`));
 
@@ -44,6 +46,10 @@ ApiList.forEach(({ link }) => {
     `/${link}/api`,
     jsonServer.router(path.join(__dirname, `/api/${link}.json`))
   );
+  let data = getFromFile(path.join(__dirname, `/api/${link}.json`));
+  try {
+    app.use(`/${link}/graphql`, jsonGraphqlExpress.default(data));
+  } catch (err) { console.log(`Unable to set up  /${link}/graphql`) }
 });
 
 // Reset API Route
