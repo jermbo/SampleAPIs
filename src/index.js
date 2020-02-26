@@ -29,7 +29,7 @@ app.get("/", (req, res) => {
 // Individual Page Route
 app.get("/:id", (req, res) => {
   const id = req.params.id.toLowerCase();
-  const data = ApiList.filter(api => id == api.title.toLowerCase())[0];
+  const data = ApiList.filter(api => id == api.link.toLowerCase())[0];
 
   if (data) {
     res.render("page", {

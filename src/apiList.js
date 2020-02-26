@@ -2,7 +2,8 @@ module.exports = [
   {
     id: 1,
     title: "Futurama",
-    longDesc: "If you are a Futurama fan, then this api is for you. Here you can find everything from Episodes to Characters to Trivia Questions, and even some of the Products featured on the show.",
+    longDesc:
+      "If you are a Futurama fan, then this api is for you. Here you can find everything from Episodes to Characters to Trivia Questions, and even some of the Products featured on the show.",
     desc:
       "An API with characters, episode listing, species, planets, and trivia questions.",
     link: "futurama",
@@ -19,7 +20,8 @@ module.exports = [
   {
     id: 2,
     title: "Avatar",
-    longDesc: "If you are an Avatar fan, then this api is for you. Here you can find everything from Episodes to Characters to Trivia Questions and more.",
+    longDesc:
+      "If you are an Avatar fan, then this api is for you. Here you can find everything from Episodes to Characters to Trivia Questions and more.",
     desc: "An API with characters, episode listings, and trivia questions.",
     link: "avatar",
     graphLink: "avatar/graphql",
@@ -28,7 +30,8 @@ module.exports = [
   {
     id: 3,
     title: "Baseball",
-    longDesc: "Baseball fans? Computer nerds? Now, in one place, you have baseball data and an api to access it. Have fun!",
+    longDesc:
+      "Baseball fans? Computer nerds? Now, in one place, you have baseball data and an api to access it. Have fun!",
     desc: "An API with records and trivia questions.",
     link: "baseball",
     graphLink: "baseball/graphql",
@@ -37,7 +40,8 @@ module.exports = [
   {
     id: 4,
     title: "Recipes",
-    longDesc: "Because everyone is making a recipe app to learn to code. So, here is some data.",
+    longDesc:
+      "Because everyone is making a recipe app to learn to code. So, here is some data.",
     desc: "A recipe database",
     link: "recipes",
     graphLink: "recipes/graphql",
@@ -46,7 +50,8 @@ module.exports = [
   {
     id: 5,
     title: "FakeBank",
-    longDesc: "Building an app that needs some bake transactions? Well, look no further. Here are what Fry's bank statements might look like from the future.",
+    longDesc:
+      "Building an app that needs some bake transactions? Well, look no further. Here are what Fry's bank statements might look like from the future.",
     desc: "Just a random set of fake bank data.",
     link: "fakebank",
     graphLink: "fakebank/graphql",
@@ -55,7 +60,8 @@ module.exports = [
   {
     id: 6,
     title: "Football",
-    longDesc: "Football fans? Computer nerds? Now, in one place, you have football data and an api to access it. Have fun!",
+    longDesc:
+      "Football fans? Computer nerds? Now, in one place, you have football data and an api to access it. Have fun!",
     desc: "An API with records and trivia questions.",
     link: "football",
     graphLink: "football/graphql",
@@ -64,7 +70,8 @@ module.exports = [
   {
     id: 7,
     title: "Countries",
-    longDesc: "Who doesn't need to get the dreaded long list of countries, codes, capitals, etc. every other week? You can get them all right here.",
+    longDesc:
+      "Who doesn't need to get the dreaded long list of countries, codes, capitals, etc. every other week? You can get them all right here.",
     desc: "An API with information about countries.",
     link: "countries",
     graphLink: "countries/graphql",
@@ -73,7 +80,8 @@ module.exports = [
   {
     id: 8,
     title: "Presidents",
-    longDesc: "Millions of peaches! No...not those Presidents. You're practicing API calls, why not learn a little bit about United States history in the process? Here we have a collection of all the US Presidents. Updated every 4-8 years.",
+    longDesc:
+      "Millions of peaches! No...not those Presidents. You're practicing API calls, why not learn a little bit about United States history in the process? Here we have a collection of all the US Presidents. Updated every 4-8 years.",
     desc: "Millions of peaches! No...not those Presidents...",
     link: "presidents",
     graphLink: "presidents/graphql",
@@ -82,20 +90,13 @@ module.exports = [
   {
     id: 9,
     title: "Simpsons",
-    longDesc: "Because who doesn't need easily accessible data about the simpsons?",
+    longDesc:
+      "Because who doesn't need easily accessible data about the simpsons?",
     desc: "Because who doesn't need easily accessible data about the simpsons?",
     link: "simpsons",
     graphLink: "simpsons/graphql",
     endPoints: ["characters", "products"]
   },
-  // {
-  //   id: 10,
-  //   title: "Hurricanes",
-  //   longDesc: "Hurricanes.",
-  //   desc: "Hurricanes.",
-  //   link: "hurricanes",
-  //   endPoints: []
-  // },
   {
     id: 11,
     title: "Movies",
@@ -128,7 +129,8 @@ module.exports = [
   {
     id: 13,
     title: "Health",
-    longDesc: "Sometimes health data is hard to come by. This endpoints make it easy for you to test your apps with examples of health data such as medical professions.",
+    longDesc:
+      "Sometimes health data is hard to come by. This endpoints make it easy for you to test your apps with examples of health data such as medical professions.",
     desc: "An API with health and medical information",
     link: "health",
     graphLink: "health",
@@ -146,7 +148,8 @@ module.exports = [
   {
     id: 14,
     title: "Switch Games",
-    longDesc: "Figured it would be a cool db to have various video games on the Switch.",
+    longDesc:
+      "Figured it would be a cool db to have various video games on the Switch.",
     desc: "Figured it would be fun to have a Switch game list on here.",
     link: "switch",
     graphLink: "switch/graphql",
@@ -155,7 +158,8 @@ module.exports = [
   {
     id: 15,
     title: "PlayStation Games",
-    longDesc: "Figured it would be a cool db to have various video games on the PlayStation 4.",
+    longDesc:
+      "Figured it would be a cool db to have various video games on the PlayStation 4.",
     desc: "Figured it would be fun to have a PlayStation game list on here.",
     link: "playstation",
     graphLink: "playstation/graphql",
@@ -164,10 +168,11 @@ module.exports = [
   {
     id: 16,
     title: "XBox Games",
-    longDesc: "Figured it would be a cool db to have various video games on the XBox.",
+    longDesc:
+      "Figured it would be a cool db to have various video games on the XBox.",
     desc: "Figured it would be fun to have a Xbox game list on here.",
     link: "xbox",
-    graphLink: "box/graphql",
+    graphLink: "xbox/graphql",
     endPoints: ["games"]
   },
   {
