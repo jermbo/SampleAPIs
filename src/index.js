@@ -40,6 +40,25 @@ app.get("/:id", (req, res) => {
   }
 });
 
+var cors = require('cors');
+
+var whitelist = [
+  'http://localhost', // add here the url when you access to your angular app
+  'http://localhost:5000'
+];
+
+var corsOptions = {
+    credentials: true,
+    origin: function(origin, callback) {
+        var originIsWhitelisted = whitelist.indexOf(origin) !== -1;
+        callback(null, originIsWhitelisted);
+    },
+    methods: ['GET', 'PUT', 'POST', 'PATCH', 'DELETE'],
+    allowedHeaders: 'accept, content-type'
+};
+
+app.use(cors(corsOptions));
+
 // Creating Routes based on the ApiList array
 ApiList.forEach(({ link }) => {
   app.use(
