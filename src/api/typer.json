@@ -261,20 +261,152 @@
       "steps": [
         {
           "type": "",
-          "desc": "HTML is made up of tags. Different tags do different things, but they all follow the same rules. Let's look at some heading rules.",
+          "desc": "HTML is made up of tags. Different tags do different things, but they all follow the same rules. Let's look at some heading rules. Let's look at some header tags.",
           "actions": [],
           "render": true,
           "action": [
             "<h1>Heading 1</h1>",
             "<h2>Heading 2</h2>",
-            "<h3>Heading 3</h3>",
+            "<h3>Heading 3</h3>"
+          ]
+        },
+        {
+          "type": "dom",
+          "desc": "Header tags go all the way up to 6.",
+          "action": [
             "<h4>Heading 4</h4>",
             "<h5>Heading 5</h5>",
             "<h6>Heading 6</h6>"
-          ]
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "HTML has different text tags.",
+          "action": [
+            "<p>This is a paragraph tag</p>",
+            "<p>We can <strong>bold</strong> some text</p>",
+            "<p>Or we can <em>emphasize</em> some text</p>"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "We can list things with no particular order with unordered lists.",
+          "action": [
+            "<ul>",
+            "  <li>Apples</li>",
+            "  <li>Pears</li>",
+            "  <li>Grapes</li>",
+            "  <li>Oranges</li>",
+            "</ul>"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Or give them a very specific order with ordered lists.",
+          "action": [
+            "<ol>",
+            "  <li>Step 1</li>",
+            "  <li>Step 2</li>",
+            "  <li>Step 3</li>",
+            "  <li>Step 4</li>",
+            "</ol>"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "HTML is a very structured language. We can group our code with div's, header's, main's and aside's.",
+          "action": [
+            "<div>Just a normal ol div</div>",
+            "<header>I go at the top</header>",
+            "<footer>I go at the bottom</footer>",
+            "<main>I hold important information</main>"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "HTML can display images to! Remember to give it an alt attribute.",
+          "action": [
+            "<img src=\"https://placekitten.com/200/200\" alt=\"Purrrr purrrr\">"
+          ],
+          "render": true
         }
       ],
       "id": "_0v1xtqof5"
+    },
+    {
+      "title": "HTML Inputs",
+      "category": "html-css",
+      "difficulty": "easy",
+      "hasCompleted": false,
+      "steps": [
+        {
+          "type": "dom",
+          "desc": "Forms give you a way to let the user interact with your website. The most common input field is a text field.",
+          "action": [
+            "<input type=\"text\" placeholder=\"Favorite Ice Cream>\">"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Radio buttons allow the user to select one of many options.",
+          "action": [
+            "<label>Vanilla</label>",
+            "<input type=\"radio\" name=\"flavor\" value=\"vanilla\">",
+            "<label>Chocolate</label>",
+            "<input type=\"radio\" name=\"flavor\" value=\"chocolate\">",
+            ""
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Checkboxes allow the user to click more than one option.",
+          "action": [
+            "<label>Vanilla</label>",
+            "<input type=\"checkbox\" name=\"flavor\" value=\"vanilla\">",
+            "<label>Chocolate</label>",
+            "<input type=\"checkbox\" name=\"flavor\" value=\"chocolate\">",
+            ""
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Sometimes, the user has a lot to type. Thankfully, HTML has a text area that allows users to type as much as they need.",
+          "action": [
+            "<textarea name=\"special-info\" cols=\"20\" rows=\"20\"></textarea>"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "The web is full of forms. All form elements should be wrapped inside a from tag to get the full benefit.",
+          "action": [
+            "<form>",
+            "  <label>Do you like Ice Cream?</label>",
+            "  <input type=\"checkbox\" value=\"yes\">",
+            "  <label>What flavor?</label>",
+            "  <input type=\"text\" placeholder=\"\">",
+            "</form>"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "All forms need to be \"submitted\", so let's give every form a submit button",
+          "action": [
+            "<input type=\"submit\" value=\"Make Ice Cream\">"
+          ],
+          "render": true
+        }
+      ],
+      "id": "_2w9stzngk"
     }
   ]
 }
