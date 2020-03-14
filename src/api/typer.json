@@ -662,6 +662,58 @@
         "\"Happy Christmas to all, and to all a good-night!\""
       ],
       "id": "_gfx4juawo"
+    },
+    {
+      "title": "HTML Attributes",
+      "category": "html-css",
+      "difficulty": "easy",
+      "hasCompleted": false,
+      "steps": [
+        {
+          "type": "dom",
+          "desc": "Some tags need special attributes to do something different. Let's look at an anchor tag and see how to link it to google.",
+          "action": [
+            "<a href=\"https://google.com\" target=\"_blank\">Google</a>"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Where else can an anchor go? Let's checkout YouTube.",
+          "action": [
+            "<a href=\"https://youtube.com\" target=\"_blank\">Youtube</a>"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Image tags display an image, what image it displays is determined by the src attribute.",
+          "action": [
+            "<img src=\"https://placekitten.com/300/300\" />"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "It's a good idea to add an alt attribute to images to help with accessibility. ",
+          "action": [
+            "<img src=\"https://picsum.photos/id/237/200/300\" alt=\"Look at that puppy!\">"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Not all tags get the same attributes. The three main attributes that every tag does get are id, class, and data.",
+          "action": [
+            "<section id=\"article\">",
+            "  <img class=\"article-image\" src=\"https://picsum.photos/id/791/200/300.jpg\" alt=\"Balloons!\">",
+            "  <p class=\"article-text\">How would you like to ride in a hot air balloon?</p>",
+            "</section>"
+          ],
+          "render": true
+        }
+      ],
+      "id": "_y59oqyt6r"
     }
   ]
 }
