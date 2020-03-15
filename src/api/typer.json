@@ -22,17 +22,24 @@
     },
     {
       "id": "_zvcr8k6sq",
-      "question": "Would you like a challenge or take it easy today?",
+      "question": "Choose your difficult level.",
       "possible_answers": [
         {
-          "label": "Take it easy",
+          "label": "Easy",
           "action": {
             "key": "difficulty",
             "type": "easy"
           }
         },
         {
-          "label": "Challenge Me",
+          "label": "Medium",
+          "action": {
+            "key": "difficulty",
+            "type": "medium"
+          }
+        },
+        {
+          "label": "Hard",
           "action": {
             "key": "difficulty",
             "type": "hard"
@@ -260,9 +267,8 @@
       "hasCompleted": false,
       "steps": [
         {
-          "type": "",
+          "type": "dom",
           "desc": "HTML is made up of tags. Different tags do different things, but they all follow the same rules. Let's look at some heading rules. Let's look at some header tags.",
-          "actions": [],
           "render": true,
           "action": [
             "<h1>Heading 1</h1>",
@@ -599,7 +605,7 @@
       "id": "_u01k1q88a"
     },
     {
-      "title": "",
+      "title": "Twas the night before Christmas",
       "category": "general",
       "difficulty": "hard",
       "hasCompleted": false,
@@ -714,6 +720,413 @@
         }
       ],
       "id": "_y59oqyt6r"
+    },
+    {
+      "title": "CSS Basics",
+      "category": "html-css",
+      "difficulty": "easy",
+      "hasCompleted": false,
+      "steps": [
+        {
+          "type": "dom",
+          "desc": "Before we can style anything, we need something to style.",
+          "action": [
+            "<div class=\"box\">",
+            "  <p>Just some simple text</p>",
+            "  <p class=\"different\">This text will be different</p>",
+            "  <p class=\"different\">This will be the same as above</p>",
+            "  <p id=\"special\">No other text will be like this one</p>",
+            "</div>",
+            ""
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "Now that we have tags to style, let's start by styling the box.",
+          "action": [
+            ".box {",
+            "  background: #e5e5e5;",
+            "  border: 5px solid #222;",
+            "  padding: 0 15px;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "Why not make the paragraphs larger and bolder. ",
+          "action": [
+            "p {",
+            "  font-size: 25px;",
+            "  font-weight: bolder;",
+            "  font-family: Arial;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "We added a couple of paragraphs with a class of \"different\". Let's make them different.",
+          "action": [
+            ".different {",
+            "  color: goldenrod;",
+            "  font-family: cursive;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "What about special? How can we make that one standout?",
+          "action": [
+            "#special {",
+            "  text-transform: uppercase;",
+            "  color: teal;",
+            "  text-align: center;",
+            "  font-size: 55px;",
+            "}"
+          ],
+          "render": true
+        }
+      ],
+      "id": "_hop9rzxbm"
+    },
+    {
+      "title": "Button Styles",
+      "category": "html-css",
+      "difficulty": "easy",
+      "hasCompleted": false,
+      "steps": [
+        {
+          "type": "dom",
+          "desc": "Styling buttons is a very common task. Let's add some markup so we can style them later. ",
+          "action": [
+            "<div id=\"buttons\">",
+            "  <a href=\"#\" class=\"btn blue\">Blue Button</a>",
+            "  <a href=\"#\" class=\"btn green\">Green Button</a>",
+            "  <a href=\"#\" class=\"btn red\">Red Button</a>",
+            "  <a href=\"#\" class=\"btn purple\">Purple Button</a>",
+            "  <a href=\"#\" class=\"btn orange\">Orange Button</a>",
+            "  <a href=\"#\" class=\"btn yellow\">Yellow Button</a>",
+            "</div>"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "The parent div needs a bit of attention first. This is purely for demo purposes.",
+          "action": [
+            "#buttons {",
+            "  padding-top: 50px;",
+            "  text-align: center;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Utilizing a class, we can make all buttons have a base set of styles.",
+          "action": [
+            ".btn {",
+            "  border-radius: 5px;",
+            "  padding: 15px 25px;",
+            "  font-size: 22px;",
+            "  text-decoration: none;",
+            "  margin: 20px;",
+            "  color: #fff;",
+            "  position: relative;",
+            "  display: inline-block;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "You see the \"active\" state of a button. It's a pseudo class that represents a specific state a tag can be in.",
+          "action": [
+            ".btn:active {",
+            "  transform: translate(0px, 5px);",
+            "  box-shadow: 0 1px 0 0;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "Let's make the blue look good.",
+          "action": [
+            ".blue {",
+            "  background-color: #55acee;",
+            "  box-shadow: 0px 5px 0px 0px #3C93D5;",
+            "}",
+            "",
+            ".blue:hover {",
+            "  background-color: #6FC6FF;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "Next is the green button.",
+          "action": [
+            ".green {",
+            "  background-color: #2ecc71;",
+            "  box-shadow: 0px 5px 0px 0px #15B358;",
+            "}",
+            "",
+            ".green:hover {",
+            "  background-color: #48E68B;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "Red button is next in line. ",
+          "action": [
+            ".red {",
+            "  background-color: #e74c3c;",
+            "  box-shadow: 0px 5px 0px 0px #CE3323;",
+            "}",
+            "",
+            ".red:hover {",
+            "  background-color: #FF6656;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "Purple button needs a little bit of attention as well. ",
+          "action": [
+            ".purple {",
+            "  background-color: #9b59b6;",
+            "  box-shadow: 0px 5px 0px 0px #82409D;",
+            "}",
+            "",
+            ".purple:hover {",
+            "  background-color: #B573D0;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "We have orange coming up next. ",
+          "action": [
+            ".orange {",
+            "  background-color: #e67e22;",
+            "  box-shadow: 0px 5px 0px 0px #CD6509;",
+            "}",
+            "",
+            ".orange:hover {",
+            "  background-color: #FF983C;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "Finally, the yellow button styles.",
+          "action": [
+            ".yellow {",
+            "  background-color: #f1c40f;",
+            "  box-shadow: 0px 5px 0px 0px #D8AB00;",
+            "}",
+            "",
+            ".yellow:hover {",
+            "  background-color: #FFDE29;",
+            "}"
+          ],
+          "render": true
+        }
+      ],
+      "id": "_pgyljpalu"
+    },
+    {
+      "title": "Intro to FlexBox",
+      "category": "html-css",
+      "difficulty": "medium",
+      "hasCompleted": false,
+      "steps": [
+        {
+          "type": "dom",
+          "desc": "FlexBox is a tool that allows you to control the position of an items children tags. Let's add some html so we can start styling.",
+          "action": [
+            "<div class=\"item-container\">",
+            "  <div class=\"circle\"></div>",
+            "  <div class=\"square\"></div>",
+            "  <div class=\"circle\"></div>",
+            "</div>"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "Let's first take care of the circles and square, as we will see these over and over.",
+          "action": [
+            ".square {",
+            "  background-color: goldenrod;",
+            "  height: 15vw;",
+            "  width: 15vw;",
+            "}",
+            ".circle {",
+            "  border-radius: 50%; ",
+            "  background-color: coral;",
+            "  width: 10vw;",
+            "  height: 10vw;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "Now the shapes are done, let's make sure all the item containers get a couple of base styles.",
+          "action": [
+            ".item-container { ",
+            "  display: flex;",
+            "  background-color: lightgray;",
+            "  margin-top: 1.5rem;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Moving things to the right hand side is a very simple task. Let's add the markup, but give it a special class of end. ",
+          "action": [
+            "<div class=\"item-container end\">",
+            "  <div class=\"circle\"></div>",
+            "  <div class=\"square\"></div>",
+            "  <div class=\"circle\"></div>",
+            "</div>"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "To move things to the opposite end, we can simply justify the content to the flex end.",
+          "action": [
+            ".end {",
+            "  justify-content: flex-end;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Very often, we need to center things to exact middle of the container. Let's add the markup and add a special class to center.",
+          "action": [
+            "<div class=\"item-container center-main\">",
+            "  <div class=\"circle\"></div>",
+            "  <div class=\"square\"></div>",
+            "  <div class=\"circle\"></div>",
+            "</div>"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "With the special class of center main added, let's justify the content to the center. ",
+          "action": [
+            ".center-main {",
+            "  justify-content: center;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Things are getting a little cramped. Let's spread things out and create mark up with a special class. ",
+          "action": [
+            "<div class=\"item-container between\">",
+            "  <div class=\"circle\"></div>",
+            "  <div class=\"square\"></div>",
+            "  <div class=\"circle\"></div>",
+            "</div>"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "Setting the space between items is as simple as setting the justify content to space between.",
+          "action": [
+            ".between {",
+            "  justify-content: space-between;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "There are times where touching edges in not the best look. Create some markup with a special class to address this.",
+          "action": [
+            "<div class=\"item-container around\">",
+            "  <div class=\"circle\"></div>",
+            "  <div class=\"square\"></div>",
+            "  <div class=\"circle\"></div>",
+            "</div>"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "We can space things evenly around each object by setting the space around value of justify content.",
+          "action": [
+            ".around {",
+            "  justify-content: space-around;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Vertical centering is super easy with FlexBox. Create the markup with a special class to center vertically and horizontally.",
+          "action": [
+            "<div class=\"item-container center-main center-cross\">",
+            "  <div class=\"circle\"></div>",
+            "  <div class=\"square\"></div>",
+            "  <div class=\"circle\"></div>",
+            "</div>"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "We have already added the center main, now let's add the center cross to get things centered vertically.",
+          "action": [
+            ".center-cross {",
+            "  align-items: center;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Changing the order of things is a powerful feature of FlexBox. Let's see how to make the square the first item visually. We need to first create the markup with a special class.",
+          "action": [
+            "<div class=\"item-container square-first\">",
+            "  <div class=\"circle\"></div>",
+            "  <div class=\"square\"></div>",
+            "  <div class=\"circle\"></div>",
+            "</div>"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "You can select children elements by setting the items in order from parent to child separated by a space.",
+          "action": [
+            ".square-first .square {",
+            "  order: -1;",
+            "}"
+          ],
+          "render": true
+        }
+      ],
+      "id": "_leafssh9s"
     }
   ]
 }
