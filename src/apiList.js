@@ -182,6 +182,6 @@ module.exports = [
     desc: "A place to hold lessons for Typer",
     link: "typer",
     graphLink: "typer/graphql",
-    endPoints: ["welcomeQuestions", "lessons"]
+    endPoints: ["welcomeQuestions", "webLessons", "typingLessons"]
   }
 ];
