@@ -388,7 +388,6 @@
             "  background-color: #55acee;",
             "  box-shadow: 0px 5px 0px 0px #3C93D5;",
             "}",
-            "",
             ".blue:hover {",
             "  background-color: #6FC6FF;",
             "}"
@@ -403,7 +402,6 @@
             "  background-color: #2ecc71;",
             "  box-shadow: 0px 5px 0px 0px #15B358;",
             "}",
-            "",
             ".green:hover {",
             "  background-color: #48E68B;",
             "}"
@@ -418,7 +416,6 @@
             "  background-color: #e74c3c;",
             "  box-shadow: 0px 5px 0px 0px #CE3323;",
             "}",
-            "",
             ".red:hover {",
             "  background-color: #FF6656;",
             "}"
@@ -433,7 +430,6 @@
             "  background-color: #9b59b6;",
             "  box-shadow: 0px 5px 0px 0px #82409D;",
             "}",
-            "",
             ".purple:hover {",
             "  background-color: #B573D0;",
             "}"
