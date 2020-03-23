@@ -1,7 +1,7 @@
 {
   "welcomeQuestions": [
     {
-      "id": 1,
+      "id": "_5degoesxi",
       "question": "What would you like to practice today?",
       "possible_answers": [
         {
@@ -21,18 +21,25 @@
       ]
     },
     {
-      "id": 2,
-      "question": "Would you like a challenge or take it easy today?",
+      "id": "_zvcr8k6sq",
+      "question": "Choose your difficult level.",
       "possible_answers": [
         {
-          "label": "Take it easy",
+          "label": "Easy",
           "action": {
             "key": "difficulty",
             "type": "easy"
           }
         },
         {
-          "label": "Challenge Me",
+          "label": "Medium",
+          "action": {
+            "key": "difficulty",
+            "type": "medium"
+          }
+        },
+        {
+          "label": "Hard",
           "action": {
             "key": "difficulty",
             "type": "hard"
@@ -41,558 +48,1027 @@
       ]
     }
   ],
-  "lessons": [
+  "webLessons": [
     {
-      "id": 1,
-      "difficulty": "easy",
-      "category": "general",
-      "title": "general typing 1",
-      "hasCompleted": false,
-      "steps": [
-        "This is a story all about how",
-        "my life got flipped, turned upside down.",
-        "I'd like to take a minute just sitting right there, and I'll tell you how I became the Price of Belair."
-      ]
-    },
-    {
-      "id": 2,
-      "difficulty": "hard",
-      "category": "general",
-      "title": "general typing 1",
-      "hasCompleted": false,
-      "steps": [
-        "This is a story all about how",
-        "my life got flipped, turned upside down.",
-        "I'd like to take a minute just sitting right there, and I'll tell you how I became the Price of Belair."
-      ]
-    },
-    {
-      "id": 3,
-      "difficulty": "hard",
+      "title": "Getting to know HTML",
       "category": "html-css",
-      "title": "The Easy Lesson",
+      "difficulty": "easy",
       "hasCompleted": false,
       "steps": [
         {
           "type": "dom",
-          "desc": "This is the H1 heading tag. Our most important tag. Type out the tag and the words in between.",
+          "desc": "HTML is made up of tags. Different tags do different things, but they all follow the same rules. Let's look at some heading rules. Let's look at some header tags.",
+          "render": true,
           "action": [
-            "<h1>largest heading</h1>"
+            "<h1>Heading 1</h1>",
+            "<h2>Heading 2</h2>",
+            "<h3>Heading 3</h3>"
+          ]
+        },
+        {
+          "type": "dom",
+          "desc": "Header tags go all the way up to 6.",
+          "action": [
+            "<h4>Heading 4</h4>",
+            "<h5>Heading 5</h5>",
+            "<h6>Heading 6</h6>"
           ],
           "render": true
         },
         {
           "type": "dom",
-          "desc": "This is the H1 heading tag. Our most important tag. Type out the tag and the words in between.",
+          "desc": "HTML has different text tags.",
           "action": [
-            "<h1>largest heading</h1>"
+            "<p>This is a paragraph tag</p>",
+            "<p>We can <strong>bold</strong> some text</p>",
+            "<p>Or we can <em>emphasize</em> some text</p>"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "We can list things with no particular order with unordered lists.",
+          "action": [
+            "<ul>",
+            "  <li>Apples</li>",
+            "  <li>Pears</li>",
+            "  <li>Grapes</li>",
+            "  <li>Oranges</li>",
+            "</ul>"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Or give them a very specific order with ordered lists.",
+          "action": [
+            "<ol>",
+            "  <li>Step 1</li>",
+            "  <li>Step 2</li>",
+            "  <li>Step 3</li>",
+            "  <li>Step 4</li>",
+            "</ol>"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "HTML is a very structured language. We can group our code with div's, header's, main's and aside's.",
+          "action": [
+            "<div>Just a normal ol div</div>",
+            "<header>I go at the top</header>",
+            "<footer>I go at the bottom</footer>",
+            "<main>I hold important information</main>"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "HTML can display images to! Remember to give it an alt attribute.",
+          "action": [
+            "<img src=\"https://placekitten.com/200/200\" alt=\"Purrrr purrrr\">"
           ],
           "render": true
         }
-      ]
+      ],
+      "id": "_0v1xtqof5"
     },
     {
-      "id": 4,
-      "difficulty": "easy",
+      "title": "HTML Inputs",
       "category": "html-css",
-      "title": "The First Lesson",
+      "difficulty": "easy",
       "hasCompleted": false,
       "steps": [
         {
           "type": "dom",
-          "desc": "This is the H1 heading tag. Our most important tag. Type out the tag and the words in between.",
+          "desc": "Forms give you a way to let the user interact with your website. The most common input field is a text field.",
           "action": [
-            "<h1>largest heading</h1>"
+            "<input type=\"text\" placeholder=\"Favorite Ice Cream>\">"
           ],
           "render": true
         },
         {
           "type": "dom",
-          "desc": "The H2 tag is the second most important tag. This is usually the most commonly used heading tag. Remember to always close your tags with a forward slash '/' ",
+          "desc": "Radio buttons allow the user to select one of many options.",
           "action": [
-            "<h2>large heading</h2>"
-          ],
-          "render": true
-        },
-        {
-          "type": "style",
-          "desc": "Here we will add a STYLE to style our text in the next test. This will turn the text green. ",
-          "action": [
-            ".green{ color: green; }"
-          ],
-          "render": true
-        },
-        {
-          "type": "dom",
-          "desc": "Now we will make an H3 tag with a CLASS. This acts as a SELECTOR for styles. ",
-          "action": [
-            "<h3 class=\"green\">green heading</h3>"
+            "<label>Vanilla</label>",
+            "<input type=\"radio\" name=\"flavor\" value=\"vanilla\">",
+            "<label>Chocolate</label>",
+            "<input type=\"radio\" name=\"flavor\" value=\"chocolate\">",
+            ""
           ],
           "render": true
         },
         {
           "type": "dom",
-          "desc": "Add a wrapper to contain your page.",
+          "desc": "Checkboxes allow the user to click more than one option.",
           "action": [
-            "<div class=\"wrapper\"></div>"
+            "<label>Vanilla</label>",
+            "<input type=\"checkbox\" name=\"flavor\" value=\"vanilla\">",
+            "<label>Chocolate</label>",
+            "<input type=\"checkbox\" name=\"flavor\" value=\"chocolate\">",
+            ""
           ],
           "render": true
         },
         {
           "type": "dom",
-          "desc": "Styles go between the STYLE tags.",
+          "desc": "Sometimes, the user has a lot to type. Thankfully, HTML has a text area that allows users to type as much as they need.",
           "action": [
-            "<style></style>"
+            "<textarea name=\"special-info\" cols=\"20\" rows=\"20\"></textarea>"
           ],
           "render": true
         },
         {
           "type": "dom",
-          "desc": "The \"p\" tag is what we use for body text. This text is smaller and fills out most of content on the site.",
+          "desc": "The web is full of forms. All form elements should be wrapped inside a from tag to get the full benefit.",
           "action": [
-            "<p class=\"body\">body text</p>"
-          ],
-          "render": true
-        },
-        {
-          "type": "style",
-          "desc": "Create a STYLE tag to color text yellow. ",
-          "action": [
-            ".yellow{ color: yellow; }"
-          ],
-          "render": true
-        },
-        {
-          "type": "dom",
-          "desc": "The \"<span>\" tag is used in addition to other tags and sometimes alone.",
-          "action": [
-            "<span class=\"yellow\">in between tag</span>"
+            "<form>",
+            "  <label>Do you like Ice Cream?</label>",
+            "  <input type=\"checkbox\" value=\"yes\">",
+            "  <label>What flavor?</label>",
+            "  <input type=\"text\" placeholder=\"\">",
+            "</form>"
           ],
           "render": true
         },
         {
           "type": "dom",
-          "desc": "The \"href\" or \"Link Tag\" is what we link everything together with on the web. This is not the only way to link things but the most common.",
+          "desc": "All forms need to be \"submitted\", so let's give every form a submit button",
+          "action": ["<input type=\"submit\" value=\"Make Ice Cream\">"],
+          "render": true
+        }
+      ],
+      "id": "_2w9stzngk"
+    },
+    {
+      "title": "HTML Attributes",
+      "category": "html-css",
+      "difficulty": "easy",
+      "hasCompleted": false,
+      "steps": [
+        {
+          "type": "dom",
+          "desc": "Some tags need special attributes to do something different. Let's look at an anchor tag and see how to link it to google.",
           "action": [
-            "<a href=\"#\">Link Tag</a>"
+            "<a href=\"https://google.com\" target=\"_blank\">Google</a>"
           ],
           "render": true
         },
         {
           "type": "dom",
-          "desc": "Tags can be \"Nested\" within each other to do things like LINK BODY TEXT.",
+          "desc": "Where else can an anchor go? Let's checkout YouTube.",
           "action": [
-            "<p>Nested <a href=\"#\">elements</a></p>"
+            "<a href=\"https://youtube.com\" target=\"_blank\">Youtube</a>"
           ],
           "render": true
         },
         {
           "type": "dom",
-          "desc": "This is the \"img\" or IMAGE tag. We place the images here by setting the path inside the \"src\" or SOURCE attribute.",
+          "desc": "Image tags display an image, what image it displays is determined by the src attribute.",
+          "action": ["<img src=\"https://placekitten.com/300/300\" />"],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "It's a good idea to add an alt attribute to images to help with accessibility. ",
           "action": [
-            "<img src=\"http://placekitten.com/400/200\" />"
+            "<img src=\"https://picsum.photos/id/237/200/300\" alt=\"Look at that puppy!\">"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Not all tags get the same attributes. The three main attributes that every tag does get are id, class, and data.",
+          "action": [
+            "<section id=\"article\">",
+            "  <img class=\"article-image\" src=\"https://picsum.photos/id/791/200/300.jpg\" alt=\"Balloons!\">",
+            "  <p class=\"article-text\">How would you like to ride in a hot air balloon?</p>",
+            "</section>"
           ],
           "render": true
         }
-      ]
+      ],
+      "id": "_y59oqyt6r"
     },
     {
-      "id": 5,
-      "difficulty": "easy",
+      "title": "CSS Basics",
       "category": "html-css",
-      "title": "The Second Lesson",
+      "difficulty": "easy",
       "hasCompleted": false,
       "steps": [
         {
           "type": "dom",
-          "desc": "We use an H1 Tag to display the most important title on the page.",
+          "desc": "Before we can style anything, we need something to style.",
           "action": [
-            "<h1>hello</h1>"
+            "<div class=\"box\">",
+            "  <p>Just some simple text</p>",
+            "  <p class=\"different\">This text will be different</p>",
+            "  <p class=\"different\">This will be the same as above</p>",
+            "  <p id=\"special\">No other text will be like this one</p>",
+            "</div>",
+            ""
           ],
           "render": true
         },
         {
           "type": "style",
-          "desc": "Now let's style the h1",
+          "desc": "Now that we have tags to style, let's start by styling the box.",
           "action": [
-            "h1 {",
-            "  color: #225668;",
-            "  font-size: 30px;",
+            ".box {",
+            "  background: #e5e5e5;",
+            "  border: 5px solid #222;",
+            "  padding: 0 15px;",
             "}"
           ],
           "render": true
         },
         {
-          "type": "dom",
-          "desc": "Paragraphs are used to block out text used to provide information to your users.",
-          "action": [
-            "<p>I have something to share with you.</p>"
-          ],
-          "render": true
-        },
-        {
           "type": "style",
-          "desc": "Now let's all paragraph tags",
+          "desc": "Why not make the paragraphs larger and bolder. ",
           "action": [
             "p {",
-            "  font-size: 12px;",
-            "  color: #3fcc6e;",
+            "  font-size: 25px;",
+            "  font-weight: bolder;",
+            "  font-family: Arial;",
             "}"
           ],
           "render": true
         },
         {
-          "type": "dom",
-          "desc": "You want this paragraph to stand out, give it a class so we can style it with css.",
-          "action": [
-            "<p id=\"different\">I am different than the rest.</p>"
-          ],
-          "render": true
-        },
-        {
           "type": "style",
-          "desc": "We style classes by adding a period and the name desired.",
+          "desc": "We added a couple of paragraphs with a class of \"different\". Let's make them different.",
           "action": [
-            "#different {",
-            "  color: #c41bb0;",
-            "  font-size: 20px;",
-            "}"
-          ],
-          "render": true
-        },
-        {
-          "type": "dom",
-          "desc": "Image tags are used to show pictures. You can place as many images on a page as you want. Each time you update the src attribute.",
-          "action": [
-            "<img src=\"https://placekitten.com/g/200/300\" />"
-          ],
-          "render": true
-        },
-        {
-          "type": "dom",
-          "desc": "Anchors allow you to link to other pages in your site, or other websites all together. You can place as many anchors on the page as you would like. To tell the link to navigate to a specific location by its href attribute. You can nest tags inside eachother. You must open and close the tags in order.",
-          "action": [
-            "<p>Go to the <a href=\"http://html.com\">HTML</a> site</p>"
-          ],
-          "render": true
-        },
-        {
-          "type": "style",
-          "desc": "Now let's all anchor tags",
-          "action": [
-            "a {",
-            "  color: #b2972a;",
-            "  text-decoration: none;",
-            "}"
-          ],
-          "render": true
-        },
-        {
-          "type": "dom",
-          "desc": "The class attribute can be added to any element. You can use a class to identify any element and give it special styles in css",
-          "action": [
-            "<p class=\"fancy\">What a fancy text</p>"
-          ],
-          "render": true
-        },
-        {
-          "type": "dom",
-          "desc": "We have multiple header tags to utilize. You can utilize this to divide your page up, as well as give it the same class of fancy to style it the same as the paragraph.",
-          "action": [
-            "<h2 class=\"fancy\">Fancy Title</h2>"
-          ],
-          "render": true
-        },
-        {
-          "type": "style",
-          "desc": "All we need to do now is style the fancy class",
-          "action": [
-            ".fancy {",
-            "  font-family: cursive;",
-            "}"
-          ],
-          "render": true
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "difficulty": "easy",
-      "category": "html-css",
-      "title": "The Third Lesson",
-      "hasCompleted": false,
-      "steps": [
-        {
-          "type": "dom",
-          "desc": "To link external styles, you need to connect it in the head tags of the document.",
-          "action": [
-            "<link rel=\"stylesheet\" href=\"styles/styles.css\">"
-          ],
-          "render": true
-        },
-        {
-          "type": "dom",
-          "desc": "HTML needs to be open and closed in the correct order. That means nested elements need to be closed first.",
-          "action": [
-            "<h1>Hello <small>World</small></h1>"
-          ],
-          "render": true
-        },
-        {
-          "type": "dom",
-          "desc": "Anchor tags go some where. You can tell it where to go by filling out the href attribute.",
-          "action": [
-            "<a href=\"/aang.html\">Aang</a>"
-          ],
-          "render": true
-        },
-        {
-          "type": "style",
-          "desc": "Now let's all anchor tags",
-          "action": [
-            "a {",
-            "  color: #0ff1ce;",
-            "  text-decoration: none;",
-            "}"
-          ],
-          "render": true
-        },
-        {
-          "type": "dom",
-          "desc": "If you only wanted to style one element at a time you can use the style attribute and style only that one thing.",
-          "action": [
-            "<div style=\"background-color: #f0ae12;\">Golden</div>"
-          ],
-          "render": true
-        },
-        {
-          "type": "dom",
-          "desc": "Image tags are used to show pictures. You can place as many images on a page as you want. Each time you update the src attribute.",
-          "action": [
-            "<img src=\"https://placekitten.com/g/300/300\" />"
-          ],
-          "render": true
-        },
-        {
-          "type": "dom",
-          "desc": "Image tags are used to show pictures. You can place as many images on a page as you want. Each time you update the src attribute.",
-          "action": [
-            "<img src=\"https://placekitten.com/g/400/400\" />"
-          ],
-          "render": true
-        },
-        {
-          "type": "style",
-          "desc": "Lets style all the image tags to be a specific size.",
-          "action": [
-            "img {",
-            "  width: 250px;",
-            "  height: 250px;",
-            "}"
-          ],
-          "render": true
-        },
-        {
-          "type": "dom",
-          "desc": "Anchors allow you to link to other pages in your site, or other websites all together. You can place as many anchors on the page as you would like. To tell the link to navigate to a specific location by its href attribute. You can nest tags inside eachother. You must open and close the tags in order.",
-          "action": [
-            "<p>Visit <a href=\"katara.html\">Katara</a> page</p>"
-          ],
-          "render": true
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "difficulty": "easy",
-      "category": "html-css",
-      "title": "The Fourth Lesson",
-      "hasCompleted": false,
-      "steps": [
-        {
-          "type": "dom",
-          "desc": "Anchors allow you to link to other pages in your site, or other websites all together. You can place as many anchors on the page as you would like. To tell the link to navigate to a specific location by its href attribute. You can nest tags inside eachother. You must open and close the tags in order.",
-          "action": [
-            "<p>Go to <a href=\"lukas.html\">Lukas Graham</a> page</p>"
-          ],
-          "render": true
-        },
-        {
-          "type": "style",
-          "desc": "You can change the size and color of the paragraph by using the font-size and color properties.",
-          "action": [
-            "p{ color: #11ccdd; font-size: 25px; font-weight: bold; }"
-          ],
-          "render": true
-        },
-        {
-          "type": "style",
-          "desc": "You can select elements inside of another element like so",
-          "action": [
-            "p a{ color: #ff00aa; text-decoration: none; }"
-          ],
-          "render": true
-        },
-        {
-          "type": "dom",
-          "desc": "The class attribute can be added to any element. You can use a class to identify any element and give it special styles in css",
-          "action": [
-            "<h3 class=\"fancy\">Welcome to my site!</h3>"
-          ],
-          "render": true
-        },
-        {
-          "type": "dom",
-          "desc": "We have multiple header tags to utilize. You can utilize this to divide your page up, as well as give it the same class of fancy to style it the same as the paragraph.",
-          "action": [
-            "<p class=\"fancy\">Hope you enjoy your stay!</p>"
-          ],
-          "render": true
-        },
-        {
-          "type": "style",
-          "desc": "You can change the size and color of the paragraph by using the font-size and color properties.",
-          "action": [
-            ".fancy {",
-            "  color: #11ccdd;",
+            ".different {",
+            "  color: goldenrod;",
             "  font-family: cursive;",
             "}"
           ],
           "render": true
         },
         {
-          "type": "dom",
-          "desc": "Add a wrapper to contain your page.",
-          "action": [
-            "<div class=\"wrapper\"></div>"
-          ],
-          "render": true
-        },
-        {
           "type": "style",
-          "desc": "Create a STYLE tag to color text yellow. ",
+          "desc": "What about special? How can we make that one standout?",
           "action": [
-            ".yellow{ color: yellow; }"
-          ],
-          "render": true
-        },
-        {
-          "type": "dom",
-          "desc": "The \"<span>\" tag is used in addition to other tags and sometimes alone.",
-          "action": [
-            "<p>",
-            "  <span class=\"yellow\">in between tag</span>",
-            "</p>"
+            "#special {",
+            "  text-transform: uppercase;",
+            "  color: teal;",
+            "  text-align: center;",
+            "  font-size: 55px;",
+            "}"
           ],
           "render": true
         }
-      ]
+      ],
+      "id": "_hop9rzxbm"
     },
     {
-      "id": 8,
-      "difficulty": "easy",
+      "title": "Button Styles",
       "category": "html-css",
-      "title": "The Fifth Lesson",
+      "difficulty": "easy",
       "hasCompleted": false,
       "steps": [
         {
           "type": "dom",
-          "desc": "We're going to learn how to move elements around on the page a bit. First we need a container and a few elements inside of that container.",
+          "desc": "Styling buttons is a very common task. Let's add some markup so we can style them later. ",
           "action": [
-            "<div class=\"item-container\">",
-            "  <div class=\"item1\"></div>",
-            "  <div class=\"item2\"></div>",
+            "<div id=\"buttons\">",
+            "  <a href=\"#\" class=\"btn blue\">Blue Button</a>",
+            "  <a href=\"#\" class=\"btn green\">Green Button</a>",
+            "  <a href=\"#\" class=\"btn red\">Red Button</a>",
+            "  <a href=\"#\" class=\"btn purple\">Purple Button</a>",
             "</div>"
           ],
           "render": true
         },
         {
           "type": "style",
-          "desc": "Now let's style the item-container so it's visible on the page.",
+          "desc": "The parent div needs a bit of attention first. This is purely for demo purposes.",
           "action": [
-            ".item-container {",
-            "  width: 500px;",
-            "  height: 500px;",
-            "  border: 1px solid black;",
+            "#buttons {",
+            "  padding-top: 50px;",
+            "  text-align: center;",
             "}"
           ],
           "render": true
         },
         {
           "type": "style",
-          "desc": "Let's give our items some size and color! Start with item1.",
+          "desc": "Utilizing a class, we can make all buttons have a base set of styles.",
           "action": [
-            ".item1 {",
-            "  background-color: red;",
-            "  width: 100px;",
-            "  height: 100px;",
+            ".btn {",
+            "  border-radius: 5px;",
+            "  padding: 15px 25px;",
+            "  font-size: 22px;",
+            "  text-decoration: none;",
+            "  margin: 20px;",
+            "  color: #fff;",
+            "  position: relative;",
+            "  display: inline-block;",
             "}"
           ],
           "render": true
         },
         {
           "type": "style",
-          "desc": "Great! Now style item2.",
+          "desc": "You see the \"active\" state of a button. It's a pseudo class that represents a specific state a tag can be in.",
           "action": [
-            ".item2 {",
-            "  background-color: blue;",
-            "  width: 100px;",
-            "  height: 100px;",
+            ".btn:active {",
+            "  transform: translate(0px, 5px);",
+            "  box-shadow: 0 1px 0 0;",
             "}"
           ],
           "render": true
         },
         {
           "type": "style",
-          "desc": "Flexbox is used to position items inside of a container (.item-container in this case). We have to enable flex on the container. Watch closely to see how each new line of CSS manipulates our items.",
+          "desc": "Let's make the blue look good.",
           "action": [
-            ".item-container {",
-            "  display: flex;",
+            ".blue {",
+            "  background-color: #55acee;",
+            "  box-shadow: 0px 5px 0px 0px #3C93D5;",
+            "}",
+            "",
+            ".blue:hover {",
+            "  background-color: #6FC6FF;",
             "}"
           ],
           "render": true
         },
         {
           "type": "style",
-          "desc": "They moved! Why? Flexbox puts our items on an X and Y axis. This is more than a little confusing at first. Think of 'justify' as left to right or horizontal. And think of 'align' as up to down or vertical. Use justify to move the items to the center of the container.",
+          "desc": "Next is the green button.",
           "action": [
-            ".item-container {",
-            "  justify-content: center;",
+            ".green {",
+            "  background-color: #2ecc71;",
+            "  box-shadow: 0px 5px 0px 0px #15B358;",
+            "}",
+            "",
+            ".green:hover {",
+            "  background-color: #48E68B;",
             "}"
           ],
           "render": true
         },
         {
           "type": "style",
-          "desc": "It... Kind of worked. So why aren't they completely in the center? Don't worry! We'll get there. Now that we've centered the items horizontally let's do vertical.",
+          "desc": "Red button is next in line. ",
           "action": [
-            ".item-container {",
-            "  align-items: center;",
+            ".red {",
+            "  background-color: #e74c3c;",
+            "  box-shadow: 0px 5px 0px 0px #CE3323;",
+            "}",
+            "",
+            ".red:hover {",
+            "  background-color: #FF6656;",
             "}"
           ],
           "render": true
         },
         {
           "type": "style",
-          "desc": "Finally! We have them in the center. Flexbox can be very complex but learning a little of it can be enough to make a huge difference. Let's wrap this up with 2 more lines of CSS. These will overwrite some of our last code. Just to give you an idea of how powerful Flexbox can be.",
+          "desc": "Purple button needs a little bit of attention as well. ",
           "action": [
-            ".item-container {",
-            "  justify-content: space-evenly;",
-            "}"
-          ],
-          "render": true
-        },
-        {
-          "type": "style",
-          "desc": "Just as 'space-evenly' sounds, it spaces the items... Evenly! Finish it up by making the items go as far apart as they can.",
-          "action": [
-            ".item-container {",
-            "  justify-content: space-between;",
+            ".purple {",
+            "  background-color: #9b59b6;",
+            "  box-shadow: 0px 5px 0px 0px #82409D;",
+            "}",
+            "",
+            ".purple:hover {",
+            "  background-color: #B573D0;",
             "}"
           ],
           "render": true
         }
-      ]
+      ],
+      "id": "_pgyljpalu"
+    },
+    {
+      "title": "Intro to FlexBox",
+      "category": "html-css",
+      "difficulty": "medium",
+      "hasCompleted": false,
+      "steps": [
+        {
+          "type": "dom",
+          "desc": "FlexBox is a tool that allows you to control the position of an items children tags. Let's add some html so we can start styling.",
+          "action": [
+            "<div class=\"item-container\">",
+            "  <div class=\"circle\"></div>",
+            "  <div class=\"square\"></div>",
+            "  <div class=\"circle\"></div>",
+            "</div>"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "Let's first take care of the circles and square, as we will see these over and over.",
+          "action": [
+            ".square {",
+            "  background-color: goldenrod;",
+            "  height: 15vw;",
+            "  width: 15vw;",
+            "}",
+            ".circle {",
+            "  border-radius: 50%; ",
+            "  background-color: coral;",
+            "  width: 10vw;",
+            "  height: 10vw;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "Now the shapes are done, let's make sure all the item containers get a couple of base styles.",
+          "action": [
+            ".item-container { ",
+            "  display: flex;",
+            "  background-color: lightgray;",
+            "  margin-top: 1.5rem;",
+            "}"
+          ],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Moving things to the right hand side is a very simple task. Let's add the markup, but give it a special class of end. ",
+          "action": [
+            "<div class=\"item-container end\">",
+            "  <div class=\"circle\"></div>",
+            "  <div class=\"square\"></div>",
+            "  <div class=\"circle\"></div>",
+            "</div>"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "To move things to the opposite end, we can simply justify the content to the flex end.",
+          "action": [".end {", "  justify-content: flex-end;", "}"],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Very often, we need to center things to exact middle of the container. Let's add the markup and add a special class to center.",
+          "action": [
+            "<div class=\"item-container center-main\">",
+            "  <div class=\"circle\"></div>",
+            "  <div class=\"square\"></div>",
+            "  <div class=\"circle\"></div>",
+            "</div>"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "With the special class of center main added, let's justify the content to the center. ",
+          "action": [".center-main {", "  justify-content: center;", "}"],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Things are getting a little cramped. Let's spread things out and create mark up with a special class. ",
+          "action": [
+            "<div class=\"item-container between\">",
+            "  <div class=\"circle\"></div>",
+            "  <div class=\"square\"></div>",
+            "  <div class=\"circle\"></div>",
+            "</div>"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "Setting the space between items is as simple as setting the justify content to space between.",
+          "action": [".between {", "  justify-content: space-between;", "}"],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "There are times where touching edges in not the best look. Create some markup with a special class to address this.",
+          "action": [
+            "<div class=\"item-container around\">",
+            "  <div class=\"circle\"></div>",
+            "  <div class=\"square\"></div>",
+            "  <div class=\"circle\"></div>",
+            "</div>"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "We can space things evenly around each object by setting the space around value of justify content.",
+          "action": [".around {", "  justify-content: space-around;", "}"],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Vertical centering is super easy with FlexBox. Create the markup with a special class to center vertically and horizontally.",
+          "action": [
+            "<div class=\"item-container center-main center-cross\">",
+            "  <div class=\"circle\"></div>",
+            "  <div class=\"square\"></div>",
+            "  <div class=\"circle\"></div>",
+            "</div>"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "We have already added the center main, now let's add the center cross to get things centered vertically.",
+          "action": [".center-cross {", "  align-items: center;", "}"],
+          "render": true
+        },
+        {
+          "type": "dom",
+          "desc": "Changing the order of things is a powerful feature of FlexBox. Let's see how to make the square the first item visually. We need to first create the markup with a special class.",
+          "action": [
+            "<div class=\"item-container square-first\">",
+            "  <div class=\"circle\"></div>",
+            "  <div class=\"square\"></div>",
+            "  <div class=\"circle\"></div>",
+            "</div>"
+          ],
+          "render": true
+        },
+        {
+          "type": "style",
+          "desc": "You can select children elements by setting the items in order from parent to child separated by a space.",
+          "action": [".square-first .square {", "  order: -1;", "}"],
+          "render": true
+        }
+      ],
+      "id": "_leafssh9s"
+    }
+  ],
+  "typingLessons": [
+    {
+      "title": "Fresh Prince of BelAir",
+      "category": "general",
+      "difficulty": "medium",
+      "hasCompleted": false,
+      "steps": [
+        "Now this is the story all about how.....",
+        "My life got flipped-turned upside down,",
+        "And I'd like to take a minute, just sit right there,",
+        "I'll tell you how I became the prince of a town called Bel Air.",
+        "In West Philadelphia, born and raised",
+        "On the playground is where I spent most of my days.",
+        "Chillin' out, maxin', relaxin all cool,",
+        "And all shootin' some B-ball outside of the school.",
+        "When a couple of guys who were up to no good,",
+        "Started makin' trouble in my neighborhood.",
+        "I got in one little fight and my mom got scared,",
+        "And said \"You're movin' with your auntie and uncle in Bel Air.\"",
+        "I whistled for a cab, and when it came near,",
+        "The license plate said \"fresh\" and it had dice in the mirror.",
+        "If anything I could say that this cab was rare,",
+        "But I thought \"Nah forget it, Yo home to Bel Air.\"",
+        "I pulled up to the house about seven or eight,",
+        "and I yelled to the cabby \"Yo homes, smell ya later.\"",
+        "Looked at my kingdom, I was finally there,",
+        "To sit on my throne as the Prince of Bel Air."
+      ],
+      "id": "_gijh5xgmf"
+    },
+    {
+      "title": "SpongBob",
+      "category": "general",
+      "difficulty": "medium",
+      "hasCompleted": false,
+      "steps": [
+        "Are you ready, kids?",
+        "Aye, aye, captain!",
+        "I can't hear you!",
+        "Aye, aye, captain!",
+        "Oooooooooohhhh...",
+        "Who lives in a pineapple under the sea?",
+        "SpongeBob SquarePants!",
+        "Absorbent and yellow and porous is he.",
+        "SpongeBob SquarePants!",
+        "If nautical nonsense, be something you wish.",
+        "SpongeBob SquarePants!",
+        "Then drop on the deck and flop like a fish!",
+        "SpongeBob SquarePants!",
+        "Ready?",
+        "SpongeBob SquarePants!",
+        "SpongeBob SquarePants!",
+        "SpongeBob SquarePants!",
+        "SpongeBob SquarePaaaaaaants!",
+        "Ah, ha ha, hahahahahahahahaha!"
+      ],
+      "id": "_mwewrcyso"
+    },
+    {
+      "title": "Family Matters",
+      "category": "general",
+      "difficulty": "medium",
+      "hasCompleted": false,
+      "steps": [
+        "It's a rare condition, this day and age,",
+        "to read any good news on the newspaper page.",
+        "Love and tradition of the grand design,",
+        "some people say it's even harder to find.",
+        "Well then there must be some magic clue inside these gentle walls",
+        "Cause all I see is a tower of dreams",
+        "real love burstin' out of every seam.",
+        "As days go by,",
+        "we're gonna fill our house with happiness.",
+        "The moon may cry,",
+        "we're gonna smother the blues with tenderness.",
+        "When days go by,",
+        "there's room for you,",
+        "room for me,",
+        "for gentle hearts an opportunity.",
+        "As days go by,",
+        "it's the bigger love of the family."
+      ],
+      "id": "_5qp3917cx"
+    },
+    {
+      "title": "Teen Titans",
+      "category": "general",
+      "difficulty": "medium",
+      "hasCompleted": false,
+      "steps": [
+        "When there's trouble, you know who to call (TEEN TITANS!)",
+        "From their tower, they can see it all (TEEN TITANS!)",
+        "When there's evil on the attack",
+        "You can rest knowing they got your back",
+        "'Cause when the world needs heroes on patrol",
+        "TEEN TITANS, GO!",
+        "With their super powers, they unite (TEEN TITANS!)",
+        "Never met a villain that they liked (TEEN TITANS!)",
+        "They got the bad guys on the run",
+        "They never stop until the job gets done",
+        "'Cause when the world is losing all control",
+        "TEEN TITANS, GO!",
+        "One, two, three, four, GO!",
+        "TEEN TITANS!"
+      ],
+      "id": "_py38896um"
+    },
+    {
+      "title": "SpiderMan",
+      "category": "general",
+      "difficulty": "easy",
+      "hasCompleted": false,
+      "steps": [
+        "Spider-Man, Spider-Man,",
+        "Does whatever a spider can",
+        "Spins a web, any size,",
+        "Catches thieves just like flies",
+        "Look Out!",
+        "Here comes the Spider-Man.",
+        "Is he strong?",
+        "Listen bud,",
+        "He's got radioactive blood.",
+        "Can he swing from a thread?",
+        "Take a look overhead",
+        "Hey, there",
+        "There goes the Spider-Man.",
+        "In the chill of night",
+        "At the scene of a crime",
+        "Like a streak of light",
+        "He arrives just in time.",
+        "Spider-Man, Spider-Man",
+        "Friendly neighborhood Spider-Man",
+        "Wealth and fame",
+        "He's ignored",
+        "Action is his reward.",
+        "To him, life is a great big bang up",
+        "Wherever there's a hang up",
+        "You'll find the Spider-Man."
+      ],
+      "id": "_7n382951d"
+    },
+    {
+      "title": "Pokemon",
+      "category": "general",
+      "difficulty": "easy",
+      "hasCompleted": false,
+      "steps": [
+        "I wanna be the very best",
+        "Like no one ever was",
+        "To catch them is my real test",
+        "To train them is my cause",
+        "I will travel across the land",
+        "Searching far and wide",
+        "Each Pokemon to understand",
+        "The power that's inside",
+        "Pokemon, gotta catch 'em all",
+        "Its you and me",
+        "I know it's my destiny",
+        "Oh, you're my best friend",
+        "In a world we must defend",
+        "(Pokemon, gotta catch 'em all)",
+        "A heart so true",
+        "Our courage will pull us through",
+        "You teach me and I'll teach you",
+        "Pokemon",
+        "Gotta catch 'em all"
+      ],
+      "id": "_z2ie5ltq6"
+    },
+    {
+      "title": "Fairly Odd Parents",
+      "category": "general",
+      "difficulty": "easy",
+      "hasCompleted": false,
+      "steps": [
+        "Timmy is an average kid,",
+        "That no one understands,",
+        "Mom and Dad and Vicky always giving him commands.",
+        "Bed twirp!",
+        "The doom and gloom up in his room,",
+        "Is broken instantly,",
+        "By his magic little fish who grant his every wish,",
+        "Cuz in reality,",
+        "They are his odd parents, fairly odd parents,",
+        "Wands and wings,",
+        "Floaty crowny things,",
+        "Odd parents, fairly odd parents,",
+        "Really mod, pea pod, buff bod, hot rod,",
+        "Obtuse, rubber goose, green moose, guave juice,",
+        "Giant snake, birthday cake, large fries, chocolate shake",
+        "Odd parents, fairly odd parents,",
+        "It flips your lid when you are the kid,",
+        "With fairly odd parents"
+      ],
+      "id": "_tehjuew3o"
+    },
+    {
+      "title": "Friends",
+      "category": "general",
+      "difficulty": "easy",
+      "hasCompleted": false,
+      "steps": [
+        "So no one told you life was going to be this way.",
+        "Your job's a joke, you're broke, you're love life's DOA.",
+        "It's like you're always stuck in second gear,",
+        "Well, it hasn't been your day, your week, your month, or even your year.",
+        "But, I'll be there for you, when the rain starts to pour.",
+        "I'll be there for you, like I've been there before.",
+        "I'll be there for you, cause you're there for me too."
+      ],
+      "id": "_vrdova8nc"
+    },
+    {
+      "title": "Twas the night before Christmas",
+      "category": "general",
+      "difficulty": "hard",
+      "hasCompleted": false,
+      "steps": [
+        "'Twas the night before Christmas, when all through the house",
+        "Not a creature was stirring, not even a mouse.",
+        "The stockings were hung by the chimney with care,",
+        "In hopes that St Nicholas soon would be there.",
+        "The children were nestled all snug in their beds,",
+        "While visions of sugar-plums danced in their heads.",
+        "And mamma in her ‘kerchief, and I in my cap,",
+        "Had just settled our brains for a long winter’s nap.",
+        "When out on the lawn there arose such a clatter,",
+        "I sprang from the bed to see what was the matter.",
+        "Away to the window I flew like a flash,",
+        "Tore open the shutters and threw up the sash.",
+        "The moon on the breast of the new-fallen snow",
+        "Gave the lustre of mid-day to objects below.",
+        "When, what to my wondering eyes should appear,",
+        "But a miniature sleigh, and eight tiny reindeer.",
+        "With a little old driver, so lively and quick,",
+        "I knew in a moment it must be St Nick.",
+        "More rapid than eagles his coursers they came,",
+        "And he whistled, and shouted, and called them by name!",
+        "\"Now Dasher! now, Dancer! now, Prancer and Vixen!",
+        "On, Comet! On, Cupid! on, on Donner and Blitzen!",
+        "To the top of the porch! to the top of the wall!",
+        "Now dash away! Dash away! Dash away all!\"",
+        "dry leaves that before the wild hurricane fly,",
+        "When they meet with an obstacle, mount to the sky.",
+        "So up to the house-top the coursers they flew,",
+        "With the sleigh full of Toys, and St Nicholas too.",
+        "And then, in a twinkling, I heard on the roof",
+        "The prancing and pawing of each little hoof.",
+        "As I drew in my head, and was turning around,",
+        "Down the chimney St Nicholas came with a bound.",
+        "He was dressed all in fur, from his head to his foot,",
+        "And his clothes were all tarnished with ashes and soot.",
+        "A bundle of Toys he had flung on his back,",
+        "And he looked like a peddler, just opening his pack.",
+        "His eyes-how they twinkled! his dimples how merry!",
+        "His cheeks were like roses, his nose like a cherry!",
+        "His droll little mouth was drawn up like a bow,",
+        "And the beard of his chin was as white as the snow.",
+        "The stump of a pipe he held tight in his teeth,",
+        "And the smoke it encircled his head like a wreath.",
+        "He had a broad face and a little round belly,",
+        "That shook when he laughed, like a bowlful of jelly!",
+        "He was chubby and plump, a right jolly old elf,",
+        "And I laughed when I saw him, in spite of myself!",
+        "A wink of his eye and a twist of his head,",
+        "Soon gave me to know I had nothing to dread.",
+        "He spoke not a word, but went straight to his work,",
+        "And filled all the stockings, then turned with a jerk.",
+        "And laying his finger aside of his nose,",
+        "And giving a nod, up the chimney he rose!",
+        "He sprang to his sleigh, to his team gave a whistle,",
+        "And away they all flew like the down of a thistle.",
+        "But I heard him exclaim, ‘ere he drove out of sight,",
+        "\"Happy Christmas to all, and to all a good-night!\""
+      ],
+      "id": "_gfx4juawo"
+    },
+    {
+      "title": "Doggy Heaven",
+      "category": "general",
+      "difficulty": "easy",
+      "hasCompleted": false,
+      "steps": [
+        "All doggies go to heaven (or so I've been told).",
+        "They run and play along the streets of Gold.",
+        "Why is heaven such a doggie-delight?",
+        "Why, because there's not a single cat in sight."
+      ],
+      "id": "_4fckgcm7z"
+    },
+    {
+      "title": "This Old Man",
+      "category": "general",
+      "difficulty": "medium",
+      "hasCompleted": false,
+      "steps": [
+        "This old man, he played one,",
+        "He played knick-knack on my thumb",
+        "With a knick-knack paddywhack,",
+        "Give the dog a bone,",
+        "This old man came rolling home.",
+        "This old man, he played two,",
+        "He played knick-knack on my shoe;",
+        "With a knick-knack paddywhack,",
+        "Give the dog a bone,",
+        "This old man came rolling home.",
+        "This old man, he played three,",
+        "He played knick-knack on my knee;",
+        "With a knick-knack paddywhack,",
+        "Give the dog a bone,",
+        "This old man came rolling home.",
+        "This old man, he played four,",
+        "He played knick-knack on my door;",
+        "With a knick-knack paddywhack,",
+        "Give the dog a bone,",
+        "This old man came rolling home.",
+        "This old man, he played five,",
+        "He played knick-knack on my hive;",
+        "With a knick-knack paddywhack,",
+        "Give the dog a bone,",
+        "This old man came rolling home.",
+        "This old man, he played six,",
+        "He played knick-knack on my sticks;",
+        "With a knick-knack paddywhack,",
+        "Give the dog a bone,",
+        "This old man came rolling home.",
+        "This old man, he played seven,",
+        "He played knick-knack up in heaven;",
+        "With a knick-knack paddywhack,",
+        "Give the dog a bone,",
+        "This old man came rolling home.",
+        "This old man, he played eight,",
+        "He played knick-knack on my gate;",
+        "With a knick-knack paddywhack,",
+        "Give the dog a bone,",
+        "This old man came rolling home.",
+        "",
+        "This old man, he played nine,",
+        "He played knick-knack on my spine;",
+        "With a knick-knack paddywhack,",
+        "Give the dog a bone,",
+        "This old man came rolling home.",
+        "This old man, he played ten,",
+        "He played knick-knack once again;",
+        "With a knick-knack paddywhack,",
+        "Give the dog a bone,",
+        "This old man came rolling home."
+      ],
+      "id": "_crrugamd5"
+    },
+    {
+      "title": "Five Little Specked Frogs",
+      "category": "general",
+      "difficulty": "medium",
+      "hasCompleted": false,
+      "steps": [
+        "Five little speckled frogs",
+        "Sat on a speckled log",
+        "Eating the most delicious bugs (yum yum)",
+        "One jumped into the pool",
+        "Where it was nice and cool",
+        "Then there were four green speckled frogs. ",
+        "(glub glub)",
+        "Four little speckled frogs",
+        "Sat on a speckled log",
+        "Eating the most delicious bugs (yum yum)",
+        "One jumped into the pool",
+        "Where it was nice and cool",
+        "Then there were four green speckled frogs. ",
+        "(glub glub)",
+        "Three little speckled frogs ",
+        "Sat on a speckled log",
+        "Eating the most delicious bugs (yum yum)",
+        "One jumped into the pool",
+        "Where it was nice and cool",
+        "Then there were four green speckled frogs. ",
+        "(glub glub)",
+        "Two little speckled frogs",
+        "Sat on a speckled log",
+        "Eating the most delicious bugs (yum yum)",
+        "One jumped into the pool",
+        "Where it was nice and cool",
+        "Then there were four green speckled frogs. ",
+        "(glub glub)",
+        "One little speckled frogs",
+        "Sat on a speckled log",
+        "Eating the most delicious bugs (yum yum)",
+        "One jumped into the pool",
+        "Where it was nice and cool",
+        "Then there were four green speckled frogs. ",
+        "(glub glub)",
+        "No little speckled frogs",
+        "Sat on a speckled log",
+        "Eating the most delicious bugs (yum yum)",
+        "One jumped into the pool",
+        "Where it was nice and cool",
+        "Then there were four green speckled frogs. ",
+        "(glub glub)"
+      ],
+      "id": "_hhn5t9hzy"
+    },
+    {
+      "title": "The Caterpiller",
+      "category": "general",
+      "difficulty": "medium",
+      "hasCompleted": false,
+      "steps": [
+        "Under this loop of honeysuckle,",
+        "A creeping, colored caterpillar,",
+        "I gnaw the fresh green hawthorn spray,",
+        "I nibble it leaf by leaf away.",
+        "Down beneath grow dandelions,",
+        "Daisies, old-man's-looking-glasses;",
+        "Rooks flap croaking across the lane.",
+        "I eat and swallow and eat again.",
+        "Here come raindrops helter-skelter;",
+        "I munch and nibble unregarding:",
+        "Hawthorn leaves are juicy and firm.",
+        "I'll mind my business: I'm a good worm.",
+        "When I'm old, tired, melancholy,",
+        "I'll build a leaf-green mausoleum",
+        "Close by, here on this lovely spray,",
+        "And die and dream the ages away.",
+        "Some say worms win resurrection,",
+        "With white wings beating flitter-flutter,",
+        "But wings or a sound sleep, why should I care?",
+        "Either way I'll miss my share.",
+        "Under this loop of honeysuckle,",
+        "A hungry, hairy caterpillar,",
+        "I crawl on my high and swinging seat,",
+        "And eat, eat, eat—as one ought to eat."
+      ],
+      "id": "_8r3t7v68y"
+    },
+    {
+      "title": "Jack-O-Lantern Song",
+      "category": "general",
+      "difficulty": "medium",
+      "hasCompleted": false,
+      "steps": [
+        "Upon one wild and windy night--",
+        "Woo-oo, woo-oo, Woo-oo, woo-oo--",
+        "We, Jacks, our lanters all did light--",
+        "The Wind-- it surely knew-- FOR--",
+        "Whistle and whistle-- and whist! Now, list!",
+        "Woo-oo, woo-oo, Woo-oo, woo-oo--",
+        "Whirling and twirling, with turn and twist,",
+        "The wind-- it softly blew.",
+        "It was the creepiest, scariest night--",
+        "Woo-oo, woo-oo, Woo-oo, woo-oo--",
+        "We held our breath, then lost it quite,",
+        "The wind-- it surely knew-- FOR--",
+        "Whistle and whistle-- and whist! Now, list!",
+        "Woo-oo, woo-oo, Woo-oo, woo-oo--",
+        "Whirling and twirling, with turn and twist,",
+        "The wind-- it loudly blew.",
+        "It rose in all its main and might,",
+        "Woo-oo, woo-oo, Woo-oo, woo-oo--",
+        "It blew out every single light!",
+        "The wind-- it surely knew--OH--",
+        "Whistle and whistle-- and whist! Now, list!",
+        "Woo-oo, woo-oo, Woo-oo, woo-oo--",
+        "Whirling and twirling, with turn and twist,",
+        "That wind-- it laughed \"Ho oh!\""
+      ],
+      "id": "_u01k1q88a"
     }
   ]
 }

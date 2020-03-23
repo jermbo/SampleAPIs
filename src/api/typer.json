@@ -337,8 +337,6 @@
             "  <a href=\"#\" class=\"btn green\">Green Button</a>",
             "  <a href=\"#\" class=\"btn red\">Red Button</a>",
             "  <a href=\"#\" class=\"btn purple\">Purple Button</a>",
-            "  <a href=\"#\" class=\"btn orange\">Orange Button</a>",
-            "  <a href=\"#\" class=\"btn yellow\">Yellow Button</a>",
             "</div>"
           ],
           "render": true
@@ -355,7 +353,7 @@
           "render": true
         },
         {
-          "type": "dom",
+          "type": "style",
           "desc": "Utilizing a class, we can make all buttons have a base set of styles.",
           "action": [
             ".btn {",
@@ -438,36 +436,6 @@
             "",
             ".purple:hover {",
             "  background-color: #B573D0;",
-            "}"
-          ],
-          "render": true
-        },
-        {
-          "type": "style",
-          "desc": "We have orange coming up next. ",
-          "action": [
-            ".orange {",
-            "  background-color: #e67e22;",
-            "  box-shadow: 0px 5px 0px 0px #CD6509;",
-            "}",
-            "",
-            ".orange:hover {",
-            "  background-color: #FF983C;",
-            "}"
-          ],
-          "render": true
-        },
-        {
-          "type": "style",
-          "desc": "Finally, the yellow button styles.",
-          "action": [
-            ".yellow {",
-            "  background-color: #f1c40f;",
-            "  box-shadow: 0px 5px 0px 0px #D8AB00;",
-            "}",
-            "",
-            ".yellow:hover {",
-            "  background-color: #FFDE29;",
             "}"
           ],
           "render": true
