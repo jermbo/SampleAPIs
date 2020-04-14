@@ -14,8 +14,8 @@ module.exports = [
       "cast",
       "episodes",
       "questions",
-      "inventory"
-    ]
+      "inventory",
+    ],
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ module.exports = [
     desc: "An API with characters, episode listings, and trivia questions.",
     link: "avatar",
     graphLink: "avatar/graphql",
-    endPoints: ["info", "characters", "episodes", "questions"]
+    endPoints: ["info", "characters", "episodes", "questions"],
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ module.exports = [
     desc: "An API with records and trivia questions.",
     link: "baseball",
     graphLink: "baseball/graphql",
-    endPoints: ["hits", "era", "stolenBases", "homeRuns", "battingAvgs", "rbi"]
+    endPoints: ["hits", "era", "stolenBases", "homeRuns", "battingAvgs", "rbi"],
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ module.exports = [
     desc: "A recipe database",
     link: "recipes",
     graphLink: "recipes/graphql",
-    endPoints: ["recipes"]
+    endPoints: ["recipes"],
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ module.exports = [
     desc: "Just a random set of fake bank data.",
     link: "fakebank",
     graphLink: "fakebank/graphql",
-    endPoints: ["futurama"]
+    endPoints: ["futurama"],
   },
   {
     id: 6,
@@ -65,7 +65,7 @@ module.exports = [
     desc: "An API with records and trivia questions.",
     link: "football",
     graphLink: "football/graphql",
-    endPoints: ["passing-yards", "passing-td"]
+    endPoints: ["passing-yards", "passing-td"],
   },
   {
     id: 7,
@@ -75,7 +75,7 @@ module.exports = [
     desc: "An API with information about countries.",
     link: "countries",
     graphLink: "countries/graphql",
-    endPoints: ["name", "capital", "phone", "currency", "population", "flags"]
+    endPoints: ["name", "capital", "phone", "currency", "population", "flags"],
   },
   {
     id: 8,
@@ -85,7 +85,7 @@ module.exports = [
     desc: "Millions of peaches! No...not those Presidents...",
     link: "presidents",
     graphLink: "presidents/graphql",
-    endPoints: ["presidents"]
+    endPoints: ["presidents"],
   },
   {
     id: 9,
@@ -95,7 +95,7 @@ module.exports = [
     desc: "Because who doesn't need easily accessible data about the simpsons?",
     link: "simpsons",
     graphLink: "simpsons/graphql",
-    endPoints: ["characters", "products"]
+    endPoints: ["characters", "products"],
   },
   {
     id: 11,
@@ -114,8 +114,8 @@ module.exports = [
       "family",
       "mystery",
       "scifi-fantasy",
-      "western"
-    ]
+      "western",
+    ],
   },
   {
     id: 12,
@@ -124,7 +124,7 @@ module.exports = [
     desc: "Wines",
     link: "wines",
     graphLink: "wines/graphql",
-    endPoints: ["reds", "whites", "sparkling", "rose", "desert", "port"]
+    endPoints: ["reds", "whites", "sparkling", "rose", "desert", "port"],
   },
   {
     id: 13,
@@ -134,7 +134,7 @@ module.exports = [
     desc: "An API with health and medical information",
     link: "health",
     graphLink: "health",
-    endPoints: ["professions"]
+    endPoints: ["professions"],
   },
   {
     id: 13,
@@ -143,7 +143,7 @@ module.exports = [
     desc: "Beers",
     link: "beers",
     graphLink: "beers/graphql",
-    endPoints: ["ale", "stout", "red-ale"]
+    endPoints: ["ale", "stout", "red-ale"],
   },
   {
     id: 14,
@@ -153,7 +153,7 @@ module.exports = [
     desc: "Figured it would be fun to have a Switch game list on here.",
     link: "switch",
     graphLink: "switch/graphql",
-    endPoints: ["games"]
+    endPoints: ["games"],
   },
   {
     id: 15,
@@ -163,7 +163,7 @@ module.exports = [
     desc: "Figured it would be fun to have a PlayStation game list on here.",
     link: "playstation",
     graphLink: "playstation/graphql",
-    endPoints: ["games"]
+    endPoints: ["games"],
   },
   {
     id: 16,
@@ -173,7 +173,7 @@ module.exports = [
     desc: "Figured it would be fun to have a Xbox game list on here.",
     link: "xbox",
     graphLink: "xbox/graphql",
-    endPoints: ["games"]
+    endPoints: ["games"],
   },
   {
     id: 17,
@@ -182,6 +182,16 @@ module.exports = [
     desc: "A place to hold lessons for Typer",
     link: "typer",
     graphLink: "typer/graphql",
-    endPoints: ["welcomeQuestions", "webLessons", "typingLessons"]
-  }
+    endPoints: ["welcomeQuestions", "webLessons", "typingLessons"],
+  },
+  {
+    id: 18,
+    title: "CSS Color Names",
+    longDesc:
+      "Thought it would be cool to include different CSS Colors Names. I was inspired when I found this site, https://xkcd.com/color/rgb/.",
+    desc: "A list of CSS Color Names",
+    link: "css-color-names",
+    graphLink: "css-color-names/graphql",
+    endPoints: ["colors"],
+  },
 ];

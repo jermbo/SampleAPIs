@@ -8,18 +8,19 @@ body
           | Welcome to SampleAPIs. A playground for messing with RESTful and GraphQL endpoints. Checkout the project on 
           a(href='https://github.com/jermbo/SampleAPIs') GitHub 
           | and consider contributing to the project with a new endpoint!
-        p
-        | You can use any HTTP verbs (GET, POST, PUT, PATCH and DELETE) and
-        | access your resources from anywhere using CORS and JSONP.
+        p Currently you can only use GET. A solution to add back all the HTTP verbs is in the works. As soon as it's working again, this message will change.
+        //- p
+        //- | You can use any HTTP verbs (GET, POST, PUT, PATCH and DELETE) and
+        //- | access your resources from anywhere using CORS and JSONP.
         p.disclaimer
-          | The data on this site is for educational purposes only and is not
+          | * The data on this site is for educational purposes only and is not
           | owned by SampleAPIs.com
         p.disclaimer
-          | The data on this site will be reset on a regular basis.
+          | * The data on this site will be reset on a regular basis.
     
     section.apis
       apis(v-for='api, i in apis' :api='api' :key='i')
-    
+
 
 template#api
   article.api
