@@ -1,6 +1,6 @@
 # Sample APIs 2.0
 
-Sample APIs has been given a major overhaul. Due to the fact Now.sh has changed the way their servers work, we have had to rethink how the system was built. Over all, the changes are for the better. It is now easier than ever to contribute.
+Sample APIs has been given a major overhaul. Due to the fact Vercel.com has changed the way their servers work, we have had to rethink how the system was built. Over all, the changes are for the better. It is now easier than ever to contribute.
 
 ## Purpose
 
@@ -8,7 +8,7 @@ Understanding RESTful APIs is hard enough, even without including an authenticat
 
 ## Changes
 
-The changes with Now.sh has forced us to embrace Express as well as JSON Server in different ways. We now have a single point on entry for all apis, where previously we had to duplicate efforts in multiple places. The API files and the backups have been isolated causing a URL change.
+The changes with Vercel.com has forced us to embrace Express as well as JSON Server in different ways. We now have a single point on entry for all apis, where previously we had to duplicate efforts in multiple places. The API files and the backups have been isolated causing a URL change.
 
 Checkout the [Change Log](https://github.com/jermbo/SampleAPIs/blob/master/Change_log.md) for full details.
 
