@@ -91,6 +91,7 @@ app.get("/api-reset", (req, res) => {
 });
 
 // Starting App
+app.set('port', process.env.PORT || 7777);
 app.listen(port, () => {
   console.log(`Express is now running at: http://localhost:${port}`);
 });
