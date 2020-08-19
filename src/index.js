@@ -48,13 +48,13 @@ var whitelist = [
 ];
 
 var corsOptions = {
-    credentials: true,
-    origin: function(origin, callback) {
-        var originIsWhitelisted = whitelist.indexOf(origin) !== -1;
-        callback(null, originIsWhitelisted);
-    },
-    methods: ['GET', 'PUT', 'POST', 'PATCH', 'DELETE'],
-    allowedHeaders: 'accept, content-type'
+  credentials: true,
+  origin: function (origin, callback) {
+    var originIsWhitelisted = whitelist.indexOf(origin) !== -1;
+    callback(null, originIsWhitelisted);
+  },
+  methods: ['GET', 'PUT', 'POST', 'PATCH', 'DELETE'],
+  allowedHeaders: 'accept, content-type'
 };
 
 app.use(cors(corsOptions));
@@ -92,5 +92,5 @@ app.get("/api-reset", (req, res) => {
 
 // Starting App
 app.listen(port, () => {
-  console.log(`Express is now : http://localhost:${port}`);
+  console.log(`Express is now running at: http://localhost:${port}`);
 });
