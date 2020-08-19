@@ -9,9 +9,8 @@
     "url": "git+https://github.com/jermbo/SampleAPIs.git"
   },
   "scripts": {
-    "start": "node ./src",
-    "dev": "node ./src",
-    "build": "node ./src"
+    "start": "node .",
+    "dev": "node ."
   },
   "engines": {
     "node": "12.x"
