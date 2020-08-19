@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "node ./src",
-    "dev": "nodemon ./src",
+    "dev": "node ./src",
     "build": "node ./src"
   },
   "engines": {
@@ -26,7 +26,5 @@
     "path": "^0.12.7",
     "pug": "^3.0.0"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  }
+  "devDependencies": {}
 }
