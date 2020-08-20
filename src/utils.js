@@ -1,9 +1,5 @@
 const fs = require("fs");
 
-module.exports = {
-  getFromFile: getFromFile
-};
-
 function getFromFile(fileName) {
   let rawData = fs.readFileSync(fileName);
   let parsedData = JSON.parse(rawData);
@@ -20,7 +16,7 @@ function traverse(x) {
 }
 
 function traverseArray(arr) {
-  arr.forEach(function(x) {
+  arr.forEach(function (x) {
     traverse(x);
   });
 }
@@ -44,3 +40,7 @@ function traverseObject(obj) {
 function isArray(o) {
   return Object.prototype.toString.call(o) === "[object Array]";
 }
+
+module.exports = {
+  getFromFile: getFromFile
+};

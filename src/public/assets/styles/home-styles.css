@@ -29,7 +29,7 @@ a {
 }
 
 .site {
-  flex: 2;
+  flex: 1;
   display: flex;
   color: #eadeda;
   align-items: center;
@@ -60,7 +60,7 @@ a {
 }
 
 .apis {
-  flex: 3;
+  flex: 1;
   max-height: 100%;
   display: flex;
   overflow-y: auto;

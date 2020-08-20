@@ -198,7 +198,7 @@ module.exports = [
     id: 19,
     title: "The United States",
     longDesc:
-        "Info about the all the 50 states in the United States. The endpoint includes the name, abbreviation, capital, largest city, date admitted to union, population, and state flag.",
+      "Info about the all the 50 states in the United States. The endpoint includes the name, abbreviation, capital, largest city, date admitted to union, population, and state flag.",
     desc: "Info about the all the 50 states in the United States.",
     link: "the-states",
     graphLink: "the-states/graphql",
