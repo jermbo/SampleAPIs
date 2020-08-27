@@ -5,7 +5,7 @@ const jsonServer = require("json-server");
 const jsonGraphqlExpress = require("json-graphql-server")
 const ApiList = require("./apiList");
 const { getFromFile } = require("./utils");
-const corsOptions = require("./cors");
+//const corsOptions = require("./cors");
 
 // Express App
 const app = express();
@@ -61,7 +61,8 @@ ApiList.forEach(({ link }) => {
 
 
 // CORS
-app.use(cors(corsOptions));
+app.use(cors()); // this API is open to all!
+//app.use(cors(corsOptions));
 
 // Starting App
 app.listen(port, () => {
