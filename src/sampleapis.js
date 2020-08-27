@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require("path");
+const morgan = require('morgan');
 const cors = require("cors");
 const jsonServer = require("json-server");
 const jsonGraphqlExpress = require("json-graphql-server")
@@ -9,6 +10,12 @@ const { getFromFile } = require("./utils");
 
 // Express App
 const app = express();
+
+//CORS
+app.use(cors());
+
+//for debuging;
+//app.use(morgan('dev'));
 
 // Routes
 const reset = require("./routes/reset");
@@ -60,9 +67,6 @@ ApiList.forEach(({ link }) => {
 });
 
 
-// CORS
-app.use(cors()); // this API is open to all!
-//app.use(cors(corsOptions));
 
 // Starting App
 app.listen(port, () => {
