@@ -1,5 +1,5 @@
 {
-  "the-states" :[
+  "the-states": [
     {
       "id": "1",
       "name": "Alabama",
@@ -502,4 +502,3 @@
     }
   ]
 }
-
