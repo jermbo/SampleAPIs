@@ -16,7 +16,7 @@ body
           | owned by SampleAPIs.com
         p.disclaimer
           | * The data on this site will be reset on a regular basis.
-        p  Example code:
+        p.example_code  Example code:
         | <pre>
         | fetch('https://sampleapis.com/futurama/api/characters')
         | .then(response => response.json())
@@ -28,6 +28,11 @@ body
         |      );
         |  });
         | </pre>
+        p.Explanation
+        |  Want to Search? Then use this endpoint:
+        |
+        |  https://sampleapis.com/futurama/api/characters?name.first=Bender
+
     
     section.apis
       apis(v-for='api, i in apis' :api='api' :key='i')
