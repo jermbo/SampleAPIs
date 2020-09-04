@@ -16,6 +16,23 @@ body
           | owned by SampleAPIs.com
         p.disclaimer
           | * The data on this site will be reset on a regular basis.
+        p.example_code  Example code:
+        | <pre>
+        | fetch('https://sampleapis.com/futurama/api/characters')
+        | .then(response => response.json())
+        |      .then(futuramaCharacters =>  {
+        |        futuramaCharacters.map(c => 
+        |        {
+        |         console.log(c.name.first);
+        |        }
+        |      );
+        |  });
+        | </pre>
+        p.Explanation
+        |  Want to Search? Then use this endpoint:
+        |
+        |  https://sampleapis.com/futurama/api/characters?name.first=Bender
+
     
     section.apis
       apis(v-for='api, i in apis' :api='api' :key='i')
