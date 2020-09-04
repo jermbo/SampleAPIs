@@ -16,6 +16,7 @@ module.exports = [
       "questions",
       "inventory",
     ],
+    sampleCode: " \n fetch('https://sampleapis.com/futurama/api/characters')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.name.first);\n        }\n      );\n  });"
   },
   {
     id: 2,
@@ -36,6 +37,7 @@ module.exports = [
     link: "baseball",
     graphLink: "baseball/graphql",
     endPoints: ["hits", "era", "stolenBases", "homeRuns", "battingAvgs", "rbi"],
+    sampleCode: " \n fetch('https://sampleapis.com/avatar/api/characters')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.Name);\n        }\n      );\n  });"
   },
   {
     id: 4,
@@ -46,6 +48,7 @@ module.exports = [
     link: "recipes",
     graphLink: "recipes/graphql",
     endPoints: ["recipes"],
+    sampleCode: " \n fetch('https://sampleapis.com/baseball/api/hits')\n .then(response => response.json())\n      .then(data =>  {\n        data.singleSeason.map(c => \n        {\n         console.log(c.Player);\n        }\n      );\n  });"
   },
   {
     id: 5,
@@ -55,7 +58,8 @@ module.exports = [
     desc: "Just a random set of fake bank data.",
     link: "fakebank",
     graphLink: "fakebank/graphql",
-    endPoints: ["futurama"],
+    endPoints: ["Accounts"],
+    sampleCode: " \n fetch('https://sampleapis.com/fakebank/api/Accounts')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.Description);\n        }\n      );\n  });"
   },
   {
     id: 6,
@@ -66,6 +70,7 @@ module.exports = [
     link: "football",
     graphLink: "football/graphql",
     endPoints: ["passing-yards", "passing-td"],
+    sampleCode: " \n fetch('https://sampleapis.com/football/api/passing-yards')\n .then(response => response.json())\n      .then(data =>  {\n        data.single-season.map(c => \n        {\n         console.log(c.Description);\n        }\n      );\n  });"
   },
   {
     id: 7,
@@ -76,6 +81,7 @@ module.exports = [
     link: "countries",
     graphLink: "countries/graphql",
     endPoints: ["name", "capital", "phone", "currency", "population", "flags"],
+    sampleCode: " \n fetch('https://sampleapis.com/countries/api/population')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c);\n        }\n      );\n  });"
   },
   {
     id: 8,
@@ -86,6 +92,7 @@ module.exports = [
     link: "presidents",
     graphLink: "presidents/graphql",
     endPoints: ["presidents"],
+    sampleCode: " \n fetch('https://sampleapis.com/presidents/api/presidents')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.name);\n        }\n      );\n  });"
   },
   {
     id: 9,
@@ -96,6 +103,7 @@ module.exports = [
     link: "simpsons",
     graphLink: "simpsons/graphql",
     endPoints: ["characters", "products"],
+    sampleCode: " \n fetch('https://sampleapis.com/simpsons/api/characters')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.name);\n        }\n      );\n  });"
   },
   {
     id: 11,
@@ -116,6 +124,7 @@ module.exports = [
       "scifi-fantasy",
       "western",
     ],
+    sampleCode: " \n fetch('https://sampleapis.com/movies/api/comedy')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.title);\n        }\n      );\n  });"
   },
   {
     id: 12,
@@ -125,6 +134,7 @@ module.exports = [
     link: "wines",
     graphLink: "wines/graphql",
     endPoints: ["reds", "whites", "sparkling", "rose", "desert", "port"],
+    sampleCode: " \n fetch('https://sampleapis.com/wines/api/reds')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.wine);\n        }\n      );\n  });"
   },
   {
     id: 13,
@@ -135,6 +145,7 @@ module.exports = [
     link: "health",
     graphLink: "health",
     endPoints: ["professions"],
+    sampleCode: " \n fetch('https://sampleapis.com/health/api/professions')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.short_name);\n        }\n      );\n  });"
   },
   {
     id: 13,
@@ -144,6 +155,7 @@ module.exports = [
     link: "beers",
     graphLink: "beers/graphql",
     endPoints: ["ale", "stout", "red-ale"],
+    sampleCode: " \n fetch('https://sampleapis.com/beers/api/ale')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.name);\n        }\n      );\n  });"
   },
   {
     id: 14,
@@ -154,6 +166,7 @@ module.exports = [
     link: "switch",
     graphLink: "switch/graphql",
     endPoints: ["games"],
+    sampleCode: " \n fetch('https://sampleapis.com/switch/api/games')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.name);\n        }\n      );\n  });"
   },
   {
     id: 15,
@@ -164,6 +177,7 @@ module.exports = [
     link: "playstation",
     graphLink: "playstation/graphql",
     endPoints: ["games"],
+    sampleCode: " \n fetch('https://sampleapis.com/playstation/api/games')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.name);\n        }\n      );\n  });"
   },
   {
     id: 16,
@@ -174,6 +188,7 @@ module.exports = [
     link: "xbox",
     graphLink: "xbox/graphql",
     endPoints: ["games"],
+    sampleCode: " \n fetch('https://sampleapis.com/xbox/api/games')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.name);\n        }\n      );\n  });"
   },
   {
     id: 17,
@@ -183,6 +198,7 @@ module.exports = [
     link: "typer",
     graphLink: "typer/graphql",
     endPoints: ["welcomeQuestions", "webLessons", "typingLessons"],
+    sampleCode: " \n fetch('https://sampleapis.com/typer/api/webLessons')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.title);\n        }\n      );\n  });"
   },
   {
     id: 18,
@@ -193,6 +209,7 @@ module.exports = [
     link: "css-color-names",
     graphLink: "css-color-names/graphql",
     endPoints: ["colors"],
+    sampleCode: " \n fetch('https://sampleapis.com/css-color-names/api/colors')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.title);\n        }\n      );\n  });"
   },
   {
     id: 19,
@@ -203,5 +220,6 @@ module.exports = [
     link: "the-states",
     graphLink: "the-states/graphql",
     endPoints: ["the-states"],
+    sampleCode: " \n fetch('https://sampleapis.com/the-states/api/the-states')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.title);\n        }\n      );\n  });"
   },
 ];
