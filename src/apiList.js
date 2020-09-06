@@ -221,5 +221,15 @@ module.exports = [
     graphLink: "the-states/graphql",
     endPoints: ["the-states"],
     sampleCode: " \n fetch('https://sampleapis.com/the-states/api/the-states')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.title);\n        }\n      );\n  });"
-  },
+   },
+   {
+	id: 20,
+	title: "Cartoons",
+	longDesc: "If cartoons is what you like then boy do we have a full list of all the cartoons from the past and present and all their details including a amazingly sourced image to showcase",
+	desc: "A list of Cartoons from your past.",
+	link: "cartoons",
+	graphLink: "cartoons/graphql",
+	endPoints: ["2D", "3D",],
+	sampleCode: " \n fetch('https://sampleapis.com/cartoons/api/2D')\n .then(response => response.json())\n .then(data => {\n data.map(c => \n {\n console.log(c.title);\n }\n );\n });"
+	},
 ];
