@@ -1,0 +1,123 @@
+.code-group {
+  position: relative;
+}
+
+.code-group textarea {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+code {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  z-index: 5;
+  max-height: 70vh;
+  padding: 16px 16px 16px 48px;
+  background-color: #234;
+  font-family: monospace;
+  border-radius: 2px;
+  box-shadow: 0 4px 7px -2px rgba(0,0,0,0.4);
+  outline: none;
+  counter-reset: step;
+  overflow-y: auto;
+}
+code::-webkit-scrollbar {
+  width: 6px;
+}
+code::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,0.3);
+}
+code p {
+  display: block;
+  position: relative;
+  line-height: 16px;
+  white-space: pre-wrap;
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+code p::before {
+  content: counter(step);
+  counter-increment: step;
+  position: absolute;
+  right: calc(100% + 16px);
+  color: #678;
+}
+code .methods {
+  color: #90caf9;
+}
+code .js1 {
+  color: #e68;
+}
+code .js2 {
+  color: #7ff;
+  font-style: italic;
+}
+code .js-num {
+  color: #a7c;
+}
+code .func-name {
+  color: #6e6;
+}
+code .string,
+code .string * {
+  color: #00e676;
+}
+code .func-args,
+code .func-args * {
+  color: #ffa500;
+}
+code .comment,
+code .comment * {
+  color: #999;
+}
+
+.copy {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 12;
+}
+
+/* ------ */
+.copied {
+  background: #234;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.fadeAway {
+  animation: fade 2s ease 1 forwards;
+}
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 0;
+    z-index: 1;
+  }
+  5% {
+    opacity: 1;
+    z-index: 10;
+  }
+  75% {
+    opacity: 1;
+    z-index: 10;
+  }
+  90% {
+    opacity: .1;
+    z-index: 10;
+  }
+}
