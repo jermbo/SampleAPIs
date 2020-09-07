@@ -14,7 +14,7 @@ const app = express();
 //CORS
 app.use(cors());
 
-//for debuging;
+//for debugging;
 //app.use(morgan('dev'));
 
 // Routes
@@ -66,8 +66,6 @@ ApiList.forEach(({ link }) => {
     console.error(err);
   }
 });
-
-
 
 // Starting App
 app.listen(port, () => {
