@@ -63,6 +63,7 @@ ApiList.forEach(({ link }) => {
     app.use(`/${link}/graphql`, jsonGraphqlExpress.default(data));
   } catch (err) {
     console.log(`Unable to set up /${link}/graphql`);
+    console.error(err);
   }
 });
 
