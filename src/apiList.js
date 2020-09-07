@@ -15,8 +15,7 @@ module.exports = [
       "episodes",
       "questions",
       "inventory",
-    ],
-    sampleCode: " \n fetch('https://sampleapis.com/futurama/api/characters')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.name.first);\n        }\n      );\n  });"
+    ]
   },
   {
     id: 2,
@@ -36,8 +35,7 @@ module.exports = [
     desc: "An API with records and trivia questions.",
     link: "baseball",
     graphLink: "baseball/graphql",
-    endPoints: ["hits", "era", "stolenBases", "homeRuns", "battingAvgs", "rbi"],
-    sampleCode: " \n fetch('https://sampleapis.com/avatar/api/characters')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.Name);\n        }\n      );\n  });"
+    endPoints: ["hits", "era", "stolenBases", "homeRuns", "battingAvgs", "rbi"]
   },
   {
     id: 4,
@@ -47,8 +45,7 @@ module.exports = [
     desc: "A recipe database",
     link: "recipes",
     graphLink: "recipes/graphql",
-    endPoints: ["recipes"],
-    sampleCode: " \n fetch('https://sampleapis.com/baseball/api/hits')\n .then(response => response.json())\n      .then(data =>  {\n        data.singleSeason.map(c => \n        {\n         console.log(c.Player);\n        }\n      );\n  });"
+    endPoints: ["recipes"]
   },
   {
     id: 5,
@@ -58,8 +55,7 @@ module.exports = [
     desc: "Just a random set of fake bank data.",
     link: "fakebank",
     graphLink: "fakebank/graphql",
-    endPoints: ["Accounts"],
-    sampleCode: " \n fetch('https://sampleapis.com/fakebank/api/Accounts')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.Description);\n        }\n      );\n  });"
+    endPoints: ["Accounts"]
   },
   {
     id: 6,
@@ -69,8 +65,7 @@ module.exports = [
     desc: "An API with records and trivia questions.",
     link: "football",
     graphLink: "football/graphql",
-    endPoints: ["passing-yards", "passing-td"],
-    sampleCode: " \n fetch('https://sampleapis.com/football/api/passing-yards')\n .then(response => response.json())\n      .then(data =>  {\n        data.single-season.map(c => \n        {\n         console.log(c.Description);\n        }\n      );\n  });"
+    endPoints: ["passing-yards", "passing-td"]
   },
   {
     id: 7,
@@ -80,8 +75,7 @@ module.exports = [
     desc: "An API with information about countries.",
     link: "countries",
     graphLink: "countries/graphql",
-    endPoints: ["name", "capital", "phone", "currency", "population", "flags"],
-    sampleCode: " \n fetch('https://sampleapis.com/countries/api/population')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c);\n        }\n      );\n  });"
+    endPoints: ["name", "capital", "phone", "currency", "population", "flags"]
   },
   {
     id: 8,
@@ -91,8 +85,7 @@ module.exports = [
     desc: "Millions of peaches! No...not those Presidents...",
     link: "presidents",
     graphLink: "presidents/graphql",
-    endPoints: ["presidents"],
-    sampleCode: " \n fetch('https://sampleapis.com/presidents/api/presidents')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.name);\n        }\n      );\n  });"
+    endPoints: ["presidents"]
   },
   {
     id: 9,
@@ -103,7 +96,6 @@ module.exports = [
     link: "simpsons",
     graphLink: "simpsons/graphql",
     endPoints: ["characters", "products"],
-    sampleCode: " \n fetch('https://sampleapis.com/simpsons/api/characters')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.name);\n        }\n      );\n  });"
   },
   {
     id: 11,
@@ -123,8 +115,7 @@ module.exports = [
       "mystery",
       "scifi-fantasy",
       "western",
-    ],
-    sampleCode: " \n fetch('https://sampleapis.com/movies/api/comedy')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.title);\n        }\n      );\n  });"
+    ]
   },
   {
     id: 12,
@@ -133,8 +124,7 @@ module.exports = [
     desc: "Wines",
     link: "wines",
     graphLink: "wines/graphql",
-    endPoints: ["reds", "whites", "sparkling", "rose", "desert", "port"],
-    sampleCode: " \n fetch('https://sampleapis.com/wines/api/reds')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.wine);\n        }\n      );\n  });"
+    endPoints: ["reds", "whites", "sparkling", "rose", "desert", "port"]
   },
   {
     id: 13,
@@ -144,8 +134,7 @@ module.exports = [
     desc: "An API with health and medical information",
     link: "health",
     graphLink: "health",
-    endPoints: ["professions"],
-    sampleCode: " \n fetch('https://sampleapis.com/health/api/professions')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.short_name);\n        }\n      );\n  });"
+    endPoints: ["professions"]
   },
   {
     id: 13,
@@ -154,41 +143,34 @@ module.exports = [
     desc: "Beers",
     link: "beers",
     graphLink: "beers/graphql",
-    endPoints: ["ale", "stout", "red-ale"],
-    sampleCode: " \n fetch('https://sampleapis.com/beers/api/ale')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.name);\n        }\n      );\n  });"
+    endPoints: ["ale", "stout", "red-ale"]
   },
   {
     id: 14,
     title: "Switch Games",
-    longDesc:
-      "Figured it would be a cool db to have various video games on the Switch.",
+    longDesc: "Figured it would be a cool db to have various video games on the Switch.",
     desc: "Figured it would be fun to have a Switch game list on here.",
     link: "switch",
     graphLink: "switch/graphql",
-    endPoints: ["games"],
-    sampleCode: " \n fetch('https://sampleapis.com/switch/api/games')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.name);\n        }\n      );\n  });"
+    endPoints: ["games"]
   },
   {
     id: 15,
     title: "PlayStation Games",
-    longDesc:
-      "Figured it would be a cool db to have various video games on the PlayStation 4.",
+    longDesc: "Figured it would be a cool db to have various video games on the PlayStation 4.",
     desc: "Figured it would be fun to have a PlayStation game list on here.",
     link: "playstation",
     graphLink: "playstation/graphql",
-    endPoints: ["games"],
-    sampleCode: " \n fetch('https://sampleapis.com/playstation/api/games')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.name);\n        }\n      );\n  });"
+    endPoints: ["games"]
   },
   {
     id: 16,
     title: "XBox Games",
-    longDesc:
-      "Figured it would be a cool db to have various video games on the XBox.",
+    longDesc: "Figured it would be a cool db to have various video games on the XBox.",
     desc: "Figured it would be fun to have a Xbox game list on here.",
     link: "xbox",
     graphLink: "xbox/graphql",
-    endPoints: ["games"],
-    sampleCode: " \n fetch('https://sampleapis.com/xbox/api/games')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.name);\n        }\n      );\n  });"
+    endPoints: ["games"]
   },
   {
     id: 17,
@@ -197,39 +179,33 @@ module.exports = [
     desc: "A place to hold lessons for Typer",
     link: "typer",
     graphLink: "typer/graphql",
-    endPoints: ["welcomeQuestions", "webLessons", "typingLessons"],
-    sampleCode: " \n fetch('https://sampleapis.com/typer/api/webLessons')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.title);\n        }\n      );\n  });"
+    endPoints: ["welcomeQuestions", "webLessons", "typingLessons"]
   },
   {
     id: 18,
     title: "CSS Color Names",
-    longDesc:
-      "Thought it would be cool to include different CSS Colors Names. I was inspired when I found this site, https://xkcd.com/color/rgb/.",
+    longDesc: "Thought it would be cool to include different CSS Colors Names. I was inspired when I found this site, https://xkcd.com/color/rgb/.",
     desc: "A list of CSS Color Names",
     link: "css-color-names",
     graphLink: "css-color-names/graphql",
-    endPoints: ["colors"],
-    sampleCode: " \n fetch('https://sampleapis.com/css-color-names/api/colors')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.title);\n        }\n      );\n  });"
+    endPoints: ["colors"]
   },
   {
     id: 19,
     title: "The United States",
-    longDesc:
-      "Info about the all the 50 states in the United States. The endpoint includes the name, abbreviation, capital, largest city, date admitted to union, population, and state flag.",
+    longDesc: "Info about the all the 50 states in the United States. The endpoint includes the name, abbreviation, capital, largest city, date admitted to union, population, and state flag.",
     desc: "Info about the all the 50 states in the United States.",
     link: "the-states",
     graphLink: "the-states/graphql",
-    endPoints: ["the-states"],
-    sampleCode: " \n fetch('https://sampleapis.com/the-states/api/the-states')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.title);\n        }\n      );\n  });"
-   },
-   {
-	id: 20,
-	title: "Cartoons",
-	longDesc: "If cartoons is what you like then boy do we have a full list of all the cartoons from the past and present and all their details including a amazingly sourced image to showcase",
-	desc: "A list of Cartoons from your past.",
-	link: "cartoons",
-	graphLink: "cartoons/graphql",
-	endPoints: ["cartoons2D", "cartoons3D",],
-	sampleCode: " \n fetch('https://sampleapis.com/cartoons/api/cartoons2D')\n .then(response => response.json())\n .then(data => {\n data.map(c => \n {\n console.log(c.title);\n }\n );\n });"
-	},
+    endPoints: ["the-states"]
+  },
+  {
+    id: 20,
+    title: "Cartoons",
+    longDesc: "If cartoons is what you like then boy do we have a full list of all the cartoons from the past and present and all their details including a amazingly sourced image to showcase",
+    desc: "A list of Cartoons from your past.",
+    link: "cartoons",
+    graphLink: "cartoons/graphql",
+    endPoints: ["cartoons2D", "cartoons3D",]
+  },
 ];
