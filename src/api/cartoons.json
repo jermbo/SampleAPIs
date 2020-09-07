@@ -1,5 +1,5 @@
 {
-	"2D": [
+	"cartoons2D": [
 		{
 			"title": "Spongebob Squarepants",
 			"year": 1999,
@@ -339,7 +339,7 @@
 			"image": "https://m.media-amazon.com/images/M/MV5BZjFkZDkwYjktMmZkNi00ZTVkLWI5ZmItZWI2MmI1NjQ1Y2U0XkEyXkFqcGdeQXVyOTg4MDk3MTQ@._V1_SY1000_CR0,0,666,1000_AL_.jpg"
 		}
 	],
-	"3D": [
+	"cartoons3D": [
 		{
 			"title": "Reboot",
 			"year": 1994,
