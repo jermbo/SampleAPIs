@@ -36,7 +36,6 @@ function CodeHighlight(_parent) {
     });
 
     copyConfirmation.addEventListener('animationend', (e) => {
-      console.log('animation ended');
       copyConfirmation.classList.remove('fadeAway');
     })
   }

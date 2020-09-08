@@ -18,14 +18,14 @@ body
           button.copy Copy
           .copied
             p Copied!
-          code(spellcheck="false",contentEditable="true")
+          code(spellcheck="false")
             p const baseURL = 'https://sampleapis.com/#{title.toLowerCase()}/api/#{endPoints[0]}';
             p fetch(baseURL)
             p   .then(resp => resp.json())
-            p   .then(data => console.log(data) );
+            p   .then(data => console.log(data));
           textarea.hidden
         
-    script(src="./scripts/fetchSample.js" type="text/javascript")
+    script(src="./scripts/CodeHighlight.js")
     script.
       document.querySelectorAll('.code-group').forEach(group => {
         new CodeHighlight(group);
