@@ -21,22 +21,22 @@ body
           button.copy Copy
           .copied
             p Copied!
-          code(spellcheck="false",contentEditable="true")
+          code(spellcheck="false")
             p const baseURL = "https://sampleapis.com/futurama/api/characters";
             p fetch(baseURL)
             p   .then(resp => resp.json())
-            p   .then(data => console.log(data) );
+            p   .then(data => console.log(data));
           textarea.hidden
         p.Explanation Want to Search? Then use this endpoint:
         .code-group
           button.copy Copy
           .copied
             p Copied!
-          code(spellcheck="false",contentEditable="true")
+          code(spellcheck="false")
             p const baseURL = "https://sampleapis.com/futurama/api/characters";
             p fetch(`${baseURL}?name.first=Bender`)
             p   .then(resp => resp.json())
-            p   .then(data => console.log(data) );
+            p   .then(data => console.log(data));
           textarea.hidden
     
     section.apis
@@ -71,9 +71,8 @@ script.
     }
   });
 
-script(src="./scripts/fetchSample.js" type="text/javascript")
+script(src="./scripts/CodeHighlight.js")
 script.
   document.querySelectorAll(".code-group").forEach(group => {
-    console.log(group)
     new CodeHighlight(group)
   })
