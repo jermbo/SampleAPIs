@@ -19,7 +19,7 @@ body
           .copied
             p Copied!
           code(spellcheck="false")
-            p const baseURL = 'https://sampleapis.com/#{title.toLowerCase()}/api/#{endPoints[0]}';
+            p const baseURL = 'https://sampleapis.com/#{link.toLowerCase()}/api/#{endPoints[0]}';
             p fetch(baseURL)
             p   .then(resp => resp.json())
             p   .then(data => console.log(data));
