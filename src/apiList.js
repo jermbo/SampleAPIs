@@ -231,5 +231,15 @@ module.exports = [
 	graphLink: "cartoons/graphql",
 	endPoints: ["cartoons2D", "cartoons3D",],
 	sampleCode: " \n fetch('https://sampleapis.com/cartoons/api/cartoons2D')\n .then(response => response.json())\n .then(data => {\n data.map(c => \n {\n console.log(c.title);\n }\n );\n });"
-	},
+  },
+  {
+    id: 21,
+    title: "Women Who Code Resources",
+    longDesc: "Women Who Code.com is an amazing community and organization. They have an amazing resource in https://www.womenwhocode.com/resources. Here you'll find their 170 resources in an API for easy search, list and share. Please give a link BACK to WomenWhoCode.com if you use this information.",
+    desc: "API for all resources from https://www.womenwhocode.com/resources",
+    link: "womenwhocodeResources",
+    graphLink: "womenwhocodeResources/graphql",
+    endPoints: ["womenwhocodeResources",],
+    sampleCode: " \n fetch('https://sampleapis.com/womenwhocodeResources/api/womenwhocodeResources')\n .then(response => response.json())\n .then(data => {\n data.map(c => \n {\n console.log(c.url);\n }\n );\n });"
+    },
 ];
