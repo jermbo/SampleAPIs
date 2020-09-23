@@ -197,15 +197,24 @@ module.exports = [
     desc: "Info about the all the 50 states in the United States.",
     link: "the-states",
     graphLink: "the-states/graphql",
-    endPoints: ["the-states"]
+    endPoints: ["the-states"],
+   },
+   {
+	id: 20,
+	title: "Cartoons",
+	longDesc: "If cartoons is what you like then boy do we have a full list of all the cartoons from the past and present and all their details including a amazingly sourced image to showcase",
+	desc: "A list of Cartoons from your past.",
+	link: "cartoons",
+	graphLink: "cartoons/graphql",
+	endPoints: ["cartoons2D", "cartoons3D",],
   },
   {
-    id: 20,
-    title: "Cartoons",
-    longDesc: "If cartoons is what you like then boy do we have a full list of all the cartoons from the past and present and all their details including a amazingly sourced image to showcase",
-    desc: "A list of Cartoons from your past.",
-    link: "cartoons",
-    graphLink: "cartoons/graphql",
-    endPoints: ["cartoons2D", "cartoons3D",]
-  },
+    id: 21,
+    title: "Coding Resources",
+    longDesc: "Women Who Code.com is an amazing community and organization. They have an amazing resource in https://www.womenwhocode.com/resources. Here you'll find their 170 resources in an API for easy search, list and share. Please give a link BACK to WomenWhoCode.com if you use this information.",
+    desc: "API for all coding resources from https://www.womenwhocode.com/resources",
+    link: "codingResources",
+    graphLink: "codingResources/graphql",
+    endPoints: ["codingResources",], 
+    },
 ];
