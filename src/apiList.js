@@ -239,7 +239,7 @@ module.exports = [
     desc: "API for all resources from https://www.womenwhocode.com/resources",
     link: "womenwhocodeResources",
     graphLink: "womenwhocodeResources/graphql",
-    endPoints: ["womenwhocodeResources",],
+    endPoints: ["womenwhocodeResources",], 
     sampleCode: " \n fetch('https://sampleapis.com/womenwhocodeResources/api/womenwhocodeResources')\n .then(response => response.json())\n .then(data => {\n data.map(c => \n {\n console.log(c.url);\n }\n );\n });"
     },
 ];
