@@ -38,7 +38,12 @@ a {
 
 .site__inner {
   padding: 0 1.25rem;
-  max-width: 80vw;
+  max-width: 60vw;
+}
+
+.page__inner {
+  padding: 0 1.25rem;
+  width: 100vw;
 }
 
 .site__title {
@@ -220,3 +225,7 @@ a {
   border-color: #676604;
   background: #f6f428;
 }
+
+
+
+/* ----- */

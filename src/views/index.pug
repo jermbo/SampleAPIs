@@ -6,7 +6,7 @@ body
         h1.site__title Sample APIs
         p
           | Welcome to SampleAPIs. A playground for messing with RESTful and GraphQL endpoints. Checkout the project on 
-          a(href='https://github.com/jermbo/SampleAPIs') GitHub 
+          a(href="https://github.com/jermbo/SampleAPIs") GitHub 
           | and consider contributing to the project with a new endpoint!
         p
         | You can use any HTTP verbs (GET, POST, PUT, PATCH and DELETE) and
@@ -16,26 +16,31 @@ body
           | owned by SampleAPIs.com
         p.disclaimer
           | * The data on this site will be reset on a regular basis.
-        p.example_code  Example code:
-        | <pre>
-        | fetch('https://sampleapis.com/futurama/api/characters')
-        | .then(response => response.json())
-        |      .then(futuramaCharacters =>  {
-        |        futuramaCharacters.map(c => 
-        |        {
-        |         console.log(c.name.first);
-        |        }
-        |      );
-        |  });
-        | </pre>
-        p.Explanation
-        |  Want to Search? Then use this endpoint:
-        |
-        |  https://sampleapis.com/futurama/api/characters?name.first=Bender
-
+        p.example_code Example code:
+        .code-group
+          button.copy Copy
+          .copied
+            p Copied!
+          code(spellcheck="false")
+            p const baseURL = "https://sampleapis.com/futurama/api/characters";
+            p fetch(baseURL)
+            p   .then(resp => resp.json())
+            p   .then(data => console.log(data));
+          textarea.hidden
+        p.Explanation Want to Search? Then use this endpoint:
+        .code-group
+          button.copy Copy
+          .copied
+            p Copied!
+          code(spellcheck="false")
+            p const baseURL = "https://sampleapis.com/futurama/api/characters";
+            p fetch(`${baseURL}?name.first=Bender`)
+            p   .then(resp => resp.json())
+            p   .then(data => console.log(data));
+          textarea.hidden
     
     section.apis
-      apis(v-for='api, i in apis' :api='api' :key='i')
+      apis(v-for="api, i in apis" :api="api" :key="i")
 
 
 template#api
@@ -43,10 +48,10 @@ template#api
     .api__inner
       h2.api__title {{ api.title }}
       p.api__desc {{ api.desc }}
-      a.api__link(:href='api.link' target="_blank") API Link
-      a.api__link(:href='api.graphLink' target="_blank") GRAPHQL Link
+      a.api__link(:href="api.link") API Link
+      a.api__link(:href="api.graphLink" target="_blank") GRAPHQL Link
 
-script(src='https://cdn.jsdelivr.net/npm/vue/dist/vue.js')
+script(src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js")
 script.
   const api = Vue.component("Apis", {
     template: "#api",
@@ -65,3 +70,9 @@ script.
       apis: api
     }
   });
+
+script(src="./scripts/CodeHighlight.js")
+script.
+  document.querySelectorAll(".code-group").forEach(group => {
+    new CodeHighlight(group)
+  })

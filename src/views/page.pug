@@ -2,7 +2,7 @@ include partials/header.pug
 body
   main
     article.site
-      .site__inner
+      .page__inner
         a(href="/" class="backBtn") Home
         h1.site__title= title
         p.site__desc= longDesc
@@ -12,6 +12,21 @@ body
           p Here are the endpoints currently available.
           nav.endpoints
             each endPoint in endPoints
-              a.endpoint(href=`/${link}/api/${endPoint}`)= endPoint
+              a.endpoint(href=`/${link}/api/${endPoint}` target="_blank")= endPoint
         p Example code 
-          pre= sampleCode
+        .code-group
+          button.copy Copy
+          .copied
+            p Copied!
+          code(spellcheck="false")
+            p const baseURL = 'https://sampleapis.com/#{title.toLowerCase()}/api/#{endPoints[0]}';
+            p fetch(baseURL)
+            p   .then(resp => resp.json())
+            p   .then(data => console.log(data));
+          textarea.hidden
+        
+    script(src="./scripts/CodeHighlight.js")
+    script.
+      document.querySelectorAll('.code-group').forEach(group => {
+        new CodeHighlight(group);
+      });
