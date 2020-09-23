@@ -198,7 +198,6 @@ module.exports = [
     link: "the-states",
     graphLink: "the-states/graphql",
     endPoints: ["the-states"],
-    sampleCode: " \n fetch('https://sampleapis.com/the-states/api/the-states')\n .then(response => response.json())\n      .then(data =>  {\n        data.map(c => \n        {\n         console.log(c.title);\n        }\n      );\n  });"
    },
    {
 	id: 20,
@@ -208,7 +207,6 @@ module.exports = [
 	link: "cartoons",
 	graphLink: "cartoons/graphql",
 	endPoints: ["cartoons2D", "cartoons3D",],
-	sampleCode: " \n fetch('https://sampleapis.com/cartoons/api/cartoons2D')\n .then(response => response.json())\n .then(data => {\n data.map(c => \n {\n console.log(c.title);\n }\n );\n });"
   },
   {
     id: 21,
@@ -218,6 +216,5 @@ module.exports = [
     link: "codingResources",
     graphLink: "codingResources/graphql",
     endPoints: ["codingResources",], 
-    sampleCode: " \n fetch('https://sampleapis.com/codingResources/api/codingResources')\n .then(response => response.json())\n .then(data => {\n data.map(c => \n {\n console.log(c.url);\n }\n );\n });"
     },
 ];
