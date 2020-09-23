@@ -2,9 +2,7 @@ const express = require("express");
 const path = require("path");
 const router = express.Router();
 const jsonServer = require("json-server");
-const jsonGraphqlExpress = require("json-graphql-server")
-const rateLimit = require("express-rate-limit");
-const slowDown = require("express-slow-down");
+const jsonGraphqlExpress = require("json-graphql-server");
 const { getFromFile } = require("../utils");
 
 const ApiList = require("../apiList");
