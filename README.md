@@ -16,3 +16,5 @@ Checkout the [Change Log](https://github.com/jermbo/SampleAPIs/blob/master/Chang
 
 - The data on this site is for educational purposes only and is not owned by SampleAPIs.com
 - Data will be reset back to its original state on a regular basis. If you are updating or adding data to the endpoints and want to have them persist as part of the collection, please contribute to the repo by submitting a pull request.
+
+hacktoberfest
