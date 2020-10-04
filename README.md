@@ -8,7 +8,7 @@ Understanding RESTful APIs is hard enough, even without including an authenticat
 
 ## Changes
 
-The changes with Vercel.com has forced us to embrace Express as well as JSON Server in different ways. We now have a single point on entry for all apis, where previously we had to duplicate efforts in multiple places. The API files and the backups have been isolated causing a URL change.
+Hosting has switched again due to `Vercel.com`'s static nature. The app is being self hosted and is back to being fully CRUD-able. 
 
 Checkout the [Change Log](https://github.com/jermbo/SampleAPIs/blob/master/Change_log.md) for full details.
 
@@ -16,3 +16,4 @@ Checkout the [Change Log](https://github.com/jermbo/SampleAPIs/blob/master/Chang
 
 - The data on this site is for educational purposes only and is not owned by SampleAPIs.com
 - Data will be reset back to its original state on a regular basis. If you are updating or adding data to the endpoints and want to have them persist as part of the collection, please contribute to the repo by submitting a pull request.
+- By using SampleAPIs.com you agree to the following terms: This service is provided under an "as is" condition. It might change or will be discontinued without prior notice. The maker of this service can't be held liable in any way for any reason.
