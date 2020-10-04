@@ -1,5 +1,13 @@
 # Change Log
 
+## v2.6.0
+
+In anticipation of being utilized more, we have put in a rate limiter based on IP address. Right now the rate limit is 500 every 5 minutes. This can be adjusted based on user feedback.
+
+## v2.5.0
+
+After trying several hosts, SampleAPIs is now being self hosted. By doing this we now gain back all the CURD ability we lost being on a static host.
+
 ## v2.0.0
 
 Version 2.0.0
