@@ -1,0 +1,11 @@
+{
+  "info": {
+    "name": "jermbo"
+  },
+  "hobbies": [
+    {
+      "title": "coding",
+      "desc": "coding things like this"
+    }
+  ]
+}

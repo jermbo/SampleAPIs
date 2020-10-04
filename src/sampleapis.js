@@ -25,6 +25,7 @@ app.use(cors());
 // Routes
 const reset = require("./routes/reset");
 const baseApis = require('./routes/base-apis');
+const custom = require('./routes/custom-apis');
 
 app.get("/", (req, res) => {
   res.render("index", {
@@ -32,8 +33,9 @@ app.get("/", (req, res) => {
   });
 });
 
-app.use('/', baseApis);
+app.use("/", baseApis);
 app.use("/reset", reset);
+app.use("/custom", custom);
 
 // Starting App
 app.listen(port, () => {
