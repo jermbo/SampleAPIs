@@ -1,5 +1,7 @@
 # Sample APIs 2.0
 
+![Screenshot](/src/public/assets/images/screenshot-sampleAPI.png)
+
 Sample APIs has been given a major overhaul. Due to the fact Vercel.com has changed the way their servers work, we have had to rethink how the system was built. Over all, the changes are for the better. It is now easier than ever to contribute.
 
 ## Purpose
