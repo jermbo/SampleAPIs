@@ -133,7 +133,7 @@ module.exports = [
       "Sometimes health data is hard to come by. This endpoints make it easy for you to test your apps with examples of health data such as medical professions.",
     desc: "An API with health and medical information",
     link: "health",
-    graphLink: "health",
+    graphLink: "health/graphql",
     endPoints: ["professions"]
   },
   {
