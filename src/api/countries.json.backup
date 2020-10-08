@@ -1,2372 +1,2218 @@
 {
-  "name": [
-    { "BD": "Bangladesh" },
-    { "BE": "Belgium" },
-    { "BF": "Burkina Faso" },
-    { "BG": "Bulgaria" },
-    { "BA": "Bosnia and Herzegovina" },
-    { "BB": "Barbados" },
-    { "WF": "Wallis and Futuna" },
-    { "BL": "Saint Barthelemy" },
-    { "BM": "Bermuda" },
-    { "BN": "Brunei" },
-    { "BO": "Bolivia" },
-    { "BH": "Bahrain" },
-    { "BI": "Burundi" },
-    { "BJ": "Benin" },
-    { "BT": "Bhutan" },
-    { "JM": "Jamaica" },
-    { "BV": "Bouvet Island" },
-    { "BW": "Botswana" },
-    { "WS": "Samoa" },
-    { "BQ": "Bonaire, Saint Eustatius and Saba" },
-    { "BR": "Brazil" },
-    { "BS": "Bahamas" },
-    { "JE": "Jersey" },
-    { "BY": "Belarus" },
-    { "BZ": "Belize" },
-    { "RU": "Russia" },
-    { "RW": "Rwanda" },
-    { "RS": "Serbia" },
-    { "TL": "East Timor" },
-    { "RE": "Reunion" },
-    { "TM": "Turkmenistan" },
-    { "TJ": "Tajikistan" },
-    { "RO": "Romania" },
-    { "TK": "Tokelau" },
-    { "GW": "Guinea-Bissau" },
-    { "GU": "Guam" },
-    { "GT": "Guatemala" },
-    { "GS": "South Georgia and the South Sandwich Islands" },
-    { "GR": "Greece" },
-    { "GQ": "Equatorial Guinea" },
-    { "GP": "Guadeloupe" },
-    { "JP": "Japan" },
-    { "GY": "Guyana" },
-    { "GG": "Guernsey" },
-    { "GF": "French Guiana" },
-    { "GE": "Georgia" },
-    { "GD": "Grenada" },
-    { "GB": "United Kingdom" },
-    { "GA": "Gabon" },
-    { "SV": "El Salvador" },
-    { "GN": "Guinea" },
-    { "GM": "Gambia" },
-    { "GL": "Greenland" },
-    { "GI": "Gibraltar" },
-    { "GH": "Ghana" },
-    { "OM": "Oman" },
-    { "TN": "Tunisia" },
-    { "JO": "Jordan" },
-    { "HR": "Croatia" },
-    { "HT": "Haiti" },
-    { "HU": "Hungary" },
-    { "HK": "Hong Kong" },
-    { "HN": "Honduras" },
-    { "HM": "Heard Island and McDonald Islands" },
-    { "VE": "Venezuela" },
-    { "PR": "Puerto Rico" },
-    { "PS": "Palestinian Territory" },
-    { "PW": "Palau" },
-    { "PT": "Portugal" },
-    { "SJ": "Svalbard and Jan Mayen" },
-    { "PY": "Paraguay" },
-    { "IQ": "Iraq" },
-    { "PA": "Panama" },
-    { "PF": "French Polynesia" },
-    { "PG": "Papua New Guinea" },
-    { "PE": "Peru" },
-    { "PK": "Pakistan" },
-    { "PH": "Philippines" },
-    { "PN": "Pitcairn" },
-    { "PL": "Poland" },
-    { "PM": "Saint Pierre and Miquelon" },
-    { "ZM": "Zambia" },
-    { "EH": "Western Sahara" },
-    { "EE": "Estonia" },
-    { "EG": "Egypt" },
-    { "ZA": "South Africa" },
-    { "EC": "Ecuador" },
-    { "IT": "Italy" },
-    { "VN": "Vietnam" },
-    { "SB": "Solomon Islands" },
-    { "ET": "Ethiopia" },
-    { "SO": "Somalia" },
-    { "ZW": "Zimbabwe" },
-    { "SA": "Saudi Arabia" },
-    { "ES": "Spain" },
-    { "ER": "Eritrea" },
-    { "ME": "Montenegro" },
-    { "MD": "Moldova" },
-    { "MG": "Madagascar" },
-    { "MF": "Saint Martin" },
-    { "MA": "Morocco" },
-    { "MC": "Monaco" },
-    { "UZ": "Uzbekistan" },
-    { "MM": "Myanmar" },
-    { "ML": "Mali" },
-    { "MO": "Macao" },
-    { "MN": "Mongolia" },
-    { "MH": "Marshall Islands" },
-    { "MK": "Macedonia" },
-    { "MU": "Mauritius" },
-    { "MT": "Malta" },
-    { "MW": "Malawi" },
-    { "MV": "Maldives" },
-    { "MQ": "Martinique" },
-    { "MP": "Northern Mariana Islands" },
-    { "MS": "Montserrat" },
-    { "MR": "Mauritania" },
-    { "IM": "Isle of Man" },
-    { "UG": "Uganda" },
-    { "TZ": "Tanzania" },
-    { "MY": "Malaysia" },
-    { "MX": "Mexico" },
-    { "IL": "Israel" },
-    { "FR": "France" },
-    { "IO": "British Indian Ocean Territory" },
-    { "SH": "Saint Helena" },
-    { "FI": "Finland" },
-    { "FJ": "Fiji" },
-    { "FK": "Falkland Islands" },
-    { "FM": "Micronesia" },
-    { "FO": "Faroe Islands" },
-    { "NI": "Nicaragua" },
-    { "NL": "Netherlands" },
-    { "NO": "Norway" },
-    { "NA": "Namibia" },
-    { "VU": "Vanuatu" },
-    { "NC": "New Caledonia" },
-    { "NE": "Niger" },
-    { "NF": "Norfolk Island" },
-    { "NG": "Nigeria" },
-    { "NZ": "New Zealand" },
-    { "NP": "Nepal" },
-    { "NR": "Nauru" },
-    { "NU": "Niue" },
-    { "CK": "Cook Islands" },
-    { "XK": "Kosovo" },
-    { "CI": "Ivory Coast" },
-    { "CH": "Switzerland" },
-    { "CO": "Colombia" },
-    { "CN": "China" },
-    { "CM": "Cameroon" },
-    { "CL": "Chile" },
-    { "CC": "Cocos Islands" },
-    { "CA": "Canada" },
-    { "CG": "Republic of the Congo" },
-    { "CF": "Central African Republic" },
-    { "CD": "Democratic Republic of the Congo" },
-    { "CZ": "Czech Republic" },
-    { "CY": "Cyprus" },
-    { "CX": "Christmas Island" },
-    { "CR": "Costa Rica" },
-    { "CW": "Curacao" },
-    { "CV": "Cape Verde" },
-    { "CU": "Cuba" },
-    { "SZ": "Swaziland" },
-    { "SY": "Syria" },
-    { "SX": "Sint Maarten" },
-    { "KG": "Kyrgyzstan" },
-    { "KE": "Kenya" },
-    { "SS": "South Sudan" },
-    { "SR": "Suriname" },
-    { "KI": "Kiribati" },
-    { "KH": "Cambodia" },
-    { "KN": "Saint Kitts and Nevis" },
-    { "KM": "Comoros" },
-    { "ST": "Sao Tome and Principe" },
-    { "SK": "Slovakia" },
-    { "KR": "South Korea" },
-    { "SI": "Slovenia" },
-    { "KP": "North Korea" },
-    { "KW": "Kuwait" },
-    { "SN": "Senegal" },
-    { "SM": "San Marino" },
-    { "SL": "Sierra Leone" },
-    { "SC": "Seychelles" },
-    { "KZ": "Kazakhstan" },
-    { "KY": "Cayman Islands" },
-    { "SG": "Singapore" },
-    { "SE": "Sweden" },
-    { "SD": "Sudan" },
-    { "DO": "Dominican Republic" },
-    { "DM": "Dominica" },
-    { "DJ": "Djibouti" },
-    { "DK": "Denmark" },
-    { "VG": "British Virgin Islands" },
-    { "DE": "Germany" },
-    { "YE": "Yemen" },
-    { "DZ": "Algeria" },
-    { "US": "United States" },
-    { "UY": "Uruguay" },
-    { "YT": "Mayotte" },
-    { "UM": "United States Minor Outlying Islands" },
-    { "LB": "Lebanon" },
-    { "LC": "Saint Lucia" },
-    { "LA": "Laos" },
-    { "TV": "Tuvalu" },
-    { "TW": "Taiwan" },
-    { "TT": "Trinidad and Tobago" },
-    { "TR": "Turkey" },
-    { "LK": "Sri Lanka" },
-    { "LI": "Liechtenstein" },
-    { "LV": "Latvia" },
-    { "TO": "Tonga" },
-    { "LT": "Lithuania" },
-    { "LU": "Luxembourg" },
-    { "LR": "Liberia" },
-    { "LS": "Lesotho" },
-    { "TH": "Thailand" },
-    { "TF": "French Southern Territories" },
-    { "TG": "Togo" },
-    { "TD": "Chad" },
-    { "TC": "Turks and Caicos Islands" },
-    { "LY": "Libya" },
-    { "VA": "Vatican" },
-    { "VC": "Saint Vincent and the Grenadines" },
-    { "AE": "United Arab Emirates" },
-    { "AD": "Andorra" },
-    { "AG": "Antigua and Barbuda" },
-    { "AF": "Afghanistan" },
-    { "AI": "Anguilla" },
-    { "VI": "U.S. Virgin Islands" },
-    { "IS": "Iceland" },
-    { "IR": "Iran" },
-    { "AM": "Armenia" },
-    { "AL": "Albania" },
-    { "AO": "Angola" },
-    { "AQ": "Antarctica" },
-    { "AS": "American Samoa" },
-    { "AR": "Argentina" },
-    { "AU": "Australia" },
-    { "AT": "Austria" },
-    { "AW": "Aruba" },
-    { "IN": "India" },
-    { "AX": "Aland Islands" },
-    { "AZ": "Azerbaijan" },
-    { "IE": "Ireland" },
-    { "ID": "Indonesia" },
-    { "UA": "Ukraine" },
-    { "QA": "Qatar" },
-    { "MZ": "Mozambique" }
-  ],
-  "capital": [
-    { "BD": "Dhaka" },
-    { "BE": "Brussels" },
-    { "BF": "Ouagadougou" },
-    { "BG": "Sofia" },
-    { "BA": "Sarajevo" },
-    { "BB": "Bridgetown" },
-    { "WF": "Mata Utu" },
-    { "BL": "Gustavia" },
-    { "BM": "Hamilton" },
-    { "BN": "Bandar Seri Begawan" },
-    { "BO": "Sucre" },
-    { "BH": "Manama" },
-    { "BI": "Bujumbura" },
-    { "BJ": "Porto-Novo" },
-    { "BT": "Thimphu" },
-    { "JM": "Kingston" },
-    { "BV": "" },
-    { "BW": "Gaborone" },
-    { "WS": "Apia" },
-    { "BQ": "" },
-    { "BR": "Brasilia" },
-    { "BS": "Nassau" },
-    { "JE": "Saint Helier" },
-    { "BY": "Minsk" },
-    { "BZ": "Belmopan" },
-    { "RU": "Moscow" },
-    { "RW": "Kigali" },
-    { "RS": "Belgrade" },
-    { "TL": "Dili" },
-    { "RE": "Saint-Denis" },
-    { "TM": "Ashgabat" },
-    { "TJ": "Dushanbe" },
-    { "RO": "Bucharest" },
-    { "TK": "" },
-    { "GW": "Bissau" },
-    { "GU": "Hagatna" },
-    { "GT": "Guatemala City" },
-    { "GS": "Grytviken" },
-    { "GR": "Athens" },
-    { "GQ": "Malabo" },
-    { "GP": "Basse-Terre" },
-    { "JP": "Tokyo" },
-    { "GY": "Georgetown" },
-    { "GG": "St Peter Port" },
-    { "GF": "Cayenne" },
-    { "GE": "Tbilisi" },
-    { "GD": "St. George's" },
-    { "GB": "London" },
-    { "GA": "Libreville" },
-    { "SV": "San Salvador" },
-    { "GN": "Conakry" },
-    { "GM": "Banjul" },
-    { "GL": "Nuuk" },
-    { "GI": "Gibraltar" },
-    { "GH": "Accra" },
-    { "OM": "Muscat" },
-    { "TN": "Tunis" },
-    { "JO": "Amman" },
-    { "HR": "Zagreb" },
-    { "HT": "Port-au-Prince" },
-    { "HU": "Budapest" },
-    { "HK": "Hong Kong" },
-    { "HN": "Tegucigalpa" },
-    { "HM": "" },
-    { "VE": "Caracas" },
-    { "PR": "San Juan" },
-    { "PS": "East Jerusalem" },
-    { "PW": "Melekeok" },
-    { "PT": "Lisbon" },
-    { "SJ": "Longyearbyen" },
-    { "PY": "Asuncion" },
-    { "IQ": "Baghdad" },
-    { "PA": "Panama City" },
-    { "PF": "Papeete" },
-    { "PG": "Port Moresby" },
-    { "PE": "Lima" },
-    { "PK": "Islamabad" },
-    { "PH": "Manila" },
-    { "PN": "Adamstown" },
-    { "PL": "Warsaw" },
-    { "PM": "Saint-Pierre" },
-    { "ZM": "Lusaka" },
-    { "EH": "El-Aaiun" },
-    { "EE": "Tallinn" },
-    { "EG": "Cairo" },
-    { "ZA": "Pretoria" },
-    { "EC": "Quito" },
-    { "IT": "Rome" },
-    { "VN": "Hanoi" },
-    { "SB": "Honiara" },
-    { "ET": "Addis Ababa" },
-    { "SO": "Mogadishu" },
-    { "ZW": "Harare" },
-    { "SA": "Riyadh" },
-    { "ES": "Madrid" },
-    { "ER": "Asmara" },
-    { "ME": "Podgorica" },
-    { "MD": "Chisinau" },
-    { "MG": "Antananarivo" },
-    { "MF": "Marigot" },
-    { "MA": "Rabat" },
-    { "MC": "Monaco" },
-    { "UZ": "Tashkent" },
-    { "MM": "Nay Pyi Taw" },
-    { "ML": "Bamako" },
-    { "MO": "Macao" },
-    { "MN": "Ulan Bator" },
-    { "MH": "Majuro" },
-    { "MK": "Skopje" },
-    { "MU": "Port Louis" },
-    { "MT": "Valletta" },
-    { "MW": "Lilongwe" },
-    { "MV": "Male" },
-    { "MQ": "Fort-de-France" },
-    { "MP": "Saipan" },
-    { "MS": "Plymouth" },
-    { "MR": "Nouakchott" },
-    { "IM": "Douglas, Isle of Man" },
-    { "UG": "Kampala" },
-    { "TZ": "Dodoma" },
-    { "MY": "Kuala Lumpur" },
-    { "MX": "Mexico City" },
-    { "IL": "Jerusalem" },
-    { "FR": "Paris" },
-    { "IO": "Diego Garcia" },
-    { "SH": "Jamestown" },
-    { "FI": "Helsinki" },
-    { "FJ": "Suva" },
-    { "FK": "Stanley" },
-    { "FM": "Palikir" },
-    { "FO": "Torshavn" },
-    { "NI": "Managua" },
-    { "NL": "Amsterdam" },
-    { "NO": "Oslo" },
-    { "NA": "Windhoek" },
-    { "VU": "Port Vila" },
-    { "NC": "Noumea" },
-    { "NE": "Niamey" },
-    { "NF": "Kingston" },
-    { "NG": "Abuja" },
-    { "NZ": "Wellington" },
-    { "NP": "Kathmandu" },
-    { "NR": "Yaren" },
-    { "NU": "Alofi" },
-    { "CK": "Avarua" },
-    { "XK": "Pristina" },
-    { "CI": "Yamoussoukro" },
-    { "CH": "Berne" },
-    { "CO": "Bogota" },
-    { "CN": "Beijing" },
-    { "CM": "Yaounde" },
-    { "CL": "Santiago" },
-    { "CC": "West Island" },
-    { "CA": "Ottawa" },
-    { "CG": "Brazzaville" },
-    { "CF": "Bangui" },
-    { "CD": "Kinshasa" },
-    { "CZ": "Prague" },
-    { "CY": "Nicosia" },
-    { "CX": "Flying Fish Cove" },
-    { "CR": "San Jose" },
-    { "CW": " Willemstad" },
-    { "CV": "Praia" },
-    { "CU": "Havana" },
-    { "SZ": "Mbabane" },
-    { "SY": "Damascus" },
-    { "SX": "Philipsburg" },
-    { "KG": "Bishkek" },
-    { "KE": "Nairobi" },
-    { "SS": "Juba" },
-    { "SR": "Paramaribo" },
-    { "KI": "Tarawa" },
-    { "KH": "Phnom Penh" },
-    { "KN": "Basseterre" },
-    { "KM": "Moroni" },
-    { "ST": "Sao Tome" },
-    { "SK": "Bratislava" },
-    { "KR": "Seoul" },
-    { "SI": "Ljubljana" },
-    { "KP": "Pyongyang" },
-    { "KW": "Kuwait City" },
-    { "SN": "Dakar" },
-    { "SM": "San Marino" },
-    { "SL": "Freetown" },
-    { "SC": "Victoria" },
-    { "KZ": "Astana" },
-    { "KY": "George Town" },
-    { "SG": "Singapur" },
-    { "SE": "Stockholm" },
-    { "SD": "Khartoum" },
-    { "DO": "Santo Domingo" },
-    { "DM": "Roseau" },
-    { "DJ": "Djibouti" },
-    { "DK": "Copenhagen" },
-    { "VG": "Road Town" },
-    { "DE": "Berlin" },
-    { "YE": "Sanaa" },
-    { "DZ": "Algiers" },
-    { "US": "Washington" },
-    { "UY": "Montevideo" },
-    { "YT": "Mamoudzou" },
-    { "UM": "" },
-    { "LB": "Beirut" },
-    { "LC": "Castries" },
-    { "LA": "Vientiane" },
-    { "TV": "Funafuti" },
-    { "TW": "Taipei" },
-    { "TT": "Port of Spain" },
-    { "TR": "Ankara" },
-    { "LK": "Colombo" },
-    { "LI": "Vaduz" },
-    { "LV": "Riga" },
-    { "TO": "Nuku'alofa" },
-    { "LT": "Vilnius" },
-    { "LU": "Luxembourg" },
-    { "LR": "Monrovia" },
-    { "LS": "Maseru" },
-    { "TH": "Bangkok" },
-    { "TF": "Port-aux-Francais" },
-    { "TG": "Lome" },
-    { "TD": "N'Djamena" },
-    { "TC": "Cockburn Town" },
-    { "LY": "Tripolis" },
-    { "VA": "Vatican City" },
-    { "VC": "Kingstown" },
-    { "AE": "Abu Dhabi" },
-    { "AD": "Andorra la Vella" },
-    { "AG": "St. John's" },
-    { "AF": "Kabul" },
-    { "AI": "The Valley" },
-    { "VI": "Charlotte Amalie" },
-    { "IS": "Reykjavik" },
-    { "IR": "Tehran" },
-    { "AM": "Yerevan" },
-    { "AL": "Tirana" },
-    { "AO": "Luanda" },
-    { "AQ": "" },
-    { "AS": "Pago Pago" },
-    { "AR": "Buenos Aires" },
-    { "AU": "Canberra" },
-    { "AT": "Vienna" },
-    { "AW": "Oranjestad" },
-    { "IN": "New Delhi" },
-    { "AX": "Mariehamn" },
-    { "AZ": "Baku" },
-    { "IE": "Dublin" },
-    { "ID": "Jakarta" },
-    { "UA": "Kiev" },
-    { "QA": "Doha" },
-    { "MZ": "Maputo" }
-  ],
-  "phone": [
-    { "BD": "880" },
-    { "BE": "32" },
-    { "BF": "226" },
-    { "BG": "359" },
-    { "BA": "387" },
-    { "BB": "+1-246" },
-    { "WF": "681" },
-    { "BL": "590" },
-    { "BM": "+1-441" },
-    { "BN": "673" },
-    { "BO": "591" },
-    { "BH": "973" },
-    { "BI": "257" },
-    { "BJ": "229" },
-    { "BT": "975" },
-    { "JM": "+1-876" },
-    { "BV": "" },
-    { "BW": "267" },
-    { "WS": "685" },
-    { "BQ": "599" },
-    { "BR": "55" },
-    { "BS": "+1-242" },
-    { "JE": "+44-1534" },
-    { "BY": "375" },
-    { "BZ": "501" },
-    { "RU": "7" },
-    { "RW": "250" },
-    { "RS": "381" },
-    { "TL": "670" },
-    { "RE": "262" },
-    { "TM": "993" },
-    { "TJ": "992" },
-    { "RO": "40" },
-    { "TK": "690" },
-    { "GW": "245" },
-    { "GU": "+1-671" },
-    { "GT": "502" },
-    { "GS": "" },
-    { "GR": "30" },
-    { "GQ": "240" },
-    { "GP": "590" },
-    { "JP": "81" },
-    { "GY": "592" },
-    { "GG": "+44-1481" },
-    { "GF": "594" },
-    { "GE": "995" },
-    { "GD": "+1-473" },
-    { "GB": "44" },
-    { "GA": "241" },
-    { "SV": "503" },
-    { "GN": "224" },
-    { "GM": "220" },
-    { "GL": "299" },
-    { "GI": "350" },
-    { "GH": "233" },
-    { "OM": "968" },
-    { "TN": "216" },
-    { "JO": "962" },
-    { "HR": "385" },
-    { "HT": "509" },
-    { "HU": "36" },
-    { "HK": "852" },
-    { "HN": "504" },
-    { "HM": " " },
-    { "VE": "58" },
-    { "PR": "+1-787 and 1-939" },
-    { "PS": "970" },
-    { "PW": "680" },
-    { "PT": "351" },
-    { "SJ": "47" },
-    { "PY": "595" },
-    { "IQ": "964" },
-    { "PA": "507" },
-    { "PF": "689" },
-    { "PG": "675" },
-    { "PE": "51" },
-    { "PK": "92" },
-    { "PH": "63" },
-    { "PN": "870" },
-    { "PL": "48" },
-    { "PM": "508" },
-    { "ZM": "260" },
-    { "EH": "212" },
-    { "EE": "372" },
-    { "EG": "20" },
-    { "ZA": "27" },
-    { "EC": "593" },
-    { "IT": "39" },
-    { "VN": "84" },
-    { "SB": "677" },
-    { "ET": "251" },
-    { "SO": "252" },
-    { "ZW": "263" },
-    { "SA": "966" },
-    { "ES": "34" },
-    { "ER": "291" },
-    { "ME": "382" },
-    { "MD": "373" },
-    { "MG": "261" },
-    { "MF": "590" },
-    { "MA": "212" },
-    { "MC": "377" },
-    { "UZ": "998" },
-    { "MM": "95" },
-    { "ML": "223" },
-    { "MO": "853" },
-    { "MN": "976" },
-    { "MH": "692" },
-    { "MK": "389" },
-    { "MU": "230" },
-    { "MT": "356" },
-    { "MW": "265" },
-    { "MV": "960" },
-    { "MQ": "596" },
-    { "MP": "+1-670" },
-    { "MS": "+1-664" },
-    { "MR": "222" },
-    { "IM": "+44-1624" },
-    { "UG": "256" },
-    { "TZ": "255" },
-    { "MY": "60" },
-    { "MX": "52" },
-    { "IL": "972" },
-    { "FR": "33" },
-    { "IO": "246" },
-    { "SH": "290" },
-    { "FI": "358" },
-    { "FJ": "679" },
-    { "FK": "500" },
-    { "FM": "691" },
-    { "FO": "298" },
-    { "NI": "505" },
-    { "NL": "31" },
-    { "NO": "47" },
-    { "NA": "264" },
-    { "VU": "678" },
-    { "NC": "687" },
-    { "NE": "227" },
-    { "NF": "672" },
-    { "NG": "234" },
-    { "NZ": "64" },
-    { "NP": "977" },
-    { "NR": "674" },
-    { "NU": "683" },
-    { "CK": "682" },
-    { "XK": "" },
-    { "CI": "225" },
-    { "CH": "41" },
-    { "CO": "57" },
-    { "CN": "86" },
-    { "CM": "237" },
-    { "CL": "56" },
-    { "CC": "61" },
-    { "CA": "1" },
-    { "CG": "242" },
-    { "CF": "236" },
-    { "CD": "243" },
-    { "CZ": "420" },
-    { "CY": "357" },
-    { "CX": "61" },
-    { "CR": "506" },
-    { "CW": "599" },
-    { "CV": "238" },
-    { "CU": "53" },
-    { "SZ": "268" },
-    { "SY": "963" },
-    { "SX": "599" },
-    { "KG": "996" },
-    { "KE": "254" },
-    { "SS": "211" },
-    { "SR": "597" },
-    { "KI": "686" },
-    { "KH": "855" },
-    { "KN": "+1-869" },
-    { "KM": "269" },
-    { "ST": "239" },
-    { "SK": "421" },
-    { "KR": "82" },
-    { "SI": "386" },
-    { "KP": "850" },
-    { "KW": "965" },
-    { "SN": "221" },
-    { "SM": "378" },
-    { "SL": "232" },
-    { "SC": "248" },
-    { "KZ": "7" },
-    { "KY": "+1-345" },
-    { "SG": "65" },
-    { "SE": "46" },
-    { "SD": "249" },
-    { "DO": "+1-809 and 1-829" },
-    { "DM": "+1-767" },
-    { "DJ": "253" },
-    { "DK": "45" },
-    { "VG": "+1-284" },
-    { "DE": "49" },
-    { "YE": "967" },
-    { "DZ": "213" },
-    { "US": "1" },
-    { "UY": "598" },
-    { "YT": "262" },
-    { "UM": "1" },
-    { "LB": "961" },
-    { "LC": "+1-758" },
-    { "LA": "856" },
-    { "TV": "688" },
-    { "TW": "886" },
-    { "TT": "+1-868" },
-    { "TR": "90" },
-    { "LK": "94" },
-    { "LI": "423" },
-    { "LV": "371" },
-    { "TO": "676" },
-    { "LT": "370" },
-    { "LU": "352" },
-    { "LR": "231" },
-    { "LS": "266" },
-    { "TH": "66" },
-    { "TF": "" },
-    { "TG": "228" },
-    { "TD": "235" },
-    { "TC": "+1-649" },
-    { "LY": "218" },
-    { "VA": "379" },
-    { "VC": "+1-784" },
-    { "AE": "971" },
-    { "AD": "376" },
-    { "AG": "+1-268" },
-    { "AF": "93" },
-    { "AI": "+1-264" },
-    { "VI": "+1-340" },
-    { "IS": "354" },
-    { "IR": "98" },
-    { "AM": "374" },
-    { "AL": "355" },
-    { "AO": "244" },
-    { "AQ": "" },
-    { "AS": "+1-684" },
-    { "AR": "54" },
-    { "AU": "61" },
-    { "AT": "43" },
-    { "AW": "297" },
-    { "IN": "91" },
-    { "AX": "+358-18" },
-    { "AZ": "994" },
-    { "IE": "353" },
-    { "ID": "62" },
-    { "UA": "380" },
-    { "QA": "974" },
-    { "MZ": "258" }
-  ],
-  "currency": [
-    { "BD": "BDT" },
-    { "BE": "EUR" },
-    { "BF": "XOF" },
-    { "BG": "BGN" },
-    { "BA": "BAM" },
-    { "BB": "BBD" },
-    { "WF": "XPF" },
-    { "BL": "EUR" },
-    { "BM": "BMD" },
-    { "BN": "BND" },
-    { "BO": "BOB" },
-    { "BH": "BHD" },
-    { "BI": "BIF" },
-    { "BJ": "XOF" },
-    { "BT": "BTN" },
-    { "JM": "JMD" },
-    { "BV": "NOK" },
-    { "BW": "BWP" },
-    { "WS": "WST" },
-    { "BQ": "USD" },
-    { "BR": "BRL" },
-    { "BS": "BSD" },
-    { "JE": "GBP" },
-    { "BY": "BYR" },
-    { "BZ": "BZD" },
-    { "RU": "RUB" },
-    { "RW": "RWF" },
-    { "RS": "RSD" },
-    { "TL": "USD" },
-    { "RE": "EUR" },
-    { "TM": "TMT" },
-    { "TJ": "TJS" },
-    { "RO": "RON" },
-    { "TK": "NZD" },
-    { "GW": "XOF" },
-    { "GU": "USD" },
-    { "GT": "GTQ" },
-    { "GS": "GBP" },
-    { "GR": "EUR" },
-    { "GQ": "XAF" },
-    { "GP": "EUR" },
-    { "JP": "JPY" },
-    { "GY": "GYD" },
-    { "GG": "GBP" },
-    { "GF": "EUR" },
-    { "GE": "GEL" },
-    { "GD": "XCD" },
-    { "GB": "GBP" },
-    { "GA": "XAF" },
-    { "SV": "USD" },
-    { "GN": "GNF" },
-    { "GM": "GMD" },
-    { "GL": "DKK" },
-    { "GI": "GIP" },
-    { "GH": "GHS" },
-    { "OM": "OMR" },
-    { "TN": "TND" },
-    { "JO": "JOD" },
-    { "HR": "HRK" },
-    { "HT": "HTG" },
-    { "HU": "HUF" },
-    { "HK": "HKD" },
-    { "HN": "HNL" },
-    { "HM": "AUD" },
-    { "VE": "VEF" },
-    { "PR": "USD" },
-    { "PS": "ILS" },
-    { "PW": "USD" },
-    { "PT": "EUR" },
-    { "SJ": "NOK" },
-    { "PY": "PYG" },
-    { "IQ": "IQD" },
-    { "PA": "PAB" },
-    { "PF": "XPF" },
-    { "PG": "PGK" },
-    { "PE": "PEN" },
-    { "PK": "PKR" },
-    { "PH": "PHP" },
-    { "PN": "NZD" },
-    { "PL": "PLN" },
-    { "PM": "EUR" },
-    { "ZM": "ZMK" },
-    { "EH": "MAD" },
-    { "EE": "EUR" },
-    { "EG": "EGP" },
-    { "ZA": "ZAR" },
-    { "EC": "USD" },
-    { "IT": "EUR" },
-    { "VN": "VND" },
-    { "SB": "SBD" },
-    { "ET": "ETB" },
-    { "SO": "SOS" },
-    { "ZW": "ZWL" },
-    { "SA": "SAR" },
-    { "ES": "EUR" },
-    { "ER": "ERN" },
-    { "ME": "EUR" },
-    { "MD": "MDL" },
-    { "MG": "MGA" },
-    { "MF": "EUR" },
-    { "MA": "MAD" },
-    { "MC": "EUR" },
-    { "UZ": "UZS" },
-    { "MM": "MMK" },
-    { "ML": "XOF" },
-    { "MO": "MOP" },
-    { "MN": "MNT" },
-    { "MH": "USD" },
-    { "MK": "MKD" },
-    { "MU": "MUR" },
-    { "MT": "EUR" },
-    { "MW": "MWK" },
-    { "MV": "MVR" },
-    { "MQ": "EUR" },
-    { "MP": "USD" },
-    { "MS": "XCD" },
-    { "MR": "MRO" },
-    { "IM": "GBP" },
-    { "UG": "UGX" },
-    { "TZ": "TZS" },
-    { "MY": "MYR" },
-    { "MX": "MXN" },
-    { "IL": "ILS" },
-    { "FR": "EUR" },
-    { "IO": "USD" },
-    { "SH": "SHP" },
-    { "FI": "EUR" },
-    { "FJ": "FJD" },
-    { "FK": "FKP" },
-    { "FM": "USD" },
-    { "FO": "DKK" },
-    { "NI": "NIO" },
-    { "NL": "EUR" },
-    { "NO": "NOK" },
-    { "NA": "NAD" },
-    { "VU": "VUV" },
-    { "NC": "XPF" },
-    { "NE": "XOF" },
-    { "NF": "AUD" },
-    { "NG": "NGN" },
-    { "NZ": "NZD" },
-    { "NP": "NPR" },
-    { "NR": "AUD" },
-    { "NU": "NZD" },
-    { "CK": "NZD" },
-    { "XK": "EUR" },
-    { "CI": "XOF" },
-    { "CH": "CHF" },
-    { "CO": "COP" },
-    { "CN": "CNY" },
-    { "CM": "XAF" },
-    { "CL": "CLP" },
-    { "CC": "AUD" },
-    { "CA": "CAD" },
-    { "CG": "XAF" },
-    { "CF": "XAF" },
-    { "CD": "CDF" },
-    { "CZ": "CZK" },
-    { "CY": "EUR" },
-    { "CX": "AUD" },
-    { "CR": "CRC" },
-    { "CW": "ANG" },
-    { "CV": "CVE" },
-    { "CU": "CUP" },
-    { "SZ": "SZL" },
-    { "SY": "SYP" },
-    { "SX": "ANG" },
-    { "KG": "KGS" },
-    { "KE": "KES" },
-    { "SS": "SSP" },
-    { "SR": "SRD" },
-    { "KI": "AUD" },
-    { "KH": "KHR" },
-    { "KN": "XCD" },
-    { "KM": "KMF" },
-    { "ST": "STD" },
-    { "SK": "EUR" },
-    { "KR": "KRW" },
-    { "SI": "EUR" },
-    { "KP": "KPW" },
-    { "KW": "KWD" },
-    { "SN": "XOF" },
-    { "SM": "EUR" },
-    { "SL": "SLL" },
-    { "SC": "SCR" },
-    { "KZ": "KZT" },
-    { "KY": "KYD" },
-    { "SG": "SGD" },
-    { "SE": "SEK" },
-    { "SD": "SDG" },
-    { "DO": "DOP" },
-    { "DM": "XCD" },
-    { "DJ": "DJF" },
-    { "DK": "DKK" },
-    { "VG": "USD" },
-    { "DE": "EUR" },
-    { "YE": "YER" },
-    { "DZ": "DZD" },
-    { "US": "USD" },
-    { "UY": "UYU" },
-    { "YT": "EUR" },
-    { "UM": "USD" },
-    { "LB": "LBP" },
-    { "LC": "XCD" },
-    { "LA": "LAK" },
-    { "TV": "AUD" },
-    { "TW": "TWD" },
-    { "TT": "TTD" },
-    { "TR": "TRY" },
-    { "LK": "LKR" },
-    { "LI": "CHF" },
-    { "LV": "EUR" },
-    { "TO": "TOP" },
-    { "LT": "LTL" },
-    { "LU": "EUR" },
-    { "LR": "LRD" },
-    { "LS": "LSL" },
-    { "TH": "THB" },
-    { "TF": "EUR" },
-    { "TG": "XOF" },
-    { "TD": "XAF" },
-    { "TC": "USD" },
-    { "LY": "LYD" },
-    { "VA": "EUR" },
-    { "VC": "XCD" },
-    { "AE": "AED" },
-    { "AD": "EUR" },
-    { "AG": "XCD" },
-    { "AF": "AFN" },
-    { "AI": "XCD" },
-    { "VI": "USD" },
-    { "IS": "ISK" },
-    { "IR": "IRR" },
-    { "AM": "AMD" },
-    { "AL": "ALL" },
-    { "AO": "AOA" },
-    { "AQ": "" },
-    { "AS": "USD" },
-    { "AR": "ARS" },
-    { "AU": "AUD" },
-    { "AT": "EUR" },
-    { "AW": "AWG" },
-    { "IN": "INR" },
-    { "AX": "EUR" },
-    { "AZ": "AZN" },
-    { "IE": "EUR" },
-    { "ID": "IDR" },
-    { "UA": "UAH" },
-    { "QA": "QAR" },
-    { "MZ": "MZN" }
-  ],
-  "population": [
-    {
-      "AF": 34656032
-    },
-    {
-      "AL": 2876101
-    },
-    {
-      "DZ": 40606052
-    },
-    {
-      "AS": 55599
-    },
-    {
-      "AD": 77281
-    },
-    {
-      "AO": 28813463
-    },
-    {
-      "AG": 100963
-    },
-    {
-      "AR": 43847430
-    },
-    {
-      "AM": 2924816
-    },
-    {
-      "AW": 104822
-    },
-    {
-      "AU": 24127159
-    },
-    {
-      "AT": 8747358
-    },
-    {
-      "AZ": 9762274
-    },
-    {
-      "BS": 391232
-    },
-    {
-      "BH": 1425171
-    },
-    {
-      "BD": 162951560
-    },
-    {
-      "BB": 284996
-    },
-    {
-      "BY": 9507120
-    },
-    {
-      "BE": 11348159
-    },
-    {
-      "BZ": 366954
-    },
-    {
-      "BJ": 10872298
-    },
-    {
-      "BM": 65331
-    },
-    {
-      "BT": 797765
-    },
-    {
-      "BO": 10887882
-    },
-    {
-      "BA": 3516816
-    },
-    {
-      "BW": 2250260
-    },
-    {
-      "BR": 207652865
-    },
-    {
-      "VG": 30661
-    },
-    {
-      "BN": 423196
-    },
-    {
-      "BG": 7127822
-    },
-    {
-      "BF": 18646433
-    },
-    {
-      "BI": 10524117
-    },
-    {
-      "CV": 539560
-    },
-    {
-      "KH": 15762370
-    },
-    {
-      "CM": 23439189
-    },
-    {
-      "CA": 36286425
-    },
-    {
-      "KY": 60765
-    },
-    {
-      "CF": 4594621
-    },
-    {
-      "TD": 14452543
-    },
-    {
-      "CL": 17909754
-    },
-    {
-      "CN": 1378665000
-    },
-    {
-      "CO": 48653419
-    },
-    {
-      "KM": 795601
-    },
-    {
-      "CD": 78736153
-    },
-    {
-      "CG": 5125821
-    },
-    {
-      "CR": 4857274
-    },
-    {
-      "CI": 23695919
-    },
-    {
-      "HR": 4170600
-    },
-    {
-      "CU": 11475982
-    },
-    {
-      "CW": 159999
-    },
-    {
-      "CY": 1170125
-    },
-    {
-      "CZ": 10561633
-    },
-    {
-      "DK": 5731118
-    },
-    {
-      "DJ": 942333
-    },
-    {
-      "DM": 73543
-    },
-    {
-      "DO": 10648791
-    },
-    {
-      "EC": 16385068
-    },
-    {
-      "EG": 95688681
-    },
-    {
-      "SV": 6344722
-    },
-    {
-      "GQ": 1221490
-    },
-    {
-      "EE": 1316481
-    },
-    {
-      "ET": 102403196
-    },
-    {
-      "FO": 49117
-    },
-    {
-      "FJ": 898760
-    },
-    {
-      "FI": 5495096
-    },
-    {
-      "FR": 66896109
-    },
-    {
-      "PF": 280208
-    },
-    {
-      "GA": 1979786
-    },
-    {
-      "GM": 2038501
-    },
-    {
-      "GE": 3719300
-    },
-    {
-      "DE": 82667685
-    },
-    {
-      "GH": 28206728
-    },
-    {
-      "GI": 34408
-    },
-    {
-      "GR": 10746740
-    },
-    {
-      "GL": 56186
-    },
-    {
-      "GD": 107317
-    },
-    {
-      "GU": 162896
-    },
-    {
-      "GT": 16582469
-    },
-    {
-      "GN": 12395924
-    },
-    {
-      "GW": 1815698
-    },
-    {
-      "GY": 773303
-    },
-    {
-      "HT": 10847334
-    },
-    {
-      "HN": 9112867
-    },
-    {
-      "HK": 7346700
-    },
-    {
-      "HU": 9817958
-    },
-    {
-      "IS": 334252
-    },
-    {
-      "IN": 1324171354
-    },
-    {
-      "ID": 261115456
-    },
-    {
-      "IR": 80277428
-    },
-    {
-      "IQ": 37202572
-    },
-    {
-      "IE": 4773095
-    },
-    {
-      "IM": 83737
-    },
-    {
-      "IL": 8547100
-    },
-    {
-      "IT": 60600590
-    },
-    {
-      "JM": 2881355
-    },
-    {
-      "JP": 126994511
-    },
-    {
-      "JO": 9455802
-    },
-    {
-      "KZ": 17797032
-    },
-    {
-      "KE": 48461567
-    },
-    {
-      "KI": 114395
-    },
-    {
-      "KP": 25368620
-    },
-    {
-      "KR": 51245707
-    },
-    {
-      "KW": 4052584
-    },
-    {
-      "KG": 6082700
-    },
-    {
-      "LA": 6758353
-    },
-    {
-      "LV": 1960424
-    },
-    {
-      "LB": 6006668
-    },
-    {
-      "LS": 2203821
-    },
-    {
-      "LR": 4613823
-    },
-    {
-      "LY": 6293253
-    },
-    {
-      "LI": 37666
-    },
-    {
-      "LT": 2872298
-    },
-    {
-      "LU": 582972
-    },
-    {
-      "MO": 612167
-    },
-    {
-      "MK": 2081206
-    },
-    {
-      "MG": 24894551
-    },
-    {
-      "MW": 18091575
-    },
-    {
-      "MY": 31187265
-    },
-    {
-      "MV": 417492
-    },
-    {
-      "ML": 17994837
-    },
-    {
-      "MT": 436947
-    },
-    {
-      "MH": 53066
-    },
-    {
-      "MR": 4301018
-    },
-    {
-      "MU": 1263473
-    },
-    {
-      "MX": 127540423
-    },
-    {
-      "FM": 104937
-    },
-    {
-      "MD": 3552000
-    },
-    {
-      "MC": 38499
-    },
-    {
-      "MN": 3027398
-    },
-    {
-      "ME": 622781
-    },
-    {
-      "MA": 35276786
-    },
-    {
-      "MZ": 28829476
-    },
-    {
-      "MM": 52885223
-    },
-    {
-      "NA": 2479713
-    },
-    {
-      "NR": 13049
-    },
-    {
-      "NP": 28982771
-    },
-    {
-      "NL": 17018408
-    },
-    {
-      "NC": 278000
-    },
-    {
-      "NZ": 4692700
-    },
-    {
-      "NI": 6149928
-    },
-    {
-      "NE": 20672987
-    },
-    {
-      "NG": 185989640
-    },
-    {
-      "MP": 55023
-    },
-    {
-      "NO": 5232929
-    },
-    {
-      "OM": 4424762
-    },
-    {
-      "PK": 193203476
-    },
-    {
-      "PW": 21503
-    },
-    {
-      "PA": 4034119
-    },
-    {
-      "PG": 8084991
-    },
-    {
-      "PY": 6725308
-    },
-    {
-      "PE": 31773839
-    },
-    {
-      "PH": 103320222
-    },
-    {
-      "PL": 37948016
-    },
-    {
-      "PT": 10324611
-    },
-    {
-      "PR": 3411307
-    },
-    {
-      "QA": 2569804
-    },
-    {
-      "RO": 19705301
-    },
-    {
-      "RU": 144342396
-    },
-    {
-      "RW": 11917508
-    },
-    {
-      "WS": 195125
-    },
-    {
-      "SM": 33203
-    },
-    {
-      "ST": 199910
-    },
-    {
-      "SA": 32275687
-    },
-    {
-      "SN": 15411614
-    },
-    {
-      "RS": 7057412
-    },
-    {
-      "SC": 94677
-    },
-    {
-      "SL": 7396190
-    },
-    {
-      "SG": 5607283
-    },
-    {
-      "SX": 40005
-    },
-    {
-      "SK": 5428704
-    },
-    {
-      "SI": 2064845
-    },
-    {
-      "SB": 599419
-    },
-    {
-      "SO": 14317996
-    },
-    {
-      "ZA": 55908865
-    },
-    {
-      "SS": 12230730
-    },
-    {
-      "ES": 46443959
-    },
-    {
-      "LK": 21203000
-    },
-    {
-      "KN": 54821
-    },
-    {
-      "LC": 178015
-    },
-    {
-      "MF": 31949
-    },
-    {
-      "VC": 109643
-    },
-    {
-      "SD": 39578828
-    },
-    {
-      "SR": 558368
-    },
-    {
-      "SZ": 1343098
-    },
-    {
-      "SE": 9903122
-    },
-    {
-      "CH": 8372098
-    },
-    {
-      "SY": 18430453
-    },
-    {
-      "TJ": 8734951
-    },
-    {
-      "TZ": 55572201
-    },
-    {
-      "TH": 68863514
-    },
-    {
-      "TL": 1268671
-    },
-    {
-      "TG": 7606374
-    },
-    {
-      "TO": 107122
-    },
-    {
-      "TT": 1364962
-    },
-    {
-      "TN": 11403248
-    },
-    {
-      "TR": 79512426
-    },
-    {
-      "TM": 5662544
-    },
-    {
-      "TC": 34900
-    },
-    {
-      "TV": 11097
-    },
-    {
-      "UG": 41487965
-    },
-    {
-      "UA": 45004645
-    },
-    {
-      "AE": 9269612
-    },
-    {
-      "GB": 65637239
-    },
-    {
-      "US": 323127513
-    },
-    {
-      "UY": 3444006
-    },
-    {
-      "UZ": 31848200
-    },
-    {
-      "VU": 270402
-    },
-    {
-      "VE": 31568179
-    },
-    {
-      "VN": 92701100
-    },
-    {
-      "VI": 102951
-    },
-    {
-      "PS": 4551566
-    },
-    {
-      "YE": 27584213
-    },
-    {
-      "ZM": 16591390
-    },
-    {
-      "ZW": 16150362
-    }
-  ],
-  "flags": [
-    {
-      "BD": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/1280px-Flag_of_Bangladesh.svg.png"
-    },
-    {
-      "BE": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/1182px-Flag_of_Belgium.svg.png"
-    },
-    {
-      "BF": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/1280px-Flag_of_Burkina_Faso.svg.png"
-    },
-    {
-      "BG": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/1280px-Flag_of_Bulgaria.svg.png"
-    },
-    {
-      "BA": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/1280px-Flag_of_Bosnia_and_Herzegovina.svg.png"
-    },
-    {
-      "BB": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Barbados.svg/1280px-Flag_of_Barbados.svg.png"
-    },
-    {
-      "WF": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Flag_of_Wallis_and_Futuna.svg/1280px-Flag_of_Wallis_and_Futuna.svg.png"
-    },
-    {
-      "BL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Flag_of_Saint_Barthelemy.svg/1280px-Flag_of_Saint_Barthelemy.svg.png"
-    },
-    {
-      "BM": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bermuda.svg/1280px-Flag_of_Bermuda.svg.png"
-    },
-    {
-      "BN": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/1280px-Flag_of_Brunei.svg.png"
-    },
-    {
-      "BO": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/1280px-Flag_of_Bolivia.svg.png"
-    },
-    {
-      "BH": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/1280px-Flag_of_Bahrain.svg.png"
-    },
-    {
-      "BI": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Burundi.svg/1280px-Flag_of_Burundi.svg.png"
-    },
-    {
-      "BJ": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/1280px-Flag_of_Benin.svg.png"
-    },
-    {
-      "BT": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/1280px-Flag_of_Bhutan.svg.png"
-    },
-    {
-      "JM": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/1280px-Flag_of_Jamaica.svg.png"
-    },
-    { "BV": "" },
-    {
-      "BW": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Botswana.svg/1280px-Flag_of_Botswana.svg.png"
-    },
-    {
-      "WS": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Samoa.svg/1280px-Flag_of_Samoa.svg.png"
-    },
-    { "BQ": "" },
-    {
-      "BR": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png"
-    },
-    {
-      "BS": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_the_Bahamas.svg/1280px-Flag_of_the_Bahamas.svg.png"
-    },
-    {
-      "JE": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Flag_of_Jersey.svg/1280px-Flag_of_Jersey.svg.png"
-    },
-    {
-      "BY": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/1280px-Flag_of_Belarus.svg.png"
-    },
-    {
-      "BZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/1280px-Flag_of_Belize.svg.png"
-    },
-    {
-      "RU": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1280px-Flag_of_Russia.svg.png"
-    },
-    {
-      "RW": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Rwanda.svg/1280px-Flag_of_Rwanda.svg.png"
-    },
-    {
-      "RS": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/1280px-Flag_of_Serbia.svg.png"
-    },
-    {
-      "TL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/1280px-Flag_of_East_Timor.svg.png"
-    },
-    { "RE": "" },
-    {
-      "TM": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/1280px-Flag_of_Turkmenistan.svg.png"
-    },
-    {
-      "TJ": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Tajikistan.svg/1280px-Flag_of_Tajikistan.svg.png"
-    },
-    {
-      "RO": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/1280px-Flag_of_Romania.svg.png"
-    },
-    {
-      "TK": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_Tokelau.svg/1280px-Flag_of_Tokelau.svg.png"
-    },
-    { "GW": "https:Bissau.svg/1280px-Flag_of_Guinea-Bissau.svg.png" },
-    {
-      "GU": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flag_of_Guam.svg/1280px-Flag_of_Guam.svg.png"
-    },
-    {
-      "GT": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/1280px-Flag_of_Guatemala.svg.png"
-    },
-    {
-      "GS": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg/1280px-Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg.png"
-    },
-    {
-      "GR": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/1280px-Flag_of_Greece.svg.png"
-    },
-    {
-      "GQ": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/1280px-Flag_of_Equatorial_Guinea.svg.png"
-    },
-    {
-      "GP": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Unofficial_flag_of_Guadeloupe_%28local%29.svg/1024px-Unofficial_flag_of_Guadeloupe_%28local%29.svg.png"
-    },
-    {
-      "JP": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1280px-Flag_of_Japan.svg.png"
-    },
-    {
-      "GY": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/1280px-Flag_of_Guyana.svg.png"
-    },
-    {
-      "GG": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Guernsey.svg/1280px-Flag_of_Guernsey.svg.png"
-    },
-    {
-      "GF": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_French_Guiana.svg/1280px-Flag_of_French_Guiana.svg.png"
-    },
-    {
-      "GE": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/1280px-Flag_of_Georgia.svg.png"
-    },
-    {
-      "GD": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/1280px-Flag_of_Grenada.svg.png"
-    },
-    {
-      "GB": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png"
-    },
-    {
-      "GA": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/1280px-Flag_of_Gabon.svg.png"
-    },
-    {
-      "SV": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/1280px-Flag_of_El_Salvador.svg.png"
-    },
-    {
-      "GN": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Guinea.svg/1280px-Flag_of_Guinea.svg.png"
-    },
-    {
-      "GM": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_The_Gambia.svg/1280px-Flag_of_The_Gambia.svg.png"
-    },
-    {
-      "GL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_Greenland.svg/1280px-Flag_of_Greenland.svg.png"
-    },
-    {
-      "GI": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Flag_of_Gibraltar.svg/1280px-Flag_of_Gibraltar.svg.png"
-    },
-    {
-      "GH": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/1280px-Flag_of_Ghana.svg.png"
-    },
-    {
-      "OM": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/1280px-Flag_of_Oman.svg.png"
-    },
-    {
-      "TN": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/1280px-Flag_of_Tunisia.svg.png"
-    },
-    {
-      "JO": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/1280px-Flag_of_Jordan.svg.png"
-    },
-    {
-      "HR": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/1280px-Flag_of_Croatia.svg.png"
-    },
-    {
-      "HT": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/1280px-Flag_of_Haiti.svg.png"
-    },
-    {
-      "HU": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/1280px-Flag_of_Hungary.svg.png"
-    },
-    {
-      "HK": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/1280px-Flag_of_Hong_Kong.svg.png"
-    },
-    {
-      "HN": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Honduras.svg/1280px-Flag_of_Honduras.svg.png"
-    },
-    { "HM": "" },
-    {
-      "VE": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/1280px-Flag_of_Venezuela.svg.png"
-    },
-    {
-      "PR": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/1280px-Flag_of_Puerto_Rico.svg.png"
-    },
-    { "PS": "" },
-    {
-      "PW": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Palau.svg/1280px-Flag_of_Palau.svg.png"
-    },
-    {
-      "PT": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/1280px-Flag_of_Portugal.svg.png"
-    },
-    { "SJ": "" },
-    {
-      "PY": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/1280px-Flag_of_Paraguay.svg.png"
-    },
-    {
-      "IQ": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/1280px-Flag_of_Iraq.svg.png"
-    },
-    {
-      "PA": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/1280px-Flag_of_Panama.svg.png"
-    },
-    {
-      "PF": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Flag_of_French_Polynesia.svg/1280px-Flag_of_French_Polynesia.svg.png"
-    },
-    {
-      "PG": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/1280px-Flag_of_Papua_New_Guinea.svg.png"
-    },
-    {
-      "PE": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/1280px-Flag_of_Peru.svg.png"
-    },
-    {
-      "PK": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/1280px-Flag_of_Pakistan.svg.png"
-    },
-    {
-      "PH": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/1280px-Flag_of_the_Philippines.svg.png"
-    },
-    {
-      "PN": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_the_Pitcairn_Islands.svg/1280px-Flag_of_the_Pitcairn_Islands.svg.png"
-    },
-    {
-      "PL": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1280px-Flag_of_Poland.svg.png"
-    },
-    {
-      "PM": "https:Pierre_and_Miquelon.svg/1280px-Flag_of_Saint-Pierre_and_Miquelon.svg.png"
-    },
-    {
-      "ZM": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Zambia.svg/1280px-Flag_of_Zambia.svg.png"
-    },
-    {
-      "EH": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg/1280px-Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg.png"
-    },
-    {
-      "EE": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/1280px-Flag_of_Estonia.svg.png"
-    },
-    {
-      "EG": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/1280px-Flag_of_Egypt.svg.png"
-    },
-    {
-      "ZA": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1280px-Flag_of_South_Africa.svg.png"
-    },
-    {
-      "EC": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/1280px-Flag_of_Ecuador.svg.png"
-    },
-    {
-      "IT": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/1280px-Flag_of_Italy.svg.png"
-    },
-    {
-      "VN": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1280px-Flag_of_Vietnam.svg.png"
-    },
-    {
-      "SB": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/1280px-Flag_of_the_Solomon_Islands.svg.png"
-    },
-    {
-      "ET": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/1280px-Flag_of_Ethiopia.svg.png"
-    },
-    {
-      "SO": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/1280px-Flag_of_Somalia.svg.png"
-    },
-    {
-      "ZW": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/1280px-Flag_of_Zimbabwe.svg.png"
-    },
-    {
-      "SA": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/1280px-Flag_of_Saudi_Arabia.svg.png"
-    },
-    {
-      "ES": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png"
-    },
-    {
-      "ER": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Eritrea.svg/1280px-Flag_of_Eritrea.svg.png"
-    },
-    {
-      "ME": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/1280px-Flag_of_Montenegro.svg.png"
-    },
-    {
-      "MD": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/1280px-Flag_of_Moldova.svg.png"
-    },
-    {
-      "MG": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/1280px-Flag_of_Madagascar.svg.png"
-    },
-    { "MF": "" },
-    {
-      "MA": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1280px-Flag_of_Morocco.svg.png"
-    },
-    {
-      "MC": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/1280px-Flag_of_Monaco.svg.png"
-    },
-    {
-      "UZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/1280px-Flag_of_Uzbekistan.svg.png"
-    },
-    {
-      "MM": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/1280px-Flag_of_Myanmar.svg.png"
-    },
-    {
-      "ML": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/1280px-Flag_of_Mali.svg.png"
-    },
-    {
-      "MO": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_Macau.svg/1280px-Flag_of_Macau.svg.png"
-    },
-    {
-      "MN": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/1280px-Flag_of_Mongolia.svg.png"
-    },
-    {
-      "MH": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_the_Marshall_Islands.svg/1280px-Flag_of_the_Marshall_Islands.svg.png"
-    },
-    {
-      "MK": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/1280px-Flag_of_North_Macedonia.svg.png"
-    },
-    {
-      "MU": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/1280px-Flag_of_Mauritius.svg.png"
-    },
-    {
-      "MT": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/1280px-Flag_of_Malta.svg.png"
-    },
-    {
-      "MW": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Malawi.svg/1280px-Flag_of_Malawi.svg.png"
-    },
-    {
-      "MV": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/1280px-Flag_of_Maldives.svg.png"
-    },
-    {
-      "MQ": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Snake_Flag_of_Martinique.svg/1024px-Snake_Flag_of_Martinique.svg.png"
-    },
-    {
-      "MP": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_the_Northern_Mariana_Islands.svg/1280px-Flag_of_the_Northern_Mariana_Islands.svg.png"
-    },
-    {
-      "MS": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Montserrat.svg/1280px-Flag_of_Montserrat.svg.png"
-    },
-    {
-      "MR": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Mauritania.svg/1280px-Flag_of_Mauritania.svg.png"
-    },
-    {
-      "IM": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_the_Isle_of_Man.svg/1280px-Flag_of_the_Isle_of_Man.svg.png"
-    },
-    {
-      "UG": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/1280px-Flag_of_Uganda.svg.png"
-    },
-    {
-      "TZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/1280px-Flag_of_Tanzania.svg.png"
-    },
-    {
-      "MY": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/1280px-Flag_of_Malaysia.svg.png"
-    },
-    {
-      "MX": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1280px-Flag_of_Mexico.svg.png"
-    },
-    {
-      "IL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/1280px-Flag_of_Israel.svg.png"
-    },
-    {
-      "FR": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png"
-    },
-    {
-      "IO": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Flag_of_the_British_Indian_Ocean_Territory.svg/1280px-Flag_of_the_British_Indian_Ocean_Territory.svg.png"
-    },
-    {
-      "SH": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Saint_Helena.svg/1280px-Flag_of_Saint_Helena.svg.png"
-    },
-    {
-      "FI": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/1280px-Flag_of_Finland.svg.png"
-    },
-    {
-      "FJ": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/1280px-Flag_of_Fiji.svg.png"
-    },
-    {
-      "FK": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_Falkland_Islands.svg/1280px-Flag_of_the_Falkland_Islands.svg.png"
-    },
-    {
-      "FM": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg/1280px-Flag_of_the_Federated_States_of_Micronesia.svg.png"
-    },
-    {
-      "FO": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flag_of_the_Faroe_Islands.svg/1280px-Flag_of_the_Faroe_Islands.svg.png"
-    },
-    {
-      "NI": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/1280px-Flag_of_Nicaragua.svg.png"
-    },
-    {
-      "NL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1280px-Flag_of_the_Netherlands.svg.png"
-    },
-    {
-      "NO": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/1280px-Flag_of_Norway.svg.png"
-    },
-    {
-      "NA": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/1280px-Flag_of_Namibia.svg.png"
-    },
-    {
-      "VU": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Vanuatu.svg/1280px-Flag_of_Vanuatu.svg.png"
-    },
-    {
-      "NC": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_FLNKS.svg/1280px-Flag_of_FLNKS.svg.png"
-    },
-    {
-      "NE": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/1195px-Flag_of_Niger.svg.png"
-    },
-    {
-      "NF": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Norfolk_Island.svg/1280px-Flag_of_Norfolk_Island.svg.png"
-    },
-    {
-      "NG": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1280px-Flag_of_Nigeria.svg.png"
-    },
-    {
-      "NZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/1280px-Flag_of_New_Zealand.svg.png"
-    },
-    {
-      "NP": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/840px-Flag_of_Nepal.svg.png"
-    },
-    {
-      "NR": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Flag_of_Nauru.svg/1280px-Flag_of_Nauru.svg.png"
-    },
-    {
-      "NU": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Niue.svg/1280px-Flag_of_Niue.svg.png"
-    },
-    {
-      "CK": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_the_Cook_Islands.svg/1280px-Flag_of_the_Cook_Islands.svg.png"
-    },
-    {
-      "XK": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Kosovo.svg/1280px-Flag_of_Kosovo.svg.png"
-    },
-    { "CI": "https:27Ivoire.svg/1280px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png" },
-    {
-      "CH": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/1024px-Flag_of_Switzerland.svg.png"
-    },
-    {
-      "CO": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/1280px-Flag_of_Colombia.svg.png"
-    },
-    {
-      "CN": "https:27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png"
-    },
-    {
-      "CM": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/1280px-Flag_of_Cameroon.svg.png"
-    },
-    {
-      "CL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/1280px-Flag_of_Chile.svg.png"
-    },
-    { "CC": "" },
-    {
-      "CA": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Flag_of_Canada.svg/1280px-Flag_of_Canada.svg.png"
-    },
-    {
-      "CG": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/1280px-Flag_of_the_Republic_of_the_Congo.svg.png"
-    },
-    {
-      "CF": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Central_African_Republic.svg/1280px-Flag_of_the_Central_African_Republic.svg.png"
-    },
-    {
-      "CD": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/1280px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png"
-    },
-    {
-      "CZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png"
-    },
-    {
-      "CY": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/1280px-Flag_of_Cyprus.svg.png"
-    },
-    {
-      "CX": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Flag_of_Christmas_Island.svg/1280px-Flag_of_Christmas_Island.svg.png"
-    },
-    {
-      "CR": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/1280px-Flag_of_Costa_Rica.svg.png"
-    },
-    { "CW": "https:A7ao.svg/1280px-Flag_of_Cura%C3%A7ao.svg.png" },
-    {
-      "CV": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Cape_Verde.svg/1280px-Flag_of_Cape_Verde.svg.png"
-    },
-    {
-      "CU": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/1280px-Flag_of_Cuba.svg.png"
-    },
-    {
-      "SZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/1280px-Flag_of_Eswatini.svg.png"
-    },
-    {
-      "SY": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/1280px-Flag_of_Syria.svg.png"
-    },
-    {
-      "SX": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Sint_Maarten.svg/1280px-Flag_of_Sint_Maarten.svg.png"
-    },
-    {
-      "KG": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/1280px-Flag_of_Kyrgyzstan.svg.png"
-    },
-    {
-      "KE": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/1280px-Flag_of_Kenya.svg.png"
-    },
-    {
-      "SS": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_South_Sudan.svg/1280px-Flag_of_South_Sudan.svg.png"
-    },
-    {
-      "SR": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/1280px-Flag_of_Suriname.svg.png"
-    },
-    {
-      "KI": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kiribati.svg/1280px-Flag_of_Kiribati.svg.png"
-    },
-    {
-      "KH": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/1280px-Flag_of_Cambodia.svg.png"
-    },
-    {
-      "KN": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/1280px-Flag_of_Saint_Kitts_and_Nevis.svg.png"
-    },
-    {
-      "KM": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag_of_the_Comoros.svg/1280px-Flag_of_the_Comoros.svg.png"
-    },
-    {
-      "ST": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Sao_Tome_and_Principe.svg/1280px-Flag_of_Sao_Tome_and_Principe.svg.png"
-    },
-    {
-      "SK": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/1280px-Flag_of_Slovakia.svg.png"
-    },
-    {
-      "KR": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png"
-    },
-    {
-      "SI": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/1280px-Flag_of_Slovenia.svg.png"
-    },
-    {
-      "KP": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/1280px-Flag_of_North_Korea.svg.png"
-    },
-    {
-      "KW": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/1280px-Flag_of_Kuwait.svg.png"
-    },
-    {
-      "SN": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png"
-    },
-    {
-      "SM": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_San_Marino.svg/1280px-Flag_of_San_Marino.svg.png"
-    },
-    {
-      "SL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Sierra_Leone.svg/1280px-Flag_of_Sierra_Leone.svg.png"
-    },
-    {
-      "SC": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/1280px-Flag_of_Seychelles.svg.png"
-    },
-    {
-      "KZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/1280px-Flag_of_Kazakhstan.svg.png"
-    },
-    { "KY": "https:1f1fe.svg.png" },
-    {
-      "SG": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/1280px-Flag_of_Singapore.svg.png"
-    },
-    {
-      "SE": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/1280px-Flag_of_Sweden.svg.png"
-    },
-    {
-      "SD": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Sudan.svg/1280px-Flag_of_Sudan.svg.png"
-    },
-    {
-      "DO": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/1280px-Flag_of_the_Dominican_Republic.svg.png"
-    },
-    {
-      "DM": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Dominica.svg/1280px-Flag_of_Dominica.svg.png"
-    },
-    {
-      "DJ": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/1280px-Flag_of_Djibouti.svg.png"
-    },
-    {
-      "DK": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1280px-Flag_of_Denmark.svg.png"
-    },
-    {
-      "VG": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_the_British_Virgin_Islands.svg/1280px-Flag_of_the_British_Virgin_Islands.svg.png"
-    },
-    {
-      "DE": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1280px-Flag_of_Germany.svg.png"
-    },
-    {
-      "YE": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/1280px-Flag_of_Yemen.svg.png"
-    },
-    {
-      "DZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/1280px-Flag_of_Algeria.svg.png"
-    },
-    {
-      "US": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png"
-    },
-    {
-      "UY": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/1280px-Flag_of_Uruguay.svg.png"
-    },
-    { "YT": "https:29.svg/1280px-Flag_of_Mayotte_%28local%29.svg.png" },
-    { "UM": "" },
-    {
-      "LB": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/1280px-Flag_of_Lebanon.svg.png"
-    },
-    {
-      "LC": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/1280px-Flag_of_Saint_Lucia.svg.png"
-    },
-    {
-      "LA": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/1280px-Flag_of_Laos.svg.png"
-    },
-    {
-      "TV": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/1280px-Flag_of_Tuvalu.svg.png"
-    },
-    {
-      "TW": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/1280px-Flag_of_the_Republic_of_China.svg.png"
-    },
-    {
-      "TT": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/1280px-Flag_of_Trinidad_and_Tobago.svg.png"
-    },
-    {
-      "TR": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1280px-Flag_of_Turkey.svg.png"
-    },
-    {
-      "LK": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/1280px-Flag_of_Sri_Lanka.svg.png"
-    },
-    {
-      "LI": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Liechtenstein.svg/1280px-Flag_of_Liechtenstein.svg.png"
-    },
-    {
-      "LV": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/1280px-Flag_of_Latvia.svg.png"
-    },
-    {
-      "TO": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/1280px-Flag_of_Tonga.svg.png"
-    },
-    {
-      "LT": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/1280px-Flag_of_Lithuania.svg.png"
-    },
-    {
-      "LU": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/1280px-Flag_of_Luxembourg.svg.png"
-    },
-    {
-      "LR": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/1280px-Flag_of_Liberia.svg.png"
-    },
-    {
-      "LS": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Lesotho.svg/1280px-Flag_of_Lesotho.svg.png"
-    },
-    {
-      "TH": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/1280px-Flag_of_Thailand.svg.png"
-    },
-    { "TF": "" },
-    {
-      "TG": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/1280px-Flag_of_Togo.svg.png"
-    },
-    {
-      "TD": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_Chad.svg/1280px-Flag_of_Chad.svg.png"
-    },
-    {
-      "TC": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_the_Turks_and_Caicos_Islands.svg/1280px-Flag_of_the_Turks_and_Caicos_Islands.svg.png"
-    },
-    {
-      "LY": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Libya.svg/1280px-Flag_of_Libya.svg.png"
-    },
-    {
-      "VA": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_the_Vatican_City.svg/1024px-Flag_of_the_Vatican_City.svg.png"
-    },
-    {
-      "VC": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/1280px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png"
-    },
-    {
-      "AE": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/1280px-Flag_of_the_United_Arab_Emirates.svg.png"
-    },
-    {
-      "AD": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/1280px-Flag_of_Andorra.svg.png"
-    },
-    {
-      "AG": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/1280px-Flag_of_Antigua_and_Barbuda.svg.png"
-    },
-    {
-      "AF": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Afghanistan.svg/1280px-Flag_of_Afghanistan.svg.png"
-    },
-    {
-      "AI": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Anguilla.svg/1280px-Flag_of_Anguilla.svg.png"
-    },
-    { "VI": "" },
-    {
-      "IS": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/1280px-Flag_of_Iceland.svg.png"
-    },
-    {
-      "IR": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/1280px-Flag_of_Iran.svg.png"
-    },
-    {
-      "AM": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/1280px-Flag_of_Armenia.svg.png"
-    },
-    {
-      "AL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/1280px-Flag_of_Albania.svg.png"
-    },
-    {
-      "AO": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/1280px-Flag_of_Angola.svg.png"
-    },
-    {
-      "AQ": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg/1024px-Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg.png"
-    },
-    {
-      "AS": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Flag_of_American_Samoa.svg/1280px-Flag_of_American_Samoa.svg.png"
-    },
-    {
-      "AR": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1280px-Flag_of_Argentina.svg.png"
-    },
-    {
-      "AU": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Flag_of_Australia.svg/1280px-Flag_of_Australia.svg.png"
-    },
-    {
-      "AT": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/1280px-Flag_of_Austria.svg.png"
-    },
-    {
-      "AW": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Aruba.svg/1280px-Flag_of_Aruba.svg.png"
-    },
-    {
-      "IN": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1280px-Flag_of_India.svg.png"
-    },
-    { "AX": "" },
-    {
-      "AZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/1280px-Flag_of_Azerbaijan.svg.png"
-    },
-    {
-      "IE": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/1280px-Flag_of_Ireland.svg.png"
-    },
-    {
-      "ID": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/1280px-Flag_of_Indonesia.svg.png"
-    },
-    {
-      "UA": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1280px-Flag_of_Ukraine.svg.png"
-    },
-    {
-      "QA": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/1280px-Flag_of_Qatar.svg.png"
-    },
-    {
-      "MZ": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/1280px-Flag_of_Mozambique.svg.png"
-    }
-  ]
+    "countries": [
+        {
+            "abbreviation": "BD",
+            "capital": "Dhaka",
+            "currency": "BDT",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/1280px-Flag_of_Bangladesh.svg.png",
+            "name": "Bangladesh",
+            "phone": "880",
+            "population": 162951560
+        },
+        {
+            "abbreviation": "BE",
+            "capital": "Brussels",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/1182px-Flag_of_Belgium.svg.png",
+            "name": "Belgium",
+            "phone": "32",
+            "population": 11348159
+        },
+        {
+            "abbreviation": "BF",
+            "capital": "Ouagadougou",
+            "currency": "XOF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/1280px-Flag_of_Burkina_Faso.svg.png",
+            "name": "Burkina Faso",
+            "phone": "226",
+            "population": 18646433
+        },
+        {
+            "abbreviation": "BG",
+            "capital": "Sofia",
+            "currency": "BGN",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/1280px-Flag_of_Bulgaria.svg.png",
+            "name": "Bulgaria",
+            "phone": "359",
+            "population": 7127822
+        },
+        {
+            "abbreviation": "BA",
+            "capital": "Sarajevo",
+            "currency": "BAM",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/1280px-Flag_of_Bosnia_and_Herzegovina.svg.png",
+            "name": "Bosnia and Herzegovina",
+            "phone": "387",
+            "population": 3516816
+        },
+        {
+            "abbreviation": "BB",
+            "capital": "Bridgetown",
+            "currency": "BBD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Barbados.svg/1280px-Flag_of_Barbados.svg.png",
+            "name": "Barbados",
+            "phone": "+1-246",
+            "population": 284996
+        },
+        {
+            "abbreviation": "WF",
+            "capital": "Mata Utu",
+            "currency": "XPF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Flag_of_Wallis_and_Futuna.svg/1280px-Flag_of_Wallis_and_Futuna.svg.png",
+            "name": "Wallis and Futuna",
+            "phone": "681"
+        },
+        {
+            "abbreviation": "BL",
+            "capital": "Gustavia",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Flag_of_Saint_Barthelemy.svg/1280px-Flag_of_Saint_Barthelemy.svg.png",
+            "name": "Saint Barthelemy",
+            "phone": "590"
+        },
+        {
+            "abbreviation": "BM",
+            "capital": "Hamilton",
+            "currency": "BMD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bermuda.svg/1280px-Flag_of_Bermuda.svg.png",
+            "name": "Bermuda",
+            "phone": "+1-441",
+            "population": 65331
+        },
+        {
+            "abbreviation": "BN",
+            "capital": "Bandar Seri Begawan",
+            "currency": "BND",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/1280px-Flag_of_Brunei.svg.png",
+            "name": "Brunei",
+            "phone": "673",
+            "population": 423196
+        },
+        {
+            "abbreviation": "BO",
+            "capital": "Sucre",
+            "currency": "BOB",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/1280px-Flag_of_Bolivia.svg.png",
+            "name": "Bolivia",
+            "phone": "591",
+            "population": 10887882
+        },
+        {
+            "abbreviation": "BH",
+            "capital": "Manama",
+            "currency": "BHD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/1280px-Flag_of_Bahrain.svg.png",
+            "name": "Bahrain",
+            "phone": "973",
+            "population": 1425171
+        },
+        {
+            "abbreviation": "BI",
+            "capital": "Bujumbura",
+            "currency": "BIF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Burundi.svg/1280px-Flag_of_Burundi.svg.png",
+            "name": "Burundi",
+            "phone": "257",
+            "population": 10524117
+        },
+        {
+            "abbreviation": "BJ",
+            "capital": "Porto-Novo",
+            "currency": "XOF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/1280px-Flag_of_Benin.svg.png",
+            "name": "Benin",
+            "phone": "229",
+            "population": 10872298
+        },
+        {
+            "abbreviation": "BT",
+            "capital": "Thimphu",
+            "currency": "BTN",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/1280px-Flag_of_Bhutan.svg.png",
+            "name": "Bhutan",
+            "phone": "975",
+            "population": 797765
+        },
+        {
+            "abbreviation": "JM",
+            "capital": "Kingston",
+            "currency": "JMD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/1280px-Flag_of_Jamaica.svg.png",
+            "name": "Jamaica",
+            "phone": "+1-876",
+            "population": 2881355
+        },
+        {
+            "abbreviation": "BV",
+            "capital": "",
+            "currency": "NOK",
+            "flag": "",
+            "name": "Bouvet Island",
+            "phone": ""
+        },
+        {
+            "abbreviation": "BW",
+            "capital": "Gaborone",
+            "currency": "BWP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Botswana.svg/1280px-Flag_of_Botswana.svg.png",
+            "name": "Botswana",
+            "phone": "267",
+            "population": 2250260
+        },
+        {
+            "abbreviation": "WS",
+            "capital": "Apia",
+            "currency": "WST",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Samoa.svg/1280px-Flag_of_Samoa.svg.png",
+            "name": "Samoa",
+            "phone": "685",
+            "population": 195125
+        },
+        {
+            "abbreviation": "BQ",
+            "capital": "",
+            "currency": "USD",
+            "flag": "",
+            "name": "Bonaire, Saint Eustatius and Saba",
+            "phone": "599"
+        },
+        {
+            "abbreviation": "BR",
+            "capital": "Brasilia",
+            "currency": "BRL",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
+            "name": "Brazil",
+            "phone": "55",
+            "population": 207652865
+        },
+        {
+            "abbreviation": "BS",
+            "capital": "Nassau",
+            "currency": "BSD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_the_Bahamas.svg/1280px-Flag_of_the_Bahamas.svg.png",
+            "name": "Bahamas",
+            "phone": "+1-242",
+            "population": 391232
+        },
+        {
+            "abbreviation": "JE",
+            "capital": "Saint Helier",
+            "currency": "GBP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Flag_of_Jersey.svg/1280px-Flag_of_Jersey.svg.png",
+            "name": "Jersey",
+            "phone": "+44-1534"
+        },
+        {
+            "abbreviation": "BY",
+            "capital": "Minsk",
+            "currency": "BYR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/1280px-Flag_of_Belarus.svg.png",
+            "name": "Belarus",
+            "phone": "375",
+            "population": 9507120
+        },
+        {
+            "abbreviation": "BZ",
+            "capital": "Belmopan",
+            "currency": "BZD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/1280px-Flag_of_Belize.svg.png",
+            "name": "Belize",
+            "phone": "501",
+            "population": 366954
+        },
+        {
+            "abbreviation": "RU",
+            "capital": "Moscow",
+            "currency": "RUB",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1280px-Flag_of_Russia.svg.png",
+            "name": "Russia",
+            "phone": "7",
+            "population": 144342396
+        },
+        {
+            "abbreviation": "RW",
+            "capital": "Kigali",
+            "currency": "RWF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Rwanda.svg/1280px-Flag_of_Rwanda.svg.png",
+            "name": "Rwanda",
+            "phone": "250",
+            "population": 11917508
+        },
+        {
+            "abbreviation": "RS",
+            "capital": "Belgrade",
+            "currency": "RSD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/1280px-Flag_of_Serbia.svg.png",
+            "name": "Serbia",
+            "phone": "381",
+            "population": 7057412
+        },
+        {
+            "abbreviation": "TL",
+            "capital": "Dili",
+            "currency": "USD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/1280px-Flag_of_East_Timor.svg.png",
+            "name": "East Timor",
+            "phone": "670",
+            "population": 1268671
+        },
+        {
+            "abbreviation": "RE",
+            "capital": "Saint-Denis",
+            "currency": "EUR",
+            "flag": "",
+            "name": "Reunion",
+            "phone": "262"
+        },
+        {
+            "abbreviation": "TM",
+            "capital": "Ashgabat",
+            "currency": "TMT",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/1280px-Flag_of_Turkmenistan.svg.png",
+            "name": "Turkmenistan",
+            "phone": "993",
+            "population": 5662544
+        },
+        {
+            "abbreviation": "TJ",
+            "capital": "Dushanbe",
+            "currency": "TJS",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Tajikistan.svg/1280px-Flag_of_Tajikistan.svg.png",
+            "name": "Tajikistan",
+            "phone": "992",
+            "population": 8734951
+        },
+        {
+            "abbreviation": "RO",
+            "capital": "Bucharest",
+            "currency": "RON",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/1280px-Flag_of_Romania.svg.png",
+            "name": "Romania",
+            "phone": "40",
+            "population": 19705301
+        },
+        {
+            "abbreviation": "TK",
+            "capital": "",
+            "currency": "NZD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_Tokelau.svg/1280px-Flag_of_Tokelau.svg.png",
+            "name": "Tokelau",
+            "phone": "690"
+        },
+        {
+            "abbreviation": "GW",
+            "capital": "Bissau",
+            "currency": "XOF",
+            "flag": "https:Bissau.svg/1280px-Flag_of_Guinea-Bissau.svg.png",
+            "name": "Guinea-Bissau",
+            "phone": "245",
+            "population": 1815698
+        },
+        {
+            "abbreviation": "GU",
+            "capital": "Hagatna",
+            "currency": "USD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flag_of_Guam.svg/1280px-Flag_of_Guam.svg.png",
+            "name": "Guam",
+            "phone": "+1-671",
+            "population": 162896
+        },
+        {
+            "abbreviation": "GT",
+            "capital": "Guatemala City",
+            "currency": "GTQ",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/1280px-Flag_of_Guatemala.svg.png",
+            "name": "Guatemala",
+            "phone": "502",
+            "population": 16582469
+        },
+        {
+            "abbreviation": "GS",
+            "capital": "Grytviken",
+            "currency": "GBP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg/1280px-Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg.png",
+            "name": "South Georgia and the South Sandwich Islands",
+            "phone": ""
+        },
+        {
+            "abbreviation": "GR",
+            "capital": "Athens",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/1280px-Flag_of_Greece.svg.png",
+            "name": "Greece",
+            "phone": "30",
+            "population": 10746740
+        },
+        {
+            "abbreviation": "GQ",
+            "capital": "Malabo",
+            "currency": "XAF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/1280px-Flag_of_Equatorial_Guinea.svg.png",
+            "name": "Equatorial Guinea",
+            "phone": "240",
+            "population": 1221490
+        },
+        {
+            "abbreviation": "GP",
+            "capital": "Basse-Terre",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Unofficial_flag_of_Guadeloupe_%28local%29.svg/1024px-Unofficial_flag_of_Guadeloupe_%28local%29.svg.png",
+            "name": "Guadeloupe",
+            "phone": "590"
+        },
+        {
+            "abbreviation": "JP",
+            "capital": "Tokyo",
+            "currency": "JPY",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1280px-Flag_of_Japan.svg.png",
+            "name": "Japan",
+            "phone": "81",
+            "population": 126994511
+        },
+        {
+            "abbreviation": "GY",
+            "capital": "Georgetown",
+            "currency": "GYD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/1280px-Flag_of_Guyana.svg.png",
+            "name": "Guyana",
+            "phone": "592",
+            "population": 773303
+        },
+        {
+            "abbreviation": "GG",
+            "capital": "St Peter Port",
+            "currency": "GBP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Guernsey.svg/1280px-Flag_of_Guernsey.svg.png",
+            "name": "Guernsey",
+            "phone": "+44-1481"
+        },
+        {
+            "abbreviation": "GF",
+            "capital": "Cayenne",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_French_Guiana.svg/1280px-Flag_of_French_Guiana.svg.png",
+            "name": "French Guiana",
+            "phone": "594"
+        },
+        {
+            "abbreviation": "GE",
+            "capital": "Tbilisi",
+            "currency": "GEL",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/1280px-Flag_of_Georgia.svg.png",
+            "name": "Georgia",
+            "phone": "995",
+            "population": 3719300
+        },
+        {
+            "abbreviation": "GD",
+            "capital": "St. George's",
+            "currency": "XCD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/1280px-Flag_of_Grenada.svg.png",
+            "name": "Grenada",
+            "phone": "+1-473",
+            "population": 107317
+        },
+        {
+            "abbreviation": "GB",
+            "capital": "London",
+            "currency": "GBP",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png",
+            "name": "United Kingdom",
+            "phone": "44",
+            "population": 65637239
+        },
+        {
+            "abbreviation": "GA",
+            "capital": "Libreville",
+            "currency": "XAF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/1280px-Flag_of_Gabon.svg.png",
+            "name": "Gabon",
+            "phone": "241",
+            "population": 1979786
+        },
+        {
+            "abbreviation": "SV",
+            "capital": "San Salvador",
+            "currency": "USD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/1280px-Flag_of_El_Salvador.svg.png",
+            "name": "El Salvador",
+            "phone": "503",
+            "population": 6344722
+        },
+        {
+            "abbreviation": "GN",
+            "capital": "Conakry",
+            "currency": "GNF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Guinea.svg/1280px-Flag_of_Guinea.svg.png",
+            "name": "Guinea",
+            "phone": "224",
+            "population": 12395924
+        },
+        {
+            "abbreviation": "GM",
+            "capital": "Banjul",
+            "currency": "GMD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_The_Gambia.svg/1280px-Flag_of_The_Gambia.svg.png",
+            "name": "Gambia",
+            "phone": "220",
+            "population": 2038501
+        },
+        {
+            "abbreviation": "GL",
+            "capital": "Nuuk",
+            "currency": "DKK",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_Greenland.svg/1280px-Flag_of_Greenland.svg.png",
+            "name": "Greenland",
+            "phone": "299",
+            "population": 56186
+        },
+        {
+            "abbreviation": "GI",
+            "capital": "Gibraltar",
+            "currency": "GIP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Flag_of_Gibraltar.svg/1280px-Flag_of_Gibraltar.svg.png",
+            "name": "Gibraltar",
+            "phone": "350",
+            "population": 34408
+        },
+        {
+            "abbreviation": "GH",
+            "capital": "Accra",
+            "currency": "GHS",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/1280px-Flag_of_Ghana.svg.png",
+            "name": "Ghana",
+            "phone": "233",
+            "population": 28206728
+        },
+        {
+            "abbreviation": "OM",
+            "capital": "Muscat",
+            "currency": "OMR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/1280px-Flag_of_Oman.svg.png",
+            "name": "Oman",
+            "phone": "968",
+            "population": 4424762
+        },
+        {
+            "abbreviation": "TN",
+            "capital": "Tunis",
+            "currency": "TND",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/1280px-Flag_of_Tunisia.svg.png",
+            "name": "Tunisia",
+            "phone": "216",
+            "population": 11403248
+        },
+        {
+            "abbreviation": "JO",
+            "capital": "Amman",
+            "currency": "JOD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/1280px-Flag_of_Jordan.svg.png",
+            "name": "Jordan",
+            "phone": "962",
+            "population": 9455802
+        },
+        {
+            "abbreviation": "HR",
+            "capital": "Zagreb",
+            "currency": "HRK",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/1280px-Flag_of_Croatia.svg.png",
+            "name": "Croatia",
+            "phone": "385",
+            "population": 4170600
+        },
+        {
+            "abbreviation": "HT",
+            "capital": "Port-au-Prince",
+            "currency": "HTG",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/1280px-Flag_of_Haiti.svg.png",
+            "name": "Haiti",
+            "phone": "509",
+            "population": 10847334
+        },
+        {
+            "abbreviation": "HU",
+            "capital": "Budapest",
+            "currency": "HUF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/1280px-Flag_of_Hungary.svg.png",
+            "name": "Hungary",
+            "phone": "36",
+            "population": 9817958
+        },
+        {
+            "abbreviation": "HK",
+            "capital": "Hong Kong",
+            "currency": "HKD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/1280px-Flag_of_Hong_Kong.svg.png",
+            "name": "Hong Kong",
+            "phone": "852",
+            "population": 7346700
+        },
+        {
+            "abbreviation": "HN",
+            "capital": "Tegucigalpa",
+            "currency": "HNL",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Honduras.svg/1280px-Flag_of_Honduras.svg.png",
+            "name": "Honduras",
+            "phone": "504",
+            "population": 9112867
+        },
+        {
+            "abbreviation": "HM",
+            "capital": "",
+            "currency": "AUD",
+            "flag": "",
+            "name": "Heard Island and McDonald Islands",
+            "phone": " "
+        },
+        {
+            "abbreviation": "VE",
+            "capital": "Caracas",
+            "currency": "VEF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/1280px-Flag_of_Venezuela.svg.png",
+            "name": "Venezuela",
+            "phone": "58",
+            "population": 31568179
+        },
+        {
+            "abbreviation": "PR",
+            "capital": "San Juan",
+            "currency": "USD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/1280px-Flag_of_Puerto_Rico.svg.png",
+            "name": "Puerto Rico",
+            "phone": "+1-787 and 1-939",
+            "population": 3411307
+        },
+        {
+            "abbreviation": "PS",
+            "capital": "East Jerusalem",
+            "currency": "ILS",
+            "flag": "",
+            "name": "Palestinian Territory",
+            "phone": "970",
+            "population": 4551566
+        },
+        {
+            "abbreviation": "PW",
+            "capital": "Melekeok",
+            "currency": "USD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Palau.svg/1280px-Flag_of_Palau.svg.png",
+            "name": "Palau",
+            "phone": "680",
+            "population": 21503
+        },
+        {
+            "abbreviation": "PT",
+            "capital": "Lisbon",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/1280px-Flag_of_Portugal.svg.png",
+            "name": "Portugal",
+            "phone": "351",
+            "population": 10324611
+        },
+        {
+            "abbreviation": "SJ",
+            "capital": "Longyearbyen",
+            "currency": "NOK",
+            "flag": "",
+            "name": "Svalbard and Jan Mayen",
+            "phone": "47"
+        },
+        {
+            "abbreviation": "PY",
+            "capital": "Asuncion",
+            "currency": "PYG",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/1280px-Flag_of_Paraguay.svg.png",
+            "name": "Paraguay",
+            "phone": "595",
+            "population": 6725308
+        },
+        {
+            "abbreviation": "IQ",
+            "capital": "Baghdad",
+            "currency": "IQD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/1280px-Flag_of_Iraq.svg.png",
+            "name": "Iraq",
+            "phone": "964",
+            "population": 37202572
+        },
+        {
+            "abbreviation": "PA",
+            "capital": "Panama City",
+            "currency": "PAB",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/1280px-Flag_of_Panama.svg.png",
+            "name": "Panama",
+            "phone": "507",
+            "population": 4034119
+        },
+        {
+            "abbreviation": "PF",
+            "capital": "Papeete",
+            "currency": "XPF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Flag_of_French_Polynesia.svg/1280px-Flag_of_French_Polynesia.svg.png",
+            "name": "French Polynesia",
+            "phone": "689",
+            "population": 280208
+        },
+        {
+            "abbreviation": "PG",
+            "capital": "Port Moresby",
+            "currency": "PGK",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/1280px-Flag_of_Papua_New_Guinea.svg.png",
+            "name": "Papua New Guinea",
+            "phone": "675",
+            "population": 8084991
+        },
+        {
+            "abbreviation": "PE",
+            "capital": "Lima",
+            "currency": "PEN",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/1280px-Flag_of_Peru.svg.png",
+            "name": "Peru",
+            "phone": "51",
+            "population": 31773839
+        },
+        {
+            "abbreviation": "PK",
+            "capital": "Islamabad",
+            "currency": "PKR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/1280px-Flag_of_Pakistan.svg.png",
+            "name": "Pakistan",
+            "phone": "92",
+            "population": 193203476
+        },
+        {
+            "abbreviation": "PH",
+            "capital": "Manila",
+            "currency": "PHP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/1280px-Flag_of_the_Philippines.svg.png",
+            "name": "Philippines",
+            "phone": "63",
+            "population": 103320222
+        },
+        {
+            "abbreviation": "PN",
+            "capital": "Adamstown",
+            "currency": "NZD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_the_Pitcairn_Islands.svg/1280px-Flag_of_the_Pitcairn_Islands.svg.png",
+            "name": "Pitcairn",
+            "phone": "870"
+        },
+        {
+            "abbreviation": "PL",
+            "capital": "Warsaw",
+            "currency": "PLN",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1280px-Flag_of_Poland.svg.png",
+            "name": "Poland",
+            "phone": "48",
+            "population": 37948016
+        },
+        {
+            "abbreviation": "PM",
+            "capital": "Saint-Pierre",
+            "currency": "EUR",
+            "flag": "https:Pierre_and_Miquelon.svg/1280px-Flag_of_Saint-Pierre_and_Miquelon.svg.png",
+            "name": "Saint Pierre and Miquelon",
+            "phone": "508"
+        },
+        {
+            "abbreviation": "ZM",
+            "capital": "Lusaka",
+            "currency": "ZMK",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Zambia.svg/1280px-Flag_of_Zambia.svg.png",
+            "name": "Zambia",
+            "phone": "260",
+            "population": 16591390
+        },
+        {
+            "abbreviation": "EH",
+            "capital": "El-Aaiun",
+            "currency": "MAD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg/1280px-Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg.png",
+            "name": "Western Sahara",
+            "phone": "212"
+        },
+        {
+            "abbreviation": "EE",
+            "capital": "Tallinn",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/1280px-Flag_of_Estonia.svg.png",
+            "name": "Estonia",
+            "phone": "372",
+            "population": 1316481
+        },
+        {
+            "abbreviation": "EG",
+            "capital": "Cairo",
+            "currency": "EGP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/1280px-Flag_of_Egypt.svg.png",
+            "name": "Egypt",
+            "phone": "20",
+            "population": 95688681
+        },
+        {
+            "abbreviation": "ZA",
+            "capital": "Pretoria",
+            "currency": "ZAR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1280px-Flag_of_South_Africa.svg.png",
+            "name": "South Africa",
+            "phone": "27",
+            "population": 55908865
+        },
+        {
+            "abbreviation": "EC",
+            "capital": "Quito",
+            "currency": "USD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/1280px-Flag_of_Ecuador.svg.png",
+            "name": "Ecuador",
+            "phone": "593",
+            "population": 16385068
+        },
+        {
+            "abbreviation": "IT",
+            "capital": "Rome",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/1280px-Flag_of_Italy.svg.png",
+            "name": "Italy",
+            "phone": "39",
+            "population": 60600590
+        },
+        {
+            "abbreviation": "VN",
+            "capital": "Hanoi",
+            "currency": "VND",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1280px-Flag_of_Vietnam.svg.png",
+            "name": "Vietnam",
+            "phone": "84",
+            "population": 92701100
+        },
+        {
+            "abbreviation": "SB",
+            "capital": "Honiara",
+            "currency": "SBD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/1280px-Flag_of_the_Solomon_Islands.svg.png",
+            "name": "Solomon Islands",
+            "phone": "677",
+            "population": 599419
+        },
+        {
+            "abbreviation": "ET",
+            "capital": "Addis Ababa",
+            "currency": "ETB",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/1280px-Flag_of_Ethiopia.svg.png",
+            "name": "Ethiopia",
+            "phone": "251",
+            "population": 102403196
+        },
+        {
+            "abbreviation": "SO",
+            "capital": "Mogadishu",
+            "currency": "SOS",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/1280px-Flag_of_Somalia.svg.png",
+            "name": "Somalia",
+            "phone": "252",
+            "population": 14317996
+        },
+        {
+            "abbreviation": "ZW",
+            "capital": "Harare",
+            "currency": "ZWL",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/1280px-Flag_of_Zimbabwe.svg.png",
+            "name": "Zimbabwe",
+            "phone": "263",
+            "population": 16150362
+        },
+        {
+            "abbreviation": "SA",
+            "capital": "Riyadh",
+            "currency": "SAR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/1280px-Flag_of_Saudi_Arabia.svg.png",
+            "name": "Saudi Arabia",
+            "phone": "966",
+            "population": 32275687
+        },
+        {
+            "abbreviation": "ES",
+            "capital": "Madrid",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png",
+            "name": "Spain",
+            "phone": "34",
+            "population": 46443959
+        },
+        {
+            "abbreviation": "ER",
+            "capital": "Asmara",
+            "currency": "ERN",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Eritrea.svg/1280px-Flag_of_Eritrea.svg.png",
+            "name": "Eritrea",
+            "phone": "291"
+        },
+        {
+            "abbreviation": "ME",
+            "capital": "Podgorica",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/1280px-Flag_of_Montenegro.svg.png",
+            "name": "Montenegro",
+            "phone": "382",
+            "population": 622781
+        },
+        {
+            "abbreviation": "MD",
+            "capital": "Chisinau",
+            "currency": "MDL",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/1280px-Flag_of_Moldova.svg.png",
+            "name": "Moldova",
+            "phone": "373",
+            "population": 3552000
+        },
+        {
+            "abbreviation": "MG",
+            "capital": "Antananarivo",
+            "currency": "MGA",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/1280px-Flag_of_Madagascar.svg.png",
+            "name": "Madagascar",
+            "phone": "261",
+            "population": 24894551
+        },
+        {
+            "abbreviation": "MF",
+            "capital": "Marigot",
+            "currency": "EUR",
+            "flag": "",
+            "name": "Saint Martin",
+            "phone": "590",
+            "population": 31949
+        },
+        {
+            "abbreviation": "MA",
+            "capital": "Rabat",
+            "currency": "MAD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1280px-Flag_of_Morocco.svg.png",
+            "name": "Morocco",
+            "phone": "212",
+            "population": 35276786
+        },
+        {
+            "abbreviation": "MC",
+            "capital": "Monaco",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/1280px-Flag_of_Monaco.svg.png",
+            "name": "Monaco",
+            "phone": "377",
+            "population": 38499
+        },
+        {
+            "abbreviation": "UZ",
+            "capital": "Tashkent",
+            "currency": "UZS",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/1280px-Flag_of_Uzbekistan.svg.png",
+            "name": "Uzbekistan",
+            "phone": "998",
+            "population": 31848200
+        },
+        {
+            "abbreviation": "MM",
+            "capital": "Nay Pyi Taw",
+            "currency": "MMK",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/1280px-Flag_of_Myanmar.svg.png",
+            "name": "Myanmar",
+            "phone": "95",
+            "population": 52885223
+        },
+        {
+            "abbreviation": "ML",
+            "capital": "Bamako",
+            "currency": "XOF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/1280px-Flag_of_Mali.svg.png",
+            "name": "Mali",
+            "phone": "223",
+            "population": 17994837
+        },
+        {
+            "abbreviation": "MO",
+            "capital": "Macao",
+            "currency": "MOP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_Macau.svg/1280px-Flag_of_Macau.svg.png",
+            "name": "Macao",
+            "phone": "853",
+            "population": 612167
+        },
+        {
+            "abbreviation": "MN",
+            "capital": "Ulan Bator",
+            "currency": "MNT",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/1280px-Flag_of_Mongolia.svg.png",
+            "name": "Mongolia",
+            "phone": "976",
+            "population": 3027398
+        },
+        {
+            "abbreviation": "MH",
+            "capital": "Majuro",
+            "currency": "USD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_the_Marshall_Islands.svg/1280px-Flag_of_the_Marshall_Islands.svg.png",
+            "name": "Marshall Islands",
+            "phone": "692",
+            "population": 53066
+        },
+        {
+            "abbreviation": "MK",
+            "capital": "Skopje",
+            "currency": "MKD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/1280px-Flag_of_North_Macedonia.svg.png",
+            "name": "Macedonia",
+            "phone": "389",
+            "population": 2081206
+        },
+        {
+            "abbreviation": "MU",
+            "capital": "Port Louis",
+            "currency": "MUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/1280px-Flag_of_Mauritius.svg.png",
+            "name": "Mauritius",
+            "phone": "230",
+            "population": 1263473
+        },
+        {
+            "abbreviation": "MT",
+            "capital": "Valletta",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/1280px-Flag_of_Malta.svg.png",
+            "name": "Malta",
+            "phone": "356",
+            "population": 436947
+        },
+        {
+            "abbreviation": "MW",
+            "capital": "Lilongwe",
+            "currency": "MWK",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Malawi.svg/1280px-Flag_of_Malawi.svg.png",
+            "name": "Malawi",
+            "phone": "265",
+            "population": 18091575
+        },
+        {
+            "abbreviation": "MV",
+            "capital": "Male",
+            "currency": "MVR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/1280px-Flag_of_Maldives.svg.png",
+            "name": "Maldives",
+            "phone": "960",
+            "population": 417492
+        },
+        {
+            "abbreviation": "MQ",
+            "capital": "Fort-de-France",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Snake_Flag_of_Martinique.svg/1024px-Snake_Flag_of_Martinique.svg.png",
+            "name": "Martinique",
+            "phone": "596"
+        },
+        {
+            "abbreviation": "MP",
+            "capital": "Saipan",
+            "currency": "USD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_the_Northern_Mariana_Islands.svg/1280px-Flag_of_the_Northern_Mariana_Islands.svg.png",
+            "name": "Northern Mariana Islands",
+            "phone": "+1-670",
+            "population": 55023
+        },
+        {
+            "abbreviation": "MS",
+            "capital": "Plymouth",
+            "currency": "XCD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Montserrat.svg/1280px-Flag_of_Montserrat.svg.png",
+            "name": "Montserrat",
+            "phone": "+1-664"
+        },
+        {
+            "abbreviation": "MR",
+            "capital": "Nouakchott",
+            "currency": "MRO",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Mauritania.svg/1280px-Flag_of_Mauritania.svg.png",
+            "name": "Mauritania",
+            "phone": "222",
+            "population": 4301018
+        },
+        {
+            "abbreviation": "IM",
+            "capital": "Douglas, Isle of Man",
+            "currency": "GBP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_the_Isle_of_Man.svg/1280px-Flag_of_the_Isle_of_Man.svg.png",
+            "name": "Isle of Man",
+            "phone": "+44-1624",
+            "population": 83737
+        },
+        {
+            "abbreviation": "UG",
+            "capital": "Kampala",
+            "currency": "UGX",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/1280px-Flag_of_Uganda.svg.png",
+            "name": "Uganda",
+            "phone": "256",
+            "population": 41487965
+        },
+        {
+            "abbreviation": "TZ",
+            "capital": "Dodoma",
+            "currency": "TZS",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/1280px-Flag_of_Tanzania.svg.png",
+            "name": "Tanzania",
+            "phone": "255",
+            "population": 55572201
+        },
+        {
+            "abbreviation": "MY",
+            "capital": "Kuala Lumpur",
+            "currency": "MYR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/1280px-Flag_of_Malaysia.svg.png",
+            "name": "Malaysia",
+            "phone": "60",
+            "population": 31187265
+        },
+        {
+            "abbreviation": "MX",
+            "capital": "Mexico City",
+            "currency": "MXN",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1280px-Flag_of_Mexico.svg.png",
+            "name": "Mexico",
+            "phone": "52",
+            "population": 127540423
+        },
+        {
+            "abbreviation": "IL",
+            "capital": "Jerusalem",
+            "currency": "ILS",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/1280px-Flag_of_Israel.svg.png",
+            "name": "Israel",
+            "phone": "972",
+            "population": 8547100
+        },
+        {
+            "abbreviation": "FR",
+            "capital": "Paris",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png",
+            "name": "France",
+            "phone": "33",
+            "population": 66896109
+        },
+        {
+            "abbreviation": "IO",
+            "capital": "Diego Garcia",
+            "currency": "USD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Flag_of_the_British_Indian_Ocean_Territory.svg/1280px-Flag_of_the_British_Indian_Ocean_Territory.svg.png",
+            "name": "British Indian Ocean Territory",
+            "phone": "246"
+        },
+        {
+            "abbreviation": "SH",
+            "capital": "Jamestown",
+            "currency": "SHP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Saint_Helena.svg/1280px-Flag_of_Saint_Helena.svg.png",
+            "name": "Saint Helena",
+            "phone": "290"
+        },
+        {
+            "abbreviation": "FI",
+            "capital": "Helsinki",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/1280px-Flag_of_Finland.svg.png",
+            "name": "Finland",
+            "phone": "358",
+            "population": 5495096
+        },
+        {
+            "abbreviation": "FJ",
+            "capital": "Suva",
+            "currency": "FJD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/1280px-Flag_of_Fiji.svg.png",
+            "name": "Fiji",
+            "phone": "679",
+            "population": 898760
+        },
+        {
+            "abbreviation": "FK",
+            "capital": "Stanley",
+            "currency": "FKP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_Falkland_Islands.svg/1280px-Flag_of_the_Falkland_Islands.svg.png",
+            "name": "Falkland Islands",
+            "phone": "500"
+        },
+        {
+            "abbreviation": "FM",
+            "capital": "Palikir",
+            "currency": "USD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg/1280px-Flag_of_the_Federated_States_of_Micronesia.svg.png",
+            "name": "Micronesia",
+            "phone": "691",
+            "population": 104937
+        },
+        {
+            "abbreviation": "FO",
+            "capital": "Torshavn",
+            "currency": "DKK",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flag_of_the_Faroe_Islands.svg/1280px-Flag_of_the_Faroe_Islands.svg.png",
+            "name": "Faroe Islands",
+            "phone": "298",
+            "population": 49117
+        },
+        {
+            "abbreviation": "NI",
+            "capital": "Managua",
+            "currency": "NIO",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/1280px-Flag_of_Nicaragua.svg.png",
+            "name": "Nicaragua",
+            "phone": "505",
+            "population": 6149928
+        },
+        {
+            "abbreviation": "NL",
+            "capital": "Amsterdam",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1280px-Flag_of_the_Netherlands.svg.png",
+            "name": "Netherlands",
+            "phone": "31",
+            "population": 17018408
+        },
+        {
+            "abbreviation": "NO",
+            "capital": "Oslo",
+            "currency": "NOK",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/1280px-Flag_of_Norway.svg.png",
+            "name": "Norway",
+            "phone": "47",
+            "population": 5232929
+        },
+        {
+            "abbreviation": "NA",
+            "capital": "Windhoek",
+            "currency": "NAD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/1280px-Flag_of_Namibia.svg.png",
+            "name": "Namibia",
+            "phone": "264",
+            "population": 2479713
+        },
+        {
+            "abbreviation": "VU",
+            "capital": "Port Vila",
+            "currency": "VUV",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Vanuatu.svg/1280px-Flag_of_Vanuatu.svg.png",
+            "name": "Vanuatu",
+            "phone": "678",
+            "population": 270402
+        },
+        {
+            "abbreviation": "NC",
+            "capital": "Noumea",
+            "currency": "XPF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_FLNKS.svg/1280px-Flag_of_FLNKS.svg.png",
+            "name": "New Caledonia",
+            "phone": "687",
+            "population": 278000
+        },
+        {
+            "abbreviation": "NE",
+            "capital": "Niamey",
+            "currency": "XOF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/1195px-Flag_of_Niger.svg.png",
+            "name": "Niger",
+            "phone": "227",
+            "population": 20672987
+        },
+        {
+            "abbreviation": "NF",
+            "capital": "Kingston",
+            "currency": "AUD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Norfolk_Island.svg/1280px-Flag_of_Norfolk_Island.svg.png",
+            "name": "Norfolk Island",
+            "phone": "672"
+        },
+        {
+            "abbreviation": "NG",
+            "capital": "Abuja",
+            "currency": "NGN",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1280px-Flag_of_Nigeria.svg.png",
+            "name": "Nigeria",
+            "phone": "234",
+            "population": 185989640
+        },
+        {
+            "abbreviation": "NZ",
+            "capital": "Wellington",
+            "currency": "NZD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/1280px-Flag_of_New_Zealand.svg.png",
+            "name": "New Zealand",
+            "phone": "64",
+            "population": 4692700
+        },
+        {
+            "abbreviation": "NP",
+            "capital": "Kathmandu",
+            "currency": "NPR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/840px-Flag_of_Nepal.svg.png",
+            "name": "Nepal",
+            "phone": "977",
+            "population": 28982771
+        },
+        {
+            "abbreviation": "NR",
+            "capital": "Yaren",
+            "currency": "AUD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Flag_of_Nauru.svg/1280px-Flag_of_Nauru.svg.png",
+            "name": "Nauru",
+            "phone": "674",
+            "population": 13049
+        },
+        {
+            "abbreviation": "NU",
+            "capital": "Alofi",
+            "currency": "NZD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Niue.svg/1280px-Flag_of_Niue.svg.png",
+            "name": "Niue",
+            "phone": "683"
+        },
+        {
+            "abbreviation": "CK",
+            "capital": "Avarua",
+            "currency": "NZD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_the_Cook_Islands.svg/1280px-Flag_of_the_Cook_Islands.svg.png",
+            "name": "Cook Islands",
+            "phone": "682"
+        },
+        {
+            "abbreviation": "XK",
+            "capital": "Pristina",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Kosovo.svg/1280px-Flag_of_Kosovo.svg.png",
+            "name": "Kosovo",
+            "phone": ""
+        },
+        {
+            "abbreviation": "CI",
+            "capital": "Yamoussoukro",
+            "currency": "XOF",
+            "flag": "https:27Ivoire.svg/1280px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png",
+            "name": "Ivory Coast",
+            "phone": "225",
+            "population": 23695919
+        },
+        {
+            "abbreviation": "CH",
+            "capital": "Berne",
+            "currency": "CHF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/1024px-Flag_of_Switzerland.svg.png",
+            "name": "Switzerland",
+            "phone": "41",
+            "population": 8372098
+        },
+        {
+            "abbreviation": "CO",
+            "capital": "Bogota",
+            "currency": "COP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/1280px-Flag_of_Colombia.svg.png",
+            "name": "Colombia",
+            "phone": "57",
+            "population": 48653419
+        },
+        {
+            "abbreviation": "CN",
+            "capital": "Beijing",
+            "currency": "CNY",
+            "flag": "https:27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+            "name": "China",
+            "phone": "86",
+            "population": 1378665000
+        },
+        {
+            "abbreviation": "CM",
+            "capital": "Yaounde",
+            "currency": "XAF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/1280px-Flag_of_Cameroon.svg.png",
+            "name": "Cameroon",
+            "phone": "237",
+            "population": 23439189
+        },
+        {
+            "abbreviation": "CL",
+            "capital": "Santiago",
+            "currency": "CLP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/1280px-Flag_of_Chile.svg.png",
+            "name": "Chile",
+            "phone": "56",
+            "population": 17909754
+        },
+        {
+            "abbreviation": "CC",
+            "capital": "West Island",
+            "currency": "AUD",
+            "flag": "",
+            "name": "Cocos Islands",
+            "phone": "61"
+        },
+        {
+            "abbreviation": "CA",
+            "capital": "Ottawa",
+            "currency": "CAD",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Flag_of_Canada.svg/1280px-Flag_of_Canada.svg.png",
+            "name": "Canada",
+            "phone": "1",
+            "population": 36286425
+        },
+        {
+            "abbreviation": "CG",
+            "capital": "Brazzaville",
+            "currency": "XAF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/1280px-Flag_of_the_Republic_of_the_Congo.svg.png",
+            "name": "Republic of the Congo",
+            "phone": "242",
+            "population": 5125821
+        },
+        {
+            "abbreviation": "CF",
+            "capital": "Bangui",
+            "currency": "XAF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Central_African_Republic.svg/1280px-Flag_of_the_Central_African_Republic.svg.png",
+            "name": "Central African Republic",
+            "phone": "236",
+            "population": 4594621
+        },
+        {
+            "abbreviation": "CD",
+            "capital": "Kinshasa",
+            "currency": "CDF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/1280px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
+            "name": "Democratic Republic of the Congo",
+            "phone": "243",
+            "population": 78736153
+        },
+        {
+            "abbreviation": "CZ",
+            "capital": "Prague",
+            "currency": "CZK",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png",
+            "name": "Czech Republic",
+            "phone": "420",
+            "population": 10561633
+        },
+        {
+            "abbreviation": "CY",
+            "capital": "Nicosia",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/1280px-Flag_of_Cyprus.svg.png",
+            "name": "Cyprus",
+            "phone": "357",
+            "population": 1170125
+        },
+        {
+            "abbreviation": "CX",
+            "capital": "Flying Fish Cove",
+            "currency": "AUD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Flag_of_Christmas_Island.svg/1280px-Flag_of_Christmas_Island.svg.png",
+            "name": "Christmas Island",
+            "phone": "61"
+        },
+        {
+            "abbreviation": "CR",
+            "capital": "San Jose",
+            "currency": "CRC",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/1280px-Flag_of_Costa_Rica.svg.png",
+            "name": "Costa Rica",
+            "phone": "506",
+            "population": 4857274
+        },
+        {
+            "abbreviation": "CW",
+            "capital": " Willemstad",
+            "currency": "ANG",
+            "flag": "https:A7ao.svg/1280px-Flag_of_Cura%C3%A7ao.svg.png",
+            "name": "Curacao",
+            "phone": "599",
+            "population": 159999
+        },
+        {
+            "abbreviation": "CV",
+            "capital": "Praia",
+            "currency": "CVE",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Cape_Verde.svg/1280px-Flag_of_Cape_Verde.svg.png",
+            "name": "Cape Verde",
+            "phone": "238",
+            "population": 539560
+        },
+        {
+            "abbreviation": "CU",
+            "capital": "Havana",
+            "currency": "CUP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/1280px-Flag_of_Cuba.svg.png",
+            "name": "Cuba",
+            "phone": "53",
+            "population": 11475982
+        },
+        {
+            "abbreviation": "SZ",
+            "capital": "Mbabane",
+            "currency": "SZL",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/1280px-Flag_of_Eswatini.svg.png",
+            "name": "Swaziland",
+            "phone": "268",
+            "population": 1343098
+        },
+        {
+            "abbreviation": "SY",
+            "capital": "Damascus",
+            "currency": "SYP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/1280px-Flag_of_Syria.svg.png",
+            "name": "Syria",
+            "phone": "963",
+            "population": 18430453
+        },
+        {
+            "abbreviation": "SX",
+            "capital": "Philipsburg",
+            "currency": "ANG",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Sint_Maarten.svg/1280px-Flag_of_Sint_Maarten.svg.png",
+            "name": "Sint Maarten",
+            "phone": "599",
+            "population": 40005
+        },
+        {
+            "abbreviation": "KG",
+            "capital": "Bishkek",
+            "currency": "KGS",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/1280px-Flag_of_Kyrgyzstan.svg.png",
+            "name": "Kyrgyzstan",
+            "phone": "996",
+            "population": 6082700
+        },
+        {
+            "abbreviation": "KE",
+            "capital": "Nairobi",
+            "currency": "KES",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/1280px-Flag_of_Kenya.svg.png",
+            "name": "Kenya",
+            "phone": "254",
+            "population": 48461567
+        },
+        {
+            "abbreviation": "SS",
+            "capital": "Juba",
+            "currency": "SSP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_South_Sudan.svg/1280px-Flag_of_South_Sudan.svg.png",
+            "name": "South Sudan",
+            "phone": "211",
+            "population": 12230730
+        },
+        {
+            "abbreviation": "SR",
+            "capital": "Paramaribo",
+            "currency": "SRD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/1280px-Flag_of_Suriname.svg.png",
+            "name": "Suriname",
+            "phone": "597",
+            "population": 558368
+        },
+        {
+            "abbreviation": "KI",
+            "capital": "Tarawa",
+            "currency": "AUD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kiribati.svg/1280px-Flag_of_Kiribati.svg.png",
+            "name": "Kiribati",
+            "phone": "686",
+            "population": 114395
+        },
+        {
+            "abbreviation": "KH",
+            "capital": "Phnom Penh",
+            "currency": "KHR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/1280px-Flag_of_Cambodia.svg.png",
+            "name": "Cambodia",
+            "phone": "855",
+            "population": 15762370
+        },
+        {
+            "abbreviation": "KN",
+            "capital": "Basseterre",
+            "currency": "XCD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/1280px-Flag_of_Saint_Kitts_and_Nevis.svg.png",
+            "name": "Saint Kitts and Nevis",
+            "phone": "+1-869",
+            "population": 54821
+        },
+        {
+            "abbreviation": "KM",
+            "capital": "Moroni",
+            "currency": "KMF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag_of_the_Comoros.svg/1280px-Flag_of_the_Comoros.svg.png",
+            "name": "Comoros",
+            "phone": "269",
+            "population": 795601
+        },
+        {
+            "abbreviation": "ST",
+            "capital": "Sao Tome",
+            "currency": "STD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Sao_Tome_and_Principe.svg/1280px-Flag_of_Sao_Tome_and_Principe.svg.png",
+            "name": "Sao Tome and Principe",
+            "phone": "239",
+            "population": 199910
+        },
+        {
+            "abbreviation": "SK",
+            "capital": "Bratislava",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/1280px-Flag_of_Slovakia.svg.png",
+            "name": "Slovakia",
+            "phone": "421",
+            "population": 5428704
+        },
+        {
+            "abbreviation": "KR",
+            "capital": "Seoul",
+            "currency": "KRW",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
+            "name": "South Korea",
+            "phone": "82",
+            "population": 51245707
+        },
+        {
+            "abbreviation": "SI",
+            "capital": "Ljubljana",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/1280px-Flag_of_Slovenia.svg.png",
+            "name": "Slovenia",
+            "phone": "386",
+            "population": 2064845
+        },
+        {
+            "abbreviation": "KP",
+            "capital": "Pyongyang",
+            "currency": "KPW",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/1280px-Flag_of_North_Korea.svg.png",
+            "name": "North Korea",
+            "phone": "850",
+            "population": 25368620
+        },
+        {
+            "abbreviation": "KW",
+            "capital": "Kuwait City",
+            "currency": "KWD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/1280px-Flag_of_Kuwait.svg.png",
+            "name": "Kuwait",
+            "phone": "965",
+            "population": 4052584
+        },
+        {
+            "abbreviation": "SN",
+            "capital": "Dakar",
+            "currency": "XOF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png",
+            "name": "Senegal",
+            "phone": "221",
+            "population": 15411614
+        },
+        {
+            "abbreviation": "SM",
+            "capital": "San Marino",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_San_Marino.svg/1280px-Flag_of_San_Marino.svg.png",
+            "name": "San Marino",
+            "phone": "378",
+            "population": 33203
+        },
+        {
+            "abbreviation": "SL",
+            "capital": "Freetown",
+            "currency": "SLL",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Sierra_Leone.svg/1280px-Flag_of_Sierra_Leone.svg.png",
+            "name": "Sierra Leone",
+            "phone": "232",
+            "population": 7396190
+        },
+        {
+            "abbreviation": "SC",
+            "capital": "Victoria",
+            "currency": "SCR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/1280px-Flag_of_Seychelles.svg.png",
+            "name": "Seychelles",
+            "phone": "248",
+            "population": 94677
+        },
+        {
+            "abbreviation": "KZ",
+            "capital": "Astana",
+            "currency": "KZT",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/1280px-Flag_of_Kazakhstan.svg.png",
+            "name": "Kazakhstan",
+            "phone": "7",
+            "population": 17797032
+        },
+        {
+            "abbreviation": "KY",
+            "capital": "George Town",
+            "currency": "KYD",
+            "flag": "https:1f1fe.svg.png",
+            "name": "Cayman Islands",
+            "phone": "+1-345",
+            "population": 60765
+        },
+        {
+            "abbreviation": "SG",
+            "capital": "Singapur",
+            "currency": "SGD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/1280px-Flag_of_Singapore.svg.png",
+            "name": "Singapore",
+            "phone": "65",
+            "population": 5607283
+        },
+        {
+            "abbreviation": "SE",
+            "capital": "Stockholm",
+            "currency": "SEK",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/1280px-Flag_of_Sweden.svg.png",
+            "name": "Sweden",
+            "phone": "46",
+            "population": 9903122
+        },
+        {
+            "abbreviation": "SD",
+            "capital": "Khartoum",
+            "currency": "SDG",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Sudan.svg/1280px-Flag_of_Sudan.svg.png",
+            "name": "Sudan",
+            "phone": "249",
+            "population": 39578828
+        },
+        {
+            "abbreviation": "DO",
+            "capital": "Santo Domingo",
+            "currency": "DOP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/1280px-Flag_of_the_Dominican_Republic.svg.png",
+            "name": "Dominican Republic",
+            "phone": "+1-809 and 1-829",
+            "population": 10648791
+        },
+        {
+            "abbreviation": "DM",
+            "capital": "Roseau",
+            "currency": "XCD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Dominica.svg/1280px-Flag_of_Dominica.svg.png",
+            "name": "Dominica",
+            "phone": "+1-767",
+            "population": 73543
+        },
+        {
+            "abbreviation": "DJ",
+            "capital": "Djibouti",
+            "currency": "DJF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/1280px-Flag_of_Djibouti.svg.png",
+            "name": "Djibouti",
+            "phone": "253",
+            "population": 942333
+        },
+        {
+            "abbreviation": "DK",
+            "capital": "Copenhagen",
+            "currency": "DKK",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1280px-Flag_of_Denmark.svg.png",
+            "name": "Denmark",
+            "phone": "45",
+            "population": 5731118
+        },
+        {
+            "abbreviation": "VG",
+            "capital": "Road Town",
+            "currency": "USD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_the_British_Virgin_Islands.svg/1280px-Flag_of_the_British_Virgin_Islands.svg.png",
+            "name": "British Virgin Islands",
+            "phone": "+1-284",
+            "population": 30661
+        },
+        {
+            "abbreviation": "DE",
+            "capital": "Berlin",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1280px-Flag_of_Germany.svg.png",
+            "name": "Germany",
+            "phone": "49",
+            "population": 82667685
+        },
+        {
+            "abbreviation": "YE",
+            "capital": "Sanaa",
+            "currency": "YER",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/1280px-Flag_of_Yemen.svg.png",
+            "name": "Yemen",
+            "phone": "967",
+            "population": 27584213
+        },
+        {
+            "abbreviation": "DZ",
+            "capital": "Algiers",
+            "currency": "DZD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/1280px-Flag_of_Algeria.svg.png",
+            "name": "Algeria",
+            "phone": "213",
+            "population": 40606052
+        },
+        {
+            "abbreviation": "US",
+            "capital": "Washington",
+            "currency": "USD",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
+            "name": "United States",
+            "phone": "1",
+            "population": 323127513
+        },
+        {
+            "abbreviation": "UY",
+            "capital": "Montevideo",
+            "currency": "UYU",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/1280px-Flag_of_Uruguay.svg.png",
+            "name": "Uruguay",
+            "phone": "598",
+            "population": 3444006
+        },
+        {
+            "abbreviation": "YT",
+            "capital": "Mamoudzou",
+            "currency": "EUR",
+            "flag": "https:29.svg/1280px-Flag_of_Mayotte_%28local%29.svg.png",
+            "name": "Mayotte",
+            "phone": "262"
+        },
+        {
+            "abbreviation": "UM",
+            "capital": "",
+            "currency": "USD",
+            "flag": "",
+            "name": "United States Minor Outlying Islands",
+            "phone": "1"
+        },
+        {
+            "abbreviation": "LB",
+            "capital": "Beirut",
+            "currency": "LBP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/1280px-Flag_of_Lebanon.svg.png",
+            "name": "Lebanon",
+            "phone": "961",
+            "population": 6006668
+        },
+        {
+            "abbreviation": "LC",
+            "capital": "Castries",
+            "currency": "XCD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/1280px-Flag_of_Saint_Lucia.svg.png",
+            "name": "Saint Lucia",
+            "phone": "+1-758",
+            "population": 178015
+        },
+        {
+            "abbreviation": "LA",
+            "capital": "Vientiane",
+            "currency": "LAK",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/1280px-Flag_of_Laos.svg.png",
+            "name": "Laos",
+            "phone": "856",
+            "population": 6758353
+        },
+        {
+            "abbreviation": "TV",
+            "capital": "Funafuti",
+            "currency": "AUD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/1280px-Flag_of_Tuvalu.svg.png",
+            "name": "Tuvalu",
+            "phone": "688",
+            "population": 11097
+        },
+        {
+            "abbreviation": "TW",
+            "capital": "Taipei",
+            "currency": "TWD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/1280px-Flag_of_the_Republic_of_China.svg.png",
+            "name": "Taiwan",
+            "phone": "886"
+        },
+        {
+            "abbreviation": "TT",
+            "capital": "Port of Spain",
+            "currency": "TTD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/1280px-Flag_of_Trinidad_and_Tobago.svg.png",
+            "name": "Trinidad and Tobago",
+            "phone": "+1-868",
+            "population": 1364962
+        },
+        {
+            "abbreviation": "TR",
+            "capital": "Ankara",
+            "currency": "TRY",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1280px-Flag_of_Turkey.svg.png",
+            "name": "Turkey",
+            "phone": "90",
+            "population": 79512426
+        },
+        {
+            "abbreviation": "LK",
+            "capital": "Colombo",
+            "currency": "LKR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/1280px-Flag_of_Sri_Lanka.svg.png",
+            "name": "Sri Lanka",
+            "phone": "94",
+            "population": 21203000
+        },
+        {
+            "abbreviation": "LI",
+            "capital": "Vaduz",
+            "currency": "CHF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Liechtenstein.svg/1280px-Flag_of_Liechtenstein.svg.png",
+            "name": "Liechtenstein",
+            "phone": "423",
+            "population": 37666
+        },
+        {
+            "abbreviation": "LV",
+            "capital": "Riga",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/1280px-Flag_of_Latvia.svg.png",
+            "name": "Latvia",
+            "phone": "371",
+            "population": 1960424
+        },
+        {
+            "abbreviation": "TO",
+            "capital": "Nuku'alofa",
+            "currency": "TOP",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/1280px-Flag_of_Tonga.svg.png",
+            "name": "Tonga",
+            "phone": "676",
+            "population": 107122
+        },
+        {
+            "abbreviation": "LT",
+            "capital": "Vilnius",
+            "currency": "LTL",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/1280px-Flag_of_Lithuania.svg.png",
+            "name": "Lithuania",
+            "phone": "370",
+            "population": 2872298
+        },
+        {
+            "abbreviation": "LU",
+            "capital": "Luxembourg",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/1280px-Flag_of_Luxembourg.svg.png",
+            "name": "Luxembourg",
+            "phone": "352",
+            "population": 582972
+        },
+        {
+            "abbreviation": "LR",
+            "capital": "Monrovia",
+            "currency": "LRD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/1280px-Flag_of_Liberia.svg.png",
+            "name": "Liberia",
+            "phone": "231",
+            "population": 4613823
+        },
+        {
+            "abbreviation": "LS",
+            "capital": "Maseru",
+            "currency": "LSL",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Lesotho.svg/1280px-Flag_of_Lesotho.svg.png",
+            "name": "Lesotho",
+            "phone": "266",
+            "population": 2203821
+        },
+        {
+            "abbreviation": "TH",
+            "capital": "Bangkok",
+            "currency": "THB",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/1280px-Flag_of_Thailand.svg.png",
+            "name": "Thailand",
+            "phone": "66",
+            "population": 68863514
+        },
+        {
+            "abbreviation": "TF",
+            "capital": "Port-aux-Francais",
+            "currency": "EUR",
+            "flag": "",
+            "name": "French Southern Territories",
+            "phone": ""
+        },
+        {
+            "abbreviation": "TG",
+            "capital": "Lome",
+            "currency": "XOF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/1280px-Flag_of_Togo.svg.png",
+            "name": "Togo",
+            "phone": "228",
+            "population": 7606374
+        },
+        {
+            "abbreviation": "TD",
+            "capital": "N'Djamena",
+            "currency": "XAF",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_Chad.svg/1280px-Flag_of_Chad.svg.png",
+            "name": "Chad",
+            "phone": "235",
+            "population": 14452543
+        },
+        {
+            "abbreviation": "TC",
+            "capital": "Cockburn Town",
+            "currency": "USD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_the_Turks_and_Caicos_Islands.svg/1280px-Flag_of_the_Turks_and_Caicos_Islands.svg.png",
+            "name": "Turks and Caicos Islands",
+            "phone": "+1-649",
+            "population": 34900
+        },
+        {
+            "abbreviation": "LY",
+            "capital": "Tripolis",
+            "currency": "LYD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Libya.svg/1280px-Flag_of_Libya.svg.png",
+            "name": "Libya",
+            "phone": "218",
+            "population": 6293253
+        },
+        {
+            "abbreviation": "VA",
+            "capital": "Vatican City",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_the_Vatican_City.svg/1024px-Flag_of_the_Vatican_City.svg.png",
+            "name": "Vatican",
+            "phone": "379"
+        },
+        {
+            "abbreviation": "VC",
+            "capital": "Kingstown",
+            "currency": "XCD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/1280px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png",
+            "name": "Saint Vincent and the Grenadines",
+            "phone": "+1-784",
+            "population": 109643
+        },
+        {
+            "abbreviation": "AE",
+            "capital": "Abu Dhabi",
+            "currency": "AED",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/1280px-Flag_of_the_United_Arab_Emirates.svg.png",
+            "name": "United Arab Emirates",
+            "phone": "971",
+            "population": 9269612
+        },
+        {
+            "abbreviation": "AD",
+            "capital": "Andorra la Vella",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/1280px-Flag_of_Andorra.svg.png",
+            "name": "Andorra",
+            "phone": "376",
+            "population": 77281
+        },
+        {
+            "abbreviation": "AG",
+            "capital": "St. John's",
+            "currency": "XCD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/1280px-Flag_of_Antigua_and_Barbuda.svg.png",
+            "name": "Antigua and Barbuda",
+            "phone": "+1-268",
+            "population": 100963
+        },
+        {
+            "abbreviation": "AF",
+            "capital": "Kabul",
+            "currency": "AFN",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Afghanistan.svg/1280px-Flag_of_Afghanistan.svg.png",
+            "name": "Afghanistan",
+            "phone": "93",
+            "population": 34656032
+        },
+        {
+            "abbreviation": "AI",
+            "capital": "The Valley",
+            "currency": "XCD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Anguilla.svg/1280px-Flag_of_Anguilla.svg.png",
+            "name": "Anguilla",
+            "phone": "+1-264"
+        },
+        {
+            "abbreviation": "VI",
+            "capital": "Charlotte Amalie",
+            "currency": "USD",
+            "flag": "",
+            "name": "U.S. Virgin Islands",
+            "phone": "+1-340",
+            "population": 102951
+        },
+        {
+            "abbreviation": "IS",
+            "capital": "Reykjavik",
+            "currency": "ISK",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/1280px-Flag_of_Iceland.svg.png",
+            "name": "Iceland",
+            "phone": "354",
+            "population": 334252
+        },
+        {
+            "abbreviation": "IR",
+            "capital": "Tehran",
+            "currency": "IRR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/1280px-Flag_of_Iran.svg.png",
+            "name": "Iran",
+            "phone": "98",
+            "population": 80277428
+        },
+        {
+            "abbreviation": "AM",
+            "capital": "Yerevan",
+            "currency": "AMD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/1280px-Flag_of_Armenia.svg.png",
+            "name": "Armenia",
+            "phone": "374",
+            "population": 2924816
+        },
+        {
+            "abbreviation": "AL",
+            "capital": "Tirana",
+            "currency": "ALL",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/1280px-Flag_of_Albania.svg.png",
+            "name": "Albania",
+            "phone": "355",
+            "population": 2876101
+        },
+        {
+            "abbreviation": "AO",
+            "capital": "Luanda",
+            "currency": "AOA",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/1280px-Flag_of_Angola.svg.png",
+            "name": "Angola",
+            "phone": "244",
+            "population": 28813463
+        },
+        {
+            "abbreviation": "AQ",
+            "capital": "",
+            "currency": "",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg/1024px-Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg.png",
+            "name": "Antarctica",
+            "phone": ""
+        },
+        {
+            "abbreviation": "AS",
+            "capital": "Pago Pago",
+            "currency": "USD",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Flag_of_American_Samoa.svg/1280px-Flag_of_American_Samoa.svg.png",
+            "name": "American Samoa",
+            "phone": "+1-684",
+            "population": 55599
+        },
+        {
+            "abbreviation": "AR",
+            "capital": "Buenos Aires",
+            "currency": "ARS",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1280px-Flag_of_Argentina.svg.png",
+            "name": "Argentina",
+            "phone": "54",
+            "population": 43847430
+        },
+        {
+            "abbreviation": "AU",
+            "capital": "Canberra",
+            "currency": "AUD",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Flag_of_Australia.svg/1280px-Flag_of_Australia.svg.png",
+            "name": "Australia",
+            "phone": "61",
+            "population": 24127159
+        },
+        {
+            "abbreviation": "AT",
+            "capital": "Vienna",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/1280px-Flag_of_Austria.svg.png",
+            "name": "Austria",
+            "phone": "43",
+            "population": 8747358
+        },
+        {
+            "abbreviation": "AW",
+            "capital": "Oranjestad",
+            "currency": "AWG",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Aruba.svg/1280px-Flag_of_Aruba.svg.png",
+            "name": "Aruba",
+            "phone": "297",
+            "population": 104822
+        },
+        {
+            "abbreviation": "IN",
+            "capital": "New Delhi",
+            "currency": "INR",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1280px-Flag_of_India.svg.png",
+            "name": "India",
+            "phone": "91",
+            "population": 1324171354
+        },
+        {
+            "abbreviation": "AX",
+            "capital": "Mariehamn",
+            "currency": "EUR",
+            "flag": "",
+            "name": "Aland Islands",
+            "phone": "+358-18"
+        },
+        {
+            "abbreviation": "AZ",
+            "capital": "Baku",
+            "currency": "AZN",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/1280px-Flag_of_Azerbaijan.svg.png",
+            "name": "Azerbaijan",
+            "phone": "994",
+            "population": 9762274
+        },
+        {
+            "abbreviation": "IE",
+            "capital": "Dublin",
+            "currency": "EUR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/1280px-Flag_of_Ireland.svg.png",
+            "name": "Ireland",
+            "phone": "353",
+            "population": 4773095
+        },
+        {
+            "abbreviation": "ID",
+            "capital": "Jakarta",
+            "currency": "IDR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/1280px-Flag_of_Indonesia.svg.png",
+            "name": "Indonesia",
+            "phone": "62",
+            "population": 261115456
+        },
+        {
+            "abbreviation": "UA",
+            "capital": "Kiev",
+            "currency": "UAH",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1280px-Flag_of_Ukraine.svg.png",
+            "name": "Ukraine",
+            "phone": "380",
+            "population": 45004645
+        },
+        {
+            "abbreviation": "QA",
+            "capital": "Doha",
+            "currency": "QAR",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/1280px-Flag_of_Qatar.svg.png",
+            "name": "Qatar",
+            "phone": "974",
+            "population": 2569804
+        },
+        {
+            "abbreviation": "MZ",
+            "capital": "Maputo",
+            "currency": "MZN",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/1280px-Flag_of_Mozambique.svg.png",
+            "name": "Mozambique",
+            "phone": "258",
+            "population": 28829476
+        }
+    ]
 }

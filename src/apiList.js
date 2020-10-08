@@ -75,7 +75,7 @@ module.exports = [
     desc: "An API with information about countries.",
     link: "countries",
     graphLink: "countries/graphql",
-    endPoints: ["name", "capital", "phone", "currency", "population", "flags"]
+    endPoints: ["countries"]
   },
   {
     id: 8,
