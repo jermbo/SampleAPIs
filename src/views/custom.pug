@@ -1,0 +1,32 @@
+include partials/header.pug
+body
+  main
+    article.site
+      .page__inner
+        a(href="/" class="backBtn") Home
+        h1.site__title Custom Endpoint: #{name}
+        p.site__desc This is a temporary custom endpoint.
+        p You can use any HTTP verbs (GET, POST, PUT, PATCH and DELETE) and access your resources from anywhere using CORS and JSONP.
+
+        section.content
+          p Here are the endpoints currently available.
+          nav.endpoints
+            each endPoint in endPoints
+              a.endpoint(href=`/custom/${link}/api/${endPoint}` target="_blank")= endPoint
+        p Example code 
+        .code-group
+          button.copy Copy
+          .copied
+            p Copied!
+          code(spellcheck="false")
+            p const baseURL = 'https://sampleapis.com/custom/#{link.toLowerCase()}/api/#{endPoints[0]}';
+            p fetch(baseURL)
+            p   .then(resp => resp.json())
+            p   .then(data => console.log(data));
+          textarea.hidden
+        
+    script(src="/scripts/CodeHighlight.js")
+    script.
+      document.querySelectorAll('.code-group').forEach(group => {
+        new CodeHighlight(group);
+      });
