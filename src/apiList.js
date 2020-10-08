@@ -95,7 +95,7 @@ module.exports = [
     desc: "Because who doesn't need easily accessible data about the simpsons?",
     link: "simpsons",
     graphLink: "simpsons/graphql",
-    endPoints: ["characters", "products"],
+    endPoints: ["characters", "products","episodes"],
   },
   {
     id: 11,
