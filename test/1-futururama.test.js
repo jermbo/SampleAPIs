@@ -1,3 +1,4 @@
+const port = process.env.PORT || 5555
 const chai = require('chai')
 const chaiHttp = require('chai-http')
 
@@ -6,7 +7,7 @@ const { request, expect } = chai
 
 describe(`test`, () => {
 	it('should get futurama data', () => {
-		return request('http://localhost:5555')
+		return request(`http://localhost:${port}`)
 			.get('/futurama/api/characters')
 			.set('Accept', 'application/json')
 			.then(res => {
