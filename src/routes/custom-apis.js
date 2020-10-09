@@ -94,7 +94,10 @@ router.get("/create/:name", async (req, res) => {
     init();
   }
 
-  res.redirect(`/custom/${name}`);
+  res.json({
+    status: 201,
+    message: "File was created!"
+  })
 })
 
 init();

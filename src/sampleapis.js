@@ -24,8 +24,9 @@ app.use(cors());
 
 // Routes
 const reset = require("./routes/reset");
-const baseApis = require('./routes/base-apis');
-const custom = require('./routes/custom-apis');
+const baseApis = require("./routes/base-apis");
+const custom = require("./routes/custom-apis");
+const create = require("./routes/create-apis");
 
 app.get("/", (req, res) => {
   res.render("index", {
@@ -33,11 +34,12 @@ app.get("/", (req, res) => {
   });
 });
 
-app.use("/", baseApis);
 app.use("/reset", reset);
+app.use("/create", create);
 app.use("/custom", custom);
+app.use("/", baseApis);
 
 // Starting App
 app.listen(port, () => {
   console.log(`App is listening on: http://localhost:${port}`);
-})
+});
