@@ -12,7 +12,6 @@ describe(`test`, () => {
 			.set('Accept', 'application/json')
 			.then(res => {
 				expect(res).to.have.status(200)
-				console.log(res.body)
 				expect(res.body).to.be.an('array')
 			})
 			.catch(err => {
