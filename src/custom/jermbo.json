@@ -1,7 +1,9 @@
 {
-  "info": {
-    "name": "jermbo"
-  },
+  "info": [
+    {
+      "name": "jermbo"
+    }
+  ],
   "hobbies": [
     {
       "title": "coding",

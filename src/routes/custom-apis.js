@@ -3,9 +3,10 @@ const fs = require("fs");
 const path = require("path");
 const jsonServer = require("json-server");
 const jsonGraphqlExpress = require("json-graphql-server");
-const { getFromFile } = require("../utils");
 
 const { apiLimits } = require("../utils/rateLimiterDefaults");
+const { getFromFile } = require("../utils/utils");
+
 const router = express.Router();
 
 let CustomEndpoints = [];
@@ -51,21 +52,23 @@ const registerCustomLandingPages = () => {
 const registerCustomEndPoints = () => {
   CustomEndpoints.forEach((endpoint) => {
     const { name } = endpoint;
+    const file = path.join(__dirname, `../custom/${name}.json`)
     router.use(
       `/${name}/api`,
       apiLimits,
-      jsonServer.router(path.join(__dirname, `../custom/${name}.json`))
+      jsonServer.router(file)
     );
 
-    let data = getFromFile(path.join(__dirname, `../api/${link}.json`));
+    let data = getFromFile(file);
+    // console.log(data);
     try {
       router.use(
-        `/${link}/graphql`,
+        `/${name}/graphql`,
         apiLimits, 
         jsonGraphqlExpress.default(data)
       );
     } catch (err) {
-      console.log(`Unable to set up /${link}/graphql`);
+      console.log(`Unable to set up /custom/${name}/graphql`);
       console.error(err);
     }
   });
@@ -80,7 +83,7 @@ router.get("/create/:name", async (req, res) => {
   })[0];
 
   const baseData = {
-    info: { name }
+    info: [{ id: 1, name }]
   }
 
   if (!exists) {
