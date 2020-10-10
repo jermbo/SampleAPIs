@@ -39,17 +39,17 @@ The body's first line should be a link to the issue for quick reference. The res
 
 # Example of adding a new Endpoint
 
-SampleApis is all about great data to play with. And you know better than anyone what data YOU'D like to play with. 
+Our project is all about great data to play with!
+And I know of no one better than YOU (yes YOU) what data YOU'D like to play with. 
 
-Here we'll learn how to add an endpoint so that we can see a new data set for others to play with.
+In this section we'll learn how to add a new dataset (or "endpoint" as we'll call them)
 
-We can see in this example what a good contribution should look like:
-[Adding the Rick & Morty Endpoint](https://github.com/jermbo/SampleAPIs/pull/89)
+Each endpoint needs three files. Here's a [example of a new PR adding just a new endpoint](https://github.com/jermbo/SampleAPIs/pull/89)
 
-Each endpoint needs three files (well two new files and one changed file)
-1) The original .json file (eg. rickandmorty.json) which is added to the ```src/api``` directory
-2) a "backup" file which is essentially the exact same file with the words ".backup" added to the end (eg. rickandmorty.json.backup) this is used every week to refresh the original and restore the original.
-3) A new entry to the module.exports array in the ```src/apiList.js``` file. Here you'll add information about the new endpoint you've added.
+Here are the official steps to add an endpoint
+1) Create a endpointName.json file (eg. baseball.json for SampleApis.com/api/baseball) with a value for each "collection" (so for "homeRuns" we end up with https://sampleapis.com/baseball/api/homeRuns because there's a array for the parameter "homeRuns" see [api/baseball.json](/src/api/baseball.json) for more details)
+2) Create a ".backup" file which is a copy of the original one .json file (in our example it would be [baseball.json.backup](/src/api/baseball.json.backup) )
+3) Add new entry to the module.exports array in the ```src/apiList.js``` file. Here you'll add information about the new endpoint you've added.
 
 What the format of the new entry in the ```src/apiList.js``` will look like:
 ```javascript
