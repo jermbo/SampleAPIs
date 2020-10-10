@@ -37,13 +37,34 @@ The title of the pull request should contain only the issue number and issue tit
 
 The body's first line should be a link to the issue for quick reference. The rest of the body should be a brief explanation of what changes were made. Each issue should have a list for Acceptance Criteria, this should be addressed in the PR comment.
 
-Example
+# Example of adding a new Endpoint
 
-```MD
-[#1 Create Contribution Documentation]()
+SampleApis is all about great data to play with. And you know better than anyone what data YOU'D like to play with. 
 
-Code of Conduct and Contributions markdown files were created with explanations necessary.
+Here we'll learn how to add an endpoint so that we can see a new data set for others to play with.
+
+We can see in this example what a good contribution should look like:
+[Adding the Rick & Morty Endpoint](https://github.com/jermbo/SampleAPIs/pull/89)
+
+Each endpoint needs three files (well two new files and one changed file)
+1) The original .json file (eg. rickandmorty.json) which is added to the ```src/api``` directory
+2) a "backup" file which is essentially the exact same file with the words ".backup" added to the end (eg. rickandmorty.json.backup) this is used every week to refresh the original and restore the original.
+3) A new entry to the module.exports array in the ```src/apiList.js``` file. Here you'll add information about the new endpoint you've added.
+
+What the format of the new entry in the ```src/apiList.js``` will look like:
+```javascript
+    {
+      id: 22,   ⬅ //use a new ID
+      title: "Rick And Morty",  ⬅ //Title on top of page
+      longDesc: "This is t...", ⬅ //Description on the endpoint's page
+      desc: "AP", ⬅ // description for front page
+      link: "rickandmorty", ⬅ // endpoint url
+      graphLink: "rickandmorty/graphql", // graphql endpoint
+      endPoints: ["characters","episodes","locations"],  ⬅ // All objects (collections) in the endpoint
+      },
 ```
+
+
 
 ## Code Review Process
 
