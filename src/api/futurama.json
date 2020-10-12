@@ -2037,7 +2037,7 @@
       "slogan": "Kills owls dead",
       "price": 309.29,
       "stock": 5,
-      "id": 1
+      "id" : 1
     },
     {
       "title": "Human traps",
@@ -2046,7 +2046,7 @@
       "slogan": "",
       "price": 999.99,
       "stock": 1,
-      "id": 2
+      "id" : 2
     },
     {
       "title": "Arachno Spores",
@@ -2055,7 +2055,7 @@
       "slogan": "",
       "price": 1.99,
       "stock": 1000000000,
-      "id": 3
+      "id" : 3
     },
     {
       "title": "Molten Boron",
@@ -2064,7 +2064,7 @@
       "slogan": "Nobody doesn't like Molten Boron!",
       "price": 74.19,
       "stock": 23,
-      "id": 4
+      "id" : 4
     },
     {
       "title": "Bachelor Chow",
@@ -2073,25 +2073,25 @@
       "slogan": "Bachelor Chow, now with flavor.",
       "price": 4.69,
       "stock": 88,
-      "id": 5
+      "id" : 5
     },
     {
       "title": "Slurm",
       "category": "Food",
       "description": "A highly addictive, highly popular soft drink, exuded from the behind of a giant worm queen.",
       "slogan": "It's highly addictive! Enjoy Slurm",
-      "price": 2.4,
+      "price": 2.40,
       "stock": 50000,
-      "id": 6
+      "id" : 6
     },
     {
       "title": "Big Applet",
       "category": "Publications",
       "description": "A magazine. It publishes an annual \"Best of\" list covering a wide area of categories.",
       "slogan": "For the discriminated New New Yorker.",
-      "price": 2.5,
+      "price": 2.50,
       "stock": 240,
-      "id": 7
+      "id" : 7
     },
     {
       "title": "iObey",
@@ -2100,16 +2100,16 @@
       "slogan": "",
       "price": 0.0,
       "stock": 1000000,
-      "id": 8
+      "id" : 8
     },
     {
       "title": "Angry Norwegian Anchovies",
       "category": "Food",
       "description": "A thousand-year can of anchovies. Due to the anchovy's extinction in the 2200s, they are now extremely valuable.",
       "slogan": "",
-      "price": 50000000.0,
+      "price": 50000000.00,
       "stock": 1,
-      "id": 9
+      "id" : 9
     },
     {
       "title": "Farnsworth novelty disintegrator ray",
@@ -2118,7 +2118,7 @@
       "slogan": "",
       "price": 29.99,
       "stock": 28,
-      "id": 10
+      "id" : 10
     },
     {
       "title": "Captain's Handbook",
@@ -2127,7 +2127,7 @@
       "slogan": "",
       "price": 24.99,
       "stock": 3,
-      "id": 11
+      "id" : 11
     },
     {
       "title": "Bendërbrāu",
@@ -2136,7 +2136,7 @@
       "slogan": "Let's get drunk!",
       "price": 9.99,
       "stock": 0,
-      "id": 12
+      "id" : 12
     },
     {
       "title": "Tickle Me Bender dolls",
@@ -2145,16 +2145,16 @@
       "slogan": "",
       "price": 14.88,
       "stock": 0,
-      "id": 13
+      "id" : 13
     },
     {
       "title": "Delivery-Boy Man",
       "category": "Publications",
       "description": "A comic book written and inked by Philip J. Fry.",
       "slogan": "",
-      "price": 0.0,
+      "price": 0.00,
       "stock": 1,
-      "id": 14
+      "id" : 14
     },
     {
       "title": "Kibbles 'N' Snouts",
@@ -2163,7 +2163,7 @@
       "slogan": "If you've got the nibbles, go for some kibbles!",
       "price": 12.54,
       "stock": 29,
-      "id": 15
+      "id" : 15
     },
     {
       "title": "Lovey Bears",
@@ -2172,7 +2172,7 @@
       "slogan": "",
       "price": 99.29,
       "stock": 341,
-      "id": 16
+      "id" : 16
     },
     {
       "title": "Extreme Walrus Juice",
@@ -2181,7 +2181,7 @@
       "slogan": "Ride the walrus!",
       "price": 0.99,
       "stock": 44,
-      "id": 17
+      "id" : 17
     },
     {
       "title": "Good News",
@@ -2190,7 +2190,7 @@
       "slogan": "",
       "price": 85.25,
       "stock": 0,
-      "id": 18
+      "id" : 18
     },
     {
       "title": "Glagnar's Human Rinds",
@@ -2199,7 +2199,7 @@
       "slogan": "It's a buncha muncha cruncha human!",
       "price": 8.99,
       "stock": 50,
-      "id": 19
+      "id" : 19
     },
     {
       "title": "Bamboo Boogie Boots",
@@ -2208,7 +2208,7 @@
       "slogan": "",
       "price": 59.99,
       "stock": 38,
-      "id": 20
+      "id" : 20
     },
     {
       "title": "Three More Great Recipes",
@@ -2217,7 +2217,7 @@
       "slogan": "BAM!",
       "price": 24.99,
       "stock": 24,
-      "id": 21
+      "id" : 21
     },
     {
       "title": "Band-Ape",
@@ -2226,7 +2226,7 @@
       "slogan": "",
       "price": 2.99,
       "stock": 15,
-      "id": 22
+      "id" : 22
     },
     {
       "title": "Admiral Crunch",
@@ -2235,16 +2235,16 @@
       "slogan": "",
       "price": 6.49,
       "stock": 65,
-      "id": 23
+      "id" : 23
     },
     {
       "title": "Webster's New Abridged Becktionary‎",
       "category": "Publications",
       "description": "Webster's New Abridged Becktionary‎",
       "slogan": "",
-      "price": 0.0,
+      "price": 0.00,
       "stock": 1,
-      "id": 24
+      "id" : 24
     },
     {
       "title": "Cavitar Toothpaste",
@@ -2253,7 +2253,7 @@
       "slogan": "",
       "price": 1.88,
       "stock": 2,
-      "id": 25
+      "id" : 25
     },
     {
       "title": "Lightspeed Briefs",
@@ -2262,7 +2262,7 @@
       "slogan": "As seen in your dreams. For the discriminating crotch.",
       "price": 30.99,
       "stock": 221,
-      "id": 26
+      "id" : 26
     },
     {
       "title": "Dr. FlimFlam's miracle cream",
@@ -2271,7 +2271,7 @@
       "slogan": "",
       "price": 253.99,
       "stock": 0,
-      "id": 27
+      "id" : 27
     },
     {
       "title": "Robo Fresh",
@@ -2280,7 +2280,7 @@
       "slogan": "Robo Fresh, designed by a robot, for a robot.",
       "price": 3.78,
       "stock": 20,
-      "id": 28
+      "id" : 28
     },
     {
       "title": "Human Broth",
@@ -2289,7 +2289,7 @@
       "slogan": "",
       "price": 7.75,
       "stock": 62,
-      "id": 29
+      "id" : 29
     },
     {
       "title": "Thompson's Teeth",
@@ -2298,7 +2298,7 @@
       "slogan": "The only teeth strong enough to eat other teeth.",
       "price": 55.55,
       "stock": 48,
-      "id": 30
+      "id" : 30
     },
     {
       "title": "Code of Conduct for Cannibalism‎",
@@ -2307,7 +2307,7 @@
       "slogan": "",
       "price": 75.82,
       "stock": 55,
-      "id": 31
+      "id" : 31
     }
   ]
 }
