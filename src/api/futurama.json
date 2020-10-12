@@ -2098,7 +2098,7 @@
       "category": "App",
       "description": "A virus that can be sent to robots via email. Once the target robot downloads the virus, he or she is forced to obey the every demand of the sender of the email.",
       "slogan": "",
-      "price": 0.0,
+      "price": 0.00,
       "stock": 1000000,
       "id" : 8
     },
