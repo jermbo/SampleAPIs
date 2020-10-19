@@ -220,7 +220,7 @@ module.exports = [
     {
       id: 22,
       title: "Rick And Morty",
-      longDesc: "This is the Rick-iest Rick Api to ever grace the Rick-ternet with access to the all current Rick & Morty Episodes, Locations and Characters.",
+      longDesc: "https://rickandmortyapi.com is the Rick-iest Rick API to ever grace the Rick-ternet with access to the all current Rick & Morty Episodes, Locations and Characters.",
       desc: "API for all current Rick & Morty episodes, locations and characters",
       link: "rickandmorty",
       graphLink: "rickandmorty/graphql",
