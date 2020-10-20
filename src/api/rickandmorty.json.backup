@@ -1,351 +1,468 @@
 {
-  "characters": [
-    {
-      "gender": "Male",
-      "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
-      "name": "Rick Sanchez",
-      "origin": "Earth (C-137)",
-      "species": "Human",
-      "status": "Alive",
-      "type": "Human",
-      "id": 1
-    },
-    {
-      "gender": "Male",
-      "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
-      "name": "Morty Smith",
-      "origin": "Earth (C-137)",
-      "species": "Human",
-      "status": "Alive",
-      "type": "Human",
-      "id": 2
-    },
-    {
-      "gender": "Female",
-      "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
-      "name": "Summer Smith",
-      "origin": "Earth (Replacement Dimension)",
-      "species": "Human",
-      "status": "Alive",
-      "type": "Human",
-      "id": 3
-    },
-    {
-      "gender": "Female",
-      "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
-      "name": "Beth Smith",
-      "origin": "Earth (Replacement Dimension)",
-      "species": "Human",
-      "status": "Alive",
-      "type": "Human",
-      "id": 4
-    },
-    {
-      "gender": "Male",
-      "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
-      "name": "Jerry Smith",
-      "origin": "Earth (Replacement Dimension)",
-      "species": "Human",
-      "status": "Alive",
-      "type": "Human",
-      "id": 5
-    },
-    {
-      "gender": "Female",
-      "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg",
-      "name": "Abadango Cluster Princess",
-      "origin": "Abadango",
-      "species": "Alien",
-      "status": "Alive",
-      "type": "Alien",
-      "id": 6
-    },
-    {
-      "gender": "Male",
-      "image": "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
-      "name": "Abradolf Lincler",
-      "origin": "Earth (Replacement Dimension)",
-      "species": "Human",
-      "status": "unknown",
-      "type": "Genetic experiment",
-      "id": 7
-    },
-    {
-      "gender": "Male",
-      "image": "https://rickandmortyapi.com/api/character/avatar/8.jpeg",
-      "name": "Adjudicator Rick",
-      "origin": "unknown",
-      "species": "Human",
-      "status": "Dead",
-      "type": "Human",
-      "id": 8
-    },
-    {
-      "gender": "Male",
-      "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg",
-      "name": "Agency Director",
-      "origin": "Earth (Replacement Dimension)",
-      "species": "Human",
-      "status": "Dead",
-      "type": "Human",
-      "id": 9
-    }
-  ],
-  "episodes": [
-    {
-      "air_date": "December 2, 2013",
-      "episode": "1",
-      "name": "Pilot",
-      "season": "1",
-      "id": 1
-    },
-    {
-      "air_date": "December 9, 2013",
-      "episode": "2",
-      "name": "Lawnmower Dog",
-      "season": "1",
-      "id": 2
-    },
-    {
-      "air_date": "December 16, 2013",
-      "episode": "3",
-      "name": "Anatomy Park",
-      "season": "1",
-      "id": 3
-    },
-    {
-      "air_date": "January 13, 2014",
-      "episode": "4",
-      "name": "M. Night Shaym-Aliens!",
-      "season": "1",
-      "id": 4
-    },
-    {
-      "air_date": "January 20, 2014",
-      "episode": "5",
-      "name": "Meeseeks and Destroy",
-      "season": "1",
-      "id": 5
-    },
-    {
-      "air_date": "January 27, 2014",
-      "episode": "6",
-      "name": "Rick Potion #9",
-      "season": "1",
-      "id": 6
-    },
-    {
-      "air_date": "March 10, 2014",
-      "episode": "7",
-      "name": "Raising Gazorpazorp",
-      "season": "1",
-      "id": 7
-    },
-    {
-      "air_date": "March 17, 2014",
-      "episode": "8",
-      "name": "Rixty Minutes",
-      "season": "1",
-      "id": 8
-    },
-    {
-      "air_date": "March 24, 2014",
-      "episode": "9",
-      "name": "Something Ricked This Way Comes",
-      "season": "1",
-      "id": 9
-    },
-    {
-      "air_date": "April 7, 2014",
-      "episode": "10",
-      "name": "Close Rick-counters of the Rick Kind",
-      "season": "1",
-      "id": 10
-    },
-    {
-      "air_date": "December 9, 2013",
-      "episode": "11",
-      "name": "Lawnmower Dog",
-      "season": "1",
-      "id": 11
-    },
-    {
-      "air_date": "December 16, 2013",
-      "episode": "12",
-      "name": "Anatomy Park",
-      "season": "1",
-      "id": 12
-    },
-    {
-      "air_date": "January 13, 2014",
-      "episode": "13",
-      "name": "M. Night Shaym-Aliens!",
-      "season": "1",
-      "id": 13
-    },
-    {
-      "air_date": "January 20, 2014",
-      "episode": "5",
-      "name": "Meeseeks and Destroy",
-      "season": "1",
-      "id": 14
-    },
-    {
-      "air_date": "January 27, 2014",
-      "episode": "6",
-      "name": "Rick Potion #9",
-      "season": "1",
-      "id": 15
-    },
-    {
-      "air_date": "March 10, 2014",
-      "episode": "7",
-      "name": "Raising Gazorpazorp",
-      "season": "1",
-      "id": 16
-    },
-    {
-      "air_date": "March 17, 2014",
-      "episode": "8",
-      "name": "Rixty Minutes",
-      "season": "1",
-      "id": 17
-    },
-    {
-      "air_date": "March 24, 2014",
-      "episode": "9",
-      "name": "Something Ricked This Way Comes",
-      "season": "1",
-      "id": 18
-    },
-    {
-      "air_date": "April 7, 2014",
-      "episode": "10",
-      "name": "Close Rick-counters of the Rick Kind",
-      "season": "1",
-      "id": 19
-    }
-  ],
-  "locations": [
-    {
-      "id": 1,
-      "name": "Earth (C-137)",
-      "type": "Planet",
-      "dimension": "Dimension C-137"
-    },
-    {
-      "id": 2,
-      "name": "Abadango",
-      "type": "Cluster",
-      "dimension": "unknown"
-    },
-    {
-      "id": 3,
-      "name": "Citadel of Ricks",
-      "type": "Space station",
-      "dimension": "unknown"
-    },
-    {
-      "id": 4,
-      "name": "Worldender's lair",
-      "type": "Planet",
-      "dimension": "unknown"
-    },
-    {
-      "id": 5,
-      "name": "Anatomy Park",
-      "type": "Microverse",
-      "dimension": "Dimension C-137"
-    },
-    {
-      "id": 6,
-      "name": "Interdimensional Cable",
-      "type": "TV",
-      "dimension": "unknown"
-    },
-    {
-      "id": 7,
-      "name": "Immortality Field Resort",
-      "type": "Resort",
-      "dimension": "unknown"
-    },
-    {
-      "id": 8,
-      "name": "Post-Apocalyptic Earth",
-      "type": "Planet",
-      "dimension": "Post-Apocalyptic Dimension"
-    },
-    {
-      "id": 9,
-      "name": "Purge Planet",
-      "type": "Planet",
-      "dimension": "Replacement Dimension"
-    },
-    {
-      "id": 10,
-      "name": "Venzenulon 7",
-      "type": "Planet",
-      "dimension": "unknown"
-    },
-    {
-      "id": 11,
-      "name": "Bepis 9",
-      "type": "Planet",
-      "dimension": "unknown"
-    },
-    {
-      "id": 12,
-      "name": "Cronenberg Earth",
-      "type": "Planet",
-      "dimension": "Cronenberg Dimension"
-    },
-    {
-      "id": 13,
-      "name": "Nuptia 4",
-      "type": "Planet",
-      "dimension": "unknown"
-    },
-    {
-      "id": 14,
-      "name": "Giant's Town",
-      "type": "Fantasy town",
-      "dimension": "Fantasy Dimension"
-    },
-    {
-      "id": 15,
-      "name": "Bird World",
-      "type": "Planet",
-      "dimension": "unknown"
-    },
-    {
-      "id": 16,
-      "name": "St. Gloopy Noops Hospital",
-      "type": "Space station",
-      "dimension": "unknown"
-    },
-    {
-      "id": 17,
-      "name": "Earth (5-126)",
-      "type": "Planet",
-      "dimension": "Dimension 5-126"
-    },
-    {
-      "id": 18,
-      "name": "Mr. Goldenfold's dream",
-      "type": "Dream",
-      "dimension": "Dimension C-137"
-    },
-    {
-      "id": 19,
-      "name": "Gromflom Prime",
-      "type": "Planet",
-      "dimension": "Replacement Dimension"
-    },
-    {
-      "id": 20,
-      "name": "Earth (Replacement Dimension)",
-      "type": "Planet",
-      "dimension": "Replacement Dimension"
-    }
-  ]
-}
+    "characters": [
+      {
+        "id": 1,
+        "name": "Rick Sanchez",
+        "status": "Alive",
+        "species": "Human",
+        "type": "Human",
+        "gender": "Male",
+        "origin": "Earth (C-137)",
+        "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Morty Smith",
+        "status": "Alive",
+        "species": "Human",
+        "type": "Human",
+        "gender": "Male",
+        "origin": "Earth (C-137)",
+        "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+      },
+      {
+        "id": 3,
+        "name": "Summer Smith",
+        "status": "Alive",
+        "species": "Human",
+        "type": "Human",
+        "gender": "Female",
+        "origin": "Earth (Replacement Dimension)",
+        "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+      },
+      {
+        "id": 4,
+        "name": "Beth Smith",
+        "status": "Alive",
+        "species": "Human",
+        "type": "Human",
+        "gender": "Female",
+        "origin": "Earth (Replacement Dimension)",
+        "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+      },
+      {
+        "id": 5,
+        "name": "Jerry Smith",
+        "status": "Alive",
+        "species": "Human",
+        "type": "Human",
+        "gender": "Male",
+        "origin": "Earth (Replacement Dimension)",
+        "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+      },
+      {
+        "id": 6,
+        "name": "Abadango Cluster Princess",
+        "status": "Alive",
+        "species": "Alien",
+        "type": "Alien",
+        "gender": "Female",
+        "origin": "Abadango",
+        "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg"
+      },
+      {
+        "id": 7,
+        "name": "Abradolf Lincler",
+        "status": "unknown",
+        "species": "Human",
+        "type": "Genetic experiment",
+        "gender": "Male",
+        "origin": "Earth (Replacement Dimension)",
+        "image": "https://rickandmortyapi.com/api/character/avatar/7.jpeg"
+      },
+      {
+        "id": 8,
+        "name": "Adjudicator Rick",
+        "status": "Dead",
+        "species": "Human",
+        "type": "Human",
+        "gender": "Male",
+        "origin": "unknown",
+        "image": "https://rickandmortyapi.com/api/character/avatar/8.jpeg"
+      },
+      {
+        "id": 9,
+        "name": "Agency Director",
+        "status": "Dead",
+        "species": "Human",
+        "type": "Human",
+        "gender": "Male",
+        "origin": "Earth (Replacement Dimension)",
+        "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg"
+      },
+      {
+        "id": 10,
+        "name": "Alan Rails",
+        "status": "Dead",
+        "species": "Human",
+        "type": "Superhuman (Ghost trains summoner)",
+        "gender": "Male",
+        "origin": "unknown",
+        "image": "https://rickandmortyapi.com/api/character/avatar/10.jpeg"
+      },
+      {
+        "id": 11,
+        "name": "Albert Einstein",
+        "status": "Dead",
+        "species": "Human",
+        "type": "Human",
+        "gender": "Male",
+        "origin": "Earth (C-137)",
+        "image": "https://rickandmortyapi.com/api/character/avatar/11.jpeg"
+      },
+      {
+        "id": 12,
+        "name": "Alexander",
+        "status": "Dead",
+        "species": "Human",
+        "type": "Human",
+        "gender": "Male",
+        "origin": "Earth (C-137)",
+        "image": "https://rickandmortyapi.com/api/character/avatar/12.jpeg"
+      },
+      {
+        "id": 13,
+        "name": "Alien Googah",
+        "status": "unknown",
+        "species": "Alien",
+        "type": "Alien",
+        "gender": "unknown",
+        "origin": "unknown",
+        "image": "https://rickandmortyapi.com/api/character/avatar/13.jpeg"
+      },
+      {
+        "id": 14,
+        "name": "Alien Morty",
+        "status": "unknown",
+        "species": "Alien",
+        "type": "Alien",
+        "gender": "Male",
+        "origin": "unknown",
+        "image": "https://rickandmortyapi.com/api/character/avatar/14.jpeg"
+      },
+      {
+        "id": 15,
+        "name": "Alien Rick",
+        "status": "unknown",
+        "species": "Alien",
+        "type": "Alien",
+        "gender": "Male",
+        "origin": "unknown",
+        "image": "https://rickandmortyapi.com/api/character/avatar/15.jpeg"
+      },
+      {
+        "id": 16,
+        "name": "Amish Cyborg",
+        "status": "Dead",
+        "species": "Alien",
+        "type": "Parasite",
+        "gender": "Male",
+        "origin": "unknown",
+        "image": "https://rickandmortyapi.com/api/character/avatar/16.jpeg"
+      },
+      {
+        "id": 17,
+        "name": "Annie",
+        "status": "Alive",
+        "species": "Human",
+        "type": "Human",
+        "gender": "Female",
+        "origin": "Earth (C-137)",
+        "image": "https://rickandmortyapi.com/api/character/avatar/17.jpeg"
+      },
+      {
+        "id": 18,
+        "name": "Antenna Morty",
+        "status": "Alive",
+        "species": "Human",
+        "type": "Human with antennae",
+        "gender": "Male",
+        "origin": "unknown",
+        "image": "https://rickandmortyapi.com/api/character/avatar/18.jpeg"
+      },
+      {
+        "id": 19,
+        "name": "Antenna Rick",
+        "status": "unknown",
+        "species": "Human",
+        "type": "Human with antennae",
+        "gender": "Male",
+        "origin": "unknown",
+        "image": "https://rickandmortyapi.com/api/character/avatar/19.jpeg"
+      },
+      {
+        "id": 20,
+        "name": "Ants in my Eyes Johnson",
+        "status": "unknown",
+        "species": "Human",
+        "type": "Human with ants in his eyes",
+        "gender": "Male",
+        "origin": "unknown",
+        "image": "https://rickandmortyapi.com/api/character/avatar/20.jpeg"
+      }
+    ],
+    "episodes": [
+      {
+        "id": 1,
+        "name": "Pilot",
+        "air_date": "December 2, 2013",
+        "episode": 1,
+        "season": 1
+      },
+      {
+        "id": 2,
+        "name": "Lawnmower Dog",
+        "air_date": "December 9, 2013",
+        "episode": 2,
+        "season": 1
+      },
+      {
+        "id": 3,
+        "name": "Anatomy Park",
+        "air_date": "December 16, 2013",
+        "episode": 3,
+        "season": 1
+      },
+      {
+        "id": 4,
+        "name": "M. Night Shaym-Aliens!",
+        "air_date": "January 13, 2014",
+        "episode": 4,
+        "season": 1
+      },
+      {
+        "id": 5,
+        "name": "Meeseeks and Destroy",
+        "air_date": "January 20, 2014",
+        "episode": 5,
+        "season": 1
+      },
+      {
+        "id": 6,
+        "name": "Rick Potion #9",
+        "air_date": "January 27, 2014",
+        "episode": 6,
+        "season": 1
+      },
+      {
+        "id": 7,
+        "name": "Raising Gazorpazorp",
+        "air_date": "March 10, 2014",
+        "episode": 7,
+        "season": 1
+      },
+      {
+        "id": 8,
+        "name": "Rixty Minutes",
+        "air_date": "March 17, 2014",
+        "episode": 8,
+        "season": 1
+      },
+      {
+        "id": 9,
+        "name": "Something Ricked This Way Comes",
+        "air_date": "March 24, 2014",
+        "episode": 9,
+        "season": 1
+      },
+      {
+        "id": 10,
+        "name": "Close Rick-counters of the Rick Kind",
+        "air_date": "April 7, 2014",
+        "episode": 10,
+        "season": 1
+      },
+      {
+        "id": 11,
+        "name": "Ricksy Business",
+        "air_date": "April 14, 2014",
+        "episode": 11,
+        "season": 1
+      },
+      {
+        "id": 12,
+        "name": "A Rickle in Time",
+        "air_date": "July 26, 2015",
+        "episode": 1,
+        "season": 2
+      },
+      {
+        "id": 13,
+        "name": "Mortynight Run",
+        "air_date": "August 2, 2015",
+        "episode": 2,
+        "season": 2
+      },
+      {
+        "id": 14,
+        "name": "Auto Erotic Assimilation",
+        "air_date": "August 9, 2015",
+        "episode": 3,
+        "season": 2
+      },
+      {
+        "id": 15,
+        "name": "Total Rickall",
+        "air_date": "August 16, 2015",
+        "episode": 4,
+        "season": 2
+      },
+      {
+        "id": 16,
+        "name": "Get Schwifty",
+        "air_date": "August 23, 2015",
+        "episode": 5,
+        "season": 2
+      },
+      {
+        "id": 17,
+        "name": "The Ricks Must Be Crazy",
+        "air_date": "August 30, 2015",
+        "episode": 6,
+        "season": 2
+      },
+      {
+        "id": 18,
+        "name": "Big Trouble in Little Sanchez",
+        "air_date": "September 13, 2015",
+        "episode": 7,
+        "season": 2
+      },
+      {
+        "id": 19,
+        "name": "Interdimensional Cable 2: Tempting Fate",
+        "air_date": "September 20, 2015",
+        "episode": 8,
+        "season": 2
+      },
+      {
+        "id": 20,
+        "name": "Look Who's Purging Now",
+        "air_date": "September 27, 2015",
+        "episode": 9,
+        "season": 2
+      }
+    ],
+    "locations": [
+      {
+        "id": 1,
+        "name": "Earth (C-137)",
+        "type": "Planet",
+        "dimension": "Dimension C-137"
+      },
+      {
+        "id": 2,
+        "name": "Abadango",
+        "type": "Cluster",
+        "dimension": "unknown"
+      },
+      {
+        "id": 3,
+        "name": "Citadel of Ricks",
+        "type": "Space station",
+        "dimension": "unknown"
+      },
+      {
+        "id": 4,
+        "name": "Worldender's lair",
+        "type": "Planet",
+        "dimension": "unknown"
+      },
+      {
+        "id": 5,
+        "name": "Anatomy Park",
+        "type": "Microverse",
+        "dimension": "Dimension C-137"
+      },
+      {
+        "id": 6,
+        "name": "Interdimensional Cable",
+        "type": "TV",
+        "dimension": "unknown"
+      },
+      {
+        "id": 7,
+        "name": "Immortality Field Resort",
+        "type": "Resort",
+        "dimension": "unknown"
+      },
+      {
+        "id": 8,
+        "name": "Post-Apocalyptic Earth",
+        "type": "Planet",
+        "dimension": "Post-Apocalyptic Dimension"
+      },
+      {
+        "id": 9,
+        "name": "Purge Planet",
+        "type": "Planet",
+        "dimension": "Replacement Dimension"
+      },
+      {
+        "id": 10,
+        "name": "Venzenulon 7",
+        "type": "Planet",
+        "dimension": "unknown"
+      },
+      {
+        "id": 11,
+        "name": "Bepis 9",
+        "type": "Planet",
+        "dimension": "unknown"
+      },
+      {
+        "id": 12,
+        "name": "Cronenberg Earth",
+        "type": "Planet",
+        "dimension": "Cronenberg Dimension"
+      },
+      {
+        "id": 13,
+        "name": "Nuptia 4",
+        "type": "Planet",
+        "dimension": "unknown"
+      },
+      {
+        "id": 14,
+        "name": "Giant's Town",
+        "type": "Fantasy town",
+        "dimension": "Fantasy Dimension"
+      },
+      {
+        "id": 15,
+        "name": "Bird World",
+        "type": "Planet",
+        "dimension": "unknown"
+      },
+      {
+        "id": 16,
+        "name": "St. Gloopy Noops Hospital",
+        "type": "Space station",
+        "dimension": "unknown"
+      },
+      {
+        "id": 17,
+        "name": "Earth (5-126)",
+        "type": "Planet",
+        "dimension": "Dimension 5-126"
+      },
+      {
+        "id": 18,
+        "name": "Mr. Goldenfold's dream",
+        "type": "Dream",
+        "dimension": "Dimension C-137"
+      },
+      {
+        "id": 19,
+        "name": "Gromflom Prime",
+        "type": "Planet",
+        "dimension": "Replacement Dimension"
+      },
+      {
+        "id": 20,
+        "name": "Earth (Replacement Dimension)",
+        "type": "Planet",
+        "dimension": "Replacement Dimension"
+      }
+    ]
+  }
