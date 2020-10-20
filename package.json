@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "start": "node ./src/sampleapis.js",
-    "dev": "nodemon ./src/sampleapis.js"
+    "dev": "nodemon ./src/sampleapis.js",
+    "test": "jest"
   },
   "engines": {
     "node": "12.x"
@@ -30,6 +31,7 @@
     "pug": "^3.0.0"
   },
   "devDependencies": {
+    "jest": "^26.5.3",
     "nodemon": "^2.0.4"
   }
 }
