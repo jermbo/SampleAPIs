@@ -1,18 +1,20 @@
 {
-  "info": [{
-    "synopsis": "Philip J. Fry is a 25 year old delivery boy living in New York City who is cryogenically frozen on New Year's 1999 for 1000 years, where he wakes up in New New York City on December 31, 2999. There, he meets Turanga Leela, a tough but loving, beautiful one-eyed alien; and Bender, an alcohol-powered bending robot who is addicted to liquor, cigars, stealing, amongst other things. Eventually, they all meet up with Fry's Great, Great, Great, etc... Nephew, Hubert J. Farnsworth. Farnsworth is a very old man who is a genius but is very senile and forgetful. Fry, Leela, and Bender wind up working for Farnsworth's Planet Express Delivery Service. They then meet their co-workers; Amy Wong, who is a Martian intern who comes from a rich family, but is still a human who is very hip. Also, there is Hermes Conrad, who manages the delivery service and is pretty strict. Hermes seems Jamaican in voice and look. And finally, there's Dr. John Zoidberg, a lobster-like alien who is the crew's doctor. Unfortunately, he knows nothing about humans. Fry, Leela, Bender, and sometimes Amy and Dr. Zoidberg travel around the universe risking life and limb delivering packages and performing charitable tasks for tax deductions.",
-    "yearsAired": "1999–2013",
-    "creators": [
-      {
-        "name": "David X. Cohen",
-        "url": "http://www.imdb.com/name/nm0169326"
-      },
-      {
-        "name": "Matt Groening",
-        "url": "http://www.imdb.com/name/nm0004981"
-      }
-    ]
-  }],
+  "info": [
+    {
+      "synopsis": "Philip J. Fry is a 25 year old delivery boy living in New York City who is cryogenically frozen on New Year's 1999 for 1000 years, where he wakes up in New New York City on December 31, 2999. There, he meets Turanga Leela, a tough but loving, beautiful one-eyed alien; and Bender, an alcohol-powered bending robot who is addicted to liquor, cigars, stealing, amongst other things. Eventually, they all meet up with Fry's Great, Great, Great, etc... Nephew, Hubert J. Farnsworth. Farnsworth is a very old man who is a genius but is very senile and forgetful. Fry, Leela, and Bender wind up working for Farnsworth's Planet Express Delivery Service. They then meet their co-workers; Amy Wong, who is a Martian intern who comes from a rich family, but is still a human who is very hip. Also, there is Hermes Conrad, who manages the delivery service and is pretty strict. Hermes seems Jamaican in voice and look. And finally, there's Dr. John Zoidberg, a lobster-like alien who is the crew's doctor. Unfortunately, he knows nothing about humans. Fry, Leela, Bender, and sometimes Amy and Dr. Zoidberg travel around the universe risking life and limb delivering packages and performing charitable tasks for tax deductions.",
+      "yearsAired": "1999–2013",
+      "creators": [
+        {
+          "name": "David X. Cohen",
+          "url": "http://www.imdb.com/name/nm0169326"
+        },
+        {
+          "name": "Matt Groening",
+          "url": "http://www.imdb.com/name/nm0004981"
+        }
+      ]
+    }
+  ],
   "characters": [
     {
       "name": {
@@ -22,7 +24,7 @@
       },
       "images": {
         "head-shot": "",
-        "main": ""
+        "main": "https://upload.wikimedia.org/wikipedia/en/2/28/Philip_Fry.png"
       },
       "gender": "Male",
       "species": "Human",
@@ -105,7 +107,7 @@
       },
       "images": {
         "head-shot": "",
-        "main": ""
+        "main": "https://upload.wikimedia.org/wikipedia/en/d/d4/Turanga_Leela.png"
       },
       "age": "32",
       "gender": "Female",
@@ -144,7 +146,7 @@
       },
       "images": {
         "head-shot": "",
-        "main": ""
+        "main": "https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png"
       },
       "age": "25",
       "gender": "Male",
@@ -297,7 +299,7 @@
       },
       "images": {
         "head-shot": "",
-        "main": ""
+        "main": "https://upload.wikimedia.org/wikipedia/en/0/0f/FuturamaProfessorFarnsworth.png"
       },
       "age": "210",
       "gender": "Male",
@@ -350,7 +352,7 @@
       },
       "images": {
         "head-shot": "",
-        "main": ""
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/9/94/AmyWong.png/revision/latest/scale-to-width-down/160?cb=20170123190854"
       },
       "age": "30",
       "gender": "Female",
@@ -376,7 +378,7 @@
       },
       "images": {
         "head-shot": "",
-        "main": ""
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/0/0d/Hermes.png/revision/latest/scale-to-width-down/216?cb=20170719011119"
       },
       "age": "52",
       "gender": "Male",
@@ -403,16 +405,14 @@
       },
       "images": {
         "head-shot": "",
-        "main": ""
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/d/d9/Mom.png/revision/latest?cb=20170123190703"
       },
       "age": "150",
       "gender": "Femal",
       "species": "Human",
       "homePlanet": "Earth",
       "occupation": "Mega-tycoon owner of Mom's Friendly Robot Company",
-      "sayings": [
-        "Jam a bastard in it, you crap!"
-      ],
+      "sayings": ["Jam a bastard in it, you crap!"],
       "id": 7
     },
     {
@@ -423,7 +423,7 @@
       },
       "images": {
         "head-shot": "",
-        "main": ""
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/4/4a/Dr_John_Zoidberg.png/revision/latest/scale-to-width-down/253?cb=20200505073458"
       },
       "info": {
         "age": "40",
@@ -451,7 +451,7 @@
       },
       "images": {
         "head-shot": "",
-        "main": ""
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/7/73/Zapp-Brannigan.png/revision/latest/scale-to-width-down/346?cb=20200506091829"
       },
       "info": {
         "age": "40",
@@ -485,7 +485,7 @@
       },
       "images": {
         "head-shot": "",
-        "main": ""
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/c/c5/Lurr.png/revision/latest/scale-to-width-down/250?cb=20130329124434"
       },
       "info": {
         "age": "Unknown",
@@ -516,9 +516,7 @@
         "species": "Human"
       },
       "occupation": "Janitor",
-      "sayings": [
-        "I'm Scruffy. The janitor."
-      ],
+      "sayings": ["I'm Scruffy. The janitor."],
       "id": 11
     },
     {
@@ -533,9 +531,7 @@
         "species": "Human"
       },
       "occupation": "Co-owner of Awesome Express",
-      "sayings": [
-        "What? You've never seen a genius's wiener before?"
-      ],
+      "sayings": ["What? You've never seen a genius's wiener before?"],
       "id": 12
     },
     {
@@ -567,9 +563,7 @@
         "species": "Human"
       },
       "occupation": "Co-owner of Awesome Express",
-      "sayings": [
-        "I'm gonna take this and buy five shares of Amazon.com"
-      ],
+      "sayings": ["I'm gonna take this and buy five shares of Amazon.com"],
       "id": 14
     },
     {
@@ -584,9 +578,7 @@
         "species": "Human"
       },
       "occupation": "",
-      "sayings": [
-        "All in favor of the Jamoka-Thunderclap? That would be me."
-      ],
+      "sayings": ["All in favor of the Jamoka-Thunderclap? That would be me."],
       "id": 15
     }
   ],
@@ -1772,12 +1764,7 @@
     {
       "id": 1,
       "question": "What is Fry's first name?",
-      "possibleAnswers": [
-        "Fred",
-        "Philip",
-        "Will",
-        "John"
-      ],
+      "possibleAnswers": ["Fred", "Philip", "Will", "John"],
       "correctAnswer": "Philip"
     },
     {
@@ -1807,12 +1794,7 @@
     {
       "id": 4,
       "question": "What is Ziodberg?",
-      "possibleAnswers": [
-        "Lobster",
-        "Alien",
-        "Muntant",
-        "Robot"
-      ],
+      "possibleAnswers": ["Lobster", "Alien", "Muntant", "Robot"],
       "correctAnswer": "Lobster"
     },
     {
@@ -1841,12 +1823,7 @@
     },
     {
       "question": "In 'The Cyber House Rules' how many orphans does Bender adopt?",
-      "possibleAnswers": [
-        "8",
-        "10",
-        "12",
-        "14"
-      ],
+      "possibleAnswers": ["8", "10", "12", "14"],
       "correctAnswer": 12,
       "id": 7
     },
@@ -1885,25 +1862,13 @@
     },
     {
       "question": "What was the name of Fry's mermaid girlfriend in 'The Deep South'?",
-      "possibleAnswers": [
-        "Ariel",
-        "Umbriel",
-        "Azriel",
-        "Meriel"
-      ],
+      "possibleAnswers": ["Ariel", "Umbriel", "Azriel", "Meriel"],
       "correctAnswer": "Umbriel",
       "id": 11
     },
     {
       "question": "What was the PIN for Fry's ATM card, as revealed in 'A Fishful of Dollars'?",
-      "possibleAnswers": [
-        "1077",
-        "1150",
-        "1089",
-        "1126",
-        "1244",
-        "1999"
-      ],
+      "possibleAnswers": ["1077", "1150", "1089", "1126", "1244", "1999"],
       "correctAnswer": 1077,
       "id": 12
     },
@@ -1932,23 +1897,13 @@
     },
     {
       "question": "In 'The Cryonic Woman' what was the name of the leader of the feral adolescents that challenges Fry at Deathrolling?",
-      "possibleAnswers": [
-        "Butch",
-        "Zed",
-        "Spike",
-        "Snake"
-      ],
+      "possibleAnswers": ["Butch", "Zed", "Spike", "Snake"],
       "correctAnswer": "Zed",
       "id": 15
     },
     {
       "question": "What rank does Kif hold in the DOOP?",
-      "possibleAnswers": [
-        "Sergeant",
-        "Captain",
-        "Lieutenant",
-        "Major"
-      ],
+      "possibleAnswers": ["Sergeant", "Captain", "Lieutenant", "Major"],
       "correctAnswer": "Lieutenant",
       "id": 16
     },
@@ -2045,34 +2000,19 @@
     },
     {
       "question": "In Fear of Bot Planet what fake religious robot holiday did Bender make up?",
-      "possibleAnswers": [
-        "Bot-Mitvah",
-        "Robanza",
-        "Robonukah",
-        "Robotisam"
-      ],
+      "possibleAnswers": ["Bot-Mitvah", "Robanza", "Robonukah", "Robotisam"],
       "correctAnswer": "Robonukah",
       "id": 24
     },
     {
       "question": "In Fry and the Slurm Factory what did Fry and Bender use to look in the Slurm cans?",
-      "possibleAnswers": [
-        "X-Ray",
-        "Z-Ray",
-        "Lookamatic 5000",
-        "F-Ray"
-      ],
+      "possibleAnswers": ["X-Ray", "Z-Ray", "Lookamatic 5000", "F-Ray"],
       "correctAnswer": "Lookamatic 5000",
       "id": 25
     },
     {
       "question": "What was the name of Fry's dog?",
-      "possibleAnswers": [
-        "Buster",
-        "I.C. Wiener",
-        "Robo-Dog",
-        "Seymour Asses"
-      ],
+      "possibleAnswers": ["Buster", "I.C. Wiener", "Robo-Dog", "Seymour Asses"],
       "correctAnswer": "Seymour Asses",
       "id": 26
     },
