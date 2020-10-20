@@ -10,7 +10,7 @@ Understanding RESTful APIs is hard enough, even without including an authenticat
 
 # How to use the service
 
-Choose on an endpoint, say "futurama", then choose what information you'd like, say "characters":
+Choose an endpoint, say "futurama", then choose what information you'd like, say "characters":
 ```Javascript
 const baseURL = "https://sampleapis.com/futurama/api/characters";
 fetch(baseURL)
