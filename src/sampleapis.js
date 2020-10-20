@@ -25,16 +25,17 @@ app.use(cors());
 // Routes
 const reset = require("./routes/reset");
 const baseApis = require('./routes/base-apis');
+const testApis = require('./routes/testApis');
+
 
 app.get("/", (req, res) => {
   res.render("index", {
     apiList: JSON.stringify(ApiList)
   });
 });
-
+app.use("/admin/reset", reset);
+app.use("/admin/test",testApis);
 app.use('/', baseApis);
-app.use("/reset", reset);
-
 // Starting App
 app.listen(port, () => {
   console.log(`App is listening on: http://localhost:${port}`);
