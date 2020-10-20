@@ -15,7 +15,7 @@ router.get("/",   (req, res) => {
         PromiseFetches.push(apiDeets.endPoints.map( (endpoint) => {
           const url = `http://${req.headers.host}/${apiDeets.link}/api/${endpoint}`;
 
-         
+            try {
             return fetch(url)
             .then(res => res.json())
             .then(collection => {
@@ -36,6 +36,16 @@ router.get("/",   (req, res) => {
               res.write(err);
               return 0;
             });
+          } catch (ex) {
+            console.log(`Error fetching ${url}`);
+            console.error(err);
+
+            res.write(`Error fetching ${url}`);
+            res.write(err);
+            return new Promise( (done,reject) => {
+              done(0);
+          })
+          }
         }));
       });
       //console.log("PromiseFetches",PromiseFetches);
