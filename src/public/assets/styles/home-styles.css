@@ -225,7 +225,16 @@ a {
   border-color: #676604;
   background: #f6f428;
 }
-
-
-
 /* ----- */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  padding: 1rem;
+  margin-top: .5rem;
+}
+

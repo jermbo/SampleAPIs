@@ -10,11 +10,13 @@ body
 
         .custom-endpoint-wrapper
           h2 Give your endpoint a name.
-          label(for="endpoint-name")
-          input.endpoint-name(type="text", id="endpoint", maxlength="50", placeholder="Custom Endpoint")
+          .form-group
+            label(for="endpoint-name") Base Endpoint Name
+            input.endpoint-name(type="text", id="endpoint", maxlength="50", placeholder="Custom Endpoint")
           br
-          label(for="endpoint-list")
-          textarea.endpoint-list(placeholder="Separate Endpoints by ;")
+          .form-group
+            label(for="endpoint-list") List of Endpoints
+            textarea.endpoint-list(placeholder="Separate Endpoints by ;")
           br
           button.btn.btn-primary Create Endpoint
           p.message
@@ -32,7 +34,7 @@ body
     createBtn.addEventListener('click', async (e) => {
       e.preventDefault();
       endpointName = endpointNameInput.value.trim().toLowerCase().split(' ').join('-');
-      endpointList = endpointListInput.value.split(';').map(e => e.trim());
+      endpointList = endpointListInput.value.split(';').map(e => e.trim()).filter(e => e);
       console.log(endpointName);
       console.log(endpointList);
 
@@ -52,12 +54,14 @@ body
       });
       const data = await resp.json();
 
+      if (data.status == 201) {
+        messageDisplay.innerHTML = `Your Endpoint was created. Go to <a href="/custom/${endpointName}">/custom/${endpointName}</a> to see default page.`;
+        return;
+      }
+
       if (data.status != 200) {
         messageDisplay.innerText = data.message;
         return;
       }
 
-      if (data.status == 201) {
-        messageDisplay.innerHTML = `Your Endpoint was created. Go to <a href="/custom/${endpointName}">/custom/${endpointName}</a> to see default page.`;
-      }
     });
