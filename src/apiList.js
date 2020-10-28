@@ -75,7 +75,7 @@ module.exports = [
     desc: "An API with information about countries.",
     link: "countries",
     graphLink: "countries/graphql",
-    endPoints: ["name", "capital", "phone", "currency", "population", "flags"]
+    endPoints: ["countries"]
   },
   {
     id: 8,
@@ -95,7 +95,7 @@ module.exports = [
     desc: "Because who doesn't need easily accessible data about the simpsons?",
     link: "simpsons",
     graphLink: "simpsons/graphql",
-    endPoints: ["characters", "products"],
+    endPoints: ["characters", "products","episodes"],
   },
   {
     id: 11,
@@ -133,7 +133,7 @@ module.exports = [
       "Sometimes health data is hard to come by. This endpoints make it easy for you to test your apps with examples of health data such as medical professions.",
     desc: "An API with health and medical information",
     link: "health",
-    graphLink: "health",
+    graphLink: "health/graphql",
     endPoints: ["professions"]
   },
   {
@@ -217,4 +217,13 @@ module.exports = [
     graphLink: "codingResources/graphql",
     endPoints: ["codingResources",], 
     },
+    {
+      id: 22,
+      title: "Rick And Morty",
+      longDesc: "Get all the Rick-iest Episodes, Locations and Characters from a copy of the https://rickandmortyapi.com data. That's the way Rick would have done it!",
+      desc: "API for all current Rick & Morty episodes, locations and characters",
+      link: "rickandmorty",
+      graphLink: "rickandmorty/graphql",
+      endPoints: ["characters","episodes","locations"], 
+      },
 ];
