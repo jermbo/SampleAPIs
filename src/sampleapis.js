@@ -1,4 +1,5 @@
 const express = require("express");
+const bodyParser = require("body-parser");
 const path = require("path");
 const cors = require("cors");
 const ApiList = require("./apiList");
@@ -9,12 +10,18 @@ const ApiList = require("./apiList");
 const app = express();
 const port = process.env.PORT || 5555;
 
+// JSON Parser
+
+// parse application/json
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+
 // Static Files
 app.use(express.static(path.join(__dirname, "/public")));
 
 // View Engine
 app.set("view engine", "pug");
-app.set("views", path.join(__dirname, `/views`));
+app.set("views", path.join(__dirname, "/views"));
 
 // CORS
 app.use(cors());

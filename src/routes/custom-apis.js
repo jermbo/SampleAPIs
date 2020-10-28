@@ -17,22 +17,22 @@ const init = async () =>  {
   await createFileMetaData();
   registerCustomLandingPages();
   registerCustomEndPoints();
-}
+};
 
 const createFileMetaData = async () => {
   const files = await fs.readdirSync(directoryPath);
   CustomEndpoints = files.map((file) => {
     const data = JSON.parse(fs.readFileSync(path.join(__dirname, `../custom/${file}`)));
     const endPoints = Object.keys(data);
-    const name = file.split('.')[0].toLowerCase();
-    
+    const name = file.split(".")[0].toLowerCase();
+
     return {
       name,
       link: name,
       endPoints
-    }
+    };
   });
-}
+};
 
 const registerCustomLandingPages = () => {
   router.get("/:id", (req, res) => {
@@ -47,12 +47,12 @@ const registerCustomLandingPages = () => {
       res.render("404");
     }
   });
-}
+};
 
 const registerCustomEndPoints = () => {
   CustomEndpoints.forEach((endpoint) => {
     const { name } = endpoint;
-    const file = path.join(__dirname, `../custom/${name}.json`)
+    const file = path.join(__dirname, `../custom/${name}.json`);
     router.use(
       `/${name}/api`,
       apiLimits,
@@ -60,11 +60,10 @@ const registerCustomEndPoints = () => {
     );
 
     let data = getFromFile(file);
-    // console.log(data);
     try {
       router.use(
         `/${name}/graphql`,
-        apiLimits, 
+        apiLimits,
         jsonGraphqlExpress.default(data)
       );
     } catch (err) {
@@ -72,33 +71,7 @@ const registerCustomEndPoints = () => {
       console.error(err);
     }
   });
-}
-
-router.get("/create/:name", async (req, res) => {
-  const name = req.params.name.toLowerCase();
-  const files = await fs.readdirSync(directoryPath);
-  const exists = files.filter(file => {
-    const fileName = file.split('.')[0].toLowerCase();
-    return fileName == name;
-  })[0];
-
-  const baseData = {
-    info: [{ id: 1, name }]
-  }
-
-  if (!exists) {
-    fs.writeFileSync(
-      path.join(__dirname, `../custom/${name}.json`), 
-      JSON.stringify(baseData)
-    );
-    init();
-  }
-
-  res.json({
-    status: 201,
-    message: "File was created!"
-  })
-})
+};
 
 init();
 module.exports = router;
