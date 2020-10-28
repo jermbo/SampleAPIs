@@ -1,3 +1,14 @@
 include partials/header.pug
 body
-  h1 404
+  main.not-found
+    code
+      |
+      |{
+      |  samplesAPI: {
+      |    error: "404 Page not Found"
+      |  }
+      |}
+      |
+    p
+      | Take me 
+      a(href="/") home

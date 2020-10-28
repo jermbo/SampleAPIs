@@ -23,17 +23,20 @@ code {
   background-color: #234;
   font-family: monospace;
   border-radius: 2px;
-  box-shadow: 0 4px 7px -2px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 7px -2px rgba(0, 0, 0, 0.4);
   outline: none;
   counter-reset: step;
   overflow-y: auto;
 }
+
 code::-webkit-scrollbar {
   width: 6px;
 }
+
 code::-webkit-scrollbar-thumb {
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
+
 code p {
   display: block;
   position: relative;
@@ -42,6 +45,7 @@ code p {
   margin: 10px 0;
   letter-spacing: 1px;
 }
+
 code p::before {
   content: counter(step);
   counter-increment: step;
@@ -49,33 +53,63 @@ code p::before {
   right: calc(100% + 16px);
   color: #678;
 }
+
 code .methods {
   color: #90caf9;
 }
+
 code .js1 {
   color: #e68;
 }
+
 code .js2 {
   color: #7ff;
   font-style: italic;
 }
+
 code .js-num {
   color: #a7c;
 }
+
 code .func-name {
   color: #6e6;
 }
+
 code .string,
 code .string * {
   color: #00e676;
 }
+
 code .func-args,
 code .func-args * {
   color: #ffa500;
 }
+
 code .comment,
 code .comment * {
   color: #999;
+}
+
+main.not-found {
+  display: block;
+  background: rgb(2,214,233);
+  background: linear-gradient(180deg, rgba(2,214,233,1) 0%, rgba(249,248,113,1) 100%);
+  height: 100vh;
+  padding: 5vh 10vw;
+  font-size: 1.5rem;
+}
+main.not-found code {
+  white-space: pre-wrap;
+  padding: 0;
+  letter-spacing: 0.1rem;
+  line-height: 5rem;
+  font-size: 2.5rem;
+  background: none;
+  box-shadow: none;
+}
+
+main.not-found a {
+  color: #11bbb2;
 }
 
 .copy {
@@ -104,18 +138,23 @@ code .comment * {
 }
 
 @keyframes fade {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 0;
     z-index: 1;
   }
+
   5% {
     opacity: 1;
     z-index: 10;
   }
+
   75% {
     opacity: 1;
     z-index: 10;
   }
+
   90% {
     opacity: .1;
     z-index: 10;
