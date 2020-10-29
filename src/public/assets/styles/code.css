@@ -102,10 +102,11 @@ main.not-found code {
   white-space: pre-wrap;
   padding: 0;
   letter-spacing: 0.1rem;
-  line-height: 5rem;
-  font-size: 2.5rem;
+  line-height: 2em;
+  font-size: 1.5rem;
   background: none;
   box-shadow: none;
+  font-weight: bold;
 }
 
 main.not-found a {

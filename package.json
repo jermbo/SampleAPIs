@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/jermbo/SampleAPIs#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-rate-limit": "^5.1.3",
     "express-slow-down": "^1.3.1",

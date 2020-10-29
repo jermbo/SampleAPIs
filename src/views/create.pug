@@ -1,0 +1,67 @@
+include partials/header.pug
+body
+  main#app
+    article.site
+      .site__inner
+        h1 Create a Custom Endpoint!
+        p Do you need a quick database to test your ideas? Look no further.
+        p SampleAPIs.com lets you store, read &amp; modify JSON data over HTTP APIs for free, for 10 days.
+        P Enter you own name, or copy the one below, click the Create button, and CRUD until your hearts content.
+
+        .custom-endpoint-wrapper
+          h2 Give your endpoint a name.
+          .form-group
+            label(for="endpoint-name") Base Endpoint Name
+            input.endpoint-name(type="text", id="endpoint", maxlength="50", placeholder="Custom Endpoint")
+          br
+          .form-group
+            label(for="endpoint-list") List of Endpoints
+            textarea.endpoint-list(placeholder="Separate Endpoints by ;")
+          br
+          button.btn.btn-primary Create Endpoint
+          p.message
+    section.apis
+
+  script.
+    const createBtn = document.querySelector('.btn');
+    const endpointNameInput = document.querySelector('.endpoint-name');
+    const endpointListInput = document.querySelector('.endpoint-list');
+    const endpointNameDisplay = document.querySelector('.custom-name');
+    const messageDisplay = document.querySelector('.message');
+    let endpointName = '';
+    let endpointList = []
+
+    createBtn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      endpointName = endpointNameInput.value.trim().toLowerCase().split(' ').join('-');
+      endpointList = endpointListInput.value.split(';').map(e => e.trim()).filter(e => e);
+      console.log(endpointName);
+      console.log(endpointList);
+
+      if (!endpointName || !endpointList) {
+        console.log('no name')
+        messageDisplay.innerHTML = "Please fill out form.";
+        return;
+      }
+
+      const resp = await fetch(`http://localhost:5555/create`, {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({endpointName, endpoints: endpointList})
+      });
+      const data = await resp.json();
+
+      if (data.status == 201) {
+        messageDisplay.innerHTML = `Your Endpoint was created. Go to <a href="/custom/${endpointName}">/custom/${endpointName}</a> to see default page.`;
+        return;
+      }
+
+      if (data.status != 200) {
+        messageDisplay.innerText = data.message;
+        return;
+      }
+
+    });

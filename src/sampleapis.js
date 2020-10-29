@@ -1,4 +1,5 @@
 const express = require("express");
+const bodyParser = require("body-parser");
 const path = require("path");
 const cors = require("cors");
 const ApiList = require("./apiList");
@@ -9,12 +10,18 @@ const ApiList = require("./apiList");
 const app = express();
 const port = process.env.PORT || 5555;
 
+// JSON Parser
+
+// parse application/json
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+
 // Static Files
 app.use(express.static(path.join(__dirname, "/public")));
 
 // View Engine
 app.set("view engine", "pug");
-app.set("views", path.join(__dirname, `/views`));
+app.set("views", path.join(__dirname, "/views"));
 
 // CORS
 app.use(cors());
@@ -24,19 +31,22 @@ app.use(cors());
 
 // Routes
 const reset = require("./routes/reset");
-const baseApis = require('./routes/base-apis');
-const testApis = require('./routes/testApis');
-
+const baseApis = require("./routes/base-apis");
+const custom = require("./routes/custom-apis");
+const create = require("./routes/create-apis");
 
 app.get("/", (req, res) => {
   res.render("index", {
     apiList: JSON.stringify(ApiList)
   });
 });
-app.use("/admin/reset", reset);
-app.use("/admin/test",testApis);
-app.use('/', baseApis);
+
+app.use("/reset", reset);
+app.use("/create", create);
+app.use("/custom", custom);
+app.use("/", baseApis);
+
 // Starting App
 app.listen(port, () => {
   console.log(`App is listening on: http://localhost:${port}`);
-})
+});

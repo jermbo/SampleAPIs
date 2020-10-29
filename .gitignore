@@ -6,3 +6,5 @@ data.html
 .now
 .vs
 package-lock.json 
+
+src/custom/

@@ -3,7 +3,9 @@ const path = require("path");
 const rateLimit = require("express-rate-limit");
 const jsonServer = require("json-server");
 const jsonGraphqlExpress = require("json-graphql-server");
-const { getFromFile } = require("../utils");
+
+const { apiLimits } = require("../utils/rateLimiterDefaults");
+const { getFromFile } = require("../utils/utils");
 
 const ApiList = require("../apiList");
 
@@ -23,17 +25,11 @@ router.get("/:id", (req, res) => {
   }
 });
 
-const apiLimiter = rateLimit({
-  windowMs: 5 * 60 * 1000, // 5 minutes
-  max: 500,
-  message: "Too many requests, please try again after five minutes."
-});
-
 // API EndPoint Route
 ApiList.forEach(({ link }) => {
   router.use(
     `/${link}/api`,
-    apiLimiter,
+    apiLimits,
     jsonServer.router(path.join(__dirname, `../api/${link}.json`))
   );
 
@@ -41,7 +37,7 @@ ApiList.forEach(({ link }) => {
   try {
     router.use(
       `/${link}/graphql`,
-      apiLimiter, 
+      apiLimits, 
       jsonGraphqlExpress.default(data)
     );
   } catch (err) {
