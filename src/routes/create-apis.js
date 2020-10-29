@@ -11,7 +11,6 @@ router.get("/", (req, res) => {
 
 router.post("/", async (req, res) => {
   const {endpointName, endpoints} = req.body;
-  console.log({endpointName, endpoints});
 
   const files = await fs.readdirSync(directoryPath);
   const exists = files.filter(file => {
