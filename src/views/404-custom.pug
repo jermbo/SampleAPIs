@@ -1,0 +1,11 @@
+include partials/header.pug
+body
+  main.not-found
+    code
+      |{
+      |  samplesAPI: {
+      |    error: "404 Endpoint Not Found",
+      |    message: "Browser might need a refresh."
+      |    action: "Click link to fresh #[a(href=`/custom/${id}`) #{id}] to kick the server.
+      |  }
+      |}

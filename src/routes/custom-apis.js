@@ -44,7 +44,10 @@ const registerCustomLandingPages = () => {
         ...data
       });
     } else {
-      res.render("404");
+      init();
+      res.render("404-custom", {
+        id
+      });
     }
   });
 };
