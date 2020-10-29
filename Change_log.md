@@ -1,5 +1,15 @@
 # Change Log
 
+## v2.8.0
+
+Foundation for user created endpoints. This feature is still in beta and not promoted on the site. Users can manually access the link by going to `.com/create`. Here the user will need to enter a group name and provide a list of endpoints to create the first file.
+
+More improvements will be made in the near future.
+
+## v2.7.0
+
+Custom 404 Pages.
+
 ## v2.6.0
 
 In anticipation of being utilized more, we have put in a rate limiter based on IP address. Right now the rate limit is 500 every 5 minutes. This can be adjusted based on user feedback.
