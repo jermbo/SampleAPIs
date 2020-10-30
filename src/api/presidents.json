@@ -363,6 +363,14 @@
       "yearsInOffice": "2017-present",
       "vicePresidents": ["Mike Pence"],
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/220px-Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "id": 46,
+      "ordinal": 46,
+      "name": "Recep Tayyip Erdoğan",
+      "yearsInOffice": "2014-present",
+      "vicePresidents": ["Abdullah Gül"],
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Recep_Tayyip_Erdo%C4%9Fan_2019_%28cropped%29.jpg/330px-Recep_Tayyip_Erdo%C4%9Fan_2019_%28cropped%29.jpg"
     }
   ]
 }
