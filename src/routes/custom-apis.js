@@ -22,9 +22,8 @@ const init = async () =>  {
 const createFileMetaData = async () => {
   const files = await fs.readdirSync(directoryPath);
   CustomEndpoints = files.map((file) => {
-    console.log("reading file",file)
     if (file.includes(".json")) {
-      console.log("Yes!!!! a json file")
+      console.log("Custom url:" + file)
       const data = JSON.parse(fs.readFileSync(path.join(__dirname, `../custom/${file}`)));
       const endPoints = Object.keys(data);
       const name = file.split(".")[0].toLowerCase();
