@@ -84,6 +84,21 @@
       "title": "Irish",
       "description": "Irish coffee consists of black coffee, whiskey and sugar, topped with whipped cream.",
       "ingredients": [ "Coffee", "Whiskey", "Sugar", "Cream" ]
+    },
+    {
+      "title": "Guayoyo",
+      "description": "Traditional venezuelan coffee prepared by filtering the ground coffee in a cone of cloth and pouring hot water on top of it. It's prefferably drinked wihout milk nor cream.",
+      "ingredients": [ "Coffee", "Traditional", "Hot Water" ]
+    },
+    {
+      "title": "Cortadito",
+      "description": "Traditional cuban coffee method where a bit of freshly brewed coffee is mixed with sugar to create a highly sugared paste. Then add the rest of the coffee and stir adding milk until a 50/50 ratio is achieved.",
+      "ingredients": [ "Coffee", "Traditional", "Sugar", "Milk" ]
+    },
+    {
+      "title": "Aguapanela Coffee",
+      "description": "Bring panela and coffee to a boil in a small pan for 30 minutes until panela is melted. Brew your coffee using your favorite brewing technique but add the hot aguapanela instead of hot water. Delicious sweetened coffee is ready.",
+      "ingredients": [ "Coffee", "Sweet", "Panela", "Traditional" ]
     }
   ],
   "iced" : [
