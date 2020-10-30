@@ -227,7 +227,7 @@ module.exports = [
     endPoints: ["characters", "episodes", "locations"],
   },
   {
-    id: 2,
+    id: 23,
     title: "Coffee",
     longDesc: "Basic list of descriptions and ingredients used for the most popular coffee drinks",
     desc: "API for popular coffee drinks",
