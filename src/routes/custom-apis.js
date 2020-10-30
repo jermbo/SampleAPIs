@@ -22,16 +22,24 @@ const init = async () =>  {
 const createFileMetaData = async () => {
   const files = await fs.readdirSync(directoryPath);
   CustomEndpoints = files.map((file) => {
-    const data = JSON.parse(fs.readFileSync(path.join(__dirname, `../custom/${file}`)));
-    const endPoints = Object.keys(data);
-    const name = file.split(".")[0].toLowerCase();
+    console.log("reading file",file)
+    if (file.includes(".json")) {
+      console.log("Yes!!!! a json file")
+      const data = JSON.parse(fs.readFileSync(path.join(__dirname, `../custom/${file}`)));
+      const endPoints = Object.keys(data);
+      const name = file.split(".")[0].toLowerCase();
 
-    return {
-      name,
-      link: name,
-      endPoints
-    };
+      return {
+        name,
+        link: name,
+        endPoints
+      };
+    } else {
+      return null;
+    }
   });
+
+  //TODO - do something with "CustomEndpoints"...
 };
 
 const registerCustomLandingPages = () => {
@@ -53,27 +61,29 @@ const registerCustomLandingPages = () => {
 };
 
 const registerCustomEndPoints = () => {
-  CustomEndpoints.forEach((endpoint) => {
-    const { name } = endpoint;
-    const file = path.join(__dirname, `../custom/${name}.json`);
-    router.use(
-      `/${name}/api`,
-      apiLimits,
-      jsonServer.router(file)
-    );
+    CustomEndpoints.forEach((endpoint) => {
+        if (endpoint){
+        const { name } = endpoint;
+        const file = path.join(__dirname, `../custom/${name}.json`);
+        router.use(
+          `/${name}/api`,
+          apiLimits,
+          jsonServer.router(file)
+        );
 
-    let data = getFromFile(file);
-    try {
-      router.use(
-        `/${name}/graphql`,
-        apiLimits,
-        jsonGraphqlExpress.default(data)
-      );
-    } catch (err) {
-      console.log(`Unable to set up /custom/${name}/graphql`);
-      console.error(err);
-    }
-  });
+        let data = getFromFile(file);
+        try {
+          router.use(
+            `/${name}/graphql`,
+            apiLimits,
+            jsonGraphqlExpress.default(data)
+          );
+        } catch (err) {
+          console.log(`Unable to set up /custom/${name}/graphql`);
+          console.error(err);
+        }
+      };
+    });
 };
 
 init();
