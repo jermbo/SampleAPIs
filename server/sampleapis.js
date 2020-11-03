@@ -10,6 +10,8 @@ const ApiList = require("./apiList");
 const app = express();
 const port = process.env.PORT || 5555;
 
+
+const APIList = require("./apiList");
 // JSON Parser
 
 // parse application/json
@@ -32,7 +34,17 @@ app.use(cors());
 // Routes
 const reset = require("./routes/reset");
 const baseApis = require("./routes/base-apis");
-const custom = require("./routes/custom-apis");
+// const custom = require("./routes/custom-apis");
+
+app.get("/frontend", (req, res) => {
+  res.json({
+    status: 200,
+    data: {
+      apis: APIList
+    }
+  });
+});
+
 const create = require("./routes/create-apis");
 
 app.get("/", (req, res) => {
@@ -43,7 +55,7 @@ app.get("/", (req, res) => {
 
 app.use("/reset", reset);
 app.use("/create", create);
-app.use("/custom", custom);
+// app.use("/custom", custom);
 app.use("/", baseApis);
 
 // Starting App
