@@ -1,4 +1,13 @@
 {
+  "metaData": [
+    {
+      "title": "Presidents",
+      "longDesc": "Millions of peaches! No...not those Presidents. You're practicing API calls, why not learn a little bit about United States history in the process? Here we have a collection of all the US Presidents. Updated every 4-8 years.",
+      "desc": "Millions of peaches! No...not those Presidents...",
+      "featured": true,
+      "categories": []
+    }
+  ],
   "presidents": [
     {
       "id": 1,
@@ -253,11 +262,7 @@
       "ordinal": 32,
       "name": "Franklin D. Roosevelt",
       "yearsInOffice": "1933-1945",
-      "vicePresidents": [
-        "John N. Garner",
-        "Henry A. Wallace",
-        "Harry S. Truman"
-      ],
+      "vicePresidents": ["John N. Garner", "Henry A. Wallace", "Harry S. Truman"],
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/FDR_1944_Color_Portrait.jpg/220px-FDR_1944_Color_Portrait.jpg"
     },
     {

@@ -1,4 +1,13 @@
 {
+  "metaData": [
+    {
+      "title": "Switch Games",
+      "longDesc": "Figured it would be a cool db to have various video games on the Switch.",
+      "desc": "Figured it would be fun to have a Switch game list on here.",
+      "featured": true,
+      "categories": []
+    }
+  ],
   "games": [
     {
       "id": 1,

@@ -1,4 +1,13 @@
 {
+  "metaData": [
+    {
+      "title": "CSS Color Names",
+      "longDesc": "Thought it would be cool to include different CSS Colors Names. I was inspired when I found this site, https://xkcd.com/color/rgb/.",
+      "desc": "A list of CSS Color Names",
+      "featured": true,
+      "categories": []
+    }
+  ],
   "colors": [
     {
       "id": "v3rpf4v7v",

@@ -1,4 +1,13 @@
 {
+  "metaData": [
+    {
+      "title": "Recipes",
+      "longDesc": "Because everyone is making a recipe app to learn to code. So, here is some data.",
+      "desc": "A recipe database",
+      "featured": true,
+      "categories": []
+    }
+  ],
   "recipes": [
     {
       "id": 1,

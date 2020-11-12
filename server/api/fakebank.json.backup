@@ -1,5 +1,14 @@
 {
-  "futurama": [
+  "metaData": [
+    {
+      "title": "FakeBank",
+      "longDesc": "Building an app that needs some bake transactions? Well, look no further. Here are what Fry's bank statements might look like from the future.",
+      "desc": "Just a random set of fake bank data.",
+      "featured": true,
+      "categories": []
+    }
+  ],
+  "accounts": [
     {
       "Transaction-Date": "2015-12-31",
       "Description": "All Purpose Spray",

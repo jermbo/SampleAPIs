@@ -1,4 +1,13 @@
 {
+  "metaData": [
+    {
+      "title": "Typer",
+      "longDesc": "A place to hold lessons for Typer",
+      "desc": "A place to hold lessons for Typer",
+      "featured": true,
+      "categories": []
+    }
+  ],
   "welcomeQuestions": [
     {
       "id": "_5degoesxi",
@@ -59,20 +68,12 @@
           "type": "dom",
           "desc": "HTML is made up of tags. Different tags do different things, but they all follow the same rules. Let's look at some heading rules. Let's look at some header tags.",
           "render": true,
-          "action": [
-            "<h1>Heading 1</h1>",
-            "<h2>Heading 2</h2>",
-            "<h3>Heading 3</h3>"
-          ]
+          "action": ["<h1>Heading 1</h1>", "<h2>Heading 2</h2>", "<h3>Heading 3</h3>"]
         },
         {
           "type": "dom",
           "desc": "Header tags go all the way up to 6.",
-          "action": [
-            "<h4>Heading 4</h4>",
-            "<h5>Heading 5</h5>",
-            "<h6>Heading 6</h6>"
-          ],
+          "action": ["<h4>Heading 4</h4>", "<h5>Heading 5</h5>", "<h6>Heading 6</h6>"],
           "render": true
         },
         {
@@ -125,9 +126,7 @@
         {
           "type": "dom",
           "desc": "HTML can display images to! Remember to give it an alt attribute.",
-          "action": [
-            "<img src=\"https://placekitten.com/200/200\" alt=\"Purrrr purrrr\">"
-          ],
+          "action": ["<img src=\"https://placekitten.com/200/200\" alt=\"Purrrr purrrr\">"],
           "render": true
         }
       ],
@@ -142,9 +141,7 @@
         {
           "type": "dom",
           "desc": "Forms give you a way to let the user interact with your website. The most common input field is a text field.",
-          "action": [
-            "<input type=\"text\" placeholder=\"Favorite Ice Cream>\">"
-          ],
+          "action": ["<input type=\"text\" placeholder=\"Favorite Ice Cream>\">"],
           "render": true
         },
         {
@@ -174,9 +171,7 @@
         {
           "type": "dom",
           "desc": "Sometimes, the user has a lot to type. Thankfully, HTML has a text area that allows users to type as much as they need.",
-          "action": [
-            "<textarea name=\"special-info\" cols=\"20\" rows=\"20\"></textarea>"
-          ],
+          "action": ["<textarea name=\"special-info\" cols=\"20\" rows=\"20\"></textarea>"],
           "render": true
         },
         {
@@ -210,17 +205,13 @@
         {
           "type": "dom",
           "desc": "Some tags need special attributes to do something different. Let's look at an anchor tag and see how to link it to google.",
-          "action": [
-            "<a href=\"https://google.com\" target=\"_blank\">Google</a>"
-          ],
+          "action": ["<a href=\"https://google.com\" target=\"_blank\">Google</a>"],
           "render": true
         },
         {
           "type": "dom",
           "desc": "Where else can an anchor go? Let's checkout YouTube.",
-          "action": [
-            "<a href=\"https://youtube.com\" target=\"_blank\">Youtube</a>"
-          ],
+          "action": ["<a href=\"https://youtube.com\" target=\"_blank\">Youtube</a>"],
           "render": true
         },
         {
@@ -232,9 +223,7 @@
         {
           "type": "dom",
           "desc": "It's a good idea to add an alt attribute to images to help with accessibility. ",
-          "action": [
-            "<img src=\"https://picsum.photos/id/237/200/300\" alt=\"Look at that puppy!\">"
-          ],
+          "action": ["<img src=\"https://picsum.photos/id/237/200/300\" alt=\"Look at that puppy!\">"],
           "render": true
         },
         {
@@ -274,36 +263,19 @@
         {
           "type": "style",
           "desc": "Now that we have tags to style, let's start by styling the box.",
-          "action": [
-            ".box {",
-            "  background: #e5e5e5;",
-            "  border: 5px solid #222;",
-            "  padding: 0 15px;",
-            "}"
-          ],
+          "action": [".box {", "  background: #e5e5e5;", "  border: 5px solid #222;", "  padding: 0 15px;", "}"],
           "render": true
         },
         {
           "type": "style",
           "desc": "Why not make the paragraphs larger and bolder. ",
-          "action": [
-            "p {",
-            "  font-size: 25px;",
-            "  font-weight: bolder;",
-            "  font-family: Arial;",
-            "}"
-          ],
+          "action": ["p {", "  font-size: 25px;", "  font-weight: bolder;", "  font-family: Arial;", "}"],
           "render": true
         },
         {
           "type": "style",
           "desc": "We added a couple of paragraphs with a class of \"different\". Let's make them different.",
-          "action": [
-            ".different {",
-            "  color: goldenrod;",
-            "  font-family: cursive;",
-            "}"
-          ],
+          "action": [".different {", "  color: goldenrod;", "  font-family: cursive;", "}"],
           "render": true
         },
         {
@@ -344,12 +316,7 @@
         {
           "type": "style",
           "desc": "The parent div needs a bit of attention first. This is purely for demo purposes.",
-          "action": [
-            "#buttons {",
-            "  padding-top: 50px;",
-            "  text-align: center;",
-            "}"
-          ],
+          "action": ["#buttons {", "  padding-top: 50px;", "  text-align: center;", "}"],
           "render": true
         },
         {
@@ -372,12 +339,7 @@
         {
           "type": "style",
           "desc": "You see the \"active\" state of a button. It's a pseudo class that represents a specific state a tag can be in.",
-          "action": [
-            ".btn:active {",
-            "  transform: translate(0px, 5px);",
-            "  box-shadow: 0 1px 0 0;",
-            "}"
-          ],
+          "action": [".btn:active {", "  transform: translate(0px, 5px);", "  box-shadow: 0 1px 0 0;", "}"],
           "render": true
         },
         {

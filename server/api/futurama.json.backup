@@ -1,4 +1,13 @@
 {
+  "metaData": [
+    {
+      "title": "Futurama",
+      "longDesc": "If you are a Futurama fan, then this api is for you. Here you can find everything from Episodes to Characters to Trivia Questions, and even some of the Products featured on the show.",
+      "desc": "An API with characters, episode listing, species, planets, and trivia questions.",
+      "featured": true,
+      "categories": []
+    }
+  ],
   "info": [
     {
       "synopsis": "Philip J. Fry is a 25 year old delivery boy living in New York City who is cryogenically frozen on New Year's 1999 for 1000 years, where he wakes up in New New York City on December 31, 2999. There, he meets Turanga Leela, a tough but loving, beautiful one-eyed alien; and Bender, an alcohol-powered bending robot who is addicted to liquor, cigars, stealing, amongst other things. Eventually, they all meet up with Fry's Great, Great, Great, etc... Nephew, Hubert J. Farnsworth. Farnsworth is a very old man who is a genius but is very senile and forgetful. Fry, Leela, and Bender wind up working for Farnsworth's Planet Express Delivery Service. They then meet their co-workers; Amy Wong, who is a Martian intern who comes from a rich family, but is still a human who is very hip. Also, there is Hermes Conrad, who manages the delivery service and is pretty strict. Hermes seems Jamaican in voice and look. And finally, there's Dr. John Zoidberg, a lobster-like alien who is the crew's doctor. Unfortunately, he knows nothing about humans. Fry, Leela, Bender, and sometimes Amy and Dr. Zoidberg travel around the universe risking life and limb delivering packages and performing charitable tasks for tax deductions.",
@@ -1770,25 +1779,13 @@
     {
       "question": "In 'Benders Big Score' what ailen species scam the earth?",
       "id": 2,
-      "possibleAnswers": [
-        "Nibbloniens",
-        "Omicrons",
-        "Robots",
-        "Nudest aliens",
-        "Tentacals"
-      ],
+      "possibleAnswers": ["Nibbloniens", "Omicrons", "Robots", "Nudest aliens", "Tentacals"],
       "correctAnswer": "Nudest aliens"
     },
     {
       "id": 3,
       "question": "What is benders middle and last name?",
-      "possibleAnswers": [
-        "E Smithie",
-        "Flam Flexo",
-        "Lobster Squid",
-        "Bending Rodriguez",
-        "Steven martin"
-      ],
+      "possibleAnswers": ["E Smithie", "Flam Flexo", "Lobster Squid", "Bending Rodriguez", "Steven martin"],
       "correctAnswer": "Bending Rodriguez"
     },
     {
@@ -1800,25 +1797,13 @@
     {
       "id": 5,
       "question": "What was Fry\"s job in 1999?",
-      "possibleAnswers": [
-        "Manager",
-        "Bounty Hunter",
-        "Delivery Boy",
-        "Factory Worker",
-        "Cook"
-      ],
+      "possibleAnswers": ["Manager", "Bounty Hunter", "Delivery Boy", "Factory Worker", "Cook"],
       "correctAnswer": "Delivery Boy"
     },
     {
       "id": 6,
       "question": "How did Fry meet Bender in the first episode?",
-      "possibleAnswers": [
-        "Bar",
-        "Suicide Booth",
-        "Street",
-        "Shop",
-        "Looking for jobs"
-      ],
+      "possibleAnswers": ["Bar", "Suicide Booth", "Street", "Shop", "Looking for jobs"],
       "correctAnswer": "Suicide Booth"
     },
     {
@@ -1829,23 +1814,13 @@
     },
     {
       "question": "In 'The Why of Fry' what vehicle does Nibbler give to Fry to travel to the Infosphere?",
-      "possibleAnswers": [
-        "Scooty-Puff Jr",
-        "Zooty-Puff Jr",
-        "Scoochy-Puff Jr",
-        "Booty-Puff Jr"
-      ],
+      "possibleAnswers": ["Scooty-Puff Jr", "Zooty-Puff Jr", "Scoochy-Puff Jr", "Booty-Puff Jr"],
       "correctAnswer": "Scooty-Puff Jr",
       "id": 8
     },
     {
       "question": "Hermes' wife, LaBarbara, was once married to who?",
-      "possibleAnswers": [
-        "Trinidad Slim",
-        "Barbados Slim",
-        "Antigua Slim",
-        "Grenada Slim"
-      ],
+      "possibleAnswers": ["Trinidad Slim", "Barbados Slim", "Antigua Slim", "Grenada Slim"],
       "correctAnswer": "Barbados Slim",
       "id": 9
     },
@@ -1874,12 +1849,7 @@
     },
     {
       "question": "In 'Hell is Other Robots' Bender turns to which religion to help overcome his addiction?",
-      "possibleAnswers": [
-        "League of Sciencology",
-        "Temple of Robotology",
-        "Church of Roboism",
-        "Order of Mechanology"
-      ],
+      "possibleAnswers": ["League of Sciencology", "Temple of Robotology", "Church of Roboism", "Order of Mechanology"],
       "correctAnswer": "Temple of Robotology",
       "id": 13
     },
@@ -1909,58 +1879,31 @@
     },
     {
       "question": "Who are the two recurring cops, often seen around New New York?",
-      "possibleAnswers": [
-        "Jonesy and ISP",
-        "Smitty and URL",
-        "Brady and Dotcom",
-        "Harry and Capslock"
-      ],
+      "possibleAnswers": ["Jonesy and ISP", "Smitty and URL", "Brady and Dotcom", "Harry and Capslock"],
       "correctAnswer": "Brady and Dotcom",
       "id": 17
     },
     {
       "question": "In 'Insane in the Mainframe', who is Fry's room mate at the Asylum for Criminally Insane Robots before Roberto is moved in?",
-      "possibleAnswers": [
-        "Joey Mousepad",
-        "Tinny Tim",
-        "Hedonismbot",
-        "Malfunctioning Eddie"
-      ],
+      "possibleAnswers": ["Joey Mousepad", "Tinny Tim", "Hedonismbot", "Malfunctioning Eddie"],
       "correctAnswer": "Malfunctioning Eddie",
       "id": 18
     },
     {
       "question": "Which product successfully uses a dream advert to market itself to Fry?",
-      "possibleAnswers": [
-        "Slurm",
-        "Bachelor Chowm",
-        "Lightspeed Briefs",
-        "Mom's Robot Oil"
-      ],
+      "possibleAnswers": ["Slurm", "Bachelor Chowm", "Lightspeed Briefs", "Mom's Robot Oil"],
       "correctAnswer": "Lightspeed Briefs",
       "id": 19
     },
     {
       "question": "What was Fry's job in 1999?",
-      "possibleAnswers": [
-        "Pizza Delivery Boy",
-        "Newspaper Delivery Boy",
-        "Milkman",
-        "Shoe Shine Boy",
-        "Postman"
-      ],
+      "possibleAnswers": ["Pizza Delivery Boy", "Newspaper Delivery Boy", "Milkman", "Shoe Shine Boy", "Postman"],
       "correctAnswer": "Pizza Delivery Boy",
       "id": 20
     },
     {
       "question": "What company does Dr. Farnsworth run?",
-      "possibleAnswers": [
-        "Space Express",
-        "FexEd",
-        "Earth Express",
-        "Planet Express",
-        "Federal Express"
-      ],
+      "possibleAnswers": ["Space Express", "FexEd", "Earth Express", "Planet Express", "Federal Express"],
       "correctAnswer": "Planet Express",
       "id": 21
     },
@@ -1977,24 +1920,13 @@
     },
     {
       "question": "What are the pest animals in New New York?",
-      "possibleAnswers": [
-        "Rats",
-        "Mutated Gators",
-        "Owls",
-        "Pigeons",
-        "Omicrons"
-      ],
+      "possibleAnswers": ["Rats", "Mutated Gators", "Owls", "Pigeons", "Omicrons"],
       "correctAnswer": "Owls",
       "id": 23
     },
     {
       "question": "In Love's Labours In Space which club did Leela visit to find a partner?",
-      "possibleAnswers": [
-        "Club Extravaganza",
-        "Bubble Bar",
-        "Hip Joint",
-        "O'Gorgnaxs"
-      ],
+      "possibleAnswers": ["Club Extravaganza", "Bubble Bar", "Hip Joint", "O'Gorgnaxs"],
       "correctAnswer": "Hip Joint",
       "id": 23
     },
@@ -2037,7 +1969,7 @@
       "slogan": "Kills owls dead",
       "price": 309.29,
       "stock": 5,
-      "id" : 1
+      "id": 1
     },
     {
       "title": "Human traps",
@@ -2046,7 +1978,7 @@
       "slogan": "",
       "price": 999.99,
       "stock": 1,
-      "id" : 2
+      "id": 2
     },
     {
       "title": "Arachno Spores",
@@ -2055,7 +1987,7 @@
       "slogan": "",
       "price": 1.99,
       "stock": 1000000000,
-      "id" : 3
+      "id": 3
     },
     {
       "title": "Molten Boron",
@@ -2064,7 +1996,7 @@
       "slogan": "Nobody doesn't like Molten Boron!",
       "price": 74.19,
       "stock": 23,
-      "id" : 4
+      "id": 4
     },
     {
       "title": "Bachelor Chow",
@@ -2073,43 +2005,43 @@
       "slogan": "Bachelor Chow, now with flavor.",
       "price": 4.69,
       "stock": 88,
-      "id" : 5
+      "id": 5
     },
     {
       "title": "Slurm",
       "category": "Food",
       "description": "A highly addictive, highly popular soft drink, exuded from the behind of a giant worm queen.",
       "slogan": "It's highly addictive! Enjoy Slurm",
-      "price": 2.40,
+      "price": 2.4,
       "stock": 50000,
-      "id" : 6
+      "id": 6
     },
     {
       "title": "Big Applet",
       "category": "Publications",
       "description": "A magazine. It publishes an annual \"Best of\" list covering a wide area of categories.",
       "slogan": "For the discriminated New New Yorker.",
-      "price": 2.50,
+      "price": 2.5,
       "stock": 240,
-      "id" : 7
+      "id": 7
     },
     {
       "title": "iObey",
       "category": "App",
       "description": "A virus that can be sent to robots via email. Once the target robot downloads the virus, he or she is forced to obey the every demand of the sender of the email.",
       "slogan": "",
-      "price": 0.00,
+      "price": 0.0,
       "stock": 1000000,
-      "id" : 8
+      "id": 8
     },
     {
       "title": "Angry Norwegian Anchovies",
       "category": "Food",
       "description": "A thousand-year can of anchovies. Due to the anchovy's extinction in the 2200s, they are now extremely valuable.",
       "slogan": "",
-      "price": 50000000.00,
+      "price": 50000000.0,
       "stock": 1,
-      "id" : 9
+      "id": 9
     },
     {
       "title": "Farnsworth novelty disintegrator ray",
@@ -2118,7 +2050,7 @@
       "slogan": "",
       "price": 29.99,
       "stock": 28,
-      "id" : 10
+      "id": 10
     },
     {
       "title": "Captain's Handbook",
@@ -2127,7 +2059,7 @@
       "slogan": "",
       "price": 24.99,
       "stock": 3,
-      "id" : 11
+      "id": 11
     },
     {
       "title": "Bendërbrāu",
@@ -2136,7 +2068,7 @@
       "slogan": "Let's get drunk!",
       "price": 9.99,
       "stock": 0,
-      "id" : 12
+      "id": 12
     },
     {
       "title": "Tickle Me Bender dolls",
@@ -2145,16 +2077,16 @@
       "slogan": "",
       "price": 14.88,
       "stock": 0,
-      "id" : 13
+      "id": 13
     },
     {
       "title": "Delivery-Boy Man",
       "category": "Publications",
       "description": "A comic book written and inked by Philip J. Fry.",
       "slogan": "",
-      "price": 0.00,
+      "price": 0.0,
       "stock": 1,
-      "id" : 14
+      "id": 14
     },
     {
       "title": "Kibbles 'N' Snouts",
@@ -2163,7 +2095,7 @@
       "slogan": "If you've got the nibbles, go for some kibbles!",
       "price": 12.54,
       "stock": 29,
-      "id" : 15
+      "id": 15
     },
     {
       "title": "Lovey Bears",
@@ -2172,7 +2104,7 @@
       "slogan": "",
       "price": 99.29,
       "stock": 341,
-      "id" : 16
+      "id": 16
     },
     {
       "title": "Extreme Walrus Juice",
@@ -2181,7 +2113,7 @@
       "slogan": "Ride the walrus!",
       "price": 0.99,
       "stock": 44,
-      "id" : 17
+      "id": 17
     },
     {
       "title": "Good News",
@@ -2190,7 +2122,7 @@
       "slogan": "",
       "price": 85.25,
       "stock": 0,
-      "id" : 18
+      "id": 18
     },
     {
       "title": "Glagnar's Human Rinds",
@@ -2199,7 +2131,7 @@
       "slogan": "It's a buncha muncha cruncha human!",
       "price": 8.99,
       "stock": 50,
-      "id" : 19
+      "id": 19
     },
     {
       "title": "Bamboo Boogie Boots",
@@ -2208,7 +2140,7 @@
       "slogan": "",
       "price": 59.99,
       "stock": 38,
-      "id" : 20
+      "id": 20
     },
     {
       "title": "Three More Great Recipes",
@@ -2217,7 +2149,7 @@
       "slogan": "BAM!",
       "price": 24.99,
       "stock": 24,
-      "id" : 21
+      "id": 21
     },
     {
       "title": "Band-Ape",
@@ -2226,7 +2158,7 @@
       "slogan": "",
       "price": 2.99,
       "stock": 15,
-      "id" : 22
+      "id": 22
     },
     {
       "title": "Admiral Crunch",
@@ -2235,16 +2167,16 @@
       "slogan": "",
       "price": 6.49,
       "stock": 65,
-      "id" : 23
+      "id": 23
     },
     {
       "title": "Webster's New Abridged Becktionary‎",
       "category": "Publications",
       "description": "Webster's New Abridged Becktionary‎",
       "slogan": "",
-      "price": 0.00,
+      "price": 0.0,
       "stock": 1,
-      "id" : 24
+      "id": 24
     },
     {
       "title": "Cavitar Toothpaste",
@@ -2253,7 +2185,7 @@
       "slogan": "",
       "price": 1.88,
       "stock": 2,
-      "id" : 25
+      "id": 25
     },
     {
       "title": "Lightspeed Briefs",
@@ -2262,7 +2194,7 @@
       "slogan": "As seen in your dreams. For the discriminating crotch.",
       "price": 30.99,
       "stock": 221,
-      "id" : 26
+      "id": 26
     },
     {
       "title": "Dr. FlimFlam's miracle cream",
@@ -2271,7 +2203,7 @@
       "slogan": "",
       "price": 253.99,
       "stock": 0,
-      "id" : 27
+      "id": 27
     },
     {
       "title": "Robo Fresh",
@@ -2280,7 +2212,7 @@
       "slogan": "Robo Fresh, designed by a robot, for a robot.",
       "price": 3.78,
       "stock": 20,
-      "id" : 28
+      "id": 28
     },
     {
       "title": "Human Broth",
@@ -2289,7 +2221,7 @@
       "slogan": "",
       "price": 7.75,
       "stock": 62,
-      "id" : 29
+      "id": 29
     },
     {
       "title": "Thompson's Teeth",
@@ -2298,7 +2230,7 @@
       "slogan": "The only teeth strong enough to eat other teeth.",
       "price": 55.55,
       "stock": 48,
-      "id" : 30
+      "id": 30
     },
     {
       "title": "Code of Conduct for Cannibalism‎",
@@ -2307,7 +2239,7 @@
       "slogan": "",
       "price": 75.82,
       "stock": 55,
-      "id" : 31
+      "id": 31
     }
   ]
 }

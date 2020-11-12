@@ -1,4 +1,13 @@
 {
+  "metaData": [
+    {
+      "title": "Wines",
+      "longDesc": "Wines.",
+      "desc": "Wines",
+      "featured": true,
+      "categories": []
+    }
+  ],
   "reds": [
     {
       "winery": "Maselva",

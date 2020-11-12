@@ -1,4 +1,13 @@
 {
+  "metaData": [
+    {
+      "title": "XBox Games",
+      "longDesc": "Figured it would be a cool db to have various video games on the XBox.",
+      "desc": "Figured it would be fun to have a Xbox game list on here.",
+      "featured": true,
+      "categories": []
+    }
+  ],
   "games": [
     {
       "id": 1,
@@ -23469,12 +23478,7 @@
       "id": 1806,
       "name": "Sonic Mania Plus",
       "genre": ["Platformer"],
-      "developers": [
-        "Christian Whitehead",
-        "Headcannon",
-        "PagondaWest Games",
-        "Hyperkinetic Studios"
-      ],
+      "developers": ["Christian Whitehead", "Headcannon", "PagondaWest Games", "Hyperkinetic Studios"],
       "publishers": ["Sega"],
       "releaseDates": {
         "Japan": "July 19, 2018",
@@ -26334,9 +26338,7 @@
       "id": 2026,
       "name": "Tom Clancy's Rainbow Six Siege",
       "genre": ["First-person shooter"],
-      "developers": [
-        "Ubisoft Montreal, Red Storm Entertainment, Ubisoft Toronto"
-      ],
+      "developers": ["Ubisoft Montreal, Red Storm Entertainment, Ubisoft Toronto"],
       "publishers": ["Ubisoft"],
       "releaseDates": {
         "Japan": "Dec 1, 2015",

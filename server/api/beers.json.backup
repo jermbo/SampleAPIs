@@ -1,4 +1,13 @@
 {
+  "metaData": [
+    {
+      "title": "Beers",
+      "longDesc": "Beers.",
+      "desc": "Beers",
+      "featured": true,
+      "categories": []
+    }
+  ],
   "ale": [
     {
       "price": "$16.99",

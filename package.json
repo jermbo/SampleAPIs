@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "server": "npm run server --prefix server",
-    "client": "npm run serve --prefix client",
+    "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "homepage": "https://github.com/jermbo/SampleAPIs#readme",
