@@ -76,7 +76,12 @@ module.exports = [
     desc: "An API with records and trivia questions.",
     link: "football",
     graphLink: "football/graphql",
-    endPoints: ["passing-yards", "passing-td"]
+    endPoints: [
+      "passingyards-singleseason",
+      "passingyards-career",
+      "passingtd-singleseason",
+      "passingtd-career"
+    ]
   },
   {
     id: 7,
