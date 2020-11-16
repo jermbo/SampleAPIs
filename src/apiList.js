@@ -35,7 +35,18 @@ module.exports = [
     desc: "An API with records and trivia questions.",
     link: "baseball",
     graphLink: "baseball/graphql",
-    endPoints: ["hits", "era", "stolenBases", "homeRuns", "battingAvgs", "rbi"]
+    endPoints: [
+      "hitsSingleSeason",
+      "hitsCareer",
+      "eraSingleSeason",
+      "eraCareer",
+      "stolenBasesSingleSeason",
+      "stolenBasesCareer",
+      "battingAvgsSingleSeason",
+      "battingAvgsCareer",
+      "rbiSingleSeason",
+      "rbiCareer"
+    ]
   },
   {
     id: 4,
