@@ -2,1015 +2,1268 @@
   "professions": [
     {
       "long_name": "Athletic Trainer",
-      "short_name": "ATHLETE-AL"
+      "short_name": "ATHLETE-AL",
+      "id": 1
     },
     {
       "long_name": "Massage Therapist",
-      "short_name": "MASS-MA"
+      "short_name": "MASS-MA",
+      "id": 2
     },
     {
       "long_name": "Massage Establishment",
-      "short_name": "MASS-MM"
+      "short_name": "MASS-MM",
+      "id": 3
     },
     {
       "long_name": "Approved Massage School",
-      "short_name": "MASS-MS"
+      "short_name": "MASS-MS",
+      "id": 4
     },
     {
       "long_name": "Massage Therapy CE Provider",
-      "short_name": "MASS-MCE"
+      "short_name": "MASS-MCE",
+      "id": 5
     },
     {
       "long_name": "Massage Therapy CE Courses",
-      "short_name": "MASS-MCC"
+      "short_name": "MASS-MCC",
+      "id": 6
     },
     {
       "long_name": "Massage Therapy Apprentice",
-      "short_name": "maa"
+      "short_name": "maa",
+      "id": 7
     },
     {
       "long_name": "Massage Establishment Owner",
-      "short_name": "Est Owner"
+      "short_name": "Est Owner",
+      "id": 8
     },
     {
       "long_name": "Medical Doctor",
-      "short_name": "MED-ME"
+      "short_name": "MED-ME",
+      "id": 9
     },
     {
       "long_name": "Medical Doctor Public Psychiatry Certificate",
-      "short_name": "MED-PPC"
+      "short_name": "MED-PPC",
+      "id": 10
     },
     {
       "long_name": "Medical Doctor Public Health Certificate",
-      "short_name": "MED-PHC"
+      "short_name": "MED-PHC",
+      "id": 11
     },
     {
       "long_name": "Medical Doctor Limited to Mayo Clinic",
-      "short_name": "MED-LD"
+      "short_name": "MED-LD",
+      "id": 12
     },
     {
       "long_name": "Medical Doctor Limited to Cleveland Clinic",
-      "short_name": "MED-LDC"
+      "short_name": "MED-LDC",
+      "id": 13
     },
     {
       "long_name": "Limited License Medical Doctor",
-      "short_name": "MED-LL"
+      "short_name": "MED-LL",
+      "id": 14
     },
     {
       "long_name": "Medical Doctor- Temporary Area of Critical Need",
-      "short_name": "MED-ACN"
+      "short_name": "MED-ACN",
+      "id": 15
     },
     {
       "long_name": "Medical Faculty Certificate",
-      "short_name": "MED-MFC"
+      "short_name": "MED-MFC",
+      "id": 16
     },
     {
       "long_name": "Medical Doctor Visiting Faculty Certificate",
-      "short_name": "MED-VFC"
+      "short_name": "MED-VFC",
+      "id": 17
     },
     {
       "long_name": "Registration for Resident/HSE Physician",
-      "short_name": "MED-UM"
+      "short_name": "MED-UM",
+      "id": 18
     },
     {
       "long_name": "Certified Foreign School",
-      "short_name": "MED-CFS"
+      "short_name": "MED-CFS",
+      "id": 19
     },
     {
       "long_name": "Physician Assistant",
-      "short_name": "MED-PA"
+      "short_name": "MED-PA",
+      "id": 20
     },
     {
       "long_name": "Medical Doctor Restricted",
-      "short_name": "MED-RS"
+      "short_name": "MED-RS",
+      "id": 21
     },
     {
       "long_name": "Office Surgery Registration",
-      "short_name": "ME-OSR"
+      "short_name": "ME-OSR",
+      "id": 22
     },
     {
       "long_name": "Anesthesiologist Assistants",
-      "short_name": "ME-AA"
+      "short_name": "ME-AA",
+      "id": 23
     },
     {
       "long_name": "Pain Management Clinic",
-      "short_name": "ME-PMC"
+      "short_name": "ME-PMC",
+      "id": 24
     },
     {
       "long_name": "Medical Doctor Expert Witness Certificate",
-      "short_name": "MED-EW"
+      "short_name": "MED-EW",
+      "id": 25
     },
     {
       "long_name": "Temporary Military Platform Medical Doctor",
-      "short_name": "TME"
+      "short_name": "TME",
+      "id": 26
     },
     {
       "long_name": "Temporary Military Platform Physician Assistant",
-      "short_name": "TPA"
+      "short_name": "TPA",
+      "id": 27
     },
     {
       "long_name": "Temporary Military Anesthesiologist Assistant",
-      "short_name": "TAA"
+      "short_name": "TAA",
+      "id": 28
     },
     {
       "long_name": "Exempt Pain Management Clinic",
-      "short_name": "EPMC"
+      "short_name": "EPMC",
+      "id": 29
     },
     {
       "long_name": "Pain Management Clinic Owner",
-      "short_name": "Clin Own"
+      "short_name": "Clin Own",
+      "id": 30
     },
     {
       "long_name": "Medical Related Process Entity",
-      "short_name": "MRPE"
+      "short_name": "MRPE",
+      "id": 31
     },
     {
       "long_name": "Naturopathic Physician",
-      "short_name": "MED-NA"
+      "short_name": "MED-NA",
+      "id": 32
     },
     {
       "long_name": "Registered Nurse",
-      "short_name": "NURSE-RN"
+      "short_name": "NURSE-RN",
+      "id": 33
     },
     {
       "long_name": "Licensed Practical Nurse",
-      "short_name": "NURSE-PN"
+      "short_name": "NURSE-PN",
+      "id": 34
     },
     {
       "long_name": "Nurse Continuing Education Provider",
-      "short_name": "NURSE-CE"
+      "short_name": "NURSE-CE",
+      "id": 35
     },
     {
       "long_name": "Nursing Education Program- RN",
-      "short_name": "NUR-RNPRG"
+      "short_name": "NUR-RNPRG",
+      "id": 36
     },
     {
       "long_name": "Nursing Education Program- PN",
-      "short_name": "NUR-LPNPRG"
+      "short_name": "NUR-LPNPRG",
+      "id": 37
     },
     {
       "long_name": "Registered Nurse Temporary",
-      "short_name": "NURSE-RNT"
+      "short_name": "NURSE-RNT",
+      "id": 38
     },
     {
       "long_name": "Practical Nurse Temporary",
-      "short_name": "NURSE-PNT"
+      "short_name": "NURSE-PNT",
+      "id": 39
     },
     {
       "long_name": "Advanced Practice Registered Nurse",
-      "short_name": "APRN"
+      "short_name": "APRN",
+      "id": 40
     },
     {
       "long_name": "Temporary Military Platform Registered Nurse",
-      "short_name": "TRN"
+      "short_name": "TRN",
+      "id": 41
     },
     {
       "long_name": "Temporary Military Platform Practical Nurse",
-      "short_name": "TPN"
+      "short_name": "TPN",
+      "id": 42
     },
     {
       "long_name": "Optometrist",
-      "short_name": "OPT-OP"
+      "short_name": "OPT-OP",
+      "id": 43
     },
     {
       "long_name": "Optometry Branch Office",
-      "short_name": "OPT-OB"
+      "short_name": "OPT-OB",
+      "id": 44
     },
     {
       "long_name": "Board Of Optometry CE Provider",
-      "short_name": "OPT-CEP"
+      "short_name": "OPT-CEP",
+      "id": 45
     },
     {
       "long_name": "Board Of Optometry CE Courses",
-      "short_name": "OPT-CEC"
+      "short_name": "OPT-CEC",
+      "id": 46
     },
     {
       "long_name": "Optometric Faculty Certificate",
-      "short_name": "OPT-FAC"
+      "short_name": "OPT-FAC",
+      "id": 47
     },
     {
       "long_name": "Osteopathic Physician",
-      "short_name": "OSTEO-OS"
+      "short_name": "OSTEO-OS",
+      "id": 48
     },
     {
       "long_name": "Osteopathic Resident Registration",
-      "short_name": "OSTEO-UO"
+      "short_name": "OSTEO-UO",
+      "id": 49
     },
     {
       "long_name": "Osteopathic Limited License",
-      "short_name": "OSTEO-LL"
+      "short_name": "OSTEO-LL",
+      "id": 50
     },
     {
       "long_name": "Osteopathic Faculty Certificate",
-      "short_name": "OSTEO-OFC"
+      "short_name": "OSTEO-OFC",
+      "id": 51
     },
     {
       "long_name": "Osteopathic- Temporary Area of Critical Need",
-      "short_name": "DO-ACN"
+      "short_name": "DO-ACN",
+      "id": 52
     },
     {
       "long_name": "Osteopathic Physician Expert Witness Certificate",
-      "short_name": "OS-EW"
+      "short_name": "OS-EW",
+      "id": 53
     },
     {
       "long_name": "Temporary Military Platform Osteopathic Physician",
-      "short_name": "TOS"
+      "short_name": "TOS",
+      "id": 54
     },
     {
       "long_name": "Osteopathic Residency Programs",
-      "short_name": "ORP"
+      "short_name": "ORP",
+      "id": 55
     },
     {
       "long_name": "Optician",
-      "short_name": "OPTIC-DO"
+      "short_name": "OPTIC-DO",
+      "id": 56
     },
     {
       "long_name": "Apprentice Optician",
-      "short_name": "OPTIC-DA"
+      "short_name": "OPTIC-DA",
+      "id": 57
     },
     {
       "long_name": "Optical Establishment Permit",
-      "short_name": "OPTIC-OE"
+      "short_name": "OPTIC-OE",
+      "id": 58
     },
     {
       "long_name": "Opticianry CE Provider",
-      "short_name": "OPTIC-CE"
+      "short_name": "OPTIC-CE",
+      "id": 59
     },
     {
       "long_name": "Podiatric Physician",
-      "short_name": "POD-PO"
+      "short_name": "POD-PO",
+      "id": 60
     },
     {
       "long_name": "Podiatric Residency Program",
-      "short_name": "POD-POR"
+      "short_name": "POD-POR",
+      "id": 61
     },
     {
       "long_name": "Podiatry CE Provider",
-      "short_name": "PM-CE-PRV"
+      "short_name": "PM-CE-PRV",
+      "id": 62
     },
     {
       "long_name": "Podiatry CE Course",
-      "short_name": "PM-CE-PPR"
+      "short_name": "PM-CE-PPR",
+      "id": 63
     },
     {
       "long_name": "Certified Pod X-Ray Assistant",
-      "short_name": "PO-XRAY"
+      "short_name": "PO-XRAY",
+      "id": 64
     },
     {
       "long_name": "Podiatric Resident Registration",
-      "short_name": "PR"
+      "short_name": "PR",
+      "id": 65
     },
     {
       "long_name": "Pharmacist",
-      "short_name": "PHARM-PS"
+      "short_name": "PHARM-PS",
+      "id": 66
     },
     {
       "long_name": "Pharmacist Intern",
-      "short_name": "PHARM-PSI"
+      "short_name": "PHARM-PSI",
+      "id": 67
     },
     {
       "long_name": "Consultant Pharmacist",
-      "short_name": "PHARM-PU"
+      "short_name": "PHARM-PU",
+      "id": 68
     },
     {
       "long_name": "Nuclear Pharmacist",
-      "short_name": "PHARM-NP"
+      "short_name": "PHARM-NP",
+      "id": 69
     },
     {
       "long_name": "Pharmacy",
-      "short_name": "PHARM-PH"
+      "short_name": "PHARM-PH",
+      "id": 70
     },
     {
       "long_name": "Pharmacist CE Provider",
-      "short_name": "PHARM-PSP"
+      "short_name": "PHARM-PSP",
+      "id": 71
     },
     {
       "long_name": "Pharmacist CE Course",
-      "short_name": "PHARM-PSC"
+      "short_name": "PHARM-PSC",
+      "id": 72
     },
     {
       "long_name": "Registered Pharmacy Technician",
-      "short_name": "PHARM-RPT"
+      "short_name": "PHARM-RPT",
+      "id": 73
     },
     {
       "long_name": "Pharmacy Technician Training Program",
-      "short_name": "PHARM- TTP"
+      "short_name": "PHARM- TTP",
+      "id": 74
     },
     {
       "long_name": "Nonresident Sterile Compounding",
-      "short_name": "NONRES-NSC"
+      "short_name": "NONRES-NSC",
+      "id": 75
     },
     {
       "long_name": "Pharmacy Administrator Account",
-      "short_name": "PRPE"
+      "short_name": "PRPE",
+      "id": 76
     },
     {
       "long_name": "Pharmacy Affiliate",
-      "short_name": "Pharm Aff."
+      "short_name": "Pharm Aff.",
+      "id": 77
     },
     {
       "long_name": "Third Party Logistics Provider",
-      "short_name": "02"
+      "short_name": "02",
+      "id": 78
     },
     {
       "long_name": "Cosmetic Manufacturer",
-      "short_name": "COS MFG"
+      "short_name": "COS MFG",
+      "id": 79
     },
     {
       "long_name": "Device Manufacturer",
-      "short_name": "Device Mfg"
+      "short_name": "Device Mfg",
+      "id": 80
     },
     {
       "long_name": "Product Registration Permit",
-      "short_name": "08 Product"
+      "short_name": "08 Product",
+      "id": 81
     },
     {
       "long_name": "Diethyl Ether",
-      "short_name": "Diethyl Et"
+      "short_name": "Diethyl Et",
+      "id": 82
     },
     {
       "long_name": "Prescription Drug Manufacturer",
-      "short_name": "RxDrugMfg"
+      "short_name": "RxDrugMfg",
+      "id": 83
     },
     {
       "long_name": "Over The Counter Drug Manufacturer",
-      "short_name": "O Drug MFG"
+      "short_name": "O Drug MFG",
+      "id": 84
     },
     {
       "long_name": "Prescription Drug Wholesale Distributor",
-      "short_name": "22"
+      "short_name": "22",
+      "id": 85
     },
     {
       "long_name": "Out-of-State Prescription Drug Wholesale Distributor",
-      "short_name": "OutStRxWhl"
+      "short_name": "OutStRxWhl",
+      "id": 86
     },
     {
       "long_name": "Retail Pharmacy Drug Wholesale Distributor",
-      "short_name": "24"
+      "short_name": "24",
+      "id": 87
     },
     {
       "long_name": "Veterinary Prescription Drug Retail Establishment",
-      "short_name": "25"
+      "short_name": "25",
+      "id": 88
     },
     {
       "long_name": "Non-resident Prescription Drug Manufacturer",
-      "short_name": "26"
+      "short_name": "26",
+      "id": 89
     },
     {
       "long_name": "Freight Forwarder",
-      "short_name": "Frgt Fwdr"
+      "short_name": "Frgt Fwdr",
+      "id": 90
     },
     {
       "long_name": "Prescription Drug Repackager",
-      "short_name": "Drug Repac"
+      "short_name": "Drug Repac",
+      "id": 91
     },
     {
       "long_name": "Prescription Drug Wholesale Distributor - Broker Only",
-      "short_name": "RxWholeBrk"
+      "short_name": "RxWholeBrk",
+      "id": 92
     },
     {
       "long_name": "Compressed Medical Gases Manufacturer",
-      "short_name": "Md Gas Mfg"
+      "short_name": "Md Gas Mfg",
+      "id": 93
     },
     {
       "long_name": "Compressed Medical Gas Wholesale Distributor",
-      "short_name": "Med Gas Wh"
+      "short_name": "Med Gas Wh",
+      "id": 94
     },
     {
       "long_name": "Medical Oxygen Retailer Establishment",
-      "short_name": "32"
+      "short_name": "32",
+      "id": 95
     },
     {
       "long_name": "Complimentary Drug Distributor",
-      "short_name": "40"
+      "short_name": "40",
+      "id": 96
     },
     {
       "long_name": "Veterinary Prescription Drug Wholesale Distributor",
-      "short_name": "42"
+      "short_name": "42",
+      "id": 97
     },
     {
       "long_name": "Limited Rx Drug Veterinary Wholesale Distributor",
-      "short_name": "44"
+      "short_name": "44",
+      "id": 98
     },
     {
       "long_name": "Restricted Rx Drug Distributor-Health Care Entity",
-      "short_name": "RxHlthCrEn"
+      "short_name": "RxHlthCrEn",
+      "id": 99
     },
     {
       "long_name": "Restricted Rx Drug Distributor-Charitable Organization",
-      "short_name": "RxCharitbl"
+      "short_name": "RxCharitbl",
+      "id": 100
     },
     {
       "long_name": "Restricted Rx Drug Distributor-Reverse Distributor",
-      "short_name": "RxRevDist"
+      "short_name": "RxRevDist",
+      "id": 101
     },
     {
       "long_name": "Restricted Rx Drug Distributor-Destruction",
-      "short_name": "RxDestruct"
+      "short_name": "RxDestruct",
+      "id": 102
     },
     {
       "long_name": "Restricted Rx Drug Distributor-Government Program",
-      "short_name": "RxGovPrgm"
+      "short_name": "RxGovPrgm",
+      "id": 103
     },
     {
       "long_name": "Restricted Rx Drug Distributor-Institutional Research",
-      "short_name": "RxInstRsch"
+      "short_name": "RxInstRsch",
+      "id": 104
     },
     {
       "long_name": "Health Care Clinic Establishment Permit",
-      "short_name": "60"
+      "short_name": "60",
+      "id": 105
     },
     {
       "long_name": "Exemption",
-      "short_name": "EX"
+      "short_name": "EX",
+      "id": 106
     },
     {
       "long_name": "Manufacturing ADR",
-      "short_name": "ADR - MFG"
+      "short_name": "ADR - MFG",
+      "id": 107
     },
     {
       "long_name": "Distributor ADR",
-      "short_name": "ADR - DIST"
+      "short_name": "ADR - DIST",
+      "id": 108
     },
     {
       "long_name": "Certified Designated Representative",
-      "short_name": "CDR"
+      "short_name": "CDR",
+      "id": 109
     },
     {
       "long_name": "Affiliated Groups",
-      "short_name": "AFF - GRP"
+      "short_name": "AFF - GRP",
+      "id": 110
     },
     {
       "long_name": "Registered Reporter",
-      "short_name": "Reg. Rep"
+      "short_name": "Reg. Rep",
+      "id": 111
     },
     {
       "long_name": "Veterinary Medicine",
-      "short_name": "VM"
+      "short_name": "VM",
+      "id": 112
     },
     {
       "long_name": "Key Personnel-Individual",
-      "short_name": "Key Person"
+      "short_name": "Key Person",
+      "id": 113
     },
     {
       "long_name": "Corporate Owners",
-      "short_name": "Corp Owner"
+      "short_name": "Corp Owner",
+      "id": 114
     },
     {
       "long_name": "911 Public Safety Telecommunicator",
-      "short_name": "911D"
+      "short_name": "911D",
+      "id": 115
     },
     {
       "long_name": "911 Public Safety Telecommunicator Training Program",
-      "short_name": "9111 Prog"
+      "short_name": "9111 Prog",
+      "id": 116
     },
     {
       "long_name": "911 Law Enforcement Officer",
-      "short_name": "911 LEO"
+      "short_name": "911 LEO",
+      "id": 117
     },
     {
       "long_name": "Emergency Medical Technician",
-      "short_name": "EMT"
+      "short_name": "EMT",
+      "id": 118
     },
     {
       "long_name": "Paramedic",
-      "short_name": "Paramedic"
+      "short_name": "Paramedic",
+      "id": 119
     },
     {
       "long_name": "Emergency Allergy Treatment Licensee",
-      "short_name": "BITE FTR"
+      "short_name": "BITE FTR",
+      "id": 120
     },
     {
       "long_name": "EMT Training Program",
-      "short_name": "EMT Train"
+      "short_name": "EMT Train",
+      "id": 121
     },
     {
       "long_name": "Paramedic Training Program",
-      "short_name": "PMD Train"
+      "short_name": "PMD Train",
+      "id": 122
     },
     {
       "long_name": "CE Provider",
-      "short_name": "CE Prov."
+      "short_name": "CE Prov.",
+      "id": 123
     },
     {
       "long_name": "Approved CE Courses",
-      "short_name": "CE Course"
+      "short_name": "CE Course",
+      "id": 124
     },
     {
       "long_name": "CPR Equivalency Provider",
-      "short_name": "CPR"
+      "short_name": "CPR",
+      "id": 125
     },
     {
       "long_name": "Temporary Military Platform Emergency Medical Technician",
-      "short_name": "TEMT"
+      "short_name": "TEMT",
+      "id": 126
     },
     {
       "long_name": "Temporary Military Platform Paramedic",
-      "short_name": "TPMD"
+      "short_name": "TPMD",
+      "id": 127
     },
     {
       "long_name": "EMS Service Provider ALS",
-      "short_name": "ALS"
+      "short_name": "ALS",
+      "id": 128
     },
     {
       "long_name": "EMS Service Provider BLS",
-      "short_name": "BLS"
+      "short_name": "BLS",
+      "id": 129
     },
     {
       "long_name": "EMS Service Provider Air",
-      "short_name": "AIR Ambul"
+      "short_name": "AIR Ambul",
+      "id": 130
     },
     {
       "long_name": "Vehicle Permit (ALS)",
-      "short_name": "ALS Permit"
+      "short_name": "ALS Permit",
+      "id": 131
     },
     {
       "long_name": "Vehicle Permits (BLS)",
-      "short_name": "BLS Permit"
+      "short_name": "BLS Permit",
+      "id": 132
     },
     {
       "long_name": "Vehicle Permit (Aircraft)",
-      "short_name": "Air Permit"
+      "short_name": "Air Permit",
+      "id": 133
     },
     {
       "long_name": "Psychologist",
-      "short_name": "PSY-PY"
+      "short_name": "PSY-PY",
+      "id": 134
     },
     {
       "long_name": "Provisional Psychologist",
-      "short_name": "PSY-PPY"
+      "short_name": "PSY-PPY",
+      "id": 135
     },
     {
       "long_name": "Limited License Psychologist",
-      "short_name": "PSY-LPY"
+      "short_name": "PSY-LPY",
+      "id": 136
     },
     {
       "long_name": "Psychology Continuing Education Provider",
-      "short_name": "PSY-PCE"
+      "short_name": "PSY-PCE",
+      "id": 137
     },
     {
       "long_name": "Error",
-      "short_name": "Error"
+      "short_name": "Error",
+      "id": 138
     },
     {
       "long_name": "Speech-Language Pathologist",
-      "short_name": "SLPA-SA"
+      "short_name": "SLPA-SA",
+      "id": 139
     },
     {
       "long_name": "Audiologist",
-      "short_name": "SLPA-AY"
+      "short_name": "SLPA-AY",
+      "id": 140
     },
     {
       "long_name": "Speech-Language Pathology Assistant",
-      "short_name": "SLPA-SI"
+      "short_name": "SLPA-SI",
+      "id": 141
     },
     {
       "long_name": "Audiology Assistant",
-      "short_name": "SLPA-AI"
+      "short_name": "SLPA-AI",
+      "id": 142
     },
     {
       "long_name": "Provisional Speech-Language Pathologist",
-      "short_name": "SLPA-SZ"
+      "short_name": "SLPA-SZ",
+      "id": 143
     },
     {
       "long_name": "Provisional Audiologist",
-      "short_name": "SLPA-AZ"
+      "short_name": "SLPA-AZ",
+      "id": 144
     },
     {
       "long_name": "Speech/Audiology CE Provider",
-      "short_name": "SLPA-SPA"
+      "short_name": "SLPA-SPA",
+      "id": 145
     },
     {
       "long_name": "Speech and Audilogy CE Provider 1 Time Approval",
-      "short_name": "SLPA-CEA3"
+      "short_name": "SLPA-CEA3",
+      "id": 146
     },
     {
       "long_name": "Registered CVO",
-      "short_name": "COREST-CVO"
+      "short_name": "COREST-CVO",
+      "id": 147
     },
     {
       "long_name": "Prosthetist-Orthotist",
-      "short_name": "O&P-POR"
+      "short_name": "O&P-POR",
+      "id": 148
     },
     {
       "long_name": "Prosthetist",
-      "short_name": "O&P-PRO"
+      "short_name": "O&P-PRO",
+      "id": 149
     },
     {
       "long_name": "Orthotist",
-      "short_name": "O&P-ORT"
+      "short_name": "O&P-ORT",
+      "id": 150
     },
     {
       "long_name": "Orthotic Fitter",
-      "short_name": "O&P-ORF"
+      "short_name": "O&P-ORF",
+      "id": 151
     },
     {
       "long_name": "Orthotic Fitter Assistant",
-      "short_name": "O&P-OFA"
+      "short_name": "O&P-OFA",
+      "id": 152
     },
     {
       "long_name": "Pedorthist",
-      "short_name": "O&P-PED"
+      "short_name": "O&P-PED",
+      "id": 153
     },
     {
       "long_name": "O&P Continuing Education Provider",
-      "short_name": "O&P-CEP"
+      "short_name": "O&P-CEP",
+      "id": 154
     },
     {
       "long_name": "O&P Continuing Education Courses",
-      "short_name": "O&P-CEC"
+      "short_name": "O&P-CEC",
+      "id": 155
     },
     {
       "long_name": "Orthotic Resident",
-      "short_name": "O&P Resd"
+      "short_name": "O&P Resd",
+      "id": 156
     },
     {
       "long_name": "Prosthetic Residents",
-      "short_name": "Pros. Res."
+      "short_name": "Pros. Res.",
+      "id": 157
     },
     {
       "long_name": "Registered Subscribers",
-      "short_name": "COREST-SUB"
+      "short_name": "COREST-SUB",
+      "id": 158
     },
     {
       "long_name": "Midwifery",
-      "short_name": "MIDWIF-MW"
+      "short_name": "MIDWIF-MW",
+      "id": 159
     },
     {
       "long_name": "Temporary Midwife",
-      "short_name": "MIDWIF-TMW"
+      "short_name": "MIDWIF-TMW",
+      "id": 160
     },
     {
       "long_name": "Midwifery CE Providers",
-      "short_name": "MIDWIF-MWP"
+      "short_name": "MIDWIF-MWP",
+      "id": 161
     },
     {
       "long_name": "Midwifery Training Program",
-      "short_name": "MTP"
+      "short_name": "MTP",
+      "id": 162
     },
     {
       "long_name": "Hearing Aid Specialist",
-      "short_name": "HEAR-AS"
+      "short_name": "HEAR-AS",
+      "id": 163
     },
     {
       "long_name": "Hearing Aid Specialist CE Course",
-      "short_name": "HEAR-HCE"
+      "short_name": "HEAR-HCE",
+      "id": 164
     },
     {
       "long_name": "Hearing Aid Specialist Trainee",
-      "short_name": "Trainee"
+      "short_name": "Trainee",
+      "id": 165
     },
     {
       "long_name": "Acupuncturist",
-      "short_name": "ACUP-AP"
+      "short_name": "ACUP-AP",
+      "id": 166
     },
     {
       "long_name": "Acupuncture CE Provider",
-      "short_name": "ACUP-APC"
+      "short_name": "ACUP-APC",
+      "id": 167
     },
     {
       "long_name": "Acupuncture CE Courses",
-      "short_name": "ACUP-APCC"
+      "short_name": "ACUP-APCC",
+      "id": 168
     },
     {
       "long_name": "School Psychologist",
-      "short_name": "PSY-SS"
+      "short_name": "PSY-SS",
+      "id": 169
     },
     {
       "long_name": "School Psychology CE Provider",
-      "short_name": "PSY-SCE"
+      "short_name": "PSY-SCE",
+      "id": 170
     },
     {
       "long_name": "One Time Continuing Education Course",
-      "short_name": "PSY-SCO"
+      "short_name": "PSY-SCO",
+      "id": 171
     },
     {
       "long_name": "Certified Nursing Assistant",
-      "short_name": "CNA"
+      "short_name": "CNA",
+      "id": 172
     },
     {
       "long_name": "CNA Programs",
-      "short_name": "CNAprgm"
+      "short_name": "CNAprgm",
+      "id": 173
     },
     {
       "long_name": "AHCA ENFORCEMENT-Non Jurisdictional Complaints",
-      "short_name": "ENF-NJ"
+      "short_name": "ENF-NJ",
+      "id": 174
     },
     {
       "long_name": "Chiropractic Physician",
-      "short_name": "CHIRO-CH"
+      "short_name": "CHIRO-CH",
+      "id": 175
     },
     {
       "long_name": "Registered Chiropractic Assistant",
-      "short_name": "CHIRO-RCA"
+      "short_name": "CHIRO-RCA",
+      "id": 176
     },
     {
       "long_name": "Certified Chiropractic Physician's Assistant",
-      "short_name": "CHIRO-CI"
+      "short_name": "CHIRO-CI",
+      "id": 177
     },
     {
       "long_name": "Chiropractic CE Provider",
-      "short_name": "CHIRO-CCP"
+      "short_name": "CHIRO-CCP",
+      "id": 178
     },
     {
       "long_name": "Chiropractic CE COURSES",
-      "short_name": "CHIRO-CCC"
+      "short_name": "CHIRO-CCC",
+      "id": 179
     },
     {
       "long_name": "Chiropractic Faculty Certificate",
-      "short_name": "CFC"
+      "short_name": "CFC",
+      "id": 180
     },
     {
       "long_name": "Licensed Clinical Social Worker",
-      "short_name": "491-LSW"
+      "short_name": "491-LSW",
+      "id": 181
     },
     {
       "long_name": "Licensed Marriage and Family Therapist",
-      "short_name": "491-LMT"
+      "short_name": "491-LMT",
+      "id": 182
     },
     {
       "long_name": "Licensed Mental Health Counselor",
-      "short_name": "491-LMH"
+      "short_name": "491-LMH",
+      "id": 183
     },
     {
       "long_name": "Provisional Clinical Social Worker Licensee",
-      "short_name": "491-PSW"
+      "short_name": "491-PSW",
+      "id": 184
     },
     {
       "long_name": "Provisional Marriage and Family Therapist Licensee",
-      "short_name": "491-PMT"
+      "short_name": "491-PMT",
+      "id": 185
     },
     {
       "long_name": "Provisional Mental health Counselor Licensee",
-      "short_name": "491-PMH"
+      "short_name": "491-PMH",
+      "id": 186
     },
     {
       "long_name": "Registered Clinical Social Worker Intern",
-      "short_name": "491-ISW"
+      "short_name": "491-ISW",
+      "id": 187
     },
     {
       "long_name": "Registered Marriage and Family Therapist Intern",
-      "short_name": "491-IMT"
+      "short_name": "491-IMT",
+      "id": 188
     },
     {
       "long_name": "Registered Mental Health Counselor Intern",
-      "short_name": "491-IMH"
+      "short_name": "491-IMH",
+      "id": 189
     },
     {
       "long_name": "491 Board Approved CE Provider",
-      "short_name": "491-BAP"
+      "short_name": "491-BAP",
+      "id": 190
     },
     {
       "long_name": "Certified Master Social Worker",
-      "short_name": "CMSW-CN"
+      "short_name": "CMSW-CN",
+      "id": 191
     },
     {
       "long_name": "Physical Therapist",
-      "short_name": "PT-PT"
+      "short_name": "PT-PT",
+      "id": 192
     },
     {
       "long_name": "Physical Therapist Assistant",
-      "short_name": "PT-PTA"
+      "short_name": "PT-PTA",
+      "id": 193
     },
     {
       "long_name": "Temporary Military Platform Physical Therapist",
-      "short_name": "TPT"
+      "short_name": "TPT",
+      "id": 194
     },
     {
       "long_name": "Temporary Military Platform Physical Therapist Assistant",
-      "short_name": "TPTA"
+      "short_name": "TPTA",
+      "id": 195
     },
     {
       "long_name": "Occupational Therapist",
-      "short_name": "OT-OT"
+      "short_name": "OT-OT",
+      "id": 196
     },
     {
       "long_name": "Occupational Therapy Assistant",
-      "short_name": "OT-OTA"
+      "short_name": "OT-OTA",
+      "id": 197
     },
     {
       "long_name": "Occupational Therapy Continuing Education Provider",
-      "short_name": "OT-OTP"
+      "short_name": "OT-OTP",
+      "id": 198
     },
     {
       "long_name": "Temporary Military Platform Occupational Therapist",
-      "short_name": "TOT"
+      "short_name": "TOT",
+      "id": 199
     },
     {
       "long_name": "Temporary Military Platform Occupational Therapy Assistant",
-      "short_name": "TOTA"
+      "short_name": "TOTA",
+      "id": 200
     },
     {
       "long_name": "Registered Respiratory Therapist",
-      "short_name": "RT-RT"
+      "short_name": "RT-RT",
+      "id": 201
     },
     {
       "long_name": "Certified Respiratory Therapist",
-      "short_name": "RT-TT"
+      "short_name": "RT-TT",
+      "id": 202
     },
     {
       "long_name": "Respiratory Care Practitioner by Exam",
-      "short_name": "RT-TUB"
+      "short_name": "RT-TUB",
+      "id": 203
     },
     {
       "long_name": "Respiratory Care Practitioner Critical Care",
-      "short_name": "RT-TUC"
+      "short_name": "RT-TUC",
+      "id": 204
     },
     {
       "long_name": "Respiratory Care Practitioner Non-Critical Care",
-      "short_name": "RT-TUN"
+      "short_name": "RT-TUN",
+      "id": 205
     },
     {
       "long_name": "Registered Student Exemption",
-      "short_name": "RT-STU"
+      "short_name": "RT-STU",
+      "id": 206
     },
     {
       "long_name": "Respiratory Care CE Provider",
-      "short_name": "RT-RCE"
+      "short_name": "RT-RCE",
+      "id": 207
     },
     {
       "long_name": "Temporary Military Platform Registered Respiratory Therapist",
-      "short_name": "TRT"
+      "short_name": "TRT",
+      "id": 208
     },
     {
       "long_name": "Temporary Military Platform Certified Respiratory Therapist",
-      "short_name": "TTT"
+      "short_name": "TTT",
+      "id": 209
     },
     {
       "long_name": "Diagnostic Radiological Physicist",
-      "short_name": "MPC-DRP"
+      "short_name": "MPC-DRP",
+      "id": 210
     },
     {
       "long_name": "Therapeutic Radiological Physicist",
-      "short_name": "MPC-TRP"
+      "short_name": "MPC-TRP",
+      "id": 211
     },
     {
       "long_name": "Medical Nuclear Radiological Physicist",
-      "short_name": "MPC-MNP"
+      "short_name": "MPC-MNP",
+      "id": 212
     },
     {
       "long_name": "Medical Health Physicist",
-      "short_name": "MPC-MHP"
+      "short_name": "MPC-MHP",
+      "id": 213
     },
     {
       "long_name": "Medical Physicist Continuing Education Provider",
-      "short_name": "MPC-CEP"
+      "short_name": "MPC-CEP",
+      "id": 214
     },
     {
       "long_name": "Medical Physicist Continuing Education Course",
-      "short_name": "MPC-CEC"
+      "short_name": "MPC-CEC",
+      "id": 215
     },
     {
       "long_name": "Medical Physicist In Training",
-      "short_name": "MPC-MPT"
+      "short_name": "MPC-MPT",
+      "id": 216
     },
     {
       "long_name": "Temporary Medical Physicist",
-      "short_name": "MPC-TMP"
+      "short_name": "MPC-TMP",
+      "id": 217
     },
     {
       "long_name": "Dietetics/Nutritionist",
-      "short_name": "DIET-ND"
+      "short_name": "DIET-ND",
+      "id": 218
     },
     {
       "long_name": "Nutrition Counselor",
-      "short_name": "DIET-NC"
+      "short_name": "DIET-NC",
+      "id": 219
     },
     {
       "long_name": "Dietetics/Nutritionist Continuing Education Provider",
-      "short_name": "DIET-NDP"
+      "short_name": "DIET-NDP",
+      "id": 220
     },
     {
       "long_name": "Health Care Services Pool",
-      "short_name": "HCP"
+      "short_name": "HCP",
+      "id": 221
     },
     {
       "long_name": "Electrologist",
-      "short_name": "ELEC-EO"
+      "short_name": "ELEC-EO",
+      "id": 222
     },
     {
       "long_name": "Electrolysis Facility",
-      "short_name": "ELEC-EP"
+      "short_name": "ELEC-EP",
+      "id": 223
     },
     {
       "long_name": "Electroloysis Laser Provider",
-      "short_name": "EO-ELP"
+      "short_name": "EO-ELP",
+      "id": 224
     },
     {
       "long_name": "Clinical Laboratory Personnel",
-      "short_name": "CLP-JC"
+      "short_name": "CLP-JC",
+      "id": 225
     },
     {
       "long_name": "Clinical Laboratory Trainee",
-      "short_name": "CLP-TR"
+      "short_name": "CLP-TR",
+      "id": 226
     },
     {
       "long_name": "Clinical Laboratory Training Program",
-      "short_name": "CLP-TP"
+      "short_name": "CLP-TP",
+      "id": 227
     },
     {
       "long_name": "Clinical Laboratories-Reference Only",
-      "short_name": "CLP-CL"
+      "short_name": "CLP-CL",
+      "id": 228
     },
     {
       "long_name": "Clinical Laboratory Personnel Continuing Education Provider",
-      "short_name": "CLP-JP"
+      "short_name": "CLP-JP",
+      "id": 229
     },
     {
       "long_name": "Clinical Laboratory Personnel Continuing Education Courses",
-      "short_name": "CLP-CC"
+      "short_name": "CLP-CC",
+      "id": 230
     },
     {
       "long_name": "Dental",
-      "short_name": "DENTAL-DN"
+      "short_name": "DENTAL-DN",
+      "id": 231
     },
     {
       "long_name": "Dental Hygienist",
-      "short_name": "DENTAL-DH"
+      "short_name": "DENTAL-DH",
+      "id": 232
     },
     {
       "long_name": "Dental Radiographer",
-      "short_name": "DENTAL-DR"
+      "short_name": "DENTAL-DR",
+      "id": 233
     },
     {
       "long_name": "Dental Laboratory",
-      "short_name": "DENTAL-DL"
+      "short_name": "DENTAL-DL",
+      "id": 234
     },
     {
       "long_name": "Dental CE Provider",
-      "short_name": "DENTAL-CEB"
+      "short_name": "DENTAL-CEB",
+      "id": 235
     },
     {
       "long_name": "Dental Teaching Permits",
-      "short_name": "DTP-DN"
+      "short_name": "DTP-DN",
+      "id": 236
     },
     {
       "long_name": "Dental Residency Permits",
-      "short_name": "DRP"
+      "short_name": "DRP",
+      "id": 237
     },
     {
       "long_name": "Dental-Health Access Dental",
-      "short_name": "HAD"
+      "short_name": "HAD",
+      "id": 238
     },
     {
       "long_name": "Dental Temporary Certificate",
-      "short_name": "DTC"
+      "short_name": "DTC",
+      "id": 239
     },
     {
       "long_name": "Dental Expert Witness Certificate",
-      "short_name": "DN-EW"
+      "short_name": "DN-EW",
+      "id": 240
     },
     {
       "long_name": "Temp Mlty Platform Dental",
-      "short_name": "TDN"
+      "short_name": "TDN",
+      "id": 241
     },
     {
       "long_name": "Temporary Military Platform Dental Hygienist",
-      "short_name": "TDH"
+      "short_name": "TDH",
+      "id": 242
     },
     {
       "long_name": "Health Care Clinic Registration",
-      "short_name": "HCCR"
+      "short_name": "HCCR",
+      "id": 243
     },
     {
       "long_name": "Radiologic Technology",
-      "short_name": "Rad Tech"
+      "short_name": "Rad Tech",
+      "id": 244
     },
     {
       "long_name": "Radiologist Assistant",
-      "short_name": "Rad Tch As"
+      "short_name": "Rad Tch As",
+      "id": 245
     },
     {
       "long_name": "Rad Tech Approved CE Providers",
-      "short_name": "CE Provid"
+      "short_name": "CE Provid",
+      "id": 246
     },
     {
       "long_name": "Rad Tech Approved CE courses",
-      "short_name": "CE Courses"
+      "short_name": "CE Courses",
+      "id": 247
     },
     {
       "long_name": "Nursing Home Administrator",
-      "short_name": "NHA-NH"
+      "short_name": "NHA-NH",
+      "id": 248
     },
     {
       "long_name": "Nursing Home Administrator Provisional License",
-      "short_name": "NHA-PNH"
+      "short_name": "NHA-PNH",
+      "id": 249
     },
     {
       "long_name": "Nursing Home Admin. CE Prov.",
-      "short_name": "NHA-NHP"
+      "short_name": "NHA-NHP",
+      "id": 250
     },
     {
       "long_name": "Nursing Home Admin. CE Courses",
-      "short_name": "NHA-CE"
+      "short_name": "NHA-CE",
+      "id": 251
     },
     {
       "long_name": "Prescription Pad Vendor",
-      "short_name": "PrPdVnProf"
+      "short_name": "PrPdVnProf",
+      "id": 252
     },
     {
       "long_name": "Enforcement System",
-      "short_name": "ENFORC"
+      "short_name": "ENFORC",
+      "id": 253
     }
   ]
 }

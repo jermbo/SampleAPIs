@@ -1,7 +1,7 @@
 {
   "the-states": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Alabama",
       "abv": "AL",
       "capital": "Montgomery",
@@ -11,7 +11,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Alabama.svg"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Alaska",
       "abv": "AK",
       "capital": "Juneau",
@@ -21,7 +21,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Alaska.svg"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Arizona",
       "abv": "AZ",
       "capital": "Phoenix",
@@ -31,7 +31,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Arizona.svg"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Arkansas",
       "abv": "AR",
       "capital": "Little Rock",
@@ -41,7 +41,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Arkansas.svg"
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "California",
       "abv": "CA",
       "capital": "Sacramento",
@@ -51,7 +51,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg"
     },
     {
-      "id": "6",
+      "id": 6,
       "name": "Colorado",
       "abv": "CO",
       "capital": "Denver",
@@ -61,7 +61,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colorado_designed_by_Andrew_Carlisle_Carson.svg"
     },
     {
-      "id": "7",
+      "id": 7,
       "name": "Connecticut",
       "abv": "CT",
       "capital": "Hartford",
@@ -71,7 +71,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/9/96/Flag_of_Connecticut.svg"
     },
     {
-      "id": "8",
+      "id": 8,
       "name": "Delaware",
       "abv": "DE",
       "capital": "Dover",
@@ -81,7 +81,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Flag_of_Delaware.svg"
     },
     {
-      "id": "9",
+      "id": 9,
       "name": "Florida",
       "abv": "FL",
       "capital": "Tallahassee",
@@ -91,7 +91,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Florida.svg"
     },
     {
-      "id": "10",
+      "id": 10,
       "name": "Georgia",
       "abv": "GA",
       "capital": "Atlanta",
@@ -101,7 +101,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Georgia_%28U.S._state%29.svg"
     },
     {
-      "id": "11",
+      "id": 11,
       "name": "Hawaii",
       "abv": "HI",
       "capital": "Honolulu",
@@ -111,7 +111,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg"
     },
     {
-      "id": "12",
+      "id": 12,
       "name": "Idaho",
       "abv": "ID",
       "capital": "Boise",
@@ -121,7 +121,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_Idaho.svg"
     },
     {
-      "id": "13",
+      "id": 13,
       "name": "Illinois",
       "abv": "IL",
       "capital": "Springfield",
@@ -131,7 +131,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Illinois.svg"
     },
     {
-      "id": "14",
+      "id": 14,
       "name": "Indiana",
       "abv": "IN",
       "capital": "Indianapolis",
@@ -141,7 +141,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Flag_of_Indiana.svg"
     },
     {
-      "id": "15",
+      "id": 15,
       "name": "Iowa",
       "abv": "IA",
       "capital": "Des Moines",
@@ -151,7 +151,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Iowa.svg"
     },
     {
-      "id": "16",
+      "id": 16,
       "name": "Kansas",
       "abv": "KS",
       "capital": "Topeka",
@@ -161,7 +161,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/d/da/Flag_of_Kansas.svg"
     },
     {
-      "id": "17",
+      "id": 17,
       "name": "Kentucky",
       "abv": "KY",
       "capital": "Frankfort",
@@ -171,7 +171,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Flag_of_Kentucky.svg"
     },
     {
-      "id": "18",
+      "id": 18,
       "name": "Louisiana",
       "abv": "LA",
       "capital": "Baton Rouge",
@@ -181,7 +181,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Flag_of_Louisiana.svg"
     },
     {
-      "id": "19",
+      "id": 19,
       "name": "Maine",
       "abv": "ME",
       "capital": "Augusta",
@@ -191,7 +191,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/3/35/Flag_of_Maine.svg"
     },
     {
-      "id": "20",
+      "id": 20,
       "name": "Maryland",
       "abv": "MD",
       "capital": "Annapolis",
@@ -201,7 +201,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_Maryland.svg"
     },
     {
-      "id": "21",
+      "id": 21,
       "name": "Massachusetts",
       "abv": "MA",
       "capital": "Boston",
@@ -211,7 +211,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Massachusetts.svg"
     },
     {
-      "id": "22",
+      "id": 22,
       "name": "Michigan",
       "abv": "MI",
       "capital": "Lansing",
@@ -221,7 +221,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Flag_of_Michigan.svg"
     },
     {
-      "id": "23",
+      "id": 23,
       "name": "Minnesota",
       "abv": "MN",
       "capital": "Saint Paul",
@@ -231,7 +231,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Minnesota.svg"
     },
     {
-      "id": "24",
+      "id": 24,
       "name": "Mississippi",
       "abv": "MS",
       "capital": "Jackson",
@@ -241,7 +241,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_Mississippi.svg"
     },
     {
-      "id": "25",
+      "id": 25,
       "name": "Missouri",
       "abv": "MO",
       "capital": "Jefferson City",
@@ -251,7 +251,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Flag_of_Missouri.svg"
     },
     {
-      "id": "26",
+      "id": 26,
       "name": "Montana",
       "abv": "MT",
       "capital": "Helena",
@@ -261,7 +261,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_Montana.svg"
     },
     {
-      "id": "27",
+      "id": 27,
       "name": "Nebraska",
       "abv": "NE",
       "capital": "Lincoln",
@@ -271,7 +271,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Flag_of_Nebraska.svg"
     },
     {
-      "id": "28",
+      "id": 28,
       "name": "Nevada",
       "abv": "NV",
       "capital": "Carson City",
@@ -281,7 +281,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag_of_Nevada.svg"
     },
     {
-      "id": "29",
+      "id": 29,
       "name": "New Hampshire",
       "abv": "NH",
       "capital": "Concord",
@@ -291,7 +291,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/2/28/Flag_of_New_Hampshire.svg"
     },
     {
-      "id": "30",
+      "id": 30,
       "name": "New Jersey",
       "abv": "NJ",
       "capital": "Trenton",
@@ -301,7 +301,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_New_Jersey.svg"
     },
     {
-      "id": "31",
+      "id": 31,
       "name": "New Mexico",
       "abv": "NM",
       "capital": "Santa Fe",
@@ -311,7 +311,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_New_Mexico.svg"
     },
     {
-      "id": "32",
+      "id": 32,
       "name": "New York",
       "abv": "NY",
       "capital": "Albany",
@@ -321,7 +321,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_New_York.svg"
     },
     {
-      "id": "33",
+      "id": 33,
       "name": "North Carolina",
       "abv": "NC",
       "capital": "Raleigh",
@@ -331,7 +331,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Flag_of_North_Carolina.svg"
     },
     {
-      "id": "34",
+      "id": 34,
       "name": "North Dakota",
       "abv": "ND",
       "capital": "Bismark",
@@ -341,7 +341,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Flag_of_North_Dakota.svg"
     },
     {
-      "id": "35",
+      "id": 35,
       "name": "Ohio",
       "abv": "OH",
       "capital": "Columbus",
@@ -351,7 +351,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Ohio.svg"
     },
     {
-      "id": "36",
+      "id": 36,
       "name": "Oklahoma",
       "abv": "OK",
       "capital": "Oklahoma City",
@@ -361,7 +361,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Flag_of_Oklahoma.svg"
     },
     {
-      "id": "37",
+      "id": 37,
       "name": "Oregon",
       "abv": "OR",
       "capital": "Salem",
@@ -371,7 +371,7 @@
       "flag": "https://en.wikipedia.org/wiki/Oregon#/media/File:Flag_of_Oregon.svg"
     },
     {
-      "id": "38",
+      "id": 38,
       "name": "Pennsylvania",
       "abv": "PA",
       "capital": "Harrisburg",
@@ -381,7 +381,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Pennsylvania.svg"
     },
     {
-      "id": "39",
+      "id": 39,
       "name": "Rhode Island",
       "abv": "RI",
       "capital": "Providence",
@@ -391,7 +391,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Rhode_Island.svg"
     },
     {
-      "id": "40",
+      "id": 40,
       "name": "South Carolina",
       "abv": "SC",
       "capital": "Columbia",
@@ -401,7 +401,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/6/69/Flag_of_South_Carolina.svg"
     },
     {
-      "id": "41",
+      "id": 41,
       "name": "South Dakota",
       "abv": "SD",
       "capital": "Pierre",
@@ -411,7 +411,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_South_Dakota.svg"
     },
     {
-      "id": "42",
+      "id": 42,
       "name": "Tennessee",
       "abv": "TN",
       "capital": "Nashville",
@@ -421,7 +421,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Tennessee.svg"
     },
     {
-      "id": "43",
+      "id": 43,
       "name": "Texas",
       "abv": "TX",
       "capital": "Austin",
@@ -431,7 +431,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Texas.svg"
     },
     {
-      "id": "44",
+      "id": 44,
       "name": "Utah",
       "abv": "UT",
       "capital": "Salt Lake City",
@@ -441,7 +441,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Utah.svg"
     },
     {
-      "id": "45",
+      "id": 45,
       "name": "Vermont",
       "abv": "VT",
       "capital": "Montpellier",
@@ -451,7 +451,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Vermont.svg"
     },
     {
-      "id": "46",
+      "id": 46,
       "name": "Virginia",
       "abv": "VA",
       "capital": "Richmond",
@@ -461,7 +461,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/4/47/Flag_of_Virginia.svg"
     },
     {
-      "id": "47",
+      "id": 47,
       "name": "Washington",
       "abv": "WA",
       "capital": "Olympia",
@@ -471,7 +471,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Washington.svg"
     },
     {
-      "id": "48",
+      "id": 48,
       "name": "West Virginia",
       "abv": "WV",
       "capital": "Charleston",
@@ -481,7 +481,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/2/22/Flag_of_West_Virginia.svg"
     },
     {
-      "id": "49",
+      "id": 49,
       "name": "Wisconsin",
       "abv": "WI",
       "capital": "Madison",
@@ -491,7 +491,7 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/2/22/Flag_of_Wisconsin.svg"
     },
     {
-      "id": "50",
+      "id": 50,
       "name": "Wyoming",
       "abv": "WY",
       "capital": "Cheyenne",

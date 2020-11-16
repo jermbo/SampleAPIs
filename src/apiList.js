@@ -35,7 +35,18 @@ module.exports = [
     desc: "An API with records and trivia questions.",
     link: "baseball",
     graphLink: "baseball/graphql",
-    endPoints: ["hits", "era", "stolenBases", "homeRuns", "battingAvgs", "rbi"]
+    endPoints: [
+      "hitsSingleSeason",
+      "hitsCareer",
+      "eraSingleSeason",
+      "eraCareer",
+      "stolenBasesSingleSeason",
+      "stolenBasesCareer",
+      "battingAvgsSingleSeason",
+      "battingAvgsCareer",
+      "rbiSingleSeason",
+      "rbiCareer"
+    ]
   },
   {
     id: 4,
@@ -65,7 +76,12 @@ module.exports = [
     desc: "An API with records and trivia questions.",
     link: "football",
     graphLink: "football/graphql",
-    endPoints: ["passing-yards", "passing-td"]
+    endPoints: [
+      "passingyards-singleseason",
+      "passingyards-career",
+      "passingtd-singleseason",
+      "passingtd-career"
+    ]
   },
   {
     id: 7,
