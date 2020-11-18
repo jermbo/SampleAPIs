@@ -1,13 +1,4 @@
 {
-  "metaData": [
-    {
-      "title": "Countries",
-      "longDesc": "Who doesn't need to get the dreaded long list of countries, codes, capitals, etc. every other week? You can get them all right here.",
-      "desc": "An API with information about countries.",
-      "featured": true,
-      "categories": []
-    }
-  ],
   "countries": [
     {
       "abbreviation": "BD",

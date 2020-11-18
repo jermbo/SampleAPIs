@@ -22,7 +22,8 @@
           "name": "Bryan Konietzko",
           "url": "https://www.imdb.com/name/nm1665983/"
         }
-      ]
+      ],
+      "id": 1
     }
   ],
   "characters": [
@@ -64,7 +65,8 @@
       },
       "Age": "12/112",
       "Hair color": "Dark brown (generally shaven)",
-      "Eye color": "Hazel / Gray"
+      "Eye color": "Hazel / Gray",
+      "id": 1
     },
     {
       "Name": "Appa",
@@ -76,12 +78,13 @@
         "Primary": "Airbending (master)"
       },
       "Hair color": "White (with brown arrow-shaped patch of fur)",
-      "Eye color": "Brown"
+      "Eye color": "Brown",
+      "id": 2
     }
   ],
   "episodes": [
     {
-      "id": "1",
+      "id": 1,
       "Season": "1",
       "NumInSeason": "1",
       "Title": "'The Boy in the Iceberg'",
@@ -92,7 +95,7 @@
       "ProductionCode ": "101"
     },
     {
-      "id": "2",
+      "id": 2,
       "Season": "1",
       "NumInSeason": "2",
       "Title": "'The Avatar Returns'",
@@ -103,7 +106,7 @@
       "ProductionCode ": "102"
     },
     {
-      "id": "3",
+      "id": 3,
       "Season": "1",
       "NumInSeason": "3",
       "Title": "'The Southern Air Temple'",
@@ -114,7 +117,7 @@
       "ProductionCode ": "103"
     },
     {
-      "id": "4",
+      "id": 4,
       "Season": "1",
       "NumInSeason": "4",
       "Title": "'The Warriors of Kyoshi'",
@@ -125,7 +128,7 @@
       "ProductionCode ": "104"
     },
     {
-      "id": "5",
+      "id": 5,
       "Season": "1",
       "NumInSeason": "5",
       "Title": "'The King of Omashu'",
@@ -136,7 +139,7 @@
       "ProductionCode ": "105"
     },
     {
-      "id": "6",
+      "id": 6,
       "Season": "1",
       "NumInSeason": "6",
       "Title": "'Imprisoned'",
@@ -147,7 +150,7 @@
       "ProductionCode ": "106"
     },
     {
-      "id": "7",
+      "id": 7,
       "Season": "1",
       "NumInSeason": "7",
       "Title": "'Winter Solstice Part 1: The Spirit World'",
@@ -158,7 +161,7 @@
       "ProductionCode ": "107"
     },
     {
-      "id": "8",
+      "id": 8,
       "Season": "1",
       "NumInSeason": "8",
       "Title": "'Winter Solstice Part 2: Avatar Roku'",
@@ -169,7 +172,7 @@
       "ProductionCode ": "108"
     },
     {
-      "id": "9",
+      "id": 9,
       "Season": "1",
       "NumInSeason": "9",
       "Title": "'The Waterbending Scroll'",
@@ -180,7 +183,7 @@
       "ProductionCode ": "109"
     },
     {
-      "id": "10",
+      "id": 10,
       "Season": "1",
       "NumInSeason": "10",
       "Title": "'Jet'",
@@ -191,7 +194,7 @@
       "ProductionCode ": "110"
     },
     {
-      "id": "11",
+      "id": 11,
       "Season": "1",
       "NumInSeason": "11",
       "Title": "'The Great Divide'",
@@ -202,7 +205,7 @@
       "ProductionCode ": "111"
     },
     {
-      "id": "12",
+      "id": 12,
       "Season": "1",
       "NumInSeason": "12",
       "Title": "'The Storm'",
@@ -213,7 +216,7 @@
       "ProductionCode ": "112"
     },
     {
-      "id": "13",
+      "id": 13,
       "Season": "1",
       "NumInSeason": "13",
       "Title": "'The Blue Spirit'",
@@ -224,7 +227,7 @@
       "ProductionCode ": "113"
     },
     {
-      "id": "14",
+      "id": 14,
       "Season": "1",
       "NumInSeason": "14",
       "Title": "'The Fortuneteller'",
@@ -235,7 +238,7 @@
       "ProductionCode ": "114"
     },
     {
-      "id": "15",
+      "id": 15,
       "Season": "1",
       "NumInSeason": "15",
       "Title": "'Bato of the Water Tribe'",
@@ -246,7 +249,7 @@
       "ProductionCode ": "115"
     },
     {
-      "id": "16",
+      "id": 16,
       "Season": "1",
       "NumInSeason": "16",
       "Title": "'The Deserter'",
@@ -257,7 +260,7 @@
       "ProductionCode ": "116"
     },
     {
-      "id": "17",
+      "id": 17,
       "Season": "1",
       "NumInSeason": "17",
       "Title": "'The Northern Air Temple'",
@@ -268,7 +271,7 @@
       "ProductionCode ": "117"
     },
     {
-      "id": "18",
+      "id": 18,
       "Season": "1",
       "NumInSeason": "18",
       "Title": "'The Waterbending Master'",
@@ -279,7 +282,7 @@
       "ProductionCode ": "118"
     },
     {
-      "id": "19",
+      "id": 19,
       "Season": "1",
       "NumInSeason": "19",
       "Title": "'The Siege of the North, Part 1'",
@@ -290,7 +293,7 @@
       "ProductionCode ": "119"
     },
     {
-      "id": "20",
+      "id": 20,
       "Season": "1",
       "NumInSeason": "20",
       "Title": "'The Siege of the North, Part 2'",
@@ -301,7 +304,7 @@
       "ProductionCode ": "120"
     },
     {
-      "id": "21",
+      "id": 21,
       "Season": "2",
       "NumInSeason": "1",
       "Title": "'The Avatar State'",
@@ -312,7 +315,7 @@
       "ProductionCode ": "201"
     },
     {
-      "id": "22",
+      "id": 22,
       "Season": "2",
       "NumInSeason": "2",
       "Title": "'The Cave of Two Lovers'",
@@ -323,7 +326,7 @@
       "ProductionCode ": "202"
     },
     {
-      "id": "23",
+      "id": 23,
       "Season": "2",
       "NumInSeason": "3",
       "Title": "'Return to Omashu'",
@@ -334,7 +337,7 @@
       "ProductionCode ": "203"
     },
     {
-      "id": "24",
+      "id": 24,
       "Season": "2",
       "NumInSeason": "4",
       "Title": "'The Swamp'",
@@ -345,7 +348,7 @@
       "ProductionCode ": "204"
     },
     {
-      "id": "25",
+      "id": 25,
       "Season": "2",
       "NumInSeason": "5",
       "Title": "'Avatar Day'",
@@ -356,7 +359,7 @@
       "ProductionCode ": "205"
     },
     {
-      "id": "26",
+      "id": 26,
       "Season": "2",
       "NumInSeason": "6",
       "Title": "'The Blind Bandit'",
@@ -367,7 +370,7 @@
       "ProductionCode ": "206"
     },
     {
-      "id": "27",
+      "id": 27,
       "Season": "2",
       "NumInSeason": "7",
       "Title": "'Zuko Alone'",
@@ -378,7 +381,7 @@
       "ProductionCode ": "207"
     },
     {
-      "id": "28",
+      "id": 28,
       "Season": "2",
       "NumInSeason": "8",
       "Title": "'The Chase'",
@@ -389,7 +392,7 @@
       "ProductionCode ": "208"
     },
     {
-      "id": "29",
+      "id": 29,
       "Season": "2",
       "NumInSeason": "9",
       "Title": "'Bitter Work'",
@@ -400,7 +403,7 @@
       "ProductionCode ": "209"
     },
     {
-      "id": "30",
+      "id": 30,
       "Season": "2",
       "NumInSeason": "10",
       "Title": "'The Library'",
@@ -411,7 +414,7 @@
       "ProductionCode ": "210"
     },
     {
-      "id": "31",
+      "id": 31,
       "Season": "2",
       "NumInSeason": "11",
       "Title": "'The Desert'",
@@ -422,7 +425,7 @@
       "ProductionCode ": "211"
     },
     {
-      "id": "32",
+      "id": 32,
       "Season": "2",
       "NumInSeason": "12",
       "Title": "'The Serpent's Pass'",
@@ -433,7 +436,7 @@
       "ProductionCode ": "212"
     },
     {
-      "id": "33",
+      "id": 33,
       "Season": "2",
       "NumInSeason": "13",
       "Title": "'The Drill'",
@@ -444,7 +447,7 @@
       "ProductionCode ": "213"
     },
     {
-      "id": "34",
+      "id": 34,
       "Season": "2",
       "NumInSeason": "14",
       "Title": "'City of Walls and Secrets'",
@@ -455,7 +458,7 @@
       "ProductionCode ": "214"
     },
     {
-      "id": "35",
+      "id": 35,
       "Season": "2",
       "NumInSeason": "15",
       "Title": "'The Tales of Ba Sing Se'",
@@ -475,7 +478,7 @@
       "ProductionCode ": "215"
     },
     {
-      "id": "36",
+      "id": 36,
       "Season": "2",
       "NumInSeason": "16",
       "Title": "'Appa's Lost Days'",
@@ -486,7 +489,7 @@
       "ProductionCode ": "216"
     },
     {
-      "id": "37",
+      "id": 37,
       "Season": "2",
       "NumInSeason": "17",
       "Title": "'Lake Laogai'",
@@ -497,7 +500,7 @@
       "ProductionCode ": "217"
     },
     {
-      "id": "38",
+      "id": 38,
       "Season": "2",
       "NumInSeason": "18",
       "Title": "'The Earth King'",
@@ -508,7 +511,7 @@
       "ProductionCode ": "218"
     },
     {
-      "id": "39",
+      "id": 39,
       "Season": "2",
       "NumInSeason": "19",
       "Title": "'The Guru'",
@@ -519,7 +522,7 @@
       "ProductionCode ": "219"
     },
     {
-      "id": "40",
+      "id": 40,
       "Season": "2",
       "NumInSeason": "20",
       "Title": "'The Crossroads of Destiny'",
@@ -530,7 +533,7 @@
       "ProductionCode ": "220"
     },
     {
-      "id": "41",
+      "id": 41,
       "Season": "3",
       "NumInSeason": "1",
       "Title": "'The Awakening'",
@@ -542,7 +545,7 @@
       "Viewers": "—"
     },
     {
-      "id": "42",
+      "id": 42,
       "Season": "3",
       "NumInSeason": "2",
       "Title": "'The Headband'",
@@ -554,7 +557,7 @@
       "Viewers": "—"
     },
     {
-      "id": "43",
+      "id": 43,
       "Season": "3",
       "NumInSeason": "3",
       "Title": "'The Painted Lady'",
@@ -566,7 +569,7 @@
       "Viewers": "—"
     },
     {
-      "id": "44",
+      "id": 44,
       "Season": "3",
       "NumInSeason": "4",
       "Title": "'Sokka's Master'",
@@ -578,7 +581,7 @@
       "Viewers": "—"
     },
     {
-      "id": "45",
+      "id": 45,
       "Season": "3",
       "NumInSeason": "5",
       "Title": "'The Beach'",
@@ -590,7 +593,7 @@
       "Viewers": "—"
     },
     {
-      "id": "46",
+      "id": 46,
       "Season": "3",
       "NumInSeason": "6",
       "Title": "'The Avatar and the Firelord'",
@@ -602,7 +605,7 @@
       "Viewers": "—"
     },
     {
-      "id": "47",
+      "id": 47,
       "Season": "3",
       "NumInSeason": "7",
       "Title": "'The Runaway'",
@@ -614,7 +617,7 @@
       "Viewers": "—"
     },
     {
-      "id": "48",
+      "id": 48,
       "Season": "3",
       "NumInSeason": "8",
       "Title": "'The Puppetmaster'",
@@ -626,7 +629,7 @@
       "Viewers": "—"
     },
     {
-      "id": "49",
+      "id": 49,
       "Season": "3",
       "NumInSeason": "9",
       "Title": "'Nightmares and Daydreams'",
@@ -638,7 +641,7 @@
       "Viewers": "—"
     },
     {
-      "id": "50",
+      "id": 50,
       "Season": "3",
       "NumInSeason": "10",
       "Title": "'The Day of Black Sun, Part 1: The Invasion'",
@@ -650,7 +653,7 @@
       "Viewers": "3.77[6]"
     },
     {
-      "id": "51",
+      "id": 51,
       "Season": "3",
       "NumInSeason": "11",
       "Title": "'The Day of Black Sun, Part 2: The Eclipse'",
@@ -662,7 +665,7 @@
       "Viewers": "3.77[6]"
     },
     {
-      "id": "52",
+      "id": 52,
       "Season": "3",
       "NumInSeason": "12",
       "Title": "'The Western Air Temple'",
@@ -674,7 +677,7 @@
       "Viewers": "—"
     },
     {
-      "id": "53",
+      "id": 53,
       "Season": "3",
       "NumInSeason": "13",
       "Title": "'The Firebending Masters'",
@@ -686,7 +689,7 @@
       "Viewers": "—"
     },
     {
-      "id": "54",
+      "id": 54,
       "Season": "3",
       "NumInSeason": "14",
       "Title": "'The Boiling Rock, Part 1'",
@@ -698,7 +701,7 @@
       "Viewers": "3.97[7]"
     },
     {
-      "id": "55",
+      "id": 55,
       "Season": "3",
       "NumInSeason": "15",
       "Title": "'The Boiling Rock, Part 2'",
@@ -710,7 +713,7 @@
       "Viewers": "3.97[7]"
     },
     {
-      "id": "56",
+      "id": 56,
       "Season": "3",
       "NumInSeason": "16",
       "Title": "'The Southern Raiders'",
@@ -722,7 +725,7 @@
       "Viewers": "4.23[7]"
     },
     {
-      "id": "57",
+      "id": 57,
       "Season": "3",
       "NumInSeason": "17",
       "Title": "'The Ember Island Players'",
@@ -734,7 +737,7 @@
       "Viewers": "4.53[7]"
     },
     {
-      "id": "58",
+      "id": 58,
       "Season": "3",
       "NumInSeason": "18",
       "Title": "'Sozin's Comet, Part 1: The Phoenix King'",
@@ -746,7 +749,7 @@
       "Viewers": "5.59[7]"
     },
     {
-      "id": "59",
+      "id": 59,
       "Season": "3",
       "NumInSeason": "19",
       "Title": "'Sozin's Comet, Part 2: The Old Masters'",
@@ -758,7 +761,7 @@
       "Viewers": "5.59[7]"
     },
     {
-      "id": "60",
+      "id": 60,
       "Season": "3",
       "NumInSeason": "20",
       "Title": "'Sozin's Comet, Part 3: Into the Inferno'",
@@ -770,7 +773,7 @@
       "Viewers": "5.59[7]"
     },
     {
-      "id": "61",
+      "id": 61,
       "Season": "3",
       "NumInSeason": "21",
       "Title": "'Sozin's Comet, Part 4: Avatar Aang'",
