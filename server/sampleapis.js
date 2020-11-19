@@ -34,16 +34,19 @@ app.use(cors());
 // Routes
 const reset = require("./routes/reset");
 const baseApis = require("./routes/base-apis");
+const frontend = require("./routes/frontend");
 // const custom = require("./routes/custom-apis");
 
-app.get("/frontend", (req, res) => {
-  res.json({
-    status: 200,
-    data: {
-      apis: APIList
-    }
-  });
-});
+// app.get("/frontend", (req, res) => {
+//   res.json({
+//     status: 200,
+//     data: {
+//       apis: APIList
+//     }
+//   });
+// });
+
+app.use('/frontend', frontend);
 
 const create = require("./routes/create-apis");
 
