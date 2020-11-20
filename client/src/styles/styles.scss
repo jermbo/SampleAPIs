@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:200,400,600,800");
+
+$offBlack: #161616;
+$offWhite: #eadeda;
+
+$colors: (#00d6e9, #15e3d9, #56edbf, #8cf5a2, #c2f985, #f9f871);
+$padding: 1.25rem;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+  background: $offBlack;
+  height: 100%;
+}
+
+.site {
+  flex: 1 0 50%;
+  display: flex;
+  color: $offWhite;
+  align-items: center;
+  justify-content: center;
+}
+
+.site__inner {
+  padding: 0 $padding;
+}
+
+.site__title {
+  font-weight: 400;
+}
+
+.apis {
+  flex: 1 0 50%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.api {
+  flex: 1 0 auto;
+  display: flex;
+  padding: $padding;
+  color: $offBlack;
+  align-items: center;
+
+  @for $i from 1 through length($colors) {
+    &:nth-child(#{length($colors)}n + #{$i}) {
+      background: nth($colors, $i);
+    }
+  }
+}
+
+.api__title {
+  margin: 0 0 $padding/2;
+}
+
+.api__desc {
+  margin: 0 0 $padding/2;
+}
+
+.api__link {
+  color: $offBlack;
+  text-decoration: none;
+  display: inline-block;
+  padding: $padding/4 $padding/2;
+  border: 1px solid $offBlack;
+  transition: all 0.2s ease;
+
+  &:not(:last-child) {
+    margin-right: $padding/2;
+  }
+
+  @for $i from 1 through length($colors) {
+    .api:nth-child(#{length($colors)}n + #{$i}) & {
+      background: nth($colors, $i);
+
+      &:hover {
+        color: darken(nth($colors, $i), 50%);
+        border-color: darken(nth($colors, $i), 50%);
+        background: darken(nth($colors, $i), 15%);
+      }
+    }
+  }
+}
+
+.endpoint {
+  text-decoration: none;
+  display: inline-block;
+  padding: $padding/2 $padding;
+  margin: 0 $padding/2 $padding/2 0;
+  transition: all 0.2s ease;
+
+  @for $i from 1 through length($colors) {
+    &:nth-child(#{length($colors)}n + #{$i}) {
+      background: nth($colors, $i);
+      color: darken(nth($colors, $i), 50%);
+      &:hover {
+        color: lighten(nth($colors, $i), 20%);
+        border-color: darken(nth($colors, $i), 50%);
+        background: darken(nth($colors, $i), 15%);
+      }
+    }
+  }
+}
