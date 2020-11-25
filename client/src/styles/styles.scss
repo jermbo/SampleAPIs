@@ -1,119 +1,102 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:200,400,600,800");
 
-$offBlack: #161616;
-$offWhite: #eadeda;
-
-$colors: (#00d6e9, #15e3d9, #56edbf, #8cf5a2, #c2f985, #f9f871);
-$padding: 1.25rem;
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
 html,
-body,
-#root {
+body {
+  background: #222;
+  color: white;
   margin: 0;
   padding: 0;
-  height: 100vh;
-  font-family: "Montserrat Alternates", sans-serif;
-  font-size: 16px;
 }
 
 main {
-  display: flex;
-  background: $offBlack;
-  height: 100%;
-}
+  position: fixed;
+  perspective: 1500px;
 
-.site {
-  flex: 1 0 50%;
-  display: flex;
-  color: $offWhite;
-  align-items: center;
-  justify-content: center;
-}
-
-.site__inner {
-  padding: 0 $padding;
-}
-
-.site__title {
-  font-weight: 400;
-}
-
-.apis {
-  flex: 1 0 50%;
-  max-height: 100%;
-  display: flex;
-  flex-direction: column;
-  overflow-y: auto;
-}
-
-.api {
-  flex: 1 0 auto;
-  display: flex;
-  padding: $padding;
-  color: $offBlack;
-  align-items: center;
-
-  @for $i from 1 through length($colors) {
-    &:nth-child(#{length($colors)}n + #{$i}) {
-      background: nth($colors, $i);
-    }
+  &.nav-open {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
   }
 }
 
-.api__title {
-  margin: 0 0 $padding/2;
-}
+.container {
+  position: relative;
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+  transition: all 0.25s ease;
+  z-index: 10;
 
-.api__desc {
-  margin: 0 0 $padding/2;
-}
+  .nav-open & {
+    user-select: none;
+    touch-action: none;
 
-.api__link {
-  color: $offBlack;
-  text-decoration: none;
-  display: inline-block;
-  padding: $padding/4 $padding/2;
-  border: 1px solid $offBlack;
-  transition: all 0.2s ease;
+    transform-origin: 0 50%;
+    position: fixed;
 
-  &:not(:last-child) {
-    margin-right: $padding/2;
+    // transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
+    transform: translateZ(-125vw) translateX(-40%) rotateY(30deg);
+    outline: 30px solid goldenrod;
   }
+}
 
-  @for $i from 1 through length($colors) {
-    .api:nth-child(#{length($colors)}n + #{$i}) & {
-      background: nth($colors, $i);
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.logo {
+  margin: 0;
+}
 
-      &:hover {
-        color: darken(nth($colors, $i), 50%);
-        border-color: darken(nth($colors, $i), 50%);
-        background: darken(nth($colors, $i), 15%);
+.outer-nav {
+  transform-style: preserve-3d;
+  position: fixed;
+  top: 50%;
+  left: 60%;
+  transform: translateY(-50%);
+
+  a {
+    display: block;
+    color: white;
+    font-size: 3rem;
+    padding: 2rem 0;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    transition: all 0.35s ease-in-out;
+    transform: translateX(350px) translateZ(-1000px);
+    opacity: 0;
+
+    @for $i from 1 through 5 {
+      &:nth-child(#{$i}) {
+        transition-delay: #{$i * 0.05}s;
       }
     }
-  }
-}
 
-.endpoint {
-  text-decoration: none;
-  display: inline-block;
-  padding: $padding/2 $padding;
-  margin: 0 $padding/2 $padding/2 0;
-  transition: all 0.2s ease;
+    .nav-open & {
+      transform: translateX(0) translateZ(0);
+      opacity: 1;
+    }
 
-  @for $i from 1 through length($colors) {
-    &:nth-child(#{length($colors)}n + #{$i}) {
-      background: nth($colors, $i);
-      color: darken(nth($colors, $i), 50%);
-      &:hover {
-        color: lighten(nth($colors, $i), 20%);
-        border-color: darken(nth($colors, $i), 50%);
-        background: darken(nth($colors, $i), 15%);
+    &:before {
+      transition: all 0.25s ease;
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 0%;
+      height: 10px;
+      background: goldenrod;
+    }
+
+    &:hover,
+    &.active {
+      &:before {
+        content: "";
+        width: 110%;
       }
     }
   }
