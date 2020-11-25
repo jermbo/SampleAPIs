@@ -1,29 +1,38 @@
-import React, { useContext } from 'react';
-import { GlobalContext } from '../GlobalContext';
+// import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import { GlobalContext } from "../GlobalContext";
+import { RouteComponentProps, withRouter } from "react-router";
 
-const OuterNav: React.FC = () => {
-  const { navVisible, setNavVisible } = useContext(GlobalContext);
+import { NavLink } from "react-router-dom";
 
-  const toggleNav = (e: any) => {
-    setNavVisible(!navVisible);
-  };
+type SomeComponentProps = RouteComponentProps;
+
+const OuterNav: React.FC<SomeComponentProps> = ({ history }) => {
+  const { setNavVisible } = useContext(GlobalContext);
+  useEffect(() => {
+    setNavVisible(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [history.location.pathname]);
 
   return (
     <div className="outer-nav">
-      {/* eslint-disable-next-line */}
-      <a className="active" onClick={toggleNav}>
+      <NavLink exact activeClassName="active" to="/">
         Home
-        </a>
-      {/* eslint-disable-next-line */}
-      <a onClick={toggleNav}>About</a>
-      {/* eslint-disable-next-line */}
-      <a onClick={toggleNav}>API List</a>
-      {/* eslint-disable-next-line */}
-      <a onClick={toggleNav}>Docs</a>
-      {/* eslint-disable-next-line */}
-      <a onClick={toggleNav}>Custom</a>
+      </NavLink>
+      <NavLink exact activeClassName="active" to="/about">
+        About
+      </NavLink>
+      <NavLink exact activeClassName="active" to="/api-list">
+        API List
+      </NavLink>
+      <NavLink exact activeClassName="active" to="/docs">
+        Docs
+      </NavLink>
+      <NavLink exact activeClassName="active" to="/custom">
+        Custom
+      </NavLink>
     </div>
-  )
-}
+  );
+};
 
-export default OuterNav;
+export default withRouter(OuterNav);
