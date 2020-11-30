@@ -1,12 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:200,400,600,800");
-
-html,
-body {
-  background: #222;
-  color: white;
-  margin: 0;
-  padding: 0;
-}
+@use 'vars';
+@use 'base';
+@use 'nav';
 
 main {
   position: fixed;
@@ -19,11 +13,25 @@ main {
   }
 }
 
+@function cosmic_gradient() {
+  $colorLength: length(vars.$color-gradient);
+  $gradient: "";
+
+  @for $i from 1 through $colorLength {
+    @if $i < $colorLength {
+      $gradient: $gradient + nth(vars.$color-gradient, $i) + ", ";
+    } @else {
+      $gradient: $gradient + nth(vars.$color-gradient, $i);
+    }
+  }
+  @return $gradient;
+}
+
 .container {
   position: relative;
   background: #000;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 20px);
   transition: all 0.25s ease;
   z-index: 10;
 
@@ -36,7 +44,12 @@ main {
 
     // transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
     transform: translateZ(-125vw) translateX(-40%) rotateY(30deg);
-    outline: 30px solid goldenrod;
+    border-top: 10px solid #{nth(vars.$colors, 1)};
+    border-bottom: 10px solid #{nth(vars.$colors, length(vars.$colors))};
+    background-image: linear-gradient(#{cosmic_gradient()}), linear-gradient(#{cosmic_gradient()});
+    background-size: 10px 100%;
+    background-position: 0 0, 100% 0;
+    background-repeat: no-repeat;
   }
 }
 
@@ -47,57 +60,4 @@ header {
 }
 .logo {
   margin: 0;
-}
-
-.outer-nav {
-  transform-style: preserve-3d;
-  position: fixed;
-  top: 50%;
-  left: 60%;
-  transform: translateY(-50%);
-
-  a {
-    display: block;
-    color: white;
-    font-size: 3rem;
-    padding: 2rem 0;
-    text-decoration: none;
-    text-align: center;
-    position: relative;
-    transition: all 0.35s ease-in-out;
-    transform: translateX(350px) translateZ(-1000px);
-    opacity: 0;
-
-    @for $i from 1 through 5 {
-      &:nth-child(#{$i}) {
-        transition-delay: #{$i * 0.05}s;
-      }
-    }
-
-    .nav-open & {
-      transform: translateX(0) translateZ(0);
-      opacity: 1;
-    }
-
-    &:before {
-      transition: all 0.25s ease;
-      content: "";
-      display: block;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 0%;
-      height: 10px;
-      background: goldenrod;
-    }
-
-    &:hover,
-    &.active {
-      &:before {
-        content: "";
-        width: 110%;
-      }
-    }
-  }
 }

@@ -1,0 +1,63 @@
+@use 'sass:list';
+@use 'vars';
+
+.outer-nav {
+  transform-style: preserve-3d;
+  position: fixed;
+  top: 50%;
+  left: 60%;
+  transform: translateY(-50%);
+
+  a {
+    display: block;
+    color: white;
+    font-size: 3rem;
+    padding: 2rem 0;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    transition: all 0.35s ease-in-out;
+    transform: translateX(350px) translateZ(-1000px);
+    opacity: 0;
+
+    @for $i from 1 through 5 {
+      &:nth-child(#{$i}) {
+        transition-delay: #{$i * 0.05}s;
+      }
+    }
+
+    @for $i from 1 through length(vars.$colors) {
+      &:nth-child(#{length(vars.$colors)}n + #{$i}) {
+        &:before {
+          background: nth(vars.$colors, $i);
+        }
+      }
+    }
+
+    .nav-open & {
+      transform: translateX(0) translateZ(0);
+      opacity: 1;
+    }
+
+    &:before {
+      transition: all 0.25s ease;
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 0%;
+      height: 10px;
+      // background: goldenrod;
+    }
+
+    &:hover,
+    &.active {
+      &:before {
+        content: "";
+        width: 110%;
+      }
+    }
+  }
+}

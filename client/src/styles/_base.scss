@@ -1,0 +1,75 @@
+@use 'vars';
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:200,400,600,800");
+
+html,
+body {
+  background: #222;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Montserrat Alternates";
+}
+
+.page {
+  width: 75vw;
+  padding: 15% 10%;
+}
+.page__title {
+  font-size: 2.5rem;
+}
+
+.page__sub-title {
+  font-size: 1.75rem;
+}
+
+//Variables
+$anchorActiveColor: #dad8a7;
+$anchorEaseTime: 0.2s;
+$anchorOffset: 0;
+.text-btn {
+  text-decoration: none;
+  letter-spacing: 2px;
+  position: relative;
+  transition: color $anchorEaseTime ease;
+  padding: 0 2px;
+  margin: 0 2px;
+
+  &:before,
+  &:after {
+    content: "";
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: -$anchorOffset;
+    z-index: -1;
+    transition: height $anchorEaseTime ease;
+  }
+  &:after {
+    right: -$anchorOffset;
+  }
+  &:hover {
+    &:after,
+    &:before {
+      height: 100%;
+    }
+  }
+
+  @for $i from 1 through length(vars.$colors) {
+    &:nth-child(#{length(vars.$colors)}n + #{$i}) {
+      color: nth(vars.$colors, $i);
+      &:before,
+      &:after {
+        $color: nth(vars.$colors, $i);
+        background: darken($color, 20%);
+      }
+      &:hover {
+        // background: nth(vars.$colors, $i);
+        color: vars.$offBlack;
+      }
+    }
+  }
+}
