@@ -4,7 +4,13 @@ $offBlack: #161616;
 $offWhite: #eadeda;
 
 $colors: (#00d6e9, #15e3d9, #56edbf, #8cf5a2, #c2f985, #f9f871);
-$colors: (#845ec2, #d65db1, #ff6f91, #ff9671, #ffc75f, #f9f871);
-$colors-reverse: (#f9f871, #ffc75f, #ff9671, #ff6f91, #d65db1, #845ec2);
-$color-gradient: list.join($colors, $colors-reverse);
+// $colors: (#845ec2, #d65db1, #ff6f91, #ff9671, #ffc75f, #f9f871);
+$colors-reverse: ();
+$negative: length($colors) * -1;
+@for $i from $negative through -1 {
+  $color: nth($colors, $i * -1);
+  $colors-reverse: append($colors-reverse, $color);
+}
+
+$color-gradient: join($colors, $colors-reverse);
 $padding: 1.25rem;
