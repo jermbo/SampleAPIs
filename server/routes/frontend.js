@@ -14,7 +14,9 @@ router.get("/", async (req, res) => {
 
   res.json({
     status: 200,
-    APIList,
+    data: {
+      APIList
+    }
   });
 });
 
