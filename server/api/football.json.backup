@@ -4,7 +4,7 @@
       "title": "Football",
       "longDesc": "Football fans? Computer nerds? Now, in one place, you have football data and an api to access it. Have fun!",
       "desc": "An API with records and trivia questions.",
-      "featured": true,
+      "featured": false,
       "categories": []
     }
   ],

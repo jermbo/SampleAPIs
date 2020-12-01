@@ -4,7 +4,7 @@
       "title": "Avatar",
       "longDesc": "If you are an Avatar fan, then this api is for you. Here you can find everything from Episodes to Characters to Trivia Questions and more.",
       "desc": "An API with characters, episode listings, and trivia questions.",
-      "featured": true,
+      "featured": false,
       "categories": []
     }
   ],

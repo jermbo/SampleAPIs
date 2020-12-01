@@ -4,7 +4,7 @@
       "title": "Simpsons",
       "longDesc": "Because who doesn't need easily accessible data about the simpsons?",
       "desc": "Because who doesn't need easily accessible data about the simpsons?",
-      "featured": true,
+      "featured": false,
       "categories": []
     }
   ],

@@ -4,7 +4,7 @@
       "title": "Rick And Morty",
       "longDesc": "Get all the Rick-iest Episodes, Locations and Characters from a copy of the https://rickandmortyapi.com data. That's the way Rick would have done it!",
       "desc": "API for all current Rick & Morty episodes, locations and characters",
-      "featured": true,
+      "featured": false,
       "categories": []
     }
   ],

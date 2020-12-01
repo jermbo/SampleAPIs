@@ -4,7 +4,7 @@
       "title": "PlayStation Games",
       "longDesc": "Figured it would be a cool db to have various video games on the PlayStation 4.",
       "desc": "Figured it would be fun to have a PlayStation game list on here.",
-      "featured": true,
+      "featured": false,
       "categories": []
     }
   ],
