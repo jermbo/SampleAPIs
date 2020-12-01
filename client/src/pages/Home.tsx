@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { GlobalContext } from "../GlobalContext";
 
 const Home: React.FC = () => {
+  const { apiList } = useContext(GlobalContext);
+
   return (
     <section className="page">
       <div className="page-header">
@@ -11,7 +14,7 @@ const Home: React.FC = () => {
           APIs.
         </p>
       </div>
-      <nav className="page-actions">
+      <div className="page-actions">
         <p>
           There is a lot to do with Sample APIs, why not
           <Link className="text-btn" to="/about">
@@ -30,7 +33,8 @@ const Home: React.FC = () => {
             creating a custom endpoint.
           </Link>
         </p>
-      </nav>
+      </div>
+      <div className="featured">{apiList && apiList.map((api: any) => <p key={api.name}>{api.name}</p>)}</div>
     </section>
   );
 };

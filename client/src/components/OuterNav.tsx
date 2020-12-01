@@ -1,5 +1,5 @@
 // import React, { useEffect, useState } from "react";
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect } from "react";
 import { GlobalContext } from "../GlobalContext";
 import { RouteComponentProps, withRouter } from "react-router";
 

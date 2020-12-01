@@ -31,7 +31,8 @@ main {
   position: relative;
   background: #000;
   width: 100vw;
-  height: calc(100vh - 20px);
+  // height: calc(100vh - 20px);
+  height: 100vh;
   transition: transform 0.25s ease;
   z-index: 10;
 
