@@ -3,8 +3,6 @@ import { Dispatch } from "react";
 export interface iGlobal {
   navVisible: boolean;
   setNavVisible: Dispatch<boolean>;
-  apiList: iAPIList[];
-  setAPIList: Dispatch<iAPIList[]>;
   appState: AppStateEnum;
   setAppState: Dispatch<AppStateEnum>;
 }
@@ -16,7 +14,16 @@ export enum AppStateEnum {
   error = "ERROR",
 }
 
-export interface iAPIList {
+export interface FetchState<T> {
+  status: number,
+  data: T | null
+}
+
+export interface APIListResponse {
+  APIList: APIData[];
+}
+
+export interface APIData {
   name: string;
   link: string;
   metaData: MetaData;

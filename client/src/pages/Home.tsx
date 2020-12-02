@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { GlobalContext } from "../GlobalContext";
+// import { GlobalContext } from "../GlobalContext";
 
 const Home: React.FC = () => {
-  const { apiList } = useContext(GlobalContext);
+  // const { apiList } = useContext(GlobalContext);
 
   return (
     <section className="page">
@@ -34,7 +34,7 @@ const Home: React.FC = () => {
           </Link>
         </p>
       </div>
-      <div className="featured">{apiList && apiList.map((api: any) => <p key={api.name}>{api.name}</p>)}</div>
+      {/* <div className="featured">{apiList && apiList.map((api: any) => <p key={api.name}>{api.name}</p>)}</div> */}
     </section>
   );
 };
