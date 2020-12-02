@@ -15,13 +15,11 @@ const App: React.FC = () => {
       <main className={`${navVisible ? "nav-open" : ""}`}>
         <div className="container">
           <Header />
-          <section>
-            <Switch>
-              {Routes.map((route: any) => (
-                <Route key={route.path} path={route.path} exact={route.exact} children={<route.component />} />
-              ))}
-            </Switch>
-          </section>
+          <Switch>
+            {Routes.map((route: any) => (
+              <Route key={route.path} path={route.path} exact={route.exact} children={<route.component />} />
+            ))}
+          </Switch>
         </div>
         <OuterNav />
       </main>

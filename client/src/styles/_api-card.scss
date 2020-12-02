@@ -1,0 +1,70 @@
+@use 'vars';
+
+.api-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: vars.$padding;
+}
+
+.api-card {
+  border: 1px solid white;
+  padding: vars.$padding;
+}
+
+.api-card__categories {
+  margin: 0;
+  padding: 0;
+}
+
+.api-card__category {
+  font-size: 0.75rem;
+  list-style: none;
+  display: inline-block;
+  padding: vars.$padding/4 vars.$padding/2;
+  margin-bottom: vars.$padding/2;
+  color: vars.$offBlack;
+  border-radius: 10px;
+  border: 1px solid vars.$offWhite;
+  flex: 1;
+
+  &:not(:last-child) {
+    margin-right: vars.$padding/2;
+  }
+
+  @for $i from 1 through length(vars.$colors) {
+    &:nth-child(#{length(vars.$colors)}n + #{$i}) {
+      color: nth(vars.$colors, $i);
+      border-color: nth(vars.$colors, $i);
+    }
+  }
+}
+
+.api-card__header {
+  display: flex;
+  align-items: center;
+}
+
+.api-card__title {
+  margin: 0;
+}
+
+.api-card__desc {
+  margin: 0;
+}
+
+.api-card__endpoints {
+  margin-top: vars.$padding/2;
+
+  summary {
+    background: goldenrod;
+    padding: vars.$padding/2 0;
+  }
+
+  div {
+    background: green;
+    padding: vars.$padding;
+    p {
+      margin: 0;
+    }
+  }
+}

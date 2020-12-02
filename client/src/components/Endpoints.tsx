@@ -5,7 +5,7 @@ const Endpoints = ({ endpoints }: any) => {
   return (
     <section className="apis">
       {endpoints.map((endpoint: any) => (
-        <EndPoint data={endpoint} />
+        <EndPoint key={endpoint.name} data={endpoint} />
       ))}
     </section>
   );

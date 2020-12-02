@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { GlobalContext } from "../GlobalContext";
 import { APIData } from "../utils/Interfaces";
-import APIBox from "./APIBox";
+import APICard from "./APICard";
 
 const FeaturedAPIs: React.FC = () => {
   const { apiList } = useContext(GlobalContext);
@@ -14,15 +14,17 @@ const FeaturedAPIs: React.FC = () => {
   }, [apiList]);
 
   return (
-    <div className="featured">
+    <div className="page-featured">
       <h3>Featured APIs</h3>
       <hr />
-      {featuredList &&
-        featuredList.map((api) => (
-          <>
-            <APIBox key={api.name} api={api} />
-          </>
-        ))}
+      <div className="api-cards">
+        {featuredList &&
+          featuredList.map((api) => (
+            <>
+              <APICard key={api.metaData.title} featured api={api} />
+            </>
+          ))}
+      </div>
     </div>
   );
 };

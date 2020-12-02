@@ -1,0 +1,55 @@
+@use 'vars';
+
+.page {
+  width: 75vw;
+  margin: 0 auto;
+  padding: 0 vars.$padding;
+  display: grid;
+  grid-template-columns: minmax(700px, 4fr) 1fr;
+  grid-template-rows: 30vh 1fr 70vh;
+  gap: vars.$padding;
+  grid-template-areas:
+    "header empty"
+    "actions empty"
+    "featured featured";
+}
+
+.page-header {
+  grid-area: header;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.page__title {
+  font-size: 6.5rem;
+  margin: 0;
+}
+
+.page__sub-title {
+  font-size: 2.75rem;
+  margin: 0;
+}
+
+.page-actions {
+  grid-area: actions;
+}
+
+.page-action.btn {
+  border-color: blue;
+
+  @for $i from 1 through length(vars.$colors) {
+    &:nth-child(#{length(vars.$colors)}n + #{$i}) {
+      border-color: nth(vars.$colors, $i);
+      color: nth(vars.$colors, $i);
+      &:hover {
+        color: vars.$offBlack;
+        background: nth(vars.$colors, $i);
+      }
+    }
+  }
+}
+
+.page-featured {
+  grid-area: featured;
+}

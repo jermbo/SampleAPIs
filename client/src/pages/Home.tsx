@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { faBook, faCode, faInfoCircle, faList } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import FeaturedAPIs from "../components/FeaturedAPIs";
 
 const Home: React.FC = () => {
@@ -13,24 +16,22 @@ const Home: React.FC = () => {
         </p>
       </div>
       <div className="page-actions">
-        <p>
-          There is a lot to do with Sample APIs, why not
-          <Link className="text-btn" to="/about">
-            learn more about the project?
-          </Link>
-          We've got a huge list of data points
-          <Link className="text-btn" to="/api-list">
-            API List.
-          </Link>
-          Be sure to
-          <Link className="text-btn" to="/docs">
-            check out the docs
-          </Link>
-          for some guidance. Do you need a quick an simple api? Consider
-          <Link className="text-btn" to="/custom">
-            creating a custom endpoint.
-          </Link>
-        </p>
+        <Link className="page-action btn" to="/">
+          <span>About</span>
+          <FontAwesomeIcon icon={faInfoCircle} />
+        </Link>
+        <Link className="page-action btn" to="/">
+          <span>API List</span>
+          <FontAwesomeIcon icon={faList} />
+        </Link>
+        <Link className="page-action btn" to="/">
+          <span>Docs</span>
+          <FontAwesomeIcon icon={faBook} />
+        </Link>
+        <Link className="page-action btn" to="/">
+          <span>Create Custom API</span>
+          <FontAwesomeIcon icon={faCode} />
+        </Link>
       </div>
       <FeaturedAPIs />
     </section>

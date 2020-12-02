@@ -13,63 +13,71 @@ body {
   font-family: "Montserrat Alternates";
 }
 
-.page {
-  width: 75vw;
-  padding: 15% 10%;
-}
-.page__title {
-  font-size: 2.5rem;
-}
-
-.page__sub-title {
-  font-size: 1.75rem;
-}
-
-//Variables
-$anchorActiveColor: #dad8a7;
-$anchorEaseTime: 0.2s;
-$anchorOffset: 0;
-.text-btn {
-  text-decoration: none;
-  letter-spacing: 2px;
-  position: relative;
-  transition: color $anchorEaseTime ease;
-  padding: 0 2px;
-  margin: 0 2px;
-
-  &:before,
-  &:after {
-    content: "";
-    height: 10%;
+main {
+  perspective: 1500px;
+  &.nav-open {
+    position: fixed;
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: -$anchorOffset;
-    z-index: -1;
-    transition: height $anchorEaseTime ease;
+    height: 100%;
+    overflow: hidden;
   }
-  &:after {
-    right: -$anchorOffset;
-  }
-  &:hover {
-    &:after,
-    &:before {
-      height: 100%;
-    }
-  }
+}
 
-  @for $i from 1 through length(vars.$colors) {
-    &:nth-child(#{length(vars.$colors)}n + #{$i}) {
-      color: nth(vars.$colors, $i);
-      &:before,
-      &:after {
-        $color: nth(vars.$colors, $i);
-        background: darken($color, 20%);
-      }
-      &:hover {
-        // background: nth(vars.$colors, $i);
-        color: vars.$offBlack;
-      }
+@function cosmic_gradient() {
+  $colorLength: length(vars.$color-gradient);
+  $gradient: "";
+
+  @for $i from 1 through $colorLength {
+    @if $i < $colorLength {
+      $gradient: $gradient + nth(vars.$color-gradient, $i) + ", ";
+    } @else {
+      $gradient: $gradient + nth(vars.$color-gradient, $i);
     }
   }
+  @return $gradient;
+}
+
+.container {
+  overflow-y: auto;
+  position: relative;
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+  transition: transform 0.25s ease;
+  z-index: 10;
+
+  .nav-open & {
+    user-select: none;
+    touch-action: none;
+
+    transform-origin: 0 50%;
+    position: fixed;
+
+    transform: translateZ(-125vw) translateX(-40%) rotateY(30deg);
+    border-top: 10px solid #{nth(vars.$colors, 1)};
+    border-bottom: 10px solid #{nth(vars.$colors, 1)};
+    background-image: linear-gradient(#{cosmic_gradient()}), linear-gradient(#{cosmic_gradient()});
+    background-size: 10px 100%;
+    background-position: 0 0, 100% 0;
+    background-repeat: no-repeat;
+  }
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f90;
+  background-image: linear-gradient(#{cosmic_gradient()});
+}
+
+[class~="?"] {
+  border: 2px solid #d34ad8;
 }
