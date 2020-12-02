@@ -1,10 +1,8 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-// import { GlobalContext } from "../GlobalContext";
+import FeaturedAPIs from "../components/FeaturedAPIs";
 
 const Home: React.FC = () => {
-  // const { apiList } = useContext(GlobalContext);
-
   return (
     <section className="page">
       <div className="page-header">
@@ -34,7 +32,7 @@ const Home: React.FC = () => {
           </Link>
         </p>
       </div>
-      {/* <div className="featured">{apiList && apiList.map((api: any) => <p key={api.name}>{api.name}</p>)}</div> */}
+      <FeaturedAPIs />
     </section>
   );
 };

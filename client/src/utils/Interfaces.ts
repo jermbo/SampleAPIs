@@ -1,17 +1,13 @@
 import { Dispatch } from "react";
+import { AppStateEnum } from "./Enums";
 
 export interface iGlobal {
   navVisible: boolean;
   setNavVisible: Dispatch<boolean>;
+  apiList: APIData[];
+  setAPIList: Dispatch<APIData[]>;
   appState: AppStateEnum;
   setAppState: Dispatch<AppStateEnum>;
-}
-
-export enum AppStateEnum {
-  initial = "INITIAL",
-  loading = "LOADING",
-  ready = "READY",
-  error = "ERROR",
 }
 
 export interface FetchState<T> {

@@ -1,11 +1,14 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useEffect, useState } from "react";
 import useFetch from "./hooks/useFetch";
 
-import { APIListResponse, AppStateEnum, FetchState, iGlobal } from "./utils/interface/global";
+import { AppStateEnum } from "./utils/Enums";
+import { APIData, APIListResponse, FetchState, iGlobal } from "./utils/Interfaces";
 
 export const initialValues: iGlobal = {
   navVisible: false,
   setNavVisible: () => {},
+  apiList: [] as APIData[],
+  setAPIList: () => [],
   appState: AppStateEnum.initial,
   setAppState: () => {},
 };
@@ -13,56 +16,26 @@ export const initialValues: iGlobal = {
 export const GlobalContext = createContext(initialValues);
 
 const BASE_URL = "http://localhost:5555/frontend";
-// const inventory = "http://localhost:5555/futurama/api/inventory";
-
-// interface InventoryItem {
-//   title: string;
-//   category: string;
-//   description: string;
-//   slogan: string;
-//   price: number;
-//   stock: number;
-//   id: number;
-// }
 
 const GlobalProvider: React.FC = ({ children }) => {
   const [navVisible, setNavVisible] = useState(initialValues.navVisible);
   const [appState, setAppState] = useState(initialValues.appState);
-  // const [apiList, setAPIList] = useState(initialValues.apiList);
+  const [apiList, setAPIList] = useState(initialValues.apiList);
 
-  const data = useFetch<FetchState<APIListResponse>>(BASE_URL);
-  console.log(data?.data?.APIList);
+  const { state, data } = useFetch<FetchState<APIListResponse>>(BASE_URL);
 
-  // const items = useFetch<InventoryItem[]>(inventory);
-  // console.log(items[2].title);
-
-  // const { data, error, isLoading } = useFetch<iAPIList>(`${BASE_URL}/frontend`);
-  // console.log({ data, error, isLoading });
-  // const data = useFetch<Response>(`${BASE_URL}/frontend`);
-  // console.log(data);
-  // const getAPIList = async () => {
-  //   if (appState !== AppStateEnum.initial) {
-  //     return;
-  //   }
-  //   try {
-  //     setAppState(AppStateEnum.loading);
-  //     const resp = await fetch(`${BASE_URL}/frontend`);
-  //     const { data } = await resp.json();
-  //     console.log(data.APIList);
-  //     setAPIList(data.APIList);
-  //     setAppState(AppStateEnum.ready);
-  //   } catch (e) {
-  //     setAppState(AppStateEnum.error);
-  //     console.log(e);
-  //   }
-  // };
-  // useEffect(() => {
-  //   getAPIList();
-  // });
+  useEffect(() => {
+    if (state === AppStateEnum.ready) {
+      const list = data?.data?.APIList || ([] as APIData[]);
+      setAPIList(list);
+    }
+  }, [state]);
 
   const values = {
     navVisible,
     setNavVisible,
+    apiList,
+    setAPIList,
     appState,
     setAppState,
   };
