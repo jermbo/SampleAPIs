@@ -5,7 +5,7 @@
       "longDesc": "If you are a Futurama fan, then this api is for you. Here you can find everything from Episodes to Characters to Trivia Questions, and even some of the Products featured on the show.",
       "desc": "An API with characters, episode listing, species, planets, and trivia questions.",
       "featured": true,
-      "categories": []
+      "categories": ["cartoon", "tv", "entertainment", "quiz", "inventory"]
     }
   ],
   "info": [

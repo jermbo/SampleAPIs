@@ -5,7 +5,7 @@
       "longDesc": "Wines.",
       "desc": "Wines",
       "featured": true,
-      "categories": []
+      "categories": ["food & beverage", "list"]
     }
   ],
   "reds": [

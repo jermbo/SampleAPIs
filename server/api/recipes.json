@@ -5,7 +5,7 @@
       "longDesc": "Because everyone is making a recipe app to learn to code. So, here is some data.",
       "desc": "A recipe database",
       "featured": false,
-      "categories": []
+      "categories": ["food & beverage", "list"]
     }
   ],
   "recipes": [

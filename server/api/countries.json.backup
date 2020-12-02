@@ -5,7 +5,7 @@
       "longDesc": "Who doesn't need to get the dreaded long list of countries, codes, capitals, etc. every other week? You can get them all right here.",
       "desc": "An API with information about countries.",
       "featured": false,
-      "categories": []
+      "categories": ["list"]
     }
   ],
   "countries": [

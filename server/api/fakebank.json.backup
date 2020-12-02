@@ -5,7 +5,7 @@
       "longDesc": "Building an app that needs some bake transactions? Well, look no further. Here are what Fry's bank statements might look like from the future.",
       "desc": "Just a random set of fake bank data.",
       "featured": false,
-      "categories": []
+      "categories": ["bank"]
     }
   ],
   "accounts": [

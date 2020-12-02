@@ -5,7 +5,7 @@
       "longDesc": "Millions of peaches! No...not those Presidents. You're practicing API calls, why not learn a little bit about United States history in the process? Here we have a collection of all the US Presidents. Updated every 4-8 years.",
       "desc": "Millions of peaches! No...not those Presidents...",
       "featured": false,
-      "categories": []
+      "categories": ["list"]
     }
   ],
   "presidents": [

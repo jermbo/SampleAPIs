@@ -5,7 +5,7 @@
       "longDesc": "Because who doesn't need easily accessible data about the simpsons?",
       "desc": "Because who doesn't need easily accessible data about the simpsons?",
       "featured": false,
-      "categories": []
+      "categories": ["cartoon", "tv", "entertainment", "products"]
     }
   ],
   "characters": [

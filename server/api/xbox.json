@@ -5,7 +5,7 @@
       "longDesc": "Figured it would be a cool db to have various video games on the XBox.",
       "desc": "Figured it would be fun to have a Xbox game list on here.",
       "featured": false,
-      "categories": []
+      "categories": ["games", "list", "entertainment"]
     }
   ],
   "games": [

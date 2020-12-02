@@ -5,7 +5,7 @@
       "longDesc": "Basic list of descriptions and ingredients used for the most popular coffee drinks",
       "desc": "API for popular coffee drinks",
       "featured": true,
-      "categories": []
+      "categories": ["food & beverage", "list"]
     }
   ],
   "hot": [

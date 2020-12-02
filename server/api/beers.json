@@ -5,7 +5,7 @@
       "longDesc": "Beers.",
       "desc": "Beers",
       "featured": true,
-      "categories": []
+      "categories": ["food & beverage", "list"]
     }
   ],
   "ale": [

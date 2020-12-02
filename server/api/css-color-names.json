@@ -5,7 +5,7 @@
       "longDesc": "Thought it would be cool to include different CSS Colors Names. I was inspired when I found this site, https://xkcd.com/color/rgb/.",
       "desc": "A list of CSS Color Names",
       "featured": false,
-      "categories": []
+      "categories": ["list"]
     }
   ],
   "colors": [
