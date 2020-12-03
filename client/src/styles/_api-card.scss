@@ -3,12 +3,47 @@
 .api-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  gap: vars.$padding;
+  gap: vars.$padding * 2;
+  --card-color: blue;
 }
 
 .api-card {
   border: 1px solid white;
   padding: vars.$padding;
+  position: relative;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0%;
+    top: 0;
+    transform: translate(-#{vars.$padding/2}, #{vars.$padding});
+    width: 100%;
+    height: 95%;
+    z-index: -5;
+  }
+
+  @for $i from 1 through length(vars.$colors) {
+    &:nth-child(#{length(vars.$colors)}n + #{$i}) {
+      $color: nth(vars.$colors, $i);
+      --card-color: #{nth(vars.$colors, $i)};
+      color: var(--card-color);
+      border-color: var(--card-color);
+      &:before {
+        background: repeating-linear-gradient(
+          -45deg,
+          var(--card-color) 0,
+          var(--card-color) 4px,
+          transparent 0,
+          transparent 8px
+        );
+      }
+    }
+  }
 }
 
 .api-card__categories {
@@ -22,10 +57,12 @@
   display: inline-block;
   padding: vars.$padding/4 vars.$padding/2;
   margin-bottom: vars.$padding/2;
-  color: vars.$offBlack;
+  color: var(--cat-color, #{vars.$offWhite});
   border-radius: 10px;
-  border: 1px solid vars.$offWhite;
+  border: 1px solid var(--cat-color, #{vars.$offWhite});
   flex: 1;
+
+  border-color: var(--cat-color);
 
   &:not(:last-child) {
     margin-right: vars.$padding/2;
@@ -33,8 +70,7 @@
 
   @for $i from 1 through length(vars.$colors) {
     &:nth-child(#{length(vars.$colors)}n + #{$i}) {
-      color: nth(vars.$colors, $i);
-      border-color: nth(vars.$colors, $i);
+      --cat-color: #{nth(vars.$colors, $i)};
     }
   }
 }
@@ -42,6 +78,10 @@
 .api-card__header {
   display: flex;
   align-items: center;
+
+  .btn {
+    color: var(--card-color);
+  }
 }
 
 .api-card__title {
@@ -52,19 +92,53 @@
   margin: 0;
 }
 
+@mixin summaryActive {
+  content: "";
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 0 1px var(--card-color);
+}
+
 .api-card__endpoints {
   margin-top: vars.$padding/2;
+  position: relative;
 
-  summary {
-    background: goldenrod;
-    padding: vars.$padding/2 0;
+  &[open] {
+    summary {
+      &::after {
+        @include summaryActive();
+      }
+    }
   }
 
+  summary {
+    padding: vars.$padding/2;
+    position: relative;
+    &:focus {
+      outline: none;
+
+      &::after {
+        @include summaryActive();
+      }
+    }
+  }
+
+  // summary::-webkit-details-marker {
+  //   display: none;
+  // }
+
   div {
-    background: green;
-    padding: vars.$padding;
+    // background: green;
+    background: var(--card-color);
+    color: black;
+    padding: 0 vars.$padding;
     p {
       margin: 0;
+      padding-bottom: vars.$padding/2;
     }
   }
 }

@@ -22,14 +22,15 @@ const GlobalProvider: React.FC = ({ children }) => {
   const [appState, setAppState] = useState(initialValues.appState);
   const [apiList, setAPIList] = useState(initialValues.apiList);
 
-  const { state, data } = useFetch<FetchState<APIListResponse>>(BASE_URL);
+  const { state: APIState, data } = useFetch<FetchState<APIListResponse>>(BASE_URL);
 
   useEffect(() => {
-    if (state === AppStateEnum.ready) {
+    if (APIState === AppStateEnum.ready) {
       const list = data?.data?.APIList || ([] as APIData[]);
       setAPIList(list);
+      return;
     }
-  }, [state]);
+  }, [APIState]);
 
   const values = {
     navVisible,

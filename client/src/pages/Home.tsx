@@ -14,24 +14,24 @@ const Home: React.FC = () => {
           A simple, no fuss, no mess, no auth, playground for learning <span>RESTful</span> or <span>GraphQL</span>{" "}
           APIs.
         </p>
-      </div>
-      <div className="page-actions">
-        <Link className="page-action btn" to="/">
-          <span>About</span>
-          <FontAwesomeIcon icon={faInfoCircle} />
-        </Link>
-        <Link className="page-action btn" to="/">
-          <span>API List</span>
-          <FontAwesomeIcon icon={faList} />
-        </Link>
-        <Link className="page-action btn" to="/">
-          <span>Docs</span>
-          <FontAwesomeIcon icon={faBook} />
-        </Link>
-        <Link className="page-action btn" to="/">
-          <span>Create Custom API</span>
-          <FontAwesomeIcon icon={faCode} />
-        </Link>
+        <div className="page-actions">
+          <Link className="page-action btn" to="/">
+            <span>About</span>
+            <FontAwesomeIcon icon={faInfoCircle} />
+          </Link>
+          <Link className="page-action btn" to="/">
+            <span>API List</span>
+            <FontAwesomeIcon icon={faList} />
+          </Link>
+          <Link className="page-action btn" to="/">
+            <span>Docs</span>
+            <FontAwesomeIcon icon={faBook} />
+          </Link>
+          <Link className="page-action btn" to="/">
+            <span>Create Custom API</span>
+            <FontAwesomeIcon icon={faCode} />
+          </Link>
+        </div>
       </div>
       <FeaturedAPIs />
     </section>

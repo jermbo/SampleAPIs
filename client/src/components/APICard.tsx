@@ -38,7 +38,7 @@ const APICard: React.FC<Props> = ({ api, featured = false }) => {
         <div>
           {api.endpoints.map((endpoint) => (
             <p key={endpoint} className="api-card__endpoint">
-              {endpoint}
+              https://api.sampleapis.com/{api.link}/{endpoint}
             </p>
           ))}
         </div>

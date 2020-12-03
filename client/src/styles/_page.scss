@@ -1,17 +1,20 @@
 @use 'vars';
 
 .page {
-  width: 75vw;
+  width: clamp(500px, 80vw, 2500px);
   margin: 0 auto;
-  padding: 0 vars.$padding;
   display: grid;
-  grid-template-columns: minmax(700px, 4fr) 1fr;
-  grid-template-rows: 30vh 1fr 70vh;
-  gap: vars.$padding;
+  grid-template-columns: 3fr minmax(200px, 300px);
+  grid-template-rows: 30vh 50vh;
   grid-template-areas:
     "header empty"
-    "actions empty"
     "featured featured";
+  gap: vars.$padding;
+  row-gap: vars.$padding * 2;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .page-header {
@@ -32,12 +35,10 @@
 }
 
 .page-actions {
-  grid-area: actions;
+  margin-top: vars.$padding;
 }
 
 .page-action.btn {
-  border-color: blue;
-
   @for $i from 1 through length(vars.$colors) {
     &:nth-child(#{length(vars.$colors)}n + #{$i}) {
       border-color: nth(vars.$colors, $i);
@@ -52,4 +53,13 @@
 
 .page-featured {
   grid-area: featured;
+  margin-top: vars.$padding;
+}
+
+.page-featured__title {
+  margin: 0;
+  padding-bottom: vars.$padding;
+  border-bottom: 1px solid white;
+  font-weight: 400;
+  font-size: 2.2rem;
 }
