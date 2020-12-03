@@ -12,7 +12,8 @@ export interface iGlobal {
 
 export interface FetchState<T> {
   status: number,
-  data: T | null
+  data: T | null,
+  error?: string,
 }
 
 export interface APIListResponse {

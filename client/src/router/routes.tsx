@@ -5,6 +5,7 @@ import APIList from "../pages/APIList";
 import APIDetails from "../pages/APIDetails";
 import Docs from "../pages/Docs";
 import Custom from "../pages/Custom";
+import StyleGuide from "../pages/StyleGuide";
 import NotFound from "../pages/NotFound";
 
 const Routes = [
@@ -12,6 +13,11 @@ const Routes = [
     path: "/",
     exact: true,
     component: Home,
+  },
+  {
+    path: "/style-guide",
+    exact: true,
+    component: StyleGuide,
   },
   {
     path: "/about",

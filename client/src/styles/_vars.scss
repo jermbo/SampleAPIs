@@ -4,13 +4,65 @@ $offBlack: #161616;
 $offWhite: #eadeda;
 
 $colors: (#00d6e9, #15e3d9, #56edbf, #8cf5a2, #c2f985, #f9f871);
-// $colors: (#845ec2, #d65db1, #ff6f91, #ff9671, #ffc75f, #f9f871);
+// $colors: (#af7ffc, #e673c3, #fc7493, #ff9671, #f8c76c, #f9f871);
 $colors-reverse: ();
-$negative: length($colors) * -1;
-@for $i from $negative through -1 {
+
+@for $i from length($colors) * -1 through -1 {
   $color: nth($colors, $i * -1);
   $colors-reverse: append($colors-reverse, $color);
 }
 
 $color-gradient: join($colors, $colors-reverse);
 $padding: 1.25rem;
+
+@function cosmic_gradient($range: $color-gradient) {
+  $colorLength: length($range);
+  $gradient: "";
+
+  @for $i from 1 through $colorLength {
+    @if $i < $colorLength {
+      $gradient: $gradient + nth($color-gradient, $i) + ", ";
+    } @else {
+      $gradient: $gradient + nth($color-gradient, $i);
+    }
+  }
+  @return $gradient;
+}
+
+// Containers
+$container-max-widths: (
+  xs: 90%,
+  sm: 400px,
+  md: 688px,
+  lg: 944px,
+  xl: 1194px,
+  xxl: 1468px,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1274px,
+  xxl: 1548px,
+);
+
+// ------------------
+// Screens
+// $size - based on $grid-breakpoints keys.
+// min-screen($size)
+
+// For screens larger than breakpoint defined.
+@mixin min-screen($size) {
+  @media (min-width: map-get($grid-breakpoints, $size)) {
+    @content;
+  }
+}
+
+// For screens smaller than breakpoint defined.
+@mixin max-screen($size) {
+  @media (max-width: map-get($grid-breakpoints, $size)) {
+    @content;
+  }
+}

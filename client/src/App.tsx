@@ -13,8 +13,8 @@ const App: React.FC = () => {
   return (
     <Router>
       <main className={`${navVisible ? "nav-open" : ""}`}>
-        <div className="container">
-          <Header />
+        <Header />
+        <div className="page-wrapper">
           <Switch>
             {Routes.map((route: any) => (
               <Route key={route.path} path={route.path} exact={route.exact} children={<route.component />} />

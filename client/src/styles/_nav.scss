@@ -10,7 +10,7 @@
 
   a {
     display: block;
-    color: white;
+    color: vars.$offWhite;
     font-size: 3rem;
     padding: 2rem 0;
     text-decoration: none;
@@ -40,7 +40,6 @@
     }
 
     &:before {
-      transition: all 0.25s ease;
       content: "";
       display: block;
       position: absolute;
@@ -49,7 +48,7 @@
       transform: translate(-50%, -50%);
       width: 0%;
       height: 10px;
-      // background: goldenrod;
+      transition: all 0.25s ease;
     }
 
     &:hover,

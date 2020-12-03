@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <>
-      <header>
+      <header className="main-header">
         <h1 className="logo">Sample APIs</h1>
         <button onClick={toggleNav}>NAV</button>
       </header>

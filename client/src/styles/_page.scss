@@ -1,14 +1,13 @@
 @use 'vars';
 
 .page {
-  width: clamp(500px, 80vw, 2500px);
-  margin: 0 auto;
+  width: 85%;
   display: grid;
-  grid-template-columns: 3fr minmax(200px, 300px);
-  grid-template-rows: 30vh 50vh;
+  grid-template-columns: 1fr minmax(200px, 300px);
+  grid-template-rows: 50vh;
   grid-template-areas:
     "header empty"
-    "featured featured";
+    "featured empty";
   gap: vars.$padding;
   row-gap: vars.$padding * 2;
 
@@ -43,7 +42,10 @@
     &:nth-child(#{length(vars.$colors)}n + #{$i}) {
       border-color: nth(vars.$colors, $i);
       color: nth(vars.$colors, $i);
+
+      &:focus,
       &:hover {
+        outline: none;
         color: vars.$offBlack;
         background: nth(vars.$colors, $i);
       }
@@ -53,13 +55,13 @@
 
 .page-featured {
   grid-area: featured;
-  margin-top: vars.$padding;
+  margin: vars.$padding 0 vars.$padding * 2;
 }
 
 .page-featured__title {
-  margin: 0;
+  margin: 0 0 vars.$padding * 2;
   padding-bottom: vars.$padding;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid vars.$offWhite;
   font-weight: 400;
   font-size: 2.2rem;
 }

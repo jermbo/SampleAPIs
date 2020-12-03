@@ -21,7 +21,7 @@ const APICard: React.FC<Props> = ({ api, featured = false }) => {
           ))}
         </ul>
         <div className="api-card__header">
-          <h2 className="api-card__title">{api.metaData.title}</h2>
+          <h2 className="h4 api-card__title">{api.metaData.title}</h2>
           <Link
             className="btn -link"
             type="button"
@@ -35,13 +35,13 @@ const APICard: React.FC<Props> = ({ api, featured = false }) => {
       </div>
       <details className="api-card__endpoints">
         <summary>See available endpoints</summary>
-        <div>
+        <ul>
           {api.endpoints.map((endpoint) => (
-            <p key={endpoint} className="api-card__endpoint">
-              https://api.sampleapis.com/{api.link}/{endpoint}
-            </p>
+            <li key={endpoint} className="api-card__endpoint">
+              {endpoint}
+            </li>
           ))}
-        </div>
+        </ul>
       </details>
     </article>
   );
