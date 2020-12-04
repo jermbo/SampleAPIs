@@ -14,8 +14,8 @@ const FeaturedAPIs: React.FC = () => {
   }, [apiList]);
 
   return (
-    <div className="page-featured">
-      <h3 className="page-featured__title">Featured APIs</h3>
+    <div className="home-page-featured">
+      <h3 className="home-page-featured__title">Featured APIs</h3>
       <div className="api-cards">
         {featuredList &&
           featuredList.map((api) => (

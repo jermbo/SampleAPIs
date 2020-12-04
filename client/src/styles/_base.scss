@@ -1,6 +1,6 @@
 @use 'vars';
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:200,400,600,800");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400;600&family=Roboto:ital,wght@0,100;0,700;1,400&display=swap");
 
 *,
 *:before,
@@ -14,10 +14,12 @@ body {
   color: vars.$offWhite;
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 20px;
   height: 100vh;
   width: 100vw;
-  font-family: "Montserrat Alternates";
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
   overflow-x: hidden; // hack
 }
 
@@ -26,6 +28,7 @@ h2,
 h3,
 h4,
 h5 {
+  font-family: "Montserrat Alternates", sans-serif;
   margin: 3rem 0 1.38rem;
   line-height: 1.25em;
   font-weight: 700;
@@ -64,7 +67,7 @@ small,
 }
 
 p {
-  line-height: 1.75em;
+  line-height: 1.125em;
 }
 
 main {
@@ -106,6 +109,11 @@ main {
   }
 }
 
+::selection {
+  color: vars.$offBlack;
+  background: nth(vars.$colors, 1);
+}
+
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: vars.$offWhite;
@@ -119,6 +127,33 @@ main {
 ::-webkit-scrollbar-thumb {
   background-color: nth(vars.$colors, 1);
   background-image: linear-gradient(#{vars.cosmic_gradient()});
+}
+
+p > a {
+  padding: 0 5px;
+  color: vars.$offBlack;
+  text-decoration: none;
+
+  @for $i from 1 through length(vars.$colors) {
+    &:nth-child(#{length(vars.$colors)}n + #{$i}) {
+      --link-color: #{nth(vars.$colors, $i)};
+      background: var(--link-color);
+      border: 1px solid var(--link-color);
+
+      &:hover {
+        background: transparent;
+        color: var(--link-color);
+      }
+    }
+  }
+}
+
+abbr {
+  @for $i from 1 through length(vars.$colors) {
+    &:nth-child(#{length(vars.$colors)}n + #{$i}) {
+      color: nth(vars.$colors, $i);
+    }
+  }
 }
 
 // *,
