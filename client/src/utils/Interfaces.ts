@@ -8,6 +8,8 @@ export interface iGlobal {
   setAPIList: Dispatch<APIData[]>;
   appState: AppStateEnum;
   setAppState: Dispatch<AppStateEnum>;
+  isLoggedIn: boolean;
+  setIsLoggedIn: Dispatch<boolean>;
 }
 
 export interface FetchState<T> {

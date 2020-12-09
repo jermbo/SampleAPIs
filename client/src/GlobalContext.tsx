@@ -11,6 +11,8 @@ export const initialValues: iGlobal = {
   setAPIList: () => [],
   appState: AppStateEnum.initial,
   setAppState: () => {},
+  isLoggedIn: false,
+  setIsLoggedIn: () => {},
 };
 
 export const GlobalContext = createContext(initialValues);
@@ -21,6 +23,7 @@ const GlobalProvider: React.FC = ({ children }) => {
   const [navVisible, setNavVisible] = useState(initialValues.navVisible);
   const [appState, setAppState] = useState(initialValues.appState);
   const [apiList, setAPIList] = useState(initialValues.apiList);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const { state: APIState, data } = useFetch<FetchState<APIListResponse>>(BASE_URL);
 
@@ -39,6 +42,8 @@ const GlobalProvider: React.FC = ({ children }) => {
     setAPIList,
     appState,
     setAppState,
+    isLoggedIn,
+    setIsLoggedIn,
   };
   return <GlobalContext.Provider value={values}>{children}</GlobalContext.Provider>;
 };
