@@ -37,12 +37,7 @@ const AllAPIs: React.FC = () => {
       </select>
       <input type="text" onChange={searchAPIName} />
       <div className="api-cards">
-        {filteredAPI &&
-          filteredAPI.map((api) => (
-            <>
-              <APICard key={api.metaData.title} api={api} />
-            </>
-          ))}
+        {filteredAPI && filteredAPI.map((api) => <APICard key={api.metaData.title} api={api} />)}
         {!filteredAPI.length && <h3>Sorry, no matches found.</h3>}
       </div>
     </div>

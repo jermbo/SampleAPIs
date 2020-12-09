@@ -17,12 +17,7 @@ const FeaturedAPIs: React.FC = () => {
     <div className="home-page-featured">
       <h3 className="home-page-featured__title">Featured APIs</h3>
       <div className="api-cards">
-        {featuredList &&
-          featuredList.map((api) => (
-            <>
-              <APICard key={api.metaData.title} featured api={api} />
-            </>
-          ))}
+        {featuredList && featuredList.map((api) => <APICard key={api.metaData.title} featured api={api} />)}
         {!apiList.length && <p>No APIs found</p>}
       </div>
     </div>
