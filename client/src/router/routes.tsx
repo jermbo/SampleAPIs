@@ -7,6 +7,7 @@ import Docs from "../pages/Docs";
 import Custom from "../pages/Custom";
 import StyleGuide from "../pages/StyleGuide";
 import NotFound from "../pages/NotFound";
+import LogIn from "../pages/Login";
 
 const Routes = [
   {
@@ -43,6 +44,11 @@ const Routes = [
     path: "/custom",
     exact: true,
     component: Custom,
+  },
+  {
+    path: "/login",
+    exact: true,
+    component: LogIn,
   },
   {
     path: "/",
