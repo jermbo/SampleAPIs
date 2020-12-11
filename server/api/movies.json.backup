@@ -1,9 +1,9 @@
 {
   "metaData": [
     {
-      "title": "Health",
-      "longDesc": "Sometimes health data is hard to come by. This endpoints make it easy for you to test your apps with examples of health data such as medical professions.",
-      "desc": "An API with health and medical information",
+      "title": "Movies",
+      "longDesc": "Movies",
+      "desc": "Movies",
       "featured": false,
       "categories": ["list", "entertainment"]
     }
