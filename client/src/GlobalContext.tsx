@@ -13,6 +13,8 @@ export const initialValues: iGlobal = {
   setAppState: () => {},
   isLoggedIn: false,
   setIsLoggedIn: () => {},
+  apiCategories: [],
+  setApiCategories: () => {},
 };
 
 export const GlobalContext = createContext(initialValues);
@@ -24,13 +26,22 @@ const GlobalProvider: React.FC = ({ children }) => {
   const [appState, setAppState] = useState(initialValues.appState);
   const [apiList, setAPIList] = useState(initialValues.apiList);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [apiCategories, setApiCategories] = useState(initialValues.apiCategories);
 
   const { state: APIState, data } = useFetch<FetchState<APIListResponse>>(BASE_URL);
+
+  const generateCategories = (list: APIData[]) => {
+    const allCategories = list.reduce((acc: string[], item) => {
+      return [...acc, ...item.metaData.categories];
+    }, []);
+    setApiCategories(Array.from(new Set(allCategories)));
+  };
 
   useEffect(() => {
     if (APIState === AppStateEnum.ready) {
       const list = data?.data?.APIList || ([] as APIData[]);
       setAPIList(list);
+      generateCategories(list);
       return;
     }
   }, [APIState]);
@@ -44,6 +55,8 @@ const GlobalProvider: React.FC = ({ children }) => {
     setAppState,
     isLoggedIn,
     setIsLoggedIn,
+    apiCategories,
+    setApiCategories,
   };
   return <GlobalContext.Provider value={values}>{children}</GlobalContext.Provider>;
 };

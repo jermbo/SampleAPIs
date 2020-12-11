@@ -1,10 +1,11 @@
 import React, { ChangeEvent, useContext, useEffect, useState } from "react";
 import { GlobalContext } from "../GlobalContext";
+import { upperCase } from "../utils/Helpers";
 import { APIData } from "../utils/Interfaces";
 import APICard from "./APICard";
 
 const AllAPIs: React.FC = () => {
-  const { apiList } = useContext(GlobalContext);
+  const { apiList, apiCategories } = useContext(GlobalContext);
   const [filteredAPI, setFilteredAPI] = useState([] as APIData[]);
 
   useEffect(() => {
@@ -33,7 +34,9 @@ const AllAPIs: React.FC = () => {
       <h2 className="home-page-featured__title">All APIs</h2>
       <select onChange={filterData}>
         <option value="all">All</option>
-        <option value="cartoon">Cartoon</option>
+        {apiCategories.map((cat) => (
+          <option value={cat}>{upperCase(cat)}</option>
+        ))}
       </select>
       <input type="text" onChange={searchAPIName} />
       <div className="api-cards">

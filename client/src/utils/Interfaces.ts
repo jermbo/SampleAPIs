@@ -10,6 +10,8 @@ export interface iGlobal {
   setAppState: Dispatch<AppStateEnum>;
   isLoggedIn: boolean;
   setIsLoggedIn: Dispatch<boolean>;
+  apiCategories: string[];
+  setApiCategories: Dispatch<string[]>;
 }
 
 export interface FetchState<T> {
