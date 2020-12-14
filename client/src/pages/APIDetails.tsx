@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
+import Editor from "../components/Editor";
 import EndPointLink from "../components/EndPointLink";
 import { GlobalContext } from "../GlobalContext";
 import { APIData } from "../utils/Interfaces";
@@ -11,14 +12,42 @@ interface ParamTypes {
 const APIDetails: React.FC = () => {
   const { id } = useParams<ParamTypes>();
   const { apiList } = useContext(GlobalContext);
-  console.log(apiList);
   const [singleAPI, setSingleAPI] = useState({} as APIData);
 
   useEffect(() => {
     const api = apiList.filter((a) => a.name === id)[0];
-    console.log(api);
     setSingleAPI(api);
   }, [apiList]);
+
+  const [html, setHTML] = useState("");
+  const [css, setCSS] = useState("");
+  const [js, setJS] = useState("");
+  useEffect(() => {
+    setHTML(`<h1>Hello World</h1>`);
+    setJS(`const baseURL = 'https://sampleapis.com/futurama/api/questions';
+fetch(baseURL)
+  .then(resp => resp.json())
+  .then(data => document.body.innerHTML = "<pre>" + JSON.stringify(data, null, 2) + "</pre>");`);
+  }, []);
+
+  const [srcDoc, setSrcDoc] = useState("");
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setSrcDoc(`
+      <html>
+      <head>
+        <style>${css}</style>
+      </head>
+      <body>
+        ${html}
+        <script>${js}</script>
+      </body>
+      </html>
+    `);
+    }, 250);
+
+    return () => clearTimeout(timeout);
+  }, [html, css, js]);
 
   return (
     <section className="home-page">
@@ -35,20 +64,30 @@ const APIDetails: React.FC = () => {
               {singleAPI.endpoints &&
                 singleAPI.endpoints.map((endpoint) => (
                   <EndPointLink key={endpoint} baseAPI={singleAPI.link} endpoint={endpoint} />
-                  // <a
-                  //   key={endpoint}
-                  //   href={`http://localhost:5555/${singleAPI.link}/api/${endpoint}`}
-                  //   className="home-page-action btn"
-                  //   target="_blank"
-                  //   rel="noreferrer"
-                  // >
-                  //   {endpoint}
-                  // </a>
                 ))}
             </div>
           </div>
           <div className="home-page-featured">
-            <h4>{singleAPI.name}..</h4>
+            <div className="editor">
+              <div className="pane top-pane">
+                <Editor language="xml" displayName="HTML" value={html} onChange={setHTML} />
+                <Editor language="css" displayName="CSS" value={css} onChange={setCSS} />
+                <Editor language="javascript" displayName="JS" value={js} onChange={setJS} />
+              </div>
+              <div className="pane">
+                <iframe
+                  style={{
+                    background: "white",
+                  }}
+                  title="output"
+                  sandbox="allow-scripts"
+                  frameBorder="0"
+                  width="100%"
+                  height="500px"
+                  srcDoc={srcDoc}
+                />
+              </div>
+            </div>
           </div>
         </>
       )}

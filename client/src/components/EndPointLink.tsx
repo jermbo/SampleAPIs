@@ -7,7 +7,6 @@ type Props = {
 };
 
 const EndPointLink: React.FC<Props> = ({ baseAPI, endpoint }) => {
-  console.log(URLS.API_LINK, process.env.NODE_ENV);
   return (
     <a
       className="home-page-action btn"
