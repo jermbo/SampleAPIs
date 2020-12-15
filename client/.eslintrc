@@ -5,20 +5,38 @@
     "jquery": true,
     "jest": true
   },
-  "extends": ["react-app", "react-app/jest"],
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ],
   "globals": {},
   "parserOptions": {
     "ecmaVersion": 2020,
     "sourceType": "module"
   },
   "rules": {
-    "indent": ["error", 2],
-    "linebreak-style": ["error", "unix"],
-    "quotes": ["error", "single"],
-    "semi": ["error", "always"],
-    "no-unused-vars": [1, {
+    "indent": [
+      "error",
+      2
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-unused-vars": [
+      1,
+      {
         "ignoreRestSiblings": true,
         "argsIgnorePattern": "res|next|^err"
-    }]
+      }
+    ]
   }
 }

@@ -1,0 +1,15 @@
+@use './vars/colors';
+
+:root {
+  /**
+   * -------
+   * Colors
+   * -------
+   */
+  @each $name, $color in colors.$colors-map {
+    /*** Color - #{capitalize($name)} ***/
+    @each $n, $c in $color {
+      --color-#{$name}-#{$n}: #{$c};
+    }
+  }
+}

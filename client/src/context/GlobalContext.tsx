@@ -1,8 +1,8 @@
 import React, { createContext, useEffect, useState } from "react";
-import useFetch from "./hooks/useFetch";
+import useFetch from "../hooks/useFetch";
 
-import { AppStateEnum } from "./utils/Enums";
-import { APIData, APIListResponse, FetchState, iGlobal } from "./utils/Interfaces";
+import { AppStateEnum } from "../utils/Enums";
+import { APIData, APIListResponse, FetchState, iGlobal } from "../utils/Interfaces";
 
 export const initialValues: iGlobal = {
   navVisible: false,

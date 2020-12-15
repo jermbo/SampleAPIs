@@ -1,0 +1,61 @@
+@use '../vars/colors';
+
+// ----------------------------------------------------
+// Creates CSS Custom Property syntax for colors
+// @param {string} $group
+// @param {string} $variant
+//
+// 1. Validates the $group param.
+// 2. Validates the $variant param
+// 3. Returns proper CSS Custom Property syntax
+// 4. Throws error for invalid $variant param
+// 5. Throws error for invalid $group param
+//
+@function use-prop($group, $variant: base) {
+  $clr: colors.$colors-map;
+
+  // [1]
+  @if map-has-key($clr, $group) {
+    // [2]
+    @if map-has-key(map-get($clr, $group), $variant) {
+      // [3]
+      @return var(--color-#{$group}-#{$variant});
+    } @else {
+      // [4]
+      @error "`#{$variant}` is not a valid key in `#{$group}` color map.";
+    }
+  } @else {
+    // [5]
+    @error "`#{$group}` is not a valid key in `$colors-map`.";
+  }
+}
+
+// ----------------------------------------------------
+// Creates HEX syntax for colors
+// @param {string} $group
+// @param {string} $variant
+//
+// 1. Validates the $group param.
+// 2. Validates the $variant param
+// 3. Returns proper CSS Custom Property syntax
+// 4. Throws error for invalid $variant param
+// 5. Throws error for invalid $group param
+//
+@function use-hex($group, $variant: base) {
+  $clr: colors.$colors-map;
+
+  // [1]
+  @if map-has-key($clr, $group) {
+    // [2]
+    @if map-has-key(map-get($clr, $group), $variant) {
+      // [3]
+      @return map-get(map-get($clr, $group), $variant);
+    } @else {
+      // [4]
+      @error "`#{$variant}` is not a valid key in `#{$group}` color map.";
+    }
+  } @else {
+    // [5]
+    @error "`#{$group}` is not a valid key in `$colors-map`.";
+  }
+}

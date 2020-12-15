@@ -1,23 +1,7 @@
-@use 'vars';
+@use './functions/colors';
 
 .page {
-  width: 85%;
-  display: grid;
-  grid-template-columns: 1fr minmax(200px, 300px);
-  grid-template-rows: 1fr 6fr;
-  grid-template-areas:
-    "header empty"
-    "body body";
-
-  @media (max-width: 1200px) {
-    grid-template-columns: 1fr;
-  }
-}
-
-.page-header {
-  grid-area: header;
-}
-
-.page-body {
-  grid-area: body;
+  background: colors.use-prop(bg, light);
+  color: colors.use-prop(text);
+  padding: 1rem;
 }

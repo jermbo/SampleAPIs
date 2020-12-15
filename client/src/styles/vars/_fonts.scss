@@ -1,0 +1,31 @@
+$fonts: (
+  family: (
+    title: "Roboto",
+    text: "Roboto",
+    line-height: 1.75em,
+  ),
+  weight: (
+    light: 200,
+    normal: 400,
+    bold: 700,
+  ),
+);
+
+$font-sizes: (
+  text: (
+    xs: $font-size-base - 0.2,
+    sm: $font-size-base - 0.1,
+    md: $font-size-base,
+    lg: $font-size-base + 0.1,
+    xl: $font-size-base + 0.2,
+    xxl: $font-size-base + 0.3,
+  ),
+  title: (
+    xs: $font-size-base,
+    sm: $font-size-base + 0.2,
+    md: $font-size-base + 0.4,
+    lg: $font-size-base + 0.6,
+    xl: $font-size-base + 0.8,
+    xxl: $font-size-base + 1,
+  ),
+);

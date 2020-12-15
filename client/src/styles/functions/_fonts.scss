@@ -1,0 +1,3 @@
+@function font-size($size: md) {
+  @return var(--font-size-#{$size});
+}

@@ -1,7 +1,5 @@
 import React, { useContext } from "react";
-import Header from "./components/Header";
-import OuterNav from "./components/OuterNav";
-import { GlobalContext } from "./GlobalContext";
+import { GlobalContext } from "./context/GlobalContext";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./styles/styles.scss";
 
@@ -12,16 +10,19 @@ const App: React.FC = () => {
 
   return (
     <Router>
-      <main className={`${navVisible ? "nav-open" : ""}`}>
-        <Header />
+      <main className="content" data-nav-visible={navVisible}>
         <div className="page-wrapper">
           <Switch>
             {Routes.map((route: any) => (
-              <Route key={route.path} path={route.path} exact={route.exact} children={<route.component />} />
+              <Route
+                key={route.path}
+                path={route.path}
+                exact={route.exact}
+                children={<route.component />}
+              />
             ))}
           </Switch>
         </div>
-        <OuterNav />
       </main>
     </Router>
   );
