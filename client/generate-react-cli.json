@@ -12,7 +12,7 @@
       "withStyle": true,
       "withTest": false,
       "withStory": false,
-      "withLazy": true
+      "withLazy": false
     },
     "page": {
       "path": "src/pages",
@@ -22,7 +22,7 @@
       "withStyle": true,
       "withTest": false,
       "withStory": false,
-      "withLazy": true
+      "withLazy": false
     },
     "layout": {
       "path": "src/layout",
@@ -32,7 +32,7 @@
       "withStyle": true,
       "withTest": false,
       "withStory": false,
-      "withLazy": true
+      "withLazy": false
     },
     "hook": {
       "customTemplates": {
