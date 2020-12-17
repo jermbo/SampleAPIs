@@ -2,7 +2,19 @@
 @use './functions/fonts';
 
 .page {
-  background: colors.use-var(bg, darkest);
-  color: colors.use-var(text, light);
-  padding: 1rem;
+  position: relative;
+}
+
+.page-header {
+  padding: 20rem 0 2rem;
+  max-width: 75%;
+}
+
+.page-header__title {
+  font-family: fonts.family(display);
+  font-size: fonts.size(display, 1);
+}
+
+.page-header__desc {
+  font-size: fonts.size(heading, 1);
 }
