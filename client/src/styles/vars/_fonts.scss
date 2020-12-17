@@ -1,31 +1,58 @@
-$fonts: (
-  family: (
-    title: "Roboto",
-    text: "Roboto",
-    line-height: 1.75em,
-  ),
-  weight: (
-    light: 200,
-    normal: 400,
-    bold: 700,
-  ),
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400;600&family=Roboto:wght@200;400;600&display=swap");
+
+$font-size-base: 1rem !default;
+
+$font-families: (
+  display: "Montserrat Alternates",
+  text: "Roboto",
 );
 
-$font-sizes: (
-  text: (
-    xs: $font-size-base - 0.2,
-    sm: $font-size-base - 0.1,
-    md: $font-size-base,
-    lg: $font-size-base + 0.1,
-    xl: $font-size-base + 0.2,
-    xxl: $font-size-base + 0.3,
-  ),
-  title: (
-    xs: $font-size-base,
-    sm: $font-size-base + 0.2,
-    md: $font-size-base + 0.4,
-    lg: $font-size-base + 0.6,
-    xl: $font-size-base + 0.8,
-    xxl: $font-size-base + 1,
-  ),
+$font-weights: (
+  thin: 200,
+  base: 400,
+  thick: 600,
+);
+
+$line-heights: (
+  compact: 1em,
+  normal: 1.25em,
+  comfortable: 1.75em,
+);
+
+$details: (
+  family: $font-families,
+  weight: $font-weights,
+  height: $line-heights,
+);
+
+$text-sizes: (
+  1: $font-size-base * 1.55,
+  2: $font-size-base * 1.25,
+  3: $font-size-base,
+  4: $font-size-base * 0.875,
+  5: $font-size-base * 0.675,
+);
+
+$heading-sizes: (
+  1: $font-size-base * 2.5,
+  2: $font-size-base * 2,
+  3: $font-size-base * 1.75,
+  4: $font-size-base * 1.5,
+  5: $font-size-base * 1.25,
+  6: $font-size-base,
+);
+
+$display-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem,
+);
+
+$sizes: (
+  text: $text-sizes,
+  heading: $heading-sizes,
+  display: $display-sizes,
 );

@@ -1,7 +1,8 @@
 @use './functions/colors';
+@use './functions/fonts';
 
 .page {
-  background: colors.use-prop(bg, light);
-  color: colors.use-prop(text);
+  background: colors.use-var(bg, darkest);
+  color: colors.use-var(text, light);
   padding: 1rem;
 }

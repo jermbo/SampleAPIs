@@ -1,5 +1,6 @@
 @use './functions/screens';
 @use './functions/colors';
+@use './functions/fonts';
 
 *,
 *:before,
@@ -10,11 +11,14 @@
 html,
 body {
   margin: 0;
+  line-height: fonts.height(normal);
+  font-family: fonts.family(text);
+  font-weight: fonts.weight(base);
+  color: colors.use-var(text, light);
+  background: colors.use-var(bg, darkest);
 }
 
 #main-wrapper {
-  background: colors.use-prop(text, dark);
-  background: var(--color-bg-dark);
   display: grid;
   grid-template-columns: minmax(25px, 150px) minmax(50%, 90%) minmax(25px, 150px);
   grid-template-areas: "left center right";
@@ -24,9 +28,12 @@ body {
 
 .content {
   grid-area: center;
-  background: goldenrod;
+}
 
-  @include screens.max("md") {
-    background: red;
+p {
+  margin: 0;
+
+  + P {
+    margin-top: 1rem;
   }
 }
