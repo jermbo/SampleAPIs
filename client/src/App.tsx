@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./styles/styles.scss";
 
 import Routes from "./router/routes";
+import Header from "./components/Header/Header";
 
 const App: React.FC = () => {
   const { navVisible } = useContext(GlobalContext);
@@ -11,18 +12,17 @@ const App: React.FC = () => {
   return (
     <Router>
       <main className="content" data-nav-visible={navVisible}>
-        <div className="page-wrapper">
-          <Switch>
-            {Routes.map((route: any) => (
-              <Route
-                key={route.path}
-                path={route.path}
-                exact={route.exact}
-                children={<route.component />}
-              />
-            ))}
-          </Switch>
-        </div>
+        <Header />
+        <Switch>
+          {Routes.map((route: any) => (
+            <Route
+              key={route.path}
+              path={route.path}
+              exact={route.exact}
+              children={<route.component />}
+            />
+          ))}
+        </Switch>
       </main>
     </Router>
   );

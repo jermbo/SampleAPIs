@@ -24,8 +24,7 @@ body {
   display: grid;
   grid-template-columns: minmax(25px, 150px) minmax(50%, 90%) minmax(25px, 150px);
   grid-template-areas: "left center right";
-  width: 100vw;
-  min-height: 100vh;
+  margin-bottom: 5rem;
 }
 
 .content {
@@ -63,14 +62,17 @@ abbr {
         color: var(--hover-text);
         filter: hue-rotate(15deg);
         background: var(--color);
+        z-index: 100;
 
         &::after {
           content: attr(title);
           background: var(--color);
+          box-shadow: 0 0 10px black;
           position: absolute;
           display: block;
+          // bottom: 100%;
           left: 0;
-          padding: 0.25rem;
+          padding: 0.25rem 0.5rem;
           font-size: fonts.size(text, 3);
           white-space: nowrap;
         }

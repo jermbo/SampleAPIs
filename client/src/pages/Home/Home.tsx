@@ -58,7 +58,9 @@ const Home: React.FC<Props> = () => {
         </div>
         <div className="cards-grid">
           {featuredAPIs &&
-            featuredAPIs.map((api) => <APICard key={api.metaData.title} api={api} />)}
+            featuredAPIs.map((api) => (
+              <APICard key={api.metaData.title} featured={api.metaData.featured} api={api} />
+            ))}
         </div>
       </section>
     </div>
