@@ -60,7 +60,6 @@ abbr {
       &:hover {
         outline: none;
         color: var(--hover-text);
-        filter: hue-rotate(15deg);
         background: var(--color);
         z-index: 100;
 

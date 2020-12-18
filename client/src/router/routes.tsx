@@ -1,3 +1,4 @@
+import APIDetails from "../pages/APIDetails/APIDetails";
 import APIList from "../pages/APIList/APIList";
 import Home from "../pages/Home/Home";
 import StyleGuide from "../pages/StyleGuide/StyleGuide";
@@ -23,11 +24,11 @@ const Routes = [
     exact: true,
     component: APIList,
   },
-  // {
-  //   path: "/api-list/:id",
-  //   exact: true,
-  //   component: APIDetails,
-  // },
+  {
+    path: "/api-list/:id",
+    exact: true,
+    component: APIDetails,
+  },
   // {
   //   path: "/docs",
   //   exact: true,

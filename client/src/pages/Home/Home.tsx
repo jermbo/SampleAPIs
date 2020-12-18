@@ -22,7 +22,7 @@ const Home: React.FC<Props> = () => {
   }, [apiList]);
 
   return (
-    <div className="page -home">
+    <section className="page -home">
       <header className="page-header">
         <h2 className="page-header__title">Sample APIs</h2>
         <p className="page-header__desc">
@@ -50,7 +50,7 @@ const Home: React.FC<Props> = () => {
           </Link>
         </div>
       </header>
-      <section className="section">
+      <div className="section">
         <div className="section-header">
           <h3 className="section-title">
             Featured <abbr title="Application Program Interface">API</abbr>s
@@ -62,8 +62,8 @@ const Home: React.FC<Props> = () => {
               <APICard key={api.metaData.title} featured={api.metaData.featured} api={api} />
             ))}
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
