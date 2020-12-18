@@ -1,15 +1,6 @@
-// Pages
-// import Home from "../pages/_old/Home";
-// import About from "../pages/_old/About";
-// import APIList from "../pages/_old/APIList";
-// import APIDetails from "../pages/_old/APIDetails";
-// import Docs from "../pages/_old/Docs";
-// import Custom from "../pages/_old/Custom";
-// import StyleGuide from "../pages/_old/StyleGuide";
-// import NotFound from "../pages/_old/NotFound";
-// import LogIn from "../pages/_old/Login";
-
+import APIList from "../pages/APIList/APIList";
 import Home from "../pages/Home/Home";
+import StyleGuide from "../pages/StyleGuide/StyleGuide";
 
 const Routes = [
   {
@@ -17,26 +8,21 @@ const Routes = [
     exact: true,
     component: Home,
   },
-  // {
-  //   path: "/",
-  //   exact: true,
-  //   component: Home,
-  // },
-  // {
-  //   path: "/style-guide",
-  //   exact: true,
-  //   component: StyleGuide,
-  // },
+  {
+    path: "/style-guide",
+    exact: true,
+    component: StyleGuide,
+  },
   // {
   //   path: "/about",
   //   exact: true,
   //   component: About,
   // },
-  // {
-  //   path: "/api-list",
-  //   exact: true,
-  //   component: APIList,
-  // },
+  {
+    path: "/api-list",
+    exact: true,
+    component: APIList,
+  },
   // {
   //   path: "/api-list/:id",
   //   exact: true,
