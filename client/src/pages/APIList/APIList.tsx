@@ -1,12 +1,36 @@
-import React, { useContext } from "react";
+import React, { ChangeEvent, useContext, useEffect, useState } from "react";
 import APICard from "../../components/APICard/APICard";
+import APIFilter from "../../components/APIFilter/APIFilter";
+import APISearch from "../../components/APISearch/APISearch";
 import { GlobalContext } from "../../context/GlobalContext";
 
 interface Props {}
 
 const APIList: React.FC<Props> = () => {
-  const { apiList } = useContext(GlobalContext);
-  console.log(apiList);
+  const { apiList, apiCategories } = useContext(GlobalContext);
+  const [selectedCategory, setSelectedCategory] = useState("all");
+  const [searchWord, setSearchWord] = useState("");
+  const [filteredList, setFilteredList] = useState(apiList);
+
+  useEffect(() => {
+    const categories = apiList.filter((api) =>
+      selectedCategory === "all" ? true : api.metaData.categories.includes(selectedCategory),
+    );
+
+    const regex = new RegExp(searchWord, "gi");
+    const matches = categories.filter((api) => {
+      return api.metaData.title.match(regex);
+    });
+    setFilteredList(matches);
+  }, [apiList, selectedCategory, searchWord]);
+
+  const filterData = (e: ChangeEvent<HTMLSelectElement>): void => {
+    setSelectedCategory(e.target.value);
+  };
+
+  const searchAPIName = (e: ChangeEvent<HTMLInputElement>): void => {
+    setSearchWord(e.target.value);
+  };
 
   return (
     <div className="page -api-list">
@@ -21,10 +45,14 @@ const APIList: React.FC<Props> = () => {
           <h3 className="section-title">
             All <abbr title="Application Program Interface">API</abbr>s
           </h3>
+          <div className="actions">
+            <APISearch onChangeHandler={searchAPIName} />
+            <APIFilter onChangeHandler={filterData} categories={apiCategories} />
+          </div>
         </div>
         <div className="cards-grid">
-          {apiList &&
-            apiList.map((api) => (
+          {filteredList &&
+            filteredList.map((api) => (
               <APICard key={api.metaData.title} featured={api.metaData.featured} api={api} />
             ))}
         </div>

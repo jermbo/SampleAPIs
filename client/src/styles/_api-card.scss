@@ -5,6 +5,13 @@
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid colors.use-var(text, light);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  .actions {
+    display: flex;
+  }
 }
 
 .cards-grid {
