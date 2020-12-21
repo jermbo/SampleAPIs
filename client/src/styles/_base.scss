@@ -18,6 +18,11 @@ body {
   font-weight: fonts.weight(base);
   color: colors.use-var(text, light);
   background: colors.use-var(bg, darkest);
+
+  &.-nav-visible {
+    height: 100vh;
+    overflow: hidden;
+  }
 }
 
 #main-wrapper {

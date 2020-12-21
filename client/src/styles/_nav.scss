@@ -26,10 +26,14 @@
       margin: 0 10px;
     }
   }
+
   &:focus {
     outline: none;
     span {
-      background: colors.use-var(primary);
+      background: colors.use-var(text, dark);
+      .-nav-visible & {
+        background: colors.use-var(primary);
+      }
     }
   }
 

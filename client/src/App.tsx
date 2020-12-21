@@ -1,5 +1,4 @@
-import React, { useContext } from "react";
-import { GlobalContext } from "./context/GlobalContext";
+import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./styles/styles.scss";
 
@@ -7,11 +6,9 @@ import Routes from "./router/routes";
 import Header from "./components/Header/Header";
 
 const App: React.FC = () => {
-  const { navVisible } = useContext(GlobalContext);
-
   return (
     <Router>
-      <main className={`content ${navVisible ? "-nav-visible" : ""}`}>
+      <main className="content">
         <Header />
         <Switch>
           {Routes.map((route: any) => (

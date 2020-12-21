@@ -8,6 +8,7 @@ const Header: React.FC<Props> = () => {
   const { navVisible, setNavVisible } = useContext(GlobalContext);
 
   const toggleNav = () => {
+    document.body.classList.toggle("-nav-visible");
     setNavVisible(!navVisible);
   };
 
