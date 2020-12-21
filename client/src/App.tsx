@@ -11,7 +11,7 @@ const App: React.FC = () => {
 
   return (
     <Router>
-      <main className="content" data-nav-visible={navVisible}>
+      <main className={`content ${navVisible ? "-nav-visible" : ""}`}>
         <Header />
         <Switch>
           {Routes.map((route: any) => (

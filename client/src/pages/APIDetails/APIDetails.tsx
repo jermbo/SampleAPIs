@@ -40,7 +40,7 @@ const APIDetails: React.FC<Props> = () => {
       </header>
       <div className="section">
         <div className="section-header">
-          <h3 className="section-title">Available Endpoints {singleEndpoint}</h3>
+          <h3 className="section-title">Available Endpoints</h3>
           <APIEndpoints
             urlBase={singleAPI.link}
             endpoints={singleAPI.endpoints}

@@ -17,11 +17,12 @@
 .main-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   z-index: 100;
   top: 0;
   left: 0;
-  width: calc(100vw - 0.5rem);
+  width: 100vw;
   padding: 1rem;
 
   &:before {
