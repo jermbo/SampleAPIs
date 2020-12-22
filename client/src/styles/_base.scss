@@ -13,7 +13,6 @@
 html,
 body {
   margin: 0;
-  line-height: fonts.height(normal);
   font-family: fonts.family(text);
   font-weight: fonts.weight(base);
   color: colors.use-var(text, light);
@@ -38,6 +37,8 @@ body {
 
 p {
   margin: 0;
+  font-size: fonts.size(text, 2);
+  max-width: 80ch;
 
   + P {
     margin-top: 1rem;
@@ -45,6 +46,7 @@ p {
 }
 
 a {
+  text-decoration: none;
   transition: all 0.25s ease;
 }
 

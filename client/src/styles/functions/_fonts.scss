@@ -28,7 +28,7 @@
   $map: map-get(fonts.$details, height);
 
   @if map-has-key($map, $height) {
-    @return var(--font-family-#{$height});
+    @return var(--font-height-#{$height});
   } @else {
     @error "`#{$height}` is not a valid key in `$details.height`.";
   }

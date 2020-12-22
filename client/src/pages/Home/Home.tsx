@@ -1,7 +1,13 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Home.scss";
-import { faBook, faCode, faInfoCircle, faList } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBook,
+  faCode,
+  faCodeBranch,
+  faInfoCircle,
+  faList,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import APICard from "../../components/APICard/APICard";
@@ -31,7 +37,7 @@ const Home: React.FC<Props> = () => {
           <abbr title="Graph Query Language">GraphQL</abbr>{" "}
           <abbr title="Application Programming Interface">API</abbr>s.
         </p>
-        <div className="home-actions">
+        <div className="page-header-actions">
           <Link className="btn" to="/about">
             <span>About</span>
             <FontAwesomeIcon icon={faInfoCircle} />
@@ -44,10 +50,15 @@ const Home: React.FC<Props> = () => {
             <span>Docs</span>
             <FontAwesomeIcon icon={faBook} />
           </Link>
-          <Link className="btn" to="/custom">
-            <span>Create Custom API</span>
-            <FontAwesomeIcon icon={faCode} />
-          </Link>
+          <a
+            href="https://github.com/jermbo/SampleAPIs"
+            className="btn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>GitHub</span>
+            <FontAwesomeIcon icon={faCodeBranch} />
+          </a>
         </div>
       </header>
       <div className="section">
