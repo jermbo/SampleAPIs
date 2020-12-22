@@ -1,0 +1,60 @@
+@use './functions/colors';
+@use './functions/fonts';
+@use './vars/colors' as *;
+
+.api-endpoints {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.api-endpoint {
+  list-style: none;
+  display: block;
+
+  &:first-child {
+    margin-right: 2rem;
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      width: 1px;
+      height: 100%;
+      right: -1rem;
+      top: 50%;
+      transform: translate(-0.5rem, -50%);
+      background: white;
+    }
+  }
+
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  @for $i from 1 through length($colors) {
+    &:nth-child(#{length($colors)}n + #{$i}) {
+      .btn {
+        $color: nth($colors, $i);
+        --color: #{$color};
+        --hover-text: #{darken($color, 50%)};
+        border-color: var(--color);
+        color: var(--color);
+
+        &:focus,
+        &:hover {
+          outline: none;
+          color: var(--hover-text);
+          background: var(--color);
+        }
+      }
+    }
+  }
+
+  a {
+    color: colors.use-var(text, light);
+    display: inline-block;
+    padding: 0.5rem;
+    text-transform: capitalize;
+  }
+}

@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# Sample APIs - React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Generate new templates
 
-## Available Scripts
+We are utilizing [Generate React CLI](https://github.com/arminbro/generate-react-cli) to help stream line and standardize the process of creating new components for our application.
 
-In the project directory, you can run:
+We can customized the outputs to fit this applications needs and have expanded the definition of types. Below are a list of commands you can use to create new components, pages, layouts, or hooks.
 
-### `npm start`
+### Component
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+By default, we are creating components. Simply run this command and let the CLI take care of the rest.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```JavaScript
+npx generate-react-cli component [NAME]
+```
 
-### `npm test`
+* Replace `[NAME]` with the desired name.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Page
 
-### `npm run build`
+When generating a new page, you run the same command but with a `--type` flag of page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```JavaScript
+npx generate-react-cli component [NAME] --type=page
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Replace `[NAME]` with the desired name.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Layout
 
-### `npm run eject`
+When generating a new layout, you run the same command but with a `--type` flag of layout.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```JavaScript
+npx generate-react-cli component [NAME] --type=layout
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Replace `[NAME]` with the desired name.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Hooks
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Just like everything else, hooks have some boiler plate code as well. To create a new hook, simply the add the `--type` flag of hook/
 
-## Learn More
+```JavaScript
+npx generate-react-cli component [NAME] --type=hook
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Replace `[NAME]` with the desired name.

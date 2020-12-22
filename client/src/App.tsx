@@ -1,27 +1,25 @@
-import React, { useContext } from "react";
-import Header from "./components/Header";
-import OuterNav from "./components/OuterNav";
-import { GlobalContext } from "./GlobalContext";
+import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./styles/styles.scss";
 
 import Routes from "./router/routes";
+import Header from "./components/Header/Header";
 
 const App: React.FC = () => {
-  const { navVisible } = useContext(GlobalContext);
-
   return (
     <Router>
-      <main className={`${navVisible ? "nav-open" : ""}`}>
+      <main className="content">
         <Header />
-        <div className="page-wrapper">
-          <Switch>
-            {Routes.map((route: any) => (
-              <Route key={route.path} path={route.path} exact={route.exact} children={<route.component />} />
-            ))}
-          </Switch>
-        </div>
-        <OuterNav />
+        <Switch>
+          {Routes.map((route: any) => (
+            <Route
+              key={route.path}
+              path={route.path}
+              exact={route.exact}
+              children={<route.component />}
+            />
+          ))}
+        </Switch>
       </main>
     </Router>
   );

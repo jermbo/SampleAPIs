@@ -1,23 +1,49 @@
-@use 'vars';
+@use './functions/colors';
+@use './functions/fonts';
+@use './vars/colors' as *;
 
 .page {
-  width: 85%;
-  display: grid;
-  grid-template-columns: 1fr minmax(200px, 300px);
-  grid-template-rows: 1fr 6fr;
-  grid-template-areas:
-    "header empty"
-    "body body";
-
-  @media (max-width: 1200px) {
-    grid-template-columns: 1fr;
-  }
+  position: relative;
 }
 
 .page-header {
-  grid-area: header;
+  padding: 20rem 0 2rem;
+  max-width: 100ch;
 }
 
-.page-body {
-  grid-area: body;
+.page-header__title {
+  font-family: fonts.family(display);
+  font-size: fonts.size(display, 1);
+}
+
+.page-header__desc {
+  font-size: fonts.size(heading, 1);
+}
+
+.page-header-actions {
+  padding: 1rem 0 0;
+
+  @for $i from 1 through length($colors) {
+    .btn:nth-child(#{length($colors)}n + #{$i}) {
+      $color: nth($colors, $i);
+      --color: #{$color};
+      --hover-text: #{darken($color, 50%)};
+      border-color: var(--color);
+      color: var(--color);
+
+      &:focus,
+      &:hover {
+        outline: none;
+        color: var(--hover-text);
+        filter: hue-rotate(15deg);
+        background: var(--color);
+      }
+    }
+  }
+}
+
+.section {
+  p {
+    line-height: fonts.height(comfortable);
+  }
 }

@@ -1,12 +1,30 @@
-@use 'vars';
+@use './functions/colors';
+@use './vars/colors' as *;
+
+@function cosmic_gradient($clrs) {
+  $colorLength: length($clrs);
+  $gradient: "";
+
+  @for $i from 1 through $colorLength {
+    @if $i < $colorLength {
+      $gradient: $gradient + nth($clrs, $i) + ", ";
+    } @else {
+      $gradient: $gradient + nth($clrs, $i);
+    }
+  }
+  @return $gradient;
+}
 
 .main-header {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
-  position: sticky;
-  top: 0;
+  align-items: center;
+  position: fixed;
   z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 1rem 2rem;
 
   &:before {
     content: "";
@@ -15,7 +33,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #{vars.cosmic_gradient(vars.$colors)});
+    background: linear-gradient(to right, #{cosmic_gradient($colors)});
     opacity: 0.75;
     z-index: -1;
   }
@@ -24,4 +42,15 @@
 .logo {
   margin: 0;
   font-size: 1rem;
+
+  a {
+    color: colors.use-var(text, light);
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      outline: none;
+      color: colors.use-var(text, dark);
+    }
+  }
 }

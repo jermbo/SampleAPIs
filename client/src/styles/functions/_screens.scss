@@ -1,0 +1,49 @@
+@use '../vars/screens';
+
+// ----------------------------------------------------------=
+// Creates media min query based on predefined breakpoint sizes
+// @param {string} $group
+// @param {string} $variant
+//
+// 1. Validates the $size param.
+// 2. Returns proper Media Query syntax
+// 3. Throws error for invalid $size param
+//
+@mixin min($size) {
+  $map: screens.$breakpoints;
+
+  // [1]
+  @if map-has-key($map, $size) {
+    // [2]
+    @media (min-width: map-get(screens.$breakpoints, $size)) {
+      @content;
+    }
+  } @else {
+    // [3]
+    @error "`#{$size}` is not a valid key in `$breakpoints`.";
+  }
+}
+
+// ----------------------------------------------------------=
+// Creates media max query based on predefined breakpoint sizes
+// @param {string} $group
+// @param {string} $variant
+//
+// 1. Validates the $size param.
+// 2. Returns proper Media Query syntax
+// 3. Throws error for invalid $size param
+//
+@mixin max($size) {
+  $map: screens.$breakpoints;
+
+  // [1]
+  @if map-has-key($map, $size) {
+    // [2]
+    @media (max-width: map-get(screens.$breakpoints, $size)) {
+      @content;
+    }
+  } @else {
+    // [3]
+    @error "`#{$size}` is not a valid key in `$breakpoints`.";
+  }
+}

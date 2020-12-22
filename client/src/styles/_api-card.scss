@@ -1,35 +1,45 @@
-@use 'vars';
+@use './functions/colors';
+@use './vars/colors' as *;
 
-.api-cards {
+.section-header {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid colors.use-var(text, light);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  .actions {
+    display: flex;
+  }
+}
+
+.cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
-  gap: vars.$padding * 2;
+  gap: 2rem;
 }
 
 .api-card {
-  border: 1px solid vars.$offWhite;
-  padding: vars.$padding;
+  border: 1px solid colors.use-var(text, light);
   position: relative;
-  background: vars.$offBlack;
-  display: flex;
-  flex-direction: column;
 
   &:before {
     content: "";
     position: absolute;
     left: 0;
     top: 0;
-    transform: translate(-#{vars.$padding/2}, #{vars.$padding/2});
+    transform: translate(-0.5rem, 0.5rem);
     width: 100%;
     height: 100%;
-    z-index: -5;
+    z-index: 0;
     transition: all 0.25s ease;
   }
 
-  @for $i from 1 through length(vars.$colors) {
-    &:nth-child(#{length(vars.$colors)}n + #{$i}) {
-      --card-color: #{nth(vars.$colors, $i)};
+  @for $i from 1 through length($colors) {
+    &:nth-child(#{length($colors)}n + #{$i}) {
+      --card-color: #{nth($colors, $i)};
       color: var(--card-color);
       border-color: var(--card-color);
       &:before {
@@ -42,42 +52,25 @@
         );
       }
 
+      &:focus-within,
       &:hover {
         &:before {
-          transform: translate(-#{vars.$padding}, #{vars.$padding});
+          transform: translate(-1rem, 1rem);
         }
       }
     }
   }
 }
 
-.api-card__categories {
-  margin: 0;
-  padding: 0;
-}
-
-.api-card__category {
-  font-size: 0.85rem;
-  list-style: none;
-  display: inline-block;
-  padding: vars.$padding/4 vars.$padding/2;
-  margin-bottom: vars.$padding/2;
-  color: vars.$offBlack;
-  background: var(--cat-color);
-  letter-spacing: 1px;
-  border-radius: 10px;
-  flex: 1;
-  border-color: var(--cat-color);
-
-  &:not(:last-child) {
-    margin-right: vars.$padding/2;
-  }
-
-  @for $i from 1 through length(vars.$colors) {
-    &:nth-child(#{length(vars.$colors)}n + #{$i}) {
-      --cat-color: #{nth(vars.$colors, $i)};
-    }
-  }
+.api-card__inner {
+  background: colors.use-var(bg, darkest);
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
 
 .api-card__header {
@@ -86,44 +79,27 @@
 
   .btn {
     color: var(--card-color);
+    margin-left: 0.25rem;
+    border: none;
+
+    &:focus {
+      outline: 2px solid var(--card-color);
+    }
   }
 }
 
-.api-card__title {
-  margin: 0;
-}
-
 .api-card__desc {
-  margin: 0;
-}
-
-@mixin summaryActive {
-  content: "";
-  height: 100%;
-  width: 100%;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  box-shadow: 0 0 0 1px var(--card-color);
+  p {
+    margin: 0;
+  }
 }
 
 .api-card__endpoints {
-  margin-top: vars.$padding/2;
+  margin-top: 0.5rem;
   position: relative;
 
-  // &[open] {
-  //   summary {
-  //     &::after {
-  //       @include summaryActive();
-  //       border: none;
-  //       border-bottom: 1px solid var(--card-color);
-  //     }
-  //   }
-  // }
-
   summary {
-    padding: vars.$padding/2;
+    padding: 0.5rem;
     position: relative;
 
     &:hover,
@@ -131,7 +107,14 @@
       outline: none;
 
       &::after {
-        @include summaryActive();
+        content: "";
+        height: 100%;
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        box-shadow: 0 0 0 1px var(--card-color);
       }
     }
   }
@@ -139,15 +122,15 @@
   ul {
     margin: 0;
     background: var(--card-color);
-    color: vars.$offBlack;
-    padding: vars.$padding/2;
+    color: colors.use-var(text, dark);
+    padding: 0.5rem;
     position: relative;
 
     li {
       list-style: none;
       position: relative;
       margin: 0;
-      padding: vars.$padding/2;
+      padding: 0.5rem;
       transition: all 0.25s ease;
 
       @for $i from 1 through 10 {

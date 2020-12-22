@@ -1,0 +1,14 @@
+@use '../vars/colors' as *;
+
+// This might be making things to abstract and complicated
+// Might delete later
+@mixin color-cycle($element) {
+  @for $i from 1 through length($colors) {
+    .#{$element}:nth-child(#{length($colors)}n + #{$i}) {
+      $color: nth($colors, $i);
+      --color: #{$color};
+      --hover-text: #{darken($color, 50%)};
+      @content;
+    }
+  }
+}

@@ -1,13 +1,9 @@
-// Pages
-import Home from "../pages/Home";
-import About from "../pages/About";
-import APIList from "../pages/APIList";
-import APIDetails from "../pages/APIDetails";
-import Docs from "../pages/Docs";
-import Custom from "../pages/Custom";
-import StyleGuide from "../pages/StyleGuide";
-import NotFound from "../pages/NotFound";
-import LogIn from "../pages/Login";
+import About from "../pages/About/About";
+import APIDetails from "../pages/APIDetails/APIDetails";
+import APIList from "../pages/APIList/APIList";
+import Home from "../pages/Home/Home";
+import StyleGuide from "../pages/StyleGuide/StyleGuide";
+import NotFound from "../pages/NotFound/NotFound";
 
 const Routes = [
   {
@@ -34,21 +30,6 @@ const Routes = [
     path: "/api-list/:id",
     exact: true,
     component: APIDetails,
-  },
-  {
-    path: "/docs",
-    exact: true,
-    component: Docs,
-  },
-  {
-    path: "/custom",
-    exact: true,
-    component: Custom,
-  },
-  {
-    path: "/login",
-    exact: true,
-    component: LogIn,
   },
   {
     path: "/",
