@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Link } from "react-router-dom";
 import { GlobalContext } from "../../context/GlobalContext";
 import Nav from "../Nav/Nav";
 
@@ -14,7 +15,9 @@ const Header: React.FC<Props> = () => {
 
   return (
     <header className="main-header">
-      <h1 className="logo">Sample APIs</h1>
+      <h1 className="logo">
+        <Link to="/">Sample APIs</Link>
+      </h1>
       <button onClick={toggleNav} className="burger-nav">
         <span></span>
         <span></span>

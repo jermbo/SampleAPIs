@@ -1,3 +1,4 @@
+@use './functions/colors';
 @use './vars/colors' as *;
 
 @function cosmic_gradient($clrs) {
@@ -41,4 +42,15 @@
 .logo {
   margin: 0;
   font-size: 1rem;
+
+  a {
+    color: colors.use-var(text, light);
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      outline: none;
+      color: colors.use-var(text, dark);
+    }
+  }
 }
