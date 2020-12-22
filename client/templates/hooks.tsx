@@ -1,14 +1,14 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 type ReturnState = {
   state: string;
 };
 
 function useTemplateName<T>(): ReturnState {
-  const [state, setState] = useState('');
+  const [state, setState] = useState("");
 
   useEffect(() => {
-    setState('');
+    setState("");
   }, [state]);
 
   return { state };

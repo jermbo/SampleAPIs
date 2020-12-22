@@ -17,7 +17,7 @@
     "page": {
       "path": "src/pages",
       "customTemplates": {
-        "component": "templates/component.tsx"
+        "component": "templates/page.tsx"
       },
       "withStyle": true,
       "withTest": false,
@@ -27,7 +27,7 @@
     "layout": {
       "path": "src/layout",
       "customTemplates": {
-        "component": "templates/component.tsx"
+        "component": "templates/layout.tsx"
       },
       "withStyle": true,
       "withTest": false,
