@@ -35,11 +35,6 @@ const Nav: React.FC<RouteComponentProps> = ({ history }) => {
             Docs
           </NavLink>
         </li>
-        <li>
-          <NavLink exact activeClassName="active" to="/custom">
-            Custom
-          </NavLink>
-        </li>
       </ul>
     </div>
   );

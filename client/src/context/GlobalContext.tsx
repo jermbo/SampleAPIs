@@ -19,7 +19,8 @@ export const initialValues: iGlobal = {
 
 export const GlobalContext = createContext(initialValues);
 
-const BASE_URL = "http://localhost:5555/frontend";
+const BASE_URL =
+  process.env.NODE_ENV === "production" ? "https://sampleapis.com" : "http://localhost:5555";
 
 const GlobalProvider: React.FC = ({ children }) => {
   const [navVisible, setNavVisible] = useState(initialValues.navVisible);
@@ -28,7 +29,7 @@ const GlobalProvider: React.FC = ({ children }) => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [apiCategories, setApiCategories] = useState(initialValues.apiCategories);
 
-  const { state: APIState, data } = useFetch<FetchState<APIListResponse>>(BASE_URL);
+  const { state: APIState, data } = useFetch<FetchState<APIListResponse>>(`${BASE_URL}/frontend`);
 
   const generateCategories = (list: APIData[]) => {
     const allCategories = list.reduce((acc: string[], item) => {
