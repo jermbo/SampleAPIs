@@ -27,6 +27,7 @@ function useFetch<T>(url: string): ReturnState<T> {
     if (state === AppStateEnum.initial) {
       getData();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return { state, data };
