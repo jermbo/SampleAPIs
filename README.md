@@ -1,6 +1,6 @@
-# Sample APIs 2.0
+# Sample APIs 3.0
 
-![Screenshot](/src/public/assets/images/screenshot-sampleAPI.png)
+![Screenshot](/SampleAPI-3.0-Screenshot.png)
 
 Sample APIs has been given a major overhaul. Due to the fact Vercel.com has changed the way their servers work, we have had to rethink how the system was built. Over all, the changes are for the better. It is now easier than ever to contribute.
 
@@ -12,7 +12,7 @@ Understanding RESTful APIs is hard enough, even without including an authenticat
 
 Choose an endpoint, say "futurama", then choose what information you'd like, say "characters":
 ```Javascript
-const baseURL = "https://sampleapis.com/futurama/api/characters";
+const baseURL = "https://api.sampleapis.com/futurama/characters";
 fetch(baseURL)
   .then(resp => resp.json())
   .then(data => console.log(data));
@@ -20,7 +20,7 @@ fetch(baseURL)
 
 Want to Search? for all chatacters with the name "Bender"?
 ```Javascript
-const baseURL = "https://sampleapis.com/futurama/api/characters";
+const baseURL = "https://api.sampleapis.com/futurama/characters";
 fetch(`${baseURL}?name.first=Bender`)
   .then(resp => resp.json())
   .then(data => console.log(data));
