@@ -35,7 +35,7 @@
       1,
       {
         "ignoreRestSiblings": true,
-        "argsIgnorePattern": "res|next|^err"
+        "argsIgnorePattern": "res|next|e|^err|^evt"
       }
     ]
   }

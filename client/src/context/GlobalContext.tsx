@@ -20,7 +20,7 @@ export const initialValues: iGlobal = {
 export const GlobalContext = createContext(initialValues);
 
 const BASE_URL =
-  process.env.NODE_ENV === "production" ? "https://sampleapis.com" : "http://localhost:5555";
+  process.env.NODE_ENV === "production" ? "https://api.sampleapis.com" : "http://localhost:5555";
 
 const GlobalProvider: React.FC = ({ children }) => {
   const [navVisible, setNavVisible] = useState(initialValues.navVisible);
@@ -45,7 +45,7 @@ const GlobalProvider: React.FC = ({ children }) => {
       generateCategories(list);
       return;
     }
-  }, [APIState]);
+  }, [APIState, data?.data?.APIList]);
 
   const values = {
     navVisible,
