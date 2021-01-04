@@ -1,10 +1,15 @@
 .DS_Store
 node_modules/
 _old/
+dist
 
 data.html
 .now
 .vs
-package-lock.json 
+package-lock.json
 
-src/custom/*
+server/custom/*
+
+# local env files
+.env.local
+.env.*.local

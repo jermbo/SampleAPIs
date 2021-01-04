@@ -1,0 +1,94 @@
+@use './functions/screens';
+@use './functions/colors';
+@use './functions/fonts';
+
+@use './vars/colors' as *;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: fonts.family(text);
+  font-weight: fonts.weight(base);
+  color: colors.use-var(text, light);
+  background: colors.use-var(bg, darkest);
+
+  &.-nav-visible {
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+
+#main-wrapper {
+  display: grid;
+  grid-template-columns: minmax(25px, 150px) minmax(50%, 90%) minmax(25px, 150px);
+  grid-template-areas: "left center right";
+  margin-bottom: 5rem;
+}
+
+.content {
+  grid-area: center;
+}
+
+p {
+  margin: 0;
+  font-size: fonts.size(text, 2);
+  max-width: 80ch;
+
+  + P {
+    margin-top: 1rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+abbr {
+  transition: all 0.25s ease;
+  cursor: help;
+  position: relative;
+
+  @for $i from 1 through length($colors) {
+    &:nth-child(#{length($colors)}n + #{$i}) {
+      $color: nth($colors, $i);
+      --color: #{$color};
+      --hover-text: #{darken($color, 50%)};
+      border-color: var(--color);
+      color: var(--color);
+
+      &:focus,
+      &:hover {
+        outline: none;
+        color: var(--hover-text);
+        background: var(--color);
+        z-index: 100;
+
+        &::after {
+          content: attr(title);
+          background: var(--color);
+          box-shadow: 0 0 10px black;
+          position: absolute;
+          display: block;
+          // bottom: 100%;
+          left: 0;
+          padding: 0.25rem 0.5rem;
+          font-size: fonts.size(text, 3);
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
+
+.featured-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}

@@ -1,0 +1,52 @@
+// Greys
+$white: #ffffff;
+$grey-1: #fafafa;
+$grey-2: #efefef;
+$grey-3: #eeeeee;
+$grey-4: #e0e0e0;
+$grey-5: #bdbdbd;
+$grey-6: #9e9e9e;
+$grey-7: #757575;
+$grey-8: #505050;
+$grey-9: #363636;
+$black: #181818;
+
+$bright-turquoise: #00d6e9;
+$piston-blue: #15e3d9;
+$turquoise-blue: #56edbf;
+$mint-green: #8cf5a2;
+$mineral: #c2f985;
+$festival: #f9f871;
+
+// This is used for color effects in the site.
+$colors: ($bright-turquoise, $piston-blue, $turquoise-blue, $mint-green, $mineral, $festival);
+
+$colors-map: (
+  primary: (
+    base: $bright-turquoise,
+    light: lighten($bright-turquoise, 5%),
+    dark: darken($bright-turquoise, 5%),
+  ),
+  buttons: (
+    base: $bright-turquoise,
+    light: lighten($bright-turquoise, 5%),
+    dark: darken($bright-turquoise, 5%),
+  ),
+  secondary: (
+    base: $festival,
+    light: lighten($festival, 5%),
+    dark: darken($festival, 5%),
+  ),
+  text: (
+    light: $grey-1,
+    base: $grey-5,
+    dark: $grey-9,
+  ),
+  bg: (
+    lightest: $white,
+    light: $grey-2,
+    base: $grey-5,
+    dark: $grey-8,
+    darkest: $black,
+  ),
+);
