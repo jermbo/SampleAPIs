@@ -1,5 +1,16 @@
 # Change Log
 
+## v3.0-beta-1
+
+*BREAKING CHANGES!!*
+All api's have been moved to `api.sampleapis.com/[ENDPOINT]/[DATA]`. For example, `api.sampleapis.com/futurama/characters`. If you have applications currently using the old way, you will need to update.
+
+### Separation of Front and Back ends
+In order to move forward with some planned features, there needed to be a separation between the front and back ends. The back end is strictly an express endpoint application supplying the data necessary to the front end and apis. The front end is a React application, utilizing standard CRA and best practices. ( At lease the best practices I could find. )
+
+### API List has been removed
+In the old application, we needed to updated the `APIList.js` to get the data to show up. This is no more. Now, when submitting a new endpoint, you will need to include a `metadata` object to the json file. This is what powers the system and was intended to make life a little easier / programmatic.
+
 ## v2.8.0
 
 Foundation for user created endpoints. This feature is still in beta and not promoted on the site. Users can manually access the link by going to `.com/create`. Here the user will need to enter a group name and provide a list of endpoints to create the first file.
