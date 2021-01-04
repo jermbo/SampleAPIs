@@ -1,13 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Home.scss";
-import {
-  faBook,
-  faCode,
-  faCodeBranch,
-  faInfoCircle,
-  faList,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBook, faCodeBranch, faInfoCircle, faList } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import APICard from "../../components/APICard/APICard";
