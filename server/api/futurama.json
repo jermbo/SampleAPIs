@@ -418,7 +418,7 @@
         "main": "https://static.wikia.nocookie.net/enfuturama/images/d/d9/Mom.png/revision/latest?cb=20170123190703"
       },
       "age": "150",
-      "gender": "Femal",
+      "gender": "Female",
       "species": "Human",
       "homePlanet": "Earth",
       "occupation": "Mega-tycoon owner of Mom's Friendly Robot Company",
@@ -435,11 +435,9 @@
         "head-shot": "",
         "main": "https://static.wikia.nocookie.net/enfuturama/images/4/4a/Dr_John_Zoidberg.png/revision/latest/scale-to-width-down/253?cb=20200505073458"
       },
-      "info": {
-        "age": "40",
-        "gender": "Male",
-        "species": "Decapodian"
-      },
+      "age": "40",
+      "gender": "Male",
+      "species": "Decapodian",
       "occupation": "Staff doctor",
       "sayings": [
         "My name isn't Slick, it's Zoidberg. John fucking Zoidberg!!",
@@ -463,11 +461,9 @@
         "head-shot": "",
         "main": "https://static.wikia.nocookie.net/enfuturama/images/7/73/Zapp-Brannigan.png/revision/latest/scale-to-width-down/346?cb=20200506091829"
       },
-      "info": {
-        "age": "40",
-        "gender": "Male",
-        "species": "Human"
-      },
+      "age": "40",
+      "gender": "Male",
+      "species": "Human",
       "occupation": "Captain",
       "sayings": [
         "All good things must come to an end, preferably in a humongous explosion.",
@@ -497,11 +493,9 @@
         "head-shot": "",
         "main": "https://static.wikia.nocookie.net/enfuturama/images/c/c5/Lurr.png/revision/latest/scale-to-width-down/250?cb=20130329124434"
       },
-      "info": {
-        "age": "Unknown",
-        "gender": "Male",
-        "species": "Omicronian"
-      },
+      "age": "Unknown",
+      "gender": "Male",
+      "species": "Omicronian",
       "occupation": "Ruler of Omicron Persei 8",
       "sayings": [
         "Okay, Yivo showed us a good time. No one's denying that, but shklee hasn't offered our universe any kind of commitment, and we're 14 billion years old - That is too old to play the field.",
@@ -520,11 +514,9 @@
         "middle": "",
         "last": "Scruffington"
       },
-      "info": {
-        "age": "53",
-        "gender": "Male",
-        "species": "Human"
-      },
+      "age": "53",
+      "gender": "Male",
+      "species": "Human",
       "occupation": "Janitor",
       "sayings": ["I'm Scruffy. The janitor."],
       "id": 11
@@ -535,11 +527,9 @@
         "middle": "J",
         "last": "Farnsworth"
       },
-      "info": {
-        "age": "13",
-        "gender": "Male",
-        "species": "Human"
-      },
+      "age": "13",
+      "gender": "Male",
+      "species": "Human",
       "occupation": "Co-owner of Awesome Express",
       "sayings": ["What? You've never seen a genius's wiener before?"],
       "id": 12
@@ -550,11 +540,9 @@
         "middle": "",
         "last": "Kroker"
       },
-      "info": {
-        "age": "32",
-        "gender": "Male",
-        "species": "Amphibiosans"
-      },
+      "age": "32",
+      "gender": "Male",
+      "species": "Amphibiosans",
       "occupation": "DOOP (Executive Officer) ",
       "sayings": [
         "I love it out here, Amy. I feel so manly. I have a blister, I-I spit! A-And of course, I tell no one my feelings, until I write them in my dairy."
@@ -567,11 +555,9 @@
         "middle": "",
         "last": "Conrad"
       },
-      "info": {
-        "age": "12",
-        "gender": "Male",
-        "species": "Human"
-      },
+      "age": "12",
+      "gender": "Male",
+      "species": "Human",
       "occupation": "Co-owner of Awesome Express",
       "sayings": ["I'm gonna take this and buy five shares of Amazon.com"],
       "id": 14
@@ -582,11 +568,9 @@
         "middle": "",
         "last": "Conrad"
       },
-      "info": {
-        "age": "35",
-        "gender": "Female",
-        "species": "Human"
-      },
+      "age": "35",
+      "gender": "Female",
+      "species": "Human",
       "occupation": "",
       "sayings": ["All in favor of the Jamoka-Thunderclap? That would be me."],
       "id": 15
