@@ -27,60 +27,917 @@
     }
   ],
   "characters": [
-    {
-      "Name": "Aang",
-      "First appearance": "'The Boy in the Iceberg'",
-      "Last appearance": "'Remembrances' (flashback)",
-      "Portrayed by": "Noah Ringer (The Last Airbender)",
-      "Voiced by": [
-        "Zach Tyler Eisen (original series)",
-        "Mitchel Musso (Unaired Pilot)",
-        "Ben Helms (Nicktoons MLB)",
-        "D. B. Sweeney (The Legend of Korra)"
-      ],
-      "Nicknames": ["Bonzu", "Pipinpadaloxicopolis the Third", "'Twinkletoes'"],
-      "Aliases": ["Butopak aang"],
-      "Species": "Human (Spiritually linked with Raava/the Avatar Spirit)",
-      "Gender": "Male",
-      "Occupation": "Avatar Mediator of balance, peace, order and reconciliation",
-      "Title": "The Avatar Avatar Aang",
-      "Family": ["Gyatso (guardian)"],
-      "Spouse": "Katara",
-      "Significant others": [
-        "Soulmate: Appa (animal guide)",
-        "Raava/The Avatar Spirit (Deity, Spiritual personification of peace and order)",
-        "Incarnation: Roku (immediate predecessor)",
-        "Kyoshi (preceding Roku)",
-        "Kuruk (preceding Kyoshi as Avatar, and Korra as a Water-bender Avatar)",
-        "Yangchen (preceding Kuruk as Avatar, and Aang as an Air Nomad Avatar)",
-        "Wan (original Avatar)",
-        "Korra (Aang's immediate reincarnation)"
-      ],
-      "Children": ["Bumi (firstborn son)", "Kya (daughter)", "Tenzin (second son)"],
-      "Nationality": "Air Nomads",
-      "Bending element": {
-        "Primary": "Airbending",
-        "Others": ["Earthbending", "Firebending", ",Waterbending", "Energybending"],
-        "Substyles": "Astral Projection"
+    [
+      {
+        "id": 1,
+        "name": "Aang",
+        "image": "https://static.wikia.nocookie.net/avatar/images/a/ae/Aang_at_Jasmine_Dragon.png/revision/latest/scale-to-width-down/333?cb=20130612174003",
+        "bio": {
+          "alternativeNames": [
+            "Aangy (by Koko)",
+            "Kuzon (while at the Fire Nation school)",
+            "Twinkle Toes (by Toph)",
+            "Sweetie (by Katara)"
+          ],
+          "nationality": "Southern Air Temple",
+          "ethnicity": "Air Nomad",
+          "ages": [
+            "112 (biologically 12) in Avatar: The Last Airbender[3]",
+            "113-114 (biologically 13-14) in The Promise trilogy[4]",
+            "114-115 (biologically 14-15) in The Search and The Rift trilogies[5]",
+            "165 (biologically 66) at death[6]"
+          ],
+          "born": "12 BG",
+          "died": ["Spring 100 AG (revived by Katara using spirit water)", "153 AG"]
+        },
+        "physicalDescription": {
+          "gender": "Male",
+          "eyeColor": "Gray",
+          "hairColor": "Dark brown (typically shaved)",
+          "skinColor": "Light"
+        },
+        "personalInformation": {
+          "loveInterst": "Katara (wife)",
+          "allies": [
+            "Appa",
+            "Katara",
+            "Momo",
+            "Sokka",
+            "Tenzin",
+            "Toph",
+            "Zuko",
+            "King Bumi",
+            "Bumi",
+            "Gyatso",
+            "Hakoda",
+            "Iroh",
+            "Kya",
+            "Suki",
+            "Kuzon",
+            "lion turtle",
+            "all Avatars"
+          ],
+          "enemies": [
+            "Azula",
+            "Ozai",
+            "Zhao",
+            "Zuko (formerly)",
+            "Combustion Man",
+            "Long Feng",
+            "Sozin",
+            "Yakone",
+            "Joo Dee",
+            "the Dai Li"
+          ],
+          "weaponsOfChoice": ["The elements", "glider staff"],
+          "fightingStyles": [
+            "Airbending",
+            "waterbending (Northern and Southern style)",
+            "earthbending (Chu Gar Praying Mantis Kung Fu)",
+            "firebending (Dancing Dragon)",
+            "energybending"
+          ]
+        },
+        "politicalInformation": {
+          "profession": ["Air Nomad culture teacher", "Airbending instructor", "Avatar", "Monk"],
+          "position": ["Co-founder of the United Republic of Nations", "Fully realized Avatar"],
+          "predecessor": "Roku (as the Avatar)",
+          "successor": "Korra (as the Avatar)",
+          "affiliations": ["Air Acolytes", "Air Nomads", "Air Scouts (formerly)", "Team Avatar"]
+        },
+        "chronologicalInformation": {
+          "firstAppearance": "\"The Boy in the Iceberg\"",
+          "lastAppearance": [
+            "Imbalance Part Three (chronological)",
+            "\"Darkness Falls\"(as spirit)",
+            "\"Remembrances\"(flashback only)"
+          ],
+          "voicedBy": [
+            "Zach Tyler Eisen (in Avatar: The Last Airbender)",
+            "Mitchel Musso (unaired pilot episode)",
+            "D. B. Sweeney (in The Legend of Korra)"
+          ]
+        }
       },
-      "Age": "12/112",
-      "Hair color": "Dark brown (generally shaven)",
-      "Eye color": "Hazel / Gray",
-      "id": 1
-    },
-    {
-      "Name": "Appa",
-      "First appearance": "'The Boy in the Iceberg'",
-      "Voiced by": ["Dee Bradley Baker"],
-      "Aliases": ["Sky Bison", "Wind Buffalo", "Flying Bison"],
-      "Nationality": "Air Nomads",
-      "Bending element": {
-        "Primary": "Airbending (master)"
+      {
+        "id": 2,
+        "name": "Appa",
+        "image": "https://static.wikia.nocookie.net/avatar/images/6/65/Appa_flying.png/revision/latest/scale-to-width-down/333?cb=20140517110636",
+        "bio": {
+          "alternativeNames": "NA",
+          "nationality": "Air Nomad",
+          "ethnicity": "NA",
+          "ages": "NA",
+          "born": "NA",
+          "died": "NA"
+        },
+        "physicalDescription": {
+          "gender": "Male",
+          "eyeColor": "Brown",
+          "hairColor": "White and brown",
+          "skinColor": "Fur"
+        },
+        "personalInformation": {
+          "loveInterest": "His mother, Aang, Momo, Air Nomads, Katara, Sokka, Toph, Zuko, Iroh, Suki, Kyoshi Warriors, Pathik",
+          "allies": [
+            "Azula",
+            "Ozai",
+            "Zuko (formerly)",
+            "Combustion Man",
+            "Zhao",
+            "Long Feng",
+            "the Dai Li",
+            "Shuzumu",
+            "circus trainer",
+            "Ghashiun",
+            "Si Wong tribes",
+            "beetle-headed merchants"
+          ],
+          "enemies": ["Air", "body bulk", "tail"],
+          "weaponsOfChoice": ["Airbending"],
+          "fightingStyles": "NA"
+        },
+        "politicalInformation": {
+          "profession": "\n",
+          "position": "NA",
+          "predecessor": "Naga (as next animal companion of the Avatar)",
+          "successor": "Air Nomads\nTeam Avatar",
+          "affiliations": "NA"
+        },
+        "chronologicalInformation": {
+          "firstAppearance": "\"The Boy in the Iceberg\"",
+          "lastAppearance": ["Imbalance Part One (chronological)"],
+          "voicedBy": "NA"
+        }
       },
-      "Hair color": "White (with brown arrow-shaped patch of fur)",
-      "Eye color": "Brown",
-      "id": 2
-    }
+      {
+        "id": 3,
+        "name": "Momo",
+        "image": "https://static.wikia.nocookie.net/avatar/images/8/80/Momo_staring.png/revision/latest/scale-to-width-down/333?cb=20200802080013",
+        "bio": {
+          "alternativeNames": "NA",
+          "nationality": "Air Nomad",
+          "ethnicity": "NA",
+          "ages": "NA",
+          "born": "NA",
+          "died": "NA"
+        },
+        "physicalDescription": {
+          "gender": "Male",
+          "eyeColor": "Light green",
+          "hairColor": "White and brown",
+          "skinColor": "Fur"
+        },
+        "personalInformation": {
+          "loveInterest": "Aang, Appa, Katara, Sokka, Toph, Zuko, Suki, Bumi, pygmy pumas",
+          "allies": [
+            "Ozai",
+            "Azula",
+            "Zhao",
+            "Zuko (formerly)",
+            "Long Feng",
+            "the Dai Li",
+            "Tom-Tom",
+            "Fire Nation (formerly)",
+            "buzzard wasp",
+            "Hawky",
+            "iguana parrot",
+            "bearded cat"
+          ],
+          "enemies": "NA",
+          "weaponsOfChoice": "NA",
+          "fightingStyles": "NA"
+        },
+        "politicalInformation": {
+          "profession": "\n",
+          "position": "NA",
+          "predecessor": "Air Nomads\nTeam Avatar",
+          "successor": "NA",
+          "affiliations": "NA"
+        },
+        "chronologicalInformation": {
+          "firstAppearance": "\"The Southern Air Temple\"",
+          "lastAppearance": ["Imbalance Part Two (chronological)"],
+          "voicedBy": "NA"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Katara",
+        "image": "https://static.wikia.nocookie.net/avatar/images/7/7a/Katara_smiles_at_coronation.png/revision/latest/scale-to-width-down/333?cb=20150104171449",
+        "bio": {
+          "alternativeNames": [
+            "Gran Gran (by her grandchildren)",
+            "Sweetie (by Aang)",
+            "Sugar Queen (by Toph Beifong)",
+            "Sweetness (by Toph Beifong)"
+          ],
+          "nationality": "Southern Water Tribe capital city, Southern Water Tribe",
+          "ethnicity": "Water Tribe",
+          "ages": [
+            "14 in Avatar: The Last Airbender[3]",
+            "15-16 in The Promise trilogy[4]",
+            "16-17 in The Search and The Rift trilogies[5]",
+            "85 in Book One: Air of The Legend of Korra[6]",
+            "86 in Book Two: Spirits",
+            "89 in Book Four: Balance[7]"
+          ],
+          "born": "85 AG",
+          "died": ["85 AG"]
+        },
+        "physicalDescription": {
+          "gender": "Female",
+          "eyeColor": "Blue",
+          "hairColor": "Dark brown (white in old age)",
+          "skinColor": "Brown"
+        },
+        "personalInformation": {
+          "loveInterest": "Aang (husband; widowed)\nJet (formerly)[8]",
+          "allies": [
+            "Yue",
+            "the Painted Lady",
+            "Hakoda",
+            "Kya",
+            "Kanna",
+            "Tenzin",
+            "Bumi",
+            "Kya",
+            "Jinora",
+            "Ikki",
+            "Meelo",
+            "Rohan",
+            "Team Avatar",
+            "Order of the White Lotus",
+            "Air Acolytes",
+            "Hama (formerly)",
+            "Yagoda",
+            "Malina",
+            "Maliq (formerly)",
+            "Korra",
+            "Niyok",
+            "Nutha",
+            "Siku and Sura",
+            "Rafa and Misu",
+            "Ashuna",
+            "Kyoshi Warriors",
+            "Mai",
+            "Tyro"
+          ],
+          "enemies": [
+            "Mother of Faces (formerly)",
+            "Wan Shi Tong",
+            "Old Iron",
+            "Ozai",
+            "Azula",
+            "Zuko (formerly)",
+            "Azula's team (formerly)",
+            "Zhao",
+            "Combustion Man",
+            "Rough Rhinos",
+            "Fire Nation (formerly)",
+            "Long Feng",
+            "the Dai Li",
+            "Azulon",
+            "Yon Rha",
+            "the Southern Raiders",
+            "Hama",
+            "Gilak",
+            "Thod and his disciples",
+            "Southern Water Tribe nationalists",
+            "Maliq and Malina's workers"
+          ],
+          "weaponsOfChoice": ["Water"],
+          "fightingStyles": ["Waterbending (Northern and Southern styles)", "bloodbending (resigned from use)"]
+        },
+        "politicalInformation": {
+          "profession": "\n",
+          "position": [
+            "Daughter of the Southern Water Tribe Head Chieftain",
+            "Master healer",
+            "Member of the Southern Council of Elders[9]",
+            "Waterbending master"
+          ],
+          "predecessor": "Pakku (as Avatar Aang's waterbending master)",
+          "successor": "Team Avatar\nWater Tribe\nJiang's pirate crew (honorary member)[10]",
+          "affiliations": "NA"
+        },
+        "chronologicalInformation": {
+          "firstAppearance": "\"The Boy in the Iceberg\"",
+          "lastAppearance": ["\"Light in the Dark\"(chronological)", "\"Remembrances\"(flashback only)"],
+          "voicedBy": ["Mae Whitman (in Avatar: The Last Airbender)", "Eva Marie Saint (in The Legend of Korra)"]
+        }
+      },
+      {
+        "id": 5,
+        "name": "Sokka",
+        "image": "https://static.wikia.nocookie.net/avatar/images/c/cc/Sokka.png/revision/latest/scale-to-width-down/333?cb=20140905085428",
+        "bio": {
+          "alternativeNames": ["Wang Fire (while in the Fire Nation)", "Captain Boomerang (by Toph Beifong)"],
+          "nationality": "Southern Water Tribe capital city, Southern Water Tribe",
+          "ethnicity": "Water Tribe",
+          "ages": [
+            "15 in Avatar: The Last Airbender[3]",
+            "16-17 in The Promise trilogy[4]",
+            "17-18 in The Search and The Rift trilogies[5]",
+            "44 in The Legend of Korra (flashback to Yakone's trial)"
+          ],
+          "born": "84 AG",
+          "died": ["84 AG"]
+        },
+        "physicalDescription": {
+          "gender": "Male",
+          "eyeColor": "Blue",
+          "hairColor": "Dark brown (shaved on the sides)",
+          "skinColor": "Brown"
+        },
+        "personalInformation": {
+          "loveInterest": "Suki (girlfriend)\nYue (girlfriend; deceased; reincarnated as the moon spirit)\nKaya (love interest; formerly)",
+          "allies": [
+            "Hakoda",
+            "Kya",
+            "Kanna",
+            "Katara",
+            "Pakku",
+            "Aang",
+            "Toph",
+            "Zuko",
+            "Suki",
+            "Appa",
+            "Momo",
+            "Hawky",
+            "Piandao",
+            "Yue",
+            "Order of the White Lotus",
+            "Southern Water Tribe",
+            "United Republic Council",
+            "Tonraq",
+            "Tenzin",
+            "Korra"
+          ],
+          "enemies": [
+            "Ozai",
+            "Azula",
+            "Zhao",
+            "Long Feng",
+            "Dai Li",
+            "Combustion Man",
+            "Southern Raiders",
+            "Azulon",
+            "Zuko (formerly)",
+            "Yon Rha",
+            "Hahn",
+            "Hama",
+            "Kunyo",
+            "Yakone",
+            "Fire Nation (formerly)",
+            "Red Lotus"
+          ],
+          "weaponsOfChoice": ["Sokka's weapons (Jian", "boomerang", "club", "machete", "dagger", "saber)"],
+          "fightingStyles": ["Water Tribe Warrior style", "tessenjutsu (basics)", "swordsmanship (Jian-fencing)"]
+        },
+        "politicalInformation": {
+          "profession": "\n",
+          "position": [
+            "Chieftain in the Southern Water Tribe (formerly)",
+            "Map reader",
+            "Son of Head Chieftain Hakoda",
+            "Southern Water Tribe representative and Chairman of the United Republic Council (formerly)"
+          ],
+          "predecessor": "Bendless Boomerang Club[7]\nSouthern Water Tribe\nTeam Avatar\nFire Nation Army[8] (formerly)\nUnited Republic Council",
+          "successor": "NA",
+          "affiliations": "NA"
+        },
+        "chronologicalInformation": {
+          "firstAppearance": "\"The Boy in the Iceberg\"",
+          "lastAppearance": ["Imbalance Part Three (chronological)", "\"Out of the Past\"(vision)"],
+          "voicedBy": ["Jack DeSena (in Avatar: The Last Airbender)", "Chris Hardwick (in The Legend of Korra)"]
+        }
+      },
+      {
+        "id": 6,
+        "name": "Toph Beifong",
+        "image": "https://static.wikia.nocookie.net/avatar/images/4/46/Toph_Beifong.png/revision/latest/scale-to-width-down/333?cb=20131230122047",
+        "bio": {
+          "alternativeNames": [
+            "The Blind Bandit (in Earth Rumble matches)",
+            "The Runaway (while in Fire Fountain City)"
+          ],
+          "nationality": "Gaoling, Earth Kingdom",
+          "ethnicity": "Earth Kingdom",
+          "ages": "NA",
+          "born": "12 in Avatar: The Last Airbender[4]\n13-14 in The Promise trilogy[5]\n14-15 in The Search and The Rift trilogies[6]\n86 in Book Four: Balance of The Legend of Korra[7]",
+          "died": [
+            "12 in Avatar: The Last Airbender[4]",
+            "13-14 in The Promise trilogy[5]",
+            "14-15 in The Search and The Rift trilogies[6]",
+            "86 in Book Four: Balance of The Legend of Korra[7]"
+          ]
+        },
+        "physicalDescription": {
+          "gender": "Female",
+          "eyeColor": "Sea foam green (glazed over)",
+          "hairColor": "Black (white in old age)",
+          "skinColor": "Light"
+        },
+        "personalInformation": {
+          "loveInterest": "Kanto (father of Lin; formerly)\nSatoru (formerly)\nSokka (formerly)[8]\nSuyin's father (formerly)",
+          "allies": [
+            "Aang",
+            "Katara",
+            "Sokka",
+            "Appa",
+            "Momo",
+            "Zuko",
+            "Suki",
+            "Metalbending Police Force",
+            "Iroh",
+            "Lin",
+            "Suyin",
+            "Order of the White Lotus",
+            "badgermoles",
+            "Team Beifong",
+            "Korra",
+            "Opal Beifong"
+          ],
+          "enemies": [
+            "Ozai",
+            "Zuko (formerly)",
+            "Azula",
+            "Yakone",
+            "Long Feng",
+            "the Dai Li",
+            "Yu",
+            "Xin Fu",
+            "Combustion Man",
+            "Kunyo",
+            "Fire Nation (formerly)",
+            "Kuvira (formerly)",
+            "military of the Earth Empire"
+          ],
+          "weaponsOfChoice": ["Earth", "metal"],
+          "fightingStyles": ["Earthbending (Chu Gar Praying Mantis); metalbending"]
+        },
+        "politicalInformation": {
+          "profession": "\n",
+          "position": [
+            "Chief of Police in Republic City (retired)",
+            "Earthbending master",
+            "Founder of the Metalbending Police Force",
+            "Gubernatorial candidate for the State of Gaoling (formerly)",
+            "Inventor of metalbending",
+            "Matriarch of the Beifong family",
+            "Metalbending master",
+            "Proprietor of the Beifong Metalbending Academy",
+            "Representative of the Earthen Fire Industries"
+          ],
+          "predecessor": "Sud (as the Avatar's earthbending master)",
+          "successor": "Beifong family\nEarth Kingdom\nEarth Rumble (formerly)\nEarthen Fire Industries\nMetalbending Police Force\nTeam Avatar\nTeam Beifong",
+          "affiliations": "NA"
+        },
+        "chronologicalInformation": {
+          "firstAppearance": "\"The Swamp\"(vision)\n\"The Blind Bandit\"(actual)",
+          "lastAppearance": ["Ruins of the Empire Part Three (chronological)"],
+          "voicedBy": [
+            "Jessie Flower (in Avatar: The Last Airbender)",
+            "Kate Higgins (in Books One and Three of The Legend of Korra)",
+            "Philece Sampler (in Book Four: Balance of The Legend of Korra)"
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "name": "蘇科 [3]",
+        "image": "https://static.wikia.nocookie.net/avatar/images/4/4b/Zuko.png/revision/latest/scale-to-width-down/333?cb=20180630112142",
+        "bio": {
+          "alternativeNames": [
+            "Lee (while exiled in the Earth Kingdom)",
+            "Zuzu (by Azula and Kiyi)",
+            "The Blue Spirit (while masked as such)"
+          ],
+          "nationality": "Fire Nation Capital, Fire Nation",
+          "ethnicity": "Fire Nation",
+          "ages": [
+            "16 in Avatar: The Last Airbender[4]",
+            "17-18 in The Promise trilogy[5]",
+            "18-19 in The Search trilogy[6]",
+            "87-88 in Book Three: Change of The Legend of Korra[7]",
+            "90-91 in Book Four: Balance"
+          ],
+          "born": "83 AG",
+          "died": ["83 AG"]
+        },
+        "physicalDescription": {
+          "gender": "Male",
+          "eyeColor": "Gold",
+          "hairColor": "Dark brown/black (white in old age)",
+          "skinColor": "Light"
+        },
+        "personalInformation": {
+          "loveInterest": "Jin (formerly)\nMai (girlfriend; formerly)",
+          "allies": [
+            "Iroh",
+            "Ursa",
+            "Izumi",
+            "Noren",
+            "Aang",
+            "Appa",
+            "Azula (formerly)",
+            "Katara",
+            "Momo",
+            "Sokka",
+            "Suki",
+            "Toph",
+            "Ozai (formerly)",
+            "Hakoda",
+            "Mai",
+            "Ty Lee",
+            "General Iroh",
+            "Jin",
+            "June",
+            "Kiyi",
+            "Lu Ten",
+            "Fire Nation military",
+            "Kyoshi Warriors",
+            "Order of the White Lotus",
+            "Druk",
+            "Tonraq",
+            "Korra",
+            "Desna",
+            "Eska",
+            "Tenzin",
+            "Lin Beifong",
+            "Team Avatar"
+          ],
+          "enemies": [
+            "Azula",
+            "Ozai",
+            "Azulon",
+            "Jet",
+            "Combustion Man",
+            "Zhao",
+            "Gow",
+            "the Rough Rhinos",
+            "Team Avatar (formerly)",
+            "Red Lotus",
+            "Earth Kingdom Army (formerly)",
+            "Ukano",
+            "New Ozai Society"
+          ],
+          "weaponsOfChoice": ["Fire", "dual broadswords"],
+          "fightingStyles": ["Firebending (Dancing Dragon)", "dual dao swordsmanship"]
+        },
+        "politicalInformation": {
+          "profession": "\n",
+          "position": [
+            "Ambassador",
+            "Co-founder of the United Republic of Nations",
+            "Crown Prince of the Fire Nation (formerly)",
+            "Fire Lord[9] (formerly)",
+            "Firebending master",
+            "Lord[10]",
+            "Sword fighting master",
+            "Traitor to the Fire Nation (amnestied)"
+          ],
+          "predecessor": "100 AG – 167 AG (67 years)[7]",
+          "successor": "Ozai (as Fire Lord)\nJeong Jeong (as the Avatar's firebending master)",
+          "affiliations": "NA"
+        },
+        "chronologicalInformation": {
+          "firstAppearance": "\"The Boy in the Iceberg\"",
+          "lastAppearance": ["\"The Coronation\"(chronological)"],
+          "voicedBy": ["Elijah Runcorn (young Zuko)", "Dante Basco", "Bruce Davison (in The Legend of Korra)"]
+        }
+      },
+      {
+        "id": 8,
+        "image": "https://static.wikia.nocookie.net/avatar/images/1/14/Suki.png/revision/latest/scale-to-width-down/333?cb=20130819094354",
+        "bio": {
+          "alternativeNames": "NA",
+          "nationality": "Earth Kingdom",
+          "ethnicity": "NA",
+          "ages": "NA",
+          "born": "NA",
+          "died": "NA"
+        },
+        "physicalDescription": {
+          "gender": "Female",
+          "eyeColor": "Blue",
+          "hairColor": "Auburn",
+          "skinColor": "Light"
+        },
+        "personalInformation": {
+          "loveInterest": "Sokka (boyfriend)",
+          "allies": [
+            "Kyoshi Warriors",
+            "Oyaji",
+            "Sokka",
+            "Katara",
+            "Aang",
+            "Toph",
+            "Zuko",
+            "Appa",
+            "Momo",
+            "Mai",
+            "Ty Lee",
+            "Iroh",
+            "Order of the White Lotus"
+          ],
+          "enemies": ["Ozai", "Azula", "the warden", "Fire Nation (formerly)", "Zuko (formerly)", "Ty Lee (formerly)"],
+          "weaponsOfChoice": ["War fans", "katana"],
+          "fightingStyles": ["Tessenjutsu", "chi blocking"]
+        },
+        "politicalInformation": {
+          "profession": "\n",
+          "position": [
+            "Fire Nation prisoner (formerly)",
+            "Kyoshi Warriors' leader",
+            "Member of Team Avatar",
+            "Fire Lord Zuko's guard"
+          ],
+          "predecessor": "Earth Kingdom\nKyoshi Warriors\nTeam Avatar",
+          "successor": "NA",
+          "affiliations": "NA"
+        },
+        "chronologicalInformation": {
+          "firstAppearance": "\"The Warriors of Kyoshi\"",
+          "lastAppearance": "NA",
+          "voicedBy": "NA"
+        }
+      },
+      {
+        "id": 9,
+        "name": "Iroh",
+        "image": "https://static.wikia.nocookie.net/avatar/images/c/c1/Iroh_smiling.png/revision/latest/scale-to-width-down/333?cb=20130626131914",
+        "bio": {
+          "alternativeNames": [
+            "Mushi (while in the Earth Kingdom)",
+            "The Dragon of the West",
+            "Uncle (by Zuko and Azula)"
+          ],
+          "nationality": "Fire Nation Capital, Fire Nation",
+          "ethnicity": "Fire Nation",
+          "ages": "NA",
+          "born": "NA",
+          "died": "NA"
+        },
+        "physicalDescription": {
+          "gender": "Male",
+          "eyeColor": "Amber",
+          "hairColor": "Gray (Brown in youth, white in the Spirit World)",
+          "skinColor": "Light"
+        },
+        "personalInformation": {
+          "loveInterest": "Zuko, Team Avatar, Order of the White Lotus, Ursa, Azulon, Ilah, Lu Ten, Ran and Shaw, Azula (formerly), Ming, Korra, Tenzin, Bumi, Kya",
+          "allies": ["Ozai", "Azula", "Zhao", "Dai Li", "Rough Rhinos", "Fire Nation (formerly)"],
+          "enemies": ["Fire"],
+          "weaponsOfChoice": ["Firebending"],
+          "fightingStyles": "NA"
+        },
+        "politicalInformation": {
+          "profession": "\n",
+          "position": [
+            "Crown Prince of the Fire Nation (formerly)",
+            "\"Finest Tea Brewer in Ba Sing Se\"[3]",
+            "Fire Nation traitor (formerly)",
+            "Fire Nation prisoner (formerly)",
+            "Firebending master",
+            "General (retired)",
+            "Grand Lotus of the Order of the White Lotus",
+            "Interim Fire Lord (during Zuko's absence in 101 AG)",
+            "Jasmine Dragon teashop founder and owner",
+            "Spirit"
+          ],
+          "predecessor": "Azulon (as Heir to the Fire Lord)",
+          "successor": "Zuko (as Heir to the Fire Lord)",
+          "affiliations": [
+            "Fire Nation",
+            "Fire Nation military (formerly)",
+            "Fire Nation Royal Family",
+            "Jasmine Dragon",
+            "Order of the White Lotus",
+            "Spirit World"
+          ]
+        },
+        "chronologicalInformation": {
+          "firstAppearance": "\"The Boy in the Iceberg\"",
+          "lastAppearance": ["\"The Ultimatum\"(chronological)"],
+          "voicedBy": [
+            "Mako Iwamatsu (Book One: Water and Book Two: Earth)",
+            "Greg Baldwin (Book Three: Fire and The Legend of Korra)"
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "name": "Ozai",
+        "image": "https://static.wikia.nocookie.net/avatar/images/4/4a/Ozai.png/revision/latest/scale-to-width-down/333?cb=20130612170743",
+        "bio": {
+          "alternativeNames": "NA",
+          "nationality": "Fire Nation",
+          "ethnicity": "40s in Avatar: The Last Airbender[nb 1]",
+          "ages": "NA",
+          "born": "NA",
+          "died": "NA"
+        },
+        "physicalDescription": {
+          "gender": "Male",
+          "eyeColor": "Amber",
+          "hairColor": "Black",
+          "skinColor": "Light"
+        },
+        "personalInformation": {
+          "loveInterest": "Ursa (wife; separated)",
+          "allies": [
+            "Fire Nation (formerly)",
+            "his loyalists",
+            "Azula",
+            "Zuko (formerly)",
+            "Fire Nation military (formerly)",
+            "Zhao",
+            "Ursa (formerly)",
+            "Ukano"
+          ],
+          "enemies": ["Team Avatar", "Zuko", "Iroh", "Water Tribes", "Earth Kingdom", "Ursa", "Ikem", "Azulon"],
+          "weaponsOfChoice": ["Fire (formerly)", "lightning (formerly)"],
+          "fightingStyles": ["Firebending (formerly)", "lightning generation (formerly)"]
+        },
+        "politicalInformation": {
+          "profession": "\n",
+          "position": "NA",
+          "predecessor": "Azulon (as Fire Lord)",
+          "successor": "Zuko (as Fire Lord)",
+          "affiliations": ["Fire Nation", "Fire Nation Royal Family"]
+        },
+        "chronologicalInformation": {
+          "firstAppearance": "\"Winter Solstice, Part 2: Avatar Roku\"(silhouette)\n\"The Storm\"(flashback only)\n\"Zuko Alone\"(flashback only)\n(near-full-facial appearance)\n\"The Awakening\"\n(full-face appearance)",
+          "lastAppearance": "NA",
+          "voicedBy": "NA"
+        }
+      },
+      {
+        "id": 11,
+        "image": "https://static.wikia.nocookie.net/avatar/images/1/12/Azula.png/revision/latest/scale-to-width-down/333?cb=20140905084941",
+        "bio": {
+          "alternativeNames": "NA",
+          "nationality": "Fire Nation",
+          "ethnicity": "14 in Avatar: The Last Airbender[2]\n15-16 in The Promise trilogy[3]\n16-17 in The Search trilogy[4]",
+          "ages": "NA",
+          "born": "NA",
+          "died": "NA"
+        },
+        "physicalDescription": {
+          "gender": "Female",
+          "eyeColor": "Gold",
+          "hairColor": "Black",
+          "skinColor": "Light"
+        },
+        "personalInformation": {
+          "loveInterest": "Chan (love interest; formerly)",
+          "allies": [
+            "Ozai (formerly)",
+            "Zuko (formerly)",
+            "Mai (formerly)",
+            "Ty Lee (formerly)",
+            "Lo and Li (formerly)",
+            "Ursa",
+            "the Dai Li (formerly)",
+            "Fire Nation",
+            "Fire Nation military (formerly)",
+            "Fire Warriors"
+          ],
+          "enemies": [
+            "Iroh",
+            "Zuko (formerly)",
+            "Kuei",
+            "Long Feng",
+            "Mai",
+            "Ty Lee",
+            "Ursa (formerly)",
+            "Earth Kingdom",
+            "Kyoshi Warriors",
+            "Team Avatar",
+            "Water Tribe"
+          ],
+          "weaponsOfChoice": ["Fire", "lightning"],
+          "fightingStyles": ["Firebending", "lightning generation"]
+        },
+        "politicalInformation": {
+          "profession": "\n",
+          "position": "NA",
+          "predecessor": "Kuei (as earth monarch)\nLong Feng (as Head of the Dai Li)\nZuko (as Heir to the Fire Lord)",
+          "successor": "Dai Li representative (as Head of the Dai Li)\nOzai (as ruler of the Earth Kingdom)\nIzumi (as Heir to the Fire Lord)",
+          "affiliations": [
+            "Azula's team (formerly)",
+            "Dai Li (formerly)",
+            "Fire Nation",
+            "Fire Nation Royal Family",
+            "Fire Warriors",
+            "Royal Fire Academy for Girls (formerly)"
+          ]
+        },
+        "chronologicalInformation": {
+          "firstAppearance": "\"The Storm\"(flashback only)\n\"The Siege of the North, Part 2\"(actual)",
+          "lastAppearance": ["Smoke and Shadow Part Three (chronological & release order)"],
+          "voicedBy": "NA"
+        }
+      },
+      {
+        "id": 12,
+        "name": "Zhao",
+        "image": "https://static.wikia.nocookie.net/avatar/images/e/e1/Commander_Zhao.png/revision/latest/scale-to-width-down/333?cb=20140103180854",
+        "bio": {
+          "alternativeNames": "NA",
+          "nationality": "Fire Nation",
+          "ethnicity": "Fog of Lost Souls, Spirit World",
+          "ages": "NA",
+          "born": "NA",
+          "died": "NA"
+        },
+        "physicalDescription": {
+          "gender": "Male",
+          "eyeColor": "Amber",
+          "hairColor": "Gray (dark brown in youth)",
+          "skinColor": "Light"
+        },
+        "personalInformation": {
+          "loveInterest": "Ozai, Fire Nation Army, Fire Nation, Fire Nation Navy, Yuyan Archers",
+          "allies": [
+            "Aang",
+            "Katara",
+            "Iroh",
+            "Sokka",
+            "Zuko",
+            "Jeong Jeong",
+            "La",
+            "Tui",
+            "Yue",
+            "Wan Shi Tong",
+            "Water Tribes",
+            "Earth Kingdom"
+          ],
+          "enemies": ["Fire"],
+          "weaponsOfChoice": ["Firebending"],
+          "fightingStyles": "NA"
+        },
+        "politicalInformation": {
+          "profession": "\n",
+          "position": ["Firebending master[2]", "Admiral[3] (formerly)", "Prisoner in the Fog of Lost Souls[4]"],
+          "predecessor": "Fire Nation Navy",
+          "successor": "NA",
+          "affiliations": "NA"
+        },
+        "chronologicalInformation": {
+          "firstAppearance": "\"The Southern Air Temple\"",
+          "lastAppearance": "NA",
+          "voicedBy": "NA"
+        }
+      },
+      {
+        "id": 13,
+        "name": "Long Feng",
+        "image": "https://static.wikia.nocookie.net/avatar/images/8/8d/Long_Feng_scheming.png/revision/latest/scale-to-width-down/333?cb=20140510202422",
+        "bio": {
+          "alternativeNames": "NA",
+          "nationality": "Earth Kingdom",
+          "ethnicity": "NA",
+          "ages": "NA",
+          "born": "NA",
+          "died": "NA"
+        },
+        "physicalDescription": {
+          "gender": "Male",
+          "eyeColor": "Black",
+          "hairColor": "NA",
+          "skinColor": "NA"
+        },
+        "personalInformation": {
+          "loveInterest": "The Dai Li (formerly), Joo Dee (formerly)",
+          "allies": ["Team Avatar", "Azula", "Jet", "Kuei", "Earth Kingdom", "the Dai Li"],
+          "enemies": ["Earth"],
+          "weaponsOfChoice": ["Earthbending"],
+          "fightingStyles": "NA"
+        },
+        "politicalInformation": {
+          "profession": "\n",
+          "position": [
+            "Earthbending master",
+            "Grand Secretariat of Ba Sing Se (formerly)",
+            "Head of the Dai Li (formerly)"
+          ],
+          "predecessor": "Azula (as Head of the Dai Li)",
+          "successor": "Ba Sing Se (formerly)\nDai Li (formerly)",
+          "affiliations": "NA"
+        },
+        "chronologicalInformation": {
+          "firstAppearance": "\"City of Walls and Secrets\"",
+          "lastAppearance": [
+            "\"The Crossroads of Destiny\"(actual) (chronological & release order)",
+            "Ruins of the Empire Part Two (flashback)"
+          ],
+          "voicedBy": "NA"
+        }
+      }
+    ]
   ],
   "episodes": [
     {
