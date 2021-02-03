@@ -37,13 +37,15 @@ const APIList: React.FC<Props> = () => {
       <div className="page-header">
         <h2 className="page-header__title">API List</h2>
         <p className="page-header__desc">
-          Sample APIs has a growing list of endpoints. Perfect for any learning project.
+          Sample APIs has a growing list of{" "}
+          <abbr title="The point of entry to an API">endpoints</abbr>. Perfect for any learning
+          project.
         </p>
       </div>
       <section className="section">
         <div className="section-header">
           <h3 className="section-title">
-            All <abbr title="Application Program Interface">API</abbr>s
+            {filteredList.length} <abbr title="Application Program Interface">API</abbr>s
           </h3>
           <div className="actions">
             <APISearch onChangeHandler={searchAPIName} />

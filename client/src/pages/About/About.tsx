@@ -13,7 +13,8 @@ const About: React.FC<Props> = () => {
         <p className="page-header__desc">
           An open source project to help you on your journey of learning{" "}
           <abbr title="REpresentational State Transfer">RESTful</abbr> or{" "}
-          <abbr title="Graph Query Language">GraphQL</abbr> endpoints.
+          <abbr title="Graph Query Language">GraphQL</abbr>{" "}
+          <abbr title="The point of entry to an API">endpoints</abbr>.
         </p>
         <div className="page-header-actions">
           <a
@@ -36,10 +37,12 @@ const About: React.FC<Props> = () => {
           Understanding <abbr title="REpresentational State Transfer">RESTful</abbr> or{" "}
           <abbr title="Graph Query Language">GraphQL</abbr>{" "}
           <abbr title="Application Program Interface">API</abbr>s is hard enough, even without
-          including an authentication mechanism. The sole purpose of this website is to play with
-          <abbr title="REpresentational State Transfer">RESTful</abbr> endpoints and learn. We have
-          a few endpoints that you can start playing around with right away! If you are not finding
-          anything you are interested in, create your own endpoints and submit a pull request.
+          including an authentication mechanism. The sole purpose of this website is to play with{" "}
+          <abbr title="REpresentational State Transfer">RESTful</abbr>{" "}
+          <abbr title="The point of entry to an API">endpoints</abbr> and learn. We have a few{" "}
+          <abbr title="The point of entry to an API">endpoints</abbr> that you can start playing
+          around with right away! If you are not finding anything you are interested in, create your
+          own <abbr title="The point of entry to an API">endpoints</abbr> and submit a pull request.
         </p>
         <p>
           You can use any <abbr title="Hyper Text Transfer Protocol">HTTP</abbr> verbs (GET, POST,
