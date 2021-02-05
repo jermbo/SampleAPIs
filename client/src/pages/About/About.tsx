@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBook, faCodeBranch } from "@fortawesome/free-solid-svg-icons";
+import { faBook, faCodeBranch, faList } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 interface Props {}
@@ -17,6 +17,10 @@ const About: React.FC<Props> = () => {
           <abbr title="The point of entry to an API">endpoints</abbr>.
         </p>
         <div className="page-header-actions">
+          <Link className="btn" to="/api-list">
+            <span>API List</span>
+            <FontAwesomeIcon icon={faList} />
+          </Link>
           <a
             href="https://github.com/jermbo/SampleAPIs"
             className="btn"
