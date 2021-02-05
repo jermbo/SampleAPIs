@@ -1,12 +1,10 @@
 import React, { useContext, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import "./Home.scss";
-import { faBook, faCodeBranch, faInfoCircle, faList } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import APICard from "../../components/APICard/APICard";
 import { GlobalContext } from "../../context/GlobalContext";
 import { APIData } from "../../utils/Interfaces";
+import PageHeaderActions from "../../components/PageHeaderActions/PageHeaderActions";
 
 interface Props {}
 
@@ -31,29 +29,7 @@ const Home: React.FC<Props> = () => {
           <abbr title="Graph Query Language">GraphQL</abbr>{" "}
           <abbr title="Application Programming Interface">API</abbr>s.
         </p>
-        <div className="page-header-actions">
-          <Link className="btn" to="/about">
-            <span>About</span>
-            <FontAwesomeIcon icon={faInfoCircle} />
-          </Link>
-          <Link className="btn" to="/api-list">
-            <span>API List</span>
-            <FontAwesomeIcon icon={faList} />
-          </Link>
-          <Link className="btn" to="/docs">
-            <span>Docs</span>
-            <FontAwesomeIcon icon={faBook} />
-          </Link>
-          <a
-            href="https://github.com/jermbo/SampleAPIs"
-            className="btn"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>GitHub</span>
-            <FontAwesomeIcon icon={faCodeBranch} />
-          </a>
-        </div>
+        <PageHeaderActions />
       </header>
       <div className="section">
         <div className="section-header">
