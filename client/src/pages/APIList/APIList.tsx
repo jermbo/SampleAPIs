@@ -2,6 +2,7 @@ import React, { ChangeEvent, useContext, useEffect, useState } from "react";
 import APICard from "../../components/APICard/APICard";
 import APIFilter from "../../components/APIFilter/APIFilter";
 import APISearch from "../../components/APISearch/APISearch";
+import PageHeaderActions from "../../components/PageHeaderActions/PageHeaderActions";
 import { GlobalContext } from "../../context/GlobalContext";
 
 interface Props {}
@@ -37,13 +38,16 @@ const APIList: React.FC<Props> = () => {
       <div className="page-header">
         <h2 className="page-header__title">API List</h2>
         <p className="page-header__desc">
-          Sample APIs has a growing list of endpoints. Perfect for any learning project.
+          Sample APIs has a growing list of{" "}
+          <abbr title="The point of entry to an API">endpoints</abbr>. Perfect for any learning
+          project.
         </p>
+        <PageHeaderActions currentPage="api-list" />
       </div>
       <section className="section">
         <div className="section-header">
           <h3 className="section-title">
-            All <abbr title="Application Program Interface">API</abbr>s
+            {filteredList.length} <abbr title="Application Program Interface">API</abbr>s
           </h3>
           <div className="actions">
             <APISearch onChangeHandler={searchAPIName} />

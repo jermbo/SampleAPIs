@@ -4,6 +4,7 @@ import APIList from "../pages/APIList/APIList";
 import Home from "../pages/Home/Home";
 import StyleGuide from "../pages/StyleGuide/StyleGuide";
 import NotFound from "../pages/NotFound/NotFound";
+import Docs from "../pages/Docs/Docs";
 
 const Routes = [
   {
@@ -20,6 +21,11 @@ const Routes = [
     path: "/about",
     exact: true,
     component: About,
+  },
+  {
+    path: "/docs",
+    exact: true,
+    component: Docs,
   },
   {
     path: "/api-list",
