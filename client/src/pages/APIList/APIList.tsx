@@ -2,6 +2,7 @@ import React, { ChangeEvent, useContext, useEffect, useState } from "react";
 import APICard from "../../components/APICard/APICard";
 import APIFilter from "../../components/APIFilter/APIFilter";
 import APISearch from "../../components/APISearch/APISearch";
+import PageHeaderActions from "../../components/PageHeaderActions/PageHeaderActions";
 import { GlobalContext } from "../../context/GlobalContext";
 
 interface Props {}
@@ -41,6 +42,7 @@ const APIList: React.FC<Props> = () => {
           <abbr title="The point of entry to an API">endpoints</abbr>. Perfect for any learning
           project.
         </p>
+        <PageHeaderActions currentPage="api-list" />
       </div>
       <section className="section">
         <div className="section-header">

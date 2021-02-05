@@ -1,7 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBook, faCodeBranch, faList } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+import PageHeaderActions from "../../components/PageHeaderActions/PageHeaderActions";
 
 interface Props {}
 
@@ -16,25 +14,7 @@ const About: React.FC<Props> = () => {
           <abbr title="Graph Query Language">GraphQL</abbr>{" "}
           <abbr title="The point of entry to an API">endpoints</abbr>.
         </p>
-        <div className="page-header-actions">
-          <Link className="btn" to="/api-list">
-            <span>API List</span>
-            <FontAwesomeIcon icon={faList} />
-          </Link>
-          <a
-            href="https://github.com/jermbo/SampleAPIs"
-            className="btn"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>GitHub</span>
-            <FontAwesomeIcon icon={faCodeBranch} />
-          </a>
-          <Link className="btn" to="/docs">
-            <span>Docs</span>
-            <FontAwesomeIcon icon={faBook} />
-          </Link>
-        </div>
+        <PageHeaderActions currentPage="about" />
       </header>
       <section className="section">
         <p>
