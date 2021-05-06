@@ -6,6 +6,8 @@ import CodeDisplay from "../../components/CodeDisplay/CodeDisplay";
 import { GlobalContext } from "../../context/GlobalContext";
 import { APIData } from "../../utils/Interfaces";
 import { URLS } from "../../utils/Config";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 interface ParamTypes {
   id: string;
@@ -45,11 +47,11 @@ const APIDetails: React.FC<Props> = () => {
         <h2 className="page-header__title">{singleAPI.metaData.title}</h2>
         <APICategories categories={singleAPI.metaData.categories} />
         <p className="page-header__desc">{singleAPI.metaData.longDesc}</p>
+        <p>Endpoint: <a href={thisApiEndpoint} target="_blank" style={{ color: "white", textDecoration: "underline"  }}>{thisApiEndpoint}</a>&nbsp;<FontAwesomeIcon icon={faLink} /></p>
       </header>
       <div className="section">
         <div className="section-header">
-          <h3 className="section-title">API Endpoint: <a href={thisApiEndpoint} target="_blank" style={{ color: "white",  }}>{thisApiEndpoint}</a></h3>
-          <h3 className="section-title">All Available Endpoints</h3>
+          <h3 className="section-title">All other available endpoints</h3>
           <APIEndpoints
             urlBase={singleAPI.link}
             endpoints={singleAPI.endpoints}
