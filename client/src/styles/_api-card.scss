@@ -86,6 +86,11 @@
       outline: 2px solid var(--card-color);
     }
   }
+  
+  .noleftmargin {
+    margin-left: 0;
+    padding-left: 0;
+  }
 }
 
 .api-card__desc {
