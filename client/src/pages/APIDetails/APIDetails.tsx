@@ -5,6 +5,7 @@ import APIEndpoints from "../../components/Endpoints/Endpoints";
 import CodeDisplay from "../../components/CodeDisplay/CodeDisplay";
 import { GlobalContext } from "../../context/GlobalContext";
 import { APIData } from "../../utils/Interfaces";
+import { URLS } from "../../utils/Config";
 
 interface ParamTypes {
   id: string;
@@ -17,12 +18,19 @@ const APIDetails: React.FC<Props> = () => {
   const { apiList } = useContext(GlobalContext);
   const [singleAPI, setSingleAPI] = useState({} as APIData);
   const [singleEndpoint, setSingleEndpoint] = useState("");
-
+  const [thisApiEndpoint, setThisApiEndpoint] = useState("");
+  
   useEffect(() => {
     const api = apiList.filter((a) => a.name === id)[0];
     setSingleEndpoint(api?.endpoints[0]);
     setSingleAPI(api);
   }, [id, apiList]);
+  
+  useEffect(() => {
+    if(singleAPI && singleAPI.link) {
+      setThisApiEndpoint(`${URLS.API_LINK}/${singleAPI.link}/${singleEndpoint}`);
+    }
+  }, [singleAPI, singleEndpoint]);
 
   if (!singleAPI?.metaData) {
     return <h1>Loading</h1>;
@@ -40,7 +48,8 @@ const APIDetails: React.FC<Props> = () => {
       </header>
       <div className="section">
         <div className="section-header">
-          <h3 className="section-title">Available Endpoints</h3>
+          <h3 className="section-title">API Endpoint: <a href={thisApiEndpoint} target="_blank" style={{ color: "white",  }}>{thisApiEndpoint}</a></h3>
+          <h3 className="section-title">All Available Endpoints</h3>
           <APIEndpoints
             urlBase={singleAPI.link}
             endpoints={singleAPI.endpoints}
