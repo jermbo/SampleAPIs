@@ -47,7 +47,7 @@ const APIDetails: React.FC<Props> = () => {
         <h2 className="page-header__title">{singleAPI.metaData.title}</h2>
         <APICategories categories={singleAPI.metaData.categories} />
         <p className="page-header__desc">{singleAPI.metaData.longDesc}</p>
-        <p>Endpoint: <a href={thisApiEndpoint} target="_blank" style={{ color: "white", textDecoration: "underline"  }}>{thisApiEndpoint}</a>&nbsp;<FontAwesomeIcon icon={faLink} /></p>
+        <p>Endpoint: <a href={thisApiEndpoint} target="_blank"  rel="noreferrer" style={{ color: "white", textDecoration: "underline"  }}>{thisApiEndpoint}</a>&nbsp;<FontAwesomeIcon icon={faLink} /></p>
       </header>
       <div className="section">
         <div className="section-header">
