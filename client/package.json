@@ -24,9 +24,9 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.6.3",
+    "@testing-library/user-event": "^13.1.9",
     "@types/jest": "^26.0.20",
-    "@types/node": "^14.14.22",
+    "@types/node": "^15.6.1",
     "@types/query-string": "^6.3.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
