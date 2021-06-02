@@ -15,9 +15,9 @@ export interface iGlobal {
 }
 
 export interface FetchState<T> {
-  status: number,
-  data: T | null,
-  error?: string,
+  status: number;
+  data: T | null;
+  error?: string;
 }
 
 export interface APIListResponse {
@@ -37,4 +37,13 @@ export interface MetaData {
   desc: string;
   featured: boolean;
   categories: string[];
+  examples: Example[];
+}
+
+export interface Example {
+  hash: string;
+  user: string;
+  defaultTab: string;
+  title: string;
+  endpoint: string;
 }
