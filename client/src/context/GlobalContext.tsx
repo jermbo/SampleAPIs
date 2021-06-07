@@ -59,7 +59,11 @@ const GlobalProvider: React.FC = ({ children }) => {
     apiCategories,
     setApiCategories,
   };
-  return <GlobalContext.Provider value={values}>{children}</GlobalContext.Provider>;
+  return (
+    <GlobalContext.Provider value={values}>
+      <>{children}</>
+    </GlobalContext.Provider>
+  );
 };
 
 export default GlobalProvider;
