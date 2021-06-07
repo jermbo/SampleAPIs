@@ -29,7 +29,7 @@ const APIDetails: React.FC<Props> = () => {
     if (!singleAPI) return;
 
     const newExampleList =
-      singleAPI.metaData?.examples.filter((e) => e.endpoint === singleEndpoint) || [];
+      singleAPI.metaData?.examples?.filter((e) => e.endpoint === singleEndpoint) || [];
     setExampleList(newExampleList);
   }, [singleAPI, singleEndpoint]);
 
