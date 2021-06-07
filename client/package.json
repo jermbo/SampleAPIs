@@ -15,6 +15,7 @@
     "codemirror": "^5.59.2",
     "react": "^17.0.1",
     "react-codemirror2": "^7.2.1",
+    "react-codepen-embed": "^1.0.2",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.1",
