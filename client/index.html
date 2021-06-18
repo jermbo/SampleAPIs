@@ -2,14 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="/assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="apple-touch-icon" href="/assets/logo192.png" />
+    <link rel="manifest" href="/assets/manifest.json" />
 
     <title>Sample APIs</title>
-    <link rel="stylesheet" href="/assets/styles/home-styles.css" />
-    <link rel="stylesheet" href="/assets/styles/code.css" />
+
     <!-- FACEBOOK-->
     <meta property="og:title" content="Sample APIs" />
     <meta property="og:site_name" content="Sample APIs" />
@@ -29,6 +28,16 @@
     <meta property="twitter:image" content="https://sampleapis.com/assets/images/poster.jpg" />
     <meta property="twitter:image:alt" content="Sample APIs" />
 
+    <!--
+      Not sure why this `window.global = window;` is necessary, but it fixes
+      the problems with the CodeMirror.
+      Uncaught ReferenceError: global is not defined
+      at node_modules/react-codemirror2/index.js 
+    -->
+    <script>
+      window.global = window;
+    </script>
+
     <!-- Global site tag (gtag.js) - Google Analytics-->
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-125356349-1"></script>
     <script>
@@ -41,7 +50,7 @@
     </script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="main-wrapper"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
