@@ -379,7 +379,7 @@
       },
       "images": {
         "head-shot": "",
-        "main": "https://static.wikia.nocookie.net/enfuturama/images/9/94/AmyWong.png/revision/latest/scale-to-width-down/160?cb=20170123190854"
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/9/94/AmyWong.png"
       },
       "age": "30",
       "gender": "Female",
@@ -405,7 +405,7 @@
       },
       "images": {
         "head-shot": "",
-        "main": "https://static.wikia.nocookie.net/enfuturama/images/0/0d/Hermes.png/revision/latest/scale-to-width-down/216?cb=20170719011119"
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/0/0d/Hermes.png"
       },
       "age": "52",
       "gender": "Male",
@@ -420,7 +420,9 @@
         "My Speedos!",
         "My manwich!",
         "Welcome to stampy-town, population five.",
-        "That's a calculator. I ate it to gain its power."
+        "That's a calculator. I ate it to gain its power.",
+        "Sweet giant anteater of Santa Anita!",
+        "Sweet something... of... someplace..."
       ],
       "id": 6
     },
@@ -432,7 +434,7 @@
       },
       "images": {
         "head-shot": "",
-        "main": "https://static.wikia.nocookie.net/enfuturama/images/d/d9/Mom.png/revision/latest?cb=20170123190703"
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/d/d9/Mom.png"
       },
       "age": "150",
       "gender": "Female",
@@ -450,7 +452,7 @@
       },
       "images": {
         "head-shot": "",
-        "main": "https://static.wikia.nocookie.net/enfuturama/images/4/4a/Dr_John_Zoidberg.png/revision/latest/scale-to-width-down/253?cb=20200505073458"
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/4/4a/Dr_John_Zoidberg.png"
       },
       "age": "40",
       "gender": "Male",
@@ -476,7 +478,7 @@
       },
       "images": {
         "head-shot": "",
-        "main": "https://static.wikia.nocookie.net/enfuturama/images/7/73/Zapp-Brannigan.png/revision/latest/scale-to-width-down/346?cb=20200506091829"
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/7/73/Zapp-Brannigan.png"
       },
       "age": "40",
       "gender": "Male",
@@ -508,7 +510,7 @@
       },
       "images": {
         "head-shot": "",
-        "main": "https://static.wikia.nocookie.net/enfuturama/images/c/c5/Lurr.png/revision/latest/scale-to-width-down/250?cb=20130329124434"
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/c/c5/Lurr.png"
       },
       "age": "Unknown",
       "gender": "Male",
@@ -531,6 +533,10 @@
         "middle": "",
         "last": "Scruffington"
       },
+      "images": {
+        "head-shot": "",
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/1/10/Scruffy.png"
+      },
       "age": "53",
       "gender": "Male",
       "species": "Human",
@@ -544,6 +550,10 @@
         "middle": "J",
         "last": "Farnsworth"
       },
+      "images": {
+        "head-shot": "",
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/7/7e/CubertFarnsworth.png"
+      },
       "age": "13",
       "gender": "Male",
       "species": "Human",
@@ -556,6 +566,10 @@
         "first": "Kif",
         "middle": "",
         "last": "Kroker"
+      },
+      "images": {
+        "head-shot": "",
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/8/88/Kif-Kroker.png"
       },
       "age": "32",
       "gender": "Male",
@@ -572,6 +586,10 @@
         "middle": "",
         "last": "Conrad"
       },
+      "images": {
+        "head-shot": "",
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/d/d7/Dwight.png"
+      },
       "age": "12",
       "gender": "Male",
       "species": "Human",
@@ -584,6 +602,10 @@
         "first": "LaBarbara",
         "middle": "",
         "last": "Conrad"
+      },
+      "images": {
+        "head-shot": "",
+        "main": "https://static.wikia.nocookie.net/enfuturama/images/e/e4/LaBarbara_Conrad-1-.jpg"
       },
       "age": "35",
       "gender": "Female",
