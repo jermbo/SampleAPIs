@@ -4,18 +4,10 @@ module.exports = [
     title: "Futurama",
     longDesc:
       "If you are a Futurama fan, then this api is for you. Here you can find everything from Episodes to Characters to Trivia Questions, and even some of the Products featured on the show.",
-    desc:
-      "An API with characters, episode listing, species, planets, and trivia questions.",
+    desc: "An API with characters, episode listing, species, planets, and trivia questions.",
     link: "futurama",
     graphLink: "futurama/graphql",
-    endPoints: [
-      "info",
-      "characters",
-      "cast",
-      "episodes",
-      "questions",
-      "inventory",
-    ]
+    endPoints: ["info", "characters", "cast", "episodes", "questions", "inventory"],
   },
   {
     id: 2,
@@ -45,18 +37,17 @@ module.exports = [
       "battingAvgsSingleSeason",
       "battingAvgsCareer",
       "rbiSingleSeason",
-      "rbiCareer"
-    ]
+      "rbiCareer",
+    ],
   },
   {
     id: 4,
     title: "Recipes",
-    longDesc:
-      "Because everyone is making a recipe app to learn to code. So, here is some data.",
+    longDesc: "Because everyone is making a recipe app to learn to code. So, here is some data.",
     desc: "A recipe database",
     link: "recipes",
     graphLink: "recipes/graphql",
-    endPoints: ["recipes"]
+    endPoints: ["recipes"],
   },
   {
     id: 5,
@@ -66,7 +57,7 @@ module.exports = [
     desc: "Just a random set of fake bank data.",
     link: "fakebank",
     graphLink: "fakebank/graphql",
-    endPoints: ["Accounts"]
+    endPoints: ["Accounts"],
   },
   {
     id: 6,
@@ -76,12 +67,7 @@ module.exports = [
     desc: "An API with records and trivia questions.",
     link: "football",
     graphLink: "football/graphql",
-    endPoints: [
-      "passingyards-singleseason",
-      "passingyards-career",
-      "passingtd-singleseason",
-      "passingtd-career"
-    ]
+    endPoints: ["passingyards-singleseason", "passingyards-career", "passingtd-singleseason", "passingtd-career"],
   },
   {
     id: 7,
@@ -91,7 +77,7 @@ module.exports = [
     desc: "An API with information about countries.",
     link: "countries",
     graphLink: "countries/graphql",
-    endPoints: ["countries"]
+    endPoints: ["countries"],
   },
   {
     id: 8,
@@ -101,13 +87,12 @@ module.exports = [
     desc: "Millions of peaches! No...not those Presidents...",
     link: "presidents",
     graphLink: "presidents/graphql",
-    endPoints: ["presidents"]
+    endPoints: ["presidents"],
   },
   {
     id: 9,
     title: "Simpsons",
-    longDesc:
-      "Because who doesn't need easily accessible data about the simpsons?",
+    longDesc: "Because who doesn't need easily accessible data about the simpsons?",
     desc: "Because who doesn't need easily accessible data about the simpsons?",
     link: "simpsons",
     graphLink: "simpsons/graphql",
@@ -131,7 +116,7 @@ module.exports = [
       "mystery",
       "scifi-fantasy",
       "western",
-    ]
+    ],
   },
   {
     id: 12,
@@ -140,7 +125,7 @@ module.exports = [
     desc: "Wines",
     link: "wines",
     graphLink: "wines/graphql",
-    endPoints: ["reds", "whites", "sparkling", "rose", "desert", "port"]
+    endPoints: ["reds", "whites", "sparkling", "rose", "desert", "port"],
   },
   {
     id: 13,
@@ -150,7 +135,7 @@ module.exports = [
     desc: "An API with health and medical information",
     link: "health",
     graphLink: "health/graphql",
-    endPoints: ["professions"]
+    endPoints: ["professions"],
   },
   {
     id: 13,
@@ -159,7 +144,7 @@ module.exports = [
     desc: "Beers",
     link: "beers",
     graphLink: "beers/graphql",
-    endPoints: ["ale", "stout", "red-ale"]
+    endPoints: ["ale", "stout", "red-ale"],
   },
   {
     id: 14,
@@ -168,7 +153,7 @@ module.exports = [
     desc: "Figured it would be fun to have a Switch game list on here.",
     link: "switch",
     graphLink: "switch/graphql",
-    endPoints: ["games"]
+    endPoints: ["games"],
   },
   {
     id: 15,
@@ -177,7 +162,7 @@ module.exports = [
     desc: "Figured it would be fun to have a PlayStation game list on here.",
     link: "playstation",
     graphLink: "playstation/graphql",
-    endPoints: ["games"]
+    endPoints: ["games"],
   },
   {
     id: 16,
@@ -186,7 +171,7 @@ module.exports = [
     desc: "Figured it would be fun to have a Xbox game list on here.",
     link: "xbox",
     graphLink: "xbox/graphql",
-    endPoints: ["games"]
+    endPoints: ["games"],
   },
   {
     id: 17,
@@ -195,48 +180,53 @@ module.exports = [
     desc: "A place to hold lessons for Typer",
     link: "typer",
     graphLink: "typer/graphql",
-    endPoints: ["welcomeQuestions", "webLessons", "typingLessons"]
+    endPoints: ["welcomeQuestions", "webLessons", "typingLessons"],
   },
   {
     id: 18,
     title: "CSS Color Names",
-    longDesc: "Thought it would be cool to include different CSS Colors Names. I was inspired when I found this site, https://xkcd.com/color/rgb/.",
+    longDesc:
+      "Thought it would be cool to include different CSS Colors Names. I was inspired when I found this site, https://xkcd.com/color/rgb/.",
     desc: "A list of CSS Color Names",
-    link: "css-color-names",
-    graphLink: "css-color-names/graphql",
-    endPoints: ["colors"]
+    link: "cssColorNames",
+    graphLink: "cssColorNames/graphql",
+    endPoints: ["colors"],
   },
   {
     id: 19,
     title: "The United States",
-    longDesc: "Info about the all the 50 states in the United States. The endpoint includes the name, abbreviation, capital, largest city, date admitted to union, population, and state flag.",
+    longDesc:
+      "Info about the all the 50 states in the United States. The endpoint includes the name, abbreviation, capital, largest city, date admitted to union, population, and state flag.",
     desc: "Info about the all the 50 states in the United States.",
-    link: "the-states",
-    graphLink: "the-states/graphql",
+    link: "theStates",
+    graphLink: "theStates/graphql",
     endPoints: ["the-states"],
   },
   {
     id: 20,
     title: "Cartoons",
-    longDesc: "If cartoons is what you like then boy do we have a full list of all the cartoons from the past and present and all their details including a amazingly sourced image to showcase",
+    longDesc:
+      "If cartoons is what you like then boy do we have a full list of all the cartoons from the past and present and all their details including a amazingly sourced image to showcase",
     desc: "A list of Cartoons from your past.",
     link: "cartoons",
     graphLink: "cartoons/graphql",
-    endPoints: ["cartoons2D", "cartoons3D",],
+    endPoints: ["cartoons2D", "cartoons3D"],
   },
   {
     id: 21,
     title: "Coding Resources",
-    longDesc: "Women Who Code.com is an amazing community and organization. They have an amazing resource in https://www.womenwhocode.com/resources. Here you'll find their 170 resources in an API for easy search, list and share. Please give a link BACK to WomenWhoCode.com if you use this information.",
+    longDesc:
+      "Women Who Code.com is an amazing community and organization. They have an amazing resource in https://www.womenwhocode.com/resources. Here you'll find their 170 resources in an API for easy search, list and share. Please give a link BACK to WomenWhoCode.com if you use this information.",
     desc: "API for all coding resources from https://www.womenwhocode.com/resources",
     link: "codingResources",
     graphLink: "codingResources/graphql",
-    endPoints: ["codingResources",],
+    endPoints: ["codingResources"],
   },
   {
     id: 22,
     title: "Rick And Morty",
-    longDesc: "Get all the Rick-iest Episodes, Locations and Characters from a copy of the https://rickandmortyapi.com data. That's the way Rick would have done it!",
+    longDesc:
+      "Get all the Rick-iest Episodes, Locations and Characters from a copy of the https://rickandmortyapi.com data. That's the way Rick would have done it!",
     desc: "API for all current Rick & Morty episodes, locations and characters",
     link: "rickandmorty",
     graphLink: "rickandmorty/graphql",
