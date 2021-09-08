@@ -6,6 +6,8 @@ const jsonGraphqlExpress = require("json-graphql-server");
 const { apiLimits } = require("../utils/rateLimiterDefaults");
 const { getFromFile } = require("../utils/utils");
 
+const { verifyData } = require("../utils/verifyData");
+
 const ApiList = require("../apiList");
 
 const router = express.Router();
@@ -21,7 +23,7 @@ ApiList.forEach(({ link }) => {
     console.error(err);
   }
 
-  router.use(`/${link}`, apiLimits, jsonServer.router(dataPath));
+  router.use(`/${link}`, verifyData, apiLimits, jsonServer.router(dataPath));
 });
 
 module.exports = router;
