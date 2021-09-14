@@ -3,49 +3,73 @@ const path = require("path");
 const fs = require("fs");
 const router = express.Router();
 const ApiList = require("../apiList");
+const { checkJSONDifference } = require("../utils/checkJSONDifference");
 
 // Reset API Route
-router.get("/all", (req, res) => {
-  ApiList.forEach((page) => {
+router.get("/all", async (req, res) => {
+  let anyDifferent = false;
+
+  await ApiList.forEach(async (page) => {
     const api = page.link;
-    fs.copyFile(
-      path.join(__dirname, `../api/${api}.json.backup`),
-      path.join(__dirname, `../api/${api}.json`),
-      (err) => {
+
+    const backupFile = path.join(__dirname, `../api/${api}.json.backup`);
+    const mainFile = path.join(__dirname, `../api/${api}.json`);
+
+    anyDifferent = await checkJSONDifference(mainFile, backupFile);
+
+    if (anyDifferent) {
+      console.log(api + " was different, changing now");
+      fs.copyFile(backupFile, mainFile, (err) => {
         if (err) {
           console.log(err);
         }
-      },
-    );
+      });
+    }
   });
 
-  res.render("api-reset", {
-    title: "Everything",
-  });
-
-  // Need to figure out how to get this to exit and not cause an infinite reload loop
-  // process.exit(1);
+  if (anyDifferent) {
+    console.log("there were differences, i should reset");
+    process.exit(1);
+  } else {
+    console.log("nothing changed... dont reset");
+    res.render("api-reset", {
+      title: "Reset Everything",
+    });
+  }
 });
 
 // Main EndPoint Route
-router.get("/:id", (req, res) => {
+router.get("/:id", async (req, res) => {
   const id = req.params.id.toLowerCase();
   const data = ApiList.filter((api) => id == api.link.toLowerCase())[0];
   const api = data.link;
-  fs.copyFile(path.join(__dirname, `../api/${api}.json.backup`), path.join(__dirname, `../api/${api}.json`), (err) => {
-    if (err) {
-      console.log(err);
-    }
-  });
+
+  const backupFile = path.join(__dirname, `../api/${api}.json.backup`);
+  const mainFile = path.join(__dirname, `../api/${api}.json`);
+
+  const anyDifferent = await checkJSONDifference(mainFile, backupFile);
+
+  if (anyDifferent) {
+    fs.copyFile(backupFile, mainFile, (err) => {
+      if (err) {
+        console.log(err);
+      }
+    });
+  }
 
   res.render("api-reset", {
     ...data,
   });
 
-  res.redirect("/");
-
-  // Need to figure out how to get this to exit and not cause an infinite reload loop
-  // process.exit(1);
+  if (anyDifferent) {
+    // console.log("there were differences, i should reset");
+    process.exit(1);
+  } else {
+    // console.log("nothing changed... dont reset");
+    res.render("api-reset", {
+      ...data,
+    });
+  }
 });
 
 module.exports = router;
