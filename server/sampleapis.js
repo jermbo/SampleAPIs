@@ -10,8 +10,6 @@ const ApiList = require("./apiList");
 const app = express();
 const port = process.env.PORT || 5555;
 
-
-const APIList = require("./apiList");
 // JSON Parser
 
 // parse application/json
@@ -42,7 +40,7 @@ const create = require("./routes/create-apis");
 
 app.get("/", (req, res) => {
   res.render("index", {
-    apiList: JSON.stringify(ApiList)
+    apiList: JSON.stringify(ApiList),
   });
 });
 
