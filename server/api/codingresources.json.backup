@@ -3,7 +3,7 @@
     {
       "title": "Coding Resources",
       "longDesc": "Women Who Code.com is an amazing community and organization. They have an amazing resource in https://www.womenwhocode.com/resources. Here you'll find their 170 resources in an API for easy search, list and share. Please give a link BACK to WomenWhoCode.com if you use this information.",
-      "desc": "API for all coding resources from https://www.womenwhocode.com/resources",
+      "desc": "API for all coding resources from womenwhocode.com/resources",
       "featured": true,
       "categories": ["list", "education", "coding"]
     }
