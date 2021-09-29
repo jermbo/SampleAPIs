@@ -4,10 +4,8 @@ const { getFromFile } = require("./utils");
 const verifyData = (req, res, next) => {
   const { method, originalUrl, body } = req;
   const [baseParent, endPoint] = originalUrl.split("/").filter((d) => d);
-
   const dataPath = path.join(__dirname, `../api/${baseParent}.json`);
   const data = getFromFile(dataPath)[endPoint][0];
-  // console.log(data);
 
   const dataKeys = Object.keys(data);
 
@@ -19,11 +17,8 @@ const verifyData = (req, res, next) => {
     }
     expectedObjectData[key] = type;
   }
-  // console.log(expectedObjectData);
 
-  // console.log({ dataKeys });
   const bodyKeys = ["id", ...Object.keys(body)];
-  // console.log({ bodyKeys });
 
   if (method == "POST" || method == "PUT") {
     if (!hasAllData(dataKeys, bodyKeys)) {
