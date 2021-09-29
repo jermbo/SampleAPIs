@@ -188,8 +188,8 @@ module.exports = [
     longDesc:
       "Thought it would be cool to include different CSS Colors Names. I was inspired when I found this site, https://xkcd.com/color/rgb/.",
     desc: "A list of CSS Color Names",
-    link: "cssColorNames",
-    graphLink: "cssColorNames/graphql",
+    link: "csscolornames",
+    graphLink: "csscolornames/graphql",
     endPoints: ["colors"],
   },
   {
@@ -198,8 +198,8 @@ module.exports = [
     longDesc:
       "Info about the all the 50 states in the United States. The endpoint includes the name, abbreviation, capital, largest city, date admitted to union, population, and state flag.",
     desc: "Info about the all the 50 states in the United States.",
-    link: "theStates",
-    graphLink: "theStates/graphql",
+    link: "thestates",
+    graphLink: "thestates/graphql",
     endPoints: ["the-states"],
   },
   {
@@ -218,9 +218,9 @@ module.exports = [
     longDesc:
       "Women Who Code.com is an amazing community and organization. They have an amazing resource in https://www.womenwhocode.com/resources. Here you'll find their 170 resources in an API for easy search, list and share. Please give a link BACK to WomenWhoCode.com if you use this information.",
     desc: "API for all coding resources from https://www.womenwhocode.com/resources",
-    link: "codingResources",
-    graphLink: "codingResources/graphql",
-    endPoints: ["codingResources"],
+    link: "codingresources",
+    graphLink: "codingresources/graphql",
+    endPoints: ["codingresources"],
   },
   {
     id: 22,
