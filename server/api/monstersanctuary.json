@@ -1,0 +1,3703 @@
+{
+  "metaData": [
+    {
+      "title": "monster-sanctuary",
+      "longDesc": "monster-sanctuary",
+      "desc": "monster-sanctuary",
+      "featured": false,
+      "categories": ["games"]
+    }
+  ],
+  "monsters": [
+    {
+      "id": 1,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/62/Spectral_Wolf.png/revision/latest/scale-to-width-down/50?cb=20201204141949",
+      "name": "Spectral Wolf",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_Water.png/revision/latest/scale-to-width-down/20?cb=20190401052121"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/a/a7/Icon_Wind.png/revision/latest/scale-to-width-down/20?cb=20190401052123"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Earth Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/3d/Icon_weakness_earth.png/revision/latest/scale-to-width-down/25?cb=20190404223118"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/38/Icon_wind_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155732"
+        }
+      ],
+      "stats": {
+        "strength": 5,
+        "magic": 5,
+        "health": 7,
+        "defence": 4,
+        "potion": 8
+      }
+    },
+    {
+      "id": 2,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/2/28/Spectral_Toad.png/revision/latest/scale-to-width-down/50?cb=20201205055107",
+      "name": "Spectral Toad",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_Water.png/revision/latest/scale-to-width-down/20?cb=20190401052121"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/80/Icon_Earth.png/revision/latest/scale-to-width-down/20?cb=20190401052116"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/d/d0/Icon_weakness_fire.png/revision/latest/scale-to-width-down/25?cb=20190404223139"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/7/7d/Icon_water_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155821"
+        }
+      ],
+      "stats": {
+        "strength": 4,
+        "magic": 4,
+        "health": 8,
+        "defence": 5,
+        "potion": 9
+      }
+    },
+    {
+      "id": 3,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/7/7d/Spectral_Eagle.png/revision/latest/scale-to-width-down/47?cb=20201204142110",
+      "name": "Spectral Eagle",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/0/0a/Icon_Fire.png/revision/latest/scale-to-width-down/20?cb=20190401052119"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/a/a7/Icon_Wind.png/revision/latest/scale-to-width-down/20?cb=20190401052123"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/8c/Icon_weakness_water.png/revision/latest/scale-to-width-down/25?cb=20190405011947"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/83/Icon_fire_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155757"
+        }
+      ],
+      "stats": {
+        "strength": 7,
+        "magic": 7,
+        "health": 7,
+        "defence": 3,
+        "potion": 7
+      }
+    },
+    {
+      "id": 4,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/62/Spectral_Lion.png/revision/latest/scale-to-width-down/50?cb=20201205054922",
+      "name": "Spectral Lion",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/0/0a/Icon_Fire.png/revision/latest/scale-to-width-down/20?cb=20190401052119"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/80/Icon_Earth.png/revision/latest/scale-to-width-down/20?cb=20190401052116"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Wind Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_weakness_wind.png/revision/latest/scale-to-width-down/25?cb=20190405012001"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/d/d7/Icon_earth_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155850"
+        }
+      ],
+      "stats": {
+        "strength": 5,
+        "magic": 5,
+        "health": 7,
+        "defence": 5,
+        "potion": 7
+      }
+    },
+    {
+      "id": 5,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/9/9d/Blob.png/revision/latest/scale-to-width-down/50?cb=20190404224210",
+      "name": "Blob",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_Water.png/revision/latest/scale-to-width-down/20?cb=20190401052121"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/80/Icon_Earth.png/revision/latest/scale-to-width-down/20?cb=20190401052116"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Wind Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_weakness_wind.png/revision/latest/scale-to-width-down/25?cb=20190405012001"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/7/7d/Icon_water_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155821"
+        }
+      ],
+      "stats": {
+        "strength": 2,
+        "magic": 4,
+        "health": 5,
+        "defence": 2,
+        "potion": 7
+      }
+    },
+    {
+      "id": 6,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/e/ee/Magmapillar.png/revision/latest/scale-to-width-down/50?cb=20190404224333",
+      "name": "Magmapillar",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/0/0a/Icon_Fire.png/revision/latest/scale-to-width-down/20?cb=20190401052119"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/8c/Icon_weakness_water.png/revision/latest/scale-to-width-down/25?cb=20190405011947"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/83/Icon_fire_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155757"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 4,
+        "health": 3,
+        "defence": 3,
+        "potion": 9
+      }
+    },
+    {
+      "id": 7,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/82/Rocky.png/revision/latest/scale-to-width-down/20?cb=20190404224340",
+      "name": "Rocky",
+      "elements": [
+        {
+          "type": "Earth (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/80/Icon_Earth.png/revision/latest/scale-to-width-down/20?cb=20190401052116"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/d/d0/Icon_weakness_fire.png/revision/latest/scale-to-width-down/25?cb=20190404223139"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/d/d7/Icon_earth_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155850"
+        }
+      ],
+      "stats": {
+        "strength": 4,
+        "magic": 3,
+        "health": 4,
+        "defence": 8,
+        "potion": 4
+      }
+    },
+    {
+      "id": 8,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/1/1e/Vaero.png/revision/latest/scale-to-width-down/46?cb=20190404224345",
+      "name": "Vaero",
+      "elements": [
+        {
+          "type": "Wind (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/a/a7/Icon_Wind.png/revision/latest/scale-to-width-down/20?cb=20190401052123"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Earth Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/3d/Icon_weakness_earth.png/revision/latest/scale-to-width-down/25?cb=20190404223118"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/38/Icon_wind_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155732"
+        }
+      ],
+      "stats": {
+        "strength": 5,
+        "magic": 1,
+        "health": 4,
+        "defence": 2,
+        "potion": 8
+      }
+    },
+    {
+      "id": 9,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/b/b9/Catzerker.png/revision/latest/scale-to-width-down/50?cb=20190404224212",
+      "name": "Catzerker",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/0/0a/Icon_Fire.png/revision/latest/scale-to-width-down/20?cb=20190401052119"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/a/a7/Icon_Wind.png/revision/latest/scale-to-width-down/20?cb=20190401052123"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Earth Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/3d/Icon_weakness_earth.png/revision/latest/scale-to-width-down/25?cb=20190404223118"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/38/Icon_wind_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155732"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 4,
+        "health": 5,
+        "defence": 2,
+        "potion": 4
+      }
+    },
+    {
+      "id": 10,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/7/7e/Yowie.png/revision/latest/scale-to-width-down/38?cb=20190404224348",
+      "name": "Yowie",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_Water.png/revision/latest/scale-to-width-down/20?cb=20190401052121"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/d/d0/Icon_weakness_fire.png/revision/latest/scale-to-width-down/25?cb=20190404223139"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/38/Icon_wind_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155732"
+        }
+      ],
+      "stats": {
+        "strength": 3,
+        "magic": 3,
+        "health": 8,
+        "defence": 3,
+        "potion": 5
+      }
+    },
+    {
+      "id": 11,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/2/23/Steam_Golem.png/revision/latest/scale-to-width-down/27?cb=20190404224341",
+      "name": "Steam Golem",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/0/0a/Icon_Fire.png/revision/latest/scale-to-width-down/20?cb=20190401052119"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/80/Icon_Earth.png/revision/latest/scale-to-width-down/20?cb=20190401052116"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Wind Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_weakness_wind.png/revision/latest/scale-to-width-down/25?cb=20190405012001"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/83/Icon_fire_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155757"
+        }
+      ],
+      "stats": {
+        "strength": 5,
+        "magic": 1,
+        "health": 5,
+        "defence": 8,
+        "potion": 2
+      }
+    },
+    {
+      "id": 12,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/4/44/Monk.png/revision/latest/scale-to-width-down/21?cb=20190404224337",
+      "name": "Monk",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/0/0a/Icon_Fire.png/revision/latest/scale-to-width-down/20?cb=20190401052119"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_Water.png/revision/latest/scale-to-width-down/20?cb=20190401052121"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/a/a7/Icon_Wind.png/revision/latest/scale-to-width-down/20?cb=20190401052123"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Earth Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/3d/Icon_weakness_earth.png/revision/latest/scale-to-width-down/25?cb=20190404223118"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/38/Icon_wind_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155732"
+        }
+      ],
+      "stats": {
+        "strength": 5,
+        "magic": 3,
+        "health": 5,
+        "defence": 3,
+        "potion": 8
+      }
+    },
+    {
+      "id": 13,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/89/Grummy.png/revision/latest/scale-to-width-down/40?cb=20190404224331",
+      "name": "Grummy",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_Water.png/revision/latest/scale-to-width-down/20?cb=20190401052121"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/80/Icon_Earth.png/revision/latest/scale-to-width-down/20?cb=20190401052116"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/d/d0/Icon_weakness_fire.png/revision/latest/scale-to-width-down/25?cb=20190404223139"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/7/7d/Icon_water_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155821"
+        }
+      ],
+      "stats": {
+        "strength": 2,
+        "magic": 4,
+        "health": 7,
+        "defence": 4,
+        "potion": 8
+      }
+    },
+    {
+      "id": 14,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/37/Tengu.png/revision/latest/scale-to-width-down/35?cb=20190404224344",
+      "name": "Tengu",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/0/0a/Icon_Fire.png/revision/latest/scale-to-width-down/20?cb=20190401052119"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/80/Icon_Earth.png/revision/latest/scale-to-width-down/20?cb=20190401052116"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/8c/Icon_weakness_water.png/revision/latest/scale-to-width-down/25?cb=20190405011947"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/83/Icon_fire_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155757"
+        }
+      ],
+      "stats": {
+        "strength": 4,
+        "magic": 7,
+        "health": 5,
+        "defence": 2,
+        "potion": 8
+      }
+    },
+    {
+      "id": 15,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/b/be/Fungi.png/revision/latest/scale-to-width-down/40?cb=20190404224217",
+      "name": "Fungi",
+      "elements": [
+        {
+          "type": "Earth (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/80/Icon_Earth.png/revision/latest/scale-to-width-down/20?cb=20190401052116"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/d/d0/Icon_weakness_fire.png/revision/latest/scale-to-width-down/25?cb=20190404223139"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/d/d7/Icon_earth_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155850"
+        }
+      ],
+      "stats": {
+        "strength": 3,
+        "magic": 3,
+        "health": 8,
+        "defence": 1,
+        "potion": 8
+      }
+    },
+    {
+      "id": 16,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/3d/Frosty.png/revision/latest/scale-to-width-down/26?cb=20190404224216",
+      "name": "Frosty",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_Water.png/revision/latest/scale-to-width-down/20?cb=20190401052121"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/a/a7/Icon_Wind.png/revision/latest/scale-to-width-down/20?cb=20190401052123"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Wind Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_weakness_wind.png/revision/latest/scale-to-width-down/25?cb=20190405012001"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/83/Icon_fire_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155757"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 8,
+        "health": 1,
+        "defence": 4,
+        "potion": 7
+      }
+    },
+    {
+      "id": 17,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/2/25/Minitaur.png/revision/latest/scale-to-width-down/30?cb=20190404224335",
+      "name": "Minitaur",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_Water.png/revision/latest/scale-to-width-down/20?cb=20190401052121"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/80/Icon_Earth.png/revision/latest/scale-to-width-down/20?cb=20190401052116"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/d/d0/Icon_weakness_fire.png/revision/latest/scale-to-width-down/25?cb=20190404223139"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/d/d7/Icon_earth_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155850"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 1,
+        "health": 7,
+        "defence": 3,
+        "potion": 4
+      }
+    },
+    {
+      "id": 18,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/f/f1/Specter.png/revision/latest/scale-to-width-down/23?cb=20190412033646",
+      "name": "Specter",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/0/0a/Icon_Fire.png/revision/latest/scale-to-width-down/20?cb=20190401052119"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/80/Icon_Earth.png/revision/latest/scale-to-width-down/20?cb=20190401052116"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Magical Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/4/48/Icon_weakness_magical.png/revision/latest/scale-to-width-down/25?cb=20190405011744"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Physical Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/2/29/Icon_physical_resistance.png/revision/latest/scale-to-width-down/25?cb=20191201213525"
+        }
+      ],
+      "stats": {
+        "strength": 2,
+        "magic": 7,
+        "health": 4,
+        "defence": 4,
+        "potion": 9
+      }
+    },
+    {
+      "id": 19,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/32/Crackle_Knight.png/revision/latest/scale-to-width-down/31?cb=20190404224215",
+      "name": "Crackle Knight",
+      "elements": [
+        {
+          "type": "Wind (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/a/a7/Icon_Wind.png/revision/latest/scale-to-width-down/20?cb=20190401052123"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/8c/Icon_weakness_water.png/revision/latest/scale-to-width-down/25?cb=20190405011947"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/38/Icon_wind_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155732"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 7,
+        "health": 4,
+        "defence": 7,
+        "potion": 4
+      }
+    },
+    {
+      "id": 20,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/38/G%27rulu.png/revision/latest/scale-to-width-down/41?cb=20190412024012",
+      "name": "G'rulu",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/0/0a/Icon_Fire.png/revision/latest/scale-to-width-down/20?cb=20190401052119"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_Water.png/revision/latest/scale-to-width-down/20?cb=20190401052121"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/a/a7/Icon_Wind.png/revision/latest/scale-to-width-down/20?cb=20190401052123"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Wind Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_weakness_wind.png/revision/latest/scale-to-width-down/25?cb=20190405012001"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/7/7d/Icon_water_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155821"
+        }
+      ],
+      "stats": {
+        "strength": 2,
+        "magic": 7,
+        "health": 8,
+        "defence": 4,
+        "potion": 5
+      }
+    },
+    {
+      "id": 21,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/c/c2/Mad_Eye.png/revision/latest/scale-to-width-down/43?cb=20190412024013",
+      "name": "Mad Eye",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/0/0a/Icon_Fire.png/revision/latest/scale-to-width-down/20?cb=20190401052119"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_Water.png/revision/latest/scale-to-width-down/20?cb=20190401052121"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/a/a7/Icon_Wind.png/revision/latest/scale-to-width-down/20?cb=20190401052123"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/80/Icon_Earth.png/revision/latest/scale-to-width-down/20?cb=20190401052116"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Magical Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/4/48/Icon_weakness_magical.png/revision/latest/scale-to-width-down/25?cb=20190405011744"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Physical Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/2/29/Icon_physical_resistance.png/revision/latest/scale-to-width-down/25?cb=20191201213525"
+        }
+      ],
+      "stats": {
+        "strength": 2,
+        "magic": 5,
+        "health": 7,
+        "defence": 3,
+        "potion": 4
+      }
+    },
+    {
+      "id": 22,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/8a/Nightwing.png/revision/latest/scale-to-width-down/50?cb=20190412024016",
+      "name": "Nightwing",
+      "elements": [
+        {
+          "type": "Wind (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/a/a7/Icon_Wind.png/revision/latest/scale-to-width-down/20?cb=20190401052123"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/d/d0/Icon_weakness_fire.png/revision/latest/scale-to-width-down/25?cb=20190404223139"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/38/Icon_wind_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155732"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 1,
+        "health": 2,
+        "defence": 2,
+        "potion": 9
+      }
+    },
+    {
+      "id": 23,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/7/7d/Toxiquus.png/revision/latest/scale-to-width-down/20?cb=20190428160713",
+      "name": "Toxiquus",
+      "elements": [
+        {
+          "type": "Wind (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/a/a7/Icon_Wind.png/revision/latest/scale-to-width-down/20?cb=20190401052123"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/80/Icon_Earth.png/revision/latest/scale-to-width-down/20?cb=20190401052116"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Wind Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_weakness_wind.png/revision/latest/scale-to-width-down/25?cb=20190405012001"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/d/d7/Icon_earth_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155850"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 7,
+        "health": 8,
+        "defence": 1,
+        "potion": 5
+      }
+    },
+    {
+      "id": 24,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/7/71/Beetloid.png/revision/latest/scale-to-width-down/50?cb=20190412024018",
+      "name": "Beetloid",
+      "elements": [
+        {
+          "type": "Wind (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/a/a7/Icon_Wind.png/revision/latest/scale-to-width-down/20?cb=20190401052123"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Earth Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/3d/Icon_weakness_earth.png/revision/latest/scale-to-width-down/25?cb=20190404223118"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/38/Icon_wind_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155732"
+        }
+      ],
+      "stats": {
+        "strength": 2,
+        "magic": 4,
+        "health": 3,
+        "defence": 8,
+        "potion": 8
+      }
+    },
+    {
+      "id": 25,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/7/74/Druid_Oak.png/revision/latest/scale-to-width-down/22?cb=20190412024008",
+      "name": "Druid Oak",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/65/Icon_Water.png/revision/latest/scale-to-width-down/20?cb=20190401052121"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/80/Icon_Earth.png/revision/latest/scale-to-width-down/20?cb=20190401052116"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/d/d0/Icon_weakness_fire.png/revision/latest/scale-to-width-down/25?cb=20190404223139"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/d/d7/Icon_earth_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155850"
+        }
+      ],
+      "stats": {
+        "strength": 2,
+        "magic": 2,
+        "health": 9,
+        "defence": 2,
+        "potion": 9
+      }
+    },
+    {
+      "id": 26,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/b/b0/Magmamoth.png/revision/latest/scale-to-width-down/48?cb=20190412024014",
+      "name": "Magmamoth",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/0/0a/Icon_Fire.png/revision/latest/scale-to-width-down/20?cb=20190401052119"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/a/a7/Icon_Wind.png/revision/latest/scale-to-width-down/20?cb=20190401052123"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/6/61/Icon_Neutral.png/revision/latest/scale-to-width-down/20?cb=20190428162508"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/8c/Icon_weakness_water.png/revision/latest/scale-to-width-down/25?cb=20190405011947"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/8/83/Icon_fire_resistance.png/revision/latest/scale-to-width-down/25?cb=20190428155757"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 8,
+        "health": 3,
+        "defence": 3,
+        "potion": 7
+      }
+    },
+    {
+      "id": 27,
+      "image": "https://static.wikia.nocookie.net/monster-sanctuary/images/3/38/Molebear.png/revision/latest/scale-to-width-down/29?cb=20190412024015",
+      "name": "Molebear",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 7,
+        "magic": 1,
+        "health": 7,
+        "defence": 7,
+        "potion": 2
+      }
+    },
+    {
+      "id": 28,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Glowfly",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Earth Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 5,
+        "health": 1,
+        "defence": 4,
+        "potion": 11
+      }
+    },
+    {
+      "id": 29,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Goblin Brute",
+      "elements": [
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Physical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Magical Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 4,
+        "magic": 1,
+        "health": 4,
+        "defence": 5,
+        "potion": 8
+      }
+    },
+    {
+      "id": 30,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Goblin Hood",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Physical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Magical Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 1,
+        "health": 4,
+        "defence": 2,
+        "potion": 8
+      }
+    },
+    {
+      "id": 31,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Goblin Warlock",
+      "elements": [
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Physical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Magical Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 8,
+        "health": 4,
+        "defence": 2,
+        "potion": 8
+      }
+    },
+    {
+      "id": 32,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Goblin King",
+      "elements": [
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Physical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Magical Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 4,
+        "magic": 4,
+        "health": 8,
+        "defence": 2,
+        "potion": 8
+      }
+    },
+    {
+      "id": 33,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Raduga",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Elemental Shift",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "",
+          "image": ""
+        }
+      ],
+      "stats": {
+        "strength": 2,
+        "magic": 5,
+        "health": 4,
+        "defence": 3,
+        "potion": 7
+      }
+    },
+    {
+      "id": 34,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Ice Blob",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 7,
+        "health": 4,
+        "defence": 3,
+        "potion": 7
+      }
+    },
+    {
+      "id": 35,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Caraglow",
+      "elements": [
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 5,
+        "magic": 9,
+        "health": 5,
+        "defence": 2,
+        "potion": 7
+      }
+    },
+    {
+      "id": 36,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Aurumtail",
+      "elements": [
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Physical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Magical Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 2,
+        "magic": 4,
+        "health": 5,
+        "defence": 5,
+        "potion": 10
+      }
+    },
+    {
+      "id": 37,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Megataur",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 7,
+        "magic": 5,
+        "health": 9,
+        "defence": 4,
+        "potion": 3
+      }
+    },
+    {
+      "id": 38,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Mogwai",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 7,
+        "magic": 7,
+        "health": 5,
+        "defence": 3,
+        "potion": 7
+      }
+    },
+    {
+      "id": 39,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Crystal Snail",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Physical Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 4,
+        "magic": 5,
+        "health": 2,
+        "defence": 11,
+        "potion": 4
+      }
+    },
+    {
+      "id": 40,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Akhlut",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Wind Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 5,
+        "health": 8,
+        "defence": 3,
+        "potion": 5
+      }
+    },
+    {
+      "id": 41,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Blade Widow",
+      "elements": [
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Earth Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 1,
+        "health": 3,
+        "defence": 5,
+        "potion": 7
+      }
+    },
+    {
+      "id": 42,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Ninki",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Magical Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 4,
+        "magic": 4,
+        "health": 7,
+        "defence": 2,
+        "potion": 9
+      }
+    },
+    {
+      "id": 43,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Ninki Nanka",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Magical Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 4,
+        "magic": 4,
+        "health": 10,
+        "defence": 2,
+        "potion": 8
+      }
+    },
+    {
+      "id": 44,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Vasuki",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 9,
+        "magic": 8,
+        "health": 4,
+        "defence": 3,
+        "potion": 5
+      }
+    },
+    {
+      "id": 45,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Kame",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Magical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Physical Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 7,
+        "magic": 1,
+        "health": 4,
+        "defence": 9,
+        "potion": 5
+      }
+    },
+    {
+      "id": 46,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Sycophantom",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 3,
+        "magic": 7,
+        "health": 8,
+        "defence": 2,
+        "potion": 5
+      }
+    },
+    {
+      "id": 47,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Imori",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Earth Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 9,
+        "magic": 1,
+        "health": 2,
+        "defence": 7,
+        "potion": 7
+      }
+    },
+    {
+      "id": 48,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Qilin",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Debuff Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 5,
+        "magic": 5,
+        "health": 8,
+        "defence": 2,
+        "potion": 8
+      }
+    },
+    {
+      "id": 49,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Sizzle Knight",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 7,
+        "magic": 5,
+        "health": 4,
+        "defence": 8,
+        "potion": 7
+      }
+    },
+    {
+      "id": 50,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Koi",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Wind Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 4,
+        "magic": 5,
+        "health": 5,
+        "defence": 2,
+        "potion": 9
+      }
+    },
+    {
+      "id": 51,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Tanuki",
+      "elements": [
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Elemental Shift",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "",
+          "image": ""
+        }
+      ],
+      "stats": {
+        "strength": 5,
+        "magic": 5,
+        "health": 5,
+        "defence": 4,
+        "potion": 7
+      }
+    },
+    {
+      "id": 52,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Kanko",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Earth Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 7,
+        "magic": 1,
+        "health": 5,
+        "defence": 2,
+        "potion": 9
+      }
+    },
+    {
+      "id": 53,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Dodo",
+      "elements": [
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 5,
+        "magic": 7,
+        "health": 8,
+        "defence": 4,
+        "potion": 5
+      }
+    },
+    {
+      "id": 54,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Kongamato",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Earth Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 9,
+        "health": 5,
+        "defence": 2,
+        "potion": 5
+      }
+    },
+    {
+      "id": 55,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Ucan",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 5,
+        "magic": 4,
+        "health": 3,
+        "defence": 10,
+        "potion": 3
+      }
+    },
+    {
+      "id": 56,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Brawlish",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Wind Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 5,
+        "magic": 1,
+        "health": 9,
+        "defence": 3,
+        "potion": 5
+      }
+    },
+    {
+      "id": 57,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Thornish",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Wind Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 4,
+        "magic": 1,
+        "health": 8,
+        "defence": 4,
+        "potion": 5
+      }
+    },
+    {
+      "id": 58,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Nautilid",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Wind Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Physical Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 7,
+        "health": 3,
+        "defence": 5,
+        "potion": 8
+      }
+    },
+    {
+      "id": 59,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Silvaero",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Earth Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 5,
+        "magic": 5,
+        "health": 7,
+        "defence": 2,
+        "potion": 8
+      }
+    },
+    {
+      "id": 60,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Elderjel",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Neutral Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 5,
+        "health": 8,
+        "defence": 1,
+        "potion": 9
+      }
+    },
+    {
+      "id": 61,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Manticorb",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Physical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Magical Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 7,
+        "health": 5,
+        "defence": 3,
+        "potion": 9
+      }
+    },
+    {
+      "id": 62,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Goblin Miner",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 1,
+        "health": 4,
+        "defence": 5,
+        "potion": 7
+      }
+    },
+    {
+      "id": 63,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Salahammer",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 4,
+        "magic": 4,
+        "health": 8,
+        "defence": 4,
+        "potion": 7
+      }
+    },
+    {
+      "id": 64,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Lava Blob",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 7,
+        "magic": 7,
+        "health": 5,
+        "defence": 2,
+        "potion": 8
+      }
+    },
+    {
+      "id": 65,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Glowdra",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Earth Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 8,
+        "health": 2,
+        "defence": 5,
+        "potion": 8
+      }
+    },
+    {
+      "id": 66,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Draconov",
+      "elements": [
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Physical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Debuff Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 5,
+        "magic": 5,
+        "health": 8,
+        "defence": 2,
+        "potion": 8
+      }
+    },
+    {
+      "id": 67,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Dracogran",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Physical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 8,
+        "health": 10,
+        "defence": 4,
+        "potion": 5
+      }
+    },
+    {
+      "id": 68,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Asura",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 1,
+        "health": 8,
+        "defence": 3,
+        "potion": 8
+      }
+    },
+    {
+      "id": 69,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Skorch",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 7,
+        "health": 8,
+        "defence": 2,
+        "potion": 8
+      }
+    },
+    {
+      "id": 70,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Stolby",
+      "elements": [
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Physical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 8,
+        "health": 5,
+        "defence": 3,
+        "potion": 8
+      }
+    },
+    {
+      "id": 71,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Ornithopter",
+      "elements": [
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Earth Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 2,
+        "health": 2,
+        "defence": 9,
+        "potion": 9
+      }
+    },
+    {
+      "id": 72,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Polterofen",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 7,
+        "magic": 7,
+        "health": 4,
+        "defence": 7,
+        "potion": 8
+      }
+    },
+    {
+      "id": 73,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Oculus",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Wind Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 7,
+        "health": 3,
+        "defence": 7,
+        "potion": 9
+      }
+    },
+    {
+      "id": 74,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Mimic",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Magical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 1,
+        "health": 4,
+        "defence": 4,
+        "potion": 5
+      }
+    },
+    {
+      "id": 75,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Goblin Pilot",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Wind Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 1,
+        "health": 4,
+        "defence": 8,
+        "potion": 8
+      }
+    },
+    {
+      "id": 76,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Shockhopper",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 9,
+        "health": 4,
+        "defence": 4,
+        "potion": 7
+      }
+    },
+    {
+      "id": 77,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Targoat",
+      "elements": [
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Magical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 5,
+        "magic": 1,
+        "health": 7,
+        "defence": 4,
+        "potion": 7
+      }
+    },
+    {
+      "id": 78,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Dracozul",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Physical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 8,
+        "health": 5,
+        "defence": 5,
+        "potion": 10
+      }
+    },
+    {
+      "id": 79,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Troll",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 1,
+        "health": 7,
+        "defence": 4,
+        "potion": 4
+      }
+    },
+    {
+      "id": 80,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Brutus",
+      "elements": [
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "",
+          "image": ""
+        }
+      ],
+      "resistance": [
+        {
+          "type": "",
+          "image": ""
+        }
+      ],
+      "stats": {
+        "strength": 11,
+        "magic": 1,
+        "health": 8,
+        "defence": 4,
+        "potion": 1
+      }
+    },
+    {
+      "id": 81,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Mega Rock",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 2,
+        "health": 5,
+        "defence": 10,
+        "potion": 2
+      }
+    },
+    {
+      "id": 82,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Argiope",
+      "elements": [
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 7,
+        "magic": 7,
+        "health": 4,
+        "defence": 5,
+        "potion": 8
+      }
+    },
+    {
+      "id": 83,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Arachlich",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Magical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Neutral Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 9,
+        "health": 3,
+        "defence": 3,
+        "potion": 9
+      }
+    },
+    {
+      "id": 84,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Moccus",
+      "elements": [
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Neutral Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 5,
+        "magic": 5,
+        "health": 9,
+        "defence": 2,
+        "potion": 7
+      }
+    },
+    {
+      "id": 85,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Promethean",
+      "elements": [
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Wind Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 10,
+        "magic": 2,
+        "health": 7,
+        "defence": 4,
+        "potion": 3
+      }
+    },
+    {
+      "id": 86,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Draconoir",
+      "elements": [
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Physical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 9,
+        "magic": 9,
+        "health": 8,
+        "defence": 3,
+        "potion": 8
+      }
+    },
+    {
+      "id": 87,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Spinner",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Magical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 9,
+        "magic": 9,
+        "health": 8,
+        "defence": 2,
+        "potion": 8
+      }
+    },
+    {
+      "id": 88,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Plague Egg",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 8,
+        "health": 2,
+        "defence": 5,
+        "potion": 8
+      }
+    },
+    {
+      "id": 89,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Sutsune",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Earth Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 10,
+        "magic": 10,
+        "health": 5,
+        "defence": 2,
+        "potion": 7
+      }
+    },
+    {
+      "id": 90,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Darnation",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Wind Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Physical Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 9,
+        "magic": 1,
+        "health": 3,
+        "defence": 8,
+        "potion": 3
+      }
+    },
+    {
+      "id": 91,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Thanatos",
+      "elements": [
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Magical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Physical Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 8,
+        "magic": 8,
+        "health": 8,
+        "defence": 1,
+        "potion": 8
+      }
+    },
+    {
+      "id": 92,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Rainbow Blob",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Magical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Earth Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 5,
+        "magic": 8,
+        "health": 7,
+        "defence": 2,
+        "potion": 7
+      }
+    },
+    {
+      "id": 93,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Changeling",
+      "elements": [
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Neutral Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "",
+          "image": ""
+        }
+      ],
+      "stats": {
+        "strength": 7,
+        "magic": 7,
+        "health": 7,
+        "defence": 7,
+        "potion": 7
+      }
+    },
+    {
+      "id": 94,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "King Blob",
+      "elements": [
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Debuff Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 3,
+        "magic": 5,
+        "health": 11,
+        "defence": 2,
+        "potion": 8
+      }
+    },
+    {
+      "id": 95,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Worm",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Water Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Wind Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 10,
+        "magic": 1,
+        "health": 3,
+        "defence": 3,
+        "potion": 8
+      }
+    },
+    {
+      "id": 96,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Vodinoy",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Wind Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 9,
+        "magic": 1,
+        "health": 5,
+        "defence": 5,
+        "potion": 5
+      }
+    },
+    {
+      "id": 97,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Aazerach",
+      "elements": [
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Earth Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 9,
+        "health": 5,
+        "defence": 2,
+        "potion": 9
+      }
+    },
+    {
+      "id": 98,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Diavola",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Fire Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Water Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 10,
+        "magic": 8,
+        "health": 7,
+        "defence": 4,
+        "potion": 5
+      }
+    },
+    {
+      "id": 99,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Gryphonix",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Earth Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Fire Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 7,
+        "magic": 7,
+        "health": 8,
+        "defence": 3,
+        "potion": 9
+      }
+    },
+    {
+      "id": 100,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Vertraag",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Neutral Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Debuff Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 1,
+        "magic": 8,
+        "health": 8,
+        "defence": 2,
+        "potion": 9
+      }
+    },
+    {
+      "id": 101,
+      "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "name": "Mad Lord",
+      "elements": [
+        {
+          "type": "Fire (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Water (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Wind (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Earth (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        },
+        {
+          "type": "Neutral (Element)",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "weakness": [
+        {
+          "type": "Physical Weakness",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "resistance": [
+        {
+          "type": "Debuff Resistance",
+          "image": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+        }
+      ],
+      "stats": {
+        "strength": 9,
+        "magic": 9,
+        "health": 11,
+        "defence": 7,
+        "potion": 7
+      }
+    }
+  ]
+}
