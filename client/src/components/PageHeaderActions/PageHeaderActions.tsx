@@ -33,7 +33,7 @@ const PageHeaderActions: React.FC<Props> = ({ currentPage }) => {
       {links.map((link) => {
         if (link.show) return null;
         return (
-          <Link className="btn" to={link.path}>
+          <Link key={link.name} className="btn" to={link.path}>
             <span>{link.name}</span>
             <FontAwesomeIcon icon={link.icon} />
           </Link>

@@ -7,7 +7,7 @@
     "default": {
       "path": "src/components",
       "customTemplates": {
-        "component": "templates/component.tsx"
+        "component": "templates/component/TemplateName.tsx"
       },
       "withStyle": true,
       "withTest": false,
@@ -17,7 +17,7 @@
     "page": {
       "path": "src/pages",
       "customTemplates": {
-        "component": "templates/page.tsx"
+        "component": "templates/page/TemplateName.tsx"
       },
       "withStyle": true,
       "withTest": false,
@@ -27,7 +27,7 @@
     "layout": {
       "path": "src/layout",
       "customTemplates": {
-        "component": "templates/layout.tsx"
+        "component": "templates/layout/TemplateName.tsx"
       },
       "withStyle": true,
       "withTest": false,
@@ -36,7 +36,7 @@
     },
     "hook": {
       "customTemplates": {
-        "component": "templates/hooks.tsx"
+        "component": "templates/hooks/TemplateName.tsx"
       },
       "path": "src/hooks",
       "withStyle": false,
