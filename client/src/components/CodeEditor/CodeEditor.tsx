@@ -35,7 +35,6 @@ const CodeEditor: React.FC<any> = ({ displayName, language, value, onChange }) =
         className="code-mirror-wrapper"
         options={{
           lineWrapping: true,
-          lint: true,
           mode: language,
           theme: "material",
           lineNumbers: true,
