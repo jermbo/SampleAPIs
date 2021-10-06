@@ -2,9 +2,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
 const cors = require("cors");
-const ApiList = require("./apiList");
-// const morgan = require('morgan');
-// const corsOptions = require("./cors");
 
 // Express App
 const app = express();
@@ -38,6 +35,10 @@ app.use("/frontend", frontend);
 
 const create = require("./routes/create-apis");
 
+//! Deprecation Notice
+//* This is to serve the old static design site.
+//* The `apiList.js` will be removed in future versions.
+const ApiList = require("./apiList");
 app.get("/", (req, res) => {
   res.render("index", {
     apiList: JSON.stringify(ApiList),
