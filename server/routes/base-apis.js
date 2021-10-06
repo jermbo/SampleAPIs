@@ -4,17 +4,14 @@ const path = require("path");
 const jsonServer = require("json-server");
 const jsonGraphqlExpress = require("json-graphql-server");
 
-const { getAPIListData } = require("../utils/getAPIListData");
-
 const { apiLimits } = require("../utils/rateLimiterDefaults");
 const { getFromFile } = require("../utils/utils");
 
 const { verifyData } = require("../utils/verifyData");
+const GeneratedAPIList = require("../GeneratedAPIList");
 
 const init = async () => {
-  const APIListData = await getAPIListData();
-
-  APIListData.forEach(({ link }) => {
+  GeneratedAPIList.forEach(({ link }) => {
     const dataPath = path.join(__dirname, `../api/${link}.json`);
     const data = getFromFile(dataPath);
 

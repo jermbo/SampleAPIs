@@ -1,5 +1,4 @@
 const express = require("express");
-const bodyParser = require("body-parser");
 const path = require("path");
 const cors = require("cors");
 
@@ -10,8 +9,8 @@ const port = process.env.PORT || 5555;
 // JSON Parser
 
 // parse application/json
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 // Static Files
 app.use(express.static(path.join(__dirname, "/public")));
@@ -35,6 +34,18 @@ app.use("/frontend", frontend);
 
 const create = require("./routes/create-apis");
 
+const { generateAPIListData } = require("./utils/getAPIListData");
+const generateNewAPIListData = async (req, res) => {
+  await generateAPIListData();
+
+  res.json({
+    response: 200,
+    data: {
+      message: "Created",
+    },
+  });
+};
+
 //! Deprecation Notice
 //* This is to serve the old static design site.
 //* The `apiList.js` will be removed in future versions.
@@ -48,6 +59,7 @@ app.get("/", (req, res) => {
 app.use("/reset", reset);
 app.use("/create", create);
 // app.use("/custom", custom);
+app.use("/generate", generateNewAPIListData);
 app.use("/", baseApis);
 
 // Starting App

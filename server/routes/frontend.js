@@ -1,28 +1,18 @@
 const express = require("express");
 const router = express.Router();
 
-const { getAPIListData } = require("../utils/getAPIListData");
-
-let APIListData = [];
+const GeneratedAPIList = require("../GeneratedAPIList");
 
 router.get("/", async (req, res) => {
-  if (!APIListData.length) {
-    APIListData = await getAPIListData();
-  }
-
   res.json({
     status: 200,
     data: {
-      APIListData,
+      APIListData: GeneratedAPIList,
     },
   });
 });
 
 router.get("/:name", async (req, res) => {
-  if (!APIListData.length) {
-    APIListData = await getAPIListData();
-  }
-
   res.json({
     data: 200,
     id: req.params.name,
