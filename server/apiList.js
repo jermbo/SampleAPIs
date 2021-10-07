@@ -241,4 +241,13 @@ module.exports = [
     graphLink: "coffee/graphql",
     endPoints: ["hot", "iced"],
   },
+  {
+    id: 24,
+    title: "monstersanctuary",
+    longDesc: "monstersanctuary",
+    desc: "monstersanctuary",
+    link: "monstersanctuary",
+    graphLink: "monstersanctuary/graphql",
+    endPoints: ["games"],
+  },
 ];
