@@ -13,8 +13,12 @@ GraphQL is a query language for APIs and a runtime for fulfilling those queries 
 Below you can see the difference between REST and GraphQL API Structures. It's important to understand how REST works to see the benefits of GraphQL. As it is seen GraphQL can only perform POST requests and to update data it uses mutations.
 
 GraphQL:
+![image](https://user-images.githubusercontent.com/59853931/136580875-1b7f32c7-0040-4537-b82f-20e5d0edefd6.png)
+
 
 REST:
+![image](https://user-images.githubusercontent.com/59853931/136580907-89fba15c-5a8a-4c14-846b-ab51f07b46c5.png)
+
 
 ## GraphQL Elements
 GraphQL has some different keywords then REST. These are:
@@ -125,7 +129,7 @@ const  Mutation = new  GraphQLObjectType({
 });
 ```
 
-At below we execute our mutation like this. We don't need to specify the ID since it automatically increases its id to the size of the JSON data. This prevents human error factor.
+At below we execute our mutation like this. We don't need to specify the ID since it automatically increases its id to the size of the JSON data. This prevents human error factor. The fallowing query inside of the **createNewPizza** will display the new items that got added.
 ```jsx
 mutation {
 	createNewPizza(pizza_name: "New Pizza", price: "0$", ingredients: ["tomato", "pepper", "cheese"]) {
