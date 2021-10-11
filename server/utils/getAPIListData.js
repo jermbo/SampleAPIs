@@ -39,7 +39,7 @@ const generateAPIListData = async () => {
   });
 
   const jsFileData = `module.exports = ${JSON.stringify(apiData)}`;
-  await fs.writeFileSync("./NewAPIDataInfo.js", jsFileData);
+  await fs.writeFileSync("./GeneratedAPIList.js", jsFileData);
   return true;
 };
 

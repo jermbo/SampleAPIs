@@ -170,6 +170,18 @@ module.exports = [
     endpoints: ["professions"],
   },
   {
+    name: "monstersanctuary",
+    link: "monstersanctuary",
+    metaData: {
+      title: "monster-sanctuary",
+      longDesc: "monster-sanctuary",
+      desc: "monster-sanctuary",
+      featured: false,
+      categories: ["games"],
+    },
+    endpoints: ["monsters"],
+  },
+  {
     name: "movies",
     link: "movies",
     metaData: {
