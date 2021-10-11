@@ -40,12 +40,12 @@ const GlobalProvider: React.FC = ({ children }) => {
 
   useEffect(() => {
     if (APIState === AppStateEnum.ready) {
-      const list = data?.data?.APIList || ([] as APIData[]);
+      const list = data?.data?.APIListData || ([] as APIData[]);
       setAPIList(list);
       generateCategories(list);
       return;
     }
-  }, [APIState, data?.data?.APIList]);
+  }, [APIState, data?.data?.APIListData]);
 
   const values = {
     navVisible,
