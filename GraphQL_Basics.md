@@ -1,6 +1,7 @@
 <p align="center">
-<img src="https://graphql.org/img/og-image.png" width=500px height=200px>
-<h1 align="center">GraphQL </h1>
+	<img src="https://graphql.org/img/og-image.png" width=500px height=200px>
+	<h1 align="center">GraphQL </h1>
+</p>
 
 ### About :
 
@@ -13,9 +14,10 @@ GraphQL is a query language for APIs and a runtime for fulfilling those queries 
 Below you can see the difference between REST and GraphQL API Structures. It's important to understand how REST works to see the benefits of GraphQL. As it is seen GraphQL can only perform POST requests and to update data it uses mutations.
 
 GraphQL:
+<img src="client/assets/images/GraphQL_Structure.png">
 
 REST:
-
+<img src="client/assets/images/REST_Structure.png">
 ## GraphQL Elements
 GraphQL has some different keywords then REST. These are:
 	- Schema
