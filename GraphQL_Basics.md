@@ -127,7 +127,7 @@ const  Mutation = new  GraphQLObjectType({
 });
 ```
 
-At below we execute our mutation like this. We don't need to specify the ID since it automatically increases its id to the size of the JSON data. This prevents human error factor.
+At below we execute our mutation like this. We don't need to specify the ID since it automatically increases its id to the size of the JSON data. This prevents human error factor. The fallowing query inside of the **createNewPizza** will display the new items that got added.
 ```jsx
 mutation {
 	createNewPizza(pizza_name: "New Pizza", price: "0$", ingredients: ["tomato", "pepper", "cheese"]) {
