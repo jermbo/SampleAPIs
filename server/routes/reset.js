@@ -2,11 +2,18 @@ const express = require("express");
 const path = require("path");
 const fs = require("fs");
 const router = express.Router();
-const ApiList = require("../apiList");
+
+const { getAPIListData } = require("../utils/getAPIListData");
+
+let APIListData = [];
 
 // Reset API Route
-router.get("/all", (req, res) => {
-  ApiList.forEach((page) => {
+router.get("/all", async (req, res) => {
+  if (!APIListData.length) {
+    APIListData = await getAPIListData();
+  }
+
+  APIListData.forEach((page) => {
     const api = page.link;
 
     const backupFile = path.join(__dirname, `../api/${api}.json.backup`);
@@ -26,9 +33,13 @@ router.get("/all", (req, res) => {
 });
 
 // Main EndPoint Route
-router.get("/:id", (req, res) => {
+router.get("/:id", async (req, res) => {
+  if (!APIListData.length) {
+    APIListData = await getAPIListData();
+  }
+
   const id = req.params.id.toLowerCase();
-  const data = ApiList.filter((api) => id == api.link.toLowerCase())[0];
+  const data = APIListData.filter((api) => id == api.link.toLowerCase())[0];
   const api = data.link;
 
   const backupFile = path.join(__dirname, `../api/${api}.json.backup`);

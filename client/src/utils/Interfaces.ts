@@ -21,7 +21,7 @@ export interface FetchState<T> {
 }
 
 export interface APIListResponse {
-  APIList: APIData[];
+  APIListData: APIData[];
 }
 
 export interface APIData {
@@ -37,13 +37,13 @@ export interface MetaData {
   desc: string;
   featured: boolean;
   categories: string[];
-  examples: Example[];
+  examples?: Example[];
 }
 
 export interface Example {
   hash: string;
-  user: string;
-  defaultTab: string;
   title: string;
   endpoint: string;
+  user?: string;
+  defaultTab?: string;
 }
