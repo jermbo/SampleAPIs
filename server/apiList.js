@@ -250,4 +250,13 @@ module.exports = [
     graphLink: "monstersanctuary/graphql",
     endPoints: ["games"],
   },
+  {
+    id: 25,
+    title: "Jokes (good and bad)",
+    longDesc: "Sometimes you need a list of great Jokes",
+    desc: "An API with jokes. Mostly bad, but some good ones ;-P",
+    link: "jokes",
+    graphLink: "jokes/graphql",
+    endPoints: ["goodJokes"],
+  },
 ];
