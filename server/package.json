@@ -1,6 +1,7 @@
 {
   "name": "sampleapis-server",
   "version": "2.8.0",
+  "main":"sampleapis.js",
   "author": "Jeremy 'Jermbo' Lawson",
   "description": "",
   "license": "MIT",
@@ -16,9 +17,6 @@
     "start": "node ./sampleapis.js",
     "server": "nodemon ./sampleapis.js",
     "test": "jest"
-  },
-  "engines": {
-    "node": "12.x"
   },
   "homepage": "https://github.com/jermbo/SampleAPIs#readme",
   "dependencies": {
