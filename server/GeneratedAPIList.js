@@ -327,4 +327,16 @@ module.exports = [
     },
     endpoints: ["games"],
   },
+  {
+    name: "jokes",
+    link: "jokes",
+    metaData: {
+      title: "Jokes",
+      longDesc: "Sometimes you need a list of great Jokes",
+      desc: "An API with jokes. Mostly bad, but some good ones ;-P",
+      featured: false,
+      categories: ["funny"],
+    },
+    endpoints: ["goodJokes"],
+  },
 ];
