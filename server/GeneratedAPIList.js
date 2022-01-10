@@ -338,5 +338,26 @@ module.exports = [
       categories: ["funny"],
     },
     endpoints: ["goodJokes"],
+  },  
+  {
+    name: "Bitcoin (historical data)",
+    longDesc: "You've wanted it and now we got it. Going back from January 2022 to August 2010",
+    desc: "Bitcoin Historical Data from August 2010 to January 2022",
+    link: "bitcoin",
+    graphLink: "bitcoin/graphql",
+    endPoints: ["historical_prices"],
+
+    name: "bitcoin",
+    link: "bitcoin",
+    metaData: {
+      title: "Bitcoin (historical data)",
+      longDesc: "You've wanted it and now we got it. Going back from January 2022 to August 2010",
+      desc: "Bitcoin Historical Data from August 2010 to January 2022",
+      featured: false,
+      categories: ["crypto","prices"],
+    },
+    endpoints: ["historical_prices"],
+
+
   },
 ];
