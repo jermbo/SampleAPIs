@@ -259,4 +259,13 @@ module.exports = [
     graphLink: "jokes/graphql",
     endPoints: ["goodJokes"],
   },
+  {
+    id: 25,
+    title: "Bitcoin (historical data)",
+    longDesc: "You've wanted it and now we got it. Going back from January 2022 to August 2010",
+    desc: "Bitcoin Historical Data from August 2010 to January 2022",
+    link: "bitcoin",
+    graphLink: "bitcoin/graphql",
+    endPoints: ["historical_prices"],
+  },
 ];

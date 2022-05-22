@@ -12,10 +12,10 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.15",
     "codemirror": "^5.63.1",
-    "react": "^17.0.0",
+    "react": "16.8",
     "react-codemirror2": "^7.2.1",
     "react-codepen-embed": "^1.0.2",
-    "react-dom": "^17.0.0",
+    "react-dom": "16.8",
     "react-router": "^5.2.1",
     "react-router-dom": "^5.3.0",
     "sass": "^1.42.1"
