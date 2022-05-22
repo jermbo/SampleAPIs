@@ -13,3 +13,7 @@ server/custom/*
 # local env files
 .env.local
 .env.*.local
+
+server/.vscode
+client/.vscode
+client/build
