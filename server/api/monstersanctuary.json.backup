@@ -5,9 +5,7 @@
       "longDesc": "monster-sanctuary",
       "desc": "monster-sanctuary",
       "featured": false,
-      "categories": [
-        "games"
-      ]
+      "categories": ["games"]
     }
   ],
   "monsters": [
