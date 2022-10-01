@@ -2,275 +2,581 @@
   "attractions": [
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/f/f7/S1e1_rock_that_looks_like_a_face_rock.png/revision/latest/scale-to-width-down/224?cb=20120619063907",
-      "Name": "Rock that looks like a face rock",
-      "Allusion to": "Cydonia",
-      "First": "Tourist Trapped",
-      "Last": "Not What He Seems",
-      "Times": 2
+      "name": "Rock that looks like a face rock",
+      "allusionTo": "Cydonia",
+      "first": "Tourist Trapped",
+      "last": "Not What He Seems",
+      "times": 2
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/f/f9/S1e1_sascrotch.png/revision/latest/scale-to-width-down/224?cb=20120619043710",
-      "Name": "Sascrotch",
-      "Allusion to": "Sasquatch",
-      "First": "Tourist Trapped",
-      "Last": "Boss Mabel",
-      "Times": 2
+      "name": "Sascrotch",
+      "allusionTo": "Sasquatch",
+      "first": "Tourist Trapped",
+      "last": "Boss Mabel",
+      "times": 2
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/d/d1/S1e13_grizzlycorn.png/revision/latest/scale-to-width-down/224?cb=20130405053838",
-      "Name": "Grizzlycorn",
-      "Allusion to": "Grizzly bear/unicorn hybrid",
-      "First": "Tourist Trapped",
-      "Last:": null,
-      "Times": null
+      "name": "Grizzlycorn",
+      "allusionTo": "Grizzly bear/unicorn hybrid",
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/9/99/S1e1_world%27s_most_distracting_object.png/revision/latest/scale-to-width-down/224?cb=20120621204707",
-      "Name": "World's Most Distracting Object",
-      "Allusion to": "Hypnosis",
-      "First": "Tourist Trapped",
-      "Last:": null,
-      "Times:": null
+      "name": "World's Most Distracting Object",
+      "allusionTo": "Hypnosis",
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/c/c4/S1e1_jackolope_antler_on.png/revision/latest/scale-to-width-down/224?cb=20120720053253",
-      "Name": "Jackalope",
-      "Allusion to": "Jackalope",
-      "First": "Tourist Trapped",
-      "Last:": null,
-      "Times:": null
+      "name": "Jackalope",
+      "allusionTo": "Jackalope",
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/0/0a/S1e1_Giant%27s_Ear.png/revision/latest/scale-to-width-down/224?cb=20120720053131",
-      "Name": "Giant's ear",
-      "Allusion to": "Giants",
-      "First": "Tourist Trapped",
-      "Last:": null,
-      "Times:": null
+      "name": "Giant's ear",
+      "allusionTo": "Giants",
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/5/55/S1e1_pterosaur.png/revision/latest/scale-to-width-down/224?cb=20120720053248",
-      "Name": "Pterosaur",
-      "Allusion to": "Pterosaurs",
-      "First": "Tourist Trapped",
-      "Last:": null,
-      "Times:": null
+      "name": "Pterosaur",
+      "allusionTo": "Pterosaurs",
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/b/ba/S1e5_mermaid.png/revision/latest/scale-to-width-down/224?cb=20121008040520",
-      "Name": "Fiji Mermaid",
-      "Allusion to": "Fiji Mermaid",
-      "First": "Tourist Trapped",
-      "Last:": null,
-      "Times:": null
+      "name": "Fiji Mermaid",
+      "allusionTo": "Fiji Mermaid",
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/3/3e/S1e1_Griffin_on_wall.png/revision/latest/scale-to-width-down/224?cb=20120720055101",
-      "Name": "Griffin",
-      "Allusion to": "Griffin",
-      "First": "Tourist Trapped",
-      "Last:": null,
-      "Times:": null
+      "name": "Griffin",
+      "allusionTo": "Griffin",
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/a/a7/S1e3_ending_dipper.png/revision/latest/scale-to-width-down/224?cb=20141004000624",
-      "Name": "T-Rex head fossil",
-      "Allusion to": "T-Rex",
-      "First": "Tourist Trapped",
-      "Last:": null,
-      "Times:": null
+      "name": "T-Rex head fossil",
+      "allusionTo": "T-Rex",
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/5/55/S1e1_pterosaur.png/revision/latest/scale-to-width-down/224?cb=20120720053248",
-      "Name": "Treasure chest and anchor",
-      "Allusion to": "Sunken treasure",
-      "First": "Tourist Trapped",
-      "Last:": null,
-      "Times:": null
+      "name": "Treasure chest and anchor",
+      "allusionTo": "Sunken treasure",
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/d/de/S1e10_stan_explaining.png/revision/latest/scale-to-width-down/224?cb=20121010020745",
-      "Name": "Shrunken heads",
-      "Allusion to": "Shrunken head",
-      "First": "Tourist Trapped",
-      "Last:": null,
-      "Times:": null
+      "name": "Shrunken heads",
+      "allusionTo": "Shrunken head",
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/a/ae/S1e1_holy_mackerel.png/revision/latest/scale-to-width-down/224?cb=20130818013354",
-      "Name": "Banner of The Royal Order of the Holy Mackerel",
-      "Allusion to": "The Shriners",
-      "First": "Tourist Trapped",
-      "Last:": null,
-      "Times:": null
+      "name": "Banner of The Royal Order of the Holy Mackerel",
+      "allusionTo": "The Shriners",
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/f/f6/S1e1_ufos.png/revision/latest/scale-to-width-down/224?cb=20130818013546",
-      "Name": "Flying saucers",
-      "Allusion to": "Flying saucer",
-      "First": "Tourist Trapped",
-      "Last:": null,
-      "Times:": null
+      "name": "Flying saucers",
+      "allusionTo": "Flying saucer",
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/5/57/S1e10_ship_in_bottle.png/revision/latest/scale-to-width-down/224?cb=20130818013732",
-      "Name": "Ship in a bottle",
-      "Allusion to:": null,
-      "First": "Tourist Trapped",
-      "Last:": null,
-      "Times:": null
+      "name": "Ship in a bottle",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/1/10/S1e16_under_the_stars.png/revision/latest/scale-to-width-down/224?cb=20130406211444",
-      "Name": "Totem pole",
-      "Allusion to": "Totem Pole",
-      "First": "Tourist Trapped",
-      "Last:": null,
-      "Times:": null
+      "name": "Totem pole",
+      "allusionTo": "Totem Pole",
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/6/6e/S1e3_mabel_touches_wax_figure.png/revision/latest/scale-to-width-down/224?cb=20120704063840",
-      "Name": "Wax Museum of Mystery",
-      "Allusion to": "Wax Museum",
-      "First": "Headhunters",
-      "Last": "The Time Traveler's Pig",
-      "Times": 2
+      "name": "Wax Museum of Mystery",
+      "allusionTo": "Wax Museum",
+      "first": "Headhunters",
+      "last": "The Time Traveler's Pig",
+      "times": 2
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/6/6b/S1e4_sack_of_mystery.png/revision/latest/scale-to-width-down/224?cb=20160210170850",
-      "Name": "Sack of Mystery",
-      "Allusion to:": null,
-      "First": "The Hand That Rocks the Mabel",
-      "Last:": null,
-      "Times": 1
+      "name": "Sack of Mystery",
+      "allusionTo": null,
+      "first": "The Hand That Rocks the Mabel",
+      "last:": null,
+      "times": 1
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/5/59/S1e4_stuffed_dodo_by_door.png/revision/latest/scale-to-width-down/224?cb=20121011133753",
-      "Name": "Dodo bird",
-      "Allusion to": "Dodo",
-      "First": "The Hand That Rocks the Mabel",
-      "Last": "Not What He Seems",
-      "Times:": null
+      "name": "Dodo bird",
+      "allusionTo": "Dodo",
+      "first": "The Hand That Rocks the Mabel",
+      "last": "Not What He Seems",
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/4/42/S1e11_turtle_table.png/revision/latest/scale-to-width-down/224?cb=20121012003117",
-      "Name": "Horned turtle skeleton",
-      "Allusion to": "Meiolania",
-      "First": "Little Dipper",
-      "Last:": null,
-      "Times:": null
+      "name": "Horned turtle skeleton",
+      "allusionTo": "Meiolania",
+      "first": "Little Dipper",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/5/5a/S2e5_thighclops.png/revision/latest/scale-to-width-down/224?cb=20140924044539",
-      "Name": "Thigh-clops",
-      "Allusion to": "Cyclops",
-      "First": "Soos and the Real Girl",
-      "Last:": null,
-      "Times": 1
+      "name": "Thigh-clops",
+      "allusionTo": "Cyclops",
+      "first": "Soos and the Real Girl",
+      "last:": null,
+      "times": 1
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/c/c7/S1e13_horse_riding_a_horse.png/revision/latest/scale-to-width-down/224?cb=20130220001305",
-      "Name": "Horse Riding a Horse",
-      "Allusion to:": null,
-      "First": "Boss Mabel",
-      "Last:": null,
-      "Times": 1
+      "name": "Horse Riding a Horse",
+      "allusionTo": null,
+      "first": "Boss Mabel",
+      "last:": null,
+      "times": 1
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/1/1e/S1e13_beavercorn.png/revision/latest/scale-to-width-down/224?cb=20130405054024",
-      "Name": "Beavercorn",
-      "Allusion to": "Beaver/unicorn hybrid",
-      "First": "Boss Mabel",
-      "Last:": null,
-      "Times:": null
+      "name": "Beavercorn",
+      "allusionTo": "Beaver/unicorn hybrid",
+      "first": "Boss Mabel",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/1/1e/S1e13_beavercorn.png/revision/latest/scale-to-width-down/224?cb=20130405054024",
-      "Name": "Roostdeer",
-      "Allusion to": "Rooster/deer hybrid",
-      "First": "Boss Mabel",
-      "Last:": null,
-      "Times:": null
+      "name": "Roostdeer",
+      "allusionTo": "Rooster/deer hybrid",
+      "first": "Boss Mabel",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/b/b5/S1e13_six_pack_a_lope.png/revision/latest/scale-to-width-down/224?cb=20130405054351",
-      "Name": "Six-pack O' Lope",
-      "Allusion to": "Jackalope",
-      "First": "Boss Mabel",
-      "Last:": null,
-      "Times:": null
+      "name": "Six-pack O' Lope",
+      "allusionTo": "Jackalope",
+      "first": "Boss Mabel",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/3/32/S1e18_cornicorn.png/revision/latest/scale-to-width-down/224?cb=20130622192847",
-      "Name": "Cornicorn",
-      "Allusion to": "Unicorn",
-      "First": "Land Before Swine",
-      "Last:": null,
-      "Times": 1
+      "name": "Cornicorn",
+      "allusionTo": "Unicorn",
+      "first": "Land Before Swine",
+      "last:": null,
+      "times": 1
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/c/c8/S1e18_mirror.png/revision/latest/scale-to-width-down/224?cb=20130622193601",
-      "Name": "Most Hideous Creature Known to Man",
-      "Allusion to": "Humans are the real enemy",
-      "First": "Land Before Swine",
-      "Last:": null,
-      "Times": 1
+      "name": "Most Hideous Creature Known to Man",
+      "allusionTo": "Humans are the real enemy",
+      "first": "Land Before Swine",
+      "last:": null,
+      "times": 1
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/d/df/S1e18_out_house.png/revision/latest/scale-to-width-down/224?cb=20160402192254",
-      "Name": "Outhouse of Mystery",
-      "Allusion to": "Shrek's Bathroom",
-      "First": "Land Before Swine",
-      "Last:": null,
-      "Times": 1
+      "name": "Outhouse of Mystery",
+      "allusionTo": "Shrek's Bathroom",
+      "first": "Land Before Swine",
+      "last:": null,
+      "times": 1
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/3/3b/S1e18_totem_pole.png/revision/latest/scale-to-width-down/224?cb=20130624061729",
-      "Name": "Totem pole",
-      "Allusion to": "Totem pole",
-      "First": "Land Before Swine",
-      "Last:": null,
-      "Times:": null
+      "name": "Totem pole",
+      "allusionTo": "Totem pole",
+      "first": "Land Before Swine",
+      "last:": null,
+      "times:": null
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/2/2d/S1e18_crystal_ball.png/revision/latest/scale-to-width-down/224?cb=20130624064152",
-      "Name": "Crystal Ball",
-      "Allusion to": "Crystal Ball",
-      "First": "Land Before Swine",
-      "Last:": null,
-      "Times": 1
+      "name": "Crystal Ball",
+      "allusionTo": "Crystal Ball",
+      "first": "Land Before Swine",
+      "last:": null,
+      "times": 1
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/7/79/Short14_invisible_man.png/revision/latest/scale-to-width-down/224?cb=20140609012559",
-      "Name": "The Invisible Man",
-      "Allusion to": "The Invisible Man",
-      "First": "TV Shorts 1",
-      "Last:": null,
-      "Times": 1
+      "name": "The Invisible Man",
+      "allusionTo": "The Invisible Man",
+      "first": "TV Shorts 1",
+      "last:": null,
+      "times": 1
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/f/f8/Short14_fairy.png/revision/latest/scale-to-width-down/224?cb=20140609012543",
-      "Name": "Fairy",
-      "Allusion to": "Fairy",
-      "First": "TV Shorts 1",
-      "Last:": null,
-      "Times": 1
+      "name": "Fairy",
+      "allusionTo": "Fairy",
+      "first": "TV Shorts 1",
+      "last:": null,
+      "times": 1
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/d/d3/S2e6_crime_against_nature.png/revision/latest/scale-to-width-down/224?cb=20141006072114",
-      "Name": "Unknown",
-      "Allusion to:": null,
-      "First": "Little Gift Shop of Horrors",
-      "Last:": null,
-      "Times": 1
+      "name": "Unknown",
+      "allusionTo": null,
+      "first": "Little Gift Shop of Horrors",
+      "last:": null,
+      "times": 1
     },
     {
       "image": "https://static.wikia.nocookie.net/gravityfalls/images/0/00/S2e6_help_me.png/revision/latest/scale-to-width-down/224?cb=20141005190717",
-      "Name": "The Cheapskate",
-      "Allusion to:": null,
-      "First": "Little Gift Shop of Horrors",
-      "Last:": null,
-      "Times": 1
+      "name": "The Cheapskate",
+      "allusionTo": null,
+      "first": "Little Gift Shop of Horrors",
+      "last:": null,
+      "times": 1
+    }
+  ],
+  "merchandise": [
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/e/ea/S1e1_mabel_bobbleheads.png/revision/latest/scale-to-width-down/224?cb=20160203175151",
+      "name": "Stan Bobbleheads",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last": "Weirdmageddon 2: Escape From Reality (likeness)",
+      "times": 3
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/b/bc/Opening_eyeball_sale.png/revision/latest/scale-to-width-down/224?cb=20140720072427",
+      "name": "Jar of eyeballs",
+      "allusionTo": null,
+      "first": "Gravity Falls Main Title Theme",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/a/a2/S1e1_dipper_and_mabel_in_mystery_shack.png/revision/latest/scale-to-width-down/224?cb=20120619044226",
+      "name": "Giant eyeball",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/f/fd/S1e2_mabel_inside_hamster_ball.png/revision/latest/scale-to-width-down/224?cb=20120629053215",
+      "name": "Giant hamster ball",
+      "allusionTo": null,
+      "first": "The Legend of the Gobblewonker",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/d/d0/S1e1_Mystery_Shack_items_for_sale.png/revision/latest/scale-to-width-down/224?cb=20160203183510",
+      "name": "Skulls",
+      "allusionTo": null,
+      "first": "The Legend of the Gobblewonker",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/d/d0/S1e1_Mystery_Shack_items_for_sale.png/revision/latest/scale-to-width-down/224?cb=20160203183510",
+      "name": "Mounted deer/bat head",
+      "allusionTo": null,
+      "first": "The Legend of the Gobblewonker",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/b/b8/S1e5_runic_tablets.png/revision/latest/scale-to-width-down/224?cb=20121008044058",
+      "name": "Runic tablets",
+      "allusionTo": null,
+      "first": "Dipper vs. Manliness",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/2/2f/S1e5_brain_flask.png/revision/latest/scale-to-width-down/224?cb=20121008041609",
+      "name": "Brain in a flask",
+      "allusionTo": null,
+      "first": "The Inconveniencing",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/0/07/S1e1_mabel_choosing_grappling_hook.png/revision/latest/scale-to-width-down/224?cb=20120621205719",
+      "name": "Mabel's grappling hook",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last": "Not What He Seems",
+      "times": 3
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/3/3e/S1e1_dipper%27s_reflection_with_hat.png/revision/latest/scale-to-width-down/224?cb=20120621205719",
+      "name": "Baseball cap",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/5/5f/S1e13_mabel_fixing_postcard_rack.png/revision/latest/scale-to-width-down/224?cb=20130421152537",
+      "name": "Postcards",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/5/5f/S1e13_mabel_fixing_postcard_rack.png/revision/latest/scale-to-width-down/224?cb=20130421152537",
+      "name": "Maps",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/d/d5/S1e5_jar_hand.png/revision/latest/scale-to-width-down/224?cb=20121008041635",
+      "name": "Monkey's paw in jar",
+      "allusionTo": "Monkey's paw",
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/f/fe/S1e6_cute_biker_at_mystery_shack_fur_trout.png/revision/latest/scale-to-width-down/224?cb=20120816014757",
+      "name": "Fur trout",
+      "allusionTo": null,
+      "first": "Dipper vs. Manliness",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/e/eb/S1e1_boy_looking_at_letter.png/revision/latest/scale-to-width-down/224?cb=20120720053703",
+      "name": "Mark V Brass diving helmet",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/7/7c/S1e20_Stan_back_to_his_coning.png/revision/latest/scale-to-width-down/224?cb=20130915212854",
+      "name": "Mystery T-shirt",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/8/82/S1e18_Mabel_being_a_pig.png/revision/latest/scale-to-width-down/224?cb=20160402192758",
+      "name": "Popsicles",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/f/fe/S1e5_license_plates.png/revision/latest/scale-to-width-down/224?cb=20121008042639",
+      "name": "Novelty license plates",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/9/94/S1e5_cane.png/revision/latest/scale-to-width-down/224?cb=20121008042830",
+      "name": "8-Ball canes",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/d/d0/S1e1_Mystery_Shack_items_for_sale.png/revision/latest/scale-to-width-down/224?cb=20160203183510",
+      "name": "Aliens in a jar",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/1/10/S1e4_olmac_head.png/revision/latest/scale-to-width-down/224?cb=20121008043350",
+      "name": "Olmec head",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/b/b9/S1e5_aztec_circle.png/revision/latest/scale-to-width-down/224?cb=20121008042325",
+      "name": "Aztec stone calendar",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/f/fb/S1e5_stan_leaving.png/revision/latest/scale-to-width-down/224?cb=20120722015705",
+      "name": "Magazines",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/8/87/S1e13_penny_machine.png/revision/latest/scale-to-width-down/224?cb=20130402000206",
+      "name": "Penny press",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/a/a7/S1e13_bumper_stickers.png/revision/latest/scale-to-width-down/224?cb=20130402000354",
+      "name": "Bumper stickers",
+      "allusionTo": null,
+      "first": "Boss Mabel",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/2/27/S1e13_cuckoo_clock.png/revision/latest/scale-to-width-down/224?cb=20130402000052",
+      "name": "Cuckoo clock",
+      "allusionTo": null,
+      "first": "Boss Mabel",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/0/03/S1e13_singin_salmon.png/revision/latest/scale-to-width-down/224?cb=20130402000453",
+      "name": "Singin' Salmon",
+      "allusionTo": null,
+      "first": "Boss Mabel",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/4/4b/S1e11_jar_brains.png/revision/latest/scale-to-width-down/224?cb=20121008043751",
+      "name": "Man and woman brain in jars",
+      "allusionTo": null,
+      "first": "Little Dipper",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/9/96/S1e14_gold_nuggets.png/revision/latest/scale-to-width-down/224?cb=20130405072241",
+      "name": "Gold nuggets",
+      "allusionTo": null,
+      "first": "Bottomless Pit!",
+      "last:": null,
+      "times": 1
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/5/56/S1e13_snow_globes.png/revision/latest/scale-to-width-down/224?cb=20130421151715",
+      "name": "Snow globes",
+      "allusionTo": null,
+      "first": "Boss Mabel",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/c/ce/S1e6_panther_puma.png/revision/latest/scale-to-width-down/224?cb=20120816014913",
+      "name": "Puma/Panther shirts",
+      "allusionTo": null,
+      "first": "Dipper vs. Manliness",
+      "last:": null,
+      "times": 1
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/5/5f/S1e13_your_face_is_RUINED.png/revision/latest/scale-to-width-down/224?cb=20130307022143",
+      "name": "Beach towels",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/5/5f/S1e13_your_face_is_RUINED.png/revision/latest/scale-to-width-down/224?cb=20130307022143",
+      "name": "Books",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/7/72/S1e1_mystery_rub.png/revision/latest/scale-to-width-down/224?cb=20130818020815",
+      "name": "Mystery rub",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/7/74/S1e6_cute_biker_into.png/revision/latest/scale-to-width-down/224?cb=20120816014911",
+      "name": "One-eyed skull",
+      "allusionTo": null,
+      "first": "Tourist Trapped",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/6/64/S2e5_goldy.png/revision/latest/scale-to-width-down/224?cb=20140924172802",
+      "name": "Goldie, a nugget dispenser",
+      "allusionTo": null,
+      "first": "Soos and the Real Girl",
+      "last": "Roadside Attraction (mentioned)",
+      "times": 2
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/b/be/S2e5_mystery_shack_keychains.png/revision/latest/scale-to-width-down/224?cb=20140924221647",
+      "name": "Question mark keychains",
+      "allusionTo": null,
+      "first": "Soos and the Real Girl",
+      "last:": null,
+      "times:": null
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/gravityfalls/images/a/aa/S2e17_space_ship.png/revision/latest/scale-to-width-down/224?cb=20151015131602",
+      "name": "UFO Keychain",
+      "allusionTo": null,
+      "first": "The Hide-Behind",
+      "last": "Dipper and Mabel vs. the Future",
+      "times": 3
     }
   ]
 }
