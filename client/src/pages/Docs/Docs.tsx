@@ -8,7 +8,7 @@ const Docs: React.FC<Props> = () => {
     <div className="page -docs">
       <header className="page-header">
         <h2 className="page-header__title">Docs</h2>
-        <p className="page-header__desc">Coming Soon...</p>
+        <p className="page-header__desc">Coming Real Soon...</p>
         <PageHeaderActions currentPage="docs" />
       </header>
     </div>
