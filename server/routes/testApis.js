@@ -14,7 +14,7 @@ router.get("/", (req, res) => {
     //res.write(`<hr>Testing ${apiDeets.title}...<BR>`);
     PromiseFetches.push(
       apiDeets.endPoints.map((endpoint) => {
-        const url = `http://${req.headers.host}/${apiDeets.link}/api/${endpoint}`;
+        const url = `http://${req.headers.host}/${apiDeets.link}/${endpoint}`;
 
         try {
           return fetch(url)

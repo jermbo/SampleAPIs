@@ -29,6 +29,7 @@ app.use(cors());
 const reset = require("./routes/reset");
 const baseApis = require("./routes/base-apis");
 const frontend = require("./routes/frontend");
+const test = require("./routes/testApis");
 
 app.use("/frontend", frontend);
 
@@ -60,6 +61,7 @@ app.use("/reset", reset);
 app.use("/create", create);
 // app.use("/custom", custom);
 app.use("/generate", generateNewAPIListData);
+app.use("/test",test);
 app.use("/", baseApis);
 
 // Starting App
