@@ -1,0 +1,53 @@
+{
+  "metaData": [
+    {
+      "matricula": "3041210015",
+      "aPaterno": "Portilla",
+      "aMaterno": "Cardenas",
+      "nombre": "Jared",
+      "sexo": 2,
+      "dCalle": "Fairgrounds RD",
+      "dNumero": 521,
+      "dColonia": "Circuito Interior",
+      "dCodigoPostal": 34166,
+      "aTelefono": "(618)3046186",
+      "aCorreo": "jaredpor36@gmail.com",
+      "aFacebook": "Jared PC",
+      "aInstagram": "Jared PC",
+      "foto": "default.jpg"
+    },
+    {
+      "matricula": "3465444645",
+      "aPaterno": "Portilla",
+      "aMaterno": "Carrillo",
+      "nombre": "Emeli",
+      "sexo": 2,
+      "dCalle": "Fairgrounds RD",
+      "dNumero": 521,
+      "dColonia": "Circuito Interior",
+      "dCodigoPostal": 34166,
+      "aTelefono": "(618)3046186",
+      "aCorreo": "jaredpor36@gmail.com",
+      "aFacebook": "Jared PC",
+      "aInstagram": "Jared PC",
+      "foto": "default.jpg"
+    },
+    {
+      "matricula": "5466",
+      "aPaterno": "Portilla",
+      "aMaterno": "Portilla",
+      "nombre": "Jared36",
+      "sexo": 2,
+      "dCalle": "Fairgrounds RD",
+      "dNumero": 511,
+      "dColonia": "Circuito Interior",
+      "dCodigoPostal": 34166,
+      "aTelefono": "(618)3046186",
+      "aCorreo": "jaredpor36@gmail.com",
+      "aFacebook": "Jared PC",
+      "aInstagram": "Jared PC",
+      "foto": "default.jpg"
+    }
+  
+    
+    ]
