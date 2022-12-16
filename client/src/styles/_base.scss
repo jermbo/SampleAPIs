@@ -24,7 +24,7 @@ body {
   }
 }
 
-#main-wrapper {
+#root{
   display: grid;
   grid-template-columns: minmax(25px, 150px) minmax(50%, 90%) minmax(25px, 150px);
   grid-template-areas: "left center right";

@@ -16,22 +16,22 @@ const Nav: React.FC<RouteComponentProps> = ({ history }) => {
     <div className="full-screen-nav">
       <ul>
         <li>
-          <NavLink exact activeClassName="active" to="/">
+          <NavLink className={(navData) => (navData.isActive ? "active" : "")} to="/">
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink exact activeClassName="active" to="/about">
+          <NavLink className={(navData) => (navData.isActive ? "active" : "")} to="/about">
             About
           </NavLink>
         </li>
         <li>
-          <NavLink exact activeClassName="active" to="/api-list">
+          <NavLink className={(navData) => (navData.isActive ? "active" : "")} to="/api-list">
             API List
           </NavLink>
         </li>
         <li>
-          <NavLink exact activeClassName="active" to="/docs">
+          <NavLink className={(navData) => (navData.isActive ? "active" : "")} to="/docs">
             Docs
           </NavLink>
         </li>
@@ -40,4 +40,5 @@ const Nav: React.FC<RouteComponentProps> = ({ history }) => {
   );
 };
 
-export default withRouter(Nav);
+// export default withRouter(Nav);
+export default Nav;

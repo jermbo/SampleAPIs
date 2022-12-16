@@ -1,27 +1,21 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./styles/styles.scss";
 
-import Routes from "./router/routes";
+import AppRoutes from "./router/routes";
 import Header from "./components/Header/Header";
-
 const App: React.FC = () => {
   return (
-    <Router>
+    <>
       <main className="content">
         <Header />
-        <Switch>
-          {Routes.map((route: any) => (
-            <Route
-              key={route.path}
-              path={route.path}
-              exact={route.exact}
-              children={<route.component />}
-            />
+        <Routes>
+          {AppRoutes.map((route: any) => (
+            <Route key={route.path} path={route.path} element={<route.component />} />
           ))}
-        </Switch>
+        </Routes>
       </main>
-    </Router>
+    </>
   );
 };
 

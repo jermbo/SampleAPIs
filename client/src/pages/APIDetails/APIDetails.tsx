@@ -10,6 +10,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./APIDetails.scss";
 import CodepenWrapper from "../../components/CodepenWrapper/CodepenWrapper";
+import { Sandpack } from "@codesandbox/sandpack-react";
 
 interface ParamTypes {
   id: string;
@@ -18,6 +19,7 @@ interface ParamTypes {
 interface Props {}
 
 const APIDetails: React.FC<Props> = () => {
+  // const { id } = useParams<ParamTypes>();
   const { id } = useParams<ParamTypes>();
   const { apiList } = useContext(GlobalContext);
   const [singleAPI, setSingleAPI] = useState({} as APIData);
@@ -76,14 +78,7 @@ const APIDetails: React.FC<Props> = () => {
           />
         </div>
         <div className="section-body">
-          {exampleList &&
-            exampleList.map((example) => (
-              <CodepenWrapper key={example.hash} title={example.title} hash={example.hash} />
-            ))}
-
-          {!exampleList.length && (
-            <CodeDisplay urlBase={singleAPI.link} endpoint={singleEndpoint} />
-          )}
+          <Sandpack template="react" />;
         </div>
       </div>
     </section>
