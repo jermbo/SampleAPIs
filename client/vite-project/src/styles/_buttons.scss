@@ -1,0 +1,23 @@
+@use './functions/colors';
+
+// TODO: Update all padding to use CSS Var
+
+.btn {
+  display: inline-flex;
+  color: colors.use-var(text, light);
+  border: 1px solid colors.use-var(text, light);
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: transparent;
+
+  span + svg {
+    display: inline-block;
+    margin-left: 0.5rem;
+  }
+
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+}

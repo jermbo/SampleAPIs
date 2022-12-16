@@ -1,0 +1,27 @@
+@use './functions/colors';
+
+.-not-found {
+  display: block;
+  background: linear-gradient(180deg, rgba(2, 214, 233, 1) 0%, rgba(249, 248, 113, 1) 100%);
+  width: 100vw;
+  height: 100vh;
+  font-size: 1.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  code {
+    font-size: 3rem;
+    white-space: pre-wrap;
+    padding: 0;
+    letter-spacing: 0.1rem;
+    line-height: 2em;
+    background: none;
+    box-shadow: none;
+    font-weight: bold;
+    color: colors.use-var(text, dark);
+  }
+}
