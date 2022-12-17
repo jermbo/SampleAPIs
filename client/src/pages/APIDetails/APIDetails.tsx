@@ -2,30 +2,26 @@ import React, { useContext, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import APICategories from "../../components/APICategories/APICategories";
 import APIEndpoints from "../../components/Endpoints/Endpoints";
-import CodeDisplay from "../../components/CodeDisplay/CodeDisplay";
 import { GlobalContext } from "../../context/GlobalContext";
 import { APIData, Example } from "../../utils/Interfaces";
 import { URLS } from "../../utils/Config";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./APIDetails.scss";
-import CodepenWrapper from "../../components/CodepenWrapper/CodepenWrapper";
 import { Sandpack } from "@codesandbox/sandpack-react";
-
-interface ParamTypes {
-  id: string;
-}
+import { nightOwl } from "@codesandbox/sandpack-themes";
 
 interface Props {}
 
 const APIDetails: React.FC<Props> = () => {
-  // const { id } = useParams<ParamTypes>();
-  const { id } = useParams<ParamTypes>();
+  const { id } = useParams();
   const { apiList } = useContext(GlobalContext);
   const [singleAPI, setSingleAPI] = useState({} as APIData);
   const [singleEndpoint, setSingleEndpoint] = useState("");
   const [thisApiEndpoint, setThisApiEndpoint] = useState("");
   const [exampleList, setExampleList] = useState<Example[]>([]);
+
+  const [codeSample, setCodeSample] = useState("");
 
   useEffect(() => {
     if (!singleAPI) return;
@@ -44,6 +40,27 @@ const APIDetails: React.FC<Props> = () => {
   useEffect(() => {
     if (singleAPI?.link) {
       setThisApiEndpoint(`${URLS.API_LINK}/${singleAPI.link}/${singleEndpoint}`);
+      const sample = `import {useEffect, useState} from 'react';
+
+export default function App() {
+  const [data, setData] = useState("");
+  const getData = async () => {
+    const resp = await fetch('${URLS.API_LINK}/${singleAPI.link}/${singleEndpoint}');
+    const json = await resp.json();
+    setData(json);
+  }
+
+  useEffect(() => {
+    getData();
+  }, []);
+
+  return (
+    <pre>
+      {JSON.stringify(data, null, 2)}
+    </pre>
+  )
+}`;
+      setCodeSample(sample);
     }
   }, [singleAPI, singleEndpoint]);
 
@@ -78,7 +95,16 @@ const APIDetails: React.FC<Props> = () => {
           />
         </div>
         <div className="section-body">
-          <Sandpack template="react" />;
+          <Sandpack
+            template="react"
+            theme={nightOwl}
+            options={{
+              autorun: false,
+            }}
+            files={{
+              "/App.js": codeSample,
+            }}
+          />
         </div>
       </div>
     </section>
