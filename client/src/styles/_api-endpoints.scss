@@ -6,31 +6,13 @@
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
 }
 
 .api-endpoint {
   list-style: none;
   display: block;
-
-  &:first-child {
-    margin-right: 2rem;
-    position: relative;
-
-    &:after {
-      content: "";
-      position: absolute;
-      width: 1px;
-      height: 100%;
-      right: -1rem;
-      top: 50%;
-      transform: translate(-0.5rem, -50%);
-      background: white;
-    }
-  }
-
-  &:not(:last-child) {
-    margin-right: 1rem;
-  }
 
   @for $i from 1 through length($colors) {
     &:nth-child(#{length($colors)}n + #{$i}) {
@@ -52,9 +34,8 @@
   }
 
   a {
-    color: colors.use-var(text, light);
+    // color: colors.use-var(text, light);
     display: inline-block;
-    padding: 0.5rem;
     text-transform: capitalize;
   }
 }

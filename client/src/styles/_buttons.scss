@@ -1,14 +1,13 @@
 @use './functions/colors';
+@use './functions/fonts';
 
 // TODO: Update all padding to use CSS Var
 
 .btn {
-  display: inline-flex;
+  font-size: fonts.size(text, 4);
   color: colors.use-var(text, light);
   border: 1px solid colors.use-var(text, light);
   padding: 0.5rem;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;
   background: transparent;
 

@@ -16,7 +16,7 @@ const APICard: React.FC<Props> = ({ api, featured = false }) => {
       <div className="api-card__inner">
         <APICategories categories={api.metaData.categories} />
         <header className="api-card__header">
-          <Link className="btn noleftmargin" to={`api-list/${api.link}`}>
+          <Link className="btn noleftmargin" to={`/api-list/${api.link}`}>
             <h2 className="api-card__title">{api.metaData.title}</h2>&nbsp;
             <FontAwesomeIcon icon={faLink} />
           </Link>

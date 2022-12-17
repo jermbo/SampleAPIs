@@ -6,35 +6,29 @@ import StyleGuide from "../pages/StyleGuide/StyleGuide";
 import NotFound from "../pages/NotFound/NotFound";
 import Docs from "../pages/Docs/Docs";
 
-const Routes = [
+const AppRoutes = [
   {
     path: "/",
-    exact: true,
     component: Home,
   },
   {
     path: "/style-guide",
-    exact: true,
     component: StyleGuide,
   },
   {
     path: "/about",
-    exact: true,
     component: About,
   },
   {
     path: "/docs",
-    exact: true,
     component: Docs,
   },
   {
     path: "/api-list",
-    exact: true,
     component: APIList,
   },
   {
     path: "/api-list/:id",
-    exact: true,
     component: APIDetails,
   },
   {
@@ -44,4 +38,4 @@ const Routes = [
   },
 ];
 
-export default Routes;
+export default AppRoutes;
