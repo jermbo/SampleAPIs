@@ -28,16 +28,6 @@
     <meta property="twitter:image" content="https://sampleapis.com/assets/images/poster.jpg" />
     <meta property="twitter:image:alt" content="Sample APIs" />
 
-    <!--
-      Not sure why this `window.global = window;` is necessary, but it fixes
-      the problems with the CodeMirror.
-      Uncaught ReferenceError: global is not defined
-      at node_modules/react-codemirror2/index.js 
-    -->
-    <script>
-      window.global = window;
-    </script>
-
     <!-- Global site tag (gtag.js) - Google Analytics-->
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-125356349-1"></script>
     <script>
@@ -50,7 +40,7 @@
     </script>
   </head>
   <body>
-    <div id="main-wrapper"></div>
+    <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
