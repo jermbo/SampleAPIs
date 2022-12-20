@@ -1,40 +1,34 @@
-import About from "../pages/About/About";
-import APIDetails from "../pages/APIDetails/APIDetails";
-import APIList from "../pages/APIList/APIList";
-import Home from "../pages/Home/Home";
-import StyleGuide from "../pages/StyleGuide/StyleGuide";
-import NotFound from "../pages/NotFound/NotFound";
-import Docs from "../pages/Docs/Docs";
+import { lazy } from "react";
 
 const AppRoutes = [
   {
     path: "/",
-    component: Home,
+    component: lazy(() => import("../pages/Home/Home")),
   },
   {
     path: "/style-guide",
-    component: StyleGuide,
+    component: lazy(() => import("../pages/StyleGuide/StyleGuide")),
   },
   {
     path: "/about",
-    component: About,
+    component: lazy(() => import("../pages/About/About")),
   },
   {
     path: "/docs",
-    component: Docs,
+    component: lazy(() => import("../pages/Docs/Docs")),
   },
   {
     path: "/api-list",
-    component: APIList,
+    component: lazy(() => import("../pages/APIList/APIList")),
   },
   {
     path: "/api-list/:id",
-    component: APIDetails,
+    component: lazy(() => import("../pages/APIDetails/APIDetails")),
   },
   {
     path: "/",
     exact: false,
-    component: NotFound,
+    component: lazy(() => import("../pages/NotFound/NotFound")),
   },
 ];
 
