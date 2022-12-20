@@ -19,10 +19,14 @@ export const initialValues: iGlobal = {
 
 export const GlobalContext = createContext(initialValues);
 
+interface Props {
+  children?: React.ReactNode;
+}
+
 const BASE_URL =
   process.env.NODE_ENV === "production" ? "https://api.sampleapis.com" : "http://localhost:5555";
 
-const GlobalProvider: React.FC = ({ children }) => {
+const GlobalProvider: React.FC<Props> = ({ children }) => {
   const [navVisible, setNavVisible] = useState(initialValues.navVisible);
   const [appState, setAppState] = useState(initialValues.appState);
   const [apiList, setAPIList] = useState(initialValues.apiList);

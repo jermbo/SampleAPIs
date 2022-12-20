@@ -1,11 +1,12 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import GlobalProvider from "./context/GlobalContext";
+import App from "./App";
 
 const container = document.getElementById("root");
 const root = createRoot(container!);
+
 root.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -15,14 +16,3 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>,
 );
-
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <Router>
-//       <GlobalProvider>
-//         <App />
-//       </GlobalProvider>
-//     </Router>
-//   </React.StrictMode>,
-//   document.getElementById("root"),
-// );

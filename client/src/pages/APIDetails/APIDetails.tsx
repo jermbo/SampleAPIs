@@ -99,7 +99,7 @@ export default function App() {
             template="react"
             theme={nightOwl}
             options={{
-              autorun: false,
+              // autorun: false,
             }}
             files={{
               "/App.js": codeSample,
