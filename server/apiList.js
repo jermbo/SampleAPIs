@@ -7,7 +7,7 @@ module.exports = [
     desc: "An API with characters, episode listing, species, planets, and trivia questions.",
     link: "futurama",
     graphLink: "futurama/graphql",
-    endPoints: ["info", "characters", "cast", "episodes", "questions", "inventory"],
+    endPoints: ["information", "characters", "cast", "episodes", "questions", "inventory"],
   },
   {
     id: 2,
