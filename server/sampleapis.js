@@ -62,7 +62,15 @@ app.use("/create", create);
 app.use("/generate", generateNewAPIListData);
 app.use("/", baseApis);
 
-// Starting App
+app.use(errorHandler)
+
+function errorHandler (err, req, 
+res, next) {
+  res.status(500) 
+  console.error(err)
+  res.json( { error: 
+ "fuckery deteted"})
+}// Starting App
 app.listen(port, () => {
   console.log(`App is listening on: http://localhost:${port}`);
 });
