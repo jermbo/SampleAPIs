@@ -1,6 +1,6 @@
 const express = require("express");
 const ApiList = require("../apiList");
-const fetch = require("node-fetch");
+//const fetch = require("node-fetch");
 const router = express.Router();
 
 /// Main EndPoint Route
