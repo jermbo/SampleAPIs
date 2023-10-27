@@ -1,6 +1,6 @@
 const rateLimit = require("express-rate-limit");
 
-const allowlist = ["170.55.81.98"];
+const allowlist = ["170.55.81.98","12.220.63.124"];
 
 const apiLimits = rateLimit({
   windowMs: 15 * 60 * 1000, // 5 minutes
