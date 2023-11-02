@@ -9,9 +9,10 @@ let APIListData = [];
 
 // Reset API Route
 router.get("/all", async (req, res) => {
+  console.log("Resetting endpoints")
   if (!APIListData.length) {
     APIListData = await getAPIListData();
-  }
+ }
 
   APIListData.forEach((page) => {
     const api = page.link;

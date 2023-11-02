@@ -57,7 +57,7 @@ app.get("/", (req, res) => {
   });
 });
 
-app.use("/reset", reset);
+app.use("/resetit", reset);
 app.use("/create", create);
 // app.use("/custom", custom);
 app.use("/generate", generateNewAPIListData);
