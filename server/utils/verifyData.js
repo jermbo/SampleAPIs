@@ -59,7 +59,6 @@ const verifyData = (req, res, next) => {
           error: 500,
           message:
             `Unexpected data sent in! ${method} NOT accepted. Please send valid data next time!`,
-          expected: expectedObjectData,
           received: body,
         });
 
