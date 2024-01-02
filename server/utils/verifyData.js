@@ -1,7 +1,8 @@
-const path = require("path");
-const { getFromFile } = require("./utils");
+ const path = require("path");
+ const { getFromFile } = require("./utils");
 
 const verifyData = (req, res, next) => {
+try {
   const { method, originalUrl, body } = req;
   const [baseParent, endPoint] = originalUrl.split("/").filter((d) => d);
   const dataPath = path.join(__dirname, `../api/${baseParent}.json`);
@@ -51,6 +52,18 @@ const verifyData = (req, res, next) => {
   if (method == "GET" || method == "DELETE") {
     return next();
   }
+
+} catch (ex) {
+      return res.json({
+        error: 500,
+        message:
+          `Unexpected data sent in! ${method} NOT accepted. Please send valid data next time!",
+        expected: expectedObjectData,
+        received: body,
+      });
+
+
+} // end of try 
 };
 
 function hasAllData(dataKeys, bodyKeys) {
