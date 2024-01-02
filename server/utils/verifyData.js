@@ -2,8 +2,8 @@
  const { getFromFile } = require("./utils");
 
 const verifyData = (req, res, next) => {
+  const { method, originalUrl, body } = req;
   try {
-    const { method, originalUrl, body } = req;
     const [baseParent, endPoint] = originalUrl.split("/").filter((d) => d);
     const dataPath = path.join(__dirname, `../api/${baseParent}.json`);
     const data = getFromFile(dataPath)[endPoint][0];
