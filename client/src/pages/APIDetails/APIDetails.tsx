@@ -45,9 +45,13 @@ const APIDetails: React.FC<Props> = () => {
 export default function App() {
   const [data, setData] = useState("");
   const getData = async () => {
-    const resp = await fetch('${URLS.API_LINK}/${singleAPI.link}/${singleEndpoint}');
-    const json = await resp.json();
-    setData(json);
+    try {
+      const resp = await fetch('${URLS.API_LINK}/${singleAPI.link}/${singleEndpoint}');
+      const json = await resp.json();
+      setData(json);
+    } catch (err) {
+      setData(err.message);
+    }
   }
 
   useEffect(() => {
@@ -99,7 +103,7 @@ export default function App() {
             template="react"
             theme={nightOwl}
             options={{
-              // autorun: false,
+              autorun: false,
             }}
             files={{
               "/App.js": codeSample,
