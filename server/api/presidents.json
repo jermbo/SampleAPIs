@@ -23,7 +23,7 @@
       "name": "John Adams",
       "yearsInOffice": "1797-1801",
       "vicePresidents": ["Thomas Jefferson"],
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/John_Adams%2C_Gilbert_Stuart%2C_c1800_1815.jpg/220px-John_Adams%2C_Gilbert_Stuart%2C_c1800_1815.jpg"
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/0/07/John_Adams_A18236.jpg"
     },
     {
       "id": 3,
@@ -365,9 +365,17 @@
       "id": 45,
       "ordinal": 45,
       "name": "Donald Trump",
-      "yearsInOffice": "2017-present",
+      "yearsInOffice": "2017-2020",
       "vicePresidents": ["Mike Pence"],
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/220px-Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "id": 46,
+      "ordinal": 46,
+      "name": "Joseph Biden",
+      "yearsInOffice": "2020-present",
+      "vicePresidents": ["Kamala Harris"],
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/440px-Joe_Biden_presidential_portrait.jpg"
     }
   ]
 }
