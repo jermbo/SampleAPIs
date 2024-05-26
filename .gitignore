@@ -6,7 +6,7 @@ dist
 data.html
 .now
 .vs
-package-lock.json
+
 
 server/custom/*
 
