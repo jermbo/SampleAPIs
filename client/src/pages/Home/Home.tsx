@@ -6,22 +6,19 @@ import { GlobalContext } from "../../context/GlobalContext";
 import { APIData } from "../../utils/Interfaces";
 import PageHeaderActions from "../../components/PageHeaderActions/PageHeaderActions";
 
-interface Props {}
+interface Props { }
 
 const Home: React.FC<Props> = () => {
   const { apiList } = useContext(GlobalContext);
   const [featuredAPIs, setFeatureAPIs] = useState([] as APIData[]);
-  const [coffees, setCoffees] = useState([] as any[]);
-  
+
+
   useEffect(() => {
     const featured = apiList
       .filter((api) => api.metaData.featured)
       .sort(() => (Math.random() > 0.5 ? 1 : -1));
     setFeatureAPIs(featured);
 
-    fetch("https://api.sampleapis.com/coffee/hot")
-      .then((resp) => resp.json())
-      .then((data) => setCoffees(data));
 
 
   }, [apiList]);
@@ -49,22 +46,28 @@ const Home: React.FC<Props> = () => {
             play with RESTful endpoints and learn. We have a few endpoints that
             you can start playing around with right away!
           </p>
-          <p> Here's an example where I've pulled from: 
+          <p> Here's an example where I've pulled from:
             and chosen the "hot" endpoint: https://api.sampleapis.com/coffee/hot<br />
             then we ran the following code:
-            <pre>
-              fetch("https://api.sampleapis.com/coffee/hot") <br />
-              .then(resp =&gt; resp.json()) <br />
-              .then(data =&gt; console.log(data[0].title)); <br />
-            </pre>
-            and randomly selected a coffee and we get the following json back: 
-            <pre>
-              {JSON.stringify(coffees[0].title, null, 2)}
-            </pre>
-            Want to learn more? Try watching this video that will explain how to use this api and showcase the results 
+          </p>
+          <pre>
+            fetch("https://api.sampleapis.com/coffee/hot") <br />
+            .then(resp =&gt; resp.json()) <br />
+            .then(data =&gt; console.log(data[0].title)); <br />
+          </pre>
+          <p>
+            and randomly selected a coffee and we get the following json back:
+          </p>
+          <pre>
+             "Black Coffee"
+          </pre>
+          <p>
+            Don't believe me? Try it yourself....
+          </p>
+          <p>or....Want to learn more? Try watching this video that will explain how to use this api and showcase the results
             without any front end coding: <a href="https://www.youtube.com/watch?v=lCs9EriXnY8">https://www.youtube.com/watch?v=lCs9EriXnY8</a>
           </p>
-          </div>  
+        </div>
       </div>
       <div className="section">
         <div className="section-header">
@@ -72,7 +75,7 @@ const Home: React.FC<Props> = () => {
             Featured <abbr title="Application Program Interface">API</abbr>s
           </h3>
         </div>
-        
+
         <div className="cards-grid">
           {featuredAPIs &&
             featuredAPIs.map((api) => (
