@@ -12,9 +12,7 @@ const Docs: React.FC<Props> = () => {
         <h2 className="page-header__title">Documentation</h2>
         <p className="page-header__desc">
           <div className="section">
-            <h2>
-              Sample APIs has been given a major overhaul. Due to the fact Vercel.com has changed the way their servers work, we have had to rethink how the system was built. Over all, the changes are for the better. It is now easier than ever to contribute.
-            </h2>
+          <p>A simple, no fuss, no mess, no auth playground for learning to play with APIs and call them without thinking of Authentication or permissions.</p>
           </div>
           <div className="section">
             <h2>Purpose</h2>
