@@ -21,7 +21,7 @@
   "homepage": "https://github.com/jermbo/SampleAPIs#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
-    "express": "^4.19.2",
+    "express": "^4.21.1",
     "express-rate-limit": "^7.2.0",
     "express-slow-down": "^2.0.3",
     "json-graphql-server": "2.4.0",
