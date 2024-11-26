@@ -65,7 +65,7 @@ const Home: React.FC<Props> = () => {
             Don't believe me? Try it yourself....
           </p>
           <p>or....Want to learn more? Try watching this video that will explain how to use this api and showcase the results
-            without any front end coding: <a href="https://www.youtube.com/watch?v=lCs9EriXnY8">https://www.youtube.com/watch?v=lCs9EriXnY8</a>
+            without any front end coding: <a href="https://www.youtube.com/watch?v=7MZ6yTzesgg">https://www.youtube.com/watch?v=7MZ6yTzesgg</a>
           </p>
         </div>
       </div>
