@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:200,400,600,800");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+  background: #161616;
+  height: 100%;
+}
+
+a {
+  color: #15e3d9;
+}
+
+.disclaimer {
+  font-size: 0.75rem;
+}
+
+.site {
+  flex: 1;
+  display: flex;
+  color: #eadeda;
+  align-items: center;
+  justify-content: center;
+}
+
+.site__inner {
+  padding: 0 1.25rem;
+  max-width: 60vw;
+}
+
+.page__inner {
+  padding: 0 1.25rem;
+  width: 100vw;
+}
+
+.site__title {
+  font-weight: 400;
+}
+
+.backBtn {
+  background: #00d6e9;
+  display: inline-block;
+  padding: 0.125rem 0.625rem;
+  color: #161616;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.backBtn:hover {
+  color: #eadeda;
+  background: #00909d;
+}
+
+.apis {
+  flex: 1;
+  max-height: 100%;
+  display: flex;
+  overflow-y: auto;
+  flex-direction: column;
+}
+
+.api {
+  flex: 1 0 auto;
+  display: flex;
+  padding: 1.25rem;
+  color: #161616;
+  align-items: center;
+}
+.api:nth-child(6n + 1) {
+  background: #00d6e9;
+}
+.api:nth-child(6n + 2) {
+  background: #15e3d9;
+}
+.api:nth-child(6n + 3) {
+  background: #56edbf;
+}
+.api:nth-child(6n + 4) {
+  background: #8cf5a2;
+}
+.api:nth-child(6n + 5) {
+  background: #c2f985;
+}
+.api:nth-child(6n + 6) {
+  background: #f9f871;
+}
+
+.api__title {
+  margin: 0 0 0.625rem;
+}
+
+.api__desc {
+  margin: 0 0 0.625rem;
+}
+
+.api__link {
+  color: #161616;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.3125rem 0.625rem;
+  border: 1px solid #161616;
+  margin: 0 0.1123rem;
+  transition: all 0.2s ease;
+}
+.api:nth-child(6n + 1) .api__link {
+  background: #00d6e9;
+}
+.api:nth-child(6n + 1) .api__link:hover {
+  color: black;
+  border-color: black;
+  background: #00909d;
+}
+.api:nth-child(6n + 2) .api__link {
+  background: #15e3d9;
+}
+.api:nth-child(6n + 2) .api__link:hover {
+  color: black;
+  border-color: black;
+  background: #0f9d96;
+}
+.api:nth-child(6n + 3) .api__link {
+  background: #56edbf;
+}
+.api:nth-child(6n + 3) .api__link:hover {
+  color: #073d2d;
+  border-color: #073d2d;
+  background: #18dfa2;
+}
+.api:nth-child(6n + 4) .api__link {
+  background: #8cf5a2;
+}
+.api:nth-child(6n + 4) .api__link:hover {
+  color: #0a7821;
+  border-color: #0a7821;
+  background: #46ef69;
+}
+.api:nth-child(6n + 5) .api__link {
+  background: #c2f985;
+}
+.api:nth-child(6n + 5) .api__link:hover {
+  color: #427906;
+  border-color: #427906;
+  background: #9ef53c;
+}
+.api:nth-child(6n + 6) .api__link {
+  background: #f9f871;
+}
+.api:nth-child(6n + 6) .api__link:hover {
+  color: #676604;
+  border-color: #676604;
+  background: #f6f428;
+}
+
+.endpoint {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  margin: 0 0.625rem 0.625rem 0;
+  transition: all 0.2s ease;
+}
+.endpoint:nth-child(6n + 1) {
+  background: #00d6e9;
+  color: black;
+}
+.endpoint:nth-child(6n + 1):hover {
+  color: #50f1ff;
+  border-color: black;
+  background: #00909d;
+}
+.endpoint:nth-child(6n + 2) {
+  background: #15e3d9;
+  color: black;
+}
+.endpoint:nth-child(6n + 2):hover {
+  color: #6df1eb;
+  border-color: black;
+  background: #0f9d96;
+}
+.endpoint:nth-child(6n + 3) {
+  background: #56edbf;
+  color: #073d2d;
+}
+.endpoint:nth-child(6n + 3):hover {
+  color: #b2f7e2;
+  border-color: #073d2d;
+  background: #18dfa2;
+}
+.endpoint:nth-child(6n + 4) {
+  background: #8cf5a2;
+  color: #0a7821;
+}
+.endpoint:nth-child(6n + 4):hover {
+  color: #eafdee;
+  border-color: #0a7821;
+  background: #46ef69;
+}
+.endpoint:nth-child(6n + 5) {
+  background: #c2f985;
+  color: #427906;
+}
+.endpoint:nth-child(6n + 5):hover {
+  color: #f3fee6;
+  border-color: #427906;
+  background: #9ef53c;
+}
+.endpoint:nth-child(6n + 6) {
+  background: #f9f871;
+  color: #676604;
+}
+.endpoint:nth-child(6n + 6):hover {
+  color: #fdfdd3;
+  border-color: #676604;
+  background: #f6f428;
+}
+/* ----- */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  padding: 1rem;
+  margin-top: 0.5rem;
+}

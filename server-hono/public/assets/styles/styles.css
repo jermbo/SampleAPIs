@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+:root {
+  --primary-color: rgba(40, 150, 240, 0.9);
+  --secondary-color: rgba(80, 170, 70, 0.9);
+  --background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/54887/wild-sea.png);
+  --background-deg: -45deg;
+  --text-color-light: #e5e5e5;
+  --box-shadow: rgba(0, 0, 0, 0.5);
+  --light-bg: rgba(0, 153, 255, 0.555);
+  --padding: 1.25rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT-Sans", sans-serif;
+  background: linear-gradient(
+      var(--background-deg),
+      var(--primary-color),
+      var(--secondary-color)
+    ),
+    var(--background-image);
+  background-blend-mode: color-burn;
+  min-height: calc(100vh - 100px);
+  margin: 50px 0;
+}
+
+.container {
+  width: 75vw;
+  margin: 0 auto;
+  color: var(--text-color-light);
+}
+
+.form-area {
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-flow: dense;
+  grid-gap: 0.5rem 1rem;
+}
+
+.form-area > * {
+  grid-column: 1 / -1;
+}
+
+.half {
+  grid-column: span 6;
+}
+
+.third {
+  grid-column: span 4;
+}
+
+.quarter {
+  grid-column: span 3;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.btn {
+  box-shadow: 0 3px 3px var(--box-shadow);
+  border: 0;
+  padding: 10px;
+  width: 100%;
+  color: var(--text-color-light);
+}
+
+.btn-primary {
+  background: var(--secondary-color);
+}
+
+.btn-secondary {
+  background: var(--primary-color);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-shadow: 0 3px 3px var(--box-shadow);
+  text-align: center;
+  transition: all 0.25s ease;
+}
+
+.title a {
+  color: var(--text-color-light);
+  text-decoration: none;
+}
+
+.title small {
+  display: block;
+  text-shadow: 0 2px 1px var(--box-shadow);
+  transition: all 0.25s ease;
+  font-size: 0.5em;
+  font-weight: 400;
+}
+
+.title:hover {
+  text-shadow: 0 5px 5px var(--box-shadow);
+}
+
+.title:hover small {
+  text-shadow: 0 5px 5px var(--box-shadow);
+}
+
+.sub-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-shadow: 0 3px 3px var(--box-shadow);
+  transition: all 0.25s ease;
+}
+
+.sub-title:hover {
+  text-shadow: 0 5px 5px var(--box-shadow);
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 var(--padding);
+}
+
+.main-nav a {
+  color: var(--text-color-light);
+  text-decoration: none;
+  display: inline-block;
+  padding: calc(var(--padding) / 2) var(--padding);
+  background: var(--light-bg);
+  transition: all 0.2s ease;
+}
+
+.main-nav a:hover {
+  background: var(--primary-color);
+}
+
+label {
+  display: inline-block;
+  margin-bottom: calc(var(--padding) / 2);
+}
+
+select {
+  width: 100%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  float: right;
+  width: 15px;
+  margin-left: 5px;
+}
+
+.group {
+  float: left;
+  margin-right: 15px;
+}
+
+h5 {
+  margin: 5px 0;
+}
+
+.endpoint {
+  display: block;
+  text-decoration: none;
+  color: var(--text-color-light);
+  text-shadow: 0 3px 3px var(--box-shadow);
+  transition: all 0.2s ease;
+}
+
+.endpoint:hover {
+  text-shadow: 0 1px 1px var(--box-shadow);
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sample APIs</title>
+    <link rel="stylesheet" href="assets/styles/home-styles.css" />
+    <link rel="stylesheet" href="assets/styles/code.css" />
+
+    <!-- FACEBOOK -->
+    <meta property="og:title" content="Sample APIs" />
+    <meta property="og:site_name" content="Sample APIs" />
+    <meta property="og:url" content="https://sampleapis.com" />
+    <meta property="og:description" content="A playground for RESTful and GraphQL endpoints." />
+    <meta property="og:image" content="https://sampleapis.com/assets/images/poster.jpg" />
+    <meta property="og:type" content="website" />
+
+    <!-- TWITTER -->
+    <meta property="twitter:card" content="A playground for RESTful and GraphQL endpoints." />
+    <meta property="twitter:title" content="Sample APIs" />
+    <meta property="twitter:description" content="A playground for RESTful and GraphQL endpoints." />
+    <meta property="twitter:creator" content="Jermbo" />
+    <meta property="twitter:url" content="https://sampleapis.com" />
+    <meta property="twitter:image" content="https://sampleapis.com/assets/images/poster.jpg" />
+    <meta property="twitter:image:alt" content="Sample APIs" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-125356349-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-125356349-1");
+    </script>
+  </head>
+  <body>
+    <main id="app">
+      <article class="site">
+        <div class="site__inner">
+          <h1 class="site__title">Sample APIs</h1>
+          <p>
+            Welcome to SampleAPIs. A playground for messing with RESTful and GraphQL endpoints. Checkout the project on
+            <a href="https://github.com/jermbo/SampleAPIs">GitHub</a>
+            and consider contributing to the project with a new endpoint!
+          </p>
+          <p>
+            You can use any HTTP verbs (GET, POST, PUT, PATCH and DELETE) and access your resources from anywhere using
+            CORS and JSONP.
+          </p>
+          <p class="disclaimer">
+            * The data on this site is for educational purposes only and is not owned by SampleAPIs.com
+          </p>
+          <p class="disclaimer">* The data on this site will be reset on a regular basis.</p>
+          <p class="example_code">Example code:</p>
+          <div class="code-group">
+            <button class="copy">Copy</button>
+            <div class="copied">
+              <p>Copied!</p>
+            </div>
+            <code spellcheck="false">
+              <p>const baseURL = "https://sampleapis.com/futurama/api/characters";</p>
+              <p>fetch(baseURL)</p>
+              <p>.then(resp => resp.json())</p>
+              <p>.then(data => console.log(data));</p>
+            </code>
+            <textarea class="hidden"></textarea>
+          </div>
+          <p class="Explanation">Want to Search? Then use this endpoint:</p>
+          <div class="code-group">
+            <button class="copy">Copy</button>
+            <div class="copied">
+              <p>Copied!</p>
+            </div>
+            <code spellcheck="false">
+              <p>const baseURL = "https://sampleapis.com/futurama/api/characters";</p>
+              <p>fetch(`${baseURL}?name.first=Bender`)</p>
+              <p>.then(resp => resp.json())</p>
+              <p>.then(data => console.log(data));</p>
+            </code>
+            <textarea class="hidden"></textarea>
+          </div>
+        </div>
+      </article>
+
+      <section class="apis" id="apis-container">
+        <!-- APIs will be rendered here -->
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+      // This will be replaced with actual API data from the server
+      const apiList = [];
+
+      function renderApis() {
+        const apisContainer = document.getElementById("apis-container");
+
+        apiList.forEach((api) => {
+          const article = document.createElement("article");
+          article.className = "api";
+
+          const inner = document.createElement("div");
+          inner.className = "api__inner";
+
+          const title = document.createElement("h2");
+          title.className = "api__title";
+          title.textContent = api.title;
+
+          const desc = document.createElement("p");
+          desc.className = "api__desc";
+          desc.textContent = api.desc;
+
+          const apiLink = document.createElement("a");
+          apiLink.className = "api__link";
+          apiLink.href = api.link;
+          apiLink.textContent = "API Link";
+
+          const graphLink = document.createElement("a");
+          graphLink.className = "api__link";
+          graphLink.href = api.graphLink;
+          graphLink.target = "_blank";
+          graphLink.textContent = "GRAPHQL Link";
+
+          inner.appendChild(title);
+          inner.appendChild(desc);
+          inner.appendChild(apiLink);
+          inner.appendChild(graphLink);
+
+          article.appendChild(inner);
+          apisContainer.appendChild(article);
+        });
+      }
+
+      // Fetch API list from the server
+      fetch("/frontend")
+        .then((response) => response.json())
+        .then((data) => {
+          if (data && data.data && data.data.APIListData) {
+            apiList.push(...data.data.APIListData);
+            renderApis();
+          }
+        })
+        .catch((error) => console.error("Error fetching API list:", error));
+    </script>
+
+    <script src="/scripts/CodeHighlight.js"></script>
+    <script>
+      document.querySelectorAll(".code-group").forEach((group) => {
+        new CodeHighlight(group);
+      });
+    </script>
+  </body>
+</html>
