@@ -1,0 +1,1872 @@
+{
+  "metaData": [
+    {
+      "title": "Avatar",
+      "longDesc": "If you are an Avatar fan, then this api is for you. Here you can find everything from Episodes to Characters to Trivia Questions and more.",
+      "desc": "An API with characters, episode listings, and trivia questions.",
+      "featured": false,
+      "categories": ["cartoon", "tv", "entertainment", "quiz"]
+    }
+  ],
+  "info": [
+    {
+      "synopsis": "The world is divided into four nations -- the Water Tribe, the Earth Kingdom, the Fire Nation and and the Air Nomads -- each represented by a natural element for which the nation is named. Benders have the ability to control and manipulate the element from their nation. Only the Avatar is the master of all four elements. The ruthless Fire Nation wants to conquer the world but the only bender who has enough power, the Avatar, has disappeared ... until now. His tribe soon discovers that Aang is the long-lost Avatar. Now Katara and Sokka must safeguard Aang on his journey to master all four elements and save the world from the Fire Nation.",
+      "yearsAired": "2003 - 2008",
+      "genres": ["Animation", "Action", "Adventure", "Family", "Fantasy", "Mystery"],
+      "creators": [
+        {
+          "name": "Michael Dante DiMartino",
+          "url": "https://www.imdb.com/name/nm0227204/"
+        },
+        {
+          "name": "Bryan Konietzko",
+          "url": "https://www.imdb.com/name/nm1665983/"
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "characters": [
+    {
+      "id": 1,
+      "name": "Aang",
+      "image": "https://static.wikia.nocookie.net/avatar/images/a/ae/Aang_at_Jasmine_Dragon.png/revision/latest/scale-to-width-down/333?cb=20130612174003",
+      "bio": {
+        "alternativeNames": [
+          "Aangy (by Koko)",
+          "Kuzon (while at the Fire Nation school)",
+          "Twinkle Toes (by Toph)",
+          "Sweetie (by Katara)"
+        ],
+        "nationality": "Southern Air Temple",
+        "ethnicity": "Air Nomad",
+        "ages": [
+          "112 (biologically 12) in Avatar: The Last Airbender[3]",
+          "113-114 (biologically 13-14) in The Promise trilogy[4]",
+          "114-115 (biologically 14-15) in The Search and The Rift trilogies[5]",
+          "165 (biologically 66) at death[6]"
+        ],
+        "born": "12 BG",
+        "died": ["Spring 100 AG (revived by Katara using spirit water)", "153 AG"]
+      },
+      "physicalDescription": {
+        "gender": "Male",
+        "eyeColor": "Gray",
+        "hairColor": "Dark brown (typically shaved)",
+        "skinColor": "Light"
+      },
+      "personalInformation": {
+        "loveInterst": "Katara (wife)",
+        "allies": [
+          "Appa",
+          "Katara",
+          "Momo",
+          "Sokka",
+          "Tenzin",
+          "Toph",
+          "Zuko",
+          "King Bumi",
+          "Bumi",
+          "Gyatso",
+          "Hakoda",
+          "Iroh",
+          "Kya",
+          "Suki",
+          "Kuzon",
+          "lion turtle",
+          "all Avatars"
+        ],
+        "enemies": [
+          "Azula",
+          "Ozai",
+          "Zhao",
+          "Zuko (formerly)",
+          "Combustion Man",
+          "Long Feng",
+          "Sozin",
+          "Yakone",
+          "Joo Dee",
+          "the Dai Li"
+        ],
+        "weaponsOfChoice": ["The elements", "glider staff"],
+        "fightingStyles": [
+          "Airbending",
+          "waterbending (Northern and Southern style)",
+          "earthbending (Chu Gar Praying Mantis Kung Fu)",
+          "firebending (Dancing Dragon)",
+          "energybending"
+        ]
+      },
+      "politicalInformation": {
+        "profession": ["Air Nomad culture teacher", "Airbending instructor", "Avatar", "Monk"],
+        "position": ["Co-founder of the United Republic of Nations", "Fully realized Avatar"],
+        "predecessor": "Roku (as the Avatar)",
+        "successor": "Korra (as the Avatar)",
+        "affiliations": ["Air Acolytes", "Air Nomads", "Air Scouts (formerly)", "Team Avatar"]
+      },
+      "chronologicalInformation": {
+        "firstAppearance": "\"The Boy in the Iceberg\"",
+        "lastAppearance": [
+          "Imbalance Part Three (chronological)",
+          "\"Darkness Falls\"(as spirit)",
+          "\"Remembrances\"(flashback only)"
+        ],
+        "voicedBy": [
+          "Zach Tyler Eisen (in Avatar: The Last Airbender)",
+          "Mitchel Musso (unaired pilot episode)",
+          "D. B. Sweeney (in The Legend of Korra)"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Appa",
+      "image": "https://static.wikia.nocookie.net/avatar/images/6/65/Appa_flying.png/revision/latest/scale-to-width-down/333?cb=20140517110636",
+      "bio": {
+        "alternativeNames": "NA",
+        "nationality": "Air Nomad",
+        "ethnicity": "NA",
+        "ages": "NA",
+        "born": "NA",
+        "died": "NA"
+      },
+      "physicalDescription": {
+        "gender": "Male",
+        "eyeColor": "Brown",
+        "hairColor": "White and brown",
+        "skinColor": "Fur"
+      },
+      "personalInformation": {
+        "loveInterest": "His mother, Aang, Momo, Air Nomads, Katara, Sokka, Toph, Zuko, Iroh, Suki, Kyoshi Warriors, Pathik",
+        "allies": [
+          "Azula",
+          "Ozai",
+          "Zuko (formerly)",
+          "Combustion Man",
+          "Zhao",
+          "Long Feng",
+          "the Dai Li",
+          "Shuzumu",
+          "circus trainer",
+          "Ghashiun",
+          "Si Wong tribes",
+          "beetle-headed merchants"
+        ],
+        "enemies": ["Air", "body bulk", "tail"],
+        "weaponsOfChoice": ["Airbending"],
+        "fightingStyles": "NA"
+      },
+      "politicalInformation": {
+        "profession": "\n",
+        "position": "NA",
+        "predecessor": "Naga (as next animal companion of the Avatar)",
+        "successor": "Air Nomads\nTeam Avatar",
+        "affiliations": "NA"
+      },
+      "chronologicalInformation": {
+        "firstAppearance": "\"The Boy in the Iceberg\"",
+        "lastAppearance": ["Imbalance Part One (chronological)"],
+        "voicedBy": "NA"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Momo",
+      "image": "https://static.wikia.nocookie.net/avatar/images/8/80/Momo_staring.png/revision/latest/scale-to-width-down/333?cb=20200802080013",
+      "bio": {
+        "alternativeNames": "NA",
+        "nationality": "Air Nomad",
+        "ethnicity": "NA",
+        "ages": "NA",
+        "born": "NA",
+        "died": "NA"
+      },
+      "physicalDescription": {
+        "gender": "Male",
+        "eyeColor": "Light green",
+        "hairColor": "White and brown",
+        "skinColor": "Fur"
+      },
+      "personalInformation": {
+        "loveInterest": "Aang, Appa, Katara, Sokka, Toph, Zuko, Suki, Bumi, pygmy pumas",
+        "allies": [
+          "Ozai",
+          "Azula",
+          "Zhao",
+          "Zuko (formerly)",
+          "Long Feng",
+          "the Dai Li",
+          "Tom-Tom",
+          "Fire Nation (formerly)",
+          "buzzard wasp",
+          "Hawky",
+          "iguana parrot",
+          "bearded cat"
+        ],
+        "enemies": "NA",
+        "weaponsOfChoice": "NA",
+        "fightingStyles": "NA"
+      },
+      "politicalInformation": {
+        "profession": "\n",
+        "position": "NA",
+        "predecessor": "Air Nomads\nTeam Avatar",
+        "successor": "NA",
+        "affiliations": "NA"
+      },
+      "chronologicalInformation": {
+        "firstAppearance": "\"The Southern Air Temple\"",
+        "lastAppearance": ["Imbalance Part Two (chronological)"],
+        "voicedBy": "NA"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Katara",
+      "image": "https://static.wikia.nocookie.net/avatar/images/7/7a/Katara_smiles_at_coronation.png/revision/latest/scale-to-width-down/333?cb=20150104171449",
+      "bio": {
+        "alternativeNames": [
+          "Gran Gran (by her grandchildren)",
+          "Sweetie (by Aang)",
+          "Sugar Queen (by Toph Beifong)",
+          "Sweetness (by Toph Beifong)"
+        ],
+        "nationality": "Southern Water Tribe capital city, Southern Water Tribe",
+        "ethnicity": "Water Tribe",
+        "ages": [
+          "14 in Avatar: The Last Airbender[3]",
+          "15-16 in The Promise trilogy[4]",
+          "16-17 in The Search and The Rift trilogies[5]",
+          "85 in Book One: Air of The Legend of Korra[6]",
+          "86 in Book Two: Spirits",
+          "89 in Book Four: Balance[7]"
+        ],
+        "born": "85 AG",
+        "died": ["85 AG"]
+      },
+      "physicalDescription": {
+        "gender": "Female",
+        "eyeColor": "Blue",
+        "hairColor": "Dark brown (white in old age)",
+        "skinColor": "Brown"
+      },
+      "personalInformation": {
+        "loveInterest": "Aang (husband; widowed)\nJet (formerly)[8]",
+        "allies": [
+          "Yue",
+          "the Painted Lady",
+          "Hakoda",
+          "Kya",
+          "Kanna",
+          "Tenzin",
+          "Bumi",
+          "Kya",
+          "Jinora",
+          "Ikki",
+          "Meelo",
+          "Rohan",
+          "Team Avatar",
+          "Order of the White Lotus",
+          "Air Acolytes",
+          "Hama (formerly)",
+          "Yagoda",
+          "Malina",
+          "Maliq (formerly)",
+          "Korra",
+          "Niyok",
+          "Nutha",
+          "Siku and Sura",
+          "Rafa and Misu",
+          "Ashuna",
+          "Kyoshi Warriors",
+          "Mai",
+          "Tyro"
+        ],
+        "enemies": [
+          "Mother of Faces (formerly)",
+          "Wan Shi Tong",
+          "Old Iron",
+          "Ozai",
+          "Azula",
+          "Zuko (formerly)",
+          "Azula's team (formerly)",
+          "Zhao",
+          "Combustion Man",
+          "Rough Rhinos",
+          "Fire Nation (formerly)",
+          "Long Feng",
+          "the Dai Li",
+          "Azulon",
+          "Yon Rha",
+          "the Southern Raiders",
+          "Hama",
+          "Gilak",
+          "Thod and his disciples",
+          "Southern Water Tribe nationalists",
+          "Maliq and Malina's workers"
+        ],
+        "weaponsOfChoice": ["Water"],
+        "fightingStyles": ["Waterbending (Northern and Southern styles)", "bloodbending (resigned from use)"]
+      },
+      "politicalInformation": {
+        "profession": "\n",
+        "position": [
+          "Daughter of the Southern Water Tribe Head Chieftain",
+          "Master healer",
+          "Member of the Southern Council of Elders[9]",
+          "Waterbending master"
+        ],
+        "predecessor": "Pakku (as Avatar Aang's waterbending master)",
+        "successor": "Team Avatar\nWater Tribe\nJiang's pirate crew (honorary member)[10]",
+        "affiliations": "NA"
+      },
+      "chronologicalInformation": {
+        "firstAppearance": "\"The Boy in the Iceberg\"",
+        "lastAppearance": ["\"Light in the Dark\"(chronological)", "\"Remembrances\"(flashback only)"],
+        "voicedBy": ["Mae Whitman (in Avatar: The Last Airbender)", "Eva Marie Saint (in The Legend of Korra)"]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Sokka",
+      "image": "https://static.wikia.nocookie.net/avatar/images/c/cc/Sokka.png/revision/latest/scale-to-width-down/333?cb=20140905085428",
+      "bio": {
+        "alternativeNames": ["Wang Fire (while in the Fire Nation)", "Captain Boomerang (by Toph Beifong)"],
+        "nationality": "Southern Water Tribe capital city, Southern Water Tribe",
+        "ethnicity": "Water Tribe",
+        "ages": [
+          "15 in Avatar: The Last Airbender[3]",
+          "16-17 in The Promise trilogy[4]",
+          "17-18 in The Search and The Rift trilogies[5]",
+          "44 in The Legend of Korra (flashback to Yakone's trial)"
+        ],
+        "born": "84 AG",
+        "died": ["84 AG"]
+      },
+      "physicalDescription": {
+        "gender": "Male",
+        "eyeColor": "Blue",
+        "hairColor": "Dark brown (shaved on the sides)",
+        "skinColor": "Brown"
+      },
+      "personalInformation": {
+        "loveInterest": "Suki (girlfriend)\nYue (girlfriend; deceased; reincarnated as the moon spirit)\nKaya (love interest; formerly)",
+        "allies": [
+          "Hakoda",
+          "Kya",
+          "Kanna",
+          "Katara",
+          "Pakku",
+          "Aang",
+          "Toph",
+          "Zuko",
+          "Suki",
+          "Appa",
+          "Momo",
+          "Hawky",
+          "Piandao",
+          "Yue",
+          "Order of the White Lotus",
+          "Southern Water Tribe",
+          "United Republic Council",
+          "Tonraq",
+          "Tenzin",
+          "Korra"
+        ],
+        "enemies": [
+          "Ozai",
+          "Azula",
+          "Zhao",
+          "Long Feng",
+          "Dai Li",
+          "Combustion Man",
+          "Southern Raiders",
+          "Azulon",
+          "Zuko (formerly)",
+          "Yon Rha",
+          "Hahn",
+          "Hama",
+          "Kunyo",
+          "Yakone",
+          "Fire Nation (formerly)",
+          "Red Lotus"
+        ],
+        "weaponsOfChoice": ["Sokka's weapons (Jian", "boomerang", "club", "machete", "dagger", "saber)"],
+        "fightingStyles": ["Water Tribe Warrior style", "tessenjutsu (basics)", "swordsmanship (Jian-fencing)"]
+      },
+      "politicalInformation": {
+        "profession": "\n",
+        "position": [
+          "Chieftain in the Southern Water Tribe (formerly)",
+          "Map reader",
+          "Son of Head Chieftain Hakoda",
+          "Southern Water Tribe representative and Chairman of the United Republic Council (formerly)"
+        ],
+        "predecessor": "Bendless Boomerang Club[7]\nSouthern Water Tribe\nTeam Avatar\nFire Nation Army[8] (formerly)\nUnited Republic Council",
+        "successor": "NA",
+        "affiliations": "NA"
+      },
+      "chronologicalInformation": {
+        "firstAppearance": "\"The Boy in the Iceberg\"",
+        "lastAppearance": ["Imbalance Part Three (chronological)", "\"Out of the Past\"(vision)"],
+        "voicedBy": ["Jack DeSena (in Avatar: The Last Airbender)", "Chris Hardwick (in The Legend of Korra)"]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Toph Beifong",
+      "image": "https://static.wikia.nocookie.net/avatar/images/4/46/Toph_Beifong.png/revision/latest/scale-to-width-down/333?cb=20131230122047",
+      "bio": {
+        "alternativeNames": ["The Blind Bandit (in Earth Rumble matches)", "The Runaway (while in Fire Fountain City)"],
+        "nationality": "Gaoling, Earth Kingdom",
+        "ethnicity": "Earth Kingdom",
+        "ages": "NA",
+        "born": "12 in Avatar: The Last Airbender[4]\n13-14 in The Promise trilogy[5]\n14-15 in The Search and The Rift trilogies[6]\n86 in Book Four: Balance of The Legend of Korra[7]",
+        "died": [
+          "12 in Avatar: The Last Airbender[4]",
+          "13-14 in The Promise trilogy[5]",
+          "14-15 in The Search and The Rift trilogies[6]",
+          "86 in Book Four: Balance of The Legend of Korra[7]"
+        ]
+      },
+      "physicalDescription": {
+        "gender": "Female",
+        "eyeColor": "Sea foam green (glazed over)",
+        "hairColor": "Black (white in old age)",
+        "skinColor": "Light"
+      },
+      "personalInformation": {
+        "loveInterest": "Kanto (father of Lin; formerly)\nSatoru (formerly)\nSokka (formerly)[8]\nSuyin's father (formerly)",
+        "allies": [
+          "Aang",
+          "Katara",
+          "Sokka",
+          "Appa",
+          "Momo",
+          "Zuko",
+          "Suki",
+          "Metalbending Police Force",
+          "Iroh",
+          "Lin",
+          "Suyin",
+          "Order of the White Lotus",
+          "badgermoles",
+          "Team Beifong",
+          "Korra",
+          "Opal Beifong"
+        ],
+        "enemies": [
+          "Ozai",
+          "Zuko (formerly)",
+          "Azula",
+          "Yakone",
+          "Long Feng",
+          "the Dai Li",
+          "Yu",
+          "Xin Fu",
+          "Combustion Man",
+          "Kunyo",
+          "Fire Nation (formerly)",
+          "Kuvira (formerly)",
+          "military of the Earth Empire"
+        ],
+        "weaponsOfChoice": ["Earth", "metal"],
+        "fightingStyles": ["Earthbending (Chu Gar Praying Mantis); metalbending"]
+      },
+      "politicalInformation": {
+        "profession": "\n",
+        "position": [
+          "Chief of Police in Republic City (retired)",
+          "Earthbending master",
+          "Founder of the Metalbending Police Force",
+          "Gubernatorial candidate for the State of Gaoling (formerly)",
+          "Inventor of metalbending",
+          "Matriarch of the Beifong family",
+          "Metalbending master",
+          "Proprietor of the Beifong Metalbending Academy",
+          "Representative of the Earthen Fire Industries"
+        ],
+        "predecessor": "Sud (as the Avatar's earthbending master)",
+        "successor": "Beifong family\nEarth Kingdom\nEarth Rumble (formerly)\nEarthen Fire Industries\nMetalbending Police Force\nTeam Avatar\nTeam Beifong",
+        "affiliations": "NA"
+      },
+      "chronologicalInformation": {
+        "firstAppearance": "\"The Swamp\"(vision)\n\"The Blind Bandit\"(actual)",
+        "lastAppearance": ["Ruins of the Empire Part Three (chronological)"],
+        "voicedBy": [
+          "Jessie Flower (in Avatar: The Last Airbender)",
+          "Kate Higgins (in Books One and Three of The Legend of Korra)",
+          "Philece Sampler (in Book Four: Balance of The Legend of Korra)"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "蘇科 [3]",
+      "image": "https://static.wikia.nocookie.net/avatar/images/4/4b/Zuko.png/revision/latest/scale-to-width-down/333?cb=20180630112142",
+      "bio": {
+        "alternativeNames": [
+          "Lee (while exiled in the Earth Kingdom)",
+          "Zuzu (by Azula and Kiyi)",
+          "The Blue Spirit (while masked as such)"
+        ],
+        "nationality": "Fire Nation Capital, Fire Nation",
+        "ethnicity": "Fire Nation",
+        "ages": [
+          "16 in Avatar: The Last Airbender[4]",
+          "17-18 in The Promise trilogy[5]",
+          "18-19 in The Search trilogy[6]",
+          "87-88 in Book Three: Change of The Legend of Korra[7]",
+          "90-91 in Book Four: Balance"
+        ],
+        "born": "83 AG",
+        "died": ["83 AG"]
+      },
+      "physicalDescription": {
+        "gender": "Male",
+        "eyeColor": "Gold",
+        "hairColor": "Dark brown/black (white in old age)",
+        "skinColor": "Light"
+      },
+      "personalInformation": {
+        "loveInterest": "Jin (formerly)\nMai (girlfriend; formerly)",
+        "allies": [
+          "Iroh",
+          "Ursa",
+          "Izumi",
+          "Noren",
+          "Aang",
+          "Appa",
+          "Azula (formerly)",
+          "Katara",
+          "Momo",
+          "Sokka",
+          "Suki",
+          "Toph",
+          "Ozai (formerly)",
+          "Hakoda",
+          "Mai",
+          "Ty Lee",
+          "General Iroh",
+          "Jin",
+          "June",
+          "Kiyi",
+          "Lu Ten",
+          "Fire Nation military",
+          "Kyoshi Warriors",
+          "Order of the White Lotus",
+          "Druk",
+          "Tonraq",
+          "Korra",
+          "Desna",
+          "Eska",
+          "Tenzin",
+          "Lin Beifong",
+          "Team Avatar"
+        ],
+        "enemies": [
+          "Azula",
+          "Ozai",
+          "Azulon",
+          "Jet",
+          "Combustion Man",
+          "Zhao",
+          "Gow",
+          "the Rough Rhinos",
+          "Team Avatar (formerly)",
+          "Red Lotus",
+          "Earth Kingdom Army (formerly)",
+          "Ukano",
+          "New Ozai Society"
+        ],
+        "weaponsOfChoice": ["Fire", "dual broadswords"],
+        "fightingStyles": ["Firebending (Dancing Dragon)", "dual dao swordsmanship"]
+      },
+      "politicalInformation": {
+        "profession": "\n",
+        "position": [
+          "Ambassador",
+          "Co-founder of the United Republic of Nations",
+          "Crown Prince of the Fire Nation (formerly)",
+          "Fire Lord[9] (formerly)",
+          "Firebending master",
+          "Lord[10]",
+          "Sword fighting master",
+          "Traitor to the Fire Nation (amnestied)"
+        ],
+        "predecessor": "100 AG – 167 AG (67 years)[7]",
+        "successor": "Ozai (as Fire Lord)\nJeong Jeong (as the Avatar's firebending master)",
+        "affiliations": "NA"
+      },
+      "chronologicalInformation": {
+        "firstAppearance": "\"The Boy in the Iceberg\"",
+        "lastAppearance": ["\"The Coronation\"(chronological)"],
+        "voicedBy": ["Elijah Runcorn (young Zuko)", "Dante Basco", "Bruce Davison (in The Legend of Korra)"]
+      }
+    },
+    {
+      "id": 8,
+      "image": "https://static.wikia.nocookie.net/avatar/images/1/14/Suki.png/revision/latest/scale-to-width-down/333?cb=20130819094354",
+      "bio": {
+        "alternativeNames": "NA",
+        "nationality": "Earth Kingdom",
+        "ethnicity": "NA",
+        "ages": "NA",
+        "born": "NA",
+        "died": "NA"
+      },
+      "physicalDescription": {
+        "gender": "Female",
+        "eyeColor": "Blue",
+        "hairColor": "Auburn",
+        "skinColor": "Light"
+      },
+      "personalInformation": {
+        "loveInterest": "Sokka (boyfriend)",
+        "allies": [
+          "Kyoshi Warriors",
+          "Oyaji",
+          "Sokka",
+          "Katara",
+          "Aang",
+          "Toph",
+          "Zuko",
+          "Appa",
+          "Momo",
+          "Mai",
+          "Ty Lee",
+          "Iroh",
+          "Order of the White Lotus"
+        ],
+        "enemies": ["Ozai", "Azula", "the warden", "Fire Nation (formerly)", "Zuko (formerly)", "Ty Lee (formerly)"],
+        "weaponsOfChoice": ["War fans", "katana"],
+        "fightingStyles": ["Tessenjutsu", "chi blocking"]
+      },
+      "politicalInformation": {
+        "profession": "\n",
+        "position": [
+          "Fire Nation prisoner (formerly)",
+          "Kyoshi Warriors' leader",
+          "Member of Team Avatar",
+          "Fire Lord Zuko's guard"
+        ],
+        "predecessor": "Earth Kingdom\nKyoshi Warriors\nTeam Avatar",
+        "successor": "NA",
+        "affiliations": "NA"
+      },
+      "chronologicalInformation": {
+        "firstAppearance": "\"The Warriors of Kyoshi\"",
+        "lastAppearance": "NA",
+        "voicedBy": "NA"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Iroh",
+      "image": "https://static.wikia.nocookie.net/avatar/images/c/c1/Iroh_smiling.png/revision/latest/scale-to-width-down/333?cb=20130626131914",
+      "bio": {
+        "alternativeNames": [
+          "Mushi (while in the Earth Kingdom)",
+          "The Dragon of the West",
+          "Uncle (by Zuko and Azula)"
+        ],
+        "nationality": "Fire Nation Capital, Fire Nation",
+        "ethnicity": "Fire Nation",
+        "ages": "NA",
+        "born": "NA",
+        "died": "NA"
+      },
+      "physicalDescription": {
+        "gender": "Male",
+        "eyeColor": "Amber",
+        "hairColor": "Gray (Brown in youth, white in the Spirit World)",
+        "skinColor": "Light"
+      },
+      "personalInformation": {
+        "loveInterest": "Zuko, Team Avatar, Order of the White Lotus, Ursa, Azulon, Ilah, Lu Ten, Ran and Shaw, Azula (formerly), Ming, Korra, Tenzin, Bumi, Kya",
+        "allies": ["Ozai", "Azula", "Zhao", "Dai Li", "Rough Rhinos", "Fire Nation (formerly)"],
+        "enemies": ["Fire"],
+        "weaponsOfChoice": ["Firebending"],
+        "fightingStyles": "NA"
+      },
+      "politicalInformation": {
+        "profession": "\n",
+        "position": [
+          "Crown Prince of the Fire Nation (formerly)",
+          "\"Finest Tea Brewer in Ba Sing Se\"[3]",
+          "Fire Nation traitor (formerly)",
+          "Fire Nation prisoner (formerly)",
+          "Firebending master",
+          "General (retired)",
+          "Grand Lotus of the Order of the White Lotus",
+          "Interim Fire Lord (during Zuko's absence in 101 AG)",
+          "Jasmine Dragon teashop founder and owner",
+          "Spirit"
+        ],
+        "predecessor": "Azulon (as Heir to the Fire Lord)",
+        "successor": "Zuko (as Heir to the Fire Lord)",
+        "affiliations": [
+          "Fire Nation",
+          "Fire Nation military (formerly)",
+          "Fire Nation Royal Family",
+          "Jasmine Dragon",
+          "Order of the White Lotus",
+          "Spirit World"
+        ]
+      },
+      "chronologicalInformation": {
+        "firstAppearance": "\"The Boy in the Iceberg\"",
+        "lastAppearance": ["\"The Ultimatum\"(chronological)"],
+        "voicedBy": [
+          "Mako Iwamatsu (Book One: Water and Book Two: Earth)",
+          "Greg Baldwin (Book Three: Fire and The Legend of Korra)"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Ozai",
+      "image": "https://static.wikia.nocookie.net/avatar/images/4/4a/Ozai.png/revision/latest/scale-to-width-down/333?cb=20130612170743",
+      "bio": {
+        "alternativeNames": "NA",
+        "nationality": "Fire Nation",
+        "ethnicity": "40s in Avatar: The Last Airbender[nb 1]",
+        "ages": "NA",
+        "born": "NA",
+        "died": "NA"
+      },
+      "physicalDescription": {
+        "gender": "Male",
+        "eyeColor": "Amber",
+        "hairColor": "Black",
+        "skinColor": "Light"
+      },
+      "personalInformation": {
+        "loveInterest": "Ursa (wife; separated)",
+        "allies": [
+          "Fire Nation (formerly)",
+          "his loyalists",
+          "Azula",
+          "Zuko (formerly)",
+          "Fire Nation military (formerly)",
+          "Zhao",
+          "Ursa (formerly)",
+          "Ukano"
+        ],
+        "enemies": ["Team Avatar", "Zuko", "Iroh", "Water Tribes", "Earth Kingdom", "Ursa", "Ikem", "Azulon"],
+        "weaponsOfChoice": ["Fire (formerly)", "lightning (formerly)"],
+        "fightingStyles": ["Firebending (formerly)", "lightning generation (formerly)"]
+      },
+      "politicalInformation": {
+        "profession": "\n",
+        "position": "NA",
+        "predecessor": "Azulon (as Fire Lord)",
+        "successor": "Zuko (as Fire Lord)",
+        "affiliations": ["Fire Nation", "Fire Nation Royal Family"]
+      },
+      "chronologicalInformation": {
+        "firstAppearance": "\"Winter Solstice, Part 2: Avatar Roku\"(silhouette)\n\"The Storm\"(flashback only)\n\"Zuko Alone\"(flashback only)\n(near-full-facial appearance)\n\"The Awakening\"\n(full-face appearance)",
+        "lastAppearance": "NA",
+        "voicedBy": "NA"
+      }
+    },
+    {
+      "id": 11,
+      "image": "https://static.wikia.nocookie.net/avatar/images/1/12/Azula.png/revision/latest/scale-to-width-down/333?cb=20140905084941",
+      "bio": {
+        "alternativeNames": "NA",
+        "nationality": "Fire Nation",
+        "ethnicity": "14 in Avatar: The Last Airbender[2]\n15-16 in The Promise trilogy[3]\n16-17 in The Search trilogy[4]",
+        "ages": "NA",
+        "born": "NA",
+        "died": "NA"
+      },
+      "physicalDescription": {
+        "gender": "Female",
+        "eyeColor": "Gold",
+        "hairColor": "Black",
+        "skinColor": "Light"
+      },
+      "personalInformation": {
+        "loveInterest": "Chan (love interest; formerly)",
+        "allies": [
+          "Ozai (formerly)",
+          "Zuko (formerly)",
+          "Mai (formerly)",
+          "Ty Lee (formerly)",
+          "Lo and Li (formerly)",
+          "Ursa",
+          "the Dai Li (formerly)",
+          "Fire Nation",
+          "Fire Nation military (formerly)",
+          "Fire Warriors"
+        ],
+        "enemies": [
+          "Iroh",
+          "Zuko (formerly)",
+          "Kuei",
+          "Long Feng",
+          "Mai",
+          "Ty Lee",
+          "Ursa (formerly)",
+          "Earth Kingdom",
+          "Kyoshi Warriors",
+          "Team Avatar",
+          "Water Tribe"
+        ],
+        "weaponsOfChoice": ["Fire", "lightning"],
+        "fightingStyles": ["Firebending", "lightning generation"]
+      },
+      "politicalInformation": {
+        "profession": "\n",
+        "position": "NA",
+        "predecessor": "Kuei (as earth monarch)\nLong Feng (as Head of the Dai Li)\nZuko (as Heir to the Fire Lord)",
+        "successor": "Dai Li representative (as Head of the Dai Li)\nOzai (as ruler of the Earth Kingdom)\nIzumi (as Heir to the Fire Lord)",
+        "affiliations": [
+          "Azula's team (formerly)",
+          "Dai Li (formerly)",
+          "Fire Nation",
+          "Fire Nation Royal Family",
+          "Fire Warriors",
+          "Royal Fire Academy for Girls (formerly)"
+        ]
+      },
+      "chronologicalInformation": {
+        "firstAppearance": "\"The Storm\"(flashback only)\n\"The Siege of the North, Part 2\"(actual)",
+        "lastAppearance": ["Smoke and Shadow Part Three (chronological & release order)"],
+        "voicedBy": "NA"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Zhao",
+      "image": "https://static.wikia.nocookie.net/avatar/images/e/e1/Commander_Zhao.png/revision/latest/scale-to-width-down/333?cb=20140103180854",
+      "bio": {
+        "alternativeNames": "NA",
+        "nationality": "Fire Nation",
+        "ethnicity": "Fog of Lost Souls, Spirit World",
+        "ages": "NA",
+        "born": "NA",
+        "died": "NA"
+      },
+      "physicalDescription": {
+        "gender": "Male",
+        "eyeColor": "Amber",
+        "hairColor": "Gray (dark brown in youth)",
+        "skinColor": "Light"
+      },
+      "personalInformation": {
+        "loveInterest": "Ozai, Fire Nation Army, Fire Nation, Fire Nation Navy, Yuyan Archers",
+        "allies": [
+          "Aang",
+          "Katara",
+          "Iroh",
+          "Sokka",
+          "Zuko",
+          "Jeong Jeong",
+          "La",
+          "Tui",
+          "Yue",
+          "Wan Shi Tong",
+          "Water Tribes",
+          "Earth Kingdom"
+        ],
+        "enemies": ["Fire"],
+        "weaponsOfChoice": ["Firebending"],
+        "fightingStyles": "NA"
+      },
+      "politicalInformation": {
+        "profession": "\n",
+        "position": ["Firebending master[2]", "Admiral[3] (formerly)", "Prisoner in the Fog of Lost Souls[4]"],
+        "predecessor": "Fire Nation Navy",
+        "successor": "NA",
+        "affiliations": "NA"
+      },
+      "chronologicalInformation": {
+        "firstAppearance": "\"The Southern Air Temple\"",
+        "lastAppearance": "NA",
+        "voicedBy": "NA"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Long Feng",
+      "image": "https://static.wikia.nocookie.net/avatar/images/8/8d/Long_Feng_scheming.png/revision/latest/scale-to-width-down/333?cb=20140510202422",
+      "bio": {
+        "alternativeNames": "NA",
+        "nationality": "Earth Kingdom",
+        "ethnicity": "NA",
+        "ages": "NA",
+        "born": "NA",
+        "died": "NA"
+      },
+      "physicalDescription": {
+        "gender": "Male",
+        "eyeColor": "Black",
+        "hairColor": "NA",
+        "skinColor": "NA"
+      },
+      "personalInformation": {
+        "loveInterest": "The Dai Li (formerly), Joo Dee (formerly)",
+        "allies": ["Team Avatar", "Azula", "Jet", "Kuei", "Earth Kingdom", "the Dai Li"],
+        "enemies": ["Earth"],
+        "weaponsOfChoice": ["Earthbending"],
+        "fightingStyles": "NA"
+      },
+      "politicalInformation": {
+        "profession": "\n",
+        "position": [
+          "Earthbending master",
+          "Grand Secretariat of Ba Sing Se (formerly)",
+          "Head of the Dai Li (formerly)"
+        ],
+        "predecessor": "Azula (as Head of the Dai Li)",
+        "successor": "Ba Sing Se (formerly)\nDai Li (formerly)",
+        "affiliations": "NA"
+      },
+      "chronologicalInformation": {
+        "firstAppearance": "\"City of Walls and Secrets\"",
+        "lastAppearance": [
+          "\"The Crossroads of Destiny\"(actual) (chronological & release order)",
+          "Ruins of the Empire Part Two (flashback)"
+        ],
+        "voicedBy": "NA"
+      }
+    }
+  ],
+  "episodes": [
+    {
+      "id": 1,
+      "Season": "1",
+      "NumInSeason": "1",
+      "Title": "'The Boy in the Iceberg'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Dave Filoni",
+      "WrittenBy": ["Michael Dante DiMartino", "Bryan Konietzko"],
+      "OriginalAirDate": "February 21, 2005",
+      "ProductionCode ": "101"
+    },
+    {
+      "id": 2,
+      "Season": "1",
+      "NumInSeason": "2",
+      "Title": "'The Avatar Returns'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Dave Filoni",
+      "WrittenBy": ["Michael Dante DiMartino", "Bryan Konietzko"],
+      "OriginalAirDate": "February 21, 2005",
+      "ProductionCode ": "102"
+    },
+    {
+      "id": 3,
+      "Season": "1",
+      "NumInSeason": "3",
+      "Title": "'The Southern Air Temple'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Michael Dante DiMartino"],
+      "OriginalAirDate": "February 25, 2005",
+      "ProductionCode ": "103"
+    },
+    {
+      "id": 4,
+      "Season": "1",
+      "NumInSeason": "4",
+      "Title": "'The Warriors of Kyoshi'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Nick Malis"],
+      "OriginalAirDate": "March 4, 2005",
+      "ProductionCode ": "104"
+    },
+    {
+      "id": 5,
+      "Season": "1",
+      "NumInSeason": "5",
+      "Title": "'The King of Omashu'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Anthony Lioi",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "March 18, 2005",
+      "ProductionCode ": "105"
+    },
+    {
+      "id": 6,
+      "Season": "1",
+      "NumInSeason": "6",
+      "Title": "'Imprisoned'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Dave Filoni",
+      "WrittenBy": ["Matthew Hubbard"],
+      "OriginalAirDate": "March 25, 2005",
+      "ProductionCode ": "106"
+    },
+    {
+      "id": 7,
+      "Season": "1",
+      "NumInSeason": "7",
+      "Title": "'Winter Solstice Part 1: The Spirit World'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Aaron Ehasz"],
+      "OriginalAirDate": "April 8, 2005",
+      "ProductionCode ": "107"
+    },
+    {
+      "id": 8,
+      "Season": "1",
+      "NumInSeason": "8",
+      "Title": "'Winter Solstice Part 2: Avatar Roku'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Michael Dante DiMartino"],
+      "OriginalAirDate": "April 15, 2005",
+      "ProductionCode ": "108"
+    },
+    {
+      "id": 9,
+      "Season": "1",
+      "NumInSeason": "9",
+      "Title": "'The Waterbending Scroll'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Anthony Lioi",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "April 29, 2005",
+      "ProductionCode ": "109"
+    },
+    {
+      "id": 10,
+      "Season": "1",
+      "NumInSeason": "10",
+      "Title": "'Jet'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Dave Filoni",
+      "WrittenBy": ["James Eagan"],
+      "OriginalAirDate": "May 6, 2005",
+      "ProductionCode ": "110"
+    },
+    {
+      "id": 11,
+      "Season": "1",
+      "NumInSeason": "11",
+      "Title": "'The Great Divide'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "May 20, 2005",
+      "ProductionCode ": "111"
+    },
+    {
+      "id": 12,
+      "Season": "1",
+      "NumInSeason": "12",
+      "Title": "'The Storm'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Aaron Ehasz"],
+      "OriginalAirDate": "June 3, 2005",
+      "ProductionCode ": "112"
+    },
+    {
+      "id": 13,
+      "Season": "1",
+      "NumInSeason": "13",
+      "Title": "'The Blue Spirit'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Dave Filoni",
+      "WrittenBy": ["Michael Dante DiMartino", "Bryan Konietzko"],
+      "OriginalAirDate": "June 17, 2005",
+      "ProductionCode ": "113"
+    },
+    {
+      "id": 14,
+      "Season": "1",
+      "NumInSeason": "14",
+      "Title": "'The Fortuneteller'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Dave Filoni",
+      "WrittenBy": ["Aaron Ehasz John O'Bryan"],
+      "OriginalAirDate": "September 23, 2005",
+      "ProductionCode ": "114"
+    },
+    {
+      "id": 15,
+      "Season": "1",
+      "NumInSeason": "15",
+      "Title": "'Bato of the Water Tribe'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Ian Wilcox"],
+      "OriginalAirDate": "October 7, 2005",
+      "ProductionCode ": "115"
+    },
+    {
+      "id": 16,
+      "Season": "1",
+      "NumInSeason": "16",
+      "Title": "'The Deserter'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Tim Hedrick"],
+      "OriginalAirDate": "October 21, 2005",
+      "ProductionCode ": "116"
+    },
+    {
+      "id": 17,
+      "Season": "1",
+      "NumInSeason": "17",
+      "Title": "'The Northern Air Temple'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Dave Filoni",
+      "WrittenBy": ["Elizabeth Welch Ehasz"],
+      "OriginalAirDate": "November 4, 2005",
+      "ProductionCode ": "117"
+    },
+    {
+      "id": 18,
+      "Season": "1",
+      "NumInSeason": "18",
+      "Title": "'The Waterbending Master'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Michael Dante DiMartino"],
+      "OriginalAirDate": "November 18, 2005",
+      "ProductionCode ": "118"
+    },
+    {
+      "id": 19,
+      "Season": "1",
+      "NumInSeason": "19",
+      "Title": "'The Siege of the North, Part 1'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "December 2, 2005",
+      "ProductionCode ": "119"
+    },
+    {
+      "id": 20,
+      "Season": "1",
+      "NumInSeason": "20",
+      "Title": "'The Siege of the North, Part 2'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Dave Filoni",
+      "WrittenBy": ["Aaron Ehasz"],
+      "OriginalAirDate": "December 2, 2005",
+      "ProductionCode ": "120"
+    },
+    {
+      "id": 21,
+      "Season": "2",
+      "NumInSeason": "1",
+      "Title": "'The Avatar State'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Aaron Ehasz", "Elizabeth Welch Ehasz", "Tim Hedrick", "John O'Bryan"],
+      "OriginalAirDate": "March 17, 2006",
+      "ProductionCode ": "201"
+    },
+    {
+      "id": 22,
+      "Season": "2",
+      "NumInSeason": "2",
+      "Title": "'The Cave of Two Lovers'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Joshua Hamilton"],
+      "OriginalAirDate": "March 24, 2006",
+      "ProductionCode ": "202"
+    },
+    {
+      "id": 23,
+      "Season": "2",
+      "NumInSeason": "3",
+      "Title": "'Return to Omashu'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Elizabeth Welch Ehasz"],
+      "OriginalAirDate": "April 7, 2006",
+      "ProductionCode ": "203"
+    },
+    {
+      "id": 24,
+      "Season": "2",
+      "NumInSeason": "4",
+      "Title": "'The Swamp'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Tim Hedrick"],
+      "OriginalAirDate": "April 14, 2006",
+      "ProductionCode ": "204"
+    },
+    {
+      "id": 25,
+      "Season": "2",
+      "NumInSeason": "5",
+      "Title": "'Avatar Day'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "April 28, 2006",
+      "ProductionCode ": "205"
+    },
+    {
+      "id": 26,
+      "Season": "2",
+      "NumInSeason": "6",
+      "Title": "'The Blind Bandit'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Michael Dante DiMartino"],
+      "OriginalAirDate": "May 5, 2006",
+      "ProductionCode ": "206"
+    },
+    {
+      "id": 27,
+      "Season": "2",
+      "NumInSeason": "7",
+      "Title": "'Zuko Alone'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Elizabeth Welch Ehasz"],
+      "OriginalAirDate": "May 12, 2006",
+      "ProductionCode ": "207"
+    },
+    {
+      "id": 28,
+      "Season": "2",
+      "NumInSeason": "8",
+      "Title": "'The Chase'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Joshua Hamilton"],
+      "OriginalAirDate": "May 26, 2006",
+      "ProductionCode ": "208"
+    },
+    {
+      "id": 29,
+      "Season": "2",
+      "NumInSeason": "9",
+      "Title": "'Bitter Work'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Aaron Ehasz"],
+      "OriginalAirDate": "June 2, 2006",
+      "ProductionCode ": "209"
+    },
+    {
+      "id": 30,
+      "Season": "2",
+      "NumInSeason": "10",
+      "Title": "'The Library'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "July 14, 2006",
+      "ProductionCode ": "210"
+    },
+    {
+      "id": 31,
+      "Season": "2",
+      "NumInSeason": "11",
+      "Title": "'The Desert'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Tim Hedrick"],
+      "OriginalAirDate": "July 14, 2006",
+      "ProductionCode ": "211"
+    },
+    {
+      "id": 32,
+      "Season": "2",
+      "NumInSeason": "12",
+      "Title": "'The Serpent's Pass'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Michael Dante DiMartino", "Joshua Hamilton"],
+      "OriginalAirDate": "September 15, 2006",
+      "ProductionCode ": "212"
+    },
+    {
+      "id": 33,
+      "Season": "2",
+      "NumInSeason": "13",
+      "Title": "'The Drill'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Michael Dante DiMartino", "Bryan Konietzko"],
+      "OriginalAirDate": "September 15, 2006",
+      "ProductionCode ": "213"
+    },
+    {
+      "id": 34,
+      "Season": "2",
+      "NumInSeason": "14",
+      "Title": "'City of Walls and Secrets'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Tim Hedrick"],
+      "OriginalAirDate": "September 22, 2006",
+      "ProductionCode ": "214"
+    },
+    {
+      "id": 35,
+      "Season": "2",
+      "NumInSeason": "15",
+      "Title": "'The Tales of Ba Sing Se'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": [
+        "Joann Estoesta",
+        "Lisa Wahlander",
+        "Andrew Huebner",
+        "Gary Scheppke",
+        "Lauren MacMullan",
+        "Katie Mattila",
+        "Justin Ridge",
+        "Giancarlo Volpe"
+      ],
+      "OriginalAirDate": "September 29, 2006",
+      "ProductionCode ": "215"
+    },
+    {
+      "id": 36,
+      "Season": "2",
+      "NumInSeason": "16",
+      "Title": "'Appa's Lost Days'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Elizabeth Welch Ehasz"],
+      "OriginalAirDate": "October 13, 2006",
+      "ProductionCode ": "216"
+    },
+    {
+      "id": 37,
+      "Season": "2",
+      "NumInSeason": "17",
+      "Title": "'Lake Laogai'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Lauren MacMullan",
+      "WrittenBy": ["Tim Hedrick"],
+      "OriginalAirDate": "November 3, 2006",
+      "ProductionCode ": "217"
+    },
+    {
+      "id": 38,
+      "Season": "2",
+      "NumInSeason": "18",
+      "Title": "'The Earth King'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "November 17, 2006",
+      "ProductionCode ": "218"
+    },
+    {
+      "id": 39,
+      "Season": "2",
+      "NumInSeason": "19",
+      "Title": "'The Guru'",
+      "AnimatedBy": "DR Movie",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Michael Dante DiMartino", "Bryan Konietzko"],
+      "OriginalAirDate": "December 1, 2006",
+      "ProductionCode ": "219"
+    },
+    {
+      "id": 40,
+      "Season": "2",
+      "NumInSeason": "20",
+      "Title": "'The Crossroads of Destiny'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Michael Dante DiMartino",
+      "WrittenBy": ["Aaron Ehasz"],
+      "OriginalAirDate": "December 1, 2006",
+      "ProductionCode ": "220"
+    },
+    {
+      "id": 41,
+      "Season": "3",
+      "NumInSeason": "1",
+      "Title": "'The Awakening'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Aaron Ehasz"],
+      "OriginalAirDate": "September 21, 2007",
+      "ProductionCode ": "301",
+      "Viewers": "—"
+    },
+    {
+      "id": 42,
+      "Season": "3",
+      "NumInSeason": "2",
+      "Title": "'The Headband'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Joaquim Dos Santos",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "September 28, 2007",
+      "ProductionCode ": "302",
+      "Viewers": "—"
+    },
+    {
+      "id": 43,
+      "Season": "3",
+      "NumInSeason": "3",
+      "Title": "'The Painted Lady'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Joshua Hamilton"],
+      "OriginalAirDate": "October 5, 2007",
+      "ProductionCode ": "303",
+      "Viewers": "—"
+    },
+    {
+      "id": 44,
+      "Season": "3",
+      "NumInSeason": "4",
+      "Title": "'Sokka's Master'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Tim Hedrick"],
+      "OriginalAirDate": "October 12, 2007",
+      "ProductionCode ": "304",
+      "Viewers": "—"
+    },
+    {
+      "id": 45,
+      "Season": "3",
+      "NumInSeason": "5",
+      "Title": "'The Beach'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Joaquim Dos Santos",
+      "WrittenBy": ["Katie Mattila"],
+      "OriginalAirDate": "October 19, 2007",
+      "ProductionCode ": "305",
+      "Viewers": "—"
+    },
+    {
+      "id": 46,
+      "Season": "3",
+      "NumInSeason": "6",
+      "Title": "'The Avatar and the Firelord'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Elizabeth Welch Ehasz"],
+      "OriginalAirDate": "October 26, 2007",
+      "ProductionCode ": "306",
+      "Viewers": "—"
+    },
+    {
+      "id": 47,
+      "Season": "3",
+      "NumInSeason": "7",
+      "Title": "'The Runaway'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Joshua Hamilton"],
+      "OriginalAirDate": "November 2, 2007",
+      "ProductionCode ": "307",
+      "Viewers": "—"
+    },
+    {
+      "id": 48,
+      "Season": "3",
+      "NumInSeason": "8",
+      "Title": "'The Puppetmaster'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Joaquim Dos Santos",
+      "WrittenBy": ["Tim Hedrick"],
+      "OriginalAirDate": "November 9, 2007",
+      "ProductionCode ": "308",
+      "Viewers": "—"
+    },
+    {
+      "id": 49,
+      "Season": "3",
+      "NumInSeason": "9",
+      "Title": "'Nightmares and Daydreams'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "November 16, 2007",
+      "ProductionCode ": "309",
+      "Viewers": "—"
+    },
+    {
+      "id": 50,
+      "Season": "3",
+      "NumInSeason": "10",
+      "Title": "'The Day of Black Sun, Part 1: The Invasion'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Michael Dante DiMartino"],
+      "OriginalAirDate": "November 30, 2007",
+      "ProductionCode ": "310",
+      "Viewers": "3.77[6]"
+    },
+    {
+      "id": 51,
+      "Season": "3",
+      "NumInSeason": "11",
+      "Title": "'The Day of Black Sun, Part 2: The Eclipse'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Joaquim Dos Santos",
+      "WrittenBy": ["Aaron Ehasz"],
+      "OriginalAirDate": "November 30, 2007",
+      "ProductionCode ": "311",
+      "Viewers": "3.77[6]"
+    },
+    {
+      "id": 52,
+      "Season": "3",
+      "NumInSeason": "12",
+      "Title": "'The Western Air Temple'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Elizabeth Welch Ehasz", "Tim Hedrick"],
+      "OriginalAirDate": "July 14, 2008",
+      "ProductionCode ": "312",
+      "Viewers": "—"
+    },
+    {
+      "id": 53,
+      "Season": "3",
+      "NumInSeason": "13",
+      "Title": "'The Firebending Masters'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["John O'Bryan"],
+      "OriginalAirDate": "July 15, 2008",
+      "ProductionCode ": "313",
+      "Viewers": "—"
+    },
+    {
+      "id": 54,
+      "Season": "3",
+      "NumInSeason": "14",
+      "Title": "'The Boiling Rock, Part 1'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Joaquim Dos Santos",
+      "WrittenBy": ["May Chan"],
+      "OriginalAirDate": "July 16, 2008",
+      "ProductionCode ": "314",
+      "Viewers": "3.97[7]"
+    },
+    {
+      "id": 55,
+      "Season": "3",
+      "NumInSeason": "15",
+      "Title": "'The Boiling Rock, Part 2'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Joshua Hamilton"],
+      "OriginalAirDate": "July 16, 2008",
+      "ProductionCode ": "315",
+      "Viewers": "3.97[7]"
+    },
+    {
+      "id": 56,
+      "Season": "3",
+      "NumInSeason": "16",
+      "Title": "'The Southern Raiders'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Joaquim Dos Santos",
+      "WrittenBy": ["Elizabeth Welch Ehasz"],
+      "OriginalAirDate": "July 17, 2008",
+      "ProductionCode ": "316",
+      "Viewers": "4.23[7]"
+    },
+    {
+      "id": 57,
+      "Season": "3",
+      "NumInSeason": "17",
+      "Title": "'The Ember Island Players'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Tim Hedrick", "Josh Hamilton", "John O'Bryan"],
+      "OriginalAirDate": "July 18, 2008",
+      "ProductionCode ": "317",
+      "Viewers": "4.53[7]"
+    },
+    {
+      "id": 58,
+      "Season": "3",
+      "NumInSeason": "18",
+      "Title": "'Sozin's Comet, Part 1: The Phoenix King'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Ethan Spaulding",
+      "WrittenBy": ["Michael Dante DiMartino"],
+      "OriginalAirDate": "July 19, 2008",
+      "ProductionCode ": "318",
+      "Viewers": "5.59[7]"
+    },
+    {
+      "id": 59,
+      "Season": "3",
+      "NumInSeason": "19",
+      "Title": "'Sozin's Comet, Part 2: The Old Masters'",
+      "AnimatedBy": "Moi Animation",
+      "DirectedBy": "Giancarlo Volpe",
+      "WrittenBy": ["Aaron Ehasz"],
+      "OriginalAirDate": "July 19, 2008",
+      "ProductionCode ": "319",
+      "Viewers": "5.59[7]"
+    },
+    {
+      "id": 60,
+      "Season": "3",
+      "NumInSeason": "20",
+      "Title": "'Sozin's Comet, Part 3: Into the Inferno'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Joaquim Dos Santos",
+      "WrittenBy": ["Michael Dante DiMartino", "Bryan Konietzko"],
+      "OriginalAirDate": "July 19, 2008",
+      "ProductionCode ": "320",
+      "Viewers": "5.59[7]"
+    },
+    {
+      "id": 61,
+      "Season": "3",
+      "NumInSeason": "21",
+      "Title": "'Sozin's Comet, Part 4: Avatar Aang'",
+      "AnimatedBy": "JM Animation",
+      "DirectedBy": "Joaquim Dos Santos",
+      "WrittenBy": ["Michael Dante DiMartino", "Bryan Konietzko"],
+      "OriginalAirDate": "July 19, 2008",
+      "ProductionCode ": "321",
+      "Viewers": "5.59[7]"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "\"Long ago, the four nations lived together in harmony. Then, everything changed when ________ attacked.\"",
+      "possibleAnsers": ["the Water Tribes", "the Fire Nation", "the Earth Kingdom", "the Air Nomads"],
+      "correctAnswer": "the Fire Nation"
+    },
+    {
+      "id": 2,
+      "question": "Aang becomes an airbending master at the young age of _____",
+      "possibleAnsers": ["12", "6", "10", "16"],
+      "correctAnswer": "12"
+    },
+    {
+      "id": 3,
+      "question": "How long is Aang frozen in ice?",
+      "possibleAnsers": ["50 years", "20 years", "100 years", "250 years"],
+      "correctAnswer": "100 years"
+    },
+    {
+      "id": 4,
+      "question": "What is the name of the Fire Nation prince tasked with finding the Avatar?",
+      "possibleAnsers": ["Jet", "Haru", "Zuko", "Bumi"],
+      "correctAnswer": "Zuko"
+    },
+    {
+      "id": 5,
+      "question": "Aang's flying bison is named...?",
+      "possibleAnsers": ["Momo", "Fang", "Appa", "Naga"],
+      "correctAnswer": "Appa"
+    },
+    {
+      "id": 6,
+      "question": "What is Sokka's signature weapon that he inherited from his father?",
+      "possibleAnsers": ["A sword", "A machete", "A katana", "A boomerang"],
+      "correctAnswer": "A boomerang"
+    },
+    {
+      "id": 7,
+      "question": "What is the name of the reigning Fire Lord?",
+      "possibleAnsers": ["Roku", "Ozai", "Sozin", "Azulon"],
+      "correctAnswer": "Ozai"
+    },
+    {
+      "id": 8,
+      "question": "The female warriors who fight using metal fans are the...?",
+      "possibleAnsers": ["Freedom fighters", "Dai Li", "Kyoshi warriors", "White Lotus"],
+      "correctAnswer": "Kyoshi warriors"
+    },
+    {
+      "id": 9,
+      "question": "Aang and Katara learn waterbending from Master _____?",
+      "possibleAnsers": ["Pakku", "Yakone", "Arnook", "Unalaq"],
+      "correctAnswer": "Pakku"
+    },
+    {
+      "id": 10,
+      "question": "Which spirit is the guardian of the library of knowledge?",
+      "possibleAnsers": ["Wan", "Wan Shi Tong", "Koh", "Hei Bai"],
+      "correctAnswer": "Wan Shi Tong"
+    },
+    {
+      "id": 11,
+      "question": "Which location is believed to be the birthplace of earthbending?",
+      "possibleAnsers": [
+        "Canal of Two Lovers",
+        "Cave of Star Crossed Lovers",
+        "Cave of Two Lovers",
+        "Tunnel of Two Lovers"
+      ],
+      "correctAnswer": "Cave of Two Lovers"
+    },
+    {
+      "id": 12,
+      "question": "Team Avatar adopts a flying lemur and names it...?",
+      "possibleAnsers": ["Fang", "Momo", "Flopsie", "Appa"],
+      "correctAnswer": "Momo"
+    },
+    {
+      "id": 13,
+      "question": "Which Avatar came right before Aang?",
+      "possibleAnsers": ["Kiyoshi", "Kuruk", "Roku", "Korra"],
+      "correctAnswer": "Roku"
+    },
+    {
+      "id": 14,
+      "question": "Bumi is the King of _______?",
+      "possibleAnsers": ["Ba Sing Se", "Omashu", "Hou-Ting", "Garsai"],
+      "correctAnswer": "Omashu"
+    },
+    {
+      "id": 15,
+      "question": "Admiral _____ was the leader of the Fire Nation Navy",
+      "possibleAnsers": ["Zhao", "Kunyo", "Lu Ten", "Shyu"],
+      "correctAnswer": "Zhao"
+    },
+    {
+      "id": 16,
+      "question": "Princess ____ becomes the new moon spirit",
+      "possibleAnsers": ["Korra", "Hama", "Yuri", "Yue"],
+      "correctAnswer": "Yue"
+    },
+    {
+      "id": 17,
+      "question": "Which two air temples exclusively housed female airbenders?",
+      "possibleAnsers": [
+        "Northern and Southern",
+        "Southern and Eastern",
+        "Western and Eastern",
+        "Northern and Western"
+      ],
+      "correctAnswer": "Western and Eastern"
+    },
+    {
+      "id": 18,
+      "question": "What once-in-a-century event increases firebenders' power?",
+      "possibleAnsers": ["Sozin's comet", "Sozin's sun", "Sozn's meteor", "Sozin's volcano"],
+      "correctAnswer": "Sozin's comet"
+    },
+    {
+      "id": 19,
+      "question": "Toph fights in underground earthbending tournaments under the name...?",
+      "possibleAnsers": ["The Blind Boulder", "The Blind Bandit", "The Hippo", "Twinkle Toes"],
+      "correctAnswer": "The Blind Bandit"
+    },
+    {
+      "id": 20,
+      "question": "What is the strongest ability that the Avatar can invoke?",
+      "possibleAnsers": ["The Avatar Phase", "The Avatar's Zenith", "Summoning dark spirits", "The Avatar State"],
+      "correctAnswer": "The Avatar State"
+    },
+    {
+      "id": 21,
+      "question": "What is the capital of the Earth kingdom?",
+      "possibleAnsers": ["Ba Sing Se", "Kaya's town", "Kyoshi Island", "Yu Dao"],
+      "correctAnswer": "Ba Sing Se"
+    },
+    {
+      "id": 22,
+      "question": "Zuko's love interest (and one of his sister's best friends) is named...?",
+      "possibleAnsers": ["Ty Lee", "Suki", "Mai", "Ursa"],
+      "correctAnswer": "Mai"
+    },
+    {
+      "id": 23,
+      "question": "The bounty hunter who rides on a shirshu is named...?",
+      "possibleAnsers": ["Mai", "June", "Ty Lee", "Nyla"],
+      "correctAnswer": "June"
+    },
+    {
+      "id": 24,
+      "question": "Who leads the Freedom Fighters?",
+      "possibleAnsers": ["Haru", "Jet", "Suki", "Iroh"],
+      "correctAnswer": "Jet"
+    },
+    {
+      "id": 25,
+      "question": "Who are the only known firebenders capable of generating lightning?",
+      "possibleAnsers": ["Ozai, Azula, Iroh", "Azula, Iroh, Zuko", "Ozai, Azula, Zuko", "Sozin, Ozai, Iroh"],
+      "correctAnswer": "Ozai, Azula, Iroh"
+    },
+    {
+      "id": 26,
+      "question": "What phrase makes Appa fly?",
+      "possibleAnsers": ["Whoa", "Yip-yip", "Hiyah", "Up"],
+      "correctAnswer": "Yip-yip"
+    },
+    {
+      "id": 27,
+      "question": "What is the name of the secret society Iroh belongs to?",
+      "possibleAnsers": [
+        "The Order of the Red Lotus",
+        "The Order of the White Jasmine",
+        "The Order of the White Lotus",
+        "The Order of the White Rose"
+      ],
+      "correctAnswer": "The Order of the White Lotus"
+    },
+    {
+      "id": 28,
+      "question": "Who teaches Aang firebending?",
+      "possibleAnsers": ["Iroh", "Zuko", "Jeong Jeong", "Roku"],
+      "correctAnswer": "Zuko"
+    },
+    {
+      "id": 29,
+      "question": "What dark skill can extremely advanced waterbenders do?",
+      "possibleAnsers": ["Shoot lightning", "Summoning evil spirits", "Bloodbending", "Reading minds"],
+      "correctAnswer": "Bloodbending"
+    },
+    {
+      "id": 30,
+      "question": "Toph creates the earthbending technique...?",
+      "possibleAnsers": ["Bloodbending", "Energybending", "Lightningbending", "Metalbending"],
+      "correctAnswer": "Metalbending"
+    },
+    {
+      "id": 31,
+      "question": "What does the Fire Lord rename himself once he takes over the world?",
+      "possibleAnsers": ["Dark Lord", "High Councilor", "Phoenix King", "Supreme Leader"],
+      "correctAnswer": "Phoenix King"
+    },
+    {
+      "id": 32,
+      "question": "The Earth kingdom's secret police is called the...?",
+      "possibleAnsers": ["Rough Rhinos", "Yuyan Archers", "Red Lotus", "Dai Li"],
+      "correctAnswer": "Dai Li"
+    },
+    {
+      "id": 33,
+      "question": "Zuko and Azula's mother is named...?",
+      "possibleAnsers": ["Ty Lee", "Ursula", "Ursa", "Suki"],
+      "correctAnswer": "Ursa"
+    },
+    {
+      "id": 34,
+      "question": "How does Aang defeat the Fire Lord?",
+      "possibleAnsers": [
+        "He banishes him to the spirit world",
+        "He removes his firebending ability",
+        "He puts him in a comatose state",
+        "He kills him"
+      ],
+      "correctAnswer": "He removes his firebending ability"
+    },
+    {
+      "id": 35,
+      "question": "Sokka and Katara are from the Water Tribe of the ____ Pole",
+      "possibleAnsers": ["North", "South"],
+      "correctAnswer": "South"
+    }
+  ]
+}
