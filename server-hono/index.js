@@ -8,6 +8,11 @@ import fs from "fs";
 
 // Import routes
 import frontend from "./routes/frontend.js";
+import baseApis from "./routes/base-apis.js";
+import reset from "./routes/reset.js";
+
+// Import utilities
+import { generateAPIListData } from "./utils/getAPIListData.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -20,15 +25,24 @@ const port = process.env.PORT || 7777;
 app.use("*", cors());
 
 // Serve static files
-// app.use("/assets/*", serveStatic({ root: "./public" }));
-// app.use("/scripts/*", serveStatic({ root: "./public" }));
 app.use("*", serveStatic({ root: "./public" }));
-
-// Add a more general static file handler
-app.use("/public/*", serveStatic({ root: path.join(__dirname) }));
 
 // Routes
 app.route("/frontend", frontend);
+app.route("/", baseApis);
+
+// app.route("/resetit", reset);
+
+// Generate API List Data endpoint
+app.get("/generate", async (c) => {
+  await generateAPIListData();
+  return c.json({
+    response: 200,
+    data: {
+      message: "Created",
+    },
+  });
+});
 
 // Serve index.html
 app.get("/", async (c) => {
@@ -55,7 +69,6 @@ app.notFound((c) => {
 });
 
 // Start the server
-console.log(`Starting Hono server on http://localhost:${port}`);
 serve({
   fetch: app.fetch,
   port: port,
