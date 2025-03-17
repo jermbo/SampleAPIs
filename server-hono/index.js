@@ -13,6 +13,7 @@ import reset from "./routes/reset.js";
 
 // Import utilities
 import { generateAPIListData } from "./utils/getAPIListData.js";
+import renderTemplate from "./utils/template.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -31,7 +32,7 @@ app.use("*", serveStatic({ root: "./public" }));
 app.route("/frontend", frontend);
 app.route("/", baseApis);
 
-// app.route("/resetit", reset);
+app.route("/resetit", reset);
 
 // Generate API List Data endpoint
 app.get("/generate", async (c) => {
@@ -57,13 +58,21 @@ app.get("/", async (c) => {
 });
 
 // 404 handler
-app.notFound((c) => {
+app.notFound(async (c) => {
   try {
-    const notFoundPath = path.join(__dirname, "views/404.html");
-    const content = fs.readFileSync(notFoundPath, "utf8");
-    return c.html(content, 404);
+    // Use the template system for 404 page
+    const html = await renderTemplate(
+      "404",
+      {},
+      {
+        title: "404 - Not Found",
+        heading: "Page Not Found",
+        titleColor: "#ff5e5e",
+      },
+    );
+    return c.html(html, 404);
   } catch (error) {
-    console.error("Error serving 404.html:", error);
+    console.error("Error serving 404:", error);
     return c.text("404 - Not Found", 404);
   }
 });

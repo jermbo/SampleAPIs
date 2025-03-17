@@ -227,6 +227,46 @@ a {
 }
 /* ----- */
 
+.api__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.api__reset {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  border: 1px dashed #161616 !important;
+}
+
+.api__reset:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.reset-all-container {
+  padding: 2rem;
+  text-align: center;
+  background: #161616;
+}
+
+.reset-all-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #ff5e5e;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.reset-all-btn:hover {
+  background: #ff3333;
+  transform: scale(1.05);
+}
+
+/* ----- */
+
 .form-group {
   display: flex;
   flex-direction: column;

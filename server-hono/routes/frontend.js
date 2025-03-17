@@ -2,25 +2,20 @@ import { Hono } from "hono";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import GeneratedAPIList from "../GeneratedAPIList.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Define a simple API list for now
-const GeneratedAPIList = [
-  {
-    title: "Futurama",
-    desc: "Futurama API with characters, episodes, and more",
-    link: "/futurama/api",
-    graphLink: "/futurama/graphql",
-  },
-  {
-    title: "Avatar",
-    desc: "Avatar: The Last Airbender API",
-    link: "/avatar/api",
-    graphLink: "/avatar/graphql",
-  },
-];
+// Transform the api list to proper format for frontend display
+const transformedAPIList = GeneratedAPIList.map((api) => {
+  return {
+    title: api.metaData.title,
+    desc: api.metaData.desc,
+    link: `/${api.link}`,
+    graphLink: `/${api.link}/graphql`,
+  };
+});
 
 const frontend = new Hono();
 
@@ -28,7 +23,7 @@ frontend.get("/", (c) => {
   return c.json({
     status: 200,
     data: {
-      APIListData: GeneratedAPIList,
+      APIListData: transformedAPIList,
     },
   });
 });

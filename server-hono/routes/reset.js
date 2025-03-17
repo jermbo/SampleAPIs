@@ -2,24 +2,11 @@ import { Hono } from "hono";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { getAPIListData } from "../utils/getAPIListData.js";
+import renderTemplate from "../utils/template.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-// We'll need to implement a getAPIListData function or use a simpler approach
-// For now, let's use a simple array of APIs
-const apiList = [
-  {
-    title: "Futurama",
-    desc: "Futurama API with characters, episodes, and more",
-    link: "futurama",
-  },
-  {
-    title: "Avatar",
-    desc: "Avatar: The Last Airbender API",
-    link: "avatar",
-  },
-];
 
 const reset = new Hono();
 
@@ -28,36 +15,58 @@ reset.get("/all", async (c) => {
   console.log("Resetting all endpoints");
 
   try {
-    for (const page of apiList) {
-      const api = page.link;
-      const backupFile = path.join(__dirname, `../api/${api}.json.backup`);
-      const mainFile = path.join(__dirname, `../api/${api}.json`);
+    // Get the current API list
+    const apiList = await getAPIListData();
+    let successCount = 0;
+    let errorCount = 0;
+
+    for (const api of apiList) {
+      const apiName = api.link;
+      const backupFile = path.join(__dirname, `../api/${apiName}.json.backup`);
+      const mainFile = path.join(__dirname, `../api/${apiName}.json`);
 
       if (fs.existsSync(backupFile)) {
         await fs.promises.copyFile(backupFile, mainFile);
-        console.log(`Reset ${api} API`);
+        console.log(`Reset ${apiName} API`);
+        successCount++;
       } else {
-        console.error(`Backup file not found for ${api}`);
+        console.error(`Backup file not found for ${apiName}`);
+        errorCount++;
       }
     }
 
-    // In a real implementation, we would render a template
-    // For now, just return a simple message
-    return c.html(`
-      <html>
-        <head><title>Reset All APIs</title></head>
-        <body>
-          <h1>All APIs have been reset</h1>
-          <p>The server will now restart.</p>
-        </body>
-      </html>
-    `);
+    // Render template with data
+    const html = await renderTemplate(
+      "all-success",
+      {
+        successCount,
+        errorCount: errorCount > 0 ? errorCount : null,
+      },
+      {
+        title: "Reset All APIs",
+        heading: "All APIs have been reset",
+      },
+    );
 
-    // Note: In a production environment, you would need a way to restart the server
-    // process.exit(1) won't work the same way in a serverless environment
+    return c.html(html);
   } catch (error) {
     console.error("Error resetting APIs:", error);
-    return c.text("Error resetting APIs", 500);
+
+    // Render error template
+    const html = await renderTemplate(
+      "error",
+      {
+        errorMessage: error.message || "An unknown error occurred",
+      },
+      {
+        title: "Error",
+        heading: "Error Resetting APIs",
+        titleColor: "#ff5e5e",
+        contentBgColor: "rgba(255, 99, 99, 0.2)",
+      },
+    );
+
+    return c.html(html, 500);
   }
 });
 
@@ -65,40 +74,84 @@ reset.get("/all", async (c) => {
 reset.get("/:id", async (c) => {
   try {
     const id = c.req.param("id").toLowerCase();
-    const data = apiList.find((api) => id === api.link.toLowerCase());
 
-    if (!data) {
-      return c.text(`API '${id}' not found`, 404);
+    // Get the API list
+    const apiList = await getAPIListData();
+    const apiData = apiList.find((api) => api.link.toLowerCase() === id);
+
+    if (!apiData) {
+      // Render not found template
+      const html = await renderTemplate(
+        "not-found",
+        {
+          id,
+        },
+        {
+          title: "API Not Found",
+          heading: "API Not Found",
+          titleColor: "#ff5e5e",
+        },
+      );
+
+      return c.html(html, 404);
     }
 
-    const api = data.link;
-    const backupFile = path.join(__dirname, `../api/${api}.json.backup`);
-    const mainFile = path.join(__dirname, `../api/${api}.json`);
+    const apiName = apiData.link;
+    const backupFile = path.join(__dirname, `../api/${apiName}.json.backup`);
+    const mainFile = path.join(__dirname, `../api/${apiName}.json`);
 
-    if (fs.existsSync(backupFile)) {
-      await fs.promises.copyFile(backupFile, mainFile);
-      console.log(`Reset ${api} API`);
-    } else {
-      console.error(`Backup file not found for ${api}`);
-      return c.text(`Backup file not found for ${api}`, 404);
+    if (!fs.existsSync(backupFile)) {
+      // Render backup not found template
+      const html = await renderTemplate(
+        "backup-not-found",
+        {
+          title: apiData.metaData.title,
+        },
+        {
+          title: "Backup Not Found",
+          heading: "Backup Not Found",
+          titleColor: "#ff5e5e",
+        },
+      );
+
+      return c.html(html, 404);
     }
 
-    // Return a simple HTML response
-    return c.html(`
-      <html>
-        <head><title>Reset ${data.title}</title></head>
-        <body>
-          <h1>${data.title} API has been reset</h1>
-          <p>${data.desc}</p>
-          <p>The server will now restart.</p>
-        </body>
-      </html>
-    `);
+    await fs.promises.copyFile(backupFile, mainFile);
+    console.log(`Reset ${apiName} API`);
 
-    // Note: In a production environment, you would need a way to restart the server
+    // Render success template
+    const html = await renderTemplate(
+      "success",
+      {
+        message: `${apiData.metaData.title} API has been reset`,
+        details: apiData.metaData.desc,
+      },
+      {
+        title: `Reset ${apiData.metaData.title}`,
+        heading: `${apiData.metaData.title} API has been reset`,
+      },
+    );
+
+    return c.html(html);
   } catch (error) {
     console.error("Error resetting API:", error);
-    return c.text("Error resetting API", 500);
+
+    // Render error template
+    const html = await renderTemplate(
+      "error",
+      {
+        errorMessage: error.message || "An unknown error occurred",
+      },
+      {
+        title: "Error",
+        heading: "Error Resetting API",
+        titleColor: "#ff5e5e",
+        contentBgColor: "rgba(255, 99, 99, 0.2)",
+      },
+    );
+
+    return c.html(html, 500);
   }
 });
 

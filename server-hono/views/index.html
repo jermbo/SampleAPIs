@@ -97,6 +97,7 @@
 
       function renderApis() {
         const apisContainer = document.getElementById("apis-container");
+        apisContainer.innerHTML = ""; // Clear existing content
 
         apiList.forEach((api) => {
           const article = document.createElement("article");
@@ -113,25 +114,45 @@
           desc.className = "api__desc";
           desc.textContent = api.desc;
 
+          // Create links container
+          const linksContainer = document.createElement("div");
+          linksContainer.className = "api__links";
+
           const apiLink = document.createElement("a");
           apiLink.className = "api__link";
           apiLink.href = api.link;
-          apiLink.textContent = "API Link";
+          apiLink.textContent = "REST API";
 
-          const graphLink = document.createElement("a");
-          graphLink.className = "api__link";
-          graphLink.href = api.graphLink;
-          graphLink.target = "_blank";
-          graphLink.textContent = "GRAPHQL Link";
+          // Add reset link
+          const resetLink = document.createElement("a");
+          resetLink.className = "api__link api__reset";
+          resetLink.href = `/resetit/${api.link.replace("/", "")}`;
+          resetLink.textContent = "Reset Data";
+          resetLink.setAttribute("title", "Reset this API to original data");
+
+          linksContainer.appendChild(apiLink);
+          linksContainer.appendChild(resetLink);
 
           inner.appendChild(title);
           inner.appendChild(desc);
-          inner.appendChild(apiLink);
-          inner.appendChild(graphLink);
+          inner.appendChild(linksContainer);
 
           article.appendChild(inner);
           apisContainer.appendChild(article);
         });
+
+        // Add "Reset All" button at the bottom
+        const resetAllContainer = document.createElement("div");
+        resetAllContainer.className = "reset-all-container";
+
+        const resetAllBtn = document.createElement("a");
+        resetAllBtn.className = "reset-all-btn";
+        resetAllBtn.href = "/resetit/all";
+        resetAllBtn.textContent = "Reset All APIs";
+        resetAllBtn.setAttribute("title", "Reset all APIs to original data");
+
+        resetAllContainer.appendChild(resetAllBtn);
+        apisContainer.appendChild(resetAllContainer);
       }
 
       // Fetch API list from the server
