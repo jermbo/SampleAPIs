@@ -51,11 +51,13 @@ In this section we'll learn how to add a new dataset (or "endpoint" as we'll cal
 Each endpoint needs three files. Here's a [example of a new PR adding just a new endpoint](https://github.com/jermbo/SampleAPIs/pull/89)
 
 Here are the official steps to add an endpoint
-1) Create a <i>endpointName</i>.json file (eg. baseball.json for `api.SampleApis.com/baseball`) with a value for each "collection" (so for "homeRuns" we end up with `https://api.sampleapis.com/baseball/homeRuns` because there's a array for the parameter "homeRuns" see [api/baseball.json](/server/api/baseball.json) for more details)
-2) Create a ".backup" file which is a copy of the original  <i>endpointName</i>.json file (in our example it would be [baseball.json.backup](/server/api/baseball.json.backup) )
-3) Ensure you newly created json file has a `metaData` key at the top of the file.
+
+1. Create a <i>endpointName</i>.json file (eg. baseball.json for `api.SampleApis.com/baseball`) with a value for each "collection" (so for "homeRuns" we end up with `https://api.sampleapis.com/baseball/homeRuns` because there's a array for the parameter "homeRuns" see [api/baseball.json](/server/api/baseball.json) for more details)
+2. Create a ".backup" file which is a copy of the original <i>endpointName</i>.json file (in our example it would be [baseball.json.backup](/server/api/baseball.json.backup) )
+3. Ensure you newly created json file has a `metaData` key at the top of the file.
 
 The JSON file should look something like:
+
 ```JavaScript
 {
   "metaData": [
@@ -93,8 +95,56 @@ The first level children of the JSON Object will be your main entry points for t
 
 This API will have `characters`, `questions`, and `inventory` for its available sources. Resulting in `https://api.sampleapis.com/fav-show/characters`, `https://api.sampleapis.com/fav-show/questions`, and `https://api.sampleapis.com/fav-show/inventory`.
 
-***We strip out `metaData` from the available endpoints list, as we use this for populating the website. But you can still reach the data if you wanted to.***
+**_We strip out `metaData` from the available endpoints list, as we use this for populating the website. But you can still reach the data if you wanted to._**
 
-*Important:* JSON GraphQL Server requires the data in the first level keys be an array of objects. The objects in the array can be whatever they need to be, and they need to be consistent.
+_Important:_ JSON GraphQL Server requires the data in the first level keys be an array of objects. The objects in the array can be whatever they need to be, and they need to be consistent.
 
-*Important:* Both JSON Server and JSON GraphQL Server requires each object in the dataset have a unique id.
+_Important:_ Both JSON Server and JSON GraphQL Server requires each object in the dataset have a unique id.
+
+### API Documentation
+
+When adding a new endpoint, please include the following information in your PR:
+
+1. **Endpoint Overview**
+
+   - Brief description of the data
+   - Example use case
+   - Any special considerations
+
+2. **Example Request/Response**
+
+   ```javascript
+   // Example: Fetching data
+   const response = await fetch("https://api.sampleapis.com/your-endpoint/collection");
+   const data = await response.json();
+   console.log(data);
+   ```
+
+3. **Available Operations**
+
+   - GET: Retrieve data
+   - POST: Add new items
+   - PUT: Update existing items
+   - DELETE: Remove items
+
+4. **Query Parameters**
+
+   - `_page`: Pagination (e.g., `?_page=1`)
+   - `_limit`: Limit results (e.g., `?_limit=10`)
+   - `_sort`: Sort by field (e.g., `?_sort=name`)
+   - `_order`: Sort order (e.g., `?_order=asc`)
+   - Custom filters (e.g., `?field=value`)
+
+5. **Response Format**
+   ```json
+   {
+     "data": [
+       {
+         "id": 1,
+         "field": "value"
+       }
+     ]
+   }
+   ```
+
+For more details on available features, refer to the [JSON-Server documentation](https://github.com/typicode/json-server).
