@@ -1,17 +1,14 @@
-@use './functions/colors';
-@use './vars/colors' as *;
-
 .section-header {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid colors.use-var(text, light);
+  border-bottom: 1px solid var(--color-text-light);
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   flex-wrap: wrap;
-  gap: .5rem;
+  gap: 0.5rem;
 
-  .actions {
+  & .actions {
     display: flex;
   }
 }
@@ -24,7 +21,7 @@
 }
 
 .api-card {
-  border: 1px solid colors.use-var(text, light);
+  border: 1px solid var(--color-text-light);
   position: relative;
 
   &:before {
@@ -38,34 +35,38 @@
     z-index: 0;
     transition: all 0.25s ease;
   }
+}
 
-  @for $i from 1 through length($colors) {
-    &:nth-child(#{length($colors)}n + #{$i}) {
-      --card-color: #{nth($colors, $i)};
-      color: var(--card-color);
-      border-color: var(--card-color);
-      &:before {
-        background: repeating-linear-gradient(
-          -45deg,
-          var(--card-color) 0,
-          var(--card-color) 4px,
-          transparent 0,
-          transparent 8px
-        );
-      }
+/* Accent color cycled across cards */
+.api-card:nth-child(6n + 1) { --card-color: #00d6e9; }
+.api-card:nth-child(6n + 2) { --card-color: #15e3d9; }
+.api-card:nth-child(6n + 3) { --card-color: #56edbf; }
+.api-card:nth-child(6n + 4) { --card-color: #8cf5a2; }
+.api-card:nth-child(6n + 5) { --card-color: #c2f985; }
+.api-card:nth-child(6n + 6) { --card-color: #f9f871; }
 
-      &:focus-within,
-      &:hover {
-        &:before {
-          transform: translate(-1rem, 1rem);
-        }
-      }
-    }
+.api-card {
+  color: var(--card-color);
+  border-color: var(--card-color);
+
+  &:before {
+    background: repeating-linear-gradient(
+      -45deg,
+      var(--card-color) 0,
+      var(--card-color) 4px,
+      transparent 0,
+      transparent 8px
+    );
+  }
+
+  &:focus-within:before,
+  &:hover:before {
+    transform: translate(-1rem, 1rem);
   }
 }
 
 .api-card__inner {
-  background: colors.use-var(bg, darkest);
+  background: var(--color-bg-darkest);
   padding: 1rem;
   width: 100%;
   height: 100%;
@@ -79,7 +80,7 @@
   display: flex;
   align-items: center;
 
-  .btn {
+  & .btn {
     color: var(--card-color);
     margin-left: 0.25rem;
     border: none;
@@ -88,24 +89,22 @@
       outline: 2px solid var(--card-color);
     }
   }
-  
-  .noleftmargin {
+
+  & .noleftmargin {
     margin-left: 0;
     padding-left: 0;
   }
 }
 
-.api-card__desc {
-  p {
-    margin: 0;
-  }
+.api-card__desc p {
+  margin: 0;
 }
 
 .api-card__endpoints {
   margin-top: 0.5rem;
   position: relative;
 
-  summary {
+  & summary {
     padding: 0.5rem;
     position: relative;
 
@@ -126,25 +125,30 @@
     }
   }
 
-  ul {
+  & ul {
     margin: 0;
     background: var(--card-color);
-    color: colors.use-var(text, dark);
+    color: var(--color-text-dark);
     padding: 0.5rem;
     position: relative;
 
-    li {
+    & li {
       list-style: none;
       position: relative;
       margin: 0;
       padding: 0.5rem;
       transition: all 0.25s ease;
 
-      @for $i from 1 through 10 {
-        &:nth-child(#{$i}) {
-          transition-delay: #{$i * 0.05}s;
-        }
-      }
+      &:nth-child(1) { transition-delay: 0.05s; }
+      &:nth-child(2) { transition-delay: 0.1s; }
+      &:nth-child(3) { transition-delay: 0.15s; }
+      &:nth-child(4) { transition-delay: 0.2s; }
+      &:nth-child(5) { transition-delay: 0.25s; }
+      &:nth-child(6) { transition-delay: 0.3s; }
+      &:nth-child(7) { transition-delay: 0.35s; }
+      &:nth-child(8) { transition-delay: 0.4s; }
+      &:nth-child(9) { transition-delay: 0.45s; }
+      &:nth-child(10) { transition-delay: 0.5s; }
     }
   }
 }

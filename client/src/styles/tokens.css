@@ -1,0 +1,76 @@
+/* Design tokens — hand-authored custom properties.
+   Replaces the former Sass maps in vars/ that only existed to emit these. */
+
+:root {
+  /* Color — primary */
+  --color-primary-base: #00d6e9;
+  --color-primary-light: #04eaff;
+  --color-primary-dark: #00bfd0;
+
+  /* Color — buttons */
+  --color-buttons-base: #00d6e9;
+  --color-buttons-light: #04eaff;
+  --color-buttons-dark: #00bfd0;
+
+  /* Color — secondary */
+  --color-secondary-base: #f9f871;
+  --color-secondary-light: #faf989;
+  --color-secondary-dark: #f8f759;
+
+  /* Color — text */
+  --color-text-light: #fafafa;
+  --color-text-base: #bdbdbd;
+  --color-text-dark: #363636;
+
+  /* Color — background */
+  --color-bg-lightest: #ffffff;
+  --color-bg-light: #efefef;
+  --color-bg-base: #bdbdbd;
+  --color-bg-dark: #505050;
+  --color-bg-darkest: #181818;
+
+  /* Palette — the six accent colors cycled across cards, tags, endpoints */
+  --palette-1: #00d6e9;
+  --palette-2: #15e3d9;
+  --palette-3: #56edbf;
+  --palette-4: #8cf5a2;
+  --palette-5: #c2f985;
+  --palette-6: #f9f871;
+
+  /* Font sizes — text */
+  --font-size-text-1: 1.55rem;
+  --font-size-text-2: 1.25rem;
+  --font-size-text-3: 1rem;
+  --font-size-text-4: 0.875rem;
+  --font-size-text-5: 0.675rem;
+
+  /* Font sizes — heading */
+  --font-size-heading-1: 2.5rem;
+  --font-size-heading-2: 2rem;
+  --font-size-heading-3: 1.75rem;
+  --font-size-heading-4: 1.5rem;
+  --font-size-heading-5: 1.25rem;
+  --font-size-heading-6: 1rem;
+
+  /* Font sizes — display */
+  --font-size-display-1: 5rem;
+  --font-size-display-2: 4.5rem;
+  --font-size-display-3: 4rem;
+  --font-size-display-4: 3.5rem;
+  --font-size-display-5: 3rem;
+  --font-size-display-6: 2.5rem;
+
+  /* Font families */
+  --font-family-display: "Montserrat Alternates";
+  --font-family-text: "Roboto";
+
+  /* Font weights */
+  --font-weight-thin: 200;
+  --font-weight-base: 400;
+  --font-weight-thick: 600;
+
+  /* Line heights */
+  --font-height-compact: 1em;
+  --font-height-normal: 1.25em;
+  --font-height-comfortable: 1.75em;
+}

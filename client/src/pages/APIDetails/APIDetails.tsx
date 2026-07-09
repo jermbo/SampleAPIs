@@ -7,7 +7,7 @@ import { APIData, Example } from "../../utils/Interfaces";
 import { URLS } from "../../utils/Config";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./APIDetails.scss";
+import "./APIDetails.css";
 import { Sandpack } from "@codesandbox/sandpack-react";
 import { nightOwl } from "@codesandbox/sandpack-themes";
 

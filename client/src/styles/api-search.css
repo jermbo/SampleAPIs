@@ -1,6 +1,3 @@
-@use './functions/colors';
-@use './functions/fonts';
-
 .api-search {
   display: flex;
   align-items: center;
@@ -9,11 +6,11 @@
 }
 
 .api-search__inner {
-  color: colors.use-var(text, light);
-  font-size: fonts.size(text, 1);
+  color: var(--color-text-light);
+  font-size: var(--font-size-text-1);
 
-  svg {
-    font-size: fonts.size(text, 1);
+  & svg {
+    font-size: var(--font-size-text-1);
     cursor: pointer;
     transition: all 0.25s ease-out;
     transform: scale(1);
@@ -23,15 +20,15 @@
     }
   }
 
-  input {
-    font-size: fonts.size(text, 1);
+  & input {
+    font-size: var(--font-size-text-1);
     height: 30px;
     width: 0;
     padding: 1rem;
     background: transparent;
-    color: colors.use-var(text, light);
+    color: var(--color-text-light);
     border: solid 0 transparent;
-    border-bottom: solid 1px colors.use-var(text, light);
+    border-bottom: solid 1px var(--color-text-light);
     outline: 0;
     text-align: right;
     transition: all 0.25s ease-out;

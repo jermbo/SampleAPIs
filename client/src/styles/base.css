@@ -1,0 +1,91 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: var(--font-family-text);
+  font-weight: var(--font-weight-base);
+  color: var(--color-text-light);
+  background: var(--color-bg-darkest);
+
+  &.-nav-visible {
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+
+#root {
+  display: grid;
+  grid-template-columns: minmax(25px, 150px) minmax(50%, 90%) minmax(25px, 150px);
+  grid-template-areas: "left center right";
+  margin-bottom: 5rem;
+}
+
+.content {
+  grid-area: center;
+}
+
+p {
+  margin: 0;
+  font-size: var(--font-size-text-2);
+  max-width: 80ch;
+
+  & + p {
+    margin-top: 1rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+abbr {
+  transition: all 0.25s ease;
+  cursor: help;
+  position: relative;
+}
+
+/* Accent color cycled across abbreviations */
+abbr:nth-of-type(6n + 1) { --color: #00d6e9; --hover-text: black; }
+abbr:nth-of-type(6n + 2) { --color: #15e3d9; --hover-text: black; }
+abbr:nth-of-type(6n + 3) { --color: #56edbf; --hover-text: #073d2d; }
+abbr:nth-of-type(6n + 4) { --color: #8cf5a2; --hover-text: #0a7821; }
+abbr:nth-of-type(6n + 5) { --color: #c2f985; --hover-text: #427906; }
+abbr:nth-of-type(6n + 6) { --color: #f9f871; --hover-text: #676604; }
+
+abbr {
+  border-color: var(--color);
+  color: var(--color);
+
+  &:focus,
+  &:hover {
+    outline: none;
+    color: var(--hover-text);
+    background: var(--color);
+    z-index: 100;
+
+    &::after {
+      content: attr(title);
+      background: var(--color);
+      box-shadow: 0 0 10px black;
+      position: absolute;
+      display: block;
+      bottom: 100%;
+      left: 0;
+      padding: 0.25rem 0.5rem;
+      font-size: var(--font-size-text-3);
+      white-space: nowrap;
+    }
+  }
+}
+
+.featured-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}

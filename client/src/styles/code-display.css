@@ -1,5 +1,3 @@
-@use './functions/colors';
-
 .top-pane {
   background-color: hsl(225, 6%, 25%);
 }
@@ -33,15 +31,15 @@
 .expand-collapse-btn {
   background: none;
   border: none;
-  color: colors.use-var(text, light);
+  color: var(--color-text-light);
   cursor: pointer;
 }
 
 .editor-title {
   display: flex;
   justify-content: space-between;
-  background-color: colors.use-var(bg, darkest);
-  color: colors.use-var(text, light);
+  background-color: var(--color-bg-darkest);
+  color: var(--color-text-light);
   padding: 0.5rem;
 }
 

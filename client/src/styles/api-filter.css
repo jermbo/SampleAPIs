@@ -1,6 +1,3 @@
-@use './functions/colors';
-@use './functions/fonts';
-
 .api-filter {
   position: relative;
   display: flex;
@@ -11,7 +8,7 @@
     content: "";
     position: absolute;
     display: block;
-    border-top: 6px solid colors.use-var(text, light);
+    border-top: 6px solid var(--color-text-light);
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     top: 50%;
@@ -19,19 +16,19 @@
     transform: translate(-50%, -50%);
   }
 
-  select {
+  & select {
     border: 1px solid transparent;
-    border-bottom: 1px solid colors.use-var(text, light);
+    border-bottom: 1px solid var(--color-text-light);
     padding: 0.5rem;
     background-color: transparent;
-    color: colors.use-var(text, light);
+    color: var(--color-text-light);
     appearance: none;
-    font-size: fonts.size(text, 2);
+    font-size: var(--font-size-text-2);
     transition: all 0.25s ease;
 
     &:focus,
     &:hover {
-      border: 1px solid colors.use-var(text, light);
+      border: 1px solid var(--color-text-light);
       outline: none;
     }
   }

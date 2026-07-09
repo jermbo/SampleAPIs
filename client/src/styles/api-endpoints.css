@@ -1,0 +1,37 @@
+.api-endpoints {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.api-endpoint {
+  list-style: none;
+  display: block;
+
+  & a {
+    display: inline-block;
+    text-transform: capitalize;
+  }
+}
+
+/* Accent color cycled across endpoint buttons */
+.api-endpoint:nth-child(6n + 1) .btn { --color: #00d6e9; --hover-text: black; }
+.api-endpoint:nth-child(6n + 2) .btn { --color: #15e3d9; --hover-text: black; }
+.api-endpoint:nth-child(6n + 3) .btn { --color: #56edbf; --hover-text: #073d2d; }
+.api-endpoint:nth-child(6n + 4) .btn { --color: #8cf5a2; --hover-text: #0a7821; }
+.api-endpoint:nth-child(6n + 5) .btn { --color: #c2f985; --hover-text: #427906; }
+.api-endpoint:nth-child(6n + 6) .btn { --color: #f9f871; --hover-text: #676604; }
+
+.api-endpoint .btn {
+  border-color: var(--color);
+  color: var(--color);
+
+  &:focus,
+  &:hover {
+    outline: none;
+    color: var(--hover-text);
+    background: var(--color);
+  }
+}

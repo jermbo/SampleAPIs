@@ -1,0 +1,39 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 1rem 2rem;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #00d6e9, #15e3d9, #56edbf, #8cf5a2, #c2f985, #f9f871);
+    opacity: 0.75;
+    z-index: -1;
+  }
+}
+
+.logo {
+  margin: 0;
+  font-size: 1rem;
+
+  & a {
+    color: var(--color-text-light);
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      outline: none;
+      color: var(--color-text-dark);
+    }
+  }
+}

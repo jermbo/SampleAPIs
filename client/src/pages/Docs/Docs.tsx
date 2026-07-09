@@ -1,6 +1,6 @@
 import React from "react";
 import PageHeaderActions from "../../components/PageHeaderActions/PageHeaderActions";
-import "./Docs.scss";
+import "./Docs.css";
 
 
 interface Props { }

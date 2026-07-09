@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Home.scss";
+import "./Home.css";
 
 import APICard from "../../components/APICard/APICard";
 import { useApiList } from "../../hooks/useApiList";
