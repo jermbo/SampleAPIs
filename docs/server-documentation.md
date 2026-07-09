@@ -7,7 +7,6 @@ SampleAPIs is a RESTful API server designed for learning and testing purposes. I
 ## Key Features
 
 - RESTful API endpoints with JSON responses
-- GraphQL support via json-graphql-server
 - Rate limiting and request throttling
 - CORS enabled for cross-origin requests
 - Static file serving
@@ -22,7 +21,6 @@ SampleAPIs is a RESTful API server designed for learning and testing purposes. I
 - Express.js
 - Pug (Template Engine)
 - JSON Server
-- JSON GraphQL Server
 - Jest (Testing)
 
 ## Folder Structure
@@ -47,7 +45,6 @@ The server provides several types of endpoints:
 1. Base APIs - Core functionality endpoints
 2. Test APIs - Endpoints for testing purposes
 3. Custom APIs - User-created endpoints
-4. GraphQL endpoints - GraphQL interface for the APIs
 
 ## Development Guidelines
 
@@ -188,7 +185,6 @@ MIT License - See LICENSE file for details
 
 ## Future Improvements
 
-1. Enhanced GraphQL support
 2. Improved documentation
 3. Additional API endpoints
 4. Better testing coverage

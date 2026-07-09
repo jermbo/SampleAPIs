@@ -34,7 +34,6 @@ SampleAPIs provides a collection of themed RESTful API endpoints that developers
 ### 3.1 API Endpoints
 
 - JSON-Server based RESTful architecture
-- JSON-GraphQL-Server support
 - JSON response format
 - HTTP methods support (GET, POST, PUT, DELETE)
 - Query parameter filtering
@@ -120,7 +119,6 @@ fetch(`${baseURL}?name.first=Bender`)
 ### 6.1 Technical Constraints
 
 - JSON-Server limitations
-- JSON-GraphQL-Server limitations
 - Basic rate limiting
 - Weekly data reset
 
@@ -184,4 +182,3 @@ fetch(`${baseURL}?name.first=Bender`)
 
 - [CONTRIBUTING.md](../CONTRIBUTING.md)
 - [JSON-Server Documentation](https://github.com/typicode/json-server)
-- [JSON-GraphQL-Server Documentation](https://github.com/marmelab/json-graphql-server)
