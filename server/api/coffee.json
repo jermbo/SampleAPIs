@@ -14,7 +14,7 @@
   "hot": [
     {
       "title": "Black Coffee",
-      "description": "Svart kaffe är så enkelt som det kan bli med malda kaffebönor dränkta i hett vatten, serverat varmt. Och om du vill låta fancy kan du kalla svart kaffe med sitt rätta namn: café noir.",
+      "description": "Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm. And if you want to sound fancy, you can call black coffee by its proper name: cafe noir.",
       "ingredients": [
         "Coffee"
       ],
@@ -23,31 +23,31 @@
     },
     {
       "title": "Latte",
-      "description": "Som den mest populära kaffedrycken där ute består latte av en skvätt espresso och ångad mjölk med bara en gnutta skum. Den kan beställas utan smak eller med smak av allt från vanilj till pumpa kryddor.",
+      "description": "As the most popular coffee drink out there, the latte is made with a shot of espresso and steamed milk, with just a touch of foam. It can be ordered plain or flavored with everything from vanilla to pumpkin spice.",
       "ingredients": [
         "Espresso",
-        "Ångad mjölk"
+        "Steamed milk"
       ],
       "image": "https://images.unsplash.com/photo-1561882468-9110e03e0f78?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxhdHRlfGVufDB8fDB8fHww",
       "id": 2
     },
     {
       "title": "Caramel Latte",
-      "description": "Om du gillar latte med en speciell smak kan karamell latte vara det bästa alternativet för att ge dig en upplevelse av den naturliga sötman och krämigheten hos ångad mjölk och karamell.",
+      "description": "If you like flavored lattes, a caramel latte is a great choice, combining espresso, steamed milk, and caramel for a naturally sweet and creamy drink.",
       "ingredients": [
         "Espresso",
-        "Ångad mjölk",
-        "Karamellsirap"
+        "Steamed milk",
+        "Caramel syrup"
       ],
       "image": "https://images.unsplash.com/photo-1599398054066-846f28917f38?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "id": 3
     },
     {
       "title": "Cappuccino",
-      "description": "Cappuccino är en latte som är gjord med mer skum än ångad mjölk, ofta med ett strö av kakaopulver eller kanel på toppen. Ibland kan du hitta variationer som använder grädde istället för mjölk eller sådana som tillsätter smakämnen också.",
+      "description": "A cappuccino is an espresso drink with steamed milk and a thick layer of foam, often topped with cocoa powder or cinnamon. Some variations use cream instead of milk or add flavored syrups.",
       "ingredients": [
         "Espresso",
-        "Ångad mjölk",
+        "Steamed milk",
         "Foam"
       ],
       "image": "https://images.unsplash.com/photo-1557006021-b85faa2bc5e2?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -55,17 +55,17 @@
     },
     {
       "title": "Americano",
-      "description": "Med en liknande smak som svart kaffe består americano av en espresso skott utspätt med hett vatten.",
+      "description": "With a flavor similar to black coffee, an americano is made by diluting a shot of espresso with hot water.",
       "ingredients": [
         "Espresso",
-        "Hett vatten"
+        "Hot water"
       ],
       "image": "https://images.unsplash.com/photo-1532004491497-ba35c367d634?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "id": 5
     },
     {
       "title": "Espresso",
-      "description": "Ett espressoskott kan serveras ensamt eller användas som grund för de flesta kaffedrycker, som latte och macchiato.",
+      "description": "A shot of espresso can be served on its own or used as the base for most coffee drinks, like lattes and macchiatos.",
       "ingredients": [
         "Espresso"
       ],
@@ -74,7 +74,7 @@
     },
     {
       "title": "Macchiato",
-      "description": "Macchiaton är en annan espresso-baserad dryck som har en liten mängd skum på toppen. Det är det glada mellanrummet mellan en cappuccino och en doppio.",
+      "description": "An espresso macchiato is a shot of espresso marked with a small dollop of foam. It is stronger and smaller than a cappuccino or latte.",
       "ingredients": [
         "Espresso",
         "Foam"
@@ -84,146 +84,146 @@
     },
     {
       "title": "Mocha",
-      "description": "För alla chokladälskare där ute kommer ni att bli förälskade i en mocha. Mocha är en choklad-espressodryck med ångad mjölk och skum.",
+      "description": "For all the chocolate lovers out there, a mocha is an easy favorite. It is a chocolate espresso drink made with steamed milk and foam.",
       "ingredients": [
         "Espresso",
-        "Ångad mjölk",
-        "Choklad"
+        "Steamed milk",
+        "Chocolate"
       ],
       "image": "https://images.unsplash.com/photo-1607260550778-aa9d29444ce1?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "id": 8
     },
     {
       "title": "Hot Chocolate",
-      "description": "Under kalla vinterdagar får en kopp varm choklad dig att känna dig bekväm och lycklig. Den får dig också att må bra eftersom den innehåller energigivande koffein.",
+      "description": "A classic warm drink made with chocolate and steamed milk. Rich, cozy, and especially good on cold days.",
       "ingredients": [
-        "Choklad",
-        "Mjölk"
+        "Chocolate",
+        "Milk"
       ],
       "image": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGhvdCUyMGNob2NvbGF0ZXxlbnwwfHwwfHx8MA%3D%3D",
       "id": 9
     },
     {
       "title": "Chai Latte",
-      "description": "Om du letar efter en smakfull varm dryck mitt i vintern, välj chai latte. Kombinationen av kardemumma och kanel ger en underbar smak.",
+      "description": "A spiced tea latte made with black tea, steamed milk, and warming spices such as ginger, cardamom, and cinnamon.",
       "ingredients": [
-        "Te",
-        "Mjölk",
-        "Ingefära",
-        "Kardemumma",
-        "Kanel"
+        "Tea",
+        "Milk",
+        "Ginger",
+        "Cardamom",
+        "Cinnamon"
       ],
       "image": "https://images.unsplash.com/photo-1578899952107-9c390f1af1b7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNoYWklMjBsYXR0ZXxlbnwwfHwwfHx8MA%3D%3D",
       "id": 10
     },
     {
       "title": "Matcha Latte",
-      "description": "Matcha latte är en grön, hälsosam kaffedryck med finkrossad matcha-te och mjölk, erbjuder mild sötma, en unik smak och en mild koffeinkick.",
+      "description": "A matcha latte is a green tea drink made with finely ground matcha and milk, offering mild sweetness, a distinctive flavor, and a gentle caffeine boost.",
       "ingredients": [
-        "Matcha-pulver",
-        "Mjölk",
-        "Socker*"
+        "Matcha powder",
+        "Milk",
+        "Sugar*"
       ],
       "image": "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWF0Y2hhJTIwbGF0dGV8ZW58MHx8MHx8fDA%3D",
       "id": 11
     },
     {
       "title": "Seasonal Brew",
-      "description": "Säsongs kaffe med olika smaktoner som karamell, frukt och choklad",
+      "description": "A seasonal coffee with flavor notes that can include caramel, fruit, and chocolate.",
       "ingredients": [
-        "Kaffe"
+        "Coffee"
       ],
       "image": "https://images.unsplash.com/photo-1611162458324-aae1eb4129a4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg1fHxibGFjayUyMGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D",
       "id": 12
     },
     {
-      "title": "Svart Te",
-      "description": "Svart te föddes i Kina. Det är tillverkat av blad från en växt som kallas Camellia och kan smaksättas olika med frukter till exempel. En trevlig, varm, smakfull och aromatisk dryck som passar till vardagen.",
+      "title": "Black Tea",
+      "description": "Black tea is made from the leaves of the Camellia sinensis plant. It can be enjoyed plain or flavored with fruit, spices, or other additions.",
       "ingredients": [
-        "Te"
+        "Tea"
       ],
       "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHRlYXxlbnwwfHwwfHx8MA%3D%3D",
       "id": 13
     },
     {
-      "title": "Islatte",
-      "description": "Iced latte är en kyld kaffedryck som görs genom att blanda espresso och kyld mjölk. Den serveras med isbitar och är även känd som cafè latte iced eller latte on the rocks.",
+      "title": "Iced Latte",
+      "description": "An iced latte is espresso poured over ice and cold milk. Sweet syrup is optional, and it is also known as an iced cafe latte.",
       "ingredients": [
         "Espresso",
-        "Mjölk",
-        "Is",
-        "Sirap"
+        "Milk",
+        "Ice",
+        "Syrup"
       ],
       "image": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aWNlZCUyMGxhdHRlfGVufDB8fDB8fHww",
       "id": 14
     },
     {
-      "title": "Islatte Mocha",
-      "description": "Iced latte Mocha är en kombination av latte och mocha, som i sig är en kombination av choklad och kaffe. Den ger kalla dryckälskare en läcker upplevelse av choklad och kaffe.",
+      "title": "Iced Mocha Latte",
+      "description": "An iced mocha latte combines a latte with mocha flavors, bringing together chocolate and coffee in a rich and refreshing drink.",
       "ingredients": [
         "Espresso",
-        "Is",
-        "Mjölk",
-        "Choklad "
+        "Ice",
+        "Milk",
+        "Chocolate"
       ],
       "image": "https://images.unsplash.com/photo-1642647391072-6a2416f048e5?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGljZWQlMjBtb2NoYSUyMGxhdHRlfGVufDB8fDB8fHww",
       "id": 15
     },
     {
-      "title": "Frapino Caramel",
-      "description": "Det är en blandad eller bättre sagt skakad kaffe med vispad grädde på toppen. Ett måste för varma sommardagar.",
+      "title": "Blended Caramel Coffee",
+      "description": "A blended iced coffee with caramel syrup, milk, and ice, topped with whipped cream and caramel sauce.",
       "ingredients": [
-        "coffee",
-        "Is",
-        "Mjölk",
-        "Karamellsirap",
-        "Vispgrädde*",
-        "Karamellsås"
+        "Coffee",
+        "Ice",
+        "Milk",
+        "Caramel syrup",
+        "Whipped cream*",
+        "Caramel sauce"
       ],
       "image": "https://images.unsplash.com/photo-1662047102608-a6f2e492411f?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnJhcGlubyUyMGNhcmFtZWx8ZW58MHx8MHx8fDA%3D",
       "id": 16
     },
     {
-      "title": "Frapino Mocka",
-      "description": "Ännu en berömd och utsökt kall dryck för dem som föredrar choklad. Tänk dig smaken av en shake med choklad och vispad grädde på toppen.",
+      "title": "Blended Mocha Coffee",
+      "description": "A blended iced mocha with coffee, milk, cocoa, and ice, finished with whipped cream for a chocolate shake-like treat.",
       "ingredients": [
         "Coffee",
-        "Is",
-        "Mjölk",
+        "Ice",
+        "Milk",
         "Cocoa",
-        "Vispgrädde*"
+        "Whipped cream*"
       ],
       "image": "https://images.unsplash.com/photo-1530373239216-42518e6b4063?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnJhcGlubyUyMG1vY2hhfGVufDB8fDB8fHww",
       "id": 17
     },
     {
-      "title": "Apelsinjuice",
-      "description": "Vi har inget att säga om vår nypressade apelsinjuice. Du måste prova den själv.",
+      "title": "Orange Juice",
+      "description": "Freshly squeezed orange juice served cold over ice.",
       "ingredients": [
-        "Färska Apelsiner",
-        "Is"
+        "Fresh oranges",
+        "Ice"
       ],
       "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzF8fG9yYW5nZSUyMGp1aWNlfGVufDB8fDB8fHww",
       "id": 18
     },
     {
       "title": "Frozen Lemonade",
-      "description": "Frozen lemonade är en uppfriskande sommardryck som kombinerar färskpressad citronsaft, is och sötning till en svalkande, syrlig och sötsyrlig smaksensation.",
+      "description": "Frozen lemonade is a refreshing summer drink that combines freshly squeezed lemon juice, ice, and sweetener into a cool, tangy treat.",
       "ingredients": [
-        "Citronsaft",
-        "Is",
-        "Socker*"
+        "Lemon juice",
+        "Ice",
+        "Sugar*"
       ],
       "image": "https://images.unsplash.com/photo-1523371054106-bbf80586c38c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGxlbW9uYWRlJTIwd2l0aCUyMGljZXxlbnwwfHwwfHx8MA%3D%3D",
       "id": 19
     },
     {
-      "title": "Lemonad",
-      "description": "Var känd i Paris först och blev sedan mycket populär i hela Europa. Denna söta, färglösa, kolsyrade dryck görs genom att blanda citronsaft och kolsyrat vatten.",
+      "title": "Lemonade",
+      "description": "A sweet-tart sparkling lemonade made with lemon juice, carbonated water, and honey.",
       "ingredients": [
-        "Citronsaft",
-        "Kolsyrat vatten",
-        "Honung"
+        "Lemon juice",
+        "Sparkling water",
+        "Honey"
       ],
       "image": "https://images.unsplash.com/photo-1621263764928-df1444c5e859?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGVtb25hZGV8ZW58MHx8MHx8fDA%3D",
       "id": 20
@@ -244,7 +244,7 @@
     },
     {
       "title": "Iced Espresso",
-      "description": "Like an iced coffee, iced espresso can be served straight or with a dash of milk, cream or sweetener. You can also ice speciality espresso-based drinks like americanos, mochas, macchiatos, lattes and flat whites.",
+      "description": "Like iced coffee, iced espresso can be served straight or with a dash of milk, cream, or sweetener. You can also ice specialty espresso-based drinks like americanos, mochas, macchiatos, lattes, and flat whites.",
       "ingredients": [
         "Espresso",
         "Ice",
@@ -266,7 +266,7 @@
     },
     {
       "title": "Frappuccino",
-      "description": "Made famous by Starbucks, the Frappuccino is a blended iced coffee drink that’s topped with whipped cream and syrup. ",
+      "description": "Made famous by Starbucks, the Frappuccino is a blended iced coffee drink topped with whipped cream and syrup.",
       "ingredients": [
         "Espresso",
         "Blended ice",

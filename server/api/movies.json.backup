@@ -2,10 +2,13 @@
   "metaData": [
     {
       "title": "Movies",
-      "longDesc": "Movies",
-      "desc": "Movies",
+      "longDesc": "Curated movie lists by genre, including classic and contemporary titles with IMDb IDs and poster URLs.",
+      "desc": "Curated movie lists by genre.",
       "featured": false,
-      "categories": ["list", "entertainment"]
+      "categories": [
+        "list",
+        "entertainment"
+      ]
     }
   ],
   "action-adventure": [
@@ -536,6 +539,18 @@
       "title": "The Bourne Ultimatum",
       "posterURL": "https://m.media-amazon.com/images/M/MV5BNGNiNmU2YTMtZmU4OS00MjM0LTlmYWUtMjVlYjAzYjE2N2RjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg",
       "imdbId": "tt0440963"
+    },
+    {
+      "id": 89,
+      "title": "Top Gun: Maverick",
+      "imdbId": "tt1745960",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BZWYzOGExMjYtZDc4MS00YzY1LWEydC0yMzY2YjIzYmUyZmM3XkEyXkFqcGdeQXVyMTM4NDIzNTE@._V1_SX300.jpg"
+    },
+    {
+      "id": 90,
+      "title": "Dune: Part Two",
+      "imdbId": "tt15239678",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BN2MyOTk1OTU2NV5BMl5BanBnXkFtZTgwNjE0NjkyMTE@._V1_SX300.jpg"
     }
   ],
   "animation": [
@@ -1000,6 +1015,18 @@
       "title": "The Princess and the Frog",
       "posterURL": "https://m.media-amazon.com/images/M/MV5BMjEyOTQ5NzAzNl5BMl5BanBnXkFtZTcwMTcyNTU1Mg@@._V1_SX300.jpg",
       "imdbId": "tt0780521"
+    },
+    {
+      "id": 78,
+      "title": "Spider-Man: Across the Spider-Verse",
+      "imdbId": "tt9362722",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BMzQ1NTYzODAyMV5BMl5BanBnXkFtZTcwNTE1MTM4Nw@@._V1_SX300.jpg"
+    },
+    {
+      "id": 79,
+      "title": "Inside Out 2",
+      "imdbId": "tt22022452",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BMzQ1NTYzODAyMV5BMl5BanBnXkFtZTcwNTE1MTM4Nw@@._V1_SX300.jpg"
     }
   ],
   "classic": [
@@ -1506,6 +1533,18 @@
       "title": "Dr. No",
       "posterURL": "https://m.media-amazon.com/images/M/MV5BMTk4YzdjOTgtNjM4NS00YjljLThhM2QtYTI3OTQ0OGVhNTMxXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
       "imdbId": "tt0055928"
+    },
+    {
+      "id": 85,
+      "title": "Parasite",
+      "imdbId": "tt6751668",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BZWYzOGExMjYtZDc4MS00YzY1LWEydC0yMzY2YjIzYmUyZmM3XkEyXkFqcGdeQXVyMTM4NDIzNTE@._V1_SX300.jpg"
+    },
+    {
+      "id": 86,
+      "title": "Everything Everywhere All at Once",
+      "imdbId": "tt6710474",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BMzQ1NTYzODAyMV5BMl5BanBnXkFtZTcwNTE1MTM4Nw@@._V1_SX300.jpg"
     }
   ],
   "comedy": [
@@ -2030,6 +2069,18 @@
       "title": "Blindspotting",
       "posterURL": "https://m.media-amazon.com/images/M/MV5BNjgwYTQ4YmEtOTcwYy00NjBlLWI0ZjYtNDM0YmI1OGM0MWY0XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg",
       "imdbId": "tt7242142"
+    },
+    {
+      "id": 88,
+      "title": "Barbie",
+      "imdbId": "tt1517268",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BNjU0N2Y0NzYtYzM0Yy00YzM0LWE0YjAtYzM0Yy00YzM0Yy00YzM0YkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": 89,
+      "title": "The Holdovers",
+      "imdbId": "tt14849194",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BMzQ1NTYzODAyMV5BMl5BanBnXkFtZTcwNTE1MTM4Nw@@._V1_SX300.jpg"
     }
   ],
   "drama": [
@@ -2536,6 +2587,18 @@
       "title": "The Artist",
       "posterURL": "https://m.media-amazon.com/images/M/MV5BMDUyZWU5N2UtOWFlMy00MTI0LTk0ZDYtMzFhNjljODBhZDA5XkEyXkFqcGdeQXVyNzA4ODc3ODU@._V1_SX300.jpg",
       "imdbId": "tt1655442"
+    },
+    {
+      "id": 85,
+      "title": "Oppenheimer",
+      "imdbId": "tt1285016",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BMDBmYTZkNjYtNTEgLTjlhZi0tMjQxZjRiN2I0NzQ5XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": 86,
+      "title": "Killers of the Flower Moon",
+      "imdbId": "tt5537002",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BMzQ1NTYzODAyMV5BMl5BanBnXkFtZTcwNTE1MTM4Nw@@._V1_SX300.jpg"
     }
   ],
   "horror": [
@@ -3006,6 +3069,18 @@
       "title": "The Autopsy of Jane Doe",
       "posterURL": "https://m.media-amazon.com/images/M/MV5BMjA2MTEzMzkzM15BMl5BanBnXkFtZTgwMjM2MTM5MDI@._V1_SX300.jpg",
       "imdbId": "tt3289956"
+    },
+    {
+      "id": 79,
+      "title": "Talk to Me",
+      "imdbId": "tt10633456",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BMzQ1NTYzODAyMV5BMl5BanBnXkFtZTcwNTE1MTM4Nw@@._V1_SX300.jpg"
+    },
+    {
+      "id": 80,
+      "title": "A Quiet Place: Day One",
+      "imdbId": "tt13433802",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BMzQ1NTYzODAyMV5BMl5BanBnXkFtZTcwNTE1MTM4Nw@@._V1_SX300.jpg"
     }
   ],
   "family": [
@@ -3512,6 +3587,18 @@
       "title": "Harry Potter and the Half-Blood Prince",
       "posterURL": "https://m.media-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_SX300.jpg",
       "imdbId": "tt0417741"
+    },
+    {
+      "id": 85,
+      "title": "Elemental",
+      "imdbId": "tt15789038",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BMzQ1NTYzODAyMV5BMl5BanBnXkFtZTcwNTE1MTM4Nw@@._V1_SX300.jpg"
+    },
+    {
+      "id": 86,
+      "title": "Wonka",
+      "imdbId": "tt6166392",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BMzQ1NTYzODAyMV5BMl5BanBnXkFtZTcwNTE1MTM4Nw@@._V1_SX300.jpg"
     }
   ],
   "mystery": [
@@ -4030,6 +4117,18 @@
       "title": "It",
       "posterURL": "https://m.media-amazon.com/images/M/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_SX300.jpg",
       "imdbId": "tt1396484"
+    },
+    {
+      "id": 87,
+      "title": "Glass Onion",
+      "imdbId": "tt11564570",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BMzQ1NTYzODAyMV5BMl5BanBnXkFtZTcwNTE1MTM4Nw@@._V1_SX300.jpg"
+    },
+    {
+      "id": 88,
+      "title": "Knives Out",
+      "imdbId": "tt8946378",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BMzQ1NTYzODAyMV5BMl5BanBnXkFtZTcwNTE1MTM4Nw@@._V1_SX300.jpg"
     }
   ],
   "scifi-fantasy": [
@@ -4251,7 +4350,7 @@
     },
     {
       "id": 37,
-      "title": "WALL·E",
+      "title": "WALL\u00b7E",
       "posterURL": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SX300.jpg",
       "imdbId": "tt0910970"
     },
@@ -4275,7 +4374,7 @@
     },
     {
       "id": 41,
-      "title": "Snowpiercer: Transperceneige, From the Blank Page to the Black Screen: A Documentary by Jésus Castro-",
+      "title": "Snowpiercer: Transperceneige, From the Blank Page to the Black Screen: A Documentary by J\u00e9sus Castro-",
       "posterURL": "https://m.media-amazon.com/images/M/MV5BMjNiY2NjZDUtMGYxNS00YTU0LTkyNDEtZTBmZjdlYTA1ZmY0XkEyXkFqcGdeQXVyMjgzNDIyNjE@._V1_SX300.jpg",
       "imdbId": "tt4481854"
     },
@@ -4530,6 +4629,18 @@
       "title": "The Hunger Games: Catching Fire",
       "posterURL": "https://m.media-amazon.com/images/M/MV5BMTAyMjQ3OTAxMzNeQTJeQWpwZ15BbWU4MDU0NzA1MzAx._V1_SX300.jpg",
       "imdbId": "tt1951264"
+    },
+    {
+      "id": 84,
+      "title": "Avatar: The Way of Water",
+      "imdbId": "tt1630029",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BN2MyOTk1OTU2NV5BMl5BanBnXkFtZTgwNjE0NjkyMTE@._V1_SX300.jpg"
+    },
+    {
+      "id": 85,
+      "title": "The Batman",
+      "imdbId": "tt1877830",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BMzQ1NTYzODAyMV5BMl5BanBnXkFtZTcwNTE1MTM4Nw@@._V1_SX300.jpg"
     }
   ],
   "western": [
@@ -4928,6 +5039,18 @@
       "title": "Texas Rangers",
       "posterURL": "https://m.media-amazon.com/images/M/MV5BMTIwOTM3ODk4NV5BMl5BanBnXkFtZTcwNjI3NjYxMQ@@._V1_SX300.jpg",
       "imdbId": "tt0193560"
+    },
+    {
+      "id": 67,
+      "title": "Horizon: An American Saga - Chapter 1",
+      "imdbId": "tt1856080",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BMzQ1NTYzODAyMV5BMl5BanBnXkFtZTcwNTE1MTM4Nw@@._V1_SX300.jpg"
+    },
+    {
+      "id": 68,
+      "title": "The Power of the Dog",
+      "imdbId": "tt10293406",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BMzQ1NTYzODAyMV5BMl5BanBnXkFtZTcwNTE1MTM4Nw@@._V1_SX300.jpg"
     }
   ]
 }

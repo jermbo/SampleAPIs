@@ -2,10 +2,12 @@
   "metaData": [
     {
       "title": "The United States",
-      "longDesc": "Info about the all the 50 states in the United States. The endpoint includes the name, abbreviation, capital, largest city, date admitted to union, population, and state flag.",
-      "desc": "Info about the all the 50 states in the United States.",
+      "longDesc": "Information about all 50 U.S. states, including name, abbreviation, capital, largest city, date admitted to the Union, July 2024 population estimate, and state flag.",
+      "desc": "Information about all 50 U.S. states.",
       "featured": false,
-      "categories": ["list"]
+      "categories": [
+        "list"
+      ]
     }
   ],
   "the-states": [
@@ -16,7 +18,7 @@
       "capital": "Montgomery",
       "largest_city": "Birmingham",
       "admitted_to_union": "December 14, 1819",
-      "population": "4,903,185",
+      "population": "5,108,468",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Alabama.svg"
     },
     {
@@ -26,7 +28,7 @@
       "capital": "Juneau",
       "largest_city": "Anchorage",
       "admitted_to_union": "January 3, 1959",
-      "population": "710,249",
+      "population": "733,406",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Alaska.svg"
     },
     {
@@ -36,7 +38,7 @@
       "capital": "Phoenix",
       "largest_city": "Phoenix",
       "admitted_to_union": "February 14, 1912",
-      "population": "7,278,717",
+      "population": "7,582,384",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Arizona.svg"
     },
     {
@@ -46,7 +48,7 @@
       "capital": "Little Rock",
       "largest_city": "Little Rock",
       "admitted_to_union": "June 15, 1836",
-      "population": "3,017,804",
+      "population": "3,067,732",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Arkansas.svg"
     },
     {
@@ -56,7 +58,7 @@
       "capital": "Sacramento",
       "largest_city": "Los Angeles",
       "admitted_to_union": "September 9, 1850",
-      "population": "39,512,223",
+      "population": "39,431,263",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg"
     },
     {
@@ -66,7 +68,7 @@
       "capital": "Denver",
       "largest_city": "Denver",
       "admitted_to_union": "August 1, 1876",
-      "population": "5,758,736",
+      "population": "5,957,493",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colorado_designed_by_Andrew_Carlisle_Carson.svg"
     },
     {
@@ -76,7 +78,7 @@
       "capital": "Hartford",
       "largest_city": "Bridgeport",
       "admitted_to_union": "January 9, 1788",
-      "population": "3,565,287",
+      "population": "3,629,848",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/9/96/Flag_of_Connecticut.svg"
     },
     {
@@ -86,7 +88,7 @@
       "capital": "Dover",
       "largest_city": "Wilmington",
       "admitted_to_union": "December 7, 1787",
-      "population": "973,764",
+      "population": "1,031,890",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Flag_of_Delaware.svg"
     },
     {
@@ -96,7 +98,7 @@
       "capital": "Tallahassee",
       "largest_city": "Jacksonville",
       "admitted_to_union": "March 3, 1845",
-      "population": "21,477,737",
+      "population": "23,372,215",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Florida.svg"
     },
     {
@@ -106,7 +108,7 @@
       "capital": "Atlanta",
       "largest_city": "Atlanta",
       "admitted_to_union": "January 2, 1788",
-      "population": "10,617,423",
+      "population": "11,180,878",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Georgia_%28U.S._state%29.svg"
     },
     {
@@ -116,7 +118,7 @@
       "capital": "Honolulu",
       "largest_city": "Honolulu",
       "admitted_to_union": "August 21, 1959",
-      "population": "1,415,872",
+      "population": "1,435,138",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg"
     },
     {
@@ -126,7 +128,7 @@
       "capital": "Boise",
       "largest_city": "Boise",
       "admitted_to_union": "July 3, 1890",
-      "population": "1,787,065",
+      "population": "2,001,619",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_Idaho.svg"
     },
     {
@@ -136,7 +138,7 @@
       "capital": "Springfield",
       "largest_city": "Chicago",
       "admitted_to_union": "December 3, 1818",
-      "population": "12,671,821",
+      "population": "12,549,689",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Illinois.svg"
     },
     {
@@ -146,7 +148,7 @@
       "capital": "Indianapolis",
       "largest_city": "Indianapolis",
       "admitted_to_union": "December 11, 1816",
-      "population": "6,732,219",
+      "population": "6,862,251",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Flag_of_Indiana.svg"
     },
     {
@@ -156,7 +158,7 @@
       "capital": "Des Moines",
       "largest_city": "Des Moines",
       "admitted_to_union": "December 27, 1846",
-      "population": "3,155,070",
+      "population": "3,207,004",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Iowa.svg"
     },
     {
@@ -166,7 +168,7 @@
       "capital": "Topeka",
       "largest_city": "Wichita",
       "admitted_to_union": "January 29, 1861",
-      "population": "2,913,314",
+      "population": "2,940,546",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/d/da/Flag_of_Kansas.svg"
     },
     {
@@ -176,7 +178,7 @@
       "capital": "Frankfort",
       "largest_city": "Louisville",
       "admitted_to_union": "June 1, 1792",
-      "population": "4,467,673",
+      "population": "4,588,372",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Flag_of_Kentucky.svg"
     },
     {
@@ -186,7 +188,7 @@
       "capital": "Baton Rouge",
       "largest_city": "New Orleans",
       "admitted_to_union": "April 30, 1812",
-      "population": "4,648,794",
+      "population": "4,573,749",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Flag_of_Louisiana.svg"
     },
     {
@@ -196,7 +198,7 @@
       "capital": "Augusta",
       "largest_city": "Portland",
       "admitted_to_union": "March 15, 1820",
-      "population": "1,344,212",
+      "population": "1,405,012",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/3/35/Flag_of_Maine.svg"
     },
     {
@@ -206,7 +208,7 @@
       "capital": "Annapolis",
       "largest_city": "Baltimore",
       "admitted_to_union": "April 28, 1788",
-      "population": "6,045,680",
+      "population": "6,278,516",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_Maryland.svg"
     },
     {
@@ -216,7 +218,7 @@
       "capital": "Boston",
       "largest_city": "Boston",
       "admitted_to_union": "February 6, 1788",
-      "population": "6,939,373",
+      "population": "7,136,171",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Massachusetts.svg"
     },
     {
@@ -226,7 +228,7 @@
       "capital": "Lansing",
       "largest_city": "Detroit",
       "admitted_to_union": "January 26, 1837",
-      "population": "9,883,635",
+      "population": "10,140,459",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Flag_of_Michigan.svg"
     },
     {
@@ -236,7 +238,7 @@
       "capital": "Saint Paul",
       "largest_city": "Minneapolis",
       "admitted_to_union": "May 11, 1858",
-      "population": "5,639,632",
+      "population": "5,757,832",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Minnesota.svg"
     },
     {
@@ -246,7 +248,7 @@
       "capital": "Jackson",
       "largest_city": "Jackson",
       "admitted_to_union": "December 10, 1817",
-      "population": "2,976,149",
+      "population": "2,943,740",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_Mississippi.svg"
     },
     {
@@ -256,7 +258,7 @@
       "capital": "Jefferson City",
       "largest_city": "Kansas City",
       "admitted_to_union": "August 10, 1821 ",
-      "population": "6,137,428",
+      "population": "6,196,156",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Flag_of_Missouri.svg"
     },
     {
@@ -266,7 +268,7 @@
       "capital": "Helena",
       "largest_city": "Billings",
       "admitted_to_union": "November 8, 1889",
-      "population": "1,068,778",
+      "population": "1,132,812",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_Montana.svg"
     },
     {
@@ -276,7 +278,7 @@
       "capital": "Lincoln",
       "largest_city": "Omaha",
       "admitted_to_union": "March 1, 1867 ",
-      "population": "1,934,408",
+      "population": "1,981,432",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Flag_of_Nebraska.svg"
     },
     {
@@ -286,7 +288,7 @@
       "capital": "Carson City",
       "largest_city": "Las Vegas",
       "admitted_to_union": "October 1, 1864",
-      "population": "3,080,156",
+      "population": "3,194,176",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag_of_Nevada.svg"
     },
     {
@@ -296,7 +298,7 @@
       "capital": "Concord",
       "largest_city": "Manchester",
       "admitted_to_union": "June 21, 1788",
-      "population": "1,359,711",
+      "population": "1,402,054",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/2/28/Flag_of_New_Hampshire.svg"
     },
     {
@@ -306,7 +308,7 @@
       "capital": "Trenton",
       "largest_city": "Newark",
       "admitted_to_union": "December 18, 1787",
-      "population": "8,882,190",
+      "population": "9,500,851",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_New_Jersey.svg"
     },
     {
@@ -316,7 +318,7 @@
       "capital": "Santa Fe",
       "largest_city": "Albuquerque",
       "admitted_to_union": "January 6, 1912",
-      "population": "2,096,829",
+      "population": "2,114,371",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_New_Mexico.svg"
     },
     {
@@ -326,7 +328,7 @@
       "capital": "Albany",
       "largest_city": "New York",
       "admitted_to_union": "July 26, 1788",
-      "population": "19,453,561",
+      "population": "19,867,248",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_New_York.svg"
     },
     {
@@ -336,7 +338,7 @@
       "capital": "Raleigh",
       "largest_city": "Charlotte",
       "admitted_to_union": "November 21, 1789",
-      "population": "10,488,084",
+      "population": "10,835,491",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Flag_of_North_Carolina.svg"
     },
     {
@@ -346,7 +348,7 @@
       "capital": "Bismark",
       "largest_city": "Fargo",
       "admitted_to_union": "November 2, 1889",
-      "population": "762,062",
+      "population": "783,926",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Flag_of_North_Dakota.svg"
     },
     {
@@ -356,7 +358,7 @@
       "capital": "Columbus",
       "largest_city": "Columbus",
       "admitted_to_union": "March 1, 1803",
-      "population": "11,689,100",
+      "population": "11,785,935",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Ohio.svg"
     },
     {
@@ -366,7 +368,7 @@
       "capital": "Oklahoma City",
       "largest_city": "Oklahoma City",
       "admitted_to_union": "November 16, 1907",
-      "population": "3,956,971",
+      "population": "4,053,824",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Flag_of_Oklahoma.svg"
     },
     {
@@ -376,7 +378,7 @@
       "capital": "Salem",
       "largest_city": "Portland",
       "admitted_to_union": "February 14, 1859",
-      "population": "4,217,737",
+      "population": "4,272,371",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Oregon.svg"
     },
     {
@@ -386,7 +388,7 @@
       "capital": "Harrisburg",
       "largest_city": "Philadelphia",
       "admitted_to_union": "December 12, 1787",
-      "population": "12,801,989",
+      "population": "12,986,518",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Pennsylvania.svg"
     },
     {
@@ -396,7 +398,7 @@
       "capital": "Providence",
       "largest_city": "Providence",
       "admitted_to_union": "May 29, 1790",
-      "population": "1,059,361",
+      "population": "1,109,978",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Rhode_Island.svg"
     },
     {
@@ -406,7 +408,7 @@
       "capital": "Columbia",
       "largest_city": "Charleston",
       "admitted_to_union": "May 23, 1788",
-      "population": "5,148,714",
+      "population": "5,478,831",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/6/69/Flag_of_South_Carolina.svg"
     },
     {
@@ -416,7 +418,7 @@
       "capital": "Pierre",
       "largest_city": "Sioux Falls",
       "admitted_to_union": "November 2, 1889",
-      "population": "884,659",
+      "population": "919,318",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_South_Dakota.svg"
     },
     {
@@ -426,7 +428,7 @@
       "capital": "Nashville",
       "largest_city": "Nashville",
       "admitted_to_union": "June 1, 1796",
-      "population": "6,833,793",
+      "population": "7,126,489",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Tennessee.svg"
     },
     {
@@ -436,7 +438,7 @@
       "capital": "Austin",
       "largest_city": "Houston",
       "admitted_to_union": "December 29, 1845",
-      "population": "28,995,881",
+      "population": "31,290,831",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Texas.svg"
     },
     {
@@ -446,17 +448,17 @@
       "capital": "Salt Lake City",
       "largest_city": "Salt Lake City",
       "admitted_to_union": "January 4, 1896",
-      "population": "3,205,958",
+      "population": "3,503,613",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Utah.svg"
     },
     {
       "id": 45,
       "name": "Vermont",
       "abv": "VT",
-      "capital": "Montpellier",
+      "capital": "Montpelier",
       "largest_city": "Burlington",
       "admitted_to_union": "March 4, 1791",
-      "population": "623,989",
+      "population": "647,464",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Vermont.svg"
     },
     {
@@ -466,7 +468,7 @@
       "capital": "Richmond",
       "largest_city": "Virginia Beach",
       "admitted_to_union": "June 25, 1788",
-      "population": "8,535,519",
+      "population": "8,734,685",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/4/47/Flag_of_Virginia.svg"
     },
     {
@@ -476,7 +478,7 @@
       "capital": "Olympia",
       "largest_city": "Seattle",
       "admitted_to_union": "November 11, 1889",
-      "population": "7,614,893",
+      "population": "7,958,180",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Washington.svg"
     },
     {
@@ -486,7 +488,7 @@
       "capital": "Charleston",
       "largest_city": "Charleston",
       "admitted_to_union": "June 20, 1863",
-      "population": "1,792,147",
+      "population": "1,769,979",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/2/22/Flag_of_West_Virginia.svg"
     },
     {
@@ -496,7 +498,7 @@
       "capital": "Madison",
       "largest_city": "Milwaukee",
       "admitted_to_union": "May 29, 1848",
-      "population": "5,822,434",
+      "population": "5,960,975",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/2/22/Flag_of_Wisconsin.svg"
     },
     {
@@ -506,7 +508,7 @@
       "capital": "Cheyenne",
       "largest_city": "Cheyenne",
       "admitted_to_union": "July 10, 1890",
-      "population": "578,759",
+      "population": "587,618",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Wyoming.svg"
     }
   ]

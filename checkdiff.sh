@@ -15,11 +15,6 @@ if [ "$DIFF" != "" ]
 then
     echo "beers modified"
 fi
-DIFF=$(diff bitcoin.json bitcoin.json.backup)
-if [ "$DIFF" != "" ] 
-then
-    echo "bitcoin modified"
-fi
 DIFF=$(diff cartoons.json cartoons.json.backup)
 if [ "$DIFF" != "" ] 
 then
@@ -94,11 +89,6 @@ DIFF=$(diff recipes.json recipes.json.backup)
 if [ "$DIFF" != "" ] 
 then
     echo "recipes modified"
-fi
-DIFF=$(diff rickandmorty.json rickandmorty.json.backup)
-if [ "$DIFF" != "" ] 
-then
-    echo "rickandmorty modified"
 fi
 DIFF=$(diff simpsons.json simpsons.json.backup)
 if [ "$DIFF" != "" ] 

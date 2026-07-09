@@ -224,16 +224,6 @@ module.exports = [
   },
   {
     id: 22,
-    title: "Rick And Morty",
-    longDesc:
-      "Get all the Rick-iest Episodes, Locations and Characters from a copy of the https://rickandmortyapi.com data. That's the way Rick would have done it!",
-    desc: "API for all current Rick & Morty episodes, locations and characters",
-    link: "rickandmorty",
-    graphLink: "rickandmorty/graphql",
-    endPoints: ["characters", "episodes", "locations"],
-  },
-  {
-    id: 23,
     title: "Coffee",
     longDesc: "Basic list of descriptions and ingredients used for the most popular coffee drinks",
     desc: "API for popular coffee drinks",
@@ -258,14 +248,5 @@ module.exports = [
     link: "jokes",
     graphLink: "jokes/graphql",
     endPoints: ["goodJokes"],
-  },
-  {
-    id: 25,
-    title: "Bitcoin (historical data)",
-    longDesc: "You've wanted it and now we got it. Going back from January 2022 to August 2010",
-    desc: "Bitcoin Historical Data from August 2010 to January 2022",
-    link: "bitcoin",
-    graphLink: "bitcoin/graphql",
-    endPoints: ["historical_prices"],
   },
 ];
