@@ -1,33 +1,38 @@
 import React, { useEffect, useRef, useState } from "react";
 import { EditorView, basicSetup } from "codemirror";
-import { EditorState } from "@codemirror/state";
+import { EditorState, Prec } from "@codemirror/state";
+import { keymap } from "@codemirror/view";
 import { javascript } from "@codemirror/lang-javascript";
 import { oneDark } from "@codemirror/theme-one-dark";
+import { linter, lintGutter, Diagnostic } from "@codemirror/lint";
+import { syntaxTree } from "@codemirror/language";
+import JsonTree from "./JsonTree";
+import { SNIPPETS, DEFAULT_SNIPPET } from "./snippets";
 import "./Playground.css";
 
 interface Props {
-  /** Endpoint URL the starter snippet fetches from. In dev this is the LOCAL server. */
+  /** Endpoint URL the starter snippets fetch from. In dev this is the LOCAL server. */
   url: string;
 }
 
-interface LogLine {
+interface OutputEntry {
   level: string;
-  text: string;
+  values: unknown[];
 }
 
 const RUN_TIMEOUT_MS = 5000;
+const storageKey = (url: string) => `sampleapis:playground:${url}`;
 
 /**
- * POC playground: CodeMirror 6 editor + a null-origin sandboxed <iframe> runner.
+ * Playground: CodeMirror 6 editor + a null-origin sandboxed <iframe> runner.
  *
  * Security model: the iframe uses sandbox="allow-scripts" WITHOUT allow-same-origin,
- * so user code runs in an opaque origin. It cannot read our cookies, localStorage,
- * DOM, or make same-origin authenticated requests. We talk to it only via postMessage,
- * gated by a per-run random token. A timeout tears the iframe down to kill infinite loops.
+ * so user code runs in an opaque origin — it cannot read our cookies, storage, DOM, or
+ * make same-origin authenticated requests. We talk to it only via postMessage, gated by
+ * a per-run random token, and a timeout tears it down to kill infinite loops.
  *
- * Bonus: because the iframe is hosted by THIS page (loopback in dev), its fetch to
- * localhost is local->local and is NOT blocked by Private Network Access — unlike the
- * Sandpack example, which runs on codesandbox.io (a public origin).
+ * Because the iframe is hosted by THIS page (loopback in dev), its fetch to localhost is
+ * local->local and is not blocked by Private Network Access.
  */
 const Playground: React.FC<Props> = ({ url }) => {
   const editorHost = useRef<HTMLDivElement>(null);
@@ -36,23 +41,82 @@ const Playground: React.FC<Props> = ({ url }) => {
   const timeoutRef = useRef<number | null>(null);
   const msgHandlerRef = useRef<((e: MessageEvent) => void) | null>(null);
 
-  const [logs, setLogs] = useState<LogLine[]>([]);
+  // Refs so the editor's static keymap / change listener always see the latest values.
+  const urlRef = useRef(url);
+  const prevUrlRef = useRef(url);
+  const runRef = useRef<() => void>(() => {});
+  urlRef.current = url;
+
+  const [output, setOutput] = useState<OutputEntry[]>([]);
   const [running, setRunning] = useState(false);
+  const [activeSnippet, setActiveSnippet] = useState(DEFAULT_SNIPPET.id);
 
-  const starter = (endpoint: string) => `// Edit me, then hit Run. Top-level await works.
-const resp = await fetch("${endpoint}");
-const data = await resp.json();
+  // Layout: orientation, console collapse, and the editor's share of the split.
+  const panesRef = useRef<HTMLDivElement>(null);
+  const [orientation, setOrientation] = useState<"horizontal" | "vertical">("horizontal");
+  const [collapsed, setCollapsed] = useState(false);
+  const [splitPct, setSplitPct] = useState(50);
 
-console.log(Array.isArray(data) ? \`Got \${data.length} items\` : "Got response");
-console.log(data);`;
+  const startDrag = (e: React.PointerEvent) => {
+    e.preventDefault();
+    const move = (ev: PointerEvent) => {
+      const rect = panesRef.current?.getBoundingClientRect();
+      if (!rect) return;
+      const pct =
+        orientation === "horizontal"
+          ? ((ev.clientX - rect.left) / rect.width) * 100
+          : ((ev.clientY - rect.top) / rect.height) * 100;
+      setSplitPct(Math.min(85, Math.max(15, pct)));
+    };
+    const up = () => {
+      window.removeEventListener("pointermove", move);
+      window.removeEventListener("pointerup", up);
+    };
+    window.addEventListener("pointermove", move);
+    window.addEventListener("pointerup", up);
+  };
+
+  const loadCode = (u: string) =>
+    localStorage.getItem(storageKey(u)) ?? DEFAULT_SNIPPET.build(u);
+
+  // Flags syntax errors inline using the Lezer parse tree — no heavy ESLint dependency.
+  const jsLinter = linter((view) => {
+    const diagnostics: Diagnostic[] = [];
+    const len = view.state.doc.length;
+    syntaxTree(view.state)
+      .cursor()
+      .iterate((node) => {
+        if (!node.type.isError) return;
+        const from = node.from;
+        const to = node.to > from ? node.to : Math.min(from + 1, len);
+        if (to <= from) return;
+        diagnostics.push({ from, to, severity: "error", message: "Syntax error" });
+      });
+    return diagnostics;
+  });
 
   // Create the editor once.
   useEffect(() => {
     if (!editorHost.current) return;
     const view = new EditorView({
       state: EditorState.create({
-        doc: starter(url),
-        extensions: [basicSetup, javascript(), oneDark],
+        doc: loadCode(urlRef.current),
+        extensions: [
+          basicSetup, // includes line numbers, autocomplete, bracket matching
+          javascript(),
+          oneDark,
+          jsLinter,
+          lintGutter(),
+          // Prec.highest so this wins over basicSetup's default Mod-Enter binding.
+          Prec.highest(
+            keymap.of([{ key: "Mod-Enter", run: () => (runRef.current(), true) }])
+          ),
+          EditorView.updateListener.of((u) => {
+            if (u.docChanged) {
+              localStorage.setItem(storageKey(urlRef.current), u.state.doc.toString());
+            }
+          }),
+        ],
       }),
       parent: editorHost.current,
     });
@@ -61,13 +125,16 @@ console.log(data);`;
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // When a different endpoint is selected, reset the starter snippet.
+  // When a different endpoint is selected, persist the current buffer and load that
+  // endpoint's saved code (or its starter). Never clobbers unsaved edits.
   useEffect(() => {
     const view = viewRef.current;
     if (!view) return;
-    view.dispatch({
-      changes: { from: 0, to: view.state.doc.length, insert: starter(url) },
-    });
+    const prev = prevUrlRef.current;
+    if (prev === url) return;
+    if (prev) localStorage.setItem(storageKey(prev), view.state.doc.toString());
+    view.dispatch({ changes: { from: 0, to: view.state.doc.length, insert: loadCode(url) } });
+    prevUrlRef.current = url;
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [url]);
 
@@ -87,28 +154,57 @@ console.log(data);`;
     setRunning(false);
   };
 
-  // Clean up any live sandbox on unmount.
   useEffect(() => teardown, []);
+
+  const loadSnippet = (id: string) => {
+    const snippet = SNIPPETS.find((s) => s.id === id) ?? DEFAULT_SNIPPET;
+    const view = viewRef.current;
+    if (!view) return;
+    setActiveSnippet(id);
+    view.dispatch({
+      changes: { from: 0, to: view.state.doc.length, insert: snippet.build(urlRef.current) },
+    });
+    view.focus();
+  };
 
   const run = () => {
     const code = viewRef.current?.state.doc.toString() ?? "";
     teardown();
-    setLogs([]);
+    setOutput([]);
     setRunning(true);
 
     const token = Math.random().toString(36).slice(2);
+    // The top-level code returning ("__done") doesn't mean async work (e.g. an
+    // un-awaited .then chain) has settled. Keep the sandbox alive until the timeout
+    // so late output still streams in; only flag a timeout if code never signalled done.
+    let signalledDone = false;
 
-    // Bootstrap runs INSIDE the sandboxed iframe: capture console + errors, wait for code.
+    // Runs INSIDE the sandboxed iframe: sanitize console args to a JSON-safe shape
+    // (postMessage can't clone functions/circular refs) and stream them back.
     const bootstrap = `
       <script>
         const TOKEN = ${JSON.stringify(token)};
-        const send = (level, parts) => parent.postMessage({ token: TOKEN, level, parts }, "*");
-        const fmt = (v) => {
-          if (typeof v === "string") return v;
-          try { return JSON.stringify(v, null, 2); } catch (e) { return String(v); }
+        const send = (level, values) => parent.postMessage({ token: TOKEN, level, values }, "*");
+        const sanitize = (v, seen) => {
+          if (v === undefined) return "undefined";
+          if (v === null) return null;
+          const t = typeof v;
+          if (t === "function") return "\\u0192 " + (v.name || "anonymous") + "()";
+          if (t === "bigint") return v.toString() + "n";
+          if (t === "symbol") return v.toString();
+          if (t !== "object") return v;
+          if (v instanceof Error) return v.name + ": " + v.message;
+          if (seen.has(v)) return "[Circular]";
+          seen.add(v);
+          if (Array.isArray(v)) return v.map((x) => sanitize(x, seen));
+          const out = {};
+          for (const k in v) {
+            try { out[k] = sanitize(v[k], seen); } catch (e) { out[k] = "[unreadable]"; }
+          }
+          return out;
         };
         ["log", "info", "warn", "error", "debug"].forEach((k) => {
-          console[k] = (...a) => send(k, a.map(fmt));
+          console[k] = (...a) => send(k, a.map((x) => sanitize(x, new WeakSet())));
         });
         window.onerror = (m) => { send("error", [String(m)]); return true; };
         window.addEventListener("unhandledrejection", (e) => {
@@ -144,48 +240,121 @@ console.log(data);`;
         return;
       }
       if (d.level === "__done") {
-        teardown();
+        // Top-level code returned. Stop the spinner but keep the sandbox alive so
+        // any still-pending async output (un-awaited promises) can arrive.
+        signalledDone = true;
+        setRunning(false);
         return;
       }
-      setLogs((prev) => [...prev, { level: d.level, text: (d.parts || []).join(" ") }]);
+      setOutput((prev) => [...prev, { level: d.level, values: d.values || [] }]);
     };
     msgHandlerRef.current = onMessage;
     window.addEventListener("message", onMessage);
 
     timeoutRef.current = window.setTimeout(() => {
-      setLogs((prev) => [
-        ...prev,
-        {
-          level: "error",
-          text: `Execution timed out after ${RUN_TIMEOUT_MS / 1000}s (possible infinite loop). Sandbox terminated.`,
-        },
-      ]);
+      // Only a genuine hang (code never returned) is a timeout worth reporting.
+      if (!signalledDone) {
+        setOutput((prev) => [
+          ...prev,
+          {
+            level: "error",
+            values: [
+              `Execution timed out after ${RUN_TIMEOUT_MS / 1000}s (possible infinite loop). Sandbox terminated.`,
+            ],
+          },
+        ]);
+      }
       teardown();
     }, RUN_TIMEOUT_MS);
 
     document.body.appendChild(iframe);
   };
+  runRef.current = run;
+
+  const isPrimitive = (v: unknown) => v === null || typeof v !== "object";
+
+  const editorPaneStyle: React.CSSProperties = collapsed
+    ? { flex: "1 1 auto" }
+    : { flex: `0 0 ${splitPct}%` };
+  const outputPaneStyle: React.CSSProperties = collapsed
+    ? { flex: "0 0 auto" }
+    : { flex: "1 1 0" };
 
   return (
     <div className="playground">
       <div className="playground__toolbar">
-        <span className="playground__badge">CodeMirror + sandboxed iframe</span>
-        <button className="playground__run" onClick={run} disabled={running}>
-          {running ? "Running…" : "▶ Run"}
-        </button>
+        <div className="playground__tabs">
+          {SNIPPETS.map((s) => (
+            <button
+              key={s.id}
+              className={`playground__tab ${activeSnippet === s.id ? "-active" : ""}`}
+              onClick={() => loadSnippet(s.id)}
+            >
+              {s.label}
+            </button>
+          ))}
+        </div>
+        <div className="playground__actions">
+          <button
+            className="playground__icon-btn"
+            onClick={() =>
+              setOrientation((o) => (o === "horizontal" ? "vertical" : "horizontal"))
+            }
+            title="Toggle split direction"
+          >
+            {orientation === "horizontal" ? "⬍ Stack" : "⬌ Side by side"}
+          </button>
+          <button className="playground__run" onClick={run} disabled={running}>
+            {running ? "Running…" : "▶ Run  (⌘/Ctrl+↵)"}
+          </button>
+        </div>
       </div>
-      <div className="playground__editor" ref={editorHost} />
-      <div className="playground__output">
-        <div className="playground__output-header">Output</div>
-        {logs.length === 0 ? (
-          <div className="playground__empty">Run the code to see output here.</div>
-        ) : (
-          logs.map((line, i) => (
-            <pre key={i} className={`playground__line -${line.level}`}>
-              {line.text}
-            </pre>
-          ))
+
+      <div
+        className={`playground__panes -${orientation} ${collapsed ? "-collapsed" : ""}`}
+        ref={panesRef}
+      >
+        <div className="playground__editor" ref={editorHost} style={editorPaneStyle} />
+
+        {!collapsed && (
+          <div
+            className={`playground__divider -${orientation}`}
+            onPointerDown={startDrag}
+            title="Drag to resize"
+          />
         )}
+
+        <div className="playground__output" style={outputPaneStyle}>
+          <button
+            className="playground__output-header"
+            onClick={() => setCollapsed((c) => !c)}
+            title={collapsed ? "Expand console" : "Collapse console"}
+          >
+            <span className="playground__caret">{collapsed ? "▸" : "▾"}</span>
+            Output
+          </button>
+          {!collapsed && (
+            <div className="playground__output-body">
+              {output.length === 0 ? (
+                <div className="playground__empty">Run the code to see output here.</div>
+              ) : (
+                output.map((entry, i) => (
+                  <div key={i} className={`playground__line -${entry.level}`}>
+                    {entry.values.map((v, j) =>
+                      isPrimitive(v) ? (
+                        <span key={j} className="playground__text">
+                          {String(v)}
+                        </span>
+                      ) : (
+                        <JsonTree key={j} value={v} />
+                      )
+                    )}
+                  </div>
+                ))
+              )}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

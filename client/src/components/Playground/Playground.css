@@ -15,10 +15,29 @@
   border-bottom: 1px solid #1e2430;
 }
 
-.playground__badge {
+.playground__tabs {
+  display: flex;
+  gap: 4px;
+}
+
+.playground__tab {
+  background: transparent;
+  color: #5f7e97;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 4px 10px;
   font-size: 12px;
+  cursor: pointer;
+}
+
+.playground__tab:hover {
+  color: #d6deeb;
+}
+
+.playground__tab.-active {
   color: #7fdbca;
-  letter-spacing: 0.02em;
+  border-color: #1e2430;
+  background: #011627;
 }
 
 .playground__run {
@@ -36,28 +55,116 @@
   cursor: default;
 }
 
-.playground__editor {
-  max-height: 320px;
-  overflow: auto;
+.playground__actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-/* CodeMirror fills its host */
+.playground__icon-btn {
+  background: transparent;
+  color: #5f7e97;
+  border: 1px solid #1e2430;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.playground__icon-btn:hover {
+  color: #d6deeb;
+}
+
+/* Editor + output share a fixed 500px box; orientation sets the axis. */
+.playground__panes {
+  display: flex;
+  align-items: stretch;
+  height: 500px;
+}
+
+.playground__panes.-horizontal {
+  flex-direction: row;
+}
+
+.playground__panes.-vertical {
+  flex-direction: column;
+}
+
+.playground__editor {
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* CodeMirror fills its pane and scrolls internally */
 .playground__editor .cm-editor {
   height: 100%;
 }
 
-.playground__output {
-  border-top: 1px solid #1e2430;
-  max-height: 260px;
+.playground__editor .cm-scroller {
   overflow: auto;
 }
 
+/* Draggable resize handle between the panes */
+.playground__divider {
+  flex: 0 0 6px;
+  background: #1e2430;
+  transition: background 0.15s;
+}
+
+.playground__divider:hover {
+  background: #7fdbca;
+}
+
+.playground__divider.-horizontal {
+  cursor: col-resize;
+}
+
+.playground__divider.-vertical {
+  cursor: row-resize;
+}
+
+.playground__output {
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .playground__output-header {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
   font-size: 12px;
   color: #5f7e97;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  padding: 8px 12px 4px;
+  padding: 8px 12px;
+}
+
+.playground__output-header:hover {
+  color: #d6deeb;
+}
+
+.playground__caret {
+  color: #5f7e97;
+}
+
+.playground__output-body {
+  flex: 1 1 auto;
+  overflow: auto;
+}
+
+/* Collapsed: console shrinks to just its header bar */
+.playground__panes.-collapsed .playground__output {
+  border-top: 1px solid #1e2430;
 }
 
 .playground__empty {
@@ -71,9 +178,13 @@
   padding: 4px 12px;
   color: #d6deeb;
   font-size: 13px;
+  border-top: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.playground__text {
   white-space: pre-wrap;
   word-break: break-word;
-  border-top: 1px solid rgba(255, 255, 255, 0.03);
+  margin-right: 8px;
 }
 
 .playground__line.-error {
@@ -83,4 +194,57 @@
 
 .playground__line.-warn {
   color: #ffca28;
+}
+
+/* --- JSON tree --- */
+.jsontree__node {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.jsontree__row {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.jsontree__row.-toggle {
+  cursor: pointer;
+  user-select: none;
+}
+
+.jsontree__caret {
+  color: #5f7e97;
+  width: 12px;
+  flex-shrink: 0;
+}
+
+.jsontree__key {
+  color: #7fdbca;
+}
+
+.jsontree__summary {
+  color: #5f7e97;
+  font-style: italic;
+}
+
+.jsontree__bracket {
+  color: #5f7e97;
+}
+
+.jsontree__val.-string {
+  color: #addb67;
+}
+
+.jsontree__val.-number {
+  color: #f78c6c;
+}
+
+.jsontree__val.-boolean {
+  color: #c792ea;
+}
+
+.jsontree__val.-null,
+.jsontree__val.-other {
+  color: #637777;
 }
