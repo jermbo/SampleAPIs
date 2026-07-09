@@ -27,7 +27,9 @@ const APIDetails: React.FC = () => {
   if (isLoading) {
     return (
       <section className="page -api-details">
-        <p role="status">Loading…</p>
+        <header className="page-header">
+          <p role="status">Loading…</p>
+        </header>
       </section>
     );
   }

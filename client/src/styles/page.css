@@ -5,6 +5,7 @@
 .page-header {
   padding: 10rem 0 2rem;
   max-width: 100ch;
+  min-height: 24rem;
 }
 
 .page-header__title {
