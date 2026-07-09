@@ -25,8 +25,7 @@ const Home: React.FC<Props> = () => {
         <h2 className="page-header__title">Sample APIs</h2>
         <p className="page-header__desc">
           A simple, no fuss, no mess, no auth playground for learning{" "}
-          <abbr title="REpresentational State Transfer">RESTful</abbr> or{" "}
-          <abbr title="Graph Query Language">GraphQL</abbr>{" "}
+          <abbr title="REpresentational State Transfer">RESTful</abbr>{" "}
           <abbr title="Application Programming Interface">API</abbr>s.
         </p>
         <PageHeaderActions />

@@ -93,7 +93,6 @@ export default function App() {
         <div className="section-header">
           <h3 className="section-title">All other available endpoints</h3>
           <APIEndpoints
-            urlBase={singleAPI.link}
             endpoints={singleAPI.endpoints}
             onEndpointSelect={setSingleEndpoint}
           />

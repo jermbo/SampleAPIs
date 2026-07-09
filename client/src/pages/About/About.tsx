@@ -10,16 +10,14 @@ const About: React.FC<Props> = () => {
         <h2 className="page-header__title">About Sample APIs</h2>
         <p className="page-header__desc">
           An open source project to help you on your journey of learning{" "}
-          <abbr title="REpresentational State Transfer">RESTful</abbr> or{" "}
-          <abbr title="Graph Query Language">GraphQL</abbr>{" "}
+          <abbr title="REpresentational State Transfer">RESTful</abbr>{" "}
           <abbr title="The point of entry to an API">endpoints</abbr>.
         </p>
         <PageHeaderActions currentPage="about" />
       </header>
       <section className="section">
         <p>
-          Understanding <abbr title="REpresentational State Transfer">RESTful</abbr> or{" "}
-          <abbr title="Graph Query Language">GraphQL</abbr>{" "}
+          Understanding <abbr title="REpresentational State Transfer">RESTful</abbr>{" "}
           <abbr title="Application Program Interface">API</abbr>s is hard enough, even without
           including an authentication mechanism. The sole purpose of this website is to play with{" "}
           <abbr title="REpresentational State Transfer">RESTful</abbr>{" "}

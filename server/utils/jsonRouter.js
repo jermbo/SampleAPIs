@@ -15,18 +15,21 @@ const fs = require("fs");
 function createJsonRouter(dataPath) {
   const router = express.Router();
 
-  // In-memory db, loaded once and written through on every mutation.
-  let db = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
-  const persist = () => fs.writeFileSync(dataPath, JSON.stringify(db, null, 2));
+  // Read fresh from disk on every request so external changes — notably the
+  // /resetit routes restoring from the .json.backup twins — are picked up
+  // without restarting the process. Writes persist straight back to the file.
+  const read = () => JSON.parse(fs.readFileSync(dataPath, "utf-8"));
+  const write = (db) => fs.writeFileSync(dataPath, JSON.stringify(db, null, 2));
 
-  const isCollection = (name) => Array.isArray(db[name]);
-  const exists = (name) => Object.prototype.hasOwnProperty.call(db, name);
+  const isCollection = (db, name) => Array.isArray(db[name]);
+  const exists = (db, name) => Object.prototype.hasOwnProperty.call(db, name);
 
   // GET /:resource  — collection query or singular object
   router.get("/:resource", (req, res) => {
+    const db = read();
     const { resource } = req.params;
-    if (!exists(resource)) return res.status(404).json({});
-    if (!isCollection(resource)) return res.json(db[resource]);
+    if (!exists(db, resource)) return res.status(404).json({});
+    if (!isCollection(db, resource)) return res.json(db[resource]);
 
     let items = [...db[resource]];
     items = applyFilters(items, req.query);
@@ -41,8 +44,9 @@ function createJsonRouter(dataPath) {
 
   // GET /:resource/:id
   router.get("/:resource/:id", (req, res) => {
+    const db = read();
     const { resource, id } = req.params;
-    if (!isCollection(resource)) return res.status(404).json({});
+    if (!isCollection(db, resource)) return res.status(404).json({});
     const item = db[resource].find((r) => String(r.id) === String(id));
     if (!item) return res.status(404).json({});
     res.json(item);
@@ -50,46 +54,50 @@ function createJsonRouter(dataPath) {
 
   // POST /:resource
   router.post("/:resource", (req, res) => {
+    const db = read();
     const { resource } = req.params;
-    if (!isCollection(resource)) return res.status(404).json({});
+    if (!isCollection(db, resource)) return res.status(404).json({});
     const item = { ...req.body, id: req.body.id ?? nextId(db[resource]) };
     db[resource].push(item);
-    persist();
+    write(db);
     res.status(201).location(`${req.originalUrl}/${item.id}`).json(item);
   });
 
   // PUT /:resource/:id  — full replace
   router.put("/:resource/:id", (req, res) => {
+    const db = read();
     const { resource, id } = req.params;
-    if (!isCollection(resource)) return res.status(404).json({});
+    if (!isCollection(db, resource)) return res.status(404).json({});
     const idx = db[resource].findIndex((r) => String(r.id) === String(id));
     if (idx === -1) return res.status(404).json({});
     const item = { ...req.body, id: db[resource][idx].id };
     db[resource][idx] = item;
-    persist();
+    write(db);
     res.json(item);
   });
 
   // PATCH /:resource/:id  — partial update
   router.patch("/:resource/:id", (req, res) => {
+    const db = read();
     const { resource, id } = req.params;
-    if (!isCollection(resource)) return res.status(404).json({});
+    if (!isCollection(db, resource)) return res.status(404).json({});
     const idx = db[resource].findIndex((r) => String(r.id) === String(id));
     if (idx === -1) return res.status(404).json({});
     const item = { ...db[resource][idx], ...req.body, id: db[resource][idx].id };
     db[resource][idx] = item;
-    persist();
+    write(db);
     res.json(item);
   });
 
   // DELETE /:resource/:id
   router.delete("/:resource/:id", (req, res) => {
+    const db = read();
     const { resource, id } = req.params;
-    if (!isCollection(resource)) return res.status(404).json({});
+    if (!isCollection(db, resource)) return res.status(404).json({});
     const idx = db[resource].findIndex((r) => String(r.id) === String(id));
     if (idx === -1) return res.status(404).json({});
     db[resource].splice(idx, 1);
-    persist();
+    write(db);
     res.json({});
   });
 

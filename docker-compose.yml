@@ -29,7 +29,7 @@ services:
       - NODE_ENV=development
       - PORT=5555
     healthcheck:
-      test: ["CMD", "wget", "--spider", "http://localhost:5555"]
+      test: ["CMD", "wget", "--spider", "http://localhost:5555/health"]
       interval: 10s
       timeout: 5s
       retries: 3
