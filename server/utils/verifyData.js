@@ -2,9 +2,20 @@
  const { getFromFile } = require("./utils");
 
 const verifyData = (req, res, next) => {
-  const { method, originalUrl, body } = req;
+  const { method, originalUrl } = req;
+  // Reads don't carry a body to validate. Bail out before touching req.body or
+  // parsing the path — under Express 5 req.body is undefined on bodyless
+  // requests, which the shape checks below would otherwise choke on.
+  if (method === "GET" || method === "DELETE") {
+    return next();
+  }
+  const body = req.body || {};
   try {
-    const [baseParent, endPoint] = originalUrl.split("/").filter((d) => d);
+    // Strip any query string so the resource name resolves cleanly.
+    const [baseParent, endPoint] = originalUrl
+      .split("?")[0]
+      .split("/")
+      .filter((d) => d);
     const dataPath = path.join(__dirname, `../api/${baseParent}.json`);
     const data = getFromFile(dataPath)[endPoint][0];
 

@@ -23,20 +23,16 @@
     "node": ">=26"
   },
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.6",
-    "express": "^4.21.1",
-    "express-rate-limit": "^7.2.0",
-    "express-slow-down": "^2.0.3",
-    "json-graphql-server": "2.4.0",
-    "json-server": "^0.17.4",
-    "morgan": "^1.10.0",
-    "node-fetch": "^3.3.2",
-    "pug": "^3.0.3"
+    "cors": "2.8.6",
+    "express": "5.2.1",
+    "express-rate-limit": "8.5.2",
+    "express-slow-down": "3.1.0",
+    "morgan": "1.11.0",
+    "pug": "3.0.4"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2",
-    "jest": "^29.7.0",
-    "nodemon": "^3.1.1"
+    "concurrently": "10.0.3",
+    "jest": "30.4.2",
+    "nodemon": "3.1.14"
   }
 }
