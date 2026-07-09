@@ -1,4 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400;600&family=Roboto:wght@200;400;600&display=swap");
+/* Self-hosted fonts (Fontsource) — bundled and served same-origin so there is
+   no render-blocking third-party request or font-swap layout shift. */
+@import "@fontsource/roboto/latin-200.css";
+@import "@fontsource/roboto/latin-400.css";
+@import "@fontsource/roboto/latin-600.css";
+@import "@fontsource/montserrat-alternates/latin-200.css";
+@import "@fontsource/montserrat-alternates/latin-400.css";
+@import "@fontsource/montserrat-alternates/latin-600.css";
 
 @import "./tokens.css";
 @import "./base.css";
