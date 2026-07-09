@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams } from "@tanstack/react-router";
 import APICategories from "../../components/APICategories/APICategories";
 import APIEndpoints from "../../components/Endpoints/Endpoints";
 import { useApiList } from "../../hooks/useApiList";
@@ -14,7 +14,7 @@ import { nightOwl } from "@codesandbox/sandpack-themes";
 interface Props {}
 
 const APIDetails: React.FC<Props> = () => {
-  const { id } = useParams();
+  const { id } = useParams({ from: "/api-list/$id" });
   const { data: apiList = [] } = useApiList();
   const [singleAPI, setSingleAPI] = useState({} as APIData);
   const [singleEndpoint, setSingleEndpoint] = useState("");

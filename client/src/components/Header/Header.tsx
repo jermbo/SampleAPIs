@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@tanstack/react-router";
 import { GlobalContext } from "../../context/GlobalContext";
 import Nav from "../Nav/Nav";
 
