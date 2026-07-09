@@ -15,7 +15,8 @@
 
 .cards-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  /* min() keeps a single card from overflowing containers narrower than 350px */
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 350px), 1fr));
   grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
   gap: 2rem;
 }

@@ -10,9 +10,11 @@ export const Route = createRootRoute({
 
 function RootLayout() {
   return (
-    <main className="content">
+    <>
       <Header />
-      <Outlet />
-    </main>
+      <main className="content">
+        <Outlet />
+      </main>
+    </>
   );
 }

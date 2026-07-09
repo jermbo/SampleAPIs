@@ -19,7 +19,12 @@ const queryClient = new QueryClient({
   },
 });
 
-const router = createRouter({ routeTree });
+const router = createRouter({
+  routeTree,
+  // Wrap navigations in document.startViewTransition() where supported,
+  // for smooth cross-page animations (see styles/transitions.css).
+  defaultViewTransition: true,
+});
 
 // Register the router instance for type-safety across the app.
 declare module "@tanstack/react-router" {

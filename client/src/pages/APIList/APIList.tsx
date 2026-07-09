@@ -35,7 +35,7 @@ const APIList: React.FC<Props> = () => {
   };
 
   return (
-    <div className="page -api-list">
+    <section className="page -api-list">
       <div className="page-header">
         <h2 className="page-header__title">API List</h2>
         <p className="page-header__desc">
@@ -62,7 +62,7 @@ const APIList: React.FC<Props> = () => {
             ))}
         </div>
       </section>
-    </div>
+    </section>
   );
 };
 

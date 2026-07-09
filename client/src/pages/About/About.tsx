@@ -5,7 +5,7 @@ interface Props {}
 
 const About: React.FC<Props> = () => {
   return (
-    <div className="page -about">
+    <section className="page -about">
       <header className="page-header">
         <h2 className="page-header__title">About Sample APIs</h2>
         <p className="page-header__desc">
@@ -35,7 +35,7 @@ const About: React.FC<Props> = () => {
           <abbr title="JSON with Padding">JSONP</abbr>.
         </p>
       </section>
-    </div>
+    </section>
   );
 };
 

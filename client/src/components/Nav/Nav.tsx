@@ -15,7 +15,7 @@ const Nav: React.FC = () => {
   const activeProps = { className: "active" };
 
   return (
-    <div className="full-screen-nav">
+    <nav className="full-screen-nav" aria-label="Primary">
       <ul>
         <li>
           <Link to="/" activeOptions={{ exact: true }} activeProps={activeProps}>
@@ -38,7 +38,7 @@ const Nav: React.FC = () => {
           </Link>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
