@@ -57,7 +57,16 @@ const JsonTree: React.FC<Props> = ({ value, label, depth = 0 }) => {
       <div
         className="jsontree__row -toggle"
         style={{ paddingLeft: depth * 14 }}
+        role="button"
+        tabIndex={0}
+        aria-expanded={open}
         onClick={() => setOpen((o) => !o)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            setOpen((o) => !o);
+          }
+        }}
       >
         <span className="jsontree__caret">{open ? "▾" : "▸"}</span>
         {label !== undefined && <span className="jsontree__key">{label}:</span>}

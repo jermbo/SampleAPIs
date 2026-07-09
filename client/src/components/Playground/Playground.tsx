@@ -222,7 +222,7 @@ const Playground: React.FC<Props> = ({ url }) => {
           send("__done", []);
         });
         send("__ready", []);
-      <\/script>
+      </script>
     `;
 
     const iframe = document.createElement("iframe");

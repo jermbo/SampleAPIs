@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "vite --host --port=4444",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "oxlint"
   },
   "dependencies": {
     "@codemirror/lang-javascript": "6.2.5",
@@ -22,7 +23,6 @@
     "@tanstack/react-query": "5.101.2",
     "@tanstack/react-query-devtools": "5.101.2",
     "@tanstack/react-router": "1.170.17",
-    "@tanstack/react-router-devtools": "1.167.0",
     "codemirror": "6.0.2",
     "react": "19.2.7",
     "react-dom": "19.2.7"
@@ -33,6 +33,7 @@
     "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react-swc": "4.3.1",
+    "oxlint": "^1.73.0",
     "typescript": "7.0.2",
     "vite": "8.1.3"
   }

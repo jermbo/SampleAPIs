@@ -10,7 +10,7 @@ const Nav: React.FC = () => {
   useEffect(() => {
     document.body.classList.remove("-nav-visible");
     setNavVisible(false);
-  }, [location.pathname]);
+  }, [location.pathname, setNavVisible]);
 
   const activeProps = { className: "active" };
 

@@ -1,5 +1,5 @@
-# Use Node.js 22
-FROM node:22-alpine
+# Use Node.js 26
+FROM node:26-alpine
 
 # Set working directory
 WORKDIR /app
@@ -19,8 +19,10 @@ COPY . .
 # Build the application
 RUN npm run build
 
+ENV NODE_ENV=production
+
 # Expose port 4444
 EXPOSE 4444
 
-# Start the application
-CMD ["npm", "run", "dev"]
+# Serve the production build (vite preview) rather than the dev server.
+CMD ["npm", "run", "preview", "--", "--host", "--port", "4444"]

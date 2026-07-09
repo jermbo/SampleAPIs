@@ -18,7 +18,12 @@ const Header: React.FC<Props> = () => {
       <h1 className="logo">
         <Link to="/">Sample APIs</Link>
       </h1>
-      <button onClick={toggleNav} className="burger-nav">
+      <button
+        onClick={toggleNav}
+        className="burger-nav"
+        aria-label={navVisible ? "Close navigation menu" : "Open navigation menu"}
+        aria-expanded={navVisible}
+      >
         <span></span>
         <span></span>
         <span></span>

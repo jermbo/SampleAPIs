@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useEffect, useState } from "react";
+import React, { ChangeEvent, useMemo, useState } from "react";
 import APICard from "../../components/APICard/APICard";
 import APIFilter from "../../components/APIFilter/APIFilter";
 import APISearch from "../../components/APISearch/APISearch";
@@ -12,18 +12,19 @@ const APIList: React.FC<Props> = () => {
   const { data: apiCategories = [] } = useApiCategories();
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [searchWord, setSearchWord] = useState("");
-  const [filteredList, setFilteredList] = useState(apiList);
 
-  useEffect(() => {
-    const categories = apiList.filter((api) =>
-      selectedCategory === "all" ? true : api.metaData.categories.includes(selectedCategory),
-    );
-
-    const regex = new RegExp(searchWord, "gi");
-    const matches = categories.filter((api) => {
-      return api.metaData.title.match(regex);
+  // Derived, not stored in state, to avoid an extra render pass. The search is a
+  // plain case-insensitive substring match rather than `new RegExp(userInput)`,
+  // which would let a pathological pattern hang the browser tab (ReDoS) or throw.
+  const filteredList = useMemo(() => {
+    const needle = searchWord.trim().toLowerCase();
+    return apiList.filter((api) => {
+      const matchesCategory =
+        selectedCategory === "all" || api.metaData.categories.includes(selectedCategory);
+      const matchesSearch =
+        needle === "" || api.metaData.title.toLowerCase().includes(needle);
+      return matchesCategory && matchesSearch;
     });
-    setFilteredList(matches);
   }, [apiList, selectedCategory, searchWord]);
 
   const filterData = (e: ChangeEvent<HTMLSelectElement>): void => {

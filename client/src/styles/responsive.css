@@ -4,13 +4,6 @@
    and the hero spacing change at the same breakpoint, with no dead band. */
 
 @container viewport (max-width: 768px) {
-  /* Drop the decorative side gutters and go single-column. */
-  #root {
-    grid-template-columns: minmax(100%, 1fr);
-    grid-template-areas: "center";
-    padding-inline: 1rem;
-  }
-
   /* Shrink the hero in step with the layout change (no longer a huge gap). */
   .page-header {
     padding: 8rem 0 1.5rem;

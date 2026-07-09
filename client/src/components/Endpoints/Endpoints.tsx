@@ -6,27 +6,20 @@ interface Props {
 }
 
 const APIEndpoints: React.FC<Props> = ({ endpoints, onEndpointSelect }) => {
-  const [selected, setSelected] = useState("initialState");
+  // Default to the first endpoint so the initial selection matches what the
+  // parent (APIDetails) pre-selects for the Playground.
+  const [selected, setSelected] = useState(endpoints[0] ?? "");
 
-  const showCode = (endpoint: string) => {
-    console.log(endpoint, selected);
-    if (endpoint === selected) {
-      console.log("open now window");
-    } else {
-      setSelected(endpoint);
-      onEndpointSelect(endpoint);
-    }
+  const selectEndpoint = (endpoint: string) => {
+    setSelected(endpoint);
+    onEndpointSelect(endpoint);
   };
 
   return (
     <ul className="api-endpoints">
       {endpoints.map((endpoint) => (
         <li key={endpoint} className={`api-endpoint ${selected === endpoint ? "-selected" : ""}`}>
-          <button
-            // href={`${URLS.API_LINK}/${urlBase}/${endpoint}`}
-            onClick={() => showCode(endpoint)}
-            className="btn"
-          >
+          <button onClick={() => selectEndpoint(endpoint)} className="btn">
             {endpoint}
           </button>
         </li>

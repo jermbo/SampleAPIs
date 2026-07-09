@@ -26,7 +26,7 @@ body {
 
 #root {
   display: grid;
-  grid-template-columns: minmax(25px, 150px) minmax(50%, 90%) minmax(25px, 150px);
+  grid-template-columns: 1fr minmax(70%, 1fr) 1fr;
   grid-template-areas: "left center right";
   margin-bottom: 5rem;
 }
@@ -57,12 +57,30 @@ abbr {
 }
 
 /* Accent color cycled across abbreviations */
-abbr:nth-of-type(6n + 1) { --color: #00d6e9; --hover-text: black; }
-abbr:nth-of-type(6n + 2) { --color: #15e3d9; --hover-text: black; }
-abbr:nth-of-type(6n + 3) { --color: #56edbf; --hover-text: #073d2d; }
-abbr:nth-of-type(6n + 4) { --color: #8cf5a2; --hover-text: #0a7821; }
-abbr:nth-of-type(6n + 5) { --color: #c2f985; --hover-text: #427906; }
-abbr:nth-of-type(6n + 6) { --color: #f9f871; --hover-text: #676604; }
+abbr:nth-of-type(6n + 1) {
+  --color: #00d6e9;
+  --hover-text: black;
+}
+abbr:nth-of-type(6n + 2) {
+  --color: #15e3d9;
+  --hover-text: black;
+}
+abbr:nth-of-type(6n + 3) {
+  --color: #56edbf;
+  --hover-text: #073d2d;
+}
+abbr:nth-of-type(6n + 4) {
+  --color: #8cf5a2;
+  --hover-text: #0a7821;
+}
+abbr:nth-of-type(6n + 5) {
+  --color: #c2f985;
+  --hover-text: #427906;
+}
+abbr:nth-of-type(6n + 6) {
+  --color: #f9f871;
+  --hover-text: #676604;
+}
 
 abbr {
   border-color: var(--color);
