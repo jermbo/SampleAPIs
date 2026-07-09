@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "engines": {
-    "node": ">=20.19.0"
+    "node": ">=26"
   },
   "scripts": {
     "dev": "vite --host --port=4444",

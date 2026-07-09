@@ -34,7 +34,7 @@ const verifyData = (req, res, next) => {
 
     if (method == "POST" || method == "PUT") {
       if (!hasAllData(dataKeys, bodyKeys)) {
-        return res.json({
+        return res.status(400).json({
           error: 400,
           message:
             "The data you are sending does not match the existing data object. Check out the expected shape versus what was sent.",
@@ -48,7 +48,7 @@ const verifyData = (req, res, next) => {
 
     if (method == "PATCH") {
       if (!hasRelativeData(dataKeys, bodyKeys)) {
-        return res.json({
+        return res.status(400).json({
           error: 400,
           message:
             "It appears you are trying to manipulate data that does not exist on the object. Check out the expected shape versus what was sent.",
@@ -60,21 +60,14 @@ const verifyData = (req, res, next) => {
       return next();
     }
 
-    if (method == "GET" || method == "DELETE") {
-      return next();
-    }
-
+    return next();
   } catch (ex) {
-         //console.log("invalid data sent in: ",body)
-        return res.json({
-          error: 500,
-          message:
-            `Unexpected data sent in! ${method} NOT accepted. Please send valid data next time!`,
-          received: body,
-        });
-
-
-  } // end of try 
+    return res.status(400).json({
+      error: 400,
+      message: `Unexpected data sent in! ${method} NOT accepted. Please send valid data next time!`,
+      received: body,
+    });
+  }
 };
 
 function hasAllData(dataKeys, bodyKeys) {

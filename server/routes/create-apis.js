@@ -5,38 +5,58 @@ const path = require("path");
 const router = express.Router();
 const directoryPath = path.join(__dirname, "../custom");
 
+// Only allow simple, filesystem-safe names. This is the primary guard against
+// path traversal (e.g. "../../sampleapis") since the value ends up in a file path.
+const NAME_PATTERN = /^[a-z0-9_-]{1,50}$/i;
+
+const isValidName = (name) => typeof name === "string" && NAME_PATTERN.test(name);
+
 router.get("/", (req, res) => {
   res.render("create");
 });
 
-router.post("/", async (req, res) => {
+router.post("/", (req, res) => {
   const { endpointName, endpoints } = req.body;
 
-  const files = await fs.readdirSync(directoryPath);
-  const exists = files.filter((file) => {
-    const fileName = file.split(".")[0].toLowerCase();
-    return fileName == endpointName;
-  })[0];
+  if (!isValidName(endpointName)) {
+    return res.status(400).json({
+      error: 400,
+      message:
+        "Invalid endpoint name. Use 1-50 letters, numbers, hyphens or underscores only.",
+    });
+  }
 
-  if (exists) {
-    res.json({
-      status: 409,
+  if (!Array.isArray(endpoints) || endpoints.length === 0 || !endpoints.every(isValidName)) {
+    return res.status(400).json({
+      error: 400,
+      message:
+        "'endpoints' must be a non-empty array of names (1-50 letters, numbers, hyphens or underscores each).",
+    });
+  }
+
+  // Ensure the target directory exists so writes don't blow up on a fresh clone.
+  fs.mkdirSync(directoryPath, { recursive: true });
+
+  // path.basename strips any directory components as a defence-in-depth measure
+  // on top of the NAME_PATTERN check above.
+  const fileName = `${path.basename(endpointName)}.json`;
+  const filePath = path.join(directoryPath, fileName);
+
+  if (fs.existsSync(filePath)) {
+    return res.status(409).json({
+      error: 409,
       message: `File with name: '${endpointName}' already exists. Please try a different name.`,
     });
-    return;
   }
 
   const baseData = endpoints.reduce((acc, name) => {
-    const obj = acc;
-    obj[name] = [{ id: 0, name: "test" }];
-    return obj;
+    acc[name] = [{ id: 0, name: "test" }];
+    return acc;
   }, {});
 
-  if (!exists) {
-    fs.writeFileSync(path.join(__dirname, `../custom/${endpointName}.json`), JSON.stringify(baseData));
-  }
+  fs.writeFileSync(filePath, JSON.stringify(baseData, null, 2));
 
-  res.json({
+  res.status(201).json({
     status: 201,
     message: "File was created!",
   });

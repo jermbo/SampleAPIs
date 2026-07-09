@@ -2,16 +2,32 @@ const express = require("express");
 const path = require("path");
 const cors = require("cors");
 const helmet = require("helmet");
+const morgan = require("morgan");
+
+const { globalLimits } = require("./utils/rateLimiterDefaults");
 
 // Express App
 const app = express();
 const port = process.env.PORT || 5555;
+const isProduction = process.env.NODE_ENV === "production";
 
-// JSON Parser
+// Behind Docker/nginx/other reverse proxies the client IP arrives via
+// X-Forwarded-For. Trusting the first hop lets express-rate-limit key on the
+// real client IP (and makes the allowlist work) instead of the proxy address.
+app.set("trust proxy", 1);
 
-// parse application/json
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+// Request logging. Concise in production, verbose in development, silent in tests.
+if (process.env.NODE_ENV !== "test") {
+  app.use(morgan(isProduction ? "combined" : "dev"));
+}
+
+// Global rate limiter — a safety net across every route, including the
+// unauthenticated admin/reset/create routes that would otherwise be unlimited.
+app.use(globalLimits);
+
+// JSON Parser — cap body size so oversized payloads can't exhaust memory.
+app.use(express.json({ limit: "100kb" }));
+app.use(express.urlencoded({ extended: false, limit: "100kb" }));
 
 // Static Files
 app.use(express.static(path.join(__dirname, "/public")));
@@ -36,9 +52,6 @@ app.use(
 app.get("/health", (req, res) => {
   res.json({ status: "ok", uptime: process.uptime() });
 });
-
-// For debugging;
-// app.use(morgan('dev'));
 
 // Routes
 const reset = require("./routes/reset");

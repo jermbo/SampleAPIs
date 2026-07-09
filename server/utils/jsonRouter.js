@@ -1,5 +1,5 @@
 const express = require("express");
-const fs = require("fs");
+const fs = require("fs").promises;
 
 /**
  * A small json-server-compatible router factory.
@@ -17,88 +17,116 @@ function createJsonRouter(dataPath) {
 
   // Read fresh from disk on every request so external changes — notably the
   // /resetit routes restoring from the .json.backup twins — are picked up
-  // without restarting the process. Writes persist straight back to the file.
-  const read = () => JSON.parse(fs.readFileSync(dataPath, "utf-8"));
-  const write = (db) => fs.writeFileSync(dataPath, JSON.stringify(db, null, 2));
+  // without restarting the process. Async I/O keeps the event loop responsive
+  // under load instead of blocking on every request like the old *Sync calls.
+  const read = async () => JSON.parse(await fs.readFile(dataPath, "utf-8"));
+  const write = (db) => fs.writeFile(dataPath, JSON.stringify(db, null, 2));
+
+  // Serialize read-modify-write cycles per file. Without this, two concurrent
+  // mutations could both read the same snapshot and the second write would clobber
+  // the first (lost update) or leave a half-written file. Reads run through the
+  // same queue so a GET never observes a partially applied mutation.
+  let queue = Promise.resolve();
+  const withLock = (fn) => {
+    const run = queue.then(fn, fn);
+    // Keep the chain alive even if fn rejects, but don't let the queue itself reject.
+    queue = run.then(
+      () => undefined,
+      () => undefined
+    );
+    return run;
+  };
 
   const isCollection = (db, name) => Array.isArray(db[name]);
   const exists = (db, name) => Object.prototype.hasOwnProperty.call(db, name);
 
   // GET /:resource  — collection query or singular object
   router.get("/:resource", (req, res) => {
-    const db = read();
-    const { resource } = req.params;
-    if (!exists(db, resource)) return res.status(404).json({});
-    if (!isCollection(db, resource)) return res.json(db[resource]);
+    return withLock(async () => {
+      const db = await read();
+      const { resource } = req.params;
+      if (!exists(db, resource)) return res.status(404).json({});
+      if (!isCollection(db, resource)) return res.json(db[resource]);
 
-    let items = [...db[resource]];
-    items = applyFilters(items, req.query);
-    items = applySort(items, req.query);
+      let items = [...db[resource]];
+      items = applyFilters(items, req.query);
+      items = applySort(items, req.query);
 
-    const total = items.length;
-    items = applySlice(items, req.query, res, total, req);
+      const total = items.length;
+      items = applySlice(items, req.query, res, total, req);
 
-    res.setHeader("X-Total-Count", total);
-    res.json(items);
+      res.setHeader("X-Total-Count", total);
+      res.json(items);
+    });
   });
 
   // GET /:resource/:id
   router.get("/:resource/:id", (req, res) => {
-    const db = read();
-    const { resource, id } = req.params;
-    if (!isCollection(db, resource)) return res.status(404).json({});
-    const item = db[resource].find((r) => String(r.id) === String(id));
-    if (!item) return res.status(404).json({});
-    res.json(item);
+    return withLock(async () => {
+      const db = await read();
+      const { resource, id } = req.params;
+      if (!isCollection(db, resource)) return res.status(404).json({});
+      const item = db[resource].find((r) => String(r.id) === String(id));
+      if (!item) return res.status(404).json({});
+      res.json(item);
+    });
   });
 
   // POST /:resource
   router.post("/:resource", (req, res) => {
-    const db = read();
-    const { resource } = req.params;
-    if (!isCollection(db, resource)) return res.status(404).json({});
-    const item = { ...req.body, id: req.body.id ?? nextId(db[resource]) };
-    db[resource].push(item);
-    write(db);
-    res.status(201).location(`${req.originalUrl}/${item.id}`).json(item);
+    return withLock(async () => {
+      const db = await read();
+      const { resource } = req.params;
+      if (!isCollection(db, resource)) return res.status(404).json({});
+      const item = { ...req.body, id: req.body.id ?? nextId(db[resource]) };
+      db[resource].push(item);
+      await write(db);
+      res.status(201).location(`${req.originalUrl}/${item.id}`).json(item);
+    });
   });
 
   // PUT /:resource/:id  — full replace
   router.put("/:resource/:id", (req, res) => {
-    const db = read();
-    const { resource, id } = req.params;
-    if (!isCollection(db, resource)) return res.status(404).json({});
-    const idx = db[resource].findIndex((r) => String(r.id) === String(id));
-    if (idx === -1) return res.status(404).json({});
-    const item = { ...req.body, id: db[resource][idx].id };
-    db[resource][idx] = item;
-    write(db);
-    res.json(item);
+    return withLock(async () => {
+      const db = await read();
+      const { resource, id } = req.params;
+      if (!isCollection(db, resource)) return res.status(404).json({});
+      const idx = db[resource].findIndex((r) => String(r.id) === String(id));
+      if (idx === -1) return res.status(404).json({});
+      const item = { ...req.body, id: db[resource][idx].id };
+      db[resource][idx] = item;
+      await write(db);
+      res.json(item);
+    });
   });
 
   // PATCH /:resource/:id  — partial update
   router.patch("/:resource/:id", (req, res) => {
-    const db = read();
-    const { resource, id } = req.params;
-    if (!isCollection(db, resource)) return res.status(404).json({});
-    const idx = db[resource].findIndex((r) => String(r.id) === String(id));
-    if (idx === -1) return res.status(404).json({});
-    const item = { ...db[resource][idx], ...req.body, id: db[resource][idx].id };
-    db[resource][idx] = item;
-    write(db);
-    res.json(item);
+    return withLock(async () => {
+      const db = await read();
+      const { resource, id } = req.params;
+      if (!isCollection(db, resource)) return res.status(404).json({});
+      const idx = db[resource].findIndex((r) => String(r.id) === String(id));
+      if (idx === -1) return res.status(404).json({});
+      const item = { ...db[resource][idx], ...req.body, id: db[resource][idx].id };
+      db[resource][idx] = item;
+      await write(db);
+      res.json(item);
+    });
   });
 
   // DELETE /:resource/:id
   router.delete("/:resource/:id", (req, res) => {
-    const db = read();
-    const { resource, id } = req.params;
-    if (!isCollection(db, resource)) return res.status(404).json({});
-    const idx = db[resource].findIndex((r) => String(r.id) === String(id));
-    if (idx === -1) return res.status(404).json({});
-    db[resource].splice(idx, 1);
-    write(db);
-    res.json({});
+    return withLock(async () => {
+      const db = await read();
+      const { resource, id } = req.params;
+      if (!isCollection(db, resource)) return res.status(404).json({});
+      const idx = db[resource].findIndex((r) => String(r.id) === String(id));
+      if (idx === -1) return res.status(404).json({});
+      db[resource].splice(idx, 1);
+      await write(db);
+      res.json({});
+    });
   });
 
   return router;
@@ -110,6 +138,13 @@ const CONTROL_KEYS = new Set(["_sort", "_order", "_page", "_limit", "_start", "_
 
 function getPath(obj, path) {
   return path.split(".").reduce((acc, key) => (acc == null ? acc : acc[key]), obj);
+}
+
+// `_like` is matched as a case-insensitive literal substring rather than a raw
+// user-supplied RegExp. Building `new RegExp(userInput)` would expose the server
+// to ReDoS (catastrophic backtracking) from a crafted pattern.
+function likeMatch(value, needle) {
+  return String(value).toLowerCase().includes(String(needle).toLowerCase());
 }
 
 function applyFilters(items, query) {
@@ -131,7 +166,7 @@ function applyFilters(items, query) {
         if (op === "gte") return v >= value;
         if (op === "lte") return v <= value;
         if (op === "ne") return String(v) !== String(value);
-        if (op === "like") return new RegExp(value, "i").test(String(v));
+        if (op === "like") return likeMatch(v, value);
       });
       continue;
     }
