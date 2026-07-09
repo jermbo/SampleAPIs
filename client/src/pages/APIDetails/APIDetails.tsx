@@ -8,8 +8,7 @@ import { URLS } from "../../utils/Config";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./APIDetails.css";
-import { Sandpack } from "@codesandbox/sandpack-react";
-import { nightOwl } from "@codesandbox/sandpack-themes";
+import Playground from "../../components/Playground/Playground";
 
 interface Props {}
 
@@ -21,7 +20,6 @@ const APIDetails: React.FC<Props> = () => {
   const [thisApiEndpoint, setThisApiEndpoint] = useState("");
   const [exampleList, setExampleList] = useState<Example[]>([]);
 
-  const [codeSample, setCodeSample] = useState("");
 
   useEffect(() => {
     if (!singleAPI) return;
@@ -40,31 +38,6 @@ const APIDetails: React.FC<Props> = () => {
   useEffect(() => {
     if (singleAPI?.link) {
       setThisApiEndpoint(`${URLS.API_LINK}/${singleAPI.link}/${singleEndpoint}`);
-      const sample = `import {useEffect, useState} from 'react';
-
-export default function App() {
-  const [data, setData] = useState("");
-  const getData = async () => {
-    try {
-      const resp = await fetch('${URLS.PUBLIC_API_LINK}/${singleAPI.link}/${singleEndpoint}');
-      const json = await resp.json();
-      setData(json);
-    } catch (err) {
-      setData(err.message);
-    }
-  }
-
-  useEffect(() => {
-    getData();
-  }, []);
-
-  return (
-    <pre>
-      {JSON.stringify(data, null, 2)}
-    </pre>
-  )
-}`;
-      setCodeSample(sample);
     }
   }, [singleAPI, singleEndpoint]);
 
@@ -98,16 +71,7 @@ export default function App() {
           />
         </div>
         <div className="section-body">
-          <Sandpack
-            template="react"
-            theme={nightOwl}
-            options={{
-              autorun: false,
-            }}
-            files={{
-              "/App.js": codeSample,
-            }}
-          />
+          <Playground url={thisApiEndpoint} />
         </div>
       </div>
     </section>

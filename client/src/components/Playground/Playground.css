@@ -1,0 +1,86 @@
+.playground {
+  border: 1px solid #1e2430;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #011627; /* matches oneDark-ish night background */
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+.playground__toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background: #0b1622;
+  border-bottom: 1px solid #1e2430;
+}
+
+.playground__badge {
+  font-size: 12px;
+  color: #7fdbca;
+  letter-spacing: 0.02em;
+}
+
+.playground__run {
+  background: #7fdbca;
+  color: #011627;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.playground__run:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.playground__editor {
+  max-height: 320px;
+  overflow: auto;
+}
+
+/* CodeMirror fills its host */
+.playground__editor .cm-editor {
+  height: 100%;
+}
+
+.playground__output {
+  border-top: 1px solid #1e2430;
+  max-height: 260px;
+  overflow: auto;
+}
+
+.playground__output-header {
+  font-size: 12px;
+  color: #5f7e97;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 8px 12px 4px;
+}
+
+.playground__empty {
+  color: #5f7e97;
+  font-size: 13px;
+  padding: 4px 12px 12px;
+}
+
+.playground__line {
+  margin: 0;
+  padding: 4px 12px;
+  color: #d6deeb;
+  font-size: 13px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  border-top: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.playground__line.-error {
+  color: #ef5350;
+  background: rgba(239, 83, 80, 0.08);
+}
+
+.playground__line.-warn {
+  color: #ffca28;
+}
