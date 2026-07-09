@@ -1,15 +1,15 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Home.scss";
 
 import APICard from "../../components/APICard/APICard";
-import { GlobalContext } from "../../context/GlobalContext";
+import { useApiList } from "../../hooks/useApiList";
 import { APIData } from "../../utils/Interfaces";
 import PageHeaderActions from "../../components/PageHeaderActions/PageHeaderActions";
 
 interface Props { }
 
 const Home: React.FC<Props> = () => {
-  const { apiList } = useContext(GlobalContext);
+  const { data: apiList = [] } = useApiList();
   const [featuredAPIs, setFeatureAPIs] = useState([] as APIData[]);
 
 

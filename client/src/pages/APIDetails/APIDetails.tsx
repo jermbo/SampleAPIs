@@ -1,8 +1,8 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import APICategories from "../../components/APICategories/APICategories";
 import APIEndpoints from "../../components/Endpoints/Endpoints";
-import { GlobalContext } from "../../context/GlobalContext";
+import { useApiList } from "../../hooks/useApiList";
 import { APIData, Example } from "../../utils/Interfaces";
 import { URLS } from "../../utils/Config";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
@@ -15,7 +15,7 @@ interface Props {}
 
 const APIDetails: React.FC<Props> = () => {
   const { id } = useParams();
-  const { apiList } = useContext(GlobalContext);
+  const { data: apiList = [] } = useApiList();
   const [singleAPI, setSingleAPI] = useState({} as APIData);
   const [singleEndpoint, setSingleEndpoint] = useState("");
   const [thisApiEndpoint, setThisApiEndpoint] = useState("");
@@ -46,7 +46,7 @@ export default function App() {
   const [data, setData] = useState("");
   const getData = async () => {
     try {
-      const resp = await fetch('${URLS.API_LINK}/${singleAPI.link}/${singleEndpoint}');
+      const resp = await fetch('${URLS.PUBLIC_API_LINK}/${singleAPI.link}/${singleEndpoint}');
       const json = await resp.json();
       setData(json);
     } catch (err) {

@@ -1,14 +1,15 @@
-import React, { ChangeEvent, useContext, useEffect, useState } from "react";
+import React, { ChangeEvent, useEffect, useState } from "react";
 import APICard from "../../components/APICard/APICard";
 import APIFilter from "../../components/APIFilter/APIFilter";
 import APISearch from "../../components/APISearch/APISearch";
 import PageHeaderActions from "../../components/PageHeaderActions/PageHeaderActions";
-import { GlobalContext } from "../../context/GlobalContext";
+import { useApiCategories, useApiList } from "../../hooks/useApiList";
 
 interface Props {}
 
 const APIList: React.FC<Props> = () => {
-  const { apiList, apiCategories } = useContext(GlobalContext);
+  const { data: apiList = [] } = useApiList();
+  const { data: apiCategories = [] } = useApiCategories();
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [searchWord, setSearchWord] = useState("");
   const [filteredList, setFilteredList] = useState(apiList);
