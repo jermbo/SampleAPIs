@@ -18,7 +18,7 @@ The server originally ran on **json-server** with **json-graphql-server** alongs
 
 ## Why GraphQL went away
 
-The GraphQL layer rode along with the json-server era. When the data layer was rewritten, it was not carried over — the REST surface is the product, and the supported interface today is REST only. (Old references to it survive in places like `CONTRIBUTING.md`.)
+The GraphQL layer rode along with the json-server era. When the data layer was rewritten, it was not carried over — the REST surface is the product, and the supported interface today is REST only.
 
 ## Revisit when
 

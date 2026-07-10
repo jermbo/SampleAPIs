@@ -18,7 +18,7 @@ Two distinct flavors:
   ```json
   { "error": 404, "message": "Cannot GET /nope" }
   ```
-- **Known API, unknown resource or id** — the data router returns an **empty object** `{}` with status `404`, mirroring json-server behavior.
+- **Known API, unknown resource or id** — the data router returns an **empty object** `{}` with status `404`, mirroring json-server behavior. Reads and deletes always reach this path; writes only do when the resource exists but the id doesn't — a write to an unknown resource is stopped earlier by validation (see the catch-all `400` below).
 
 ## 400 — validation failure
 
@@ -29,6 +29,18 @@ Two distinct flavors:
   "error": 400,
   "message": "The data you are sending does not match the existing data object. ...",
   "expected": { "title": "string", "ingredients": "array", "id": "number" },
+  "received": { "name": "oops" }
+}
+```
+
+## 400 — validation catch-all
+
+When validation can't even find a first record to compare against — a write to an unknown resource, to a singular (object) resource, or to an empty collection — it returns a generic `400` instead:
+
+```json
+{
+  "error": 400,
+  "message": "Unexpected data sent in! POST NOT accepted. Please send valid data next time!",
   "received": { "name": "oops" }
 }
 ```

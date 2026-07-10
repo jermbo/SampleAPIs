@@ -20,7 +20,7 @@ graph LR
 
 ## Services
 
-- **server** — installs production deps only (`npm ci --omit=dev`), runs as the unprivileged `node` user, `NODE_ENV=production`. Compose adds a healthcheck against [`/health`](../api/service-routes.md) every 10s.
+- **server** — installs production deps only (`npm ci --omit=dev`) and runs as the unprivileged `node` user. The image sets `NODE_ENV=production`, but compose **overrides it to `development`** — the compose stack is dev-oriented (see the bind mounts below), so the server logs with morgan `dev` here. Compose adds a healthcheck against [`/health`](../api/service-routes.md) every 10s.
 - **client** — builds the app (`tsc && vite build`) and serves the production bundle with `vite preview`. Compose starts it only after the server reports healthy.
 
 ## Dev-friendly wiring

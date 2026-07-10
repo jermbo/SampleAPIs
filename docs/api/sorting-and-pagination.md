@@ -27,7 +27,7 @@ GET /coffee/hot?_page=2&_limit=5
 ```
 
 - `_page` with optional `_limit` (default **10** per page)
-- Paged responses set a **`Link` header** with `first` / `prev` / `next` / `last` URLs
+- `_page` responses set a **`Link` header** with `first` / `prev` / `next` / `last` URLs — only the applicable ones (no `first`/`prev` on page 1, no `next`/`last` on the last page, no header at all when everything fits on one page)
 
 ## Ranges
 

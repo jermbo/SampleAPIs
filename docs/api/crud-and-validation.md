@@ -27,6 +27,8 @@ Before the router runs, the `verifyData` middleware compares the request body ag
 - **PATCH** — body must contain at least one key that exists on the record
 - **GET / DELETE** — skipped (no body to validate)
 
+A write aimed at a resource that has no first record to compare against — an unknown resource, a singular object, or an empty collection — fails with the catch-all `400` described in [Error Responses](./error-responses.md).
+
 This keeps student-submitted data consistent with each collection without maintaining schema files.
 
 ## Concurrency

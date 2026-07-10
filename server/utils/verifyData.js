@@ -30,6 +30,7 @@ const verifyData = (req, res, next) => {
       expectedObjectData[key] = type;
     }
 
+    // `id` is exempt on POST/PUT — the router assigns or preserves it.
     const bodyKeys = ["id", ...Object.keys(body)];
 
     if (method == "POST" || method == "PUT") {
@@ -47,7 +48,9 @@ const verifyData = (req, res, next) => {
     }
 
     if (method == "PATCH") {
-      if (!hasRelativeData(dataKeys, bodyKeys)) {
+      // Check the raw body keys here — including the exempt "id" would make
+      // this pass for any body, since every collection record has an id.
+      if (!hasRelativeData(dataKeys, Object.keys(body))) {
         return res.status(400).json({
           error: 400,
           message:
