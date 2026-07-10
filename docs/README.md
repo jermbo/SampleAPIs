@@ -25,6 +25,7 @@ Documentation for [SampleAPIs](https://sampleapis.com) — a free, no-auth playg
 | [Operations](./operations/README.md) | Local dev, Docker, deployment, testing |
 | [Contributing](./contributing/README.md) | Setup, code style, pull request flow |
 | [Decisions](./decisions/README.md) | Why it's built this way — trade-offs and revisit triggers |
+| [Future Features](./future-features/README.md) | Proposed features under consideration, one evaluable proposal per page |
 
 ## Page conventions
 
