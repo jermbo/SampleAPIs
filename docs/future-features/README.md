@@ -10,19 +10,21 @@ audience: [developer, architect]
 
 Feature proposals for taking SampleAPIs from "a place to fetch sample data" to a genuine learning tool. Each page stands alone: the problem it solves, a proposed approach grounded in the current code, effort and risk, and open questions to settle before building. Nothing here is committed work — pages carry `status: proposed` until one is accepted (move it into the relevant section and document what was built) or rejected (record why in [Decisions](../decisions/README.md)).
 
+**Every proposal now has an implementation plan and a decision log.** Start at the **[Implementation Roadmap](./plans/README.md)** — it tracks review status per feature and explains how to answer the open decisions.
+
 ## Proposals
 
-| Page | One-liner | Learning impact | Effort |
-| --- | --- | --- | --- |
-| [HTTP Inspector](./http-inspector.md) | Mini Network tab next to the Playground console | High | Small |
-| [Query Builder](./query-builder.md) | Visual UI for the filter/sort/pagination syntax | High | Small–Medium |
-| [Guided Challenges](./guided-challenges.md) | Per-API exercises with validated solutions | Very high | Large |
-| [Shareable Playground Links](./shareable-playground-links.md) | Encode playground code in a URL | Medium | Small |
-| [Response Shape Viewer](./response-shape-viewer.md) | Derived field/type view per endpoint, copy as TypeScript | Medium | Small–Medium |
-| [Multi-Language Snippets](./multi-language-snippets.md) | curl / Python / Node tabs for the current endpoint | Medium | Small |
-| [Error Practice Routes](./error-practice-routes.md) | httpbin-style delay/status/flaky endpoints | High | Medium |
-| [Auth Training Wheels](./auth-training-wheels.md) | Opt-in demo API that teaches token auth | Medium–High | Medium–Large |
-| [Scratch Endpoints](./scratch-endpoints.md) | User-supplied temporary CRUD endpoints | High | Large |
+| Page                                                          | One-liner                                                | Learning impact | Effort       |
+| ------------------------------------------------------------- | -------------------------------------------------------- | --------------- | ------------ |
+| [HTTP Inspector](./http-inspector.md)                         | Mini Network tab next to the Playground console          | High            | Small        |
+| [Query Builder](./query-builder.md)                           | Visual UI for the filter/sort/pagination syntax          | High            | Small–Medium |
+| [Guided Challenges](./guided-challenges.md)                   | Per-API exercises with validated solutions               | Very high       | Large        |
+| [Shareable Playground Links](./shareable-playground-links.md) | Encode playground code in a URL                          | Medium          | Small        |
+| [Response Shape Viewer](./response-shape-viewer.md)           | Derived field/type view per endpoint, copy as TypeScript | Medium          | Small–Medium |
+| [Multi-Language Snippets](./multi-language-snippets.md)       | curl / Python / Node tabs for the current endpoint       | Medium          | Small        |
+| [Error Practice Routes](./error-practice-routes.md)           | httpbin-style delay/status/flaky endpoints               | High            | Medium       |
+| [Auth Training Wheels](./auth-training-wheels.md)             | Opt-in demo API that teaches token auth                  | Medium–High     | Medium–Large |
+| [Scratch Endpoints](./scratch-endpoints.md)                   | User-supplied temporary CRUD endpoints                   | High            | Large        |
 
 ## Suggested sequence
 

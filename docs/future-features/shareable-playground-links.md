@@ -45,6 +45,7 @@ Opening such a link loads the encoded code into the editor instead of the stored
 
 ## Related
 
+- **Planning:** [Implementation plan](./plans/shareable-playground-links-implementation.md) · [Decision log](./plans/shareable-playground-links-decisions.md)
 - [Playground](../features/playground.md)
 - [Guided Challenges](./guided-challenges.md)
 - [Why a Sandboxed Playground](../decisions/why-sandboxed-playground.md) — the trust model shared links rely on

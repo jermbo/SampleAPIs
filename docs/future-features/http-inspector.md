@@ -44,7 +44,7 @@ The panel renders as a second tab next to **Output** in the Playground's output 
 
 ## Effort & risk
 
-**Small** — one bootstrap addition, one panel component, some CSS. Risks are minor: the wrapper must not swallow network errors (report them as a failed-request row *and* rethrow), and header access is limited to CORS-exposed headers, so the server may need an `Access-Control-Expose-Headers` tweak for rate-limit headers to be visible.
+**Small** — one bootstrap addition, one panel component, some CSS. Risks are minor: the wrapper must not swallow network errors (report them as a failed-request row _and_ rethrow), and header access is limited to CORS-exposed headers, so the server may need an `Access-Control-Expose-Headers` tweak for rate-limit headers to be visible.
 
 ## Open questions
 
@@ -57,6 +57,7 @@ The panel renders as a second tab next to **Output** in the Playground's output 
 
 ## Related
 
+- **Planning:** [Implementation plan](./plans/http-inspector-implementation.md) · [Decision log](./plans/http-inspector-decisions.md)
 - [Playground](../features/playground.md)
 - [Rate Limiting](../api/rate-limiting.md)
 - [Error Practice Routes](./error-practice-routes.md) — pairs naturally; the inspector makes deliberate errors visible

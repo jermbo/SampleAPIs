@@ -13,7 +13,7 @@ status: proposed
 
 ## Problem
 
-SampleAPIs' pitch is *no auth* — that's what makes it frictionless. But authentication is the very next wall every learner hits on a real API: 401s, `Authorization` headers, expired tokens. There is currently nowhere to practice that flow in a consequence-free way; real APIs require signup, and mistakes there have stakes.
+SampleAPIs' pitch is _no auth_ — that's what makes it frictionless. But authentication is the very next wall every learner hits on a real API: 401s, `Authorization` headers, expired tokens. There is currently nowhere to practice that flow in a consequence-free way; real APIs require signup, and mistakes there have stakes.
 
 ## Proposal
 
@@ -46,7 +46,7 @@ Design points:
 
 ## Effort & risk
 
-**Medium–large** — mechanically medium (signed tokens, middleware, one dataset, docs), but it needs design care: if the demo ever *feels* like the site is growing auth requirements, it damages the core promise. Naming, placement, and copy matter as much as code. CORS must expose the `WWW-Authenticate`/hint headers for browser learners.
+**Medium–large** — mechanically medium (signed tokens, middleware, one dataset, docs), but it needs design care: if the demo ever _feels_ like the site is growing auth requirements, it damages the core promise. Naming, placement, and copy matter as much as code. CORS must expose the `WWW-Authenticate`/hint headers for browser learners.
 
 ## Open questions
 
@@ -60,6 +60,7 @@ Design points:
 
 ## Related
 
+- **Planning:** [Implementation plan](./plans/auth-training-wheels-implementation.md) · [Decision log](./plans/auth-training-wheels-decisions.md)
 - [Error Responses](../api/error-responses.md)
 - [Guided Challenges](./guided-challenges.md)
 - [REST Conventions](../api/rest-conventions.md)

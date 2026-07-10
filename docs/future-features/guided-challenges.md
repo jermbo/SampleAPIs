@@ -57,6 +57,7 @@ flowchart LR
 
 ## Related
 
+- **Planning:** [Implementation plan](./plans/guided-challenges-implementation.md) · [Decision log](./plans/guided-challenges-decisions.md)
 - [HTTP Inspector](./http-inspector.md) — its fetch wrapper enables request-level checks
 - [Shareable Playground Links](./shareable-playground-links.md) — classroom distribution of exercises
 - [Error Practice Routes](./error-practice-routes.md) — enables error-handling challenges
