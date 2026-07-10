@@ -28,9 +28,8 @@ const About: React.FC<Props> = () => {
         </p>
         <p>
           You can use any <abbr title="Hyper Text Transfer Protocol">HTTP</abbr> verbs (GET, POST,
-          PUT, PATCH and DELETE) and access your resources from anywhere using{" "}
-          <abbr title="Cross-origin Resource Sharing">CORS</abbr> and{" "}
-          <abbr title="JSON with Padding">JSONP</abbr>.
+          PUT, PATCH and DELETE) and access your resources from anywhere thanks to{" "}
+          <abbr title="Cross-origin Resource Sharing">CORS</abbr>.
         </p>
       </section>
     </section>

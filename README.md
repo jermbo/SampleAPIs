@@ -1,45 +1,52 @@
-# Sample APIs 3.1
+# Sample APIs
 
 ![Screenshot](/SampleAPI-3.0-Screenshot.png)
 
 ## Purpose
 
-Understanding RESTful APIs is hard enough, even without including an authentication mechanism. The sole purpose of this repository is to play with RESTful endpoints and learn. We have a few endpoints that you can start playing around with right away! If you are not finding anything you are interested in, create your own endpoints and/or submit a pull request. Take a look at the [CONTRIBUTING](https://github.com/jermbo/SampleAPIs/blob/master/CONTRIBUTING.md) for more information on how to get involved.
+Understanding RESTful APIs is hard enough without wrestling with authentication at the same time. SampleAPIs is a free playground of sample REST endpoints for learning: no keys, no tokens, no sign-up. Pick an endpoint and start fetching. If you don't find data you like, [contribute your own](CONTRIBUTING.md).
 
-# How to use the service
+## How to use the service
 
-Choose an endpoint, say "futurama", then choose what information you'd like, say "characters":
-```Javascript
-const baseURL = "https://api.sampleapis.com/futurama/characters";
-fetch(baseURL)
-  .then(resp => resp.json())
-  .then(data => console.log(data));
+Choose an API, say `futurama`, then choose a resource, say `characters`:
+
+```javascript
+const resp = await fetch("https://api.sampleapis.com/futurama/characters");
+const data = await resp.json();
+console.log(data);
 ```
 
-Want to Search? for all chatacters with the name "Bender"?
-```Javascript
-const baseURL = "https://api.sampleapis.com/futurama/characters";
-fetch(`${baseURL}?name.first=Bender`)
-  .then(resp => resp.json())
-  .then(data => console.log(data));
+Want to search? Filter by any field, including nested ones:
+
+```javascript
+const resp = await fetch("https://api.sampleapis.com/futurama/characters?name.first=Bender");
+const data = await resp.json();
+console.log(data);
 ```
-You also have full CRUD, so you can add information or correct existing ones.<BR><BR>
-*Note*: Just know that we reset all datapoints weekly and each time we have a new endpoint added.
-<hr>
-<BR>
 
-## Changes
+You also have full CRUD — `POST`, `PUT`, `PATCH`, and `DELETE` all work and actually persist. The data resets to its original state on a regular basis (and whenever new endpoints ship), so experiment freely. The full query syntax, pagination, and error shapes are documented in the [API docs](docs/api/README.md).
 
-Hosting has switched again due to `Vercel.com`'s static nature. The app is being self hosted and is back to being fully CRUD-able. 
+## Documentation
 
-Checkout the [Change Log](https://github.com/jermbo/SampleAPIs/blob/master/Change_log.md) for full details.
+The [project wiki](docs/README.md) covers the whole system in short, linked pages — architecture, the API surface, the data lifecycle, the React client, operations, and the reasoning behind the design.
+
+## Running locally
+
+Requires Node.js ≥ 26.
+
+```bash
+npm install && npm install --prefix server && npm install --prefix client
+npm run dev
+```
+
+API at `http://localhost:5555`, site at `http://localhost:4444`. Details (including the Docker setup) live in [Local Development](docs/operations/local-development.md).
+
+## Contributing
+
+The most valued contribution is a new dataset. Start with the [Contributing guide](docs/contributing/getting-started.md) and [Adding an Endpoint](docs/data/adding-an-endpoint.md). For history, see the [Change Log](Change_log.md).
 
 ## Disclaimers
 
-- The data on this site is for educational purposes only and is not owned by SampleAPIs.com
-- Data will be reset back to its original state on a regular basis. If you are updating or adding data to the endpoints and want to have them persist as part of the collection, please contribute to the repo by submitting a pull request.
-- By using SampleAPIs.com you agree to the following terms: This service is provided under an "as is" condition. It might change or will be discontinued without prior notice. The maker of this service can't be held liable in any way for any reason.
-
-
-## Recent changes.
-Ok. a LOT of work from the great Jermbo, and then a little fluf from TheDamian to make it more pretty!
+- The data on this site is for educational purposes only and is not owned by SampleAPIs.com.
+- Data is reset back to its original state on a regular basis. If you want your additions to persist as part of the collection, contribute them via pull request.
+- By using SampleAPIs.com you agree to the following terms: this service is provided as-is. It might change or be discontinued without prior notice. The maker of this service can't be held liable in any way for any reason.

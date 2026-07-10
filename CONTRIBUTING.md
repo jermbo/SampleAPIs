@@ -8,9 +8,11 @@ Following these guidelines helps to communicate that you respect the time of the
 
 When contributing to this repository, please first discuss the change you wish to make via an [issue](https://github.com/jermbo/SampleAPIs/issues) with the owners of this repository before making a change.
 
+For a deeper understanding of how everything works, see the [project wiki](docs/README.md) — short, linked pages covering the architecture, the API, and the data lifecycle.
+
 ## Code of Conduct
 
-Before we get any further, please take the time to review our [Code of Conduct](https://github.com/jermbo/SampleAPIs/blob/master/CODE_OF_CONDUCT.md). This project and everyone participating in it will be governed by the [Code of Conduct](https://github.com/jermbo/SampleAPIs/blob/master/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to us. Be polite to everyone. If you are not in your best day, take a deep breath and try again. Smile 😄!
+Before we get any further, please take the time to review our [Code of Conduct](CODE_OF_CONDUCT.md). This project and everyone participating in it will be governed by the Code of Conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to us. Be polite to everyone. If you are not in your best day, take a deep breath and try again. Smile 😄!
 
 ## New Issues
 
@@ -46,15 +48,12 @@ The core team looks a Pull Request on a regular basis. Each PR will be reviewed 
 Our project is all about great data to play with!
 And I know of no one better than YOU (yes YOU) that knows what data YOU'D like to play with.
 
-In this section we'll learn how to add a new dataset (or "endpoint" as we'll call them)
+In this section we'll learn how to add a new dataset (or "endpoint" as we'll call them). The full walkthrough lives in the wiki at [Adding an Endpoint](docs/data/adding-an-endpoint.md); here is the short version. For a real-world reference, see [this PR that added a new endpoint](https://github.com/jermbo/SampleAPIs/pull/89).
 
-Each endpoint needs three files. Here's a [example of a new PR adding just a new endpoint](https://github.com/jermbo/SampleAPIs/pull/89)
-
-Here are the official steps to add an endpoint
-
-1. Create a <i>endpointName</i>.json file (eg. baseball.json for `api.SampleApis.com/baseball`) with a value for each "collection" (so for "homeRuns" we end up with `https://api.sampleapis.com/baseball/homeRuns` because there's a array for the parameter "homeRuns" see [api/baseball.json](/server/api/baseball.json) for more details)
-2. Create a ".backup" file which is a copy of the original <i>endpointName</i>.json file (in our example it would be [baseball.json.backup](/server/api/baseball.json.backup) )
-3. Ensure you newly created json file has a `metaData` key at the top of the file.
+1. Create a `server/api/<endpointName>.json` file (eg. `baseball.json` for `api.sampleapis.com/baseball`) following the [endpoint JSON format](docs/data/endpoint-json-format.md) — each top-level array becomes a resource (so a `homeRuns` array becomes `https://api.sampleapis.com/baseball/homeRuns`).
+2. Create a `.backup` file which is an exact copy of the original (eg. `baseball.json.backup`) — this is the pristine copy the [weekly data reset](docs/data/data-reset.md) restores from.
+3. Ensure your newly created json file has a `metaData` key at the top of the file.
+4. Regenerate the [API registry](docs/data/api-registry.md) by hitting `GET /generate` on your running local server, and commit the updated `server/GeneratedAPIList.js` along with your two data files.
 
 The JSON file should look something like:
 
@@ -77,7 +76,7 @@ The JSON file should look something like:
 
 ### How the system works
 
-Under the hood we are utilizing [JSON-Server](https://www.npmjs.com/package/json-server) and [JSON-GraphQL-Server](https://www.npmjs.com/package/json-graphql-server), so all the features, and limitations, that come with those projects apply here.
+Every JSON file in `server/api/` is served by a small Express router ([server/utils/jsonRouter.js](server/utils/jsonRouter.js)) as a full-CRUD REST API. Each top-level array in your file becomes a resource supporting `GET`, `POST`, `PUT`, `PATCH`, and `DELETE`, plus filtering, sorting, and pagination out of the box. Writes persist to the file on disk, and the data is regularly restored from the `.backup` twins. The details are in the wiki: [REST Conventions](docs/api/rest-conventions.md), [CRUD & Validation](docs/api/crud-and-validation.md).
 
 #### Data Structure
 
@@ -97,9 +96,9 @@ This API will have `characters`, `questions`, and `inventory` for its available 
 
 **_We strip out `metaData` from the available endpoints list, as we use this for populating the website. But you can still reach the data if you wanted to._**
 
-_Important:_ JSON GraphQL Server requires the data in the first level keys be an array of objects. The objects in the array can be whatever they need to be, and they need to be consistent.
+_Important:_ Each resource must be an **array of objects**, and the objects should be consistent with each other — the first object in the array acts as the schema that [write validation](docs/api/crud-and-validation.md) checks incoming data against.
 
-_Important:_ Both JSON Server and JSON GraphQL Server requires each object in the dataset have a unique id.
+_Important:_ Every object in a dataset needs a **unique `id`** — single-record routes and all write operations match on it.
 
 ### API Documentation
 
@@ -117,34 +116,30 @@ When adding a new endpoint, please include the following information in your PR:
    // Example: Fetching data
    const response = await fetch("https://api.sampleapis.com/your-endpoint/collection");
    const data = await response.json();
-   console.log(data);
+   console.log(data); // a plain array of your records
    ```
 
 3. **Available Operations**
 
    - GET: Retrieve data
    - POST: Add new items
-   - PUT: Update existing items
+   - PUT / PATCH: Update existing items
    - DELETE: Remove items
 
-4. **Query Parameters**
+4. **Query Parameters** (full reference: [Querying & Filtering](docs/api/querying-and-filtering.md) and [Sorting & Pagination](docs/api/sorting-and-pagination.md))
 
-   - `_page`: Pagination (e.g., `?_page=1`)
-   - `_limit`: Limit results (e.g., `?_limit=10`)
-   - `_sort`: Sort by field (e.g., `?_sort=name`)
-   - `_order`: Sort order (e.g., `?_order=asc`)
-   - Custom filters (e.g., `?field=value`)
+   - `_page` + `_limit`: Pagination (e.g., `?_page=1&_limit=10`)
+   - `_sort` + `_order`: Sorting (e.g., `?_sort=name&_order=asc`)
+   - Field filters, including nested fields (e.g., `?name.first=Bender`)
+   - Operator suffixes `_gte`, `_lte`, `_ne`, `_like` and full-text `q`
 
-5. **Response Format**
+5. **Response Format** — collection responses are plain JSON arrays (single resources are plain objects):
+
    ```json
-   {
-     "data": [
-       {
-         "id": 1,
-         "field": "value"
-       }
-     ]
-   }
+   [
+     {
+       "id": 1,
+       "field": "value"
+     }
+   ]
    ```
-
-For more details on available features, refer to the [JSON-Server documentation](https://github.com/typicode/json-server).
