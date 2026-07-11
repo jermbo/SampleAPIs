@@ -24,7 +24,7 @@
     "express": "^4.22.2",
     "express-rate-limit": "^7.5.1",
     "express-slow-down": "^2.1.0",
-    "json-graphql-server": "2.4.0",
+    "json-graphql-server": "3.3.1",
     "json-server": "^0.17.4",
     "morgan": "^1.11.0",
     "node-fetch": "^3.3.2",
