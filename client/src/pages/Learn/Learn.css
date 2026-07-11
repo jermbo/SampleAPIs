@@ -1,0 +1,291 @@
+/* /learn — track index and challenge runner. Reuses the site's tokens and the
+   Playground's night-console styling for code-adjacent surfaces. */
+
+.page-header.-compact {
+  padding: 6rem 0 1rem;
+  min-height: 0;
+}
+
+/* --- Track index cards --- */
+.learn-track-card {
+  border: 1px solid var(--color-bg-dark);
+  padding: 1.5rem;
+  max-width: 80ch;
+
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.learn-track-card__head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.learn-track-card__title {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-heading-3);
+  margin: 0;
+}
+
+.learn-track-card__desc {
+  margin: 1rem 0;
+  line-height: var(--font-height-comfortable);
+  color: var(--color-text-base);
+}
+
+.learn-track-card__foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.learn-track-card__actions {
+  display: flex;
+  align-items: center;
+}
+
+.learn-chip {
+  font-size: var(--font-size-text-4);
+  color: var(--color-primary-base);
+  border: 1px solid var(--color-primary-dark);
+  border-radius: 999px;
+  padding: 0.15rem 0.75rem;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--color-text-dark);
+    background: var(--color-primary-base);
+  }
+}
+
+.learn-progress-label {
+  font-size: var(--font-size-text-4);
+  color: var(--color-text-base);
+}
+
+.btn.-primary {
+  border-color: var(--color-primary-base);
+  color: var(--color-primary-base);
+
+  &:hover,
+  &:focus {
+    background: var(--color-primary-base);
+    color: var(--color-text-dark);
+    outline: none;
+  }
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* --- Progress dots --- */
+.learn-progress {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 0 0;
+}
+
+.learn-progress__dot {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  border: 1px solid var(--color-bg-base);
+  background: transparent;
+
+  &.-done {
+    background: var(--palette-3);
+    border-color: var(--palette-3);
+  }
+
+  &.-current {
+    border: 2px solid var(--color-primary-base);
+    width: 0.95rem;
+    height: 0.95rem;
+  }
+
+  &:hover {
+    border-color: var(--color-primary-light);
+  }
+}
+
+/* --- Challenge card --- */
+.learn-challenge {
+  border-left: 3px solid var(--color-primary-base);
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  margin-bottom: 1.5rem;
+  max-width: 80ch;
+}
+
+.learn-challenge__step {
+  font-size: var(--font-size-text-4);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-base);
+}
+
+.learn-challenge__title {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-heading-4);
+  margin: 0.25rem 0 0.5rem;
+}
+
+.learn-challenge__prompt {
+  line-height: var(--font-height-comfortable);
+}
+
+.learn-challenge__note {
+  margin-top: 0.5rem;
+  font-size: var(--font-size-text-3);
+  color: var(--color-text-base);
+  font-style: italic;
+}
+
+/* --- Checks --- */
+.learn-checks {
+  margin: 1.5rem 0;
+  max-width: 80ch;
+}
+
+.learn-checks__header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.learn-checks__title {
+  font-size: var(--font-size-text-4);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-base);
+  margin: 0;
+}
+
+.learn-checks__summary {
+  font-size: var(--font-size-text-4);
+
+  &.-passed {
+    color: var(--palette-3);
+  }
+
+  &.-failed {
+    color: #f78c6c;
+  }
+}
+
+.learn-checks__empty {
+  color: var(--color-text-base);
+  font-size: var(--font-size-text-3);
+  padding: 0.75rem 0;
+}
+
+.learn-checks__list {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+}
+
+.learn-check {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+  font-size: var(--font-size-text-3);
+
+  &:not(:last-child) {
+    border-bottom: 1px solid var(--color-bg-dark);
+  }
+}
+
+.learn-check__mark {
+  flex: 0 0 auto;
+}
+
+.learn-check.-pass .learn-check__mark {
+  color: var(--palette-3);
+}
+
+.learn-check.-fail .learn-check__mark {
+  color: #f78c6c;
+}
+
+.learn-check__body {
+  line-height: var(--font-height-normal);
+}
+
+.learn-check__help {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: var(--font-size-text-4);
+  color: var(--color-text-base);
+}
+
+.learn-passed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--palette-3);
+  color: var(--palette-3);
+}
+
+/* --- Hints & solution --- */
+.learn-help {
+  margin: 1.5rem 0;
+  max-width: 80ch;
+}
+
+.learn-hint {
+  font-size: var(--font-size-text-3);
+  color: var(--color-text-base);
+  padding: 0.35rem 0;
+
+  & strong {
+    color: var(--color-secondary-base);
+    font-weight: var(--font-weight-thick);
+  }
+}
+
+.learn-help__actions {
+  display: flex;
+  padding-top: 0.75rem;
+}
+
+.learn-solution {
+  margin-top: 1rem;
+}
+
+.learn-solution__caption {
+  font-size: var(--font-size-text-4);
+  color: var(--color-text-base);
+  margin-bottom: 0.5rem;
+}
+
+.learn-solution__code {
+  background: #011627;
+  border: 1px solid #1e2430;
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-x: auto;
+  font-size: var(--font-size-text-4);
+  line-height: 1.6;
+  color: #d6deeb;
+}
+
+/* --- Pager --- */
+.learn-pager {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  max-width: 80ch;
+}
+

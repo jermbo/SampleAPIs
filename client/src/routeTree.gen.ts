@@ -13,8 +13,10 @@ import { Route as StyleGuideRouteImport } from './routes/style-guide'
 import { Route as DocsRouteImport } from './routes/docs'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as LearnIndexRouteImport } from './routes/learn/index'
 import { Route as ApiListIndexRouteImport } from './routes/api-list/index'
 import { Route as ApiListIdRouteImport } from './routes/api-list/$id'
+import { Route as LearnTrackIdStepRouteImport } from './routes/learn/$trackId.$step'
 
 const StyleGuideRoute = StyleGuideRouteImport.update({
   id: '/style-guide',
@@ -36,6 +38,11 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LearnIndexRoute = LearnIndexRouteImport.update({
+  id: '/learn/',
+  path: '/learn/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiListIndexRoute = ApiListIndexRouteImport.update({
   id: '/api-list/',
   path: '/api-list/',
@@ -46,6 +53,11 @@ const ApiListIdRoute = ApiListIdRouteImport.update({
   path: '/api-list/$id',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LearnTrackIdStepRoute = LearnTrackIdStepRouteImport.update({
+  id: '/learn/$trackId/$step',
+  path: '/learn/$trackId/$step',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -54,6 +66,8 @@ export interface FileRoutesByFullPath {
   '/style-guide': typeof StyleGuideRoute
   '/api-list/$id': typeof ApiListIdRoute
   '/api-list/': typeof ApiListIndexRoute
+  '/learn/': typeof LearnIndexRoute
+  '/learn/$trackId/$step': typeof LearnTrackIdStepRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -62,6 +76,8 @@ export interface FileRoutesByTo {
   '/style-guide': typeof StyleGuideRoute
   '/api-list/$id': typeof ApiListIdRoute
   '/api-list': typeof ApiListIndexRoute
+  '/learn': typeof LearnIndexRoute
+  '/learn/$trackId/$step': typeof LearnTrackIdStepRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -71,13 +87,30 @@ export interface FileRoutesById {
   '/style-guide': typeof StyleGuideRoute
   '/api-list/$id': typeof ApiListIdRoute
   '/api-list/': typeof ApiListIndexRoute
+  '/learn/': typeof LearnIndexRoute
+  '/learn/$trackId/$step': typeof LearnTrackIdStepRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
-    '/' | '/about' | '/docs' | '/style-guide' | '/api-list/$id' | '/api-list/'
+    | '/'
+    | '/about'
+    | '/docs'
+    | '/style-guide'
+    | '/api-list/$id'
+    | '/api-list/'
+    | '/learn/'
+    | '/learn/$trackId/$step'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/docs' | '/style-guide' | '/api-list/$id' | '/api-list'
+  to:
+    | '/'
+    | '/about'
+    | '/docs'
+    | '/style-guide'
+    | '/api-list/$id'
+    | '/api-list'
+    | '/learn'
+    | '/learn/$trackId/$step'
   id:
     | '__root__'
     | '/'
@@ -86,6 +119,8 @@ export interface FileRouteTypes {
     | '/style-guide'
     | '/api-list/$id'
     | '/api-list/'
+    | '/learn/'
+    | '/learn/$trackId/$step'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -95,6 +130,8 @@ export interface RootRouteChildren {
   StyleGuideRoute: typeof StyleGuideRoute
   ApiListIdRoute: typeof ApiListIdRoute
   ApiListIndexRoute: typeof ApiListIndexRoute
+  LearnIndexRoute: typeof LearnIndexRoute
+  LearnTrackIdStepRoute: typeof LearnTrackIdStepRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -127,6 +164,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/learn/': {
+      id: '/learn/'
+      path: '/learn'
+      fullPath: '/learn/'
+      preLoaderRoute: typeof LearnIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api-list/': {
       id: '/api-list/'
       path: '/api-list'
@@ -141,6 +185,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiListIdRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/learn/$trackId/$step': {
+      id: '/learn/$trackId/$step'
+      path: '/learn/$trackId/$step'
+      fullPath: '/learn/$trackId/$step'
+      preLoaderRoute: typeof LearnTrackIdStepRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -151,6 +202,8 @@ const rootRouteChildren: RootRouteChildren = {
   StyleGuideRoute: StyleGuideRoute,
   ApiListIdRoute: ApiListIdRoute,
   ApiListIndexRoute: ApiListIndexRoute,
+  LearnIndexRoute: LearnIndexRoute,
+  LearnTrackIdStepRoute: LearnTrackIdStepRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

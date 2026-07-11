@@ -2,7 +2,7 @@
 title: HTTP Inspector — Decisions
 description: Open decisions to resolve before building the Playground network panel
 audience: [developer, architect]
-status: awaiting-decisions
+status: ready-to-build
 ---
 
 [Wiki Home](../../README.md) › [Future Features](../README.md) › [Plans](./README.md)
@@ -24,7 +24,7 @@ Decisions needed before the [implementation plan](./http-inspector-implementatio
 
 **Recommendation:** A — DevTools familiarity is the pedagogical point. Add an unread-count badge so activity in the hidden tab isn't missed.
 
-**Decision:** _Pending_
+**Decision:** **A — Output / Network tabs**, with an unread-count badge on the Network tab. _(2026-07-10, accepted recommendation)_
 
 ## D2 — Failure explainers
 
@@ -39,7 +39,7 @@ Decisions needed before the [implementation plan](./http-inspector-implementatio
 
 **Recommendation:** A — keep it to four short, hedged messages ("This usually means…"), each linking to the relevant wiki page.
 
-**Decision:** _Pending_
+**Decision:** **A — yes, in v1.** Four hedged messages (network error, 404, 429, 5xx), each linking to the relevant wiki page. _(2026-07-10, accepted recommendation)_
 
 ## D3 — Header display
 
@@ -52,14 +52,14 @@ Decisions needed before the [implementation plan](./http-inspector-implementatio
 
 **Recommendation:** A. The curated list doubles as the `exposedHeaders` list in the server config — one source of truth, documented in the plan.
 
-**Decision:** _Pending_
+**Decision:** **A — curated list with an "all headers" expander.** The curated list and the server's `exposedHeaders` config stay one source of truth. _(2026-07-10, accepted recommendation)_
 
 ## Ready-to-build checklist
 
-- [ ] D1 answered
-- [ ] D2 answered
-- [ ] D3 answered
-- [ ] Roadmap status updated to _ready to build_ in [Plans](./README.md)
+- [x] D1 answered
+- [x] D2 answered
+- [x] D3 answered
+- [x] Roadmap status updated to _ready to build_ in [Plans](./README.md)
 
 ## Related
 

@@ -2,7 +2,7 @@
 title: Guided Challenges — Decisions
 description: Open decisions to resolve before building the challenge system
 audience: [developer, architect]
-status: awaiting-decisions
+status: ready-to-build
 ---
 
 [Wiki Home](../../README.md) › [Future Features](../README.md) › [Plans](./README.md)
@@ -25,7 +25,7 @@ Decisions needed before the [implementation plan](./guided-challenges-implementa
 
 **Recommendation:** C — start with the declarative catalog from the plan, add named predicates only when a pilot-track exercise genuinely needs one.
 
-**Decision:** _Pending_
+**Decision:** **C — declarative spec + named-predicate escape hatch.** Start with only the declarative catalog from the plan; a named predicate is added (in reviewed core code) only when a pilot-track exercise genuinely can't be expressed without one. Tracks never contain executable check logic. _(2026-07-10, accepted recommendation)_
 
 ## D2 — Placement and routing
 
@@ -39,7 +39,7 @@ Decisions needed before the [implementation plan](./guided-challenges-implementa
 
 **Recommendation:** C — build A, add the details-page banner ("This API has a practice track →") as a final phase-4 touch.
 
-**Decision:** _Pending_
+**Decision:** **C — `/learn` is canonical, details pages deep-link into it.** Build the dedicated `/learn` route (option A) first; the details-page banner ("This API has a practice track →") lands as a phase-4 touch. _(2026-07-10, accepted recommendation)_
 
 ## D3 — Curriculum shape
 
@@ -53,7 +53,7 @@ Decisions needed before the [implementation plan](./guided-challenges-implementa
 
 **Recommendation:** A for the pilot (a "REST basics" concept track that happens to live on Futurama), explicitly deferring C until community demand shows up.
 
-**Decision:** _Pending_
+**Decision:** **A — concept tracks.** The pilot is a "REST basics" concept track that happens to run on Futurama. Per-API community tracks (option C) are explicitly deferred until demand shows up. _(2026-07-10, accepted recommendation)_
 
 ## D4 — Hint and solution policy
 
@@ -67,14 +67,14 @@ Decisions needed before the [implementation plan](./guided-challenges-implementa
 
 **Recommendation:** A — with the solution view worded as a worked example ("one way to do it"), reinforcing that checks accept other correct answers.
 
-**Decision:** _Pending_
+**Decision:** **A — hints reveal one-per-click anytime; the solution unlocks after all hints are revealed.** Solution view is worded as a worked example ("one way to do it"). _(2026-07-10, accepted recommendation)_
 
 ## Ready-to-build checklist
 
-- [ ] D1–D4 answered
-- [ ] [HTTP Inspector](./http-inspector-decisions.md) decided and its wrapper shipped (hard prerequisite)
-- [ ] Pilot-track subject confirmed (plan assumes Futurama)
-- [ ] Roadmap status updated in [Plans](./README.md)
+- [x] D1–D4 answered
+- [ ] [HTTP Inspector](./http-inspector-decisions.md) decided and its wrapper shipped (hard prerequisite) — _decisions ✅ 2026-07-10; wrapper not yet built, so the inspector builds first_
+- [x] Pilot-track subject confirmed (plan assumes Futurama) — confirmed: Futurama
+- [x] Roadmap status updated in [Plans](./README.md)
 
 ## Related
 

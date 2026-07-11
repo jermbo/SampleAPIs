@@ -33,6 +33,11 @@ const Nav: React.FC = () => {
           </Link>
         </li>
         <li>
+          <Link to="/learn" activeProps={activeProps}>
+            Learn
+          </Link>
+        </li>
+        <li>
           <Link to="/docs" activeProps={activeProps}>
             Docs
           </Link>

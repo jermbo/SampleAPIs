@@ -3,6 +3,7 @@ import { Link, useParams } from "@tanstack/react-router";
 import APICategories from "../../components/APICategories/APICategories";
 import APIEndpoints from "../../components/Endpoints/Endpoints";
 import { useApiList } from "../../hooks/useApiList";
+import { tracksForApi } from "../../challenges";
 import { URLS } from "../../utils/Config";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -78,6 +79,16 @@ const APIDetails: React.FC = () => {
             <FontAwesomeIcon icon={faLink} />
           </a>
         </p>
+        {tracksForApi(singleAPI.link).map((track) => (
+          <Link
+            key={track.id}
+            className="learn-banner"
+            to="/learn/$trackId/$step"
+            params={{ trackId: track.id, step: "1" }}
+          >
+            This API has a practice track: {track.title} →
+          </Link>
+        ))}
       </header>
       <div className="section">
         <div className="section-header">

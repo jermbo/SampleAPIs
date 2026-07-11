@@ -2,7 +2,7 @@
 title: HTTP Inspector — Implementation Plan
 description: User stories, architecture, and build phases for the Playground network panel
 audience: [developer, architect]
-status: awaiting-decisions
+status: ready-to-build
 ---
 
 [Wiki Home](../../README.md) › [Future Features](../README.md) › [Plans](./README.md)

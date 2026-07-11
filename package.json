@@ -14,11 +14,11 @@
   ],
   "scripts": {
     "server": "npm run server --prefix server",
-    "client": "npm run start --prefix client",
+    "client": "npm run dev --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "homepage": "https://github.com/jermbo/SampleAPIs#readme",
   "devDependencies": {
-    "concurrently": "^5.3.0"
+    "concurrently": "5.3.0"
   }
 }

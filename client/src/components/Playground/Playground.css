@@ -135,26 +135,194 @@
   flex: 0 0 auto;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 2px;
   width: 100%;
+  padding: 4px 8px;
+}
+
+.playground__collapse {
   background: transparent;
   border: none;
-  text-align: left;
+  cursor: pointer;
+  padding: 4px 6px;
+  font-family: inherit;
+}
+
+.playground__caret {
+  color: #5f7e97;
+}
+
+.playground__collapse:hover .playground__caret {
+  color: #d6deeb;
+}
+
+/* Output / Network pane tabs — mirrors browser DevTools so the habit transfers */
+.playground__pane-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
   cursor: pointer;
   font-family: inherit;
   font-size: 12px;
   color: #5f7e97;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  padding: 8px 12px;
+  padding: 4px 8px;
 }
 
-.playground__output-header:hover {
+.playground__pane-tab:hover {
   color: #d6deeb;
 }
 
-.playground__caret {
+.playground__pane-tab.-active {
+  color: #7fdbca;
+  border-bottom-color: #7fdbca;
+}
+
+.playground__badge {
+  background: #7fdbca;
+  color: #011627;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 1px 6px;
+}
+
+/* --- Network panel --- */
+.playground__net-row-wrap {
+  border-top: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.playground__net-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 13px;
+  color: #d6deeb;
+  padding: 5px 12px;
+}
+
+.playground__net-row:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.playground__net-method {
+  color: #c792ea;
+  flex: 0 0 auto;
+  min-width: 3.5ch;
+}
+
+.playground__net-url {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #d6deeb;
+}
+
+.playground__net-status {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  padding: 0 8px;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.playground__net-status.-pending {
   color: #5f7e97;
+  border: 1px solid #1e2430;
+}
+
+.playground__net-status.-s2xx {
+  background: rgba(173, 219, 103, 0.15);
+  color: #addb67;
+}
+
+.playground__net-status.-s3xx {
+  background: rgba(130, 170, 255, 0.15);
+  color: #82aaff;
+}
+
+.playground__net-status.-s4xx {
+  background: rgba(247, 140, 108, 0.15);
+  color: #f78c6c;
+}
+
+.playground__net-status.-s5xx,
+.playground__net-status.-err {
+  background: rgba(239, 83, 80, 0.15);
+  color: #ef5350;
+}
+
+.playground__net-meta {
+  flex: 0 0 auto;
+  color: #5f7e97;
+  font-size: 12px;
+}
+
+.playground__net-detail {
+  padding: 4px 12px 10px 24px;
+  font-size: 12px;
+}
+
+.playground__net-full-url {
+  color: #5f7e97;
+  word-break: break-all;
+  margin-bottom: 6px;
+}
+
+.playground__net-error {
+  color: #ef5350;
+  margin-bottom: 6px;
+}
+
+.playground__net-explainer {
+  color: #d6deeb;
+  border-left: 2px solid #5f7e97;
+  padding: 2px 0 2px 10px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.playground__net-headers {
+  border-collapse: collapse;
+}
+
+.playground__net-headers td {
+  padding: 2px 12px 2px 0;
+  color: #d6deeb;
+  word-break: break-all;
+}
+
+.playground__net-header-key {
+  color: #7fdbca;
+  white-space: nowrap;
+}
+
+.playground__net-more {
+  background: transparent;
+  border: none;
+  color: #5f7e97;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 12px;
+  padding: 2px 0;
+  text-decoration: underline;
+}
+
+.playground__net-more:hover {
+  color: #d6deeb;
 }
 
 .playground__output-body {
