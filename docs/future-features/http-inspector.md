@@ -2,14 +2,14 @@
 title: HTTP Inspector
 description: A mini Network tab beside the Playground console showing each request's method, status, headers, and timing
 audience: [developer, architect]
-status: proposed
+status: accepted
 ---
 
 [Wiki Home](../README.md) › [Future Features](./README.md)
 
 # HTTP Inspector
 
-**Status: proposed.** High learning impact, small effort. Recommended first.
+**Status: accepted — v1 built (2026-07-10).** Live as the Playground's Network tab; documented in [HTTP Inspector](../features/http-inspector.md). This page is kept as the original proposal.
 
 ## Problem
 

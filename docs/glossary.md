@@ -35,11 +35,14 @@ Terms we use as if everyone knows them. Each entry is one or two sentences with 
 
 ## Client and Playground
 
-- **Bootstrap (script)** — the HTML/JS injected into the sandbox iframe via `srcdoc` before user code runs; it wraps `console.*`, relays messages, and executes the user's code. Lives inside [Playground.tsx](../client/src/components/Playground/Playground.tsx).
+- **Bootstrap (script)** — the HTML/JS injected into the sandbox iframe via `srcdoc` before user code runs; it wraps `console.*` and `fetch`, relays messages, and executes the user's code. Lives inside [Playground.tsx](../client/src/components/Playground/Playground.tsx).
+- **Check spec** — one declarative assertion in a challenge (`requestMade`, `responseStatus`, `consoleIncludes`, `consoleCount`, `noUncaughtError`), carrying its own `label` and `failMessage`. Evaluated page-side against run events; see [Challenge Checks](./features/challenge-checks.md).
+- **Fetch wrapper / `__net` events** — the bootstrap's `window.fetch` replacement that reports every request as `request`/`response`/`error` events over the tokened channel while handing user code an untouched Response. Powers the [HTTP Inspector](./features/http-inspector.md) and network checks.
 - **JsonTree** — the collapsible JSON viewer component used for console output objects. See [JSON Tree Viewer](./features/json-tree-viewer.md).
 - **Null-origin sandbox / opaque origin** — the Playground iframe runs with `sandbox="allow-scripts"` and _without_ `allow-same-origin`, so user code has no origin: it can't touch cookies, storage, or the parent DOM. See [Why a Sandboxed Playground](./decisions/why-sandboxed-playground.md).
 - **PNA (Private Network Access)** — the browser rule blocking public pages from fetching private/localhost addresses. Why embedded third-party code editors (e.g. Sandpack) can't hit a local dev server, and why the Playground's same-page iframe can.
 - **Playground** — the CodeMirror editor + sandboxed runner on every API details page. See [Playground](./features/playground.md).
+- **Run events** — the stream a challenge host observes via the Playground's `onRunEvent` prop: `start`, `console`, `net`, `uncaught`, `done` (top-level code returned), `end` (sandbox torn down). See [Challenge Checks](./features/challenge-checks.md).
 - **Run timeout** — the 5-second cap on a Playground run; the iframe is torn down after it (kills infinite loops).
 - **Starter snippet** — a code template (`build(url)`) offered as a tab above the editor, interpolated with the active endpoint URL. [snippets.ts](../client/src/components/Playground/snippets.ts).
 - **TanStack Query / TanStack Router** — the client's data-fetching-cache and file-based routing libraries. See [Data Fetching & State](./features/data-fetching-and-state.md) and [Pages & Routing](./features/pages-and-routing.md).
@@ -54,7 +57,7 @@ Terms we use as if everyone knows them. Each entry is one or two sentences with 
 - **Implementation plan** — a per-feature working doc (user stories, architecture, build phases, verification) under [plans](./future-features/plans/README.md); the bridge between a proposal and code.
 - **Proposal** — a [future-features](./future-features/README.md) page: problem, approach, effort/risk, open questions. `status: proposed` until accepted or rejected.
 - **Roadmap** — the [review dashboard](./future-features/plans/README.md) tracking every plan's decision status and build order.
-- **Track / challenge / check** — [Guided Challenges](./future-features/guided-challenges.md) vocabulary: a _track_ is an ordered set of _challenges_; each challenge validates via declarative _checks_ evaluated against a run's console/network events.
+- **Track / challenge / check** — [Guided Challenges](./features/guided-challenges.md) vocabulary: a _track_ is an ordered set of _challenges_; each challenge validates via declarative _checks_ evaluated against a run's console/network events. Authoring: [Authoring a Track](./contributing/authoring-a-track.md).
 - **User story** — a one-sentence requirement from a specific person's viewpoint ("As a learner, I can …"), used in implementation plans to keep architecture answerable to someone.
 - **Wiki page** — one concept, readable in ~60 seconds, front matter + breadcrumb + Key files + Related. The [home page](./README.md) states the conventions.
 

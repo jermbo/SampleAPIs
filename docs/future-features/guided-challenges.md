@@ -2,14 +2,14 @@
 title: Guided Challenges
 description: Per-API exercises with in-sandbox validation that turn the Playground into a course
 audience: [developer, architect]
-status: proposed
+status: accepted
 ---
 
 [Wiki Home](../README.md) › [Future Features](./README.md)
 
 # Guided Challenges
 
-**Status: proposed.** The flagship learning feature — very high impact, large effort. Best built after the [HTTP Inspector](./http-inspector.md) and [Query Builder](./query-builder.md), which it composes with.
+**Status: accepted — v1 built (2026-07-10).** Live at `/learn` with the REST basics pilot track; documented in [Guided Challenges](../features/guided-challenges.md), [Challenge Checks](../features/challenge-checks.md), and [Authoring a Track](../contributing/authoring-a-track.md). This page is kept as the original proposal; content playtesting is still in progress.
 
 ## Problem
 

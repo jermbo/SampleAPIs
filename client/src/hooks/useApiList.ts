@@ -35,3 +35,9 @@ export const useApiCategories = () =>
       return Array.from(new Set(all));
     },
   });
+
+/** One API from the cached list, matched by its endpoint link slug. */
+export const useApiForLink = (apiLink: string) => {
+  const { data: apiList = [] } = useApiList();
+  return apiList.find((api) => api.link === apiLink);
+};
