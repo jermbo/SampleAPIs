@@ -1,16 +1,14 @@
-import React, { useContext, useEffect } from "react";
+import { useEffect } from "react";
 import { Link, useLocation } from "@tanstack/react-router";
+import { useNavVisibility } from "../../hooks/useNavVisibility";
 
-import { GlobalContext } from "../../context/GlobalContext";
-
-const Nav: React.FC = () => {
-  const { setNavVisible } = useContext(GlobalContext);
-
+const Nav = () => {
+  const { close } = useNavVisibility();
   const location = useLocation();
+
   useEffect(() => {
-    document.body.classList.remove("-nav-visible");
-    setNavVisible(false);
-  }, [location.pathname, setNavVisible]);
+    close();
+  }, [location.pathname, close]);
 
   const activeProps = { className: "active" };
 

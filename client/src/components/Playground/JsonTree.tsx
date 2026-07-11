@@ -32,6 +32,11 @@ const renderPrimitive = (v: unknown) => {
   return String(v);
 };
 
+const treeCaret = (open: boolean): string => {
+  if (open) return "▾";
+  return "▸";
+};
+
 /** Recursive, collapsible view of a JSON-safe value posted back from the sandbox. */
 const JsonTree: React.FC<Props> = ({ value, label, depth = 0 }) => {
   const [open, setOpen] = useState(depth < AUTO_OPEN_DEPTH);
@@ -68,7 +73,7 @@ const JsonTree: React.FC<Props> = ({ value, label, depth = 0 }) => {
           }
         }}
       >
-        <span className="jsontree__caret">{open ? "▾" : "▸"}</span>
+        <span className="jsontree__caret">{treeCaret(open)}</span>
         {label !== undefined && <span className="jsontree__key">{label}:</span>}
         <span className="jsontree__bracket">{brackets[0]}</span>
         {!open && <span className="jsontree__summary"> {summary} </span>}

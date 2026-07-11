@@ -1,37 +1,25 @@
-import React from "react";
-import { Link } from "@tanstack/react-router";
+import { Link, useLocation } from "@tanstack/react-router";
 import { faBook, faCodeBranch, faInfoCircle, faList } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-interface Props {
-  currentPage?: string;
-}
+const NAV_LINKS = [
+  { name: "About", path: "/about", icon: faInfoCircle },
+  { name: "API List", path: "/api-list", icon: faList },
+  { name: "Docs", path: "/docs", icon: faBook },
+] as const;
 
-const PageHeaderActions: React.FC<Props> = ({ currentPage }) => {
-  const links = [
-    {
-      name: "About",
-      path: "/about",
-      icon: faInfoCircle,
-      show: currentPage === "about",
-    },
-    {
-      name: "API List",
-      path: "/api-list",
-      icon: faList,
-      show: currentPage === "api-list",
-    },
-    {
-      name: "Docs",
-      path: "/docs",
-      icon: faBook,
-      show: currentPage === "docs",
-    },
-  ] as const;
+const isCurrentPath = (pathname: string, path: string): boolean => {
+  if (path === "/") return pathname === "/";
+  return pathname === path || pathname.startsWith(`${path}/`);
+};
+
+const PageHeaderActions = () => {
+  const { pathname } = useLocation();
+
   return (
     <div className="page-header-actions">
-      {links.map((link) => {
-        if (link.show) return null;
+      {NAV_LINKS.map((link) => {
+        if (isCurrentPath(pathname, link.path)) return null;
         return (
           <Link key={link.name} className="btn" to={link.path}>
             <span>{link.name}</span>

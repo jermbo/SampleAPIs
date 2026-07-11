@@ -47,13 +47,17 @@ Write-exercises are safe by design: data heals on the [reset cadence](../data/da
 
 ## Key files
 
-- [client/src/pages/Learn/LearnTrack.tsx](../../client/src/pages/Learn/LearnTrack.tsx) — the runner: event handling, check state, hints/solution gating
-- [client/src/pages/Learn/Learn.tsx](../../client/src/pages/Learn/Learn.tsx) — track index
+- [client/src/pages/Learn/LearnTrack.tsx](../../client/src/pages/Learn/LearnTrack.tsx) — runner composition
+- [client/src/pages/Learn/Learn.tsx](../../client/src/pages/Learn/Learn.tsx) — track index (composition)
+- [client/src/pages/Learn/LearnTrackCard.tsx](../../client/src/pages/Learn/LearnTrackCard.tsx) · [TrackApiChip.tsx](../../client/src/pages/Learn/TrackApiChip.tsx) — index UI pieces
+- [client/src/hooks/useChallengeRunner.ts](../../client/src/hooks/useChallengeRunner.ts) · [useTrackProgress.ts](../../client/src/hooks/useTrackProgress.ts) — restricted state bridges
+- [client/src/challenges/playgroundBridge.ts](../../client/src/challenges/playgroundBridge.ts) · [resolveChallenge.ts](../../client/src/challenges/resolveChallenge.ts) — pure domain helpers
 - [client/src/challenges/index.ts](../../client/src/challenges/index.ts) — track registry
-- [client/src/challenges/progress.ts](../../client/src/challenges/progress.ts) — localStorage progress
+- [client/src/challenges/progress.ts](../../client/src/challenges/progress.ts) — localStorage progress and pure stats helpers
 
 ## Related
 
+- [CLEAR Principles](../contributing/clear-principles.md) — module design; `/learn` is the reference implementation
 - [Challenge Checks](./challenge-checks.md) — how a run gets graded
 - [Authoring a Track](../contributing/authoring-a-track.md) — writing new lessons
 - [Playground](./playground.md) · [HTTP Inspector](./http-inspector.md)
