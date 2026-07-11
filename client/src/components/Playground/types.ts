@@ -25,3 +25,10 @@ export interface OutputEntry {
   level: string;
   values: unknown[];
 }
+
+/** Code pushed into the editor by the host (Query Builder's "Send to Playground").
+ * The nonce makes repeat sends of identical code re-trigger the load. */
+export interface InjectedCode {
+  code: string;
+  nonce: number;
+}

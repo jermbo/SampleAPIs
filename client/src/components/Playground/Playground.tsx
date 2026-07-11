@@ -23,7 +23,7 @@ import {
   snippetTabClassName,
 } from "./labels";
 import { buildSandboxBootstrap, RUN_TIMEOUT_MS } from "./sandboxBootstrap";
-import type { NetEvent, OutputEntry, PlaygroundRunEvent } from "./types";
+import type { InjectedCode, NetEvent, OutputEntry, PlaygroundRunEvent } from "./types";
 import "./Playground.css";
 
 export type { NetEvent, PlaygroundRunEvent };
@@ -39,6 +39,8 @@ interface Props {
   hideSnippets?: boolean;
   /** Observe the run: console lines, network events, done/end signals. */
   onRunEvent?: (ev: PlaygroundRunEvent) => void;
+  /** Replace the editor buffer whenever the nonce changes (Explore's "Send to Playground"). */
+  injectedCode?: InjectedCode | null;
 }
 
 const defaultStorageKey = (url: string) => `sampleapis:playground:${url}`;
@@ -57,6 +59,7 @@ const Playground: React.FC<Props> = ({
   storageKey,
   hideSnippets,
   onRunEvent,
+  injectedCode,
 }) => {
   const editorHost = useRef<HTMLDivElement>(null);
   const viewRef = useRef<EditorView | null>(null);
@@ -172,6 +175,18 @@ const Playground: React.FC<Props> = ({
     prevKeyRef.current = key;
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [url, storageKey]);
+
+  // Host-injected code replaces the buffer like loadSnippet does; the editor's
+  // update listener persists it under the current storage key as usual.
+  useEffect(() => {
+    const view = viewRef.current;
+    if (!view || !injectedCode) return;
+    view.dispatch({
+      changes: { from: 0, to: view.state.doc.length, insert: injectedCode.code },
+    });
+    view.focus();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [injectedCode?.nonce]);
 
   const teardown = () => {
     if (timeoutRef.current) {

@@ -2,6 +2,9 @@ import { Suspense, lazy, useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "@tanstack/react-router";
 import APICategories from "../../components/APICategories/APICategories";
 import APIEndpoints from "../../components/Endpoints/Endpoints";
+import Explore from "../../components/Explore/Explore";
+import { DEFAULT_SNIPPET } from "../../components/Playground/snippets";
+import type { InjectedCode } from "../../components/Playground/types";
 import { useApiList } from "../../hooks/useApiList";
 import { buildEndpointUrl, defaultEndpoint, findApiByName } from "../../utils/apiEndpoints";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
@@ -19,10 +22,14 @@ const APIDetails = () => {
   const { data: apiList = [], isLoading, isError } = useApiList();
   const api = useMemo(() => findApiByName(apiList, id), [apiList, id]);
   const [selectedEndpoint, setSelectedEndpoint] = useState("");
+  const [injectedCode, setInjectedCode] = useState<InjectedCode | null>(null);
 
   useEffect(() => {
     if (api) setSelectedEndpoint(defaultEndpoint(api));
   }, [api]);
+
+  const sendToPlayground = (composedUrl: string) =>
+    setInjectedCode({ code: DEFAULT_SNIPPET.build(composedUrl), nonce: Date.now() });
 
   if (isLoading) return <ApiDetailsLoading />;
   if (isError) return <ApiDetailsError />;
@@ -58,8 +65,14 @@ const APIDetails = () => {
           />
         </div>
         <div className="section-body">
+          <Explore
+            key={endpointUrl}
+            url={endpointUrl}
+            endpoint={selectedEndpoint}
+            onSendToPlayground={sendToPlayground}
+          />
           <Suspense fallback={<p role="status">Loading playground…</p>}>
-            <Playground url={endpointUrl} />
+            <Playground url={endpointUrl} injectedCode={injectedCode} />
           </Suspense>
         </div>
       </div>

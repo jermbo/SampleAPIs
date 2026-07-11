@@ -2,7 +2,7 @@
 title: Response Shape Viewer — Decisions
 description: Open decisions to resolve before building the fields-and-types view
 audience: [developer, architect]
-status: awaiting-decisions
+status: ready-to-build
 ---
 
 [Wiki Home](../../README.md) › [Future Features](../README.md) › [Plans](./README.md)
@@ -25,7 +25,7 @@ Decisions needed before the [implementation plan](./response-shape-viewer-implem
 
 **Recommendation:** A, with the UI honest about it: label the panel "based on the first 50 records".
 
-**Decision:** _Pending_
+**Decision:** **A** — first 50 (`?_limit=50`), labeled honestly in the UI. (2026-07-11, accepted recommendation; revisit after seeing it in action.)
 
 ## D2 — Output formats
 
@@ -38,7 +38,7 @@ Decisions needed before the [implementation plan](./response-shape-viewer-implem
 
 **Recommendation:** A. Revisit if [Multi-Language Snippets](./multi-language-snippets-implementation.md) proves out non-JS demand.
 
-**Decision:** _Pending_
+**Decision:** **A** — TypeScript only. (2026-07-11, accepted recommendation.)
 
 ## D3 — Relationship to the Query Builder
 
@@ -53,12 +53,12 @@ Decisions needed before the [implementation plan](./response-shape-viewer-implem
 
 **Recommendation:** A — build whichever comes first with a tab-shell from day one (a one-tab tab bar is fine).
 
-**Decision:** _Pending_
+**Decision:** **A** — one combined panel with Shape / Query tabs; both features greenlit together, so the shell is built once. (2026-07-11, accepted recommendation.)
 
 ## Ready-to-build checklist
 
-- [ ] D1–D3 answered (D1's answer copied into the Query Builder's plan context)
-- [ ] Roadmap status updated in [Plans](./README.md)
+- [x] D1–D3 answered (D1's answer copied into the Query Builder's plan context)
+- [x] Roadmap status updated in [Plans](./README.md)
 
 ## Related
 

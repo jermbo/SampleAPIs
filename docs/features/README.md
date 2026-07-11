@@ -17,6 +17,7 @@ The React site's moving parts, one concept per page.
 | [API Details Page](./api-details-page.md) | Per-API page with endpoint switcher and lazy Playground |
 | [Playground](./playground.md) | CodeMirror editor + sandboxed iframe runner |
 | [HTTP Inspector](./http-inspector.md) | The Playground's Network tab — every fetch, with status, timing, headers |
+| [Explore Panel](./explore-panel.md) | Shape and Query tabs — derived field/type view and a visual query builder |
 | [Guided Challenges](./guided-challenges.md) | /learn — ordered exercises that run in the Playground and grade themselves |
 | [Challenge Checks](./challenge-checks.md) | How a run gets graded — event stream, check specs, timing rules |
 | [JSON Tree Viewer](./json-tree-viewer.md) | Collapsible DevTools-style output rendering |

@@ -2,7 +2,7 @@
 title: Query Builder — Decisions
 description: Open decisions to resolve before building the visual query panel
 audience: [developer, architect]
-status: awaiting-decisions
+status: ready-to-build
 ---
 
 [Wiki Home](../../README.md) › [Future Features](../README.md) › [Plans](./README.md)
@@ -25,7 +25,7 @@ Decisions needed before the [implementation plan](./query-builder-implementation
 
 **Recommendation:** A, collapsed by default with a one-line teaser ("Filter, sort, and paginate this endpoint — no code required").
 
-**Decision:** _Pending_
+**Decision:** **A** — collapsible section between the endpoint list and the Playground, collapsed by default. Shares the panel with the Shape Viewer per [its D3](./response-shape-viewer-decisions.md#d3--relationship-to-the-query-builder). (2026-07-11, accepted recommendation; revisit after seeing it in action.)
 
 ## D2 — Operator scope
 
@@ -41,7 +41,7 @@ Decisions needed before the [implementation plan](./query-builder-implementation
 
 **Recommendation:** C — all filter operators and `q` (the high-value lesson), single sort field, `_page`/`_limit` pagination. Ranges and multi-sort stay documented-but-unclicked.
 
-**Decision:** _Pending_
+**Decision:** **C** — full filters + `q`, single-field sort, `_page`/`_limit` only. (2026-07-11, accepted recommendation.)
 
 ## D3 — Preview fetch behavior
 
@@ -55,13 +55,13 @@ Decisions needed before the [implementation plan](./query-builder-implementation
 
 **Recommendation:** A, plus: pause when the browser tab is hidden, and cancel in-flight requests on change (TanStack Query handles both cheaply).
 
-**Decision:** _Pending_
+**Decision:** **A** — auto-fetch, debounced ~400 ms, paused while the tab is hidden, in-flight requests cancelled on change. (2026-07-11, accepted recommendation.)
 
 ## Ready-to-build checklist
 
-- [ ] D1–D3 answered
-- [ ] [Response Shape Viewer D1 (sample size)](./response-shape-viewer-decisions.md#d1--sample-size) answered — shared dependency
-- [ ] Roadmap status updated in [Plans](./README.md)
+- [x] D1–D3 answered
+- [x] [Response Shape Viewer D1 (sample size)](./response-shape-viewer-decisions.md#d1--sample-size) answered — shared dependency
+- [x] Roadmap status updated in [Plans](./README.md)
 
 ## Related
 

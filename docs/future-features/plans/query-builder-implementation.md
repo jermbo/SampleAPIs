@@ -2,7 +2,7 @@
 title: Query Builder — Implementation Plan
 description: User stories, architecture, and build phases for the visual query panel on the API details page
 audience: [developer, architect]
-status: awaiting-decisions
+status: in-progress
 ---
 
 [Wiki Home](../../README.md) › [Future Features](../README.md) › [Plans](./README.md)

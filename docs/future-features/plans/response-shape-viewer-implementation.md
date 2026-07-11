@@ -2,7 +2,7 @@
 title: Response Shape Viewer — Implementation Plan
 description: User stories, architecture, and build phases for the derived fields-and-types view
 audience: [developer, architect]
-status: awaiting-decisions
+status: in-progress
 ---
 
 [Wiki Home](../../README.md) › [Future Features](../README.md) › [Plans](./README.md)

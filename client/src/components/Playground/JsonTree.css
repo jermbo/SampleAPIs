@@ -1,0 +1,52 @@
+/* Night-owl-flavored palette matching the Playground editor theme. */
+.jsontree__node {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.jsontree__row {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.jsontree__row.-toggle {
+  cursor: pointer;
+  user-select: none;
+}
+
+.jsontree__caret {
+  color: #5f7e97;
+  width: 12px;
+  flex-shrink: 0;
+}
+
+.jsontree__key {
+  color: #7fdbca;
+}
+
+.jsontree__summary {
+  color: #5f7e97;
+  font-style: italic;
+}
+
+.jsontree__bracket {
+  color: #5f7e97;
+}
+
+.jsontree__val.-string {
+  color: #addb67;
+}
+
+.jsontree__val.-number {
+  color: #f78c6c;
+}
+
+.jsontree__val.-boolean {
+  color: #c792ea;
+}
+
+.jsontree__val.-null,
+.jsontree__val.-other {
+  color: #637777;
+}
