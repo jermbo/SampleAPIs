@@ -28,35 +28,40 @@ Ordered by the suggested build sequence; dependencies noted. "Key decision" is t
 | --- | -------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------ | ------- | ------------------------------------------- | ------ |
 | 1   | [HTTP Inspector](../http-inspector.md)                         | [plan](./http-inspector-implementation.md)             | [log](./http-inspector-decisions.md)             | 0       | Panel layout (tabs vs. interleaved)         | 🔨     |
 | 2   | [Multi-Language Snippets](../multi-language-snippets.md)       | [plan](./multi-language-snippets-implementation.md)    | [log](./multi-language-snippets-decisions.md)    | 3       | Language set (permanent maintenance)        | 🟡     |
-| 3   | [Shareable Playground Links](../shareable-playground-links.md) | [plan](./shareable-playground-links-implementation.md) | [log](./shareable-playground-links-decisions.md) | 3       | What a link pins (code vs. code + endpoint) | 🟡     |
+| 3   | ~~[Shareable Playground Links](../shareable-playground-links.md)~~ | —                                                      | —                                                | —       | —                                           | ❌     |
 | 4   | [Response Shape Viewer](../response-shape-viewer.md)           | [plan](./response-shape-viewer-implementation.md)      | [log](./response-shape-viewer-decisions.md)      | 0       | Sample size (also governs #5)               | 🔨     |
 | 5   | [Query Builder](../query-builder.md)                           | [plan](./query-builder-implementation.md)              | [log](./query-builder-decisions.md)              | 0       | Operator scope (what the UI teaches)        | 🔨     |
-| 6   | [Error Practice Routes](../error-practice-routes.md)           | [plan](./error-practice-routes-implementation.md)      | [log](./error-practice-routes-decisions.md)      | 4       | Namespace (permanent URL contract)          | 🟡     |
-| 7   | [Guided Challenges](../guided-challenges.md)                   | [plan](./guided-challenges-implementation.md)          | [log](./guided-challenges-decisions.md)          | 0       | Check expressiveness (shapes contributions) | 🔨     |
-| 8   | [Auth Training Wheels](../auth-training-wheels.md)             | [plan](./auth-training-wheels-implementation.md)       | [log](./auth-training-wheels-decisions.md)       | 5       | **D0 go/no-go** + promise guardrails        | 🟡     |
-| 9   | [Scratch Endpoints](../scratch-endpoints.md)                   | [plan](./scratch-endpoints-implementation.md)          | [log](./scratch-endpoints-decisions.md)          | 5       | **D0 build/defer/reject**                   | 🟡     |
+| 6   | [TypeScript Playground](../typescript-playground.md)           | [plan](./typescript-playground-implementation.md)      | [log](./typescript-playground-decisions.md)      | 2       | Transpiler + injection visual cue           | 🟡     |
+| 7   | [Error Practice Routes](../error-practice-routes.md)           | [plan](./error-practice-routes-implementation.md)      | [log](./error-practice-routes-decisions.md)      | 4       | Namespace (permanent URL contract)          | 🟡     |
+| 8   | [Guided Challenges](../guided-challenges.md)                   | [plan](./guided-challenges-implementation.md)          | [log](./guided-challenges-decisions.md)          | 0       | Check expressiveness (shapes contributions) | 🔨     |
+| 9   | [Auth Training Wheels](../auth-training-wheels.md)             | [plan](./auth-training-wheels-implementation.md)       | [log](./auth-training-wheels-decisions.md)       | 5       | **D0 go/no-go** + promise guardrails        | 🟡     |
+| 10  | [Scratch Endpoints](../scratch-endpoints.md)                   | [plan](./scratch-endpoints-implementation.md)          | [log](./scratch-endpoints-decisions.md)          | 5       | **D0 build/defer/reject**                   | 🟡     |
 
 ## Dependencies and shared machinery
 
 ```mermaid
 flowchart TD
-    HI[1. HTTP Inspector<br/>fetch wrapper + __net events] --> GC[7. Guided Challenges<br/>request-level checks]
-    SL[3. Shareable Links] -.enhances.-> GC
-    EP[6. Error Practice Routes] -.enables tracks.-> GC
+    HI[1. HTTP Inspector<br/>fetch wrapper + __net events] --> GC[8. Guided Challenges<br/>request-level checks]
+    EP[7. Error Practice Routes] -.enables tracks.-> GC
     RS[4. Response Shape Viewer] <-->|shared deriveShape\(\) + sample fetch| QB[5. Query Builder]
+    RS --> TS[6. TypeScript Playground<br/>injected types + IndexedDB]
+    QB -->|Send to Playground| TS
     HI -.CORS exposedHeaders.-> QB
     ML[2. Multi-Language Snippets]
-    GC -.demand signal.-> SC[9. Scratch Endpoints<br/>gated on D0]
-    AU[8. Auth Training Wheels<br/>gated on D0]
+    GC --> TS
+    GC -.demand signal.-> SC[10. Scratch Endpoints<br/>gated on D0]
+    AU[9. Auth Training Wheels<br/>gated on D0]
 ```
 
 Hard rules that fall out of the plans:
 
 - **#1 before #7** — challenges assert on the fetch wrapper's events; build the wrapper once, in the inspector.
 - **#4 and #5 share `deriveShape()`** and one sample fetch; whichever builds first creates the utility (and the tab shell, per [Shape Viewer D3](./response-shape-viewer-decisions.md#d3--relationship-to-the-query-builder)).
-- The **CORS `exposedHeaders` change** (one line, in the [inspector plan](./http-inspector-implementation.md)) unblocks header reading for #1, #5, and #8 — worth doing with whichever lands first.
-- **#8 and #9 are decision-gated**: their D0s (go/no-go; build/defer/reject) are maintainer calls that precede any code.
-- **#2 and #3 are fully independent** — good candidates whenever a small win is wanted.
+- **#6 depends on #4** (or at least `deriveShape()` + `toTypeScript()`) for injected endpoint types; Query Builder's Send bridge (#5) should land before or with #6.
+- The **CORS `exposedHeaders` change** (one line, in the [inspector plan](./http-inspector-implementation.md)) unblocks header reading for #1, #5, and #9 — worth doing with whichever lands first.
+- **#9 and #10 are decision-gated**: their D0s (go/no-go; build/defer/reject) are maintainer calls that precede any code.
+- **#3 (Shareable Links) is rejected** — not on the roadmap.
+- **#2 is fully independent** — good candidate whenever a small win is wanted.
 
 ## Cross-cutting note: client unit testing
 
