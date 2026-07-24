@@ -1,0 +1,29 @@
+.api-categories {
+  margin: 0;
+  padding: 0 1rem 0 0;
+}
+
+.api-category {
+  font-size: 0.85rem;
+  list-style: none;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  border-color: var(--cat-color);
+  background: var(--cat-color);
+  color: var(--color-text-dark);
+
+  &:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+}
+
+/* Accent color cycled across category tags */
+.api-category:nth-child(6n + 1) { --cat-color: #00d6e9; }
+.api-category:nth-child(6n + 2) { --cat-color: #15e3d9; }
+.api-category:nth-child(6n + 3) { --cat-color: #56edbf; }
+.api-category:nth-child(6n + 4) { --cat-color: #8cf5a2; }
+.api-category:nth-child(6n + 5) { --cat-color: #c2f985; }
+.api-category:nth-child(6n + 6) { --cat-color: #f9f871; }

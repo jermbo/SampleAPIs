@@ -1,7 +1,7 @@
 import { faLink, faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@tanstack/react-router";
 import { APIData } from "../../utils/Interfaces";
 import APICategories from "../APICategories/APICategories";
 
@@ -16,7 +16,7 @@ const APICard: React.FC<Props> = ({ api, featured = false }) => {
       <div className="api-card__inner">
         <APICategories categories={api.metaData.categories} />
         <header className="api-card__header">
-          <Link className="btn noleftmargin" to={`/api-list/${api.link}`}>
+          <Link className="btn noleftmargin" to="/api-list/$id" params={{ id: api.link }}>
             <h2 className="api-card__title">{api.metaData.title}</h2>&nbsp;
             <FontAwesomeIcon icon={faLink} />
           </Link>

@@ -1,0 +1,42 @@
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: var(--font-family-text);
+  margin: 0;
+  line-height: 1.25em;
+}
+
+h1, .h1 { font-size: var(--font-size-heading-1); }
+h2, .h2 { font-size: var(--font-size-heading-2); }
+h3, .h3 { font-size: var(--font-size-heading-3); }
+h4, .h4 { font-size: var(--font-size-heading-4); }
+h5, .h5 { font-size: var(--font-size-heading-5); }
+h6, .h6 { font-size: var(--font-size-heading-6); }
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-thick);
+  margin: 0;
+  line-height: 1.25em;
+}
+
+.display-1 { font-size: var(--font-size-display-1); }
+.display-2 { font-size: var(--font-size-display-2); }
+.display-3 { font-size: var(--font-size-display-3); }
+.display-4 { font-size: var(--font-size-display-4); }
+.display-5 { font-size: var(--font-size-display-5); }
+.display-6 { font-size: var(--font-size-display-6); }
+
+.text-1 { font-size: var(--font-size-text-1); }
+.text-2 { font-size: var(--font-size-text-2); }
+.text-3 { font-size: var(--font-size-text-3); }
+.text-4 { font-size: var(--font-size-text-4); }
+.text-5 { font-size: var(--font-size-text-5); }

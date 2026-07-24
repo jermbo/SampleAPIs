@@ -1,75 +1,65 @@
-import React, { useContext, useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import React, { Suspense, lazy, useMemo, useState } from "react";
+import { Link, useParams } from "@tanstack/react-router";
 import APICategories from "../../components/APICategories/APICategories";
 import APIEndpoints from "../../components/Endpoints/Endpoints";
-import { GlobalContext } from "../../context/GlobalContext";
-import { APIData, Example } from "../../utils/Interfaces";
+import { useApiList } from "../../hooks/useApiList";
 import { URLS } from "../../utils/Config";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./APIDetails.scss";
-import { Sandpack } from "@codesandbox/sandpack-react";
-import { nightOwl } from "@codesandbox/sandpack-themes";
+import "./APIDetails.css";
 
-interface Props {}
+// The Playground pulls in CodeMirror, which is a heavy chunk. Loading it lazily
+// keeps it out of the initial bundle for this route until it's actually rendered.
+const Playground = lazy(() => import("../../components/Playground/Playground"));
 
-const APIDetails: React.FC<Props> = () => {
-  const { id } = useParams();
-  const { apiList } = useContext(GlobalContext);
-  const [singleAPI, setSingleAPI] = useState({} as APIData);
-  const [singleEndpoint, setSingleEndpoint] = useState("");
-  const [thisApiEndpoint, setThisApiEndpoint] = useState("");
-  const [exampleList, setExampleList] = useState<Example[]>([]);
+const APIDetails: React.FC = () => {
+  const { id } = useParams({ from: "/api-list/$id" });
+  const { data: apiList = [], isLoading, isError } = useApiList();
+  const [selectedEndpoint, setSelectedEndpoint] = useState("");
 
-  const [codeSample, setCodeSample] = useState("");
+  const singleAPI = useMemo(() => apiList.find((a) => a.name === id), [apiList, id]);
 
-  useEffect(() => {
-    if (!singleAPI) return;
+  const activeEndpoint = selectedEndpoint || singleAPI?.endpoints[0] || "";
+  const endpointUrl = singleAPI?.link
+    ? `${URLS.API_LINK}/${singleAPI.link}/${activeEndpoint}`
+    : "";
 
-    const newExampleList =
-      singleAPI.metaData?.examples?.filter((e) => e.endpoint === singleEndpoint) || [];
-    setExampleList(newExampleList);
-  }, [singleAPI, singleEndpoint]);
-
-  useEffect(() => {
-    const api = apiList.filter((a) => a.name === id)[0];
-    setSingleEndpoint(api?.endpoints[0]);
-    setSingleAPI(api);
-  }, [id, apiList]);
-
-  useEffect(() => {
-    if (singleAPI?.link) {
-      setThisApiEndpoint(`${URLS.API_LINK}/${singleAPI.link}/${singleEndpoint}`);
-      const sample = `import {useEffect, useState} from 'react';
-
-export default function App() {
-  const [data, setData] = useState("");
-  const getData = async () => {
-    try {
-      const resp = await fetch('${URLS.API_LINK}/${singleAPI.link}/${singleEndpoint}');
-      const json = await resp.json();
-      setData(json);
-    } catch (err) {
-      setData(err.message);
-    }
+  if (isLoading) {
+    return (
+      <section className="page -api-details">
+        <header className="page-header">
+          <p role="status">Loading…</p>
+        </header>
+      </section>
+    );
   }
 
-  useEffect(() => {
-    getData();
-  }, []);
-
-  return (
-    <pre>
-      {JSON.stringify(data, null, 2)}
-    </pre>
-  )
-}`;
-      setCodeSample(sample);
-    }
-  }, [singleAPI, singleEndpoint]);
+  if (isError) {
+    return (
+      <section className="page -api-details">
+        <h2 className="page-header__title">Something went wrong</h2>
+        <p className="page-header__desc">
+          We couldn&rsquo;t load the API list. Please try again in a moment.
+        </p>
+        <Link className="btn" to="/api-list">
+          Back to List
+        </Link>
+      </section>
+    );
+  }
 
   if (!singleAPI?.metaData) {
-    return <h1>Loading</h1>;
+    return (
+      <section className="page -api-details">
+        <h2 className="page-header__title">API not found</h2>
+        <p className="page-header__desc">
+          There is no API matching &ldquo;{id}&rdquo;.
+        </p>
+        <Link className="btn" to="/api-list">
+          Back to List
+        </Link>
+      </section>
+    );
   }
 
   return (
@@ -83,8 +73,8 @@ export default function App() {
         <p className="page-header__desc">{singleAPI.metaData.longDesc}</p>
         <p>
           Endpoint:
-          <a className="link" href={thisApiEndpoint} target="_blank" rel="noreferrer">
-            <span>{thisApiEndpoint}</span>
+          <a className="link" href={endpointUrl} target="_blank" rel="noreferrer">
+            <span>{endpointUrl}</span>
             <FontAwesomeIcon icon={faLink} />
           </a>
         </p>
@@ -92,23 +82,12 @@ export default function App() {
       <div className="section">
         <div className="section-header">
           <h3 className="section-title">All other available endpoints</h3>
-          <APIEndpoints
-            urlBase={singleAPI.link}
-            endpoints={singleAPI.endpoints}
-            onEndpointSelect={setSingleEndpoint}
-          />
+          <APIEndpoints endpoints={singleAPI.endpoints} onEndpointSelect={setSelectedEndpoint} />
         </div>
         <div className="section-body">
-          <Sandpack
-            template="react"
-            theme={nightOwl}
-            options={{
-              autorun: false,
-            }}
-            files={{
-              "/App.js": codeSample,
-            }}
-          />
+          <Suspense fallback={<p role="status">Loading playground…</p>}>
+            <Playground url={endpointUrl} />
+          </Suspense>
         </div>
       </div>
     </section>

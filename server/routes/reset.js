@@ -7,56 +7,42 @@ const { getAPIListData } = require("../utils/getAPIListData");
 
 let APIListData = [];
 
-// Reset API Route
+const restore = (api) => {
+  const backupFile = path.join(__dirname, `../api/${api}.json.backup`);
+  const mainFile = path.join(__dirname, `../api/${api}.json`);
+  fs.copyFileSync(backupFile, mainFile);
+};
+
+// Reset every endpoint
 router.get("/all", async (req, res) => {
-  console.log("Resetting endpoints")
   if (!APIListData.length) {
     APIListData = await getAPIListData();
- }
+  }
 
-  APIListData.forEach((page) => {
-    const api = page.link;
+  APIListData.forEach((page) => restore(page.link));
 
-    const backupFile = path.join(__dirname, `../api/${api}.json.backup`);
-    const mainFile = path.join(__dirname, `../api/${api}.json`);
-
-    fs.copyFile(backupFile, mainFile, (err) => {
-      if (err) {
-        console.log(err);
-      }
-    });
-  });
-
-  res.render("api-reset", {
-    title: "Reset Everything",
-  });
-  process.exit(1);
+  res.render("api-reset", { title: "Reset Everything" });
 });
 
-// Main EndPoint Route
+// Reset a single endpoint
 router.get("/:id", async (req, res) => {
   if (!APIListData.length) {
     APIListData = await getAPIListData();
   }
 
   const id = req.params.id.toLowerCase();
-  const data = APIListData.filter((api) => id == api.link.toLowerCase())[0];
-  const api = data.link;
+  const data = APIListData.find((api) => id === api.link.toLowerCase());
 
-  const backupFile = path.join(__dirname, `../api/${api}.json.backup`);
-  const mainFile = path.join(__dirname, `../api/${api}.json`);
+  if (!data) {
+    return res.status(404).json({
+      error: 404,
+      message: `No endpoint named '${req.params.id}' to reset.`,
+    });
+  }
 
-  fs.copyFile(backupFile, mainFile, (err) => {
-    if (err) {
-      console.log(err);
-    }
-  });
+  restore(data.link);
 
-  res.render("api-reset", {
-    ...data,
-  });
-
-  process.exit(1);
+  res.render("api-reset", { ...data });
 });
 
 module.exports = router;

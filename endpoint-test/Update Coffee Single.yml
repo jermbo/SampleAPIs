@@ -1,0 +1,18 @@
+info:
+  name: Update Coffee Single
+  type: http
+
+http:
+  method: PATCH
+  url: http://localhost:5555/coffee/hot/1
+  body:
+    type: json
+    data: '{"title":"Black Coffeesssssss","description":"Black coffeessssss is as simple as it gets with ground coffee beans steeped in hot water, served warm. And if you want to sound fancy, you can call black coffee by its proper name: cafe noir.","ingredients":["Coffee"],"image":"https://images.unsplash.com/photo-1494314671902-399b18174975?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","id":1}'
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+​

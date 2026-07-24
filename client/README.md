@@ -1,47 +1,18 @@
-# Sample APIs - React Application
+# Sample APIs — React Client
 
-## Generate new templates
+The front end for [SampleAPIs](https://sampleapis.com): a Vite + React 19 + TypeScript app. How it all works is documented in the project wiki — start with [Client Features](../docs/features/README.md).
 
-We are utilizing [Generate React CLI](https://github.com/arminbro/generate-react-cli) to help stream line and standardize the process of creating new components for our application.
+## Commands
 
-We can customized the outputs to fit this applications needs and have expanded the definition of types. Below are a list of commands you can use to create new components, pages, layouts, or hooks.
-
-### Component
-
-By default, we are creating components. Simply run this command and let the CLI take care of the rest.
-
-```JavaScript
-npx generate-react-cli component [NAME]
+```bash
+npm run dev      # dev server with HMR at http://localhost:4444
+npm run build    # type-check (tsc) + production build
+npm run preview  # serve the production build
+npm run lint     # oxlint
 ```
 
-* Replace `[NAME]` with the desired name.
+The dev server expects the API server running at `http://localhost:5555` — see [Local Development](../docs/operations/local-development.md).
 
-### Page
+## Conventions
 
-When generating a new page, you run the same command but with a `--type` flag of page.
-
-```JavaScript
-npx generate-react-cli component [NAME] --type=page
-```
-
-* Replace `[NAME]` with the desired name.
-
-### Layout
-
-When generating a new layout, you run the same command but with a `--type` flag of layout.
-
-```JavaScript
-npx generate-react-cli component [NAME] --type=layout
-```
-
-* Replace `[NAME]` with the desired name.
-
-### Hooks
-
-Just like everything else, hooks have some boiler plate code as well. To create a new hook, simply the add the `--type` flag of hook/
-
-```JavaScript
-npx generate-react-cli component [NAME] --type=hook
-```
-
-* Replace `[NAME]` with the desired name.
+New components follow the existing patterns: one folder per component under `src/components/` (pages under `src/pages/`, with a matching route file in `src/routes/`), typed as `React.FC<Props>`, styled with plain CSS. Details in [Code Style](../docs/contributing/code-style.md) and [Styling](../docs/features/styling.md).

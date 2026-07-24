@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@tanstack/react-router";
 import { GlobalContext } from "../../context/GlobalContext";
 import Nav from "../Nav/Nav";
 
@@ -18,7 +18,12 @@ const Header: React.FC<Props> = () => {
       <h1 className="logo">
         <Link to="/">Sample APIs</Link>
       </h1>
-      <button onClick={toggleNav} className="burger-nav">
+      <button
+        onClick={toggleNav}
+        className="burger-nav"
+        aria-label={navVisible ? "Close navigation menu" : "Open navigation menu"}
+        aria-expanded={navVisible}
+      >
         <span></span>
         <span></span>
         <span></span>

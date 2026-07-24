@@ -1,0 +1,25 @@
+/* Self-hosted fonts (Fontsource) — bundled and served same-origin so there is
+   no render-blocking third-party request or font-swap layout shift. */
+@import "@fontsource/roboto/latin-200.css";
+@import "@fontsource/roboto/latin-400.css";
+@import "@fontsource/roboto/latin-600.css";
+@import "@fontsource/montserrat-alternates/latin-200.css";
+@import "@fontsource/montserrat-alternates/latin-400.css";
+@import "@fontsource/montserrat-alternates/latin-600.css";
+
+@import "./tokens.css";
+@import "./base.css";
+@import "./typography.css";
+@import "./buttons.css";
+@import "./header.css";
+@import "./nav.css";
+@import "./page.css";
+@import "./api-card.css";
+@import "./api-categories.css";
+@import "./api-search.css";
+@import "./api-filter.css";
+@import "./api-endpoints.css";
+@import "./code-display.css";
+@import "./not-found.css";
+@import "./responsive.css";
+@import "./transitions.css";

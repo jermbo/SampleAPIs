@@ -1,0 +1,44 @@
+/* Smooth page transitions via the View Transitions API.
+   Enabled by `defaultViewTransition: true` on the router (main.tsx).
+   Browsers without support simply navigate instantly — graceful fallback. */
+
+@keyframes vt-fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes vt-fade-out {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes vt-slide-up {
+  from {
+    transform: translateY(14px);
+  }
+}
+
+::view-transition-old(root) {
+  animation: vt-fade-out 180ms ease both;
+}
+
+::view-transition-new(root) {
+  animation:
+    vt-fade-in 260ms ease both,
+    vt-slide-up 260ms ease both;
+}
+
+/* Keep the fixed site header stable across transitions instead of letting it
+   fade/slide with the page content. */
+.main-header {
+  view-transition-name: site-header;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
+}

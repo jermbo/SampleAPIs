@@ -13,9 +13,19 @@ router.get("/", async (req, res) => {
 });
 
 router.get("/:name", async (req, res) => {
+  const name = req.params.name.toLowerCase();
+  const api = GeneratedAPIList.find((entry) => entry.link.toLowerCase() === name);
+
+  if (!api) {
+    return res.status(404).json({
+      error: 404,
+      message: `No API named '${req.params.name}'.`,
+    });
+  }
+
   res.json({
-    data: 200,
-    id: req.params.name,
+    status: 200,
+    data: api,
   });
 });
 

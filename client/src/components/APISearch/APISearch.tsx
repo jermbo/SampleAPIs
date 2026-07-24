@@ -1,5 +1,4 @@
 import React, { ChangeEvent } from "react";
-import "./APISearch.scss";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -9,14 +8,21 @@ interface Props {
 
 const APISearch: React.FC<Props> = ({ onChangeHandler }) => {
   return (
-    <div className="api-search">
+    <search className="api-search">
       <div className="api-search__inner">
-        <input type="text" id="search" className="input" onChange={onChangeHandler} />
-        <label htmlFor="search">
+        <input
+          type="search"
+          id="search"
+          className="input"
+          placeholder="Search APIs"
+          aria-label="Search APIs"
+          onChange={onChangeHandler}
+        />
+        <label htmlFor="search" aria-hidden="true">
           <FontAwesomeIcon icon={faSearch} />
         </label>
       </div>
-    </div>
+    </search>
   );
 };
 

@@ -4,7 +4,7 @@ interface Props {}
 
 const StyleGuide: React.FC<Props> = () => {
   return (
-    <div className="page -style-guide">
+    <section className="page -style-guide">
       <div className="typography">
         <h1>Home Page</h1>
         <h2>Home Page</h2>
@@ -39,7 +39,7 @@ const StyleGuide: React.FC<Props> = () => {
         <p className="display-5">Sample APIs</p>
         <p className="display-6">Sample APIs</p>
       </div>
-    </div>
+    </section>
   );
 };
 

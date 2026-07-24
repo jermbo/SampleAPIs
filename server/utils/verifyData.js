@@ -2,9 +2,20 @@
  const { getFromFile } = require("./utils");
 
 const verifyData = (req, res, next) => {
-  const { method, originalUrl, body } = req;
+  const { method, originalUrl } = req;
+  // Reads don't carry a body to validate. Bail out before touching req.body or
+  // parsing the path — under Express 5 req.body is undefined on bodyless
+  // requests, which the shape checks below would otherwise choke on.
+  if (method === "GET" || method === "DELETE") {
+    return next();
+  }
+  const body = req.body || {};
   try {
-    const [baseParent, endPoint] = originalUrl.split("/").filter((d) => d);
+    // Strip any query string so the resource name resolves cleanly.
+    const [baseParent, endPoint] = originalUrl
+      .split("?")[0]
+      .split("/")
+      .filter((d) => d);
     const dataPath = path.join(__dirname, `../api/${baseParent}.json`);
     const data = getFromFile(dataPath)[endPoint][0];
 
@@ -19,11 +30,12 @@ const verifyData = (req, res, next) => {
       expectedObjectData[key] = type;
     }
 
+    // `id` is exempt on POST/PUT — the router assigns or preserves it.
     const bodyKeys = ["id", ...Object.keys(body)];
 
     if (method == "POST" || method == "PUT") {
       if (!hasAllData(dataKeys, bodyKeys)) {
-        return res.json({
+        return res.status(400).json({
           error: 400,
           message:
             "The data you are sending does not match the existing data object. Check out the expected shape versus what was sent.",
@@ -36,8 +48,10 @@ const verifyData = (req, res, next) => {
     }
 
     if (method == "PATCH") {
-      if (!hasRelativeData(dataKeys, bodyKeys)) {
-        return res.json({
+      // Check the raw body keys here — including the exempt "id" would make
+      // this pass for any body, since every collection record has an id.
+      if (!hasRelativeData(dataKeys, Object.keys(body))) {
+        return res.status(400).json({
           error: 400,
           message:
             "It appears you are trying to manipulate data that does not exist on the object. Check out the expected shape versus what was sent.",
@@ -49,21 +63,14 @@ const verifyData = (req, res, next) => {
       return next();
     }
 
-    if (method == "GET" || method == "DELETE") {
-      return next();
-    }
-
+    return next();
   } catch (ex) {
-         //console.log("invalid data sent in: ",body)
-        return res.json({
-          error: 500,
-          message:
-            `Unexpected data sent in! ${method} NOT accepted. Please send valid data next time!`,
-          received: body,
-        });
-
-
-  } // end of try 
+    return res.status(400).json({
+      error: 400,
+      message: `Unexpected data sent in! ${method} NOT accepted. Please send valid data next time!`,
+      received: body,
+    });
+  }
 };
 
 function hasAllData(dataKeys, bodyKeys) {

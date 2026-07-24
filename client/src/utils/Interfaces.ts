@@ -1,17 +1,8 @@
 import { Dispatch } from "react";
-import { AppStateEnum } from "./Enums";
 
 export interface iGlobal {
   navVisible: boolean;
   setNavVisible: Dispatch<boolean>;
-  apiList: APIData[];
-  setAPIList: Dispatch<APIData[]>;
-  appState: AppStateEnum;
-  setAppState: Dispatch<AppStateEnum>;
-  isLoggedIn: boolean;
-  setIsLoggedIn: Dispatch<boolean>;
-  apiCategories: string[];
-  setApiCategories: Dispatch<string[]>;
 }
 
 export interface FetchState<T> {

@@ -5,12 +5,12 @@ body
       .site__inner
         h1.site__title Sample APIs
         p
-          | Welcome to SampleAPIs. A playground for messing with RESTful and GraphQL endpoints. Checkout the project on 
+          | Welcome to SampleAPIs. A playground for messing with RESTful endpoints. Checkout the project on
           a(href="https://github.com/jermbo/SampleAPIs") GitHub 
           | and consider contributing to the project with a new endpoint!
         p
         | You can use any HTTP verbs (GET, POST, PUT, PATCH and DELETE) and
-        | access your resources from anywhere using CORS and JSONP.
+        | access your resources from anywhere thanks to CORS.
         p.disclaimer
           | * The data on this site is for educational purposes only and is not
           | owned by SampleAPIs.com
@@ -22,7 +22,7 @@ body
           .copied
             p Copied!
           code(spellcheck="false")
-            p const baseURL = "https://sampleapis.com/futurama/api/characters";
+            p const baseURL = "https://api.sampleapis.com/futurama/characters";
             p fetch(baseURL)
             p   .then(resp => resp.json())
             p   .then(data => console.log(data));
@@ -33,7 +33,7 @@ body
           .copied
             p Copied!
           code(spellcheck="false")
-            p const baseURL = "https://sampleapis.com/futurama/api/characters";
+            p const baseURL = "https://api.sampleapis.com/futurama/characters";
             p fetch(`${baseURL}?name.first=Bender`)
             p   .then(resp => resp.json())
             p   .then(data => console.log(data));
@@ -49,7 +49,6 @@ template#api
       h2.api__title {{ api.title }}
       p.api__desc {{ api.desc }}
       a.api__link(:href="api.link") API Link
-      a.api__link(:href="api.graphLink" target="_blank") GRAPHQL Link
 
 script(src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js")
 script.

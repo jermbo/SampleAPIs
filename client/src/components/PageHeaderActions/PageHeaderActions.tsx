@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@tanstack/react-router";
 import { faBook, faCodeBranch, faInfoCircle, faList } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -27,7 +27,7 @@ const PageHeaderActions: React.FC<Props> = ({ currentPage }) => {
       icon: faBook,
       show: currentPage === "docs",
     },
-  ];
+  ] as const;
   return (
     <div className="page-header-actions">
       {links.map((link) => {

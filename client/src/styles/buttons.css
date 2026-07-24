@@ -1,0 +1,19 @@
+/* TODO: Update all padding to use CSS Var */
+
+.btn {
+  font-size: var(--font-size-text-4);
+  color: var(--color-text-light);
+  border: 1px solid var(--color-text-light);
+  padding: 0.5rem;
+  text-decoration: none;
+  background: transparent;
+
+  & span + svg {
+    display: inline-block;
+    margin-left: 0.5rem;
+  }
+
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+}

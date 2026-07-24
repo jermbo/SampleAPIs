@@ -1,48 +1,45 @@
 import React, { useContext, useEffect } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { Link, useLocation } from "@tanstack/react-router";
 
 import { GlobalContext } from "../../context/GlobalContext";
 
 const Nav: React.FC = () => {
   const { setNavVisible } = useContext(GlobalContext);
 
-  let location = useLocation();
+  const location = useLocation();
   useEffect(() => {
     document.body.classList.remove("-nav-visible");
     setNavVisible(false);
-  }, [location]);
+  }, [location.pathname, setNavVisible]);
 
-  const setActive = (navData: { isActive: boolean; isPending: boolean }) => {
-    return navData.isActive ? "active" : "";
-  };
+  const activeProps = { className: "active" };
 
   return (
-    <div className="full-screen-nav">
+    <nav className="full-screen-nav" aria-label="Primary">
       <ul>
         <li>
-          <NavLink className={setActive} to="/">
+          <Link to="/" activeOptions={{ exact: true }} activeProps={activeProps}>
             Home
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink className={setActive} to="/about">
+          <Link to="/about" activeProps={activeProps}>
             About
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink className={setActive} to="/api-list">
+          <Link to="/api-list" activeProps={activeProps}>
             API List
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink className={setActive} to="/docs">
+          <Link to="/docs" activeProps={activeProps}>
             Docs
-          </NavLink>
+          </Link>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
-// export default withRouter(Nav);
 export default Nav;

@@ -1,63 +1,43 @@
 const express = require("express");
-const ApiList = require("../apiList");
-//const fetch = require("node-fetch");
+const GeneratedAPIList = require("../GeneratedAPIList");
 const router = express.Router();
 
-/// Main EndPoint Route
-router.get("/", (req, res) => {
+const escapeHtml = (str) =>
+  String(str).replace(/[&<>"']/g, (c) => {
+    return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+  });
+
+// Smoke-test every generated endpoint and stream a simple HTML report.
+router.get("/", async (req, res) => {
   res.set("Content-Type", "text/html");
   res.write("<html><head><title>Testing...</title></head><body>");
-  res.write("Testing all endpoints...<BR>");
+  res.write("Testing all endpoints...<br>");
 
-  let PromiseFetches = [];
-  ApiList.forEach((apiDeets) => {
-    //res.write(`<hr>Testing ${apiDeets.title}...<BR>`);
-    PromiseFetches.push(
-      apiDeets.endPoints.map((endpoint) => {
-        const url = `http://${req.headers.host}/${apiDeets.link}/${endpoint}`;
-
-        try {
-          return fetch(url)
-            .then((res) => res.json())
-            .then((collection) => {
-              //console.log(collection.length);
-              res.write(`calling ${url}: `);
-              if (collection && collection.length) {
-                res.write(`${collection.length} records found<BR>`);
-              } else {
-                res.write("<font color=red>FAIL!!!!</font><BR>");
-              }
-              return collection.length;
-            })
-            .catch((err) => {
-              console.log(`Error fetching ${url}`);
-              console.error(err);
-
-              res.write(`Error fetching ${url}`);
-              res.write(err);
-              return 0;
-            });
-        } catch (err) {
-          console.log(`Error fetching ${url}`);
-          console.error(err);
-
-          res.write(`Error fetching ${url}`);
-          res.write(err);
-          return new Promise((done, reject) => {
-            done(0);
-          });
+  // Flatten every (api, endpoint) pair into a single list of fetch promises so
+  // Promise.all actually waits on the requests instead of on nested arrays.
+  const checks = GeneratedAPIList.flatMap((api) =>
+    api.endpoints.map(async (endpoint) => {
+      const url = `http://${req.headers.host}/${api.link}/${endpoint}`;
+      try {
+        const response = await fetch(url);
+        const collection = await response.json();
+        const count = Array.isArray(collection) ? collection.length : collection ? 1 : 0;
+        if (count) {
+          res.write(`calling ${escapeHtml(url)}: ${count} records found<br>`);
+        } else {
+          res.write(`calling ${escapeHtml(url)}: <font color=red>FAIL!!!!</font><br>`);
         }
-      }),
-    );
-  });
-  //console.log("PromiseFetches",PromiseFetches);
-  Promise.all(PromiseFetches).then((results) => {
-    setTimeout(() => {
-      res.end("</html>");
-    }, 1000);
-  });
-});
+        return count;
+      } catch (err) {
+        console.error(`Error fetching ${url}`, err);
+        res.write(`Error fetching ${escapeHtml(url)}<br>`);
+        return 0;
+      }
+    })
+  );
 
-// API EndPoint Route
+  await Promise.all(checks);
+  res.end("Done.</body></html>");
+});
 
 module.exports = router;

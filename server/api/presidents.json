@@ -100,7 +100,7 @@
     {
       "id": 12,
       "ordinal": 12,
-      "name": "Zacary Taylor",
+      "name": "Zachary Taylor",
       "yearsInOffice": "1849-1850",
       "vicePresidents": ["Millard Fillmore"],
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Zachary_Taylor_restored_and_cropped.jpg/220px-Zachary_Taylor_restored_and_cropped.jpg"
@@ -134,7 +134,7 @@
       "ordinal": 16,
       "name": "Abraham Lincoln",
       "yearsInOffice": "1861-1865",
-      "vicePresidents": ["Hannibal Hamlin", "Andrew John"],
+      "vicePresidents": ["Hannibal Hamlin", "Andrew Johnson"],
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Abraham_Lincoln_O-77_matte_collodion_print.jpg/220px-Abraham_Lincoln_O-77_matte_collodion_print.jpg"
     },
     {
@@ -181,7 +181,7 @@
       "id": 22,
       "ordinal": 22,
       "name": "Grover Cleveland",
-      "yearsInOffice": "1893-1897",
+      "yearsInOffice": "1885-1889",
       "vicePresidents": ["Adlai Stevenson I"],
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Grover_Cleveland_-_NARA_-_518139_%28cropped%29.jpg/220px-Grover_Cleveland_-_NARA_-_518139_%28cropped%29.jpg"
     },
@@ -245,7 +245,7 @@
       "id": 30,
       "ordinal": 30,
       "name": "Calvin Coolidge",
-      "yearsInOffice": "1923-1925",
+      "yearsInOffice": "1923-1929",
       "vicePresidents": ["Charles G. Dawes"],
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Calvin_Coolidge%2C_bw_head_and_shoulders_photo_portrait_seated%2C_1919.jpg/220px-Calvin_Coolidge%2C_bw_head_and_shoulders_photo_portrait_seated%2C_1919.jpg"
     },
@@ -365,17 +365,25 @@
       "id": 45,
       "ordinal": 45,
       "name": "Donald Trump",
-      "yearsInOffice": "2017-2020",
+      "yearsInOffice": "2017-2021",
       "vicePresidents": ["Mike Pence"],
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/220px-Donald_Trump_official_portrait.jpg"
     },
     {
       "id": 46,
       "ordinal": 46,
-      "name": "Joseph Biden",
-      "yearsInOffice": "2020-present",
+      "name": "Joe Biden",
+      "yearsInOffice": "2021-2025",
       "vicePresidents": ["Kamala Harris"],
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/440px-Joe_Biden_presidential_portrait.jpg"
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/220px-Joe_Biden_presidential_portrait.jpg"
+    },
+    {
+      "id": 47,
+      "ordinal": 47,
+      "name": "Donald Trump",
+      "yearsInOffice": "2025-present",
+      "vicePresidents": ["JD Vance"],
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/220px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
     }
   ]
 }

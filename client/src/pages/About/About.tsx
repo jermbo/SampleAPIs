@@ -5,21 +5,19 @@ interface Props {}
 
 const About: React.FC<Props> = () => {
   return (
-    <div className="page -about">
+    <section className="page -about">
       <header className="page-header">
         <h2 className="page-header__title">About Sample APIs</h2>
         <p className="page-header__desc">
           An open source project to help you on your journey of learning{" "}
-          <abbr title="REpresentational State Transfer">RESTful</abbr> or{" "}
-          <abbr title="Graph Query Language">GraphQL</abbr>{" "}
+          <abbr title="REpresentational State Transfer">RESTful</abbr>{" "}
           <abbr title="The point of entry to an API">endpoints</abbr>.
         </p>
         <PageHeaderActions currentPage="about" />
       </header>
       <section className="section">
         <p>
-          Understanding <abbr title="REpresentational State Transfer">RESTful</abbr> or{" "}
-          <abbr title="Graph Query Language">GraphQL</abbr>{" "}
+          Understanding <abbr title="REpresentational State Transfer">RESTful</abbr>{" "}
           <abbr title="Application Program Interface">API</abbr>s is hard enough, even without
           including an authentication mechanism. The sole purpose of this website is to play with{" "}
           <abbr title="REpresentational State Transfer">RESTful</abbr>{" "}
@@ -30,12 +28,11 @@ const About: React.FC<Props> = () => {
         </p>
         <p>
           You can use any <abbr title="Hyper Text Transfer Protocol">HTTP</abbr> verbs (GET, POST,
-          PUT, PATCH and DELETE) and access your resources from anywhere using{" "}
-          <abbr title="Cross-origin Resource Sharing">CORS</abbr> and{" "}
-          <abbr title="JSON with Padding">JSONP</abbr>.
+          PUT, PATCH and DELETE) and access your resources from anywhere thanks to{" "}
+          <abbr title="Cross-origin Resource Sharing">CORS</abbr>.
         </p>
       </section>
-    </div>
+    </section>
   );
 };
 

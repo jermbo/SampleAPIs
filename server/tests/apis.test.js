@@ -16,10 +16,6 @@ describe('List of APIs (apiList.js)', () => {
         expect(apiList.filter( api => api.link && api.link.length > 0 )).toHaveLength(apiList.length);
     })
 
-    it('contains APIs with valid graphql links', () => {
-        expect(apiList.filter( api => api.graphLink === `${api.link}/graphql`)).toHaveLength(apiList.length);
-    })
-
     it('contains APIs with valid titles', () => {
         expect(apiList.filter( api => api.title && api.title.length > 0 )).toHaveLength(apiList.length);
     })

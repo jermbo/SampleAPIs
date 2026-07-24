@@ -1,26 +1,22 @@
-import React, { useContext, useEffect, useState } from "react";
-import "./Home.scss";
+import React, { useEffect, useState } from "react";
+import "./Home.css";
 
 import APICard from "../../components/APICard/APICard";
-import { GlobalContext } from "../../context/GlobalContext";
+import { useApiList } from "../../hooks/useApiList";
 import { APIData } from "../../utils/Interfaces";
 import PageHeaderActions from "../../components/PageHeaderActions/PageHeaderActions";
 
-interface Props { }
+interface Props {}
 
 const Home: React.FC<Props> = () => {
-  const { apiList } = useContext(GlobalContext);
+  const { data: apiList = [] } = useApiList();
   const [featuredAPIs, setFeatureAPIs] = useState([] as APIData[]);
-
 
   useEffect(() => {
     const featured = apiList
       .filter((api) => api.metaData.featured)
       .sort(() => (Math.random() > 0.5 ? 1 : -1));
     setFeatureAPIs(featured);
-
-
-
   }, [apiList]);
 
   return (
@@ -29,25 +25,25 @@ const Home: React.FC<Props> = () => {
         <h2 className="page-header__title">Sample APIs</h2>
         <p className="page-header__desc">
           A simple, no fuss, no mess, no auth playground for learning{" "}
-          <abbr title="REpresentational State Transfer">RESTful</abbr> or{" "}
-          <abbr title="Graph Query Language">GraphQL</abbr>{" "}
+          <abbr title="REpresentational State Transfer">RESTful</abbr>{" "}
           <abbr title="Application Programming Interface">API</abbr>s.
         </p>
         <PageHeaderActions />
       </header>
-      <div className="section">
+      <section className="section">
         <div className="section-header">
           <h3 className="section-title">Example</h3>
         </div>
         <div className="section-desc">
           <p>
-            Understanding RESTful APIs is hard enough, even without including an
-            authentication mechanism. The sole purpose of this repository is to
-            play with RESTful endpoints and learn. We have a few endpoints that
-            you can start playing around with right away!
+            Understanding RESTful APIs is hard enough, even without including an authentication
+            mechanism. The sole purpose of this repository is to play with RESTful endpoints and
+            learn. We have a few endpoints that you can start playing around with right away!
           </p>
-          <p> Here's an example where I've pulled from:
-            and chosen the "hot" endpoint: https://api.sampleapis.com/coffee/hot<br />
+          <p>
+            Here's an example where I've pulled from: and chosen the "hot" endpoint:
+            https://api.sampleapis.com/coffee/hot
+            <br />
             then we ran the following code:
           </p>
           <pre>
@@ -55,21 +51,23 @@ const Home: React.FC<Props> = () => {
             .then(resp =&gt; resp.json()) <br />
             .then(data =&gt; console.log(data[0].title)); <br />
           </pre>
+          <p>and randomly selected a coffee and we get the following json back:</p>
+          <pre>"Black Coffee"</pre>
+          <p>Don't believe me? Try it yourself....</p>
           <p>
-            and randomly selected a coffee and we get the following json back:
-          </p>
-          <pre>
-             "Black Coffee"
-          </pre>
-          <p>
-            Don't believe me? Try it yourself....
-          </p>
-          <p>or....Want to learn more? Try watching this video that will explain how to use this api and showcase the results
-            without any front end coding: <a href="https://www.youtube.com/watch?v=7MZ6yTzesgg">https://www.youtube.com/watch?v=7MZ6yTzesgg</a>
+            or....Want to learn more? Try watching this video that will explain how to use this api
+            and showcase the results without any front end coding:{" "}
+            <a
+              href="https://www.youtube.com/watch?v=7MZ6yTzesgg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Hackathon Secrets - Presenting without a front end
+            </a>
           </p>
         </div>
-      </div>
-      <div className="section">
+      </section>
+      <section className="section">
         <div className="section-header">
           <h3 className="section-title">
             Featured <abbr title="Application Program Interface">API</abbr>s
@@ -82,7 +80,7 @@ const Home: React.FC<Props> = () => {
               <APICard key={api.metaData.title} featured={api.metaData.featured} api={api} />
             ))}
         </div>
-      </div>
+      </section>
     </section>
   );
 };

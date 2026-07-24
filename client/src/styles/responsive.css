@@ -1,0 +1,49 @@
+/* Responsive behavior driven by container queries (not viewport media queries).
+   Everything here queries the `viewport` container (defined on <body> in
+   base.css) so the layout changes stay coordinated — the root grid collapse
+   and the hero spacing change at the same breakpoint, with no dead band. */
+
+@container viewport (max-width: 768px) {
+  /* Shrink the hero in step with the layout change (no longer a huge gap). */
+  .page-header {
+    padding: 8rem 0 1.5rem;
+  }
+
+  .page-header__title {
+    font-size: var(--font-size-display-4);
+  }
+
+  .page-header__desc {
+    font-size: var(--font-size-heading-3);
+  }
+}
+
+@container viewport (max-width: 640px) {
+  .main-header {
+    padding: 0.75rem 1rem;
+  }
+
+  .full-screen-nav ul a {
+    padding: 3rem;
+    font-size: var(--font-size-text-2);
+  }
+}
+
+@container viewport (max-width: 480px) {
+  .page-header {
+    padding: 6rem 0 1rem;
+  }
+
+  .page-header__title {
+    font-size: var(--font-size-display-6);
+  }
+
+  .page-header__desc {
+    font-size: var(--font-size-heading-4);
+  }
+
+  /* Keep the expanding search field from overflowing a narrow toolbar. */
+  .api-search__inner input:focus {
+    width: 140px;
+  }
+}

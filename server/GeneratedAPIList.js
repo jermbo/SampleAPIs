@@ -242,19 +242,6 @@ module.exports = [
     endpoints: ["recipes"],
   },
   {
-    name: "rickandmorty",
-    link: "rickandmorty",
-    metaData: {
-      title: "Rick And Morty",
-      longDesc:
-        "Get all the Rick-iest Episodes, Locations and Characters from a copy of the https://rickandmortyapi.com data. That's the way Rick would have done it!",
-      desc: "API for all current Rick & Morty episodes, locations and characters",
-      featured: false,
-      categories: ["cartoon", "tv", "entertainment"],
-    },
-    endpoints: ["characters", "episodes", "locations"],
-  },
-  {
     name: "simpsons",
     link: "simpsons",
     metaData: {
@@ -338,17 +325,5 @@ module.exports = [
       categories: ["funny"],
     },
     endpoints: ["goodJokes"],
-  },  
-  {
-    name: "bitcoin",
-    link: "bitcoin",
-    metaData: {
-      title: "Bitcoin (historical data)",
-      longDesc: "You've wanted it and now we got it. Going back from January 2022 to August 2010",
-      desc: "Bitcoin Historical Data from August 2010 to January 2022",
-      featured: false,
-      categories: ["crypto","prices"],
-    },
-    endpoints: ["historical_prices"],
   },
 ];
