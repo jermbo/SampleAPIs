@@ -38,6 +38,10 @@ User code executes inside an iframe with `sandbox="allow-scripts"` and **without
 
 A run that signals completion keeps the sandbox alive until the 5-second timeout so un-awaited promise output still streams in; a run that never returns is reported as a probable infinite loop and torn down.
 
+## The output pane and hosts
+
+The output pane is tabbed: **Output** (the console, above) and **Network** — the [HTTP Inspector](./http-inspector.md), fed by a fetch wrapper in the same bootstrap. The component is also embeddable as a **challenge host**: optional props supply starter code (`defaultCode`), a custom persistence key (`storageKey`), snippet-tab hiding, and an `onRunEvent` stream of everything the run emits — which is how [Guided Challenges](./guided-challenges.md) grades a run without touching the sandbox.
+
 ## Key files
 
 - [client/src/components/Playground/Playground.tsx](../../client/src/components/Playground/Playground.tsx)
@@ -46,5 +50,7 @@ A run that signals completion keeps the sandbox alive until the 5-second timeout
 ## Related
 
 - [Why a Sandboxed Playground](../decisions/why-sandboxed-playground.md)
+- [HTTP Inspector](./http-inspector.md) — the Network tab
+- [Guided Challenges](./guided-challenges.md) — the challenge host built on this
 - [JSON Tree Viewer](./json-tree-viewer.md)
 - [API Details Page](./api-details-page.md)

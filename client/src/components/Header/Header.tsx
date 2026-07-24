@@ -1,17 +1,14 @@
-import React, { useContext } from "react";
 import { Link } from "@tanstack/react-router";
-import { GlobalContext } from "../../context/GlobalContext";
+import { useNavVisibility } from "../../hooks/useNavVisibility";
 import Nav from "../Nav/Nav";
 
-interface Props {}
+const navToggleLabel = (visible: boolean): string => {
+  if (visible) return "Close navigation menu";
+  return "Open navigation menu";
+};
 
-const Header: React.FC<Props> = () => {
-  const { navVisible, setNavVisible } = useContext(GlobalContext);
-
-  const toggleNav = () => {
-    document.body.classList.toggle("-nav-visible");
-    setNavVisible(!navVisible);
-  };
+const Header = () => {
+  const { navVisible, toggle } = useNavVisibility();
 
   return (
     <header className="main-header">
@@ -19,9 +16,9 @@ const Header: React.FC<Props> = () => {
         <Link to="/">Sample APIs</Link>
       </h1>
       <button
-        onClick={toggleNav}
+        onClick={toggle}
         className="burger-nav"
-        aria-label={navVisible ? "Close navigation menu" : "Open navigation menu"}
+        aria-label={navToggleLabel(navVisible)}
         aria-expanded={navVisible}
       >
         <span></span>

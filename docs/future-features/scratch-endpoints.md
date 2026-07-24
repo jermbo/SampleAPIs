@@ -13,7 +13,7 @@ status: proposed
 
 ## Problem
 
-Learners eventually want to practice against *their own* data shape — the app they're actually building — not Futurama characters. Today the only path is a pull request to add a permanent dataset ([Adding an Endpoint](../data/adding-an-endpoint.md)), which is the wrong tool for "I just need a fake `/todos` for this afternoon." Services like mockapi.io exist for this, but they require accounts.
+Learners eventually want to practice against _their own_ data shape — the app they're actually building — not Futurama characters. Today the only path is a pull request to add a permanent dataset ([Adding an Endpoint](../data/adding-an-endpoint.md)), which is the wrong tool for "I just need a fake `/todos` for this afternoon." Services like mockapi.io exist for this, but they require accounts.
 
 ## Proposal
 
@@ -43,7 +43,7 @@ GET /scratch/x7k2f9/todos?title=…   ← full jsonRouter behavior
 - **Resources**: memory-only storage with hard global caps; refuse creation when full rather than degrading the main service.
 - **Support surface**: expired-namespace confusion ("my endpoint vanished") needs a clear 410 body with an explanation.
 
-Given the risk profile, this warrants a [Decision page](../decisions/README.md) before any code — including seriously considering *not* building it and instead pointing users to dedicated mock-API services.
+Given the risk profile, this warrants a [Decision page](../decisions/README.md) before any code — including seriously considering _not_ building it and instead pointing users to dedicated mock-API services.
 
 ## Open questions
 
@@ -59,6 +59,7 @@ Given the risk profile, this warrants a [Decision page](../decisions/README.md) 
 
 ## Related
 
+- **Planning:** [Implementation plan](./plans/scratch-endpoints-implementation.md) · [Decision log](./plans/scratch-endpoints-decisions.md)
 - [Adding an Endpoint](../data/adding-an-endpoint.md) — the permanent-dataset path this complements
 - [Rate Limiting](../api/rate-limiting.md)
 - [Decisions](../decisions/README.md) — where the build/no-build call should be recorded

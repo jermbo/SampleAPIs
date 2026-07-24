@@ -16,16 +16,18 @@ Documentation for [SampleAPIs](https://sampleapis.com) — a free, no-auth playg
 
 ## Sections
 
-| Section | What it covers |
-| --- | --- |
-| [Architecture](./architecture/README.md) | The two apps, the tech stack, and how a request flows |
-| [API Surface](./api/README.md) | REST conventions, queries, CRUD, rate limits, errors, service routes |
-| [Endpoint Data](./data/README.md) | The JSON datasets — format, registry, resets, custom endpoints |
-| [Client Features](./features/README.md) | Routing, state, the Playground, styling |
-| [Operations](./operations/README.md) | Local dev, Docker, deployment, testing |
-| [Contributing](./contributing/README.md) | Setup, code style, pull request flow |
-| [Decisions](./decisions/README.md) | Why it's built this way — trade-offs and revisit triggers |
-| [Future Features](./future-features/README.md) | Proposed features under consideration, one evaluable proposal per page |
+| Section                                                     | What it covers                                                         |
+| ----------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [Architecture](./architecture/README.md)                    | The two apps, the tech stack, and how a request flows                  |
+| [API Surface](./api/README.md)                              | REST conventions, queries, CRUD, rate limits, errors, service routes   |
+| [Endpoint Data](./data/README.md)                           | The JSON datasets — format, registry, resets, custom endpoints         |
+| [Client Features](./features/README.md)                     | Routing, state, the Playground, styling                                |
+| [Operations](./operations/README.md)                        | Local dev, Docker, deployment, testing                                 |
+| [Contributing](./contributing/README.md)                    | Setup, code style, pull request flow                                   |
+| [Decisions](./decisions/README.md)                          | Why it's built this way — trade-offs and revisit triggers              |
+| [Future Features](./future-features/README.md)              | Proposed features under consideration, one evaluable proposal per page |
+| [Implementation Roadmap](./future-features/plans/README.md) | Per-feature implementation plans and decision logs, with review status |
+| [Glossary](./glossary.md)                                   | Shared vocabulary — project terms defined once                         |
 
 ## Page conventions
 

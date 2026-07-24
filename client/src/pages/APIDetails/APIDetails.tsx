@@ -1,66 +1,41 @@
-import React, { Suspense, lazy, useMemo, useState } from "react";
+import { Suspense, lazy, useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "@tanstack/react-router";
 import APICategories from "../../components/APICategories/APICategories";
 import APIEndpoints from "../../components/Endpoints/Endpoints";
+import Explore from "../../components/Explore/Explore";
+import { DEFAULT_SNIPPET } from "../../components/Playground/snippets";
+import type { InjectedCode } from "../../components/Playground/types";
 import { useApiList } from "../../hooks/useApiList";
-import { URLS } from "../../utils/Config";
+import { buildEndpointUrl, defaultEndpoint, findApiByName } from "../../utils/apiEndpoints";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ApiDetailsLoading from "./ApiDetailsLoading";
+import ApiDetailsError from "./ApiDetailsError";
+import ApiNotFound from "./ApiNotFound";
+import ApiLearnBanners from "./ApiLearnBanners";
 import "./APIDetails.css";
 
-// The Playground pulls in CodeMirror, which is a heavy chunk. Loading it lazily
-// keeps it out of the initial bundle for this route until it's actually rendered.
 const Playground = lazy(() => import("../../components/Playground/Playground"));
 
-const APIDetails: React.FC = () => {
+const APIDetails = () => {
   const { id } = useParams({ from: "/api-list/$id" });
   const { data: apiList = [], isLoading, isError } = useApiList();
+  const api = useMemo(() => findApiByName(apiList, id), [apiList, id]);
   const [selectedEndpoint, setSelectedEndpoint] = useState("");
+  const [injectedCode, setInjectedCode] = useState<InjectedCode | null>(null);
 
-  const singleAPI = useMemo(() => apiList.find((a) => a.name === id), [apiList, id]);
+  useEffect(() => {
+    if (api) setSelectedEndpoint(defaultEndpoint(api));
+  }, [api]);
 
-  const activeEndpoint = selectedEndpoint || singleAPI?.endpoints[0] || "";
-  const endpointUrl = singleAPI?.link
-    ? `${URLS.API_LINK}/${singleAPI.link}/${activeEndpoint}`
-    : "";
+  const sendToPlayground = (composedUrl: string) =>
+    setInjectedCode({ code: DEFAULT_SNIPPET.build(composedUrl), nonce: Date.now() });
 
-  if (isLoading) {
-    return (
-      <section className="page -api-details">
-        <header className="page-header">
-          <p role="status">Loading…</p>
-        </header>
-      </section>
-    );
-  }
+  if (isLoading) return <ApiDetailsLoading />;
+  if (isError) return <ApiDetailsError />;
+  if (!api?.metaData) return <ApiNotFound id={id} />;
 
-  if (isError) {
-    return (
-      <section className="page -api-details">
-        <h2 className="page-header__title">Something went wrong</h2>
-        <p className="page-header__desc">
-          We couldn&rsquo;t load the API list. Please try again in a moment.
-        </p>
-        <Link className="btn" to="/api-list">
-          Back to List
-        </Link>
-      </section>
-    );
-  }
-
-  if (!singleAPI?.metaData) {
-    return (
-      <section className="page -api-details">
-        <h2 className="page-header__title">API not found</h2>
-        <p className="page-header__desc">
-          There is no API matching &ldquo;{id}&rdquo;.
-        </p>
-        <Link className="btn" to="/api-list">
-          Back to List
-        </Link>
-      </section>
-    );
-  }
+  const endpointUrl = buildEndpointUrl(api, selectedEndpoint);
 
   return (
     <section className="page -api-details">
@@ -68,9 +43,9 @@ const APIDetails: React.FC = () => {
         <Link className="btn" to="/api-list">
           Back to List
         </Link>
-        <h2 className="page-header__title">{singleAPI.metaData.title}</h2>
-        <APICategories categories={singleAPI.metaData.categories} />
-        <p className="page-header__desc">{singleAPI.metaData.longDesc}</p>
+        <h2 className="page-header__title">{api.metaData.title}</h2>
+        <APICategories categories={api.metaData.categories} />
+        <p className="page-header__desc">{api.metaData.longDesc}</p>
         <p>
           Endpoint:
           <a className="link" href={endpointUrl} target="_blank" rel="noreferrer">
@@ -78,15 +53,26 @@ const APIDetails: React.FC = () => {
             <FontAwesomeIcon icon={faLink} />
           </a>
         </p>
+        <ApiLearnBanners api={api} />
       </header>
       <div className="section">
         <div className="section-header">
           <h3 className="section-title">All other available endpoints</h3>
-          <APIEndpoints endpoints={singleAPI.endpoints} onEndpointSelect={setSelectedEndpoint} />
+          <APIEndpoints
+            endpoints={api.endpoints}
+            selected={selectedEndpoint}
+            onSelect={setSelectedEndpoint}
+          />
         </div>
         <div className="section-body">
+          <Explore
+            key={endpointUrl}
+            url={endpointUrl}
+            endpoint={selectedEndpoint}
+            onSendToPlayground={sendToPlayground}
+          />
           <Suspense fallback={<p role="status">Loading playground…</p>}>
-            <Playground url={endpointUrl} />
+            <Playground url={endpointUrl} injectedCode={injectedCode} />
           </Suspense>
         </div>
       </div>

@@ -63,6 +63,7 @@
   /* Font families */
   --font-family-display: "Montserrat Alternates";
   --font-family-text: "Roboto";
+  --font-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 
   /* Font weights */
   --font-weight-thin: 200;

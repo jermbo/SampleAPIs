@@ -2,14 +2,16 @@
 title: Shareable Playground Links
 description: Encode the Playground buffer into the URL so an exact exercise can be shared with a link
 audience: [developer, architect]
-status: proposed
+status: rejected
 ---
 
 [Wiki Home](../README.md) › [Future Features](./README.md)
 
 # Shareable Playground Links
 
-**Status: proposed.** Medium impact alone, small effort — and it multiplies the classroom value of [Guided Challenges](./guided-challenges.md).
+**Status: rejected (2026-07-11).** Not pursuing — playground persistence will use IndexedDB client-side instead ([TypeScript Playground](./typescript-playground.md) decision D6). Page kept for historical context.
+
+~~**Status: proposed.** Medium impact alone, small effort — and it multiplies the classroom value of [Guided Challenges](./guided-challenges.md).~~
 
 ## Problem
 
@@ -45,6 +47,7 @@ Opening such a link loads the encoded code into the editor instead of the stored
 
 ## Related
 
+- **Planning:** [Implementation plan](./plans/shareable-playground-links-implementation.md) · [Decision log](./plans/shareable-playground-links-decisions.md)
 - [Playground](../features/playground.md)
 - [Guided Challenges](./guided-challenges.md)
 - [Why a Sandboxed Playground](../decisions/why-sandboxed-playground.md) — the trust model shared links rely on

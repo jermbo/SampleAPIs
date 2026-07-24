@@ -46,5 +46,6 @@ These are **copy-only**: a syntax-highlighted block with a copy button, clearly 
 
 ## Related
 
+- **Planning:** [Implementation plan](./plans/multi-language-snippets-implementation.md) · [Decision log](./plans/multi-language-snippets-decisions.md)
 - [Playground](../features/playground.md)
 - [REST Conventions](../api/rest-conventions.md)

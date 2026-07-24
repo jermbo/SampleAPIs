@@ -1,25 +1,17 @@
-import React, { Dispatch, SetStateAction, useState } from "react";
+import { endpointClassName } from "./endpointClassName";
 
 interface Props {
   endpoints: string[];
-  onEndpointSelect: Dispatch<SetStateAction<string>>;
+  selected: string;
+  onSelect: (endpoint: string) => void;
 }
 
-const APIEndpoints: React.FC<Props> = ({ endpoints, onEndpointSelect }) => {
-  // Default to the first endpoint so the initial selection matches what the
-  // parent (APIDetails) pre-selects for the Playground.
-  const [selected, setSelected] = useState(endpoints[0] ?? "");
-
-  const selectEndpoint = (endpoint: string) => {
-    setSelected(endpoint);
-    onEndpointSelect(endpoint);
-  };
-
+const APIEndpoints = ({ endpoints, selected, onSelect }: Props) => {
   return (
     <ul className="api-endpoints">
       {endpoints.map((endpoint) => (
-        <li key={endpoint} className={`api-endpoint ${selected === endpoint ? "-selected" : ""}`}>
-          <button onClick={() => selectEndpoint(endpoint)} className="btn">
+        <li key={endpoint} className={endpointClassName(selected === endpoint)}>
+          <button onClick={() => onSelect(endpoint)} className="btn">
             {endpoint}
           </button>
         </li>

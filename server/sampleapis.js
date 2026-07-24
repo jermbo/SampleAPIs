@@ -45,6 +45,17 @@ app.use(
   cors({
     origin: "*",
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    // Response headers browser JS is allowed to read — the Playground's network
+    // inspector and any external consumer depend on these being exposed.
+    exposedHeaders: [
+      "X-Total-Count",
+      "Link",
+      "Location",
+      "RateLimit-Limit",
+      "RateLimit-Remaining",
+      "RateLimit-Reset",
+      "Retry-After",
+    ],
   })
 );
 

@@ -1,23 +1,14 @@
-import React, { useEffect, useState } from "react";
+import { useMemo } from "react";
 import "./Home.css";
 
 import APICard from "../../components/APICard/APICard";
 import { useApiList } from "../../hooks/useApiList";
-import { APIData } from "../../utils/Interfaces";
+import { shuffleFeaturedApis } from "../../utils/featuredApis";
 import PageHeaderActions from "../../components/PageHeaderActions/PageHeaderActions";
 
-interface Props {}
-
-const Home: React.FC<Props> = () => {
+const Home = () => {
   const { data: apiList = [] } = useApiList();
-  const [featuredAPIs, setFeatureAPIs] = useState([] as APIData[]);
-
-  useEffect(() => {
-    const featured = apiList
-      .filter((api) => api.metaData.featured)
-      .sort(() => (Math.random() > 0.5 ? 1 : -1));
-    setFeatureAPIs(featured);
-  }, [apiList]);
+  const featuredAPIs = useMemo(() => shuffleFeaturedApis(apiList), [apiList]);
 
   return (
     <section className="page-home">
@@ -75,10 +66,9 @@ const Home: React.FC<Props> = () => {
         </div>
 
         <div className="cards-grid">
-          {featuredAPIs &&
-            featuredAPIs.map((api) => (
-              <APICard key={api.metaData.title} featured={api.metaData.featured} api={api} />
-            ))}
+          {featuredAPIs.map((api) => (
+            <APICard key={api.metaData.title} api={api} />
+          ))}
         </div>
       </section>
     </section>

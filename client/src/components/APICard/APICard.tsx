@@ -1,18 +1,23 @@
 import { faLink, faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 import { Link } from "@tanstack/react-router";
 import { APIData } from "../../utils/Interfaces";
 import APICategories from "../APICategories/APICategories";
 
+const featuredCardClassName = (featured: boolean): string => {
+  if (featured) return "api-card -featured";
+  return "api-card";
+};
+
 interface Props {
   api: APIData;
-  featured?: boolean;
 }
 
-const APICard: React.FC<Props> = ({ api, featured = false }) => {
+const APICard = ({ api }: Props) => {
+  const featured = api.metaData.featured;
+
   return (
-    <article className={`api-card ${featured ? "-featured" : ""}`}>
+    <article className={featuredCardClassName(featured)}>
       <div className="api-card__inner">
         <APICategories categories={api.metaData.categories} />
         <header className="api-card__header">

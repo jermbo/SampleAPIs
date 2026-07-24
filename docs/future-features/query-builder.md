@@ -21,7 +21,7 @@ A panel on the API details page where the visitor composes a query by manipulati
 
 - **Field picker** populated from a sample response's actual keys (including nested paths), so choices are real, not typed blind
 - **Filter rows** (field + value), **sort** control, and **pagination** controls mapping one-to-one onto the documented query parameters
-- A **live URL bar** that updates as controls change — the URL *is* the lesson
+- A **live URL bar** that updates as controls change — the URL _is_ the lesson
 - A **results preview** (fetch on change, debounced) rendered with the existing [JSON Tree Viewer](../features/json-tree-viewer.md)
 - A **"Send to Playground"** button that loads a fetch snippet with the composed URL, bridging from clicking to coding
 
@@ -47,6 +47,7 @@ A panel on the API details page where the visitor composes a query by manipulati
 
 ## Related
 
+- **Planning:** [Implementation plan](./plans/query-builder-implementation.md) · [Decision log](./plans/query-builder-decisions.md)
 - [Querying & Filtering](../api/querying-and-filtering.md)
 - [Sorting & Pagination](../api/sorting-and-pagination.md)
 - [Response Shape Viewer](./response-shape-viewer.md) — shares field derivation
