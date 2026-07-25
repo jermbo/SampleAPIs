@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./JsonTree.css";
 
 interface Props {
   value: unknown;
@@ -30,6 +31,11 @@ const primitiveClass = (v: unknown) => {
 const renderPrimitive = (v: unknown) => {
   if (typeof v === "string") return `"${v}"`;
   return String(v);
+};
+
+const treeCaret = (open: boolean): string => {
+  if (open) return "▾";
+  return "▸";
 };
 
 /** Recursive, collapsible view of a JSON-safe value posted back from the sandbox. */
@@ -68,7 +74,7 @@ const JsonTree: React.FC<Props> = ({ value, label, depth = 0 }) => {
           }
         }}
       >
-        <span className="jsontree__caret">{open ? "▾" : "▸"}</span>
+        <span className="jsontree__caret">{treeCaret(open)}</span>
         {label !== undefined && <span className="jsontree__key">{label}:</span>}
         <span className="jsontree__bracket">{brackets[0]}</span>
         {!open && <span className="jsontree__summary"> {summary} </span>}

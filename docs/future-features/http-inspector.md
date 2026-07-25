@@ -2,14 +2,14 @@
 title: HTTP Inspector
 description: A mini Network tab beside the Playground console showing each request's method, status, headers, and timing
 audience: [developer, architect]
-status: proposed
+status: accepted
 ---
 
 [Wiki Home](../README.md) › [Future Features](./README.md)
 
 # HTTP Inspector
 
-**Status: proposed.** High learning impact, small effort. Recommended first.
+**Status: accepted — v1 built (2026-07-10).** Live as the Playground's Network tab; documented in [HTTP Inspector](../features/http-inspector.md). This page is kept as the original proposal.
 
 ## Problem
 
@@ -44,7 +44,7 @@ The panel renders as a second tab next to **Output** in the Playground's output 
 
 ## Effort & risk
 
-**Small** — one bootstrap addition, one panel component, some CSS. Risks are minor: the wrapper must not swallow network errors (report them as a failed-request row *and* rethrow), and header access is limited to CORS-exposed headers, so the server may need an `Access-Control-Expose-Headers` tweak for rate-limit headers to be visible.
+**Small** — one bootstrap addition, one panel component, some CSS. Risks are minor: the wrapper must not swallow network errors (report them as a failed-request row _and_ rethrow), and header access is limited to CORS-exposed headers, so the server may need an `Access-Control-Expose-Headers` tweak for rate-limit headers to be visible.
 
 ## Open questions
 
@@ -57,6 +57,7 @@ The panel renders as a second tab next to **Output** in the Playground's output 
 
 ## Related
 
+- **Planning:** [Implementation plan](./plans/http-inspector-implementation.md) · [Decision log](./plans/http-inspector-decisions.md)
 - [Playground](../features/playground.md)
 - [Rate Limiting](../api/rate-limiting.md)
 - [Error Practice Routes](./error-practice-routes.md) — pairs naturally; the inspector makes deliberate errors visible

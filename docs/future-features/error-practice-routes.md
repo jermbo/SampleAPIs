@@ -19,12 +19,12 @@ Real-world API work is mostly about what goes wrong — timeouts, 500s, flaky ne
 
 A small set of service routes (httpbin is the precedent), documented alongside the existing [Service Routes](../api/service-routes.md):
 
-| Route | Behavior | Teaches |
-| --- | --- | --- |
-| `/service/delay/:seconds` | Responds after N seconds (capped, e.g. ≤ 10) | Timeouts, `AbortController`, loading states |
-| `/service/status/:code` | Returns that status with a matching JSON body | Status-code handling, error branching |
-| `/service/flaky` | Fails ~50% of requests with a 500 | Retry with backoff |
-| `/service/slow-drip` | Streams the body slowly | Progress, streaming reads |
+| Route                     | Behavior                                      | Teaches                                     |
+| ------------------------- | --------------------------------------------- | ------------------------------------------- |
+| `/service/delay/:seconds` | Responds after N seconds (capped, e.g. ≤ 10)  | Timeouts, `AbortController`, loading states |
+| `/service/status/:code`   | Returns that status with a matching JSON body | Status-code handling, error branching       |
+| `/service/flaky`          | Fails ~50% of requests with a 500             | Retry with backoff                          |
+| `/service/slow-drip`      | Streams the body slowly                       | Progress, streaming reads                   |
 
 Paired with **starter snippets** in the Playground ("retry with exponential backoff", "timeout with AbortController") so each route arrives with the exercise it exists for, and with [Guided Challenges](./guided-challenges.md) content once that ships.
 
@@ -51,6 +51,7 @@ Paired with **starter snippets** in the Playground ("retry with exponential back
 
 ## Related
 
+- **Planning:** [Implementation plan](./plans/error-practice-routes-implementation.md) · [Decision log](./plans/error-practice-routes-decisions.md)
 - [Service Routes](../api/service-routes.md)
 - [Error Responses](../api/error-responses.md)
 - [HTTP Inspector](./http-inspector.md) — makes the deliberate failures visible

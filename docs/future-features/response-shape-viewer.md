@@ -13,7 +13,7 @@ status: proposed
 
 ## Problem
 
-Before writing a line of code, a learner wants to know: *what fields do these records have, and what types are they?* Today the only way to find out is to fetch the endpoint and read raw JSON. That also gates the query syntax — you can't filter on `name.first` if you don't know the field exists.
+Before writing a line of code, a learner wants to know: _what fields do these records have, and what types are they?_ Today the only way to find out is to fetch the endpoint and read raw JSON. That also gates the query syntax — you can't filter on `name.first` if you don't know the field exists.
 
 ## Proposal
 
@@ -46,5 +46,6 @@ Derivation is a pure function over a sample (say, the first 50 records) — no s
 
 ## Related
 
+- **Planning:** [Implementation plan](./plans/response-shape-viewer-implementation.md) · [Decision log](./plans/response-shape-viewer-decisions.md)
 - [Query Builder](./query-builder.md) — shared field derivation
 - [Endpoint Data](../data/README.md) — dataset format and heterogeneity

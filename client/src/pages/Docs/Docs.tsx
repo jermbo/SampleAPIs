@@ -13,7 +13,7 @@ const Docs: React.FC<Props> = () => {
           A simple, no fuss, no mess, no auth playground for learning to play with APIs and call
           them without thinking of Authentication or permissions.
         </p>
-        <PageHeaderActions currentPage="docs" />
+        <PageHeaderActions />
       </header>
 
       <section className="section">

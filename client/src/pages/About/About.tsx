@@ -13,7 +13,7 @@ const About: React.FC<Props> = () => {
           <abbr title="REpresentational State Transfer">RESTful</abbr>{" "}
           <abbr title="The point of entry to an API">endpoints</abbr>.
         </p>
-        <PageHeaderActions currentPage="about" />
+        <PageHeaderActions />
       </header>
       <section className="section">
         <p>

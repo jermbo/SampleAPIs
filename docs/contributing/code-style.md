@@ -18,6 +18,7 @@ Match the code around you — the two apps have different idioms on purpose.
 
 ## Client (`client/`)
 
+- Module layout follows [CLEAR Principles](./clear-principles.md) — the `/learn` track index is the reference implementation
 - **TypeScript + function components** typed as `React.FC<Props>`, one folder per component (`Component/Component.tsx`); pages live in `pages/` with a matching route file in `routes/`
 - Server data goes through [TanStack Query hooks](../features/data-fetching-and-state.md), not contexts or effects
 - Linting is **oxlint** (`npm run lint`); an `.editorconfig` covers whitespace basics
@@ -29,5 +30,6 @@ Wiki pages follow the house format: YAML front matter, breadcrumb, one concept p
 
 ## Related
 
+- [CLEAR Principles](./clear-principles.md)
 - [Styling](../features/styling.md)
 - [Pull Request Flow](./pull-request-flow.md)

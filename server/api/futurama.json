@@ -5,7 +5,13 @@
       "longDesc": "If you are a Futurama fan, then this api is for you. Here you can find everything from Episodes to Characters to Trivia Questions, and even some of the Products featured on the show.",
       "desc": "An API with characters, episode listing, species, planets, and trivia questions.",
       "featured": true,
-      "categories": ["cartoon", "tv", "entertainment", "quiz", "inventory"],
+      "categories": [
+        "cartoon",
+        "tv",
+        "entertainment",
+        "quiz",
+        "inventory"
+      ],
       "examples": [
         {
           "hash": "ZEeybwX",
@@ -441,7 +447,9 @@
       "species": "Human",
       "homePlanet": "Earth",
       "occupation": "Mega-tycoon owner of Mom's Friendly Robot Company",
-      "sayings": ["Jam a bastard in it, you crap!"],
+      "sayings": [
+        "Jam a bastard in it, you crap!"
+      ],
       "id": 7
     },
     {
@@ -541,7 +549,9 @@
       "gender": "Male",
       "species": "Human",
       "occupation": "Janitor",
-      "sayings": ["I'm Scruffy. The janitor."],
+      "sayings": [
+        "I'm Scruffy. The janitor."
+      ],
       "id": 11
     },
     {
@@ -558,7 +568,9 @@
       "gender": "Male",
       "species": "Human",
       "occupation": "Co-owner of Awesome Express",
-      "sayings": ["What? You've never seen a genius's wiener before?"],
+      "sayings": [
+        "What? You've never seen a genius's wiener before?"
+      ],
       "id": 12
     },
     {
@@ -594,7 +606,9 @@
       "gender": "Male",
       "species": "Human",
       "occupation": "Co-owner of Awesome Express",
-      "sayings": ["I'm gonna take this and buy five shares of Amazon.com"],
+      "sayings": [
+        "I'm gonna take this and buy five shares of Amazon.com"
+      ],
       "id": 14
     },
     {
@@ -611,8 +625,25 @@
       "gender": "Female",
       "species": "Human",
       "occupation": "",
-      "sayings": ["All in favor of the Jamoka-Thunderclap? That would be me."],
+      "sayings": [
+        "All in favor of the Jamoka-Thunderclap? That would be me."
+      ],
       "id": 15
+    },
+    {
+      "name": {
+        "first": "jerm"
+      },
+      "images": {},
+      "gender": "male",
+      "species": "human",
+      "homePlanet": "earth",
+      "occupation": "somedayh",
+      "sayings": [
+        "herp a dirp a durp"
+      ],
+      "age": "3340",
+      "id": 16
     }
   ],
   "cast": [
@@ -1797,55 +1828,104 @@
     {
       "id": 1,
       "question": "What is Fry's first name?",
-      "possibleAnswers": ["Fred", "Philip", "Will", "John"],
+      "possibleAnswers": [
+        "Fred",
+        "Philip",
+        "Will",
+        "John"
+      ],
       "correctAnswer": "Philip"
     },
     {
       "id": 2,
       "question": "In 'Benders Big Score' what ailen species scam the earth?",
-      "possibleAnswers": ["Nibbloniens", "Omicrons", "Robots", "Nudest aliens", "Tentacals"],
+      "possibleAnswers": [
+        "Nibbloniens",
+        "Omicrons",
+        "Robots",
+        "Nudest aliens",
+        "Tentacals"
+      ],
       "correctAnswer": "Nudest aliens"
     },
     {
       "id": 3,
       "question": "What is benders middle and last name?",
-      "possibleAnswers": ["E Smithie", "Flam Flexo", "Lobster Squid", "Bending Rodriguez", "Steven martin"],
+      "possibleAnswers": [
+        "E Smithie",
+        "Flam Flexo",
+        "Lobster Squid",
+        "Bending Rodriguez",
+        "Steven martin"
+      ],
       "correctAnswer": "Bending Rodriguez"
     },
     {
       "id": 4,
       "question": "What is Ziodberg?",
-      "possibleAnswers": ["Lobster", "Alien", "Muntant", "Robot"],
+      "possibleAnswers": [
+        "Lobster",
+        "Alien",
+        "Muntant",
+        "Robot"
+      ],
       "correctAnswer": "Lobster"
     },
     {
       "id": 5,
       "question": "What was Fry\"s job in 1999?",
-      "possibleAnswers": ["Manager", "Bounty Hunter", "Delivery Boy", "Factory Worker", "Cook"],
+      "possibleAnswers": [
+        "Manager",
+        "Bounty Hunter",
+        "Delivery Boy",
+        "Factory Worker",
+        "Cook"
+      ],
       "correctAnswer": "Delivery Boy"
     },
     {
       "id": 6,
       "question": "How did Fry meet Bender in the first episode?",
-      "possibleAnswers": ["Bar", "Suicide Booth", "Street", "Shop", "Looking for jobs"],
+      "possibleAnswers": [
+        "Bar",
+        "Suicide Booth",
+        "Street",
+        "Shop",
+        "Looking for jobs"
+      ],
       "correctAnswer": "Suicide Booth"
     },
     {
       "id": 7,
       "question": "In 'The Cyber House Rules' how many orphans does Bender adopt?",
-      "possibleAnswers": ["8", "10", "12", "14"],
+      "possibleAnswers": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
       "correctAnswer": 12
     },
     {
       "id": 8,
       "question": "In 'The Why of Fry' what vehicle does Nibbler give to Fry to travel to the Infosphere?",
-      "possibleAnswers": ["Scooty-Puff Jr", "Zooty-Puff Jr", "Scoochy-Puff Jr", "Booty-Puff Jr"],
+      "possibleAnswers": [
+        "Scooty-Puff Jr",
+        "Zooty-Puff Jr",
+        "Scoochy-Puff Jr",
+        "Booty-Puff Jr"
+      ],
       "correctAnswer": "Scooty-Puff Jr"
     },
     {
       "id": 9,
       "question": "Hermes' wife, LaBarbara, was once married to who?",
-      "possibleAnswers": ["Trinidad Slim", "Barbados Slim", "Antigua Slim", "Grenada Slim"],
+      "possibleAnswers": [
+        "Trinidad Slim",
+        "Barbados Slim",
+        "Antigua Slim",
+        "Grenada Slim"
+      ],
       "correctAnswer": "Barbados Slim"
     },
     {
@@ -1862,19 +1942,36 @@
     {
       "id": 11,
       "question": "What was the name of Fry's mermaid girlfriend in 'The Deep South'?",
-      "possibleAnswers": ["Ariel", "Umbriel", "Azriel", "Meriel"],
+      "possibleAnswers": [
+        "Ariel",
+        "Umbriel",
+        "Azriel",
+        "Meriel"
+      ],
       "correctAnswer": "Umbriel"
     },
     {
       "id": 12,
       "question": "What was the PIN for Fry's ATM card, as revealed in 'A Fishful of Dollars'?",
-      "possibleAnswers": ["1077", "1150", "1089", "1126", "1244", "1999"],
+      "possibleAnswers": [
+        "1077",
+        "1150",
+        "1089",
+        "1126",
+        "1244",
+        "1999"
+      ],
       "correctAnswer": 1077
     },
     {
       "id": 13,
       "question": "In 'Hell is Other Robots' Bender turns to which religion to help overcome his addiction?",
-      "possibleAnswers": ["League of Sciencology", "Temple of Robotology", "Church of Roboism", "Order of Mechanology"],
+      "possibleAnswers": [
+        "League of Sciencology",
+        "Temple of Robotology",
+        "Church of Roboism",
+        "Order of Mechanology"
+      ],
       "correctAnswer": "Temple of Robotology"
     },
     {
@@ -1892,43 +1989,80 @@
     {
       "id": 15,
       "question": "In 'The Cryonic Woman' what was the name of the leader of the feral adolescents that challenges Fry at Deathrolling?",
-      "possibleAnswers": ["Butch", "Zed", "Spike", "Snake"],
+      "possibleAnswers": [
+        "Butch",
+        "Zed",
+        "Spike",
+        "Snake"
+      ],
       "correctAnswer": "Zed"
     },
     {
       "id": 16,
       "question": "What rank does Kif hold in the DOOP?",
-      "possibleAnswers": ["Sergeant", "Captain", "Lieutenant", "Major"],
+      "possibleAnswers": [
+        "Sergeant",
+        "Captain",
+        "Lieutenant",
+        "Major"
+      ],
       "correctAnswer": "Lieutenant"
     },
     {
       "id": 17,
       "question": "Who are the two recurring cops, often seen around New New York?",
-      "possibleAnswers": ["Jonesy and ISP", "Smitty and URL", "Brady and Dotcom", "Harry and Capslock"],
+      "possibleAnswers": [
+        "Jonesy and ISP",
+        "Smitty and URL",
+        "Brady and Dotcom",
+        "Harry and Capslock"
+      ],
       "correctAnswer": "Brady and Dotcom"
     },
     {
       "id": 18,
       "question": "In 'Insane in the Mainframe', who is Fry's room mate at the Asylum for Criminally Insane Robots before Roberto is moved in?",
-      "possibleAnswers": ["Joey Mousepad", "Tinny Tim", "Hedonismbot", "Malfunctioning Eddie"],
+      "possibleAnswers": [
+        "Joey Mousepad",
+        "Tinny Tim",
+        "Hedonismbot",
+        "Malfunctioning Eddie"
+      ],
       "correctAnswer": "Malfunctioning Eddie"
     },
     {
       "id": 19,
       "question": "Which product successfully uses a dream advert to market itself to Fry?",
-      "possibleAnswers": ["Slurm", "Bachelor Chowm", "Lightspeed Briefs", "Mom's Robot Oil"],
+      "possibleAnswers": [
+        "Slurm",
+        "Bachelor Chowm",
+        "Lightspeed Briefs",
+        "Mom's Robot Oil"
+      ],
       "correctAnswer": "Lightspeed Briefs"
     },
     {
       "id": 20,
       "question": "What was Fry's job in 1999?",
-      "possibleAnswers": ["Pizza Delivery Boy", "Newspaper Delivery Boy", "Milkman", "Shoe Shine Boy", "Postman"],
+      "possibleAnswers": [
+        "Pizza Delivery Boy",
+        "Newspaper Delivery Boy",
+        "Milkman",
+        "Shoe Shine Boy",
+        "Postman"
+      ],
       "correctAnswer": "Pizza Delivery Boy"
     },
     {
       "id": 21,
       "question": "What company does Dr. Farnsworth run?",
-      "possibleAnswers": ["Space Express", "FexEd", "Earth Express", "Planet Express", "Federal Express"],
+      "possibleAnswers": [
+        "Space Express",
+        "FexEd",
+        "Earth Express",
+        "Planet Express",
+        "Federal Express"
+      ],
       "correctAnswer": "Planet Express"
     },
     {
@@ -1945,31 +2079,57 @@
     {
       "id": 23,
       "question": "What are the pest animals in New New York?",
-      "possibleAnswers": ["Rats", "Mutated Gators", "Owls", "Pigeons", "Omicrons"],
+      "possibleAnswers": [
+        "Rats",
+        "Mutated Gators",
+        "Owls",
+        "Pigeons",
+        "Omicrons"
+      ],
       "correctAnswer": "Owls"
     },
     {
       "id": 24,
       "question": "In Love's Labours In Space which club did Leela visit to find a partner?",
-      "possibleAnswers": ["Club Extravaganza", "Bubble Bar", "Hip Joint", "O'Gorgnaxs"],
+      "possibleAnswers": [
+        "Club Extravaganza",
+        "Bubble Bar",
+        "Hip Joint",
+        "O'Gorgnaxs"
+      ],
       "correctAnswer": "Hip Joint"
     },
     {
       "id": 25,
       "question": "In Fear of Bot Planet what fake religious robot holiday did Bender make up?",
-      "possibleAnswers": ["Bot-Mitvah", "Robanza", "Robonukah", "Robotisam"],
+      "possibleAnswers": [
+        "Bot-Mitvah",
+        "Robanza",
+        "Robonukah",
+        "Robotisam"
+      ],
       "correctAnswer": "Robonukah"
     },
     {
       "id": 26,
       "question": "In Fry and the Slurm Factory what did Fry and Bender use to look in the Slurm cans?",
-      "possibleAnswers": ["X-Ray", "Z-Ray", "Lookamatic 5000", "F-Ray"],
+      "possibleAnswers": [
+        "X-Ray",
+        "Z-Ray",
+        "Lookamatic 5000",
+        "F-Ray"
+      ],
       "correctAnswer": "Lookamatic 5000"
     },
     {
       "id": 27,
       "question": "What was the name of Fry's dog?",
-      "possibleAnswers": ["Buster", "I.C. Wiener", "Robo-Dog", "Seymour Asses"],
+      "possibleAnswers": [
+        "Buster",
+        "I.C. Wiener",
+        "Robo-Dog",
+        "Seymour Asses"
+      ],
       "correctAnswer": "Seymour Asses"
     },
     {
