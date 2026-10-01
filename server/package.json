@@ -27,7 +27,7 @@
     "express": "5.2.1",
     "express-rate-limit": "8.5.2",
     "helmet": "8.2.0",
-    "morgan": "1.11.0",
+    "morgan": "1.12.1",
     "pug": "3.0.4"
   },
   "devDependencies": {
