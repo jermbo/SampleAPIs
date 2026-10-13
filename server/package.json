@@ -31,7 +31,7 @@
     "pug": "3.0.4"
   },
   "devDependencies": {
-    "concurrently": "10.0.3",
+    "concurrently": "10.0.6",
     "jest": "30.4.2",
     "nodemon": "3.1.14"
   }
