@@ -27,12 +27,15 @@
     "express": "5.2.1",
     "express-rate-limit": "8.5.2",
     "helmet": "8.2.0",
-    "morgan": "1.11.0",
+    "morgan": "1.12.1",
     "pug": "3.0.4"
   },
   "devDependencies": {
-    "concurrently": "10.0.3",
-    "jest": "30.4.2",
+    "concurrently": "10.0.6",
+    "jest": "30.5.2",
     "nodemon": "3.1.14"
+  },
+  "overrides": {
+    "minimatch": "11.0.3"
   }
 }
